@@ -38,6 +38,7 @@ data engineering, database systems and technologies. Various topics of interests
 - [Web Application using Mongodb](./web-mongodb.md)
 - [MongoDB Atlas](./mongodb-atlas.md)
 - [MongoDB Compass](./mongodb-compass.md)
+- [Download: MongoDB Compass](https://www.mongodb.com/try/download/compass)
 - [w3schools: MongoDB Tutorial](https://www.w3schools.com/mongodb/)
 - [MongoDB - Quick Guide](https://www.tutorialspoint.com/mongodb/mongodb_quick_guide.htm)
 - [Github: mongodb](https://github.com/mongodb)

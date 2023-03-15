@@ -27,6 +27,11 @@ Some of the key features of MongoDB Compass include:
 
 Overall, MongoDB Compass is a powerful tool that makes it easier for developers and administrators to work with MongoDB databases. Its intuitive interface and powerful features can save time and increase productivity, especially for those who are not comfortable using the command line.
 
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
 
 

@@ -24,7 +24,7 @@ data engineering, database systems and technologies. Various topics of interests
 - [Udemy: Beginner VS Code](https://www.udemy.com/course/beginner-vs-code/)
 
 ## MongoDB
-- [Learn MongoDB]()
+- [Learn MongoDB](./learn-mongodb.md)
 - [Wikipedia: MongoDB](https://en.wikipedia.org/wiki/MongoDB)
 - [w3schools: MongoDB Tutorial](https://www.w3schools.com/mongodb/)
 - [MongoDB - Quick Guide](https://www.tutorialspoint.com/mongodb/mongodb_quick_guide.htm)

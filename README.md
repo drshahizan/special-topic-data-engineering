@@ -41,7 +41,7 @@ data engineering, database systems and technologies. Various topics of interests
 - [Youtube: Complete MongoDB](https://www.youtube.com/watch?v=ExcRbA7fy_A&list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA)
 - [Youtube: Belajar MongoDB](https://www.youtube.com/watch?v=JXXUBiJGu94&list=PL-CtdCApEFH-eFFdPeS5e16o3THdmvxvz)
 
-## Web Application
+# Web Application
 - [Python Dash Web Application Connected to Live Database - MongoDB](https://www.youtube.com/watch?v=DWqEVpOfYxE)
 - [Web Data Dashboard with Plotly express and Flask Python and JavaScript](https://youtu.be/B97qWOUvlnU)
 - [Flask Course - Python Web Application Development](https://youtu.be/Qr4QMBUPxWo)
@@ -50,7 +50,7 @@ data engineering, database systems and technologies. Various topics of interests
 <img src="https://github.com/drshahizan/python-web/blob/main/image/Top-python-web-frameworks.jpg"  height="400" />
 </p>
 
-# Python web development
+## Python web development
 - [Python Web Development Libraries - Quick Guide](https://www.tutorialspoint.com/python_web_development_libraries/python_web_development_libraries_quick_guide.htm)
 - [Python Web Framework — A Detailed List of Web Frameworks in Python](https://towardsdatascience.com/python-web-framework-a-detailed-list-of-web-frameworks-in-python-1916d3c6222d)
 - [13 Project Ideas for Intermediate Python Developers](https://realpython.com/intermediate-python-project-ideas/)

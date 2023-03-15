@@ -57,7 +57,7 @@ data engineering, database systems and technologies. Various topics of interests
 - [Top 11 Python Frameworks for Web Development In 2023](https://www.netsolutions.com/insights/top-10-python-frameworks-for-web-development-in-2019/)
 - [Github: Real Python - materials](https://github.com/realpython/materials)
 
-#### PyScript
+### PyScript
 - [PyScript - GitHub](https://github.com/pyscript/pyscript)
 - [Run Python Visualizations on the Web Using PyScript](https://www.makeuseof.com/pyscript-python-visualizations-web/)
 - [Run Python in Your HTML](https://pyscript.net/)
@@ -68,7 +68,7 @@ data engineering, database systems and technologies. Various topics of interests
 - [How to Embed Interactive Python Visualizations on Your Website with Python and Matplotlib](https://www.freecodecamp.org/news/how-to-embed-interactive-python-visualizations-on-your-website-with-python-and-matplotlib/)
 - [How to Easily Run Python Visualizations On a Web Browser with PyScript](https://youtu.be/QYIr7A5ueXA)
 
-#### Django
+### Django
 - [Meet Django](https://www.djangoproject.com/)
 - [Github: django](https://github.com/django/django)
 - [Django Tutorial: w3schools](https://www.w3schools.com/django/index.php)
@@ -81,21 +81,21 @@ data engineering, database systems and technologies. Various topics of interests
 - [Best Python Django Tutorial For Beginners – With Project Structure](https://data-flair.training/blogs/python-django-tutorial/)
 - [Django Dashboards — Open Source and Free](https://medium.com/@appseed.us/django-dashboards-open-source-and-free-projects-1d8e64919e6d)
 
-#### Python TurboGears 
+### Python TurboGears 
 - [Python TurboGears: The Web Framework that scales with you](https://turbogears.org/)
 - [The TurboGears Documentation](https://turbogears.org/documentation.html)
 - [Wikipedia: TurboGears](https://en.wikipedia.org/wiki/TurboGears)
 - [Github: TurboGears](https://github.com/TurboGears/tg2)
 - [Turbogears - Quick Guide](https://www.tutorialspoint.com/turbogears/turbogears_quick_guide.htm)
 
-#### web2py
+### web2py
 - [web2py Web Framework](http://www.web2py.com/)
 - [web2py Examples](http://www.web2py.com/init/default/examples)
 - [Book: Complete Reference Manual, 6th Edition (pre-release). written by Massimo Di Pierro in English](http://www.web2py.com/book)
 - [Wikipedia: web2py]([https://en.wikipedia.org/wiki/TurboGears](https://en.wikipedia.org/wiki/Web2py))
 - [Github:web2py](https://github.com/web2py/web2py)
 
-#### Power BI
+### Power BI
 - [Microsoft Power BI and Python: Two Superpowers Combined](https://realpython.com/power-bi-python/)
 
 ### Lab

@@ -45,3 +45,11 @@ data engineering, database systems and technologies. Various topics of interests
 - [Python Dash Web Application Connected to Live Database - MongoDB](https://www.youtube.com/watch?v=DWqEVpOfYxE)
 - [Web Data Dashboard with Plotly express and Flask Python and JavaScript](https://youtu.be/B97qWOUvlnU)
 - [Flask Course - Python Web Application Development](https://youtu.be/Qr4QMBUPxWo)
+
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)

@@ -19,3 +19,11 @@ Learning MongoDB involves several steps, including understanding its basic conce
 7. Take courses and tutorials: There are several online courses and tutorials available that can help you learn MongoDB. These resources can be a great way to get started and learn the basics of MongoDB quickly.
 
 Overall, learning MongoDB requires a combination of practice and study. By following these steps and dedicating time to learning MongoDB, you can become proficient in this powerful database technology.
+
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)

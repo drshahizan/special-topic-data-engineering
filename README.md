@@ -92,7 +92,7 @@ data engineering, database systems and technologies. Various topics of interests
 - [web2py Web Framework](http://www.web2py.com/)
 - [web2py Examples](http://www.web2py.com/init/default/examples)
 - [Book: Complete Reference Manual, 6th Edition (pre-release). written by Massimo Di Pierro in English](http://www.web2py.com/book)
-- [Wikipedia: web2py]([https://en.wikipedia.org/wiki/TurboGears](https://en.wikipedia.org/wiki/Web2py))
+- [Wikipedia: web2py](https://en.wikipedia.org/wiki/Web2py)
 - [Github:web2py](https://github.com/web2py/web2py)
 
 ### Power BI

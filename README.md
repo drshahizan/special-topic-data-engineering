@@ -29,3 +29,4 @@ data engineering, database systems and technologies. Various topics of interests
 - [MongoDB - Quick Guide](https://www.tutorialspoint.com/mongodb/mongodb_quick_guide.htm)
 - [Github: mongodb](https://github.com/mongodb)
 - [Youtube: Complete MongoDB](https://www.youtube.com/watch?v=ExcRbA7fy_A&list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA)
+- [Youtube: Belajar MongoDB](https://www.youtube.com/watch?v=JXXUBiJGu94&list=PL-CtdCApEFH-eFFdPeS5e16o3THdmvxvz)

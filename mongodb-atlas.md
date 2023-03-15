@@ -15,3 +15,10 @@ With MongoDB Atlas, users can easily deploy a highly-available MongoDB cluster i
 MongoDB Atlas also offers a number of security features, including encryption at rest and in transit, network isolation, and role-based access control. It is compliant with several industry standards, including SOC 2, PCI DSS, HIPAA, and GDPR.
 
 Overall, MongoDB Atlas is a powerful and flexible cloud database service that allows developers and organizations to easily manage their MongoDB databases in the cloud, while ensuring high availability, scalability, and security.
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)

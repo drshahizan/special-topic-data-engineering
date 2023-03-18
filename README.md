@@ -27,7 +27,39 @@ data engineering, database systems and technologies. Various topics of interests
 | 8 | CHONG KAI ZHE | Chongkz29 | [:octocat:](https://github.com/Chongkz29) | 
 | 9 | EDDIE WONG CHUNG PHENG | Prowong01 | [:octocat:](https://github.com/Prowong01) | 
 | 10 | FARAH IRDINA BINTI AHMAD BAHARUDIN | arasayooo | [:octocat:](https://github.com/arasayooo) | 
-
+| 11 | GOO YE JUI | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 12 | HONG PEI GEOK | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 13 | KELVIN EE | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 14 | KONG JIA ROU | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 15 | LEE CAI XUAN | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 16 | LEE JIA XIAN
+| 17 | LEE MING QI | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 18 | LOW JUNYI | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 19 | LUQMAN ARIFF BIN NOOR AZHAR | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 20 | MADIHAH BINTI CHE ZABRI | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 21 | MADINA SURAYA BINTI ZHARIN | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 22 | MAIZATUL AFRINA SAFIAH BINTI SAIFUL AZWAN | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 23 | MIKHEL ADAM BIN MUHAMMAD EZRIN | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 24 | MUHAMMAD DINIE HAZIM BIN AZALI
+| 25 | MUHAMMAD IMRAN HAKIMI BIN MOHD SHUKRI | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 26 | MUHAMMAD NAQUIB BIN ZAKARIA
+| 27 | MYZA NAZIFA BINTI NAZRY | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 28 | NAYLI NABIHAH BINTI JASNI | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 29 | NUR IRDINA ALIAH BINTI ABDUL WAHAB | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 30 | NUR IZZAH MARDHIAH BINTI RASHIDI | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 31 | NUR SYAMALIA FAIQAH BINTI MOHD KAMAL | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 32 | NURARISSA DAYANA BINTI MOHD SUKRI | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 33 | NURFARRAHIN BINTI CHE ALIAS | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 34 | ONG HAN WAH | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 35 | QAISARA BINTI ROHZAN | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 36 | RADIN DAFINA BINTI RADIN ZULKAR NAIN | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 37 | RISHMA FATHIMA BINTI BASHER | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 38 | SAKINAH AL'IZZAH BINTI MOHD ASRI | sakinahalizzah | [:octocat:](https://github.com/sakinahalizzah) | 
+| 39 | SINGTHAI SRISOI | singthai-srisoi | [:octocat:](https://github.com/singthai-srisoi) | 
+| 40 | TAN YONG SHENG | TanYongSheng728 | [:octocat:](https://github.com/TanYongSheng728) | 
+| 41 | TERENCE A/L LOORTHANATHAN | Terence172 | [:octocat:](https://github.com/Terence172) | 
+| 42 | VINCENT BOO EE KHAI |  | [:octocat:](https://github.com/) | 
+| 43 | YONG ZHI YAN | yongzy328 | [:octocat:](https://github.com/yongzy328) | 
 
 
 ## Visual Studio Code

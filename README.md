@@ -27,18 +27,18 @@ data engineering, database systems and technologies. Various topics of interests
 | 8 | CHONG KAI ZHE | Chongkz29 | [:octocat:](https://github.com/Chongkz29) | 
 | 9 | EDDIE WONG CHUNG PHENG | Prowong01 | [:octocat:](https://github.com/Prowong01) | 
 | 10 | FARAH IRDINA BINTI AHMAD BAHARUDIN | arasayooo | [:octocat:](https://github.com/arasayooo) | 
-| 11 | GOO YE JUI | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
-| 12 | HONG PEI GEOK | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
-| 13 | KELVIN EE | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
-| 14 | KONG JIA ROU | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
-| 15 | LEE CAI XUAN | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
-| 16 | LEE JIA XIAN
-| 17 | LEE MING QI | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
-| 18 | LOW JUNYI | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
-| 19 | LUQMAN ARIFF BIN NOOR AZHAR | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
-| 20 | MADIHAH BINTI CHE ZABRI | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
-| 21 | MADINA SURAYA BINTI ZHARIN | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
-| 22 | MAIZATUL AFRINA SAFIAH BINTI SAIFUL AZWAN | CheMrhumi | [:octocat:](https://github.com/CheMrhumi) | 
+| 11 | GOO YE JUI | yejui626 | [:octocat:](https://github.com/yejui626) | 
+| 12 | HONG PEI GEOK | peiyu00 | [:octocat:](https://github.com/peiyu00) | 
+| 13 | KELVIN EE | Kelvinnn-2 | [:octocat:](https://github.com/Kelvinnn-2) | 
+| 14 | KONG JIA ROU | jrkong2001utm | [:octocat:](https://github.com/jrkong2001utm) | 
+| 15 | LEE CAI XUAN | leecaixuan | [:octocat:](https://github.com/leecaixuan) | 
+| 16 | LEE JIA XIAN| Leejxx | [:octocat:](https://github.com/Leejxx) | 
+| 17 | LEE MING QI | MQiLEE | [:octocat:](https://github.com/MQiLEE) | 
+| 18 | LOW JUNYI | LowJunyi2001 | [:octocat:](https://github.com/LowJunyi2001) | 
+| 19 | LUQMAN ARIFF BIN NOOR AZHAR | samsamsambal | [:octocat:](https://github.com/samsamsambal) | 
+| 20 | MADIHAH BINTI CHE ZABRI | Madihah04 | [:octocat:](https://github.com/Madihah04) | 
+| 21 | MADINA SURAYA BINTI ZHARIN | madinasuraya | [:octocat:](https://github.com/madinasuraya) | 
+| 22 | MAIZATUL AFRINA SAFIAH BINTI SAIFUL AZWAN | maizatulafrina | [:octocat:](https://github.com/maizatulafrina) | 
 | 23 | MIKHEL ADAM BIN MUHAMMAD EZRIN | HUNK12 | [:octocat:](https://github.com/HUNK12) | 
 | 24 | MUHAMMAD DINIE HAZIM BIN AZALI | DinieHazim | [:octocat:](https://github.com/DinieHazim) | 
 | 25 | MUHAMMAD IMRAN HAKIMI BIN MOHD SHUKRI | muhdimranh | [:octocat:](https://github.com/muhdimranh) | 

@@ -13,6 +13,23 @@ Don't forget to hit the :star: if you like this repo.
 This course presents to the students recent research and industrial issues pertaining to
 data engineering, database systems and technologies. Various topics of interests that are directly or indirectly affecting or are being influenced by data engineering, database systems and technologies are explored and discussed. Participation in forums as well as face to face interaction, with researchers and practitioners on these topics are encouraged. Students should then be able to conduct their own investigation and deductions. This course will also expose students to industry’s experiences in managing database systems and technologies through sharing knowledge sessions and work based learning activities with selected organization.
 
+## Student Information
+
+| No | Name | ID |  Github | 
+| ----- | ----- | ------ | :------: | 
+| 1 | ADAM WAFII BIN AZUAR | Jokeryde | [:octocat:](https://github.com/Jokeryde) | 
+| 2 | ADRINA ASYIQIN BINTI MD ADHA | adrinaasyiqin | [:octocat:](https://github.com/adrinaasyiqin) | 
+| 3 | AAFIF HAZMIE ARSYAD BIN AGUS | AfifHazmie | [:octocat:](https://github.com/AfifHazmie) | 
+| 4 | AHMAD AIMAN HAFIZI BIN MUHAMMAD | AimanHafizi619 | [:octocat:](https://github.com/AimanHafizi619) | 
+| 5 | AHMAD MUHAIMIN BIN AHMAD HAMBALI | Mincridible | [:octocat:](https://github.com/Mincridible) | 
+| 6 | AMIRAH RAIHANAH BINTI ABDUL RAHIM | raihanarahim | [:octocat:](https://github.com/raihanarahim) | 
+| 7 | CHLOE RACQUELMAE KENNEDY | Racquelmae | [:octocat:](https://github.com/Racquelmae) | 
+| 8 | CHONG KAI ZHE | Chongkz29 | [:octocat:](https://github.com/Chongkz29) | 
+| 9 | EDDIE WONG CHUNG PHENG | Prowong01 | [:octocat:](https://github.com/Prowong01) | 
+| 10 | FARAH IRDINA BINTI AHMAD BAHARUDIN | arasayooo | [:octocat:](https://github.com/arasayooo) | 
+
+
+
 ## Visual Studio Code
 ### <img src="https://github.com/drshahizan/learn-php/blob/main/images/youtube64.png" width="24px" height="24px"></a> Video
 - [Visual Studio Code Web Dev Setup In 6 Minutes](https://www.youtube.com/watch?v=4NfFFsQC77M)

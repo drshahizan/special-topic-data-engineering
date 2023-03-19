@@ -100,6 +100,7 @@ data engineering, database systems and technologies. Various topics of interests
 - [Youtube: Belajar MongoDB](https://www.youtube.com/watch?v=JXXUBiJGu94&list=PL-CtdCApEFH-eFFdPeS5e16o3THdmvxvz)
 - [Data science project using MongoDB](./materials/mongodb-ds.md)
 - [How to Install MongoDB && Compass | MacOS](https://youtu.be/AMy4WY3_KQo)
+- [MongoDB Sample Dataset](https://github.com/neelabalan/mongodb-sample-dataset)
 
 ## Web Application
 - [Python Dash Web Application Connected to Live Database - MongoDB](https://www.youtube.com/watch?v=DWqEVpOfYxE)

@@ -11,24 +11,24 @@ Don't forget to hit the :star: if you like this repo.
 
 To use Visual Studio Code to develop a web application using MongoDB and Django, you can follow these steps:
 
-1. Install MongoDB: First, you need to install MongoDB on your computer. You can download and install MongoDB from the official MongoDB website.
+1. Install MongoDB: First, you need to install `MongoDB` on your computer. You can download and install MongoDB from the official MongoDB website.
 
-2. Install Django: You also need to install Django, which is a Python web framework. You can install Django using pip by running the following command in the terminal:
+2. Install Django: You also need to install `Django`, which is a Python web framework. You can install Django using pip by running the following command in the terminal:
 
     ``` python
     pip install Django
     ``` 
-3. Install the Python extension for Visual Studio Code: To get the most out of Django development in Visual Studio Code, you can install the Python extension for Visual Studio Code. You can do this by going to the Extensions view (Ctrl + Shift + X) and searching for "Python".
+3. Install the Python extension for Visual Studio Code: To get the most out of Django development in Visual Studio Code, you can install the Python extension for Visual Studio Code. You can do this by going to the Extensions view (`Ctrl + Shift + X`) and searching for `Python`.
 
 4. Create a new Django project: To create a new Django project, open the terminal in Visual Studio Code and run the following command:
 
     ``` python
     django-admin startproject myproject
     ```
-    Replace myproject with the name of your project.
+    Replace `myproject` with the name of your project.
 
 
-5. Install the Django MongoDB Engine: To use MongoDB with Django, you need to install the Django MongoDB Engine. You can install it using pip by running the following command in the terminal:
+5. Install the Django MongoDB Engine: To use MongoDB with Django, you need to install the `Django MongoDB Engine`. You can install it using pip by running the following command in the terminal:
     ``` python
     pip install djongo
     ``` 
@@ -43,7 +43,7 @@ To use Visual Studio Code to develop a web application using MongoDB and Django,
     }
     ``` 
     
-    Replace mydatabase with the name of your MongoDB database.
+    Replace `mydatabase` with the name of your MongoDB database.
 
 7. Create a new Django app: To create a new Django app, open the terminal in Visual Studio Code and run the following command:
 
@@ -51,7 +51,7 @@ To use Visual Studio Code to develop a web application using MongoDB and Django,
     python manage.py startapp myapp
     ``` 
     
-    Replace myapp with the name of your app.
+    Replace `myapp` with the name of your app.
 
 8. Define your models: Define your models in the models.py file in your Django app. You can use Django's model fields to define the fields for your MongoDB documents.
 

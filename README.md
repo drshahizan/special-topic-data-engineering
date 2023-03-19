@@ -24,7 +24,7 @@ data engineering, database systems and technologies. Various topics of interests
 | 2 | ADRINA ASYIQIN BINTI MD ADHA | adrinaasyiqin | [:octocat:](https://github.com/adrinaasyiqin) | 
 | 3 | AFIF HAZMIE ARSYAD BIN AGUS | AfifHazmie | [:octocat:](https://github.com/AfifHazmie) | 
 | 4 | AHMAD AIMAN HAFIZI BIN MUHAMMAD | AimanHafizi619 | [:octocat:](https://github.com/AimanHafizi619) | 
-| 5 | AHMAD MUHAIMIN BIN AHMAD HAMBALI | Mincridible10 | [:octocat:](https://github.com/Mincridible) | 
+| 5 | AHMAD MUHAIMIN BIN AHMAD HAMBALI | Mincridible | [:octocat:](https://github.com/Mincridible) | 
 | 6 | AMIRAH RAIHANAH BINTI ABDUL RAHIM | raihanarahim | [:octocat:](https://github.com/raihanarahim) | 
 | 7 | CHLOE RACQUELMAE KENNEDY | Racquelmae | [:octocat:](https://github.com/Racquelmae) | 
 | 8 | CHONG KAI ZHE | Chongkz29 | [:octocat:](https://github.com/Chongkz29) | 

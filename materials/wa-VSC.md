@@ -41,7 +41,8 @@ To use Visual Studio Code to develop a web application using MongoDB and Django,
             'NAME': 'mydatabase',
         }
     }
-
+    ``` 
+    
     Replace mydatabase with the name of your MongoDB database.
 
 7. Create a new Django app: To create a new Django app, open the terminal in Visual Studio Code and run the following command:
@@ -49,6 +50,7 @@ To use Visual Studio Code to develop a web application using MongoDB and Django,
     ``` python
     python manage.py startapp myapp
     ``` 
+    
     Replace myapp with the name of your app.
 
 8. Define your models: Define your models in the models.py file in your Django app. You can use Django's model fields to define the fields for your MongoDB documents.

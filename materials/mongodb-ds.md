@@ -30,6 +30,11 @@ Social media sentiment analysis using MongoDB can be a fascinating project that 
 
 To make this project more challenging, you can also try to perform sentiment analysis in real-time by streaming data from social media platforms and using MongoDB to store the data. You can also try to use more advanced NLP techniques such as entity recognition or topic modeling to gain more insights from the data.
 
+### Case study
+- [A Case Study on Social Media Analytics for Malaysia Budget](https://thesai.org/Downloads/Volume12No10/Paper_64-A_Case_Study_on_Social_Media_Analytics.pdf)
+- [SOCIAL MEDIA ANALYTICS USING SENTIMENT AND CONTENT ANALYSES ON THE 2018 MALAYSIA’S GENERAL ELECTION](https://ejournal.um.edu.my/index.php/MJCS/article/view/29763/13003)
+
+
 ## 2. E-commerce sales analysis
 Collect sales data from an e-commerce platform and store it in MongoDB. Analyze the data to identify the top-selling products, the most popular categories, and the sales trends over time. Visualize the results using charts or graphs.
 

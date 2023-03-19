@@ -61,3 +61,11 @@ python manage.py runserver
 - This will start the development server, and you can view your Django project by opening a web browser and navigating to http://127.0.0.1:8000/.
 
 That's it! You're now ready to start developing your web application using MongoDB and Django in Visual Studio Code.
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
+

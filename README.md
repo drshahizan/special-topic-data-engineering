@@ -20,7 +20,7 @@ data engineering, database systems and technologies. Various topics of interests
 
 | No | Name | ID |  Github | 
 | ----- | ----- | ------ | :------: | 
-| 1 | ADAM WAFI BIN AZUAR | Jokeryde | [:octocat:](https://github.com/Jokeryde) | 
+| 1 | ADAM WAFII BIN AZUAR | Jokeryde | [:octocat:](https://github.com/Jokeryde) | 
 | 2 | ADRINA ASYIQIN BINTI MD ADHA | adrinaasyiqin | [:octocat:](https://github.com/adrinaasyiqin) | 
 | 3 | AFIF HAZMIE ARSYAD BIN AGUS | AfifHazmie | [:octocat:](https://github.com/AfifHazmie) | 
 | 4 | AHMAD AIMAN HAFIZI BIN MUHAMMAD | AimanHafizi619 | [:octocat:](https://github.com/AimanHafizi619) | 

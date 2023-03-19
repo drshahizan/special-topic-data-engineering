@@ -103,7 +103,7 @@ data engineering, database systems and technologies. Various topics of interests
 - [Web Data Dashboard with Plotly express and Flask Python and JavaScript](https://youtu.be/B97qWOUvlnU)
 - [Flask Course - Python Web Application Development](https://youtu.be/Qr4QMBUPxWo)
 - [Jupyter Notebook: How to use it to create a web application using Django and MongoDb](./materials/wa-jupyter.md)
-- [Visual Studio Code: develop web application using MongoDb and Django]()
+- [Visual Studio Code: develop web application using MongoDb and Django](./materials/wa-VSC.md)
 <p align="center">
 <img src="https://github.com/drshahizan/python-web/blob/main/image/Top-python-web-frameworks.jpg"  height="400" />
 </p>

@@ -20,3 +20,11 @@ To use Jupyter Notebook with Django and MongoDB, you need to install the necessa
 Once you have installed the necessary packages, you can start a new Jupyter Notebook and import the required packages, create and manipulate MongoDB databases and collections using pymongo, and define your Django models using djongo. You can then use the Notebook to test your code and refine your approach before copying and pasting it into your Django project files.
 
 Keep in mind that using Jupyter Notebook for web application development can be cumbersome, error-prone, and difficult to maintain, so it is generally not recommended. It is best to use a dedicated IDE or editor like Visual Studio Code, PyCharm, or Sublime Text for developing Django web applications.
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
+

@@ -102,6 +102,7 @@ data engineering, database systems and technologies. Various topics of interests
 - [Python Dash Web Application Connected to Live Database - MongoDB](https://www.youtube.com/watch?v=DWqEVpOfYxE)
 - [Web Data Dashboard with Plotly express and Flask Python and JavaScript](https://youtu.be/B97qWOUvlnU)
 - [Flask Course - Python Web Application Development](https://youtu.be/Qr4QMBUPxWo)
+- [Jupyter Notebook: How to use it to create a web application using Django and MongoDb](./materials/)
 
 <p align="center">
 <img src="https://github.com/drshahizan/python-web/blob/main/image/Top-python-web-frameworks.jpg"  height="400" />

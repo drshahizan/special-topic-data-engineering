@@ -13,8 +13,10 @@ Install the Python extension for Visual Studio Code: To get the most out of Djan
 - Create a new Django project: To create a new Django project, open the terminal in Visual Studio Code and run the following command:
 
 Copy code
+``` python
 django-admin startproject myproject
 Replace myproject with the name of your project.
+```
 
 - Install the Django MongoDB Engine: To use MongoDB with Django, you need to install the Django MongoDB Engine. You can install it using pip by running the following command in the terminal:
 Copy code

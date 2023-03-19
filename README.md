@@ -45,14 +45,14 @@ data engineering, database systems and technologies. Various topics of interests
 | 23 | MIKHEL ADAM BIN MUHAMMAD EZRIN | HUNK12 | [:octocat:](https://github.com/HUNK12) | 
 | 24 | MUHAMMAD DINIE HAZIM BIN AZALI | DinieHazim | [:octocat:](https://github.com/DinieHazim) | 
 | 25 | MUHAMMAD IMRAN HAKIMI BIN MOHD SHUKRI | muhdimranh | [:octocat:](https://github.com/muhdimranh) | 
-| 26 | MUHAMMAD NAQUIB BIN ZAKARIA | nqbzkr01 | [:octocat:](https://github.com/) | 
+| 26 | MUHAMMAD NAQUIB BIN ZAKARIA | nqbzkr01 | [:octocat:](https://github.com/nqbzkr01) | 
 | 27 | MYZA NAZIFA BINTI NAZRY | myzanazifah | [:octocat:](https://github.com/myzanazifah) | 
 | 28 | NAYLI NABIHAH BINTI JASNI | nellyexey | [:octocat:](https://github.com/nellyexey) | 
 | 29 | NUR IRDINA ALIAH BINTI ABDUL WAHAB | Deelia99 | [:octocat:](https://github.com/Deelia99) | 
 | 30 | NUR IZZAH MARDHIAH BINTI RASHIDI | izzahmardhiah | [:octocat:](https://github.com/izzahmardhiah) | 
 | 31 | NUR SYAMALIA FAIQAH BINTI MOHD KAMAL | nursyamalia | [:octocat:](https://github.com/nursyamalia) | 
 | 32 | NURARISSA DAYANA BINTI MOHD SUKRI | yanakunn | [:octocat:](https://github.com/yanakunn) | 
-| 33 | NURFARRAHIN BINTI CHE ALIAS | farrahin | [:octocat:](https://github.com/farrahin) | 
+| 33 | NURFARRAHIN BINTI CHE ALIAS | FarrahinUtm | [:octocat:](https://github.com/FarrahinUtm) | 
 | 34 | ONG HAN WAH | ongwah | [:octocat:](https://github.com/ongwah) | 
 | 35 | QAISARA BINTI ROHZAN | qaisarrra | [:octocat:](https://github.com/qaisarrra) | 
 | 36 | RADIN DAFINA BINTI RADIN ZULKAR NAIN | radindafina | [:octocat:](https://github.com/radindafina) | 
@@ -61,7 +61,7 @@ data engineering, database systems and technologies. Various topics of interests
 | 39 | SINGTHAI SRISOI | singthai-srisoi | [:octocat:](https://github.com/singthai-srisoi) | 
 | 40 | TAN YONG SHENG | TanYongSheng728 | [:octocat:](https://github.com/TanYongSheng728) | 
 | 41 | TERENCE A/L LOORTHANATHAN | Terence172 | [:octocat:](https://github.com/Terence172) | 
-| 42 | VINCENT BOO EE KHAI |  | [:octocat:](https://github.com/) | 
+| 42 | VINCENT BOO EE KHAI | Vincboo | [:octocat:](https://github.com/Vincboo) | 
 | 43 | YONG ZHI YAN | yongzy328 | [:octocat:](https://github.com/yongzy328) | 
 
 

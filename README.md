@@ -45,7 +45,7 @@ data engineering, database systems and technologies. Various topics of interests
 | 23 | MIKHEL ADAM BIN MUHAMMAD EZRIN | HUNK12 | [:octocat:](https://github.com/HUNK12) | 
 | 24 | MUHAMMAD DINIE HAZIM BIN AZALI | DinieHazim | [:octocat:](https://github.com/DinieHazim) | 
 | 25 | MUHAMMAD IMRAN HAKIMI BIN MOHD SHUKRI | muhdimranh | [:octocat:](https://github.com/muhdimranh) | 
-| 26 | MUHAMMAD NAQUIB BIN ZAKARIA |  | [:octocat:](https://github.com/) | 
+| 26 | MUHAMMAD NAQUIB BIN ZAKARIA | nqbzkr01 | [:octocat:](https://github.com/) | 
 | 27 | MYZA NAZIFA BINTI NAZRY | myzanazifah | [:octocat:](https://github.com/myzanazifah) | 
 | 28 | NAYLI NABIHAH BINTI JASNI | nellyexey | [:octocat:](https://github.com/nellyexey) | 
 | 29 | NUR IRDINA ALIAH BINTI ABDUL WAHAB | Deelia99 | [:octocat:](https://github.com/Deelia99) | 

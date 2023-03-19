@@ -177,6 +177,8 @@ Here are the general steps to follow to do a Natural Language Processing (NLP) p
 
 - Deploy your application: Once you are satisfied with your analysis, deploy your application to a production environment. This may involve hosting your MongoDB instance on a cloud service such as AWS or Azure, and deploying your code to a web server or serverless function.
 
+### Sample Case Study
+- [A Processing Model Using Natural Language Processing (NLP) For Narrative Text Of Medical Record For Producing Symptoms Of Mental Disorders](https://www.researchgate.net/publication/339176621_A_Processing_Model_Using_Natural_Language_Processing_NLP_For_Narrative_Text_Of_Medical_Record_For_Producing_Symptoms_Of_Mental_Disorders)
 ## 9. Image and video analysis: 
 Use machine learning algorithms to analyze image and video data, such as object detection or facial recognition. Store the data in MongoDB for efficient querying and analysis.
 

@@ -18,7 +18,7 @@ To use Visual Studio Code to develop a web application using MongoDB and Django,
     ``` python
     pip install Django
     ``` 
-3. Install the Python extension for Visual Studio Code: To get the most out of Django development in Visual Studio Code, you can install the Python extension for Visual Studio Code. You can do this by going to the Extensions view (`Ctrl + Shift + X`) and searching for `Python`.
+3. Install the Python extension for Visual Studio Code: To get the most out of Django development in Visual Studio Code, you can install the Python extension for Visual Studio Code. You can do this by going to the Extensions view `Ctrl + Shift + X` and searching for `Python`.
 
 4. Create a new Django project: To create a new Django project, open the terminal in Visual Studio Code and run the following command:
 
@@ -68,7 +68,7 @@ To use Visual Studio Code to develop a web application using MongoDB and Django,
     python manage.py runserver
     ``` 
     
-    This will start the development server, and you can view your Django project by opening a web browser and navigating to http://127.0.0.1:8000/.
+    This will start the development server, and you can view your Django project by opening a web browser and navigating to `http://127.0.0.1:8000/`.
 
 That's it! You're now ready to start developing your web application using MongoDB and Django in Visual Studio Code.
 

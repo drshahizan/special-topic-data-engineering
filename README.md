@@ -85,9 +85,9 @@ data engineering, database systems and technologies. Various topics of interests
 - [Learn MongoDB](./materials/learn-mongodb.md)
 - [Wikipedia: MongoDB](https://en.wikipedia.org/wiki/MongoDB)
 - [Web Application using Mongodb](./web-mongodb.md)
-- [MongoDB Atlas](./mongodb-atlas.md)
+- [MongoDB Atlas](./materials/mongodb-atlas.md)
 - [Sign in MongoDB Atlas](https://www.mongodb.com/atlas/database)
-- [MongoDB Compass](./mongodb-compass.md)
+- [MongoDB Compass](./materials/mongodb-compass.md)
 - [Download: MongoDB Compass](https://www.mongodb.com/try/download/compass)
 - [Connect MongoDB Atlas With MongoDB Compass](https://www.techomoro.com/connect-mongodb-atlas-with-mongodb-compass/)
 - [w3schools: MongoDB Tutorial](https://www.w3schools.com/mongodb/)
@@ -95,7 +95,7 @@ data engineering, database systems and technologies. Various topics of interests
 - [Github: mongodb](https://github.com/mongodb)
 - [Youtube: Complete MongoDB](https://www.youtube.com/watch?v=ExcRbA7fy_A&list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA)
 - [Youtube: Belajar MongoDB](https://www.youtube.com/watch?v=JXXUBiJGu94&list=PL-CtdCApEFH-eFFdPeS5e16o3THdmvxvz)
-- [Data science project using MongoDB](./mongodb-ds.md)
+- [Data science project using MongoDB](./materials/mongodb-ds.md)
 - [How to Install MongoDB && Compass | MacOS](https://youtu.be/AMy4WY3_KQo)
 
 ## Web Application

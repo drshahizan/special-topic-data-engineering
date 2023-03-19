@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 Here are some project ideas for data science using MongoDB:
 
-## Social media sentiment analysis
+## 1. Social media sentiment analysis
 Collect social media data from platforms such as Twitter or Instagram and use MongoDB to store the data. Analyze the sentiment of the posts using Natural Language Processing (NLP) techniques and visualize the results using charts or graphs.
 
 ### Overview
@@ -30,7 +30,7 @@ Social media sentiment analysis using MongoDB can be a fascinating project that 
 
 To make this project more challenging, you can also try to perform sentiment analysis in real-time by streaming data from social media platforms and using MongoDB to store the data. You can also try to use more advanced NLP techniques such as entity recognition or topic modeling to gain more insights from the data.
 
-## E-commerce sales analysis
+## 2. E-commerce sales analysis
 Collect sales data from an e-commerce platform and store it in MongoDB. Analyze the data to identify the top-selling products, the most popular categories, and the sales trends over time. Visualize the results using charts or graphs.
 
 ### Overview
@@ -49,7 +49,7 @@ E-commerce sales analysis using MongoDB can be a fascinating project that allows
 
 To make this project more challenging, you can also try to integrate your sales data with other sources of data such as marketing campaigns, customer reviews, or website traffic to gain more comprehensive insights into your business operations. You can also try to automate the data collection and analysis process by setting up a pipeline that streams data from your e-commerce platform to MongoDB and uses triggers to automate analysis and visualization.
 
-## Customer segmentation
+## 3. Customer segmentation
 Use customer data from a retail business and store it in MongoDB. Use clustering algorithms to segment the customers based on their purchasing behavior, demographics, and other characteristics. Use the segments to target marketing campaigns more effectively.
 
 ### Overview
@@ -69,7 +69,7 @@ Customer segmentation using MongoDB can be a fascinating project that allows you
 
 To make this project more challenging, you can also try to integrate your customer data with other sources of data such as social media or website behavior to gain more comprehensive insights into your customers. You can also try to automate the data collection and analysis process by setting up a pipeline that streams data from your retail platform to MongoDB and uses triggers to automate analysis and visualization.
 
-## Fraud detection
+## 4. Fraud detection
 Store transaction data from a financial institution in MongoDB. Use machine learning algorithms to identify patterns that may indicate fraudulent activity and alert the appropriate personnel.
 
 ### Overview
@@ -89,7 +89,7 @@ Fraud detection using MongoDB can be an interesting project that allows you to d
 
 To make this project more challenging, you can also try to integrate your fraud detection model with real-time data streams or use more advanced machine learning algorithms, such as deep learning, to improve the accuracy of your fraud detection model. You can also try to automate the data collection and analysis process by setting up a pipeline that streams data from your financial platform to MongoDB and uses triggers to automate analysis and visualization.
 
-## Predictive maintenance
+## 5. Predictive maintenance
 Store equipment data from an industrial plant in MongoDB. Use machine learning algorithms to analyze the data and predict when maintenance is needed to prevent breakdowns and minimize downtime.
 
 ### Overview
@@ -109,7 +109,7 @@ Predictive maintenance using MongoDB can be an interesting project that allows y
 
 To make this project more challenging, you can also try to integrate your equipment performance data with other sources of data such as weather data or supply chain data to gain more comprehensive insights into equipment performance. You can also try to automate the data collection and analysis process by setting up a pipeline that streams data from your equipment monitoring system to MongoDB and uses triggers to automate analysis and visualization.
 
-## Healthcare analytics
+## 6. Healthcare analytics
 Store patient data in MongoDB and use it to analyze patient outcomes, identify trends in diseases, and improve patient care. Use data visualization techniques to help medical professionals understand the data better.
 
 ### Overview
@@ -129,7 +129,7 @@ Healthcare analytics using MongoDB can be an interesting project that allows you
 
 To make this project more challenging, you can also try to integrate your healthcare data with other sources of data such as social determinants of health or genetic data to gain more comprehensive insights into patient outcomes. You can also try to automate the data collection and analysis process by setting up a pipeline that streams data from healthcare systems to MongoDB and uses triggers to automate analysis and visualization. Additionally, you can also explore the use of privacy-enhancing technologies, such as differential privacy, to protect patient privacy while analyzing healthcare data.
 
-## Energy consumption analysis
+## 7. Energy consumption analysis
 Store energy consumption data in MongoDB and use it to analyze patterns in energy usage. Identify areas where energy consumption can be reduced and visualize the results using charts or graphs.
 
 ### Overview
@@ -149,6 +149,16 @@ Energy consumption analysis using MongoDB can be an interesting project that all
 
 To make this project more challenging, you can also try to integrate your energy consumption data with other sources of data such as building occupancy or outdoor temperature to gain more comprehensive insights into energy consumption patterns. You can also try to automate the data collection and analysis process by setting up a pipeline that streams data from your energy monitoring system to MongoDB and uses triggers to automate analysis and visualization. Additionally, you can also explore the use of energy storage or renewable energy sources to reduce your energy consumption and carbon footprint.
 
+
+## 8. Natural language processing
+Use machine learning algorithms to perform natural language processing tasks, such as text classification or entity recognition. Store the data in MongoDB for efficient querying and analysis.
+
+### Overview
+
+## 9.Image and video analysis: 
+Use machine learning algorithms to analyze image and video data, such as object detection or facial recognition. Store the data in MongoDB for efficient querying and analysis.
+
+### Overview
 
 These are just a few ideas to get you started. The possibilities for data science projects using MongoDB are endless!
 

@@ -1,6 +1,6 @@
 # Jupyter Notebook: How to use it to create a web application using Django and MongoDb
 
-Jupyter Notebook is not the recommended tool to develop a web application using MongoDB and Django. It is primarily designed for interactive data science and visualization, and it lacks the necessary features and capabilities for web application development.
+Jupyter Notebook is **not the recommended tool** to develop a web application using MongoDB and Django. It is primarily designed for interactive data science and visualization, and it lacks the necessary features and capabilities for web application development.
 
 Instead, you can use a combination of Django and MongoDB to develop your web application, and Jupyter Notebook to explore and analyze your data. To use Django and MongoDB together, you can follow the steps outlined in my previous response.
 

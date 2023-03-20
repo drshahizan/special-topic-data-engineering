@@ -7,20 +7,20 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Data science project using MongoDB
+# Data science project
 
 ### 📚 Topic
 - [Social media monitoring tool](#1-social-media-monitoring-tool)
 - [E-commerce analytics dashboard](#2-e-commerce-analytics-dashboard)
-- [Customer segmentation tool]()
-- [Fraud detection dashboard]()
-- [Predictive maintenance tool]()
-- [Healthcare analytics platform]()
-- [Energy consumption analysis dashboard]()
-- [Natural language processing tool]()
-- [Image and video analysis platform]()
-- [Time-series analytics dashboard]()
-- [Recommendation engine]()
+- [Customer segmentation tool](#3-customer-segmentation-tool)
+- [Fraud detection dashboard](#4-fraud-detection-dashboard)
+- [Predictive maintenance tool](#5-predictive-maintenance-tool)
+- [Healthcare analytics platform](6-healthcare-analytics-platform)
+- [Energy consumption analysis dashboard](#7-energy-consumption-analysis-dashboard)
+- [Natural language processing tool](#8-natural-language-processing-tool)
+- [Image and video analysis platform](#9-image-and-video-analysis-platform)
+- [Time-series analytics dashboard](#10-time-series-analytics-dashboard)
+- [Recommendation engine](#11-recommendation-engine)
 
 Project ideas for data science using MongoDB:
 

@@ -20,7 +20,7 @@ Don't forget to hit the :star: if you like this repo.
 | 7 | Energy consumption analysis dashboard | StaticIP | |
 | 8 | Natural language processing tool | Noctua| |
 | 9 | Image and video analysis platform | Rivertion | |
-| 10 |||
+| 10 | Time-series analytics dashboard|||
 | 11 | Recommendation engine | CodeX| |
 
 ## Contribution 🛠️

@@ -205,6 +205,30 @@ Here are the general steps to follow to do an Image and Video Analysis project u
 ## 10. Time-series analytics dashboard
 Build a web application using MongoDB to store and analyze time-series data to identify trends and build predictive models.
 
+### Overview
+Here are the general steps to develop a web application project for Time-series analytics dashboard using MongoDB:
+
+- Data Collection: Collect the Time-series data from various sources and store it in a MongoDB database.
+
+- Data Cleaning and Preprocessing: Clean the data and preprocess it to remove any inconsistencies or anomalies.
+
+- Data Storage: Store the preprocessed data in MongoDB's Time-series Collections.
+
+- Web Application Framework: Choose a web application framework such as Flask or Django to build the front-end of the Time-series analytics dashboard.
+
+- Visualization Libraries: Choose visualization libraries such as Plotly or Matplotlib to create visualizations of the time-series data.
+
+- Query and Analysis: Use MongoDB's aggregation framework to query the time-series data and perform analysis to identify trends, patterns, and anomalies.
+
+- Build Dashboard: Use the web application framework and visualization libraries to create an interactive dashboard to display the results of the time-series analysis.
+
+- Deployment: Deploy the web application and database on a cloud platform such as AWS or Heroku.
+
+- Testing: Test the web application to ensure that it is functioning correctly and that the time-series data is being queried and analyzed accurately.
+
+- Maintenance: Maintain and update the web application as needed to ensure that it continues to meet the requirements of the Time-series analytics dashboard project.
+
+
 ## 11. Recommendation engine
 Develop a web application using MongoDB to build recommendation systems based on user behavior and preferences.
 

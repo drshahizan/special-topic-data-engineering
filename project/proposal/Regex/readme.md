@@ -10,15 +10,19 @@
     <th>A20EC0044</th>
   </tr>
   <tr>
-    <th></th>
-    <th>A20EC0</th>
+    <th>MADIHAH BINTI CHE ZABRI</th>
+    <th>A20EC0074</th>
   </tr>
     <tr>
-    <th></th>
-    <th>A20EC0</th>
+    <th>MAIZATUL AFRINA SAFIAH BINTI SAIFUL AZWAN</th>
+    <th>A20EC0204</th>
   </tr>
     <tr>
-    <th></th>
-    <th>A20EC0</th>
+    <th>NURARISSA DAYANA BINTI MOHD SUKRI</th>
+    <th>A20EC0120</th>
+  </tr>
+  <tr>
+    <th>SAKINAH AL'IZZAH BINTI MOHD ASRI</th>
+    <th>A20EC0142</th>
   </tr>
 </table>

@@ -1,4 +1,4 @@
-<h1 align="center"> Project Proposal - Social media monitoring tool   <br>
+<h1 align="center"> Project Proposal - Social media monitoring tool <a href="#" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/97009588/226456635-fa047b5b-8c40-48b1-a5c1-651638663d66.png" alt="oracle" width="40" height="40"/> </a>   <br>
 </h1>
 <h2 align="center">
   Group Name

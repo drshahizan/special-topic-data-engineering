@@ -16,22 +16,12 @@ Don't forget to hit the :star: if you like this repo.
 | 3 | Customer segmentation tool | DataSphere | |
 | 4 | Fraud detection dashboard | DataAce | |
 | 5 | Predictive maintenance tool | MichelinStar | |
-| 6 | Healthcare analytics platform | StaticIP| |
-| 7 | Energy consumption analysis dashboard | Noctua | |
-| 8 | Natural language processing tool | Rivertion| |
-| 9 | Image and video analysis platform | | |
+| 6 | Healthcare analytics platform | | |
+| 7 | Energy consumption analysis dashboard | StaticIP | |
+| 8 | Natural language processing tool | Noctua| |
+| 9 | Image and video analysis platform | Rivertion | |
+| 10 |||
 | 11 | Recommendation engine | CodeX| |
-
-Gadgeteen
-Regex
-DataSphere
-DataAce
-MichelinStar
-StaticIP
-Noctua
-Rivertion
-CodeX
-
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

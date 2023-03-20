@@ -15,7 +15,7 @@ Don't forget to hit the :star: if you like this repo.
 - [Customer segmentation tool](#3-customer-segmentation-tool)
 - [Fraud detection dashboard](#4-fraud-detection-dashboard)
 - [Predictive maintenance tool](#5-predictive-maintenance-tool)
-- [Healthcare analytics platform](6-healthcare-analytics-platform)
+- [Healthcare analytics platform](#6-healthcare-analytics-platform)
 - [Energy consumption analysis dashboard](#7-energy-consumption-analysis-dashboard)
 - [Natural language processing tool](#8-natural-language-processing-tool)
 - [Image and video analysis platform](#9-image-and-video-analysis-platform)

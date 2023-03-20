@@ -19,7 +19,7 @@ data engineering, database systems and technologies. Various topics of interests
 
 ### Project
 - [Description of the project's topic](./materials/mongodb-ds.md)
-- [https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/project-group.md](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/project-group.md)
+- [Project and group names](./materials/project-group.md)
 - [Guideline for Data Science Proposal](./materials/project-guidelines.md)
 
 

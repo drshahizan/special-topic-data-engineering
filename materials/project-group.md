@@ -15,3 +15,10 @@ Don't forget to hit the :star: if you like this repo.
 | 2 | ADRINA ASYIQIN BINTI MD ADHA | adrinaasyiqin | [:octocat:](https://github.com/adrinaasyiqin) | 
 | 3 | AFIF HAZMIE ARSYAD BIN AGUS | AfifHazmie | [:octocat:](https://github.com/AfifHazmie) | 
 
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
+

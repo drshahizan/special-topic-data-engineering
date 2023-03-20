@@ -13,7 +13,7 @@ A data science project proposal is a detailed document that outlines the objecti
 
 Understand the problem: Before starting to write the proposal, make sure you fully understand the problem you are trying to solve. Talk to stakeholders, gather requirements, and clearly define the scope of the project.
 
-
+## Key components
 The following are the key components of a data science project proposal:
 
 Executive Summary:
@@ -67,6 +67,26 @@ Conclusion:
 - Provide a call to action for the client to approve the proposal and proceed with the project.
 
 In summary, a data science project proposal should clearly outline the objectives, scope, methodology, system architecture, risks, limitations, technical specification, timeline, deliverables, and budget of the project. It should be well-written, organized, and persuasive to convince stakeholders to invest in the project.
+
+## Markdown files and sharing it on Github
+Markdown is a simple and easy-to-use markup language for formatting plain text. It is widely used for writing documentation, README files, and proposals. 
+
+### Guidelines for writing a proposal using Markdown files and sharing it on Github
+- Create a new Markdown file in your repository and give it a descriptive name (e.g., "proposal.md").
+- Use headings, bullet points, and other formatting features to make your proposal clear and easy to read. Use Markdown syntax to format your text, including headers, bold and italic text, lists, and links.
+- Once you have written your proposal, you can share it on Github by pushing your changes to your repository. You can also use Github's issue tracker to discuss your proposal with other contributors or stakeholders, and to keep track of any feedback or changes that need to be made.
+
+### How to use Markdown files in GitHub
+
+- Go to the GitHub Guides page: https://guides.github.com/features/mastering-markdown/
+- Read through the guide on how to use Markdown files in GitHub, including the basics of formatting text, creating headings, adding links and images, and creating lists and tables.
+- Practice writing Markdown files using a text editor or a Markdown editor such as Typora, MarkdownPad, or Atom.
+- Create a GitHub account if you don't have one already.
+- Create a new repository on GitHub and upload your Markdown files to it.
+- Share your repository with others or collaborate with others on your project.
+
+Additionally, GitHub has many resources and tutorials available for learning how to use their platform, including their GitHub Learning Lab and their community forum.
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

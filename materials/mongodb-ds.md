@@ -206,6 +206,25 @@ Here are the general steps to follow to do an Image and Video Analysis project u
 Build a web application using MongoDB to store and analyze time-series data to identify trends and build predictive models.
 
 ### Overview
+A Time-series analytics dashboard is a web-based tool that enables users to visualize and analyze time-series data over a specific time period. Time-series data is a type of data where each observation is recorded at a specific point in time, such as daily sales figures, hourly website traffic, or monthly energy consumption.
+
+The main purpose of a Time-series analytics dashboard is to provide users with insights into trends, patterns, and anomalies in the data over time. The dashboard typically includes a set of interactive charts, graphs, and tables that enable users to explore the data and identify important trends and patterns.
+
+Some of the key features of a Time-series analytics dashboard may include:
+
+1. Data visualization: The dashboard may include different types of visualizations such as line charts, bar charts, heat maps, and scatter plots to represent the data.
+
+2. Filtering and sorting: The dashboard may allow users to filter and sort the data based on different criteria such as date range, product, location, or customer segment.
+
+3. Forecasting: The dashboard may use forecasting models to predict future trends in the data based on historical patterns.
+
+4. Alerts and notifications: The dashboard may send alerts or notifications to users when certain thresholds are reached or anomalies are detected in the data.
+
+5. Drill-down capabilities: The dashboard may allow users to drill down into the data to view more detailed information at different levels of granularity.
+
+A Time-series analytics dashboard can be useful in a variety of applications, such as financial forecasting, energy management, healthcare monitoring, and e-commerce sales analysis. It can help organizations make informed decisions based on historical trends and future projections, and can help them identify opportunities for improvement and growth.
+
+### Steps to develop project
 Here are the general steps to develop a web application project for Time-series analytics dashboard using MongoDB:
 
 - Data Collection: Collect the Time-series data from various sources and store it in a MongoDB database.

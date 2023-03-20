@@ -11,6 +11,9 @@ Don't forget to hit the :star: if you like this repo.
 
 A data science project proposal is a detailed document that outlines the objectives, scope, and methodology of a data science project. It should provide a clear understanding of the problem to be addressed, the methods that will be used, and the expected outcomes. The proposal should be well-written, organized, and persuasive to convince stakeholders to invest in the project.
 
+Understand the problem: Before starting to write the proposal, make sure you fully understand the problem you are trying to solve. Talk to stakeholders, gather requirements, and clearly define the scope of the project.
+
+
 The following are the key components of a data science project proposal:
 
 Executive Summary:

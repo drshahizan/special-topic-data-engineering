@@ -6,23 +6,23 @@
     <th>Matric</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>Eddie Wong Chung Pheng</td>
+    <td>A20EC0312</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>Yong Zhi Yan</td>
+    <td>A20EC</td>
   </tr>
     <tr>
-    <td></td>
-    <td></td>
+    <td>Tan Yong Sheng</td>
+    <td>A20EC</td>
   </tr>
     <tr>
-    <td></td>
-    <td></td>
+    <td>Low Junyi</td>
+    <td>A20EC</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>Vincent Boo Ee Khai</td>
+    <td>A20EC0231</td>
   </tr>
 </table>

@@ -22,7 +22,7 @@ Don't forget to hit the :star: if you like this repo.
 - [Time-series analytics dashboard](#10-time-series-analytics-dashboard)
 - [Recommendation engine](#11-recommendation-engine)
 
-Project ideas for data science using MongoDB:
+A data science project involves using data and various techniques such as statistical analysis, machine learning, and data visualization to gain insights, make predictions, or solve problems. The goal of a data science project is to turn raw data into actionable insights that can be used to inform decision-making and improve business outcomes.
 
 ## 1. Social media monitoring tool
 Create a web application to monitor and analyze social media data in real-time to understand public opinion and sentiment. Collect social media data from platforms such as Twitter or Instagram and use MongoDB to store the data. Analyze the sentiment of the posts using Natural Language Processing (NLP) techniques and visualize the results using charts or graphs.

@@ -360,7 +360,7 @@ Here are the general steps to develop a web application project for Time-series 
 
 
 ## 11. Recommendation engine
-Develop a web application using MongoDB to build recommendation systems based on user behavior and preferences.
+A recommendation engine is a data science project that involves analyzing user behavior and preferences to generate personalized recommendations for products or services. MongoDB is a suitable database for recommendation engines because it provides a flexible platform for storing and processing large volumes of unstructured data.
 
 A recommendation engine using MongoDB is a system that provides personalized recommendations to users based on their past behavior and preferences. MongoDB, being a NoSQL document-oriented database, is an ideal platform to store and process large volumes of unstructured data, which is essential for building effective recommendation systems.
 
@@ -387,6 +387,16 @@ Building a recommendation engine using MongoDB involves the following steps:
 - Testing: Test the recommendation engine to ensure that it is functioning correctly and providing accurate recommendations.
 
 - Maintenance: Maintain and update the recommendation engine as needed to ensure that it continues to meet the requirements of the project.
+
+Some potential applications of a recommendation engine using MongoDB include:
+
+1. E-commerce: Use the recommendation engine to generate personalized product recommendations based on users' browsing and purchase history. This can help improve user experience and increase sales.
+
+2. Streaming Services: Use the recommendation engine to generate personalized content recommendations for users based on their viewing history and preferences. This can help improve user retention and engagement.
+
+3. Travel Services: Use the recommendation engine to generate personalized travel recommendations based on users' travel history and preferences. This can help improve user experience and increase bookings.
+
+Overall, a recommendation engine using MongoDB provides a flexible and scalable platform for generating personalized recommendations, leading to improved user experience and increased revenue.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

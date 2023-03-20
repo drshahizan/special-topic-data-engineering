@@ -77,7 +77,7 @@ Markdown is a simple and easy-to-use markup language for formatting plain text. 
 - Use headings, bullet points, and other formatting features to make your proposal clear and easy to read. Use Markdown syntax to format your text, including headers, bold and italic text, lists, and links.
 - Once you have written your proposal, you can share it on Github by pushing your changes to your repository. You can also use Github's issue tracker to discuss your proposal with other contributors or stakeholders, and to keep track of any feedback or changes that need to be made.
 
-### How to use Markdown files in GitHub
+### How to use Markdown files
 
 - Go to the GitHub Guides page: https://guides.github.com/features/mastering-markdown/
 - Read through the guide on how to use Markdown files in GitHub, including the basics of formatting text, creating headings, adding links and images, and creating lists and tables.

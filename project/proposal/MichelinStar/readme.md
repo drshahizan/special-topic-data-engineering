@@ -1,4 +1,4 @@
-<h1></h1>
+<h1>Healthcare analytics platform</h1>
 <h2>Group Members </h2>
 <table>
   <tr>

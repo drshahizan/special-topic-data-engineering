@@ -16,7 +16,7 @@ data engineering, database systems and technologies. Various topics of interests
 ## Headline ⚡
 
 - [Course Information](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/CI_SCSP3843_STDE_22232.pdf)
-- [Project](./materials/mongodb-ds.md)
+- [Data Science Project](./materials/mongodb-ds.md)
 
 ## Student Information
 

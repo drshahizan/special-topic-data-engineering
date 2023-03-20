@@ -11,8 +11,8 @@ Don't forget to hit the :star: if you like this repo.
 
 Here are some project ideas for data science using MongoDB:
 
-## 1. Social media sentiment analysis
-Collect social media data from platforms such as Twitter or Instagram and use MongoDB to store the data. Analyze the sentiment of the posts using Natural Language Processing (NLP) techniques and visualize the results using charts or graphs.
+## 1. Social media monitoring tool
+Create a web application to monitor and analyze social media data in real-time to understand public opinion and sentiment. Collect social media data from platforms such as Twitter or Instagram and use MongoDB to store the data. Analyze the sentiment of the posts using Natural Language Processing (NLP) techniques and visualize the results using charts or graphs.
 
 Social media sentiment analysis using MongoDB is the process of analyzing social media data, such as tweets or posts, to determine the sentiment behind them. MongoDB is an ideal platform for sentiment analysis because it can store large amounts of unstructured data, such as social media posts, and can handle real-time data ingestion.
 

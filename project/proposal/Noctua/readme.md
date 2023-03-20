@@ -1,4 +1,4 @@
-<h1>:computer:NATURAL LANGUAGE PROCESSING TOOL	:shrug:</h>
+<h1>NATURAL LANGUAGE PROCESSING TOOL :wrench:</h>
 
 <h3>Group Members</h3>
 <table>

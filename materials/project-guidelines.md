@@ -87,7 +87,8 @@ Markdown is a simple and easy-to-use markup language for formatting plain text. 
 - Share your repository with others or collaborate with others on your project.
 
 Additionally, GitHub has many resources and tutorials available for learning how to use their platform, including their GitHub Learning Lab and their community forum.
-
+- [What is README.md File?](https://www.geeksforgeeks.org/what-is-readme-md-file/)
+- [How to write a readme.md file? (markdown file)](https://google.github.io/styleguide/docguide/READMEs.html)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

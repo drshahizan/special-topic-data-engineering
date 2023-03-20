@@ -19,6 +19,8 @@ data engineering, database systems and technologies. Various topics of interests
 
 ### Project
 - [Description of the project's topic](./materials/mongodb-ds.md)
+- [Guideline for Data Science Proposal](./)
+
 
 ## Student Information
 

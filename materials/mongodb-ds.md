@@ -224,7 +224,7 @@ Some of the key features of a Time-series analytics dashboard may include:
 
 A Time-series analytics dashboard can be useful in a variety of applications, such as financial forecasting, energy management, healthcare monitoring, and e-commerce sales analysis. It can help organizations make informed decisions based on historical trends and future projections, and can help them identify opportunities for improvement and growth.
 
-### Steps to develop project
+### Steps to develop a project
 Here are the general steps to develop a web application project for Time-series analytics dashboard using MongoDB:
 
 - Data Collection: Collect the Time-series data from various sources and store it in a MongoDB database.
@@ -251,8 +251,31 @@ Here are the general steps to develop a web application project for Time-series 
 ## 11. Recommendation engine
 Develop a web application using MongoDB to build recommendation systems based on user behavior and preferences.
 
+A recommendation engine using MongoDB is a system that provides personalized recommendations to users based on their past behavior and preferences. MongoDB, being a NoSQL document-oriented database, is an ideal platform to store and process large volumes of unstructured data, which is essential for building effective recommendation systems.
 
+There are two main types of recommendation engines: content-based and collaborative filtering.
 
+1. Content-based recommendation engine: This type of recommendation engine suggests items to users based on their past behavior and preferences. For example, if a user has shown a preference for action movies, the recommendation engine will suggest more action movies. In MongoDB, this can be achieved by storing metadata about each item, such as genre, actors, directors, and other relevant attributes, and then querying the database to find similar items based on the user's preferences.
+
+2. Collaborative filtering recommendation engine: This type of recommendation engine suggests items to users based on the behavior and preferences of other users who have similar tastes. For example, if two users have shown a preference for action movies, the recommendation engine will suggest action movies to both users. In MongoDB, this can be achieved by storing user-item interaction data, such as ratings or purchase history, and then using machine learning algorithms to identify patterns and similarities between users and items.
+
+### Steps to develop a project
+
+Building a recommendation engine using MongoDB involves the following steps:
+
+- Data Collection: Collect user and item data and store it in a MongoDB database.
+
+- Data Processing: Preprocess the data to remove any inconsistencies or anomalies.
+
+- Data Modeling: Choose a recommendation algorithm that suits your use case, such as collaborative filtering or content-based filtering.
+
+- User Interface: Build a user interface that enables users to interact with the recommendation engine and view the recommendations.
+
+- Deployment: Deploy the recommendation engine and database on a cloud platform such as AWS or Heroku.
+
+- Testing: Test the recommendation engine to ensure that it is functioning correctly and providing accurate recommendations.
+
+- Maintenance: Maintain and update the recommendation engine as needed to ensure that it continues to meet the requirements of the project.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

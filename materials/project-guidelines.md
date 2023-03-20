@@ -34,7 +34,6 @@ Methodology:
 - Explain how the data will be collected and processed.
 - Discuss the software and hardware resources that will be required for the project.
 
-
 System Architecture:
 - Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
 - Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
@@ -42,7 +41,7 @@ System Architecture:
 - Provide a flowchart or block diagram of the system architecture.
 
 Risks and Limitations:
-Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks. Provide a clear plan for mitigating these risks and limitations.
+Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks. Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
 
 Deliverables and Milestones:
 Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
@@ -62,6 +61,7 @@ Timeline and Deliverables:
 - Explain the quality assurance and testing procedures that will be followed.
 
 Conclusion:
+- Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
 - Summarize the proposal and reiterate the importance of the project.
 - Mention any potential limitations or challenges that may arise during the project.
 - Provide a call to action for the client to approve the proposal and proceed with the project.

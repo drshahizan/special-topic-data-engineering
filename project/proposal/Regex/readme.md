@@ -1,4 +1,4 @@
-<h1>E-commerce analytics dashboard</h1>
+<h1>E-Commerce Analytics Dashboard</h1>
 <h2>Group Members </h2>
 <table>
   <tr>

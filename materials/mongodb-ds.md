@@ -9,7 +9,20 @@ Don't forget to hit the :star: if you like this repo.
 
 # Data science project using MongoDB
 
-Here are some project ideas for data science using MongoDB:
+### 📚 Topic
+- [Social media monitoring tool](#1-social-media-monitoring-tool)
+- [E-commerce analytics dashboard](#2-e-commerce-analytics-dashboard)
+- [Customer segmentation tool]()
+- [Fraud detection dashboard]()
+- [Predictive maintenance tool]()
+- [Healthcare analytics platform]()
+- [Energy consumption analysis dashboard]()
+- [Natural language processing tool]()
+- [Image and video analysis platform]()
+- [Time-series analytics dashboard]()
+- [Recommendation engine]()
+
+Project ideas for data science using MongoDB:
 
 ## 1. Social media monitoring tool
 Create a web application to monitor and analyze social media data in real-time to understand public opinion and sentiment. Collect social media data from platforms such as Twitter or Instagram and use MongoDB to store the data. Analyze the sentiment of the posts using Natural Language Processing (NLP) techniques and visualize the results using charts or graphs.

@@ -38,3 +38,10 @@ Include a section that outlines the technical specifications of the proposed dat
 
 Conclusion:
 End the proposal with a strong conclusion that reiterates the benefits of the proposed data science project and summarizes the key points of the proposal.
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)

@@ -6,23 +6,23 @@
     <th>Matric</th>
   </tr>
   <tr>
-    <th>HONG PEI GEOK</th>
-    <th>A20EC0044</th>
+    <td>HONG PEI GEOK</td>
+    <td>A20EC0044</td>
   </tr>
   <tr>
-    <th>MADIHAH BINTI CHE ZABRI</th>
-    <th>A20EC0074</th>
+    <td>MADIHAH BINTI CHE ZABRI</td>
+    <td>A20EC0074</td>
   </tr>
     <tr>
-    <th>MAIZATUL AFRINA SAFIAH BINTI SAIFUL AZWAN</th>
-    <th>A20EC0204</th>
+    <td>MAIZATUL AFRINA SAFIAH BINTI SAIFUL AZWAN</td>
+    <td>A20EC0204</td>
   </tr>
     <tr>
-    <th>NURARISSA DAYANA BINTI MOHD SUKRI</th>
-    <th>A20EC0120</th>
+    <td>NURARISSA DAYANA BINTI MOHD SUKRI</td>
+    <td>A20EC0120</td>
   </tr>
   <tr>
-    <th>SAKINAH AL'IZZAH BINTI MOHD ASRI</th>
-    <th>A20EC0142</th>
+    <td>SAKINAH AL'IZZAH BINTI MOHD ASRI</td>
+    <td>A20EC0142</td>
   </tr>
 </table>

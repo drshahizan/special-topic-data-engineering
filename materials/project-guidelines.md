@@ -90,6 +90,9 @@ Additionally, GitHub has many resources and tutorials available for learning how
 - [What is README.md File?](https://www.geeksforgeeks.org/what-is-readme-md-file/)
 - [How to write a readme.md file? (markdown file)](https://google.github.io/styleguide/docguide/READMEs.html)
 
+## Proposal example using markdown file
+- [Proposal example 1](https://gist.github.com/jamesdlacroix/5a99eec3d11a5c745504)
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

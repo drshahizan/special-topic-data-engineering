@@ -8,7 +8,7 @@ Understand the problem: Before starting to write the proposal, make sure you ful
 The following are the key components of a data science project proposal:
 
 ### 1. Executive Summary
-- Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
+Restaurant reviews from Google are often used to survey places for customers that want to try that place out. We will perform an analysis on the reviews to determine whether it is positive or the opposite. From the analysis, we can conclude if a customer was satisfied with the service that was offered by the restaurant. Users who are searching for restaurants or places to eat will be able to find one not only by the ratings, but also with added criterias and information given or extracted from the review. We will narrow down the scope of restaurants to cafes in Johor.
 
 ### 2. Background:
 - Provide a background to the problem that the proposed data science project aims to solve. This should include a clear explanation of the current situation, the problems faced, and the potential benefits of the proposed solution.

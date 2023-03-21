@@ -1,4 +1,5 @@
-<h1>E-Commerce Analytics Dashboard</h1>
+<h1>E-Commerce Analytics Dashboard <img width=30px; height=30px src='https://user-images.githubusercontent.com/120556342/213840786-a564d96a-9798-4a3a-902b-ed90f1e9cef1.png'/>
+</h1>
 <h2>Group Members </h2>
 <table>
   <tr>

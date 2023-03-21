@@ -47,9 +47,9 @@ The following are the key components of a data science project proposal:
 
 
 ### 2. Background:
-<div>
-  <img align="center" src="https://i.pinimg.com/originals/aa/a6/84/aaa684fc7767831dde31a5b7e855565a.jpg" alt="Paris" height="250">
-</div>
+
+<img align="center" src="https://i.pinimg.com/originals/aa/a6/84/aaa684fc7767831dde31a5b7e855565a.jpg" alt="Paris" height="250"></img>
+
 
 - In today's fast-paced society, people are constantly on the go and looking for convenient places to grab a quick meal or drink. Cafes have become a popular choice for people who want to relax, work, or socialize while enjoying a cup of coffee or a tasty treat. However, with so many cafes to choose from, it can be challenging for customers to find the right one that meets their needs and expectations.
 - Other problems include rating systems that usually do not tell the whole story, sentiment and feeling of reviewer towards the cafe. With this system, we will extract more information to users through text analysis algorithms.

@@ -51,7 +51,7 @@ The following are the key components of a data science project proposal:
 
 ### 3. Goals and Objectives:
 - Provide a brief introduction about the project, its objective, and its significance. These should be measurable and tied to the overall business objectives of the organization.
-- Describe the problem statement that needs to be solved.
+- Describe the problem statement that needs to be solved. In this project, we aim to monitor the Google reviews about customer satisfaction on cafes in Johor using Natural Language Processing (NLP).
 
 ### 4. Scope: 
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.

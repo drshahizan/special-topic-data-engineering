@@ -1,5 +1,6 @@
 <h1 align='left'>Recommendation Engine</h1>
 <h2 align='left'>Executive Summary </h2>
+Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
 <h2 align='left'>Background</h2>
 <h2 align='left'>Goals and Objective</h2>
 <h2 align='left'>Scope</h2>

@@ -36,7 +36,7 @@ A Natural Language Processing (NLP) tool is a data science project that involves
 ---
 
 <div>
-<h1 align = 'center'><b>Cafe Satisfactory🍕 <br> Monitor google review about customer satisfaction on cafes in Johor.</b></h1>
+<h1 align = 'center'><b>Cafe Satisfactory	:pizza: <br> Monitor google review about customer satisfaction on cafes in Johor.</b></h1>
   </div>
 
   <h2>Key components</h2>

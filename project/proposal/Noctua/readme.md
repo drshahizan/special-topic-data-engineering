@@ -36,19 +36,17 @@ A Natural Language Processing (NLP) tool is a data science project that involves
 ---
 
 <div>
-<h1 align = 'center'><b>Cafe Satisfactory: Monitor google review about customer satisfaction on cafes in Johor.<b></h1>
+<h1 align = 'center'><b>Cafe Satisfactory: <br> Monitor google review about customer satisfaction on cafes in Johor.<b></h1>
   </div>
 
-## Key components
-<p>
+  <h2>Key components</h2>
 The following are the key components of a data science project proposal:
-  </p>
 
-### 1. Executive Summary
+  <h3>1. Executive Summary</h3>
 Restaurant reviews from Google are often used to survey places for customers that want to try that place out. We will perform an analysis on the reviews to determine whether it is positive or the opposite. From the analysis, we can conclude if a customer was satisfied with the service that was offered by the restaurant. Users who are searching for restaurants or places to eat will be able to find one not only by the ratings, but also with added criterias and information given or extracted from the review. 
 
 
-### 2. Background:
+  <h3>2. Background</h3>
 <p align="center">
 <img src="https://i.pinimg.com/originals/aa/a6/84/aaa684fc7767831dde31a5b7e855565a.jpg" alt="Paris" height="250"></img>
 </p>
@@ -60,7 +58,7 @@ Restaurant reviews from Google are often used to survey places for customers tha
 - By analyzing the text data from Google reviews, we can `identify the common themes and sentiments` expressed by customers, such as the quality of food and beverages, the level of service, the ambiance, and the value for money. We can also `extract insights` on specific aspects of customer satisfaction, such as the frequency of positive and negative reviews, the average rating, and the most common keywords used.
 - Overall, this project aims to provide insights into the customer satisfaction of cafes in Johor and help cafe owners and managers make data-driven decisions to `improve their services and offerings`.
 
-### 3. Goals and Objectives:
+<h3>3. Goals and Objectives</h3>
 
 Problem Statement:
 Customer reviews do not always show the true meaning. It can make other customers misunderstand the views of those customers who might want to try the cafe. Newer customers might find some reviews unreliable after trying out themselves. There are also some people who wanted to downgrade the cafe by intentionally giving negative reviews. The cafe owner also might want to improve their services thus, a reliable review might help them. 

@@ -1,21 +1,40 @@
-# Guideline for Data Science Proposal
+<div>
+<h1 align = 'center'><b>Cafe Satisfactory	:pizza: <br> Monitor google review about customer satisfaction on cafes in Johor.</b></h1>
+  </div>
 
-A data science project proposal is a detailed document that outlines the objectives, scope, and methodology of a data science project. It should provide a clear understanding of the problem to be addressed, the methods that will be used, and the expected outcomes. The proposal should be well-written, organized, and persuasive to convince stakeholders to invest in the project.
-
-Understand the problem: Before starting to write the proposal, make sure you fully understand the problem you are trying to solve. Talk to stakeholders, gather requirements, and clearly define the scope of the project.
-
-## Key components
+  <h2>Key components</h2>
 The following are the key components of a data science project proposal:
 
-### 1. Executive Summary
-Restaurant reviews from Google are often used to survey places for customers that want to try that place out. We will perform an analysis on the reviews to determine whether it is positive or the opposite. From the analysis, we can conclude if a customer was satisfied with the service that was offered by the restaurant. Users who are searching for restaurants or places to eat will be able to find one not only by the ratings, but also with added criterias and information given or extracted from the review.
+  <h3>1. Executive Summary</h3>
+Restaurant reviews from Google are often used to survey places for customers that want to try that place out. We will perform an analysis on the reviews to determine whether it is positive or the opposite. From the analysis, we can conclude if a customer was satisfied with the service that was offered by the restaurant. Users who are searching for restaurants or places to eat will be able to find one not only by the ratings, but also with added criterias and information given or extracted from the review. 
 
-### 2. Background:
-- Provide a background to the problem that the proposed data science project aims to solve. This should include a clear explanation of the current situation, the problems faced, and the potential benefits of the proposed solution.
 
-### 3. Goals and Objectives:
-- Provide a brief introduction about the project, its objective, and its significance. These should be measurable and tied to the overall business objectives of the organization.
-- Describe the problem statement that needs to be solved.
+  <h3>2. Background</h3>
+<p align="center">
+<img src="https://i.pinimg.com/originals/aa/a6/84/aaa684fc7767831dde31a5b7e855565a.jpg" alt="Paris" height="250"></img>
+</p>
+ 
+- In today's fast-paced society, people are constantly on the go and looking for convenient places to grab a quick meal or drink. Cafes have become a popular choice for people who want to relax, work, or socialize while enjoying a cup of coffee or a tasty treat. However, with so many cafes to choose from, it can be challenging for customers to find the right one that meets their needs and expectations.
+- Other problems include rating systems that usually do not tell the whole story, sentiment and feeling of reviewer towards the cafe. With this system, we will extract more information to users through text analysis algorithms.
+- As a result, `customer satisfaction` has become a crucial factor in the success of cafes.  In this project, we aim to monitor the Google reviews about customer satisfaction on cafes in Johor using NLP. NLP is a subfield of `artificial intelligence` that deals with the interaction between computers and human language.
+- However, existing rating systems that usually do not tell the whole story, sentiment and feeling of reviewer towards the cafe. With this system, we will extract more information to users through text analysis algorithms.
+- By analyzing the text data from Google reviews, we can `identify the common themes and sentiments` expressed by customers, such as the quality of food and beverages, the level of service, the ambiance, and the value for money. We can also `extract insights` on specific aspects of customer satisfaction, such as the frequency of positive and negative reviews, the average rating, and the most common keywords used.
+- Overall, this project aims to provide insights into the customer satisfaction of cafes in Johor and help cafe owners and managers make data-driven decisions to `improve their services and offerings`.
+
+<h3>3. Goals and Objectives</h3>
+
+Problem Statement:
+Customer reviews do not always show the true meaning. It can make other customers misunderstand the views of those customers who might want to try the cafe. Newer customers might find some reviews unreliable after trying out themselves. There are also some people who wanted to downgrade the cafe by intentionally giving negative reviews. The cafe owner also might want to improve their services thus, a reliable review might help them. 
+
+The significance of this project lies in its potential to provide valuable insights into the customer satisfaction of cafes in Johor. Cafe owners and managers can use these insights to improve their services and offerings, such as by addressing specific complaints or negative feedback, enhancing the quality of their products, and improving the overall customer experience.
+
+- To determine whether the reviews were positive or negative. 
+- To determine the most ordered and recommended meal from each cafe.
+- To analyze the percentage used word based on the reviews. 
+- To train a model that can successfully identify a positive or negative review
+- To ensure the review made by users is reliable based on our model’s outcome 
+
+In this project, we aim to monitor the Google reviews about customer satisfaction on cafes in Johor using Natural Language Processing (NLP). .
 
 ### 4. Scope: 
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
@@ -57,40 +76,3 @@ Restaurant reviews from Google are often used to survey places for customers tha
 - Summarize the proposal and reiterate the importance of the project.
 - Mention any potential limitations or challenges that may arise during the project.
 - Provide a call to action for the client to approve the proposal and proceed with the project.
-
-In summary, a data science project proposal should clearly outline the objectives, scope, methodology, system architecture, risks, limitations, technical specification, timeline, deliverables, and budget of the project. It should be well-written, organized, and persuasive to convince stakeholders to invest in the project.
-
-## Markdown files and sharing it on Github
-Markdown is a simple and easy-to-use markup language for formatting plain text. It is widely used for writing documentation, README files, and proposals. 
-
-### Guidelines for writing a proposal using Markdown files and sharing it on Github
-- Create a new Markdown file in your repository and give it a descriptive name (e.g., "proposal.md").
-- Use headings, bullet points, and other formatting features to make your proposal clear and easy to read. Use Markdown syntax to format your text, including headers, bold and italic text, lists, and links.
-- Once you have written your proposal, you can share it on Github by pushing your changes to your repository. You can also use Github's issue tracker to discuss your proposal with other contributors or stakeholders, and to keep track of any feedback or changes that need to be made.
-
-### How to use Markdown files
-
-- Go to the GitHub Guides page: https://guides.github.com/features/mastering-markdown/
-- Read through the guide on how to use Markdown files in GitHub, including the basics of formatting text, creating headings, adding links and images, and creating lists and tables.
-- Practice writing Markdown files using a text editor or a Markdown editor such as Typora, MarkdownPad, or Atom.
-- Create a GitHub account if you don't have one already.
-- Create a new repository on GitHub and upload your Markdown files to it.
-- Share your repository with others or collaborate with others on your project.
-
-Additionally, GitHub has many resources and tutorials available for learning how to use their platform, including their GitHub Learning Lab and their community forum.
-- [What is README.md File?](https://www.geeksforgeeks.org/what-is-readme-md-file/)
-- [How to write a readme.md file? (markdown file)](https://google.github.io/styleguide/docguide/READMEs.html)
-
-## Template file
-- [Project Proposal](https://datascienceinpractice.github.io/projects/ProjectProposal.html)
-- [Project-README-template.md](https://github.com/sfbrigade/data-science-wg/blob/master/dswg_project_resources/Project-README-template.md)
-- [GitHub workflow for data science project proposals](http://www.citizen-statistician.org/2020/11/github-workflow-for-data-science-project-proposals/)
-- [Capstone proposal](https://github.com/swissbib/clustering_metadata/blob/master/project-proposal-andreas-jud.ipynb)
-- [Proposal example 1](https://gist.github.com/jamesdlacroix/5a99eec3d11a5c745504)
-
-## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
-
-You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
-
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)

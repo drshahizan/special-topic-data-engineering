@@ -22,7 +22,7 @@ Don't forget to hit the :star: if you like this repo.
 | 8 | Natural language processing tool | Noctua| |
 | 9 | Image and video analysis platform | Rivertion | |
 | 10 | Time-series analytics dashboard|||
-| 11 | Recommendation engine | CodeX| |
+| 11 | Recommendation engine | CodeX| 11 |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

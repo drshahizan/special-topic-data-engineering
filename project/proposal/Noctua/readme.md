@@ -1,4 +1,4 @@
-<h1 align = 'center'><b>Cafe Satisfactory<br>Monitor Google review about customer satisfaction of cafes in Johor.<b></h1>
+<h1 align = 'center'><b>Cafe Satisfactory:<br>Monitor Google review about customer satisfaction of cafes in Johor.<b></h1>
 <div>
   <h2>Project Proposal: NATURAL LANGUAGE PROCESSING TOOL :wrench:</h2>
 </div>

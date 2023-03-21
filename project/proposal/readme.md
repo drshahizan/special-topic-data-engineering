@@ -34,17 +34,6 @@ Don't forget to hit the :star: if you like this repo.
 - [HTML](#html)
    - [Useful Links](#useful-links-1)
    - [E-book](#e-book)
-- [CSS](#css)
-   - [E-book](#e-book-1)
-   - [Useful Links](#useful-links-2)
-- [Bootstrap](#bootstrap)
-   - [Useful Links](#useful-links-3)
-   - [E-book & Web Template](#e-book--web-template)
-- [JavaScript](#javascript)
-   - [Useful Links](#useful-links-4)
-- [PHP](#php)
-- [Lab](./lab)
-- [Assignment](./assignment)
 
 
 ## Contribution 🛠️

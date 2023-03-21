@@ -1,4 +1,4 @@
-<h1 align = 'center'><b>Cafe Satisfactory<b></h1>
+<h1 align = 'center'><b>Cafe Satisfactory :coffee:<b></h1>
 <div>
   <h1>Project Proposal: NATURAL LANGUAGE PROCESSING TOOL :wrench:</h>
 </div>

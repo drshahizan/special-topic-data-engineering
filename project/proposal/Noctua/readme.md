@@ -1,5 +1,7 @@
 <h1>Project Proposal: NATURAL LANGUAGE PROCESSING TOOL :wrench:</h>
 
+---
+
 <h3>Group Members</h3>
 
 <table>

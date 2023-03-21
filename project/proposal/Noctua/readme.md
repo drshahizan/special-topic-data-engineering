@@ -46,7 +46,7 @@ The following are the key components of a data science project proposal:
 - Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
 
 ### 2. Background:
-- Provide a background to the problem that the proposed data science project aims to solve. This should include a clear explanation of the current situation, the problems faced, and the potential benefits of the proposed solution.
+- In today's fast-paced society, people are constantly on the go and looking for convenient places to grab a quick meal or drink.
 
 ### 3. Goals and Objectives:
 - Provide a brief introduction about the project, its objective, and its significance. These should be measurable and tied to the overall business objectives of the organization.

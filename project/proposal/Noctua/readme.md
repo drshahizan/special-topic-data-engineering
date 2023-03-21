@@ -1,4 +1,6 @@
-<h1>NATURAL LANGUAGE PROCESSING TOOL :wrench:</h>
+<h1>Project Proposal: NATURAL LANGUAGE PROCESSING TOOL :wrench:</h>
+
+---
 
 <h3>Group Members</h3>
 

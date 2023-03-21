@@ -1,4 +1,4 @@
-<h1 align="center"> Project Proposal - Customer Segmentation tool <a href="#" target="_blank" rel="noreferrer"> <img src="" alt="oracle" width="40" height="40"/> </a>   <br>
+<h1 align="center"> Project Proposal - Customer Segmentation tool <a href="#" target="_blank" rel="noreferrer">  </a>   <br>
 </h1>
 <h2 align="center">
   Group Name

@@ -36,7 +36,7 @@ A Natural Language Processing (NLP) tool is a data science project that involves
 ---
 
 <div>
-<h1 align = 'center'><b>Cafe Satisfactory: <br> Monitor google review about customer satisfaction on cafes in Johor.<b></h1>
+<h1 align = 'center'><b>Cafe Satisfactory: <br> Monitor google review about customer satisfaction on cafes in Johor.</b></h1>
   </div>
 
   <h2>Key components</h2>
@@ -50,7 +50,7 @@ Restaurant reviews from Google are often used to survey places for customers tha
 <p align="center">
 <img src="https://i.pinimg.com/originals/aa/a6/84/aaa684fc7767831dde31a5b7e855565a.jpg" alt="Paris" height="250"></img>
 </p>
-
+ 
 - In today's fast-paced society, people are constantly on the go and looking for convenient places to grab a quick meal or drink. Cafes have become a popular choice for people who want to relax, work, or socialize while enjoying a cup of coffee or a tasty treat. However, with so many cafes to choose from, it can be challenging for customers to find the right one that meets their needs and expectations.
 - Other problems include rating systems that usually do not tell the whole story, sentiment and feeling of reviewer towards the cafe. With this system, we will extract more information to users through text analysis algorithms.
 - As a result, `customer satisfaction` has become a crucial factor in the success of cafes.  In this project, we aim to monitor the Google reviews about customer satisfaction on cafes in Johor using NLP. NLP is a subfield of `artificial intelligence` that deals with the interaction between computers and human language.
@@ -72,8 +72,6 @@ The significance of this project lies in its potential to provide valuable insig
 - To ensure the review made by users is reliable based on our model’s outcome 
 
 In this project, we aim to monitor the Google reviews about customer satisfaction on cafes in Johor using Natural Language Processing (NLP). .
-
-------
 
 ### 4. Scope: 
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.

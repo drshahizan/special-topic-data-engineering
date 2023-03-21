@@ -43,7 +43,7 @@ A Natural Language Processing (NLP) tool is a data science project that involves
 The following are the key components of a data science project proposal:
 
 ### 1. Executive Summary
-- Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
+Restaurant reviews from Google are often used to survey places for customers that want to try that place out. We will perform an analysis on the reviews to determine whether it is positive or the opposite. From the analysis, we can conclude if a customer was satisfied with the service that was offered by the restaurant. Users who are searching for restaurants or places to eat will be able to find one not only by the ratings, but also with added criterias and information given or extracted from the review. 
 
 
 ### 2. Background:

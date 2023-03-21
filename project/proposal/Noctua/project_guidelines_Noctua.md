@@ -1,12 +1,3 @@
-<a href="https://github.com/drshahizan/special-topic-data-engineering/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/special-topic-data-engineering" alt="Stars Badge"/></a>
-<a href="https://github.com/drshahizan/special-topic-data-engineering/network/members"><img src="https://img.shields.io/github/forks/drshahizan/special-topic-data-engineering" alt="Forks Badge"/></a>
-<a href="https://github.com/drshahizan/special-topic-data-engineering/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/special-topic-data-engineering" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/drshahizan/special-topic-data-engineering/issues"><img src="https://img.shields.io/github/issues/drshahizan/special-topic-data-engineering" alt="Issues Badge"/></a>
-<a href="https://github.com/drshahizan/special-topic-data-engineering/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/special-topic-data-engineering?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/special-topic-data-engineering)
-
-Don't forget to hit the :star: if you like this repo.
-
 # Guideline for Data Science Proposal
 
 A data science project proposal is a detailed document that outlines the objectives, scope, and methodology of a data science project. It should provide a clear understanding of the problem to be addressed, the methods that will be used, and the expected outcomes. The proposal should be well-written, organized, and persuasive to convince stakeholders to invest in the project.

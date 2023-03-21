@@ -47,7 +47,7 @@ The following are the key components of a data science project proposal:
 
 
 ### 2. Background:
-<div>
+<div align ='center'>
   <img src="https://i.pinimg.com/originals/aa/a6/84/aaa684fc7767831dde31a5b7e855565a.jpg" alt="Paris" height="300">
 </div>
 

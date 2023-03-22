@@ -1,3 +1,5 @@
+<h1 align='center'><b>Analyzing Medical Images for Disease Diagnosis in Malaysia</b></h1>
+
 ### 1. Executive Summary
 - Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
 

@@ -27,7 +27,7 @@ As a result, *customer satisfaction* has become a crucial factor in the success 
 However, existing rating systems that usually do not tell the whole story, sentiment and feeling of reviewer towards the cafe. With this system, we will extract more information to users through text analysis algorithms.</p>
 
 <p align="justify">
-By analyzing the text data from Google reviews, we can <u>identify the common themes and sentiments</u> expressed by customers, such as the quality of food and beverages, the level of service, the ambiance, and the value for money. We can also `extract insights` on specific aspects of customer satisfaction, such as the frequency of positive and negative reviews, the average rating, and the most common keywords used.</p>
+By analyzing the text data from Google reviews, we can <u>identify the common themes and sentiments</u> expressed by customers, such as the quality of food and beverages, the level of service, the ambiance, and the value for money. We can also <b>extract insights</b> on specific aspects of customer satisfaction, such as the frequency of positive and negative reviews, the average rating, and the most common keywords used.</p>
 </p>
 
 <p align="justify">

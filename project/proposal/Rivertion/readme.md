@@ -22,7 +22,7 @@
     <td>A20EC0084</td>
   </tr>
   <tr>
-    <td>MIKHEL BIN MUHAMMAD EZRIN</td>
+    <td>MIKHEL ADAM BIN MUHAMMAD EZRIN</td>
     <td>A20EC0237</td>
   </tr>
 </table>

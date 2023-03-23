@@ -47,7 +47,8 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 - 1. `Data Sources` Collect Google reviews of cafes in Johor Bharu, Malaysia using the `Enter data source here`
 - 2. `Tools and Technologies` Use web scraping tools like BeautifulSoup or Scrapy to scrape the reviews from `Enter data source here`, and then utilize Natural Language Processing (NLP) techniques to perform sentiment analysis on the reviews
 - 3. `Research Objectives` The objective of the research is to monitor customer satisfaction in cafes in Johor Bharu, Malaysia through analyzing the sentiment of the Google reviews, identifying the most commonly mentioned aspects of customers' experiences, and measuring overall customer satisfaction levels for each cafe.
-- 
+- 4. `Sampling` Collect reviews of cafes that are located in Johor Bharu, Malaysia, and only include reviews that have been posted within the last `Enter duration here`.
+- 5. 
 
 ### 5. Methodology:
 - Explain the methodology and the techniques that will be used in the project. Provide a detailed methodology that outlines how the proposed data science project will be executed, including data collection and cleaning, data analysis, machine learning algorithms, and data visualization techniques.

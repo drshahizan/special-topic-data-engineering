@@ -12,9 +12,9 @@
 - [7. Risks and Limitations](#risks-and-limitations)
 - [8. Deliverables and Milestones](#deliverables-and-milestones)
 - [9. Resources](#resources)
-- [10. Timeline and Deliverables](#timeline-and-deliverables)
-- [11. Conclusion](#conclusion)
-- [13. Group Members Contribution](#group-members-contribution)
+- [10.  Technical Specifications](#technical-specifications)
+- [11. Timeline and Deliverables](#timeline-and-deliverables)
+- [12. Conclusion](#conclusion)
 
 
 ## Executive Summary
@@ -68,12 +68,4 @@
 - Mention any potential limitations or challenges that may arise during the project.
 - Provide a call to action for the client to approve the proposal and proceed with the project.
 
-## Group Members Contribution
 
-|                 NAME                 | Task       |
-|:------------------------------------:|------------|
-| TERENCE A/L LOORTHANATHAN            |  |
-| RISHMA FATHIMA BINTI BASHER          |  |
-| NUR SYAMALIA FAIQAH BINTI MOHD KAMAL |  |
-| QAISARA BINTI ROHZAN                 |  |
-| NURFARRAHIN BINTI CHE ALIAS          |  |

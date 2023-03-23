@@ -39,9 +39,21 @@ In summary, this project aims to provide a sales analysis dashboard that gives i
 
 ## Goals and Objectives
 
-- Provide a brief introduction about the project, its objective, and its significance. These should be measurable and tied to the overall business objectives of the organization.
+Around 80% of eCommerce businesses have been failing because of insufficient marketing strategy and selling the wrong product at the wrong price. Therefore, an effective marketing plan is the key success of all businesses. The business owner has to collect sales data and then analyze it himself. Without doing this, the business owner cannot understand the current situation of the marketplace.
 
-- Describe the problem statement that needs to be solved.
+However, modern technology can help to solve this problem effectively. Therefore, the owner's time will not be wasted to the maximum extent. The sales performance analysis dashboard of our project target to achieve the following objectives. 
+
+- To determine sales trends.
+- To provide real-time information on sales.
+- To monitor the most important metrics and KPIs
+- To identify which products are selling well and which are not
+- To optimize pricing strategies.
+
+This will be significant for online sellers to track their progress and quickly respond to any changes by getting insights and analytics on e-commerce data. 
+
+> Provide a brief introduction about the project, its objective, and its significance. These should be measurable and tied to the overall business objectives of the organization.
+
+> Describe the problem statement that needs to be solved.
 
   
 

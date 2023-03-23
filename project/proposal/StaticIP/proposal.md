@@ -2,13 +2,13 @@
 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/energy%20consumtion.gif">
 
-## 📒Introduction
+## 📒 Introduction
 As the world becomes more aware of the impact of energy consumption on the environment, businesses and organizations are increasingly seeking ways to improve their energy efficiency. One of the most effective ways to achieve this is through Energy Consumption Analysis. However, this process can be complicated, time-consuming, and difficult to track. This proposal outlines the development of an Energy Consumption Analysis Dashboard that will simplify the process and provide real-time insights into energy consumption, enabling businesses and organizations to take informed decisions and improve their energy efficiency.
 
-## Background
+## 🧱 Background
 Energy consumption analysis is the process of analyzing energy usage patterns and identifying opportunities for energy savings. This process can involve collecting and analyzing data on energy consumption, identifying areas of high energy consumption, and developing strategies to reduce energy usage. However, traditional methods of energy consumption analysis are often manual and time-consuming, and can be difficult to track and monitor.
 
-## Objective
+## 🔬 Objective
 The objective of this proposal is to develop an Energy Consumption Analysis Dashboard that will simplify the process of energy consumption analysis and provide real-time insights into energy usage patterns. The dashboard will enable businesses and organizations to monitor their energy consumption easily and efficiently, identify areas of high energy consumption and waste, and take proactive measures to improve energy efficiency.
 
 - Create a dashboard for energy consumption analysis.

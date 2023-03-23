@@ -8,33 +8,35 @@
 - [3. Goals and Objectives](#goals-and-objectives)
 - [4. Scope](#scope)
 - [5. Methodology](#methodology)
+- [6. System Architecture](#system-architecture)
+- [7. Risks and Limitations](#risks-and-limitations)
 
 
-### 1. Executive Summary
+### Executive Summary
 - Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
 
-### 2. Background:
+### Background:
 - Provide a background to the problem that the proposed data science project aims to solve. This should include a clear explanation of the current situation, the problems faced, and the potential benefits of the proposed solution.
 
-### 3. Goals and Objectives:
+### Goals and Objectives:
 - Provide a brief introduction about the project, its objective, and its significance. These should be measurable and tied to the overall business objectives of the organization.
 - Describe the problem statement that needs to be solved.
 
-### 4. Scope: 
+### Scope: 
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
 
-### 5. Methodology:
+### Methodology:
 - Explain the methodology and the techniques that will be used in the project. Provide a detailed methodology that outlines how the proposed data science project will be executed, including data collection and cleaning, data analysis, machine learning algorithms, and data visualization techniques.
 - Explain how the data will be collected and processed.
 - Discuss the software and hardware resources that will be required for the project.
 
-### 6. System Architecture:
+### System Architecture:
 - Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
 - Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
 - Discuss the tools and frameworks that will be used for data visualization and analysis.
 - Provide a flowchart or block diagram of the system architecture.
 
-### 7. Risks and Limitations:
+### RRisks and Limitations:
 - Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks. 
 - Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
 

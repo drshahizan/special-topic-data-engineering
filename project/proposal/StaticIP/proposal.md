@@ -26,7 +26,9 @@ The Energy Consumption Analysis Dashboard will be developed using a combination 
 ## 🖥️ System Architecture
 The Energy Consumption Analysis Dashboard will be a web-based platform accessible from any device. It will be designed to be user-friendly and easy to navigate, with customizable dashboards that can be tailored to the specific needs of individual businesses and organizations. The dashboard will provide real-time data on energy usage, costs, and efficiency, allowing businesses and organizations to identify areas of high energy consumption and waste, and take proactive measures to improve energy efficiency. It will also provide alerts and notifications to inform users of significant changes in energy consumption, enabling them to take immediate action.
 
+<div align="center">
 <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/dashboard.gif" height="150">
+</div>
 
 ## 🗂️ Resources
 The dashboard for energy consumption analysis requires the following tools:

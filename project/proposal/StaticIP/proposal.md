@@ -36,5 +36,5 @@ The development of the Energy Consumption Analysis Dashboard will require the fo
 - Energy meters, monitoring systems, and data loggers
 - Cloud hosting and storage services
 
-## Conclusion
+## 🔍 Conclusion
 The development of an Energy Consumption Analysis Dashboard is a crucial step in improving energy efficiency and reducing energy costs for businesses and organizations. The dashboard will provide real-time insights into energy consumption and waste, enabling businesses and organizations to take proactive measures to improve energy efficiency. The dashboard will be user-friendly and accessible from any device, making it easy for businesses and organizations to track and monitor their energy consumption. With the Energy Consumption Analysis Dashboard, businesses and organizations will be able to reduce their carbon footprint and contribute to a more sustainable future.

@@ -1,8 +1,8 @@
 # 📈 Energy Comsumption Analysis Dashboard 
 
 ## 📋 Table of Contents
-> [🤵 Group Member](#🤵-group-member)
-> [📒 Intoduction](#📒-introduction)
+* [🤵 Group Member](#🤵-group-member)
+* [📒 Intoduction](#📒-introduction)
 
 ## 🤵 Group Member 
 | Name | Matric No |

@@ -1,3 +1,8 @@
+# 📈 Energy Comsumption Analysis Dashboard 
+
+## 📋 Table of Contents
+* [📒 Intoduction](#📒-introduction)
+
 ## 📒 Introduction 
   Energy usage analysis is a technique for quantitatively analyzing energy use in order to better understand and manage energy use. This research can focus on any kind of energy, including power, natural gas, gasoline, coal, and others.
 

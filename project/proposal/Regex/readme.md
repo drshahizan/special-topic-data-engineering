@@ -1,3 +1,4 @@
+<img src='https://www.zuplic.com/wp-content/uploads/2018/07/eCommerce-Animated-GIF.gif'/>
 <h1 align="center">E-Commerce Analytics Dashboard <img width=30px; height=30px src='https://user-images.githubusercontent.com/120556342/213840786-a564d96a-9798-4a3a-902b-ed90f1e9cef1.png'/>
 </h1>
 An e-commerce analytics dashboard using MongoDB is a web-based tool that provides insights and analytics on e-commerce data, which is stored in a MongoDB database. It is a data visualization tool that helps businesses to track their sales, analyze customer behavior, and optimize their marketing campaigns to improve their bottom line.

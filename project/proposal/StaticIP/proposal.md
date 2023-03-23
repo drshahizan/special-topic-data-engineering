@@ -9,7 +9,7 @@ As the world becomes more aware of the impact of energy consumption on the envir
 Energy consumption analysis is the process of analyzing energy usage patterns and identifying opportunities for energy savings. This process can involve collecting and analyzing data on energy consumption, identifying areas of high energy consumption, and developing strategies to reduce energy usage. However, traditional methods of energy consumption analysis are often manual and time-consuming, and can be difficult to track and monitor.
 
 ## 🔬 Objective
-The objective of this proposal is to develop an Energy Consumption Analysis Dashboard that will simplify the process of energy consumption analysis and provide real-time insights into energy usage patterns. The dashboard will enable businesses and organizations to monitor their energy consumption easily and efficiently, identify areas of high energy consumption and waste, and take proactive measures to improve energy efficiency.
+The goal is to develop an energy consumption analysis dashboard that makes it easier to analyze energy consumption, offers real-time information, and aids companies and groups in keeping track of their energy usage, spotting areas with high levels of consumption and waste, and taking proactive steps to increase efficiency.
 
 - Create a dashboard for energy consumption analysis.
 - Simplify the energy usage measurement procedure.

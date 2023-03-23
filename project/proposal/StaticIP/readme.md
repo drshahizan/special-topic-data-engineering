@@ -1,18 +1,18 @@
 # 📈 Energy Comsumption Analysis Dashboard 
 
 ## 📋 Table of Contents
-* [🤵 Group Member](#group-member)
-* [📒 Intoduction](#introduction)
+* [🤵 Group Member](#🤵-group-member)
+* [📒 Intoduction](#📒-introduction)
 
-## 🤵 Group Member [](#){name=group-member}
+## 🤵 Group Member 
 | Name | Matric No |
 | ----- | ----- |
-| Kong Jia Rou | A20EC0198 | |
-| Lee Cai Xuan | A20EC0062 | |
-| Chloe Racquelmae Kennedy| A20EC0026 | |
-| Singthai Srisoi | A20EC0147 | |
+| Kong Jia Rou | A20EC0198 | 
+| Lee Cai Xuan | A20EC0062 | 
+| Chloe Racquelmae Kennedy| A20EC0026 | 
+| Singthai Srisoi | A20EC0147 | 
 
-## 📒 Introduction [](#){name=introduction}
+## 📒 Introduction 
 Energy usage analysis is a technique for quantitatively analyzing energy use in order to better understand and manage energy use. This research can focus on any kind of energy, including power, natural gas, gasoline, coal, and others.
 
 Data on energy usage can be gathered and analyzed using a variety of tools and methods in energy consumption analysis. These instruments include data loggers, energy meters, and energy tracking devices, among others. Businesses and organizations can use these tools and techniques to spot possible energy waste, minimize energy waste and expenses, and take the necessary actions to increase energy efficiency.

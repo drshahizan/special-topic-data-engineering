@@ -49,7 +49,30 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 - 3. `Research Objectives` The objective of the research is to monitor customer satisfaction in cafes in Johor Bharu, Malaysia through analyzing the sentiment of the Google reviews, identifying the most commonly mentioned aspects of customers' experiences, and measuring overall customer satisfaction levels for each cafe.
 - 4. `Sampling` Collect reviews of cafes that are located in Johor Bharu, Malaysia, and only include reviews that have been posted within the last `Enter duration here`.
 - 5. `Data Cleaning and Preparation` Clean the data by removing any irrelevant or duplicate reviews, correcting any spelling or grammar errors, and standardizing the format of the data.
-- 6. 
+- 6. `Analysis methods` Analyze the data using descriptive statistics, topic modeling, and sentiment analysis to identify common themes and patterns in customer feedback and to measure overall customer satisfaction levels.
+- 7. `Reporting` Present the findings of the analysis in a report that includes charts and graphs to visualize the data, as well as a written summary of the key findings and recommendations for improving customer satisfaction in the cafes in Johor Bharu, Malaysia.
+
+
+
+Aiman Hafizi
+Lastly, can you create a 200 words or more scope description of this project based on all the information above?
+Sure, here is a scope description for your project:
+
+The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Malaysia to gain insights into customer satisfaction levels and identify common themes in customer feedback. To achieve this, we will collect data from Google My Business, which will provide access to a large volume of reviews for cafes in the Johor Bharu area.
+
+We will use web scraping tools like BeautifulSoup or Scrapy to scrape the reviews from Google My Business, and then employ Natural Language Processing (NLP) techniques to perform sentiment analysis on the reviews. This will allow us to measure customer satisfaction levels for each cafe and identify the most commonly mentioned aspects of customers' experiences.
+
+To ensure that our analysis is based on current and relevant data, we will only include reviews that have been posted within the last 12 months. We will clean the data by removing any irrelevant or duplicate reviews, correcting any spelling or grammar errors, and standardizing the format of the data.
+
+Our analysis will include descriptive statistics, topic modeling, and sentiment analysis to identify common themes and patterns in customer feedback and to measure overall customer satisfaction levels. We will then present our findings in a report that includes charts and graphs to visualize the data, as well as a written summary of the key findings and recommendations for improving customer satisfaction in the cafes in Johor Bharu, Malaysia.
+
+Overall, this project will provide valuable insights into customer satisfaction levels for cafes in Johor Bharu, Malaysia, and help cafes to identify areas for improvement in their customer experience.
+
+
+
+
+
+
 
 
 ### 5. Methodology:

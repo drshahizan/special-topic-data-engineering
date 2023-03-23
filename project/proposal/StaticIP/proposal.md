@@ -4,6 +4,20 @@
 <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/energy%20consumtion.gif">
 </div>
 
+## Table of content
+- Introduction
+- Background
+- Objectives
+- Scope
+- Methodology
+- System Architecture
+- Risks and Limitations
+- Deliverables and Milestones
+- Resources
+- Technical Specifications
+- Timeline and Deliverables
+- Conclusion
+
 ## 📒 Introduction
 As the world becomes more aware of the impact of energy consumption on the environment, businesses and organizations are increasingly seeking ways to improve their energy efficiency. One of the most effective ways to achieve this is through Energy Consumption Analysis. However, this process can be complicated, time-consuming, and difficult to track. This proposal outlines the development of an Energy Consumption Analysis Dashboard that will simplify the process and provide real-time insights into energy consumption, enabling businesses and organizations to take informed decisions and improve their energy efficiency.
 

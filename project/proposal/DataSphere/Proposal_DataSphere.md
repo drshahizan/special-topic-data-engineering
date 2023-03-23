@@ -41,14 +41,14 @@
 - Discuss the tools and frameworks that will be used for data visualization and analysis.
 - Provide a flowchart or block diagram of the system architecture.
 
-## Risks and Limitations:
+## Risks and Limitations
 - Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks. 
 - Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
 
 ## Deliverables and Milestones
 - Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
 
-## Resources:
+## Resources
 - Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.
 
 ## Technical Specifications

@@ -1,5 +1,5 @@
 <div>
-<h1 align = 'center'><b>Customer Segmentation	📄: <br> Insert project title.</b></h1>
+<h1 align = 'center'><b>Customer Segmentation	📄: <br> Product Feature</b></h1>
   </div>
 
 ## Table of Contents

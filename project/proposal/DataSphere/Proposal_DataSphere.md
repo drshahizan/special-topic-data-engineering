@@ -2,14 +2,6 @@
 <h1 align = 'center'><b>Customer Segmentation	📄: <br> Insert project title.</b></h1>
   </div>
 
-## Group Members
-|                 NAME                 | MATRIC NO. |
-|:------------------------------------:|------------|
-| TERENCE A/L LOORTHANATHAN            | A20EC0165  |
-| RISHMA FATHIMA BINTI BASHER          | A20EC0137  |
-| NUR SYAMALIA FAIQAH BINTI MOHD KAMAL | A20EC0118  |
-| QAISARA BINTI ROHZAN                 | A20EC0133  |
-| NURFARRAHIN BINTI CHE ALIAS          | A20EC0121  |
 
 ### 1. Executive Summary
 - Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
@@ -61,3 +53,13 @@
 - Summarize the proposal and reiterate the importance of the project.
 - Mention any potential limitations or challenges that may arise during the project.
 - Provide a call to action for the client to approve the proposal and proceed with the project.
+
+## Group Members Contribution
+
+|                 NAME                 | Task       |
+|:------------------------------------:|------------|
+| TERENCE A/L LOORTHANATHAN            |  |
+| RISHMA FATHIMA BINTI BASHER          |  |
+| NUR SYAMALIA FAIQAH BINTI MOHD KAMAL |  |
+| QAISARA BINTI ROHZAN                 |  |
+| NURFARRAHIN BINTI CHE ALIAS          |  |

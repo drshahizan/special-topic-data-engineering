@@ -1,9 +1,10 @@
 # 📈 Energy Comsumption Analysis Dashboard 
 
 ## 📋 Table of Contents
-* [🤵 Group Member](#🤵-group-member)
-* [📒 Intoduction](#📒-introduction)
+* [🤵 Group Member](#group-member)
+* [📒 Intoduction](#intro)
 
+<div id="group-member" />
 ## 🤵 Group Member 
 | Name | Matric No |
 | ----- | ----- |
@@ -12,6 +13,7 @@
 | Chloe Racquelmae Kennedy| A20EC0026 | |
 | Singthai Srisoi | A20EC0147 | |
 
+<div id="intro" />
 ## 📒 Introduction 
 Energy usage analysis is a technique for quantitatively analyzing energy use in order to better understand and manage energy use. This research can focus on any kind of energy, including power, natural gas, gasoline, coal, and others.
 

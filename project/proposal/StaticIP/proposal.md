@@ -29,12 +29,12 @@ The Energy Consumption Analysis Dashboard will be a web-based platform accessibl
 <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/dashboard.gif" height="150">
 
 ## 🗂️ Resources
-The development of the Energy Consumption Analysis Dashboard will require the following resources:
-- A team of data analysts and developers
-- Data analytics tools and machine learning algorithms
-- Web development tools and frameworks
-- Energy meters, monitoring systems, and data loggers
-- Cloud hosting and storage services
+The dashboard for energy consumption analysis requires the following tools:
+
+- A team of programmers and data scientists 
+- Software for data extraction and machine learning - Web development tools and platforms
+- Energy meters, data collectors, and monitoring devices
+- Cloud saving and storage services
 
 ## 🔍 Conclusion
 It is crucial to create an energy usage research panel in order to improve energy efficiency and reduce energy costs for businesses and organizations. Because it gives real-time views into energy use and pollution, it makes it easier to take preventative steps and reduce carbon effect. It is simple to measure and track energy consumption with the interface thanks to its accessibility from any device, which contributes to the development of a more sustainable future.

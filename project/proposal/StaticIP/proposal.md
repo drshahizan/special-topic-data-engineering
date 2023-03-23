@@ -18,6 +18,8 @@ The goal is to develop an energy consumption analysis dashboard that makes it ea
 - Spot areas with high energy use and loss
 - Be diligent in making improvements to energy economy.
 
+<img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/analysis.gif" height="150">
+
 ## 🔖Mythologies
 The Energy Consumption Analysis Dashboard will be developed using a combination of data analytics tools, machine learning algorithms, and data visualization techniques. The dashboard will be designed to gather data from multiple sources, including energy meters, monitoring systems, and data loggers. The data will then be analyzed using machine learning algorithms to identify patterns and anomalies in energy consumption, providing insights that can be used to make informed decisions.
 

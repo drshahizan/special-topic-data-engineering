@@ -1,4 +1,6 @@
-# Customer segmentation tool
+<div>
+<h1 align = 'center'><b>Customer Segmentation	📄: <br> Insert project title.</b></h1>
+  </div>
 
 ## Group Members
 |                 NAME                 | MATRIC NO. |

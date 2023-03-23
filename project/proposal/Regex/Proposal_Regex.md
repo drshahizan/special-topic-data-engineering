@@ -1,5 +1,7 @@
 # Shopee Sales Performance Analysis
-
+<p align='center'>
+  <img height='250px' width='400px' src='https://intellipaat.com/blog/wp-content/uploads/2015/07/Big-Data.gif'/>
+</p>
   
 ## Table of Contents
 - [Executive Summary](#executive-summary)

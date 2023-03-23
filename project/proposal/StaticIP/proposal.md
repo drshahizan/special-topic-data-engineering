@@ -20,13 +20,13 @@ The goal is to develop an energy consumption analysis dashboard that makes it ea
 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/analysis.gif" height="150">
 
-## 🔖Mythologies
+## 🔖 Mythologies
 The Energy Consumption Analysis Dashboard will be developed using a combination of data analytics tools, machine learning algorithms, and data visualization techniques. The dashboard will be designed to gather data from multiple sources, including energy meters, monitoring systems, and data loggers. The data will then be analyzed using machine learning algorithms to identify patterns and anomalies in energy consumption, providing insights that can be used to make informed decisions.
 
-## System Architecture
+## 🖥️ System Architecture
 The Energy Consumption Analysis Dashboard will be a web-based platform accessible from any device. It will be designed to be user-friendly and easy to navigate, with customizable dashboards that can be tailored to the specific needs of individual businesses and organizations. The dashboard will provide real-time data on energy usage, costs, and efficiency, allowing businesses and organizations to identify areas of high energy consumption and waste, and take proactive measures to improve energy efficiency. It will also provide alerts and notifications to inform users of significant changes in energy consumption, enabling them to take immediate action.
 
-## Resources
+## 🗂️ Resources
 The development of the Energy Consumption Analysis Dashboard will require the following resources:
 - A team of data analysts and developers
 - Data analytics tools and machine learning algorithms
@@ -34,5 +34,5 @@ The development of the Energy Consumption Analysis Dashboard will require the fo
 - Energy meters, monitoring systems, and data loggers
 - Cloud hosting and storage services
 
-## Summary and Conclusion
+## Conclusion
 The development of an Energy Consumption Analysis Dashboard is a crucial step in improving energy efficiency and reducing energy costs for businesses and organizations. The dashboard will provide real-time insights into energy consumption and waste, enabling businesses and organizations to take proactive measures to improve energy efficiency. The dashboard will be user-friendly and accessible from any device, making it easy for businesses and organizations to track and monitor their energy consumption. With the Energy Consumption Analysis Dashboard, businesses and organizations will be able to reduce their carbon footprint and contribute to a more sustainable future.

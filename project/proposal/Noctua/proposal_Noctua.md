@@ -42,7 +42,7 @@ The significance of this project lies in its potential to provide valuable insig
 In this project, we aim to monitor the Google reviews about customer satisfaction on cafes in Johor using Natural Language Processing (NLP). .
 
 ### 4. Scope: 
-- This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
+The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Malaysia to gain insights into customer satisfaction levels and identify common themes in customer feedback. To achieve this, we will collect data from Google My Business, which will provide access to a large volume of reviews for cafes in the Johor Bharu area. To achieve the result in question, here are the project scope statement that we will be using to our aid.
 
 ### 5. Methodology:
 - Explain the methodology and the techniques that will be used in the project. Provide a detailed methodology that outlines how the proposed data science project will be executed, including data collection and cleaning, data analysis, machine learning algorithms, and data visualization techniques.

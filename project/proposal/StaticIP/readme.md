@@ -1,4 +1,4 @@
-# 📈 Energy Comsumption Analysis Dashboard 
+<img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Tech%20Consultant%20business%20Banner.png">
 
 ## 📋 Table of Contents
 * [🤵 Group Member](#🤵-group-member)

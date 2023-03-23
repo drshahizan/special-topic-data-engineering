@@ -2,6 +2,13 @@
 <h1 align = 'center'><b>Customer Segmentation	📄: <br> Insert project title.</b></h1>
   </div>
 
+## Table of Contents
+- [1. Executive Summary](#executive-summary)
+- [2. Background](#background)
+- [3. Goals and Objectives](#goals-and-objectives)
+- [4. Scope](#scope)
+- [5. Methodology](#methodology)
+
 
 ### 1. Executive Summary
 - Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.

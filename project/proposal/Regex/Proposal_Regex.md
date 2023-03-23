@@ -17,8 +17,8 @@
 
 ## Executive Summary
 
-- Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
-
+Increasing internet penetration and smarter, more powerful devices have made Malaysia's eCommerce market among the strongest it has ever been. Consumers are increasingly flocking online to purchase products and services. This means Malaysia ecommerce statistics are crucial to the creation of effective content strategies for publishers and affiliate marketers targeting the country. Therefore, this project aims to optimize e-commerce operations and to improve profitability by leveraging the insights provided by Shopee e-commerce data. Sales data will be used to identify which products are selling well and which are not, to understand seasonal trends and to optimize pricing strategies.
+> Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
   
 
 ## Background

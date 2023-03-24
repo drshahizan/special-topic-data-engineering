@@ -115,6 +115,31 @@ This will be significant for online sellers to track their progress and quickly 
 
 - Explain the data security measures that will be implemented.
 
+<table>
+  <tr>
+    <th>Data sources</th>
+    <td>-</td>
+  </tr>
+  <tr>
+    <th>Data schema</th>
+    <td>-</td>
+  </tr>
+  <tr>
+    <th>Data transformations</th>
+    <td>-</td>
+  </tr>
+  <tr>
+    <th>ML algorithms</th>
+    <td>-</td>
+  </tr>
+  <tr>
+    <th>Data visualization tools</th>
+    <td>-</td>
+  </tr>
+  <tr>
+    <th>Other</th>
+    <td>-</td>
+  </tr>
   
 
 ## Timeline and Deliverables

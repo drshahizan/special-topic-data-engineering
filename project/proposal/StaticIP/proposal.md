@@ -5,9 +5,9 @@
 </div>
 
 ## Table of content
-* [Introduction](#📒 Introduction)
-* [Background](#🧱 Background)
-* [Objective](#🔬 Objective)
+* [Introduction](#📒-Introduction)
+* [Background](#🧱-Background)
+* [Objective](#🔬-Objective)
 - Objective
 - Scope
 - Methodology

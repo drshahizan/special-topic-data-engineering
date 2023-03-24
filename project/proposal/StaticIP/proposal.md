@@ -62,8 +62,8 @@ The Energy Consumption Analysis Dashboard will be a web-based platform accessibl
 
 ## Deliverables and Milestones
 Key deliverables and milestones:
-* Data collection and integration
-Based on the goals of our dashboard, data from different sources must be collected. For example, data from sensors, energy meters and building management systems. All of the data will be collected and integrated in the dashboard.
+1) Data collection and integration
+* Based on the goals of our dashboard, data from different sources must be collected. For example, data from sensors, energy meters and building management systems. All of the data will be collected and integrated in the dashboard.
 * Data visualization design
 * User interface design
 * Security and privacy

@@ -2,7 +2,7 @@
 
 ## 📋 Table of Contents
 * [🤵 Group Member](#🤵-group-member)
-* [📒 Intoduction](#📒-introduction)
+* [📒 Introduction](#📒-introduction)
 
 ## 🤵 Group Member 
 | Name | Matric No |

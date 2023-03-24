@@ -62,8 +62,9 @@ The Energy Consumption Analysis Dashboard will be a web-based platform accessibl
 
 ## Deliverables and Milestones
 - Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
+Key deliverables and milestones:
 * Data collection and integration
-* Data visualization
+* Data visualization design
 * User interface design
 * Security and privacy
 * Testing and deployment

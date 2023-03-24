@@ -61,13 +61,14 @@ The Energy Consumption Analysis Dashboard will be a web-based platform accessibl
 - Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
 
 ## Deliverables and Milestones
-- Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
 Key deliverables and milestones:
 * Data collection and integration
 * Data visualization design
 * User interface design
 * Security and privacy
 * Testing and deployment
+
+Timelines and deadlines:
 
 
 ## 🗂️ Resources

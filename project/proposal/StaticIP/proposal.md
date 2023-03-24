@@ -62,6 +62,12 @@ The Energy Consumption Analysis Dashboard will be a web-based platform accessibl
 
 ## Deliverables and Milestones
 - Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
+*1)	Data collection and integration
+*2)	Data visualization
+*3)	User interface design
+*4)	Security and privacy
+*5)	Testing and deployment
+
 
 ## 🗂️ Resources
 The dashboard for energy consumption analysis requires the following tools:

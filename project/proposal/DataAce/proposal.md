@@ -14,7 +14,9 @@
 - [Conclusion](#conclusion)
 
 ## Executive Summary
-- Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
+The objective of this project is to develop a real-time dashboard via web application for credit card fraud detection. The system will use MongoDB as the database to store and process large volumes of transactional data, and machine learning algorithms will be employed to identify fraudulent patterns and alert the appropriate personnel. The dashboard will be tailored to provide relevant insights and alerts based on the management level of the company.
+
+The importance of credit card fraud detection cannot be overstated as it has a significant impact on the financial security and reputation of companies. The consequences of not detecting and preventing fraud can result in significant financial losses and damage to the company's reputation, which can lead to a loss of customer trust. The expected outcome of this project is an effective fraud detection system that can help companies reduce the risk of financial losses due to fraudulent activity and improve their overall financial security.
 
 ## Background:
 - Provide a background to the problem that the proposed data science project aims to solve. This should include a clear explanation of the current situation, the problems faced, and the potential benefits of the proposed solution.

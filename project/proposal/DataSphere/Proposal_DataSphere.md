@@ -47,6 +47,9 @@
 
 ## Deliverables and Milestones
 - Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
+### Deliverables:
+1. Detailed proposal outlining the product features of the data science project using MongoDB
+2. Technical specification document outlining the architecture and design of the project
 
 ## Resources
 - Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.

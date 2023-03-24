@@ -1,5 +1,19 @@
 <h1 align='left'>Recommendation Engine</h1>
 
+## Table of Contents
+- [Executive Summary](#executive-summary)
+- [Background](#background)
+- [Goals and Objectives](#goals-and-objectives)
+- [Scope](#scope)
+- [Methodology](#methodology)
+- [System Architecture](#system-architecture)
+- [Risks and Limitations](#risks-and-limitations)
+- [Deliverables and Milestones](#deliverables-and-milestones)
+- [Resources](#resources)
+- [Technical Specifications](#technical-specifications)
+- [Timeline and Deliverables](#timeline-and-deliverables)
+- [Conclusion](#conclusion)
+- 
 ## Executive Summary
 - Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
 

@@ -13,7 +13,7 @@
 - [Technical Specifications](#technical-specifications)
 - [Timeline and Deliverables](#timeline-and-deliverables)
 - [Conclusion](#conclusion)
-- 
+
 ## Executive Summary
 - Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
 

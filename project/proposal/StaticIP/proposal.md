@@ -5,7 +5,7 @@
 </div>
 
 ## Table of content
-- Introduction
+- [Introduction](#📒 Introduction)
 - Background
 - Objective
 - Scope
@@ -13,7 +13,7 @@
 - System Architecture
 - Risks and Limitations
 - Deliverables and Milestones
-- Resources
+- [Resource](#🗂️ Resources)
 - Technical Specifications
 - Timeline and Deliverables
 - Conclusion

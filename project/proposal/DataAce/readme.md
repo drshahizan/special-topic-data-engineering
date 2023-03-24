@@ -1,4 +1,4 @@
-<h1 align='center'>Fraud Detection</h1>
+<h1 align='center'>Credit Card Fraud Detection</h1>
 <h2 align='center'>Group Members</h2>
 <table align='center'>
   <tr>

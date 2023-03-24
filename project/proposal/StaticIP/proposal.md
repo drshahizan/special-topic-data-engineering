@@ -6,7 +6,8 @@
 
 ## Table of content
 * [Introduction](#📒 Introduction)
-- Background
+* [Background](#🧱 Background)
+* [Objective](#🔬 Objective)
 - Objective
 - Scope
 - Methodology

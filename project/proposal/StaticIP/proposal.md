@@ -46,7 +46,9 @@ The goal is to develop an energy consumption analysis dashboard that makes it ea
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
 
 ## 🔖 Methologies
-The Energy Consumption Analysis Dashboard will be developed using a combination of data analytics tools, machine learning algorithms, and data visualization techniques. The dashboard will be designed to gather data from multiple sources, including energy meters, monitoring systems, and data loggers. The data will then be analyzed using machine learning algorithms to identify patterns and anomalies in energy consumption, providing insights that can be used to make informed decisions.
+The Energy Consumption Analysis Dashboard will be developed using MongoDB to analyze energy consumption patterns and identify opportunities for energy savings.
+
+To begin the project, all relevant data such as electricity usage and gas usage will be collected. After the data is collected, the data will undergo pre-processing process before it is analyzed. The tasks in data pre-processing include cleaning, filtering and data transforming to ensure the data is usable. Then, we will start to carry out data analysis to derive insights from the data. In order to achieve this task, we will be using MongoDB's aggregation to determine and analyze the peak demand period and energy consumption patterns by geographic location or demographic group or detecting anomalies in energy consumption. Next, we will identify what features will be used to analyze the energy consumption pattern. Example of the features may be used is time, weather and occupancy. After that, we will predict the energy demand and determine the energy efficiency opportunities by developing predictive models by using machine learning models and algorihtms such as linear regression, time-series forecasting or clustering. Finally, we will visualize the results of the analysis by using chart or graph so that we can understand the energy usage patterns and areas of energy savings easily.
 
 ## 🖥️ System Architecture
 The Energy Consumption Analysis Dashboard will be a web-based platform accessible from any device. It will be designed to be user-friendly and easy to navigate, with customizable dashboards that can be tailored to the specific needs of individual businesses and organizations. The dashboard will provide real-time data on energy usage, costs, and efficiency, allowing businesses and organizations to identify areas of high energy consumption and waste, and take proactive measures to improve energy efficiency. It will also provide alerts and notifications to inform users of significant changes in energy consumption, enabling them to take immediate action.
@@ -56,9 +58,23 @@ The Energy Consumption Analysis Dashboard will be a web-based platform accessibl
 </div>
 
 ## Risk and limitations
-- Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks.
+Although creating the energy consumption analysis dashboard will provide make our life more convienient, it still has its risk and limitations:
 
-- Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
+### Financial Risk
+A huge investments may be needed for data aggregation, collection and storage. If there is no proper financial planning, projects managers may waste the money on unnecessary places. The project end up to be abandoned and unable to be completed causing the organization to lose benefits. 
+
+### Technical Risk
+Technical risk can involves system breaches, cyber-attacks and technical failure. 
+
+Effective management of technology risk involves:
+
+Identifying potential risks.
+Assessing their impact on the project.
+Implementing measures to mitigate and manage them.
+This can include security protocols, redundancy measures, and contingency plans to ensure the project's success.
+
+### Legal Risk
+Legal risk can be unpredictable and may arise from legal and regulatory duties. These include contract risks, litigation brought against the business or organization, and internal legal issues. 
 
 ## Deliverables and Milestones
 Key deliverables and milestones:

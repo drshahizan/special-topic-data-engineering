@@ -21,6 +21,7 @@ Netflix, YouTube, Spotify and many more streaming platforms have been introduced
 
 ## Background
 - Provide a background to the problem that the proposed data science project aims to solve. This should include a clear explanation of the current situation, the problems faced, and the potential benefits of the proposed solution.
+- 
 
 ## Goals and Objective
 - Provide a brief introduction about the project, its objective, and its significance. These should be measurable and tied to the overall business objectives of the organization.

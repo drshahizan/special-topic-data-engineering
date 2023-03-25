@@ -52,7 +52,7 @@ Objectives:
 
 ## 5. 📄 Methodology:
 
-The methodology for the proposed project will involve the following steps:
+The proposed data science project for developing a computer-aided diagnostic (CAD) system for analyzing medical images will be executed using the following methodology:
 
 <ol>
 	<li>Data Collection</li>
@@ -80,7 +80,7 @@ The methodology for the proposed project will involve the following steps:
 The software and hardware resources required for the project include:
 
 1. Python programming language for developing machine learning models and data visualization tools.
-2. Deep learning libraries such as Keras and TensorFlow for developing CNN models.
+2. Deep learning libraries such as Flask and TensorFlow for developing CNN models.
 3. Scikit-learn library for developing SVM and random forest models.
 4. MongoDB database for storing and processing the large volumes of medical image data.
 5. High-performance computing resources such as GPUs and multi-core processors for training the machine learning models.
@@ -88,13 +88,26 @@ The software and hardware resources required for the project include:
 
 ## 6. ⚙️ System Architecture:
 
-- Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
+The proposed system architecture for the computer-aided diagnostic (CAD) system for analyzing medical images consists of three main components: data storage and management, machine learning model training and evaluation, and the CAD system interface. The system architecture will be implemented using various tools and technologies, including MongoDB, Python, TensorFlow, Flask, and React.
 
-- Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
-
-- Discuss the tools and frameworks that will be used for data visualization and analysis.
-
-- Provide a flowchart or block diagram of the system architecture.
+<ol>
+	<li>Data Storage and Management:</li>
+  	<ul>
+ 		<li>The medical image dataset will be stored in MongoDB, a document-based NoSQL database that provides scalability and flexibility. MongoDB allows for 			efficient storage, retrieval, and querying of large datasets. The dataset will be annotated with labels that indicate the presence or absence of 		  specific medical conditions.</li>
+  	</ul>
+	<li>Machine Learning Model Training and Evaluation:</li>
+  	<ul>
+  		<li>Python will be used for machine learning model training and evaluation. The TensorFlow library will be used to develop and train machine learning 		      models on the annotated medical image dataset. The performance of the trained models will be evaluated using various metrics such as accuracy, 			precision, recall, and F1 score. The best-performing models will be selected and integrated into the CAD system.</li>
+  	</ul>
+	<li>CAD System Interface:</li>
+  	<ul>
+  		<li>The CAD system interface will be developed using Flask, a Python-based web framework, and React, a JavaScript library for building user interfaces. 		The CAD system interface will provide medical professionals with a user-friendly interface to upload medical images, analyze the images using the 		  trained machine learning models, and receive diagnostic results. The CAD system interface will also include data visualization and analysis tools to 			enable medical professionals to explore and interpret the results of the machine learning models.</li>
+  	</ul>
+	<li>Hardware and Software Requirements:</li>
+	<ul>
+  		<li>The proposed system architecture requires a server with a minimum of 16 GB of RAM and a multi-core CPU. The server should also have a GPU with at 		      least 8 GB of VRAM to accelerate the training of machine learning models. The server should run a Linux operating system with Python, TensorFlow, 		Flask, and MongoDB installed.</li>
+  	</ul>
+</ol>
 
 
 ## 7. 🛑 Risks and Limitations:

@@ -1,4 +1,4 @@
-<h1 align='center'><b>Analyzing Medical Images for Disease Diagnosis in Malaysia</b></h1>
+<h1 align='center'><b>Analyzing Medical Images for Disease Diagnosis in Malaysia 👨‍⚕️</b></h1> 
 
 
 ## 1. Executive Summary
@@ -127,7 +127,7 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 
 
 
-## 10. Technical Specifications:
+## 10. 🧰 Technical Specifications:
 
 <h3>Data Schema:</h3>
 <ul>

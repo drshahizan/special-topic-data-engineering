@@ -19,7 +19,13 @@
 
 ## 4. Scope: 
 
-- This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
+<ul>
+  <li>The scope of this project is to develop an AI system for the analysis of chest X-ray images of pediatric patients.</li>
+  <li>The dataset comprises 5,863 high-quality X-Ray images (JPEG) of anterior-posterior view, with 2 categories - Pneumonia and Normal, which are organized into 3 folders (train, test, val) and contain subfolders for each image category (Pneumonia/Normal). The dataset was sourced from Kaggle, with the URL: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia.</li>
+  <li>The main tool to be employed in this project is 3D Slicer. In addition, various tools and technologies such as machine learning algorithms, deep learning frameworks, image processing libraries, and cloud-based computing resources will be used to develop the AI system.</li>
+  <li>The chest X-ray images were selected from retrospective cohorts of pediatric patients of one to five years old from Guangzhou Women and Children’s Medical Center, Guangzhou. The images were initially screened for quality control, and all low-quality or unreadable scans were removed from the dataset. The diagnoses for the images were then graded by two expert physicians, with the evaluation set checked by a third expert to account for any grading errors.</li>
+  <li>The successful completion of the project will enable accurate and efficient diagnosis of chest X-ray images in pediatric patients, contributing to improved clinical outcomes and patient care.</li>
+</ul>
 
 
 ## 5. Methodology:

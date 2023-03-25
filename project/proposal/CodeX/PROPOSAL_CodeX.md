@@ -20,7 +20,7 @@ Netflix, YouTube, Spotify and many more streaming platforms have been introduced
 > Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes. 
 
 ## Background
-- As Netflix is one of the streaming platform , it uses Netflix Recommendation Algorithm (NRA) , to analyze user behaviour. Personalization is the key to success in today consumer world because it grabs consumer attention for the best experience and interaction towards Netflix. Netflix Recommendation Algorithm (NRA) uses personalization based on 
+- As Netflix is one of the streaming platform , it uses Netflix Recommendation Algorithm (NRA) , to analyze user behaviour. Personalization is the key to success in today consumer world because it grabs consumer attention for the best experience and interaction towards Netflix. Netflix Recommendation Algorithm (NRA) create personalization based on 
 these informations :
 
 

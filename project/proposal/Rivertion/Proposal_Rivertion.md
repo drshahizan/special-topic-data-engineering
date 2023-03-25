@@ -90,29 +90,24 @@ The software and hardware resources required for the project include:
 
 The proposed system architecture for the computer-aided diagnostic (CAD) system for analyzing medical images consists of three main components: data storage and management, machine learning model training and evaluation, and the CAD system interface. The system architecture will be implemented using various tools and technologies, including MongoDB, Python, TensorFlow, Flask, and React.
 
-<ol>
-	<li>Data Storage and Management:</li>
-  	<ul>
- 		<li>The medical image dataset will be stored in MongoDB, a document-based NoSQL database that provides scalability and flexibility. MongoDB allows for 			efficient storage, retrieval, and querying of large datasets. The dataset will be annotated with labels that indicate the presence or absence of 		  specific medical conditions.</li>
-  	</ul>
-	<li>Machine Learning Model Training and Evaluation:</li>
-  	<ul>
-  		<li>Python will be used for machine learning model training and evaluation. The TensorFlow library will be used to develop and train machine learning 		      models on the annotated medical image dataset. The performance of the trained models will be evaluated using various metrics such as accuracy, 			precision, recall, and F1 score. The best-performing models will be selected and integrated into the CAD system.</li>
-  	</ul>
-	<li>CAD System Interface:</li>
-  	<ul>
-  		<li>The CAD system interface will be developed using Flask, a Python-based web framework, and React, a JavaScript library for building user interfaces. 		The CAD system interface will provide medical professionals with a user-friendly interface to upload medical images, analyze the images using the 		  trained machine learning models, and receive diagnostic results. The CAD system interface will also include data visualization and analysis tools to 			enable medical professionals to explore and interpret the results of the machine learning models.</li>
-  	</ul>
-	<li>Hardware and Software Requirements:</li>
-	<ul>
-  		<li>The proposed system architecture requires a server with a minimum of 16 GB of RAM and a multi-core CPU. The server should also have a GPU with at 		      least 8 GB of VRAM to accelerate the training of machine learning models. The server should run a Linux operating system with Python, TensorFlow, 		Flask, and MongoDB installed.</li>
-  	</ul>
-</ol>
+
+| Components | Description |
+| ------------- | ------------- |
+| Data Storage and Management  | The medical image dataset will be stored in MongoDB, a document-based NoSQL database that provides scalability and flexibility. MongoDB allows for efficient storage, retrieval, and querying of large datasets. The dataset will be annotated with labels that indicate the presence or absence of specific medical conditions.  |
+| Machine Learning Model Training and Evaluation  | Python will be used for machine learning model training and evaluation. The TensorFlow library will be used to develop and train machine learning models on the annotated medical image dataset. The performance of the trained models will be evaluated using various metrics such as accuracy, precision, recall, and F1 score. The best-performing models will be selected and integrated into the CAD system.  |
+| CAD System Interface | The CAD system interface will be developed using Flask, a Python-based web framework, and React, a JavaScript library for building user interfaces. The CAD system interface will provide medical professionals with a user-friendly interface to upload medical images, analyze the images using the 		  trained machine learning models, and receive diagnostic results. The CAD system interface will also include data visualization and analysis tools to enable medical professionals to explore and interpret the results of the machine learning models. |
+
+
+The suggested system architecture calls for a server with at least 16 GB of RAM and a multi-core CPU in terms of hardware and software requirements. For the purpose of accelerating the training of machine learning models, the server should also include a GPU with at least 8 GB of VRAM. Python, TensorFlow, Flask, MongoDB, and a Linux operating system should all be installed on the server.
 
 For data visualisation and analysis, the CAD system interface will make use of a variety of programmes and frameworks, such as Plotly and Matplotlib for dynamic and static plots, respectively. Medical professionals will be able to investigate and examine the diagnostic outcomes of the trained machine learning models using the interface's data tables, which will also be included.
 
 Below are the flowchart for the system architecture:
-
+```mermaid
+graph TD;
+    A[Data Storage and Management]-->B[Machine Learning Model Training and Evaluation];
+    B[Machine Learning Model Training and Evaluation]-->C[CAD System Interface];
+```
 
 ## 7. 🛑 Risks and Limitations:
 

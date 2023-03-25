@@ -3,7 +3,7 @@
   <img height='250px' width='400px' src='https://intellipaat.com/blog/wp-content/uploads/2015/07/Big-Data.gif'/>
 </p>
   
-## Table of Contents
+## 📝Table of Contents
 - [Executive Summary](#executive-summary)
 - [Background](#background)
 - [Goals and Objectives](#goals-and-objectives)
@@ -17,7 +17,7 @@
 - [Timeline and Deliverables](#timeline-and-deliverables)
 - [Conclusion](#conclusion)
 
-## Executive Summary
+## 📄Executive Summary
 
 Increasing internet penetration and smarter, more powerful devices have made Malaysia's e-commerce market among the strongest it has ever been. Consumers are increasingly flocking online to purchase products and services. This means Malaysia e-commerce statistics are crucial to the creation of effective content strategies for publishers and affiliate marketers targeting the country. 
 

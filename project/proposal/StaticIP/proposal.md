@@ -112,6 +112,18 @@ The dashboard for energy consumption analysis requires the following tools:
 ## Technical Specifications
 - Discuss the technical specifications of the proposed data science project, including data sources, data schema, data transformations, machine learning algorithms, data visualization tools, and other technical details.
 
+Data can be collected from different sources such as smart meters, utility bills for energy consumptions analysis. The data schema includes:
+
+- Timestamp
+- Energy consumption
+- Occupancy data
+
+Data Visualization Tools:
+
+- Tableau
+- Plotly
+- Power BI
+
 Programming Languages, Frameworks and Libraries:
 
 - Python

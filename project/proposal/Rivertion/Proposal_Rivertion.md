@@ -114,22 +114,26 @@ The software and hardware resources required for the project include:
 
 ## 10. Technical Specifications:
 
-<h4>Data Schema:</h4>
-<p>The dataset consists of 5,863 X-Ray images (JPEG) of anterior-posterior view, with 2 categories - Pneumonia and Normal.</p>
-<p>The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal).</p>
-
-<h4>Data Transformations:</h4>
-<p>Data pre-processing will be performed to normalize and standardize the image data.</p>
-<p>Data augmentation techniques such as rotation, zooming, and flipping will be used to increase the diversity of the dataset and improve model performance.</p>
-
-<h4>Machine Learning Algorithms:</h4>
-<p>Convolutional Neural Networks (CNN) will be used for image classification tasks.</p>
-<p>Transfer learning techniques will be used to leverage pre-trained models and improve the efficiency of the model training process.</p>
-
-<h4>Data Visualization Tools:</h4>
-<p>Matplotlib and Seaborn will be used for data visualization tasks.</p>
-
-<h4>Programming Languages, Frameworks, and Libraries:</h4>
+<h3>Data Schema:</h3>
+<ul>
+	<li>The dataset consists of 5,863 X-Ray images (JPEG) of anterior-posterior view, with 2 categories - Pneumonia and Normal.</li>
+	<li>The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal).</li>
+</ul>
+<h3>Data Transformations:</h3>
+<ul>
+	<li>Data pre-processing will be performed to normalize and standardize the image data.</li>
+	<li>Data augmentation techniques such as rotation, zooming, and flipping will be used to increase the diversity of the dataset and improve model performance.</li>
+</ul>
+<h3>Machine Learning Algorithms:</h3>
+<ul>
+	<li>Convolutional Neural Networks (CNN) will be used for image classification tasks.</li>
+	<li>Transfer learning techniques will be used to leverage pre-trained models and improve the efficiency of the model training process.</li>
+</ul>
+<h3>Data Visualization Tools:</h3>
+<ul>
+	<li>Matplotlib and Seaborn will be used for data visualization tasks.</li>
+</ul>
+<h3>Programming Languages, Frameworks, and Libraries:</h3>
 <ul>
 	<li>Python will be used as the primary programming language.</li>
 	<li>Tensorflow will be used as the deep learning frameworks.</li>
@@ -137,17 +141,18 @@ The software and hardware resources required for the project include:
 	<li>OpenCV will be used for image processing tasks.</li>
 	<li>Numpy and Pandas will be used for data manipulation and analysis.</li>
 </ul>
-
-<h4>Hardware and Software Requirements:</h4>
-<p>A machine with a minimum of 8GB RAM and a dedicated GPU (e.g. Nvidia GTX 1080) is recommended for training the deep learning models.</p>
-<p>The software requirements include Python 3.6+, Keras, Tensorflow, Scikit-learn, OpenCV, Numpy, and Pandas.</p>
-
-<h4>Data Security Measures:</h4>
+<h3>Hardware and Software Requirements:</h3>
+<ul>
+	<li>A machine with a minimum of 8GB RAM and a dedicated GPU (e.g. Nvidia GTX 1080) is recommended for training the deep learning models.</li>
+	<li>The software requirements include Python 3.6+, Keras, Tensorflow, Scikit-learn, OpenCV, Numpy, and Pandas.</li>
+</ul>
+<h3>Data Security Measures:</h3>
 <ul>
 	<li>The dataset will be stored securely on a password-protected machine.</li>
 	<li>Access to the dataset will be restricted to authorized personnel only.</li>
 	<li>Any data backups will also be stored securely with proper encryption.</li>
 </ul>
+
 
 ## 11. Timeline and Deliverables: 
 

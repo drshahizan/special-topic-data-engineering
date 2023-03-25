@@ -1,7 +1,7 @@
 <h1 align='center'><b>Analyzing Medical Images for Disease Diagnosis in Malaysia 👨‍⚕️</b></h1> 
 
 
-## 1. Executive Summary
+## 1. 📜 Executive Summary
 
 This project aims to develop a computer-aided diagnostic (CAD) system for analyzing medical images to improve disease diagnosis in Malaysia. The objectives of the project are to train machine learning models on a dataset of medical images, evaluate the performance of the models using various metrics, and integrate the models into a CAD system that can assist medical professionals in making more accurate diagnoses.
 
@@ -9,7 +9,7 @@ The expected outcomes of the project include a dataset of annotated medical imag
 
 
 
-## 2. Background:
+## 2. 📝 Background:
 <p align="center">
 <img src="https://i.kym-cdn.com/entries/icons/original/000/032/279/Screen_Shot_2019-12-30_at_11.26.24_AM.png" alt="Paris" height="250"></img>
 </p>
@@ -23,7 +23,7 @@ The proposed data science project aims to address these challenges by developing
 The potential benefits of the proposed CAD system are significant. By improving the speed and accuracy of diagnosis, the system can reduce the time required for patients to receive treatment, which can be critical in cases where time is of the essence. Additionally, the system can help reduce the workload of radiologists and improve their efficiency, allowing them to spend more time on complex cases that require their expertise. Finally, the system can also help address the shortage of qualified radiologists by enabling healthcare providers to diagnose and treat more patients with existing resources. Overall, the proposed CAD system has the potential to significantly improve healthcare outcomes in Malaysia and enhance the quality of medical imaging services.
 
 
-## 3. Goals and Objectives:
+## 3. 🎯 Goals and Objectives:
 
 Goals:
 The main goal of the proposed project is to develop a computer-aided diagnostic (CAD) system for medical imaging analysis that can improve disease diagnosis in Malaysia. The CAD system will leverage machine learning models trained on a dataset of medical images to assist radiologists in making more accurate diagnoses, reducing the time and effort required to analyze images, and improving the efficiency of diagnosis. The ultimate goal is to improve patient outcomes and enhance the quality of medical imaging services in Malaysia.
@@ -39,7 +39,7 @@ Objectives:
 8. Refine the CAD system based on feedback from medical professionals and patients to improve its performance and usability.
 
 
-## 4. Scope: 
+## 4. 🔍 Scope: 
 
 <ul>
   <li>The scope of this project is to develop an AI system for the analysis of chest X-ray images of pediatric patients.</li>
@@ -50,7 +50,7 @@ Objectives:
 </ul>
 
 
-## 5. Methodology:
+## 5. 📄 Methodology:
 
 The methodology for the proposed project will involve the following steps:
 
@@ -84,7 +84,7 @@ The software and hardware resources required for the project include:
 5.
 
 
-## 6. System Architecture:
+## 6. ⚙️ System Architecture:
 
 - Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
 
@@ -95,7 +95,7 @@ The software and hardware resources required for the project include:
 - Provide a flowchart or block diagram of the system architecture.
 
 
-## 7. Risks and Limitations:
+## 7. 🛑 Risks and Limitations:
 
 Even though analyzing medical images for disease diagnosis gives a lot of advantages both to doctors and patients, this process also poses several risks and limitations that should be considered. Below are points for technical, financial and legal risks:
 
@@ -152,7 +152,7 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 
 
 
-## 9. Resources:
+## 9. 📚 Resources:
 
 - Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.
 
@@ -201,7 +201,7 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 </ul>
 
 
-## 11. Timeline and Deliverables: 
+## 11. 🏁 Timeline and Deliverables: 
 
 - Provide a detailed timeline for the project, including milestones and deadlines.
 
@@ -210,7 +210,7 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 - Explain the quality assurance and testing procedures that will be followed.
 
 
-## 12. Conclusion:
+## 12. 📄 Conclusion:
 
 - Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
 

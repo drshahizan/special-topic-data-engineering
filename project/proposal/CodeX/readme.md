@@ -3,7 +3,7 @@
 </p>
 
 
-<h1 align='center'>Netflix Recommendation Engine 🔍</h1>
+<h1 align='center'>Streaming Platform Recommendation Engine Dashboard🔍</h1>
 <h2 align='center'>Group Members </h2>
 <table align='center'>
   <tr>

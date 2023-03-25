@@ -25,7 +25,7 @@ Therefore, this project aims to produce an e-commerce analytics dashboard that h
 > Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
   
 
-## Background
+## 🌎Background
 
 An ecommerce analytics dashboard is a group of visualizations based on ecommerce store’s data. Most dashboards cover a specific goal or topic, such as traffic or audience behavior. Nowadays, it has become essential since the number of online users have increased dramatically and there is a growing shift from offline to online purchasing. The growth is supported by the rapid adoption of smartphones, growing internet penetration, and the availability of secure online payment systems. This situation causes the difficulty of monitoring online business as there are large amounts of transactions in a day and new strategies are needed to attract customer interest. 
 
@@ -39,7 +39,7 @@ In summary, this project aims to provide a sales analysis dashboard that gives i
 
   
 
-## Goals and Objectives
+## 🎯Goals and Objectives
 
 Around 80% of eCommerce businesses have been failing because of insufficient marketing strategy and selling the wrong product at the wrong price. Therefore, an effective marketing plan is the key success of all businesses. The business owner has to collect sales data and then analyze it himself. Without doing this, the business owner cannot understand the current situation of the marketplace.
 
@@ -59,13 +59,13 @@ This will be significant for online sellers to track their progress and quickly 
 
   
 
-## Scope
+## 🔭Scope
 
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
 
   
 
-## Methodology
+## 🔍Methodology
 
 - Explain the methodology and the techniques that will be used in the project. Provide a detailed methodology that outlines how the proposed data science project will be executed, including data collection and cleaning, data analysis, machine learning algorithms, and data visualization techniques.
 
@@ -75,7 +75,7 @@ This will be significant for online sellers to track their progress and quickly 
 
   
 
-## System Architecture
+## 🔧System Architecture
 
 - Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
 
@@ -87,7 +87,7 @@ This will be significant for online sellers to track their progress and quickly 
 
   
 
-## Risks and Limitations
+## 📊Risks and Limitations
 
 - Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks.
 
@@ -95,19 +95,19 @@ This will be significant for online sellers to track their progress and quickly 
 
   
 
-## Deliverables and Milestones
+## 🔑Deliverables and Milestones
 
 - Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
 
   
 
-## Resources
+## 💡Resources
 
 - Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.
 
   
 
-## Technical Specifications
+## 📱Technical Specifications
 
 - Discuss the technical specifications of the proposed data science project, including data sources, data schema, data transformations, machine learning algorithms, data visualization tools, and other technical details.
 
@@ -142,9 +142,9 @@ This will be significant for online sellers to track their progress and quickly 
     <th>Other</th>
     <td>-</td>
   </tr>
-  
+</table>
 
-## Timeline and Deliverables
+## ⌚Timeline and Deliverables
 
 - Provide a detailed timeline for the project, including milestones and deadlines.
 
@@ -154,7 +154,7 @@ This will be significant for online sellers to track their progress and quickly 
 
   
 
-## Conclusion
+## 🎓Conclusion
 
 - Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
 

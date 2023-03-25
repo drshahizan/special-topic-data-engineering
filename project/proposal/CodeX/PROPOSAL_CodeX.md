@@ -1,4 +1,4 @@
-<h1 align='left'>Recommendation Engine</h1>
+<h1 align='left'>Recommendation Engine 🔍</h1>
 
 ## Table of Contents
 - [Executive Summary](#executive-summary)

@@ -112,7 +112,18 @@ The dashboard for energy consumption analysis requires the following tools:
 ## Technical Specifications
 - Discuss the technical specifications of the proposed data science project, including data sources, data schema, data transformations, machine learning algorithms, data visualization tools, and other technical details.
 
-- Mention the programming languages, frameworks, and libraries that will be used in the project.
+Programming Languages, Frameworks and Libraries:
+
+- Python
+_ JaveScript
+- SQL
+- Pandas
+- NumPy
+- Plotly
+
+Tools Used:
+- MySQL
+- AWS and Azure Cloud Platforms
 
 - Provide details about the hardware and software requirements for the proposed system.
 

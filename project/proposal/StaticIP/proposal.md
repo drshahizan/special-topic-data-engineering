@@ -8,7 +8,7 @@
 * [Introduction](#📒-Introduction)
 * [Background](#🧱-Background)
 * [Objective](#🔬-Objective)
-* [Scope](#Scope)
+* [Scope](#scope)
 * [Methologies](#🔖-Methologies)
 * [System Architecture](#🖥️-System-Architecture)
 * [Risks and Limitations](#Risks-and-Limitations)
@@ -57,13 +57,13 @@ It will be possible to view the Energy Consumption Analysis Dashboard from any d
 <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/dashboard.gif" height="150">
 </div>
 
-## Risk and limitations
+## 👻 Risk and limitations
 Although creating the energy consumption analysis dashboard will provide make our life more convienient, it still has its risk and limitations:
 
-### Financial Risk
+### 😱 Financial Risk
 A huge investments may be needed for data aggregation, collection and storage. If there is no proper financial planning, projects managers may waste the money on unnecessary places. The project end up to be abandoned and unable to be completed causing the organization to lose benefits. 
 
-### Technical Risk
+### 🙀 Technical Risk
 Technical risk can involves system breaches, cyber-attacks and technical failure. 
 
 Effective management of technology risk involves:
@@ -73,10 +73,10 @@ Assessing their impact on the project.
 Implementing measures to mitigate and manage them.
 This can include security protocols, redundancy measures, and contingency plans to ensure the project's success.
 
-### Legal Risk
+### 😨 Legal Risk
 Legal risk can be unpredictable and may arise from legal and regulatory duties. These include contract risks, litigation brought against the business or organization, and internal legal issues. 
 
-## Deliverables and Milestones
+## 🗿 Deliverables and Milestones
 Key deliverables and milestones:
 1) Data collection and integration
 
@@ -102,7 +102,7 @@ Testing is required to check if the dashboard can function and interact with use
 | ----- | ----- |
 | Week 1 - 3 | Data collection and integration | 
 | Week 4 - 6 | Data visualization design | 
-| Week 7 - 9 | User interface design | 
+| Week 7 - 10 | User interface design | 
 | Week 10 - 14 | Testing and deployment | 
 
 
@@ -114,8 +114,7 @@ The dashboard for energy consumption analysis requires the following tools:
 - Energy meters, data collectors, and monitoring devices
 - Cloud saving and storage services
 
-## Technical Specifications
-- Discuss the technical specifications of the proposed data science project, including data sources, data schema, data transformations, machine learning algorithms, data visualization tools, and other technical details.
+## 🛠️ Technical Specifications
 
 Data can be collected from different sources such as smart meters, utility bills for energy consumptions analysis. The data schema includes:
 
@@ -132,7 +131,7 @@ Data Visualization Tools:
 Programming Languages, Frameworks and Libraries:
 
 - Python
-_ JaveScript
+- JaveScript
 - SQL
 - Pandas
 - NumPy
@@ -147,6 +146,9 @@ Before analysis and dashboard design, data cleaning and pre-processing must be i
 Machine learning algorithm is also included to create build predictive models. Examples of algorithms that can be used are regression models, clustering and neural networks. The choice of algorithm is depended on the type of data and performance metrics for the analysis.
 
 Since the dashboard will be included on the cloud platform, data must be secured and protected from loss, leakage and misuse. Therefore, some steps must be taken to increase data security such as encryption, data backup and recovery, user access control and data segregation.
+
+
+- Provide details about the hardware and software requirements for the proposed system.
 
 Hardware requirements:
 
@@ -179,14 +181,29 @@ Software requirements:
   - IoT Platform
 
   To connect to sensors and transfer data to the dashboard such as AWS IoT and Azure IoT.
-  
-## Timeline and Deliverables
+
+
+## ⏲️ Timeline and Deliverables
+
+```
 - Provide a detailed timeline for the project, including milestones and deadlines.
 
 - Specify the deliverables that will be provided at each milestone. It should also specify the expected time frame for each deliverable and the resources that will be required to complete the project.
 
 - Explain the quality assurance and testing procedures that will be followed.
+```
 
+* week1 - week3 : Data collection and integration
+    > This step included searching for data source and data preprocessing. We planned to use 3 weeks on this step as a clean data is the top priority for future use.  
+
+* week4 - week6 : Data visualization design
+    > Data visualization, which seeks to represent complex data in a simple and straightforward graphic manner, is a crucial part of an Energy Consumption Analysis Dashboard. Using concise and straightforward representations like charts, graphs, and maps, businesses and organizations can quickly identify areas of high energy consumption, track changes in energy usage over time, and make decisions to improve energy efficiency. To create user-friendly images for all users, the process involves transforming numerical data into visual representations, including dynamic components. Companies and organizations can improve energy economy through the use of data visualization, which lowers expenses and encourages a more sustainable future.
+
+* week7 - week10 : User interface design
+    > The user interface (UI) design is a crucial element of an Energy Consumption Analysis Dashboard. Its goal is to create a user-friendly layout that is easy to browse and access vital data. The UI design process includes several steps, such as comprehending the target audience, designing the interface with their needs and preferences in mind, and considering interactive features, colour schemes, and fonts. A well-designed user interface can enhance user experience, enable more efficient decision-making, and boost energy economy for businesses and groups.
+
+* week10 - week14 : Testing and deployment
+    > Testing and dissemination are crucial phases in the development process to guarantee that the Energy Consumption Analysis Dashboard is functional, bug-free, meets the required specifications, and is distributed securely. Making a test plan, conducting test cases, identifying issues and flaws, and fixing them before publication are all part of the testing process. The dashboard is then distributed to the desired platform after testing is complete, keeping security and data safety in mind. The hardware must be built up, and the software must be installed and customised. Ongoing monitoring and maintenance are required to keep the dashboard functioning correctly and satisfying user requirements.
 
 ## 🔍 Conclusion
 It is crucial to create an energy usage research panel in order to improve energy efficiency and reduce energy costs for businesses and organizations. Because it gives real-time views into energy use and pollution, it makes it easier to take preventative steps and reduce carbon effect. It is simple to measure and track energy consumption with the interface thanks to its accessibility from any device, which contributes to the development of a more sustainable future.

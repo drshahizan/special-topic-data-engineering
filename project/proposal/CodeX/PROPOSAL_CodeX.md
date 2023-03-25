@@ -15,7 +15,8 @@
 - [Conclusion](#conclusion)
 
 ## Executive Summary
-- Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
+Spotify, Apple Music, Youtube Music and many more streaming platforms have been introduced to the world nowadays. 
+> Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
 
 ## Background
 - Provide a background to the problem that the proposed data science project aims to solve. This should include a clear explanation of the current situation, the problems faced, and the potential benefits of the proposed solution.

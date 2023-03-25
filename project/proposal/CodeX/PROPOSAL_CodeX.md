@@ -51,16 +51,26 @@ these informations :
 13)When the user left the show
 
 ## Goals and Objective
-- Provide a brief introduction about the project, its objective, and its significance. These should be measurable and tied to the overall business objectives of the organization.
-- Describe the problem statement that needs to be solved.
+1) Implement the usage of MongoDB to create recommendation engine
+2) Be able to understand steps of using MongoDB to create recommendation engine, which are Data Collection , Data Cleaning, Data Transformation , Data Loading , Model Training and Recommedation Generation based on study case (Netflix)
+
 
 ## Scope
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
+- 
 
 ## Methodology
-- Explain the methodology and the techniques that will be used in the project. Provide a detailed methodology that outlines how the proposed data science project will be executed, including data collection and cleaning, data analysis, machine learning algorithms, and data visualization techniques.
-- Explain how the data will be collected and processed.
-- Discuss the software and hardware resources that will be required for the project.
+-Technique will used :
+
+1) Data Collection : collect data from sources such as Netflix Recommendation Algorithm (NRA). This data will be used to train the reccomendation model
+2) Data Cleaning : clean the collected data to removed irrelevant data or incomplete data such as null in user watching video period.
+3) Data Transformation : Transform the cleaned data into format(____) used by MongoDB
+4) Data Loading : Load transformed data into MongoDB collections
+5) Model Training : Trains the recommendatiob model using machne learning algorithm based on data collected in steps 1
+6) Recommendation generation : Generate recommendations for users based on their previous interaction with the system.
+
+-Software/Hardware uses: 
+
 
 ## System Architecture
 - Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system

@@ -109,6 +109,10 @@ The proposed system architecture for the computer-aided diagnostic (CAD) system 
   	</ul>
 </ol>
 
+For data visualisation and analysis, the CAD system interface will make use of a variety of programmes and frameworks, such as Plotly and Matplotlib for dynamic and static plots, respectively. Medical professionals will be able to investigate and examine the diagnostic outcomes of the trained machine learning models using the interface's data tables, which will also be included.
+
+Below are the flowchart for the system architecture:
+
 
 ## 7. 🛑 Risks and Limitations:
 

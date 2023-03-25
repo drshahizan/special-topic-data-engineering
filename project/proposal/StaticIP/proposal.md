@@ -145,6 +145,10 @@ Programming Languages, Frameworks and Libraries:
     <img height="50" src="https://github.com/yurijserrano/Github-Profile-Readme-Logos/blob/master/programming%20languages/javascript.svg"/>
 </a>
 
+<a href="https://www.javascript.com/">
+    <img height="50" src="[https://github.com/yurijserrano/Github-Profile-Readme-Logos/blob/master/programming%20languages/javascript.svg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpandas.pydata.org%2Fabout%2Fciting.html&psig=AOvVaw2IqZc9nrxwZCGKMIBs-NyC&ust=1679837560450000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNiK_OeY9_0CFQAAAAAdAAAAABAD)"/>
+</a>
+
 Tools Used:
 - MySQL
 - AWS and Azure Cloud Platforms

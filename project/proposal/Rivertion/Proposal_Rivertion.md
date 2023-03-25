@@ -3,18 +3,37 @@
 
 ## 1. Executive Summary
 
-- Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
+This project aims to develop a computer-aided diagnostic (CAD) system for analyzing medical images to improve disease diagnosis in Malaysia. The objectives of the project are to train machine learning models on a dataset of medical images, evaluate the performance of the models using various metrics, and integrate the models into a CAD system that can assist medical professionals in making more accurate diagnoses.
+
+The expected outcomes of the project include a dataset of annotated medical images, trained machine learning models that can accurately diagnose diseases, and a CAD system that can be used in clinical practice to aid medical professionals. The project has the potential to improve the accuracy and speed of disease diagnosis, ultimately leading to better patient outcomes in Malaysia.
+
 
 
 ## 2. Background:
 
-- Provide a background to the problem that the proposed data science project aims to solve. This should include a clear explanation of the current situation, the problems faced, and the potential benefits of the proposed solution.
+Medical imaging plays a crucial role in modern healthcare for the diagnosis and treatment of various diseases. In Malaysia, the demand for medical imaging services has been growing due to an aging population and increasing incidence of chronic diseases. However, the shortage of qualified radiologists, coupled with the increasing complexity of medical images, has led to delays in diagnosis, misdiagnosis, and suboptimal treatment outcomes.
+
+Interpreting medical images is a challenging task that requires expert knowledge and experience. Radiologists are trained to identify subtle differences in images that may indicate a disease or condition, but this process can be time-consuming and subject to human error. Additionally, the growing volume of medical images being generated presents a significant challenge to radiologists, as it increases their workload and reduces the amount of time they can spend on each case.
+
+The proposed data science project aims to address these challenges by developing a computer-aided diagnostic (CAD) system that can assist radiologists in analyzing medical images. By leveraging machine learning algorithms trained on a large dataset of annotated medical images, the system can identify patterns and anomalies in images that may be indicative of a disease or condition. The system can then provide radiologists with a preliminary diagnosis or highlight areas of concern, reducing the time and effort required to analyze images and improving the accuracy of diagnosis.
+
+The potential benefits of the proposed CAD system are significant. By improving the speed and accuracy of diagnosis, the system can reduce the time required for patients to receive treatment, which can be critical in cases where time is of the essence. Additionally, the system can help reduce the workload of radiologists and improve their efficiency, allowing them to spend more time on complex cases that require their expertise. Finally, the system can also help address the shortage of qualified radiologists by enabling healthcare providers to diagnose and treat more patients with existing resources. Overall, the proposed CAD system has the potential to significantly improve healthcare outcomes in Malaysia and enhance the quality of medical imaging services.
 
 
 ## 3. Goals and Objectives:
 
-- Provide a brief introduction about the project, its objective, and its significance. These should be measurable and tied to the overall business objectives of the organization.
-- Describe the problem statement that needs to be solved.
+Goals:
+The main goal of the proposed project is to develop a computer-aided diagnostic (CAD) system for medical imaging analysis that can improve disease diagnosis in Malaysia. The CAD system will leverage machine learning models trained on a dataset of medical images to assist radiologists in making more accurate diagnoses, reducing the time and effort required to analyze images, and improving the efficiency of diagnosis. The ultimate goal is to improve patient outcomes and enhance the quality of medical imaging services in Malaysia.
+
+Objectives:
+1. Collect and annotate a dataset of medical images that covers a range of diseases and conditions relevant to Malaysia.
+2. Train machine learning models on the dataset to accurately diagnose diseases and conditions in medical images.
+3. Evaluate the performance of the machine learning models using various metrics, such as sensitivity, specificity, and accuracy.
+4. Integrate the trained machine learning models into a CAD system that can assist radiologists in analyzing medical images.
+5. Test the CAD system on a sample of medical images to ensure its accuracy and efficiency in diagnosing diseases and conditions.
+6. Deploy the CAD system in clinical practice and monitor its performance in assisting radiologists in making diagnoses.
+7. Evaluate the impact of the CAD system on diagnosis accuracy, diagnosis speed, radiologist workload, and patient outcomes.
+8. Refine the CAD system based on feedback from medical professionals and patients to improve its performance and usability.
 
 
 ## 4. Scope: 

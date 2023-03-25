@@ -25,17 +25,29 @@ these informations :
 
 
 1)Time duration of a viewer watching a video.
+
 2)Viewing history.
+
 3)How titles were rated by the user.
+
 4)Other users who may have similar tastes.
+
 5)Information about titles such as genre, actors and release year.
+
 6)The time of day you watch.
+
 7)When the user watches a scene more than once.
+
 8)If the show was paused, rewound, or fast-forwarded.
+
 9)If the viewer resumed watching after pausing.
+
 10)The device you are watching on.
+
 11)The number of searches and what is searched for.
+
 12)Screen shots when the show was paused.
+
 13)When the user left the show
 
 ## Goals and Objective

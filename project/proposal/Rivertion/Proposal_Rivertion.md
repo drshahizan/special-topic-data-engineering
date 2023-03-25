@@ -99,25 +99,56 @@ The software and hardware resources required for the project include:
 
 Even though analyzing medical images for disease diagnosis gives a lot of advantages both to doctors and patients, this process also poses several risks and limitations that should be considered. Below are points for technical, financial and legal risks:
 
-1. Technical Risks:
+<ol>
+	<li> Technical Risks: </li>
 <ul>
   <li> Accuracy of the analysis: Analyzing medical images needs for specialized equipment in terms of technology, specifically AI. Nevertheless, the accuracy of the analysis is based on the image quality, the radiologist or specialist's experience and expertise, and the technology's quality. Improper treatments or delayed diagnosis are the possible outcomes of wrong diagnosis.</li>
   <li> Security and privacy: The most private aspects of a person are their health information. Medical images contain sensitive patient information, including personal health information. Unauthorized disclosure may result in several discrimination and a breach of basic rights. Certain kinds of data processing may result in the infringement of personal rights and interests. As the context of their processing may pose serious threats to basic rights and freedoms, personal data, which are by their very nature highly sensitive in connection to those rights and freedoms, warrant special protection.</li>
 </ul>
-2. Financial Risks:
+	<li> Financial Risks: </li>
 <ul>
   <li> Cost: Medical image analysis may be costly, especially for cutting-edge technology like MRI or PET scans. The price of the software, maintenance, and hardware may be costly, which may have an impact on how much people must pay for healthcare.</li>
   <li> Return on investment: For certain patients or medical professionals, the expense of medical image analysis could exceed the advantages. Alternative diagnostic techniques occasionally may be less expensive and yield comparable or superior outcomes.</li>
 </ul>
-3. Legal Risks:
+	<li> Legal Risks: </li>
 <ul>
   <li> Liability: Medical image analysis is a crucial procedure with important patient consequences. Healthcare professionals or radiologists who diagnose ailments incorrectly or fail to spot problems run the danger of being held accountable.</li>
   <li> Regulatory compliance: Medical image analysis is subject to regulation by healthcare authorities, such as the Malaysian Medical Council. Providers must ensure that they are complying with regulations related to medical image analysis and patient privacy.</li>
 </ul>
+</ol>
 
 ## 8. Deliverables and Milestones:
 
-- Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
+<table border="1" align="center">
+  <tr>
+    <th>Deliverables and Milestones</th>
+    <th>Timeframe</th>
+  </tr>
+  <tr>
+    <td>Data Collection</td>
+    <td>Week 1-2</td>
+  </tr>
+  <tr>
+    <td>Data Cleaning and Preprocessing</td>
+    <td>Week 3-5</td>
+  </tr>
+  <tr>
+    <td>Feature Extraction</td>
+    <td>Week 6-8</td>
+  </tr>
+  <tr>
+    <td>Machine Learning Algorithms</td>
+    <td>Week 9-10</td>
+  </tr>
+  <tr>
+    <td>Data Visualizations</td>
+    <td>Week 11-12</td>
+  </tr>
+  <tr>
+    <td>Report</td>
+    <td>Week 13-14</td>
+  </tr>
+</table>
 
 
 

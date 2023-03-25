@@ -95,14 +95,40 @@ The software and hardware resources required for the project include:
 
 ## 10. Technical Specifications:
 
-- Discuss the technical specifications of the proposed data science project, including data sources, data schema, data transformations, machine learning algorithms, data visualization tools, and other technical details.
+<h4>Data Schema:</h4>
+<p>The dataset consists of 5,863 X-Ray images (JPEG) of anterior-posterior view, with 2 categories - Pneumonia and Normal.</p>
+<p>The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal).</p>
 
-- Mention the programming languages, frameworks, and libraries that will be used in the project.
+<h4>Data Transformations:</h4>
+<p>Data pre-processing will be performed to normalize and standardize the image data.</p>
+<p>Data augmentation techniques such as rotation, zooming, and flipping will be used to increase the diversity of the dataset and improve model performance.</p>
 
-- Provide details about the hardware and software requirements for the proposed system.
+<h4>Machine Learning Algorithms:</h4>
+<p>Convolutional Neural Networks (CNN) will be used for image classification tasks.</p>
+<p>Transfer learning techniques will be used to leverage pre-trained models and improve the efficiency of the model training process.</p>
 
-- Explain the data security measures that will be implemented.
+<h4>Data Visualization Tools:</h4>
+<p>Matplotlib and Seaborn will be used for data visualization tasks.</p>
 
+<h4>Programming Languages, Frameworks, and Libraries:</h4>
+<ul>
+	<li>Python will be used as the primary programming language.</li>
+	<li>Tensorflow will be used as the deep learning frameworks.</li>
+	<li>Scikit-learn will be used for machine learning algorithms.</li>
+	<li>OpenCV will be used for image processing tasks.</li>
+	<li>Numpy and Pandas will be used for data manipulation and analysis.</li>
+</ul>
+
+<h4>Hardware and Software Requirements:</h4>
+<p>A machine with a minimum of 8GB RAM and a dedicated GPU (e.g. Nvidia GTX 1080) is recommended for training the deep learning models.</p>
+<p>The software requirements include Python 3.6+, Keras, Tensorflow, Scikit-learn, OpenCV, Numpy, and Pandas.</p>
+
+<h4>Data Security Measures:</h4>
+<ul>
+	<li>The dataset will be stored securely on a password-protected machine.</li>
+	<li>Access to the dataset will be restricted to authorized personnel only.</li>
+	<li>Any data backups will also be stored securely with proper encryption.</li>
+</ul>
 
 ## 11. Timeline and Deliverables: 
 

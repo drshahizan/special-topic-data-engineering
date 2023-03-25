@@ -137,6 +137,14 @@ Programming Languages, Frameworks and Libraries:
 - NumPy
 - Plotly
 
+<a href="https://www.python.org/">
+    <img height="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"/>
+</a>
+
+<a href="https://www.javascript.com/">
+    <img height="50" src="https://github.com/yurijserrano/Github-Profile-Readme-Logos/blob/master/programming%20languages/javascript.svg"/>
+</a>
+
 Tools Used:
 - MySQL
 - AWS and Azure Cloud Platforms

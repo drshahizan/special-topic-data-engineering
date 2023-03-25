@@ -137,6 +137,13 @@ Tools Used:
 - MySQL
 - AWS and Azure Cloud Platforms
 
+Before analysis and dashboard design, data cleaning and pre-processing must be involved to remove noise and outliers. This can increase the accuracy and consistency of result when energy consumption data is being analyzed.
+
+Machine learning algorithm is also included to create build predictive models. Examples of algorithms that can be used are regression models, clustering and neural networks. The choice of algorithm is depended on the type of data and performance metrics for the analysis.
+
+Since the dashboard will be included on the cloud platform, data must be secured and protected from loss, leakage and misuse. Therefore, some steps must be taken to increase data security such as encryption, data backup and recovery, user access control and data segregation.
+
+
 - Provide details about the hardware and software requirements for the proposed system.
 
 - Explain the data security measures that will be implemented.

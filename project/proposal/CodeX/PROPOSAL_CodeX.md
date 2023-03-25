@@ -22,6 +22,8 @@ Netflix, YouTube, Spotify and many more streaming platforms have been introduced
 ## Background
 - As Netflix is one of the streaming platform , it uses Netflix Recommendation Algorithm (NRA) , to analyze user behaviour. Personalization is the key to success in today consumer world because it grabs consumer attention towards Netflix. Netflix Recommendation Algorithm (NRA) uses personalization based on 
 these informations :
+
+
 1)Time duration of a viewer watching a video.
 2)Viewing history.
 3)How titles were rated by the user.

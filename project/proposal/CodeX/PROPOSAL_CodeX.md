@@ -20,8 +20,21 @@ Netflix, YouTube, Spotify and many more streaming platforms have been introduced
 > Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes. 
 
 ## Background
-- Provide a background to the problem that the proposed data science project aims to solve. This should include a clear explanation of the current situation, the problems faced, and the potential benefits of the proposed solution.
-- As Netflix is one of the 
+- As Netflix is one of the streaming platform , it uses Netflix Recommendation Algorithm (NRA) , to analyze user behaviour. Personalization is the key to success in today consumer world because it grabs consumer attention towards Netflix. Netflix Recommendation Algorithm (NRA) uses personalization based on 
+these informations :
+1)Time duration of a viewer watching a video.
+2)Viewing history.
+3)How titles were rated by the user.
+4)Other users who may have similar tastes.
+5)Information about titles such as genre, actors and release year.
+6)The time of day you watch.
+7)When the user watches a scene more than once.
+8)If the show was paused, rewound, or fast-forwarded.
+9)If the viewer resumed watching after pausing.
+10)The device you are watching on.
+11)The number of searches and what is searched for.
+12)Screen shots when the show was paused.
+13)When the user left the show
 
 ## Goals and Objective
 - Provide a brief introduction about the project, its objective, and its significance. These should be measurable and tied to the overall business objectives of the organization.

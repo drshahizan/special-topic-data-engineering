@@ -46,10 +46,14 @@
 - Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
 
 ## Deliverables and Milestones
-- Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
-### Deliverables:
+<!--Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines. --->
+Deliverables:
 1. Detailed proposal outlining the product features of the data science project using MongoDB
 2. Technical specification document outlining the architecture and design of the project
+3. Working prototype of the product features
+
+Milestones :
+1. Week 1-2: Research on the product feature data science project requirements and finalize the proposal
 
 ## Resources
 - Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.

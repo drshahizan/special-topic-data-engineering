@@ -98,7 +98,12 @@ To ensure the data is secure and protected, security and privacy must be impleme
 
 Testing is required to check if the dashboard can function and interact with users properly. Deployment is needed to improve the performance of the dashboard.
 
-Timelines and deadlines:
+| Week | Deliverables and Milestones | 
+| ----- | ----- |
+| Week 1 - 3 | Data collection and integration | 
+| Week 4 - 6 | Data visualization design | 
+| Week 7 - 10 | User interface design | 
+| Week 10 - 14 | Testing and deployment | 
 
 
 ## 🗂️ Resources

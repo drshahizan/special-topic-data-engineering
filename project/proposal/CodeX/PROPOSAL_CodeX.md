@@ -15,8 +15,9 @@
 - [Conclusion](#conclusion)
 
 ## Executive Summary
-Spotify, Apple Music, Youtube Music and many more streaming platforms have been introduced to the world nowadays. 
-> Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
+Netflix, YouTube, Spotify and many more streaming platforms have been introduced to the world as the technologies are advancing rapidly nowadays. With this being said, users are prone to use it almost everyday whenever they wanted to watch movies or tv shows and stream any music. The objective of this project is to create a system that display the best suggestion of musics or shows on streaming platform. The system we proposed will implement the usage of MongoDB as a database that can keep track on the user behavioral data which will then be processed using machine learning to recognize streaming patterns of each user so that the most relevant suggestion can be presented to the users.
+
+> Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes. 
 
 ## Background
 - Provide a background to the problem that the proposed data science project aims to solve. This should include a clear explanation of the current situation, the problems faced, and the potential benefits of the proposed solution.

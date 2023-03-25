@@ -117,7 +117,7 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 </ul>
 </ol>
 
-## 8. Deliverables and Milestones:
+## 8. ⏳ Deliverables and Milestones:
 
 <table border="1" align="center">
   <tr>

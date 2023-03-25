@@ -50,7 +50,7 @@
 Deliverables:
 1. Detailed proposal outlining the product features of the data science project using MongoDB
 2. Technical specification document outlining the architecture and design of the project
-3. Working prototype of the product features
+3. Data collection and preprocessing 
 
 Milestones :
 1. Week 1-2: Research on the product feature data science project requirements and finalize the proposal

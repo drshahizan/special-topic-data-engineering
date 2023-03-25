@@ -148,11 +148,38 @@ Machine learning algorithm is also included to create build predictive models. E
 
 Since the dashboard will be included on the cloud platform, data must be secured and protected from loss, leakage and misuse. Therefore, some steps must be taken to increase data security such as encryption, data backup and recovery, user access control and data segregation.
 
+Hardware requirements:
 
-- Provide details about the hardware and software requirements for the proposed system.
+- Computer
 
-- Explain the data security measures that will be implemented.
+  A desktop or laptop computer with a multi-core processor and a dedicated graphics card is recommended.
 
+- IoT Sensors
+
+  To collect real-time data to create the energy consumption analysis dashboard.
+
+- Network Connection
+
+  To store and transfer data on the cloud platform
+
+Software requirements:
+
+- Database
+
+  To store and manage the energy consumption analysis data
+
+- Programming Language
+
+  Use programming language such as Python, SQL, JavaScript to create dashboard
+
+- Analysis Tools
+
+  To perform analytics on the energy consumption data
+
+  - IoT Platform
+
+  To connect to sensors and transfer data to the dashboard such as AWS IoT and Azure IoT.
+  
 ## Timeline and Deliverables
 - Provide a detailed timeline for the project, including milestones and deadlines.
 

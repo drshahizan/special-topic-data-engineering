@@ -204,11 +204,11 @@ gantt
   
 - Data Collection(Week 1)
 
-  Discussing which data source suit the best for our project objectives and scope
+  > Discussing which data source suit the best for our project objectives and scope
   
 - Data Cleaning and Preprocessing (Week 2 - 4)
 
-  Data Cleaning and preporcessing the dataset to be used for more advance processing such as EDA, Data Integration, Aggregation and Visualization.
+  > Data Cleaning and preporcessing the dataset to be used for more advance processing such as EDA, Data Integration, Aggregation and Visualization.
 
 - Machine Learning Algorithm (Week 5 - 6)
 
@@ -216,15 +216,15 @@ gantt
 
 - Data Visualizations (Week 7 - 8)
 
-  Present all the data collected, data calculated or data trained into a chart, bar or scale for easier interpretations
+  > Present all the data collected, data calculated or data trained into a chart, bar or scale for easier interpretations
   
 - User Interface Design (Week 9 - 12)
 
-  A crucial phase as overall project to create a stable and reliable system. The 
+  > A crucial phase as overall project to create a stable and reliable system. Understanding the target audience, developing the interface with their wants and preferences in mind, and taking interactive elements, colour schemes, and typefaces into consideration are just a few of the tasks involved in UI design. For enterprises and organisations, a well-designed user interface may improve the user experience, allow for more effective decision-making, and increase energy efficiency.
 
 - Testing & project launch (Week 13 - 14)
 
-  An important phase in this project to test our website/server before launch for several reasons including identifying defects in the system, ensuring all the functions are working and ready to be use, ensuring stability(system is stable and reliable to handle huge amount of user traffic) and Mitigating risk(could reduce the risk of costly downtime)
+  > An important phase in this project to test our website/server before launch for several reasons including identifying defects in the system, ensuring all the functions are working and ready to be use, ensuring stability(system is stable and reliable to handle huge amount of user traffic) and Mitigating risk(could reduce the risk of costly downtime)
 
 ---
 

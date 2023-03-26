@@ -5,8 +5,8 @@
 ---
 
 ## Table of Contents
-- [Executive Summary](#executive-summary)
-- [Background](#background)
+- [Executive Summary](🗞️executive-summary)
+- [Background](background)
 - [Goals and Objectives](#goals-and-objectives)
 - [Scope](#scope)
 - [Methodology](#methodology)
@@ -17,18 +17,18 @@
 - [Technical Specifications](#technical-specifications)
 - [Timeline and Deliverables](#timeline-and-deliverables)
 - [Conclusion](#conclusion)
-
 ---
 
-  <h2>Key components</h2>
+## Key components
 The following are the key components of a data science project proposal:
 
-  <h3>Executive Summary</h3>
+## 🗞️Executive Summary
+
 Restaurant reviews from Google are often used to survey places for customers that want to try that place out. We will perform an analysis on the reviews to determine whether it is positive or the opposite. From the analysis, we can conclude if a customer was satisfied with the service that was offered by the restaurant. Users who are searching for restaurants or places to eat will be able to find one not only by the ratings, but also with added criterias and information given or extracted from the review. 
 
 ---
 
-  <h3>Background</h3>
+## Background
 <p align="center">
 <img src="https://i.pinimg.com/originals/aa/a6/84/aaa684fc7767831dde31a5b7e855565a.jpg" alt="Paris" height="250"></img>
 </p>
@@ -46,7 +46,7 @@ Overall, this project aims to provide insights into the customer satisfaction of
 
 ---
 
-<h3>Goals and Objectives</h3>
+## Goals and Objectives
 
 Problem Statement:
 Customer reviews do not always show the true meaning. It can make other customers misunderstand the views of those customers who might want to try the cafe. Newer customers might find some reviews unreliable after trying out themselves. There are also some people who wanted to downgrade the cafe by intentionally giving negative reviews. The cafe owner also might want to improve their services thus, a reliable review might help them. 
@@ -63,7 +63,7 @@ In this project, we aim to monitor the Google reviews about customer satisfactio
 
 ---
 
-### Scope: 
+## Scope: 
 The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Malaysia to gain insights into customer satisfaction levels and identify common themes in customer feedback. To achieve this, we will collect data from Google My Business, which will provide access to a large volume of reviews for cafes in the Johor Bharu area. To achieve the result in question, here are the project scope statement that we will be using to our aid.
 
 - 1. `Data Sources` Collect Google reviews of cafes in Johor Bharu, Malaysia using the `Enter data source here`
@@ -77,7 +77,7 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 
 ---
 
-### Methodology:
+## Methodology:
 - Methodology and the techniques that will be used
   1. `Data Collection:` The first step is to collect data on Google reviews about cafes in Johor. This can be done by using web scraping techniques to extract reviews from Google's API. Another option is to manually extract data by browsing Google reviews of cafes in Johor.
 
@@ -93,7 +93,7 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
   The software resources required for this project include Python programming language, web scraping libraries such as Selenium, data analysis libraries such as Pandas, machine learning libraries such as Scikit-learn or  any libraries learnt in the previous semester. Data visualization tools such as Tableau or Python libraries such as Matplotlib or Seaborn can be used to present the results. The hardware resources required for this project include a computer with sufficient processing power and memory to handle the data.
 ---
 
-### System Architecture:
+## System Architecture:
 - Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
 - Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
 - Discuss the tools and frameworks that will be used for data visualization and analysis.
@@ -101,7 +101,7 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 
 ---
 
-### Risks and Limitations:
+## Risks and Limitations:
 - Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks. 
 - Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
 
@@ -118,7 +118,7 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 
 ---
 
-### Deliverables and Milestones:
+## Deliverables and Milestones:
 <table border="1" align="center">
   <tr>
     <th>Deliverables and Milestones</th>
@@ -152,12 +152,12 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 
 ---
 
-### Resources:
+## Resources:
 - Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.
 
 ---
 
-### Technical Specifications:
+## Technical Specifications:
 - Discuss the technical specifications of the proposed data science project, including data sources, data schema, data transformations, machine learning algorithms, data visualization tools, and other technical details.
 - Mention the programming languages, frameworks, and libraries that will be used in the project.
 - Provide details about the hardware and software requirements for the proposed system.
@@ -165,14 +165,14 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 
 ---
 
-### Timeline and Deliverables: 
+## Timeline and Deliverables: 
 - Provide a detailed timeline for the project, including milestones and deadlines.
 - Specify the deliverables that will be provided at each milestone. It should also specify the expected time frame for each deliverable and the resources that will be required to complete the project.
 - Explain the quality assurance and testing procedures that will be followed.
 
 ---
 
-### Conclusion:
+## Conclusion:
 - Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
 - Summarize the proposal and reiterate the importance of the project.
 - Mention any potential limitations or challenges that may arise during the project.

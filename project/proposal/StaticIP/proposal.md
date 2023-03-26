@@ -5,10 +5,10 @@
 </div>
 
 ## Table of content
-* [Introduction](#📒-Introduction)
+* [Executive Summary](#📒-Executive-Summary)
 * [Background](#🧱-Background)
 * [Objective](#🔬-Objective)
-* [Scope](#scope)
+* [Scope](#🧿-Scope)
 * [Methologies](#🔖-Methologies)
 * [System Architecture](#🖥️-System-Architecture)
 * [Risks and Limitations](#Risks-and-Limitations)
@@ -18,7 +18,7 @@
 * [Timeline and Deliverables](#Timeline-and-Deliverables)
 * [Conclusion](#🔍-Conclusion)
 
-## 📒 Introduction
+## 📒 Executive Summary
 As the world becomes more aware of the impact of energy consumption on the environment, businesses and organizations are increasingly seeking ways to improve their energy efficiency. One of the most effective ways to achieve this is through Energy Consumption Analysis. However, this process can be complicated, time-consuming, and difficult to track. This proposal outlines the development of an Energy Consumption Analysis Dashboard that will simplify the process and provide real-time insights into energy consumption, enabling businesses and organizations to take informed decisions and improve their energy efficiency.
 
 ## 🧱 Background
@@ -42,7 +42,7 @@ The goal is to develop an energy consumption analysis dashboard that makes it ea
 <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/analysis.gif" height="150">
 </div>
 
-## Scope
+## 🧿 Scope
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
 
 ## 🔖 Methologies

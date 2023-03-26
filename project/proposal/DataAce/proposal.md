@@ -55,23 +55,23 @@ The importance of credit card fraud detection cannot be overstated as it has a s
   </tr>
   <tr>
     <td>Data Exploration and Cleaning</td>
-    <td>Week 3</td>
+    <td>Week 3-4</td>
   </tr>
   <tr>
     <td>Feature Engineering</td>
-    <td>Week 4-5</td>
-  </tr>
-  <tr>
-    <td>Model Selection and Training</td>
     <td>Week 5-6</td>
   </tr>
   <tr>
+    <td>Model Selection and Training</td>
+    <td>Week 7-9</td>
+  </tr>
+  <tr>
     <td>Model Deployment</td>
-    <td>Week 11-12</td>
+    <td>Week 10-11</td>
   </tr>
   <tr>
     <td>Model Monitoring and Maintenance</td>
-    <td>Week 13-14</td>
+    <td>Week 11-13</td>
   </tr>
   <tr>
     <td>Project Wrap-up and Presentation</td>

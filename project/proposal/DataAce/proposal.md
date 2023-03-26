@@ -44,7 +44,41 @@ The importance of credit card fraud detection cannot be overstated as it has a s
 - Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
 
 ## Deliverables and Milestones:
-- Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
+<table border="1" align="center">
+  <tr>
+    <th>Deliverables and Milestones</th>
+    <th>Timeframe</th>
+  </tr>
+  <tr>
+    <td>Project Planning and Data Acquisition</td>
+    <td>Week 1-2</td>
+  </tr>
+  <tr>
+    <td>Data Exploration and Cleaning</td>
+    <td>Week 3</td>
+  </tr>
+  <tr>
+    <td>Feature Engineering</td>
+    <td>Week 4-5</td>
+  </tr>
+  <tr>
+    <td>Model Selection and Training</td>
+    <td>Week 5-6</td>
+  </tr>
+  <tr>
+    <td>Model Deployment</td>
+    <td>Week 11-12</td>
+  </tr>
+  <tr>
+    <td>Model Monitoring and Maintenance</td>
+    <td>Week 13-14</td>
+  </tr>
+  <tr>
+    <td>Project Wrap-up and Presentation</td>
+    <td>Week 14</td>
+  </tr>
+</table>
+
 
 ## Resources:
 - Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.

@@ -172,42 +172,53 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 gantt
     title Project Timeline
     dateFormat  YYYY-MM-DD
+  
     section Data Collections
-    Task 1           :2023-04-01 , 7d
-    Task 2           :2023-04-08 , 7d
+    Data Searching   :2023-04-01 , 5d
   
     section Data Cleaning and Preprocessing
-    Task 1          :2023-04-15  , 7d
-    Task 2          :2023-04-22 , 7d
-    Task 3          :2023-04-29, 7d
-  
-    section Feature Extraction
-    Task 1          :2023-05-6  , 7d
-    Task 2          :2023-05-13 , 7d
-    Task 3          :2023-05-20 , 7d
+    Start Data Cleaning      :2023-04-6  , 6d
+    EDA                      :2023-04-10 , 10d
+    Finalizing               :2023-04-20 , 7d
   
     section Machine Learning Algorithm
-    Task 1          :2023-05-27 , 7d
-    Task 2          :2023-06-03 , 7d
+    Preparing Model       :2023-04-27 , 7d
+    Model Testing         :2023-05-04 , 7d
   
-    section Data Visualizations
-    Task 1          :2023-06-10 , 7d
-    Task 2          :2023-06-17 , 7d
+    section Data Visualization
+    Simple data chart            :2023-05-11 , 5d
+    ML algorithm visualization   :2023-05-16 , 9d
   
-    section Report
-    Task 1          :2023-06-24 , 7d
-    Task 2          :2023-07-01 , 7d
-    
+    section User Interface Design
+    Designing User interface  :2023-05-25 , 6d
+    Features add-ons          :2023-05-31 , 7d
+    Modul insert              :2023-06-07 , 10d
+    Finalizing                :2023-06-17 , 5d
+  
+    section Testing & project launch
+    Testing project on live       :2023-06-23 , 7d
+    Fixing flaws and security     :2023-06-30 , 7d
   
   ```
   </div>
-- Provide a detailed timeline for the project, including milestones and deadlines.
+  
+- Data Collection(Week 1)
 
-- Specify the deliverables that will be provided at each milestone. It should also specify the expected time frame for each deliverable and the resources that will be required to complete the project.
+- Data Cleaning and Preprocessing (Week 2 - 4)
 
-- Explain the quality assurance and testing procedures that will be followed.
+- Machine Learning Algorithm (Week 5 - 6)
+
+- Data Visualizations (Week 7 - 8)
+
+- User Interface Design (Week 9 - 12)
+
+- Testing & project launch (Week 13 - 14)
+  
 
 ---
 
 ## Conclusion:
-We believe our data science project is in fact crucial for both business and tourism in Johor. On the business side of things, cafe owners can use our analysis to improve the services if a complaint was made by a customer. It can be done much more efficiently as we could identify an actual helpful review which could be difficult by doing it manually. On the tourism side, tourist can actually recommend the cafes to their friends which could boost tourism even more. However, this can only be done if they actually had an amazing time so a good and reliable review would definitely help. However, we do not expect the project will sailing smoothly as there would be some challenges which we would expect to arise such as the model not working as intended. Fortunately, we could always ask our lecturer for any assistance. 
+- Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
+- Summarize the proposal and reiterate the importance of the project.
+- Mention any potential limitations or challenges that may arise during the project.
+- Provide a call to action for the client to approve the proposal and proceed with the project.

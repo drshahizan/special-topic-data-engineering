@@ -168,8 +168,45 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 
 ## 9. 📚 Resources:
 
-- Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.
-
+<ol>
+  <li>
+    <p>Staff:</p>
+    <ul>
+      <li>Project Manager</li>
+      <li>Data Scientist</li>
+      <li>Machine Learning Engineer</li>
+      <li>Radiologist (to provide domain expertise)</li>
+      <li>Annotators for the medical images</li>
+    </ul>
+  </li>
+  <li>
+    <p>Equipment:</p>
+    <ul>
+      <li>High-performance computing equipment (e.g., GPU-enabled workstations or cloud computing resources) to train machine learning models on the medical image dataset</li>
+      <li>Computers for the staff to work on</li>
+    </ul>
+  </li>
+  <li>
+    <p>Software:</p>
+    <ul>
+      <li>3D Slicer, a medical imaging software for visualization and analysis of medical images</li>
+      <li>Machine learning algorithms, such as supervised learning (e.g., convolutional neural networks, decision trees) and unsupervised learning (e.g., clustering)</li>
+      <li>Deep learning frameworks, such as TensorFlow or PyTorch</li>
+      <li>Image processing libraries, such as OpenCV</li>
+      <li>Annotation software for labeling medical images</li>
+      <li>Collaboration and project management tools, such as Jira, Trello, and GitHub</li>
+    </ul>
+  </li>
+  <li>
+    <p>Other expenses:</p>
+    <ul>
+      <li>Data acquisition and storage</li>
+      <li>Annotation costs</li>
+      <li>Cloud computing costs (if using cloud-based resources)</li>
+      <li>Travel and accommodation costs for the project team to meet and work together, if necessary.</li>
+    </ul>
+  </li>
+</ol>
 
 
 ## 10. 🧰 Technical Specifications:

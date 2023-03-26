@@ -82,7 +82,7 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 
 2. `Data Cleaning:` Once the data is collected, it needs to be cleaned to remove any irrelevant or duplicate data. This can be done using data cleaning techniques such as removing punctuation, converting text to lowercase, and removing stop words.
 3. 
-4. 
+4. `Machine Learning Algorithms:` Next, machine learning algorithms can be used to predict customer satisfaction based on the data collected. This can be done by building a model using supervised learning techniques such as regression or classification.
 
 ---
 

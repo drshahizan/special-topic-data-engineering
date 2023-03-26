@@ -1,5 +1,10 @@
 <h1 align="center"> Project Proposal - Social media monitoring tool <a href="#" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/97009588/226456635-fa047b5b-8c40-48b1-a5c1-651638663d66.png" alt="oracle" width="40" height="40"/> </a>   <br>
 </h1>
+
+<p align="center">
+  <img src="https://cdn-insights.statusbrew.com/images/2021/07/top_27_social_media_monitoring_tools_for_businesses_of_all_sizes.png" width="350" title="Fraud Detection">
+</p>
+
 <h2 align="center">
   Group Name
   <br>

@@ -97,9 +97,9 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 - Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
 
 | Issues | Risk  | Limitation |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| ------------- | ------------- | ----- |
+| Content Cell  | Content Cell  |       |
+| Content Cell  | Content Cell  |       |
 
 ---
 

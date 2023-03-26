@@ -15,7 +15,7 @@
 * [System Architecture](#-system-architecture)
 * [Risks and Limitations](#-risks-and-limitations)
 * [Deliverables and Milestones](#-deliverables-and-milestones)
-* [Resource](#-resources)
+* [Resources](#-resources)
 * [Technical Specifications](#-technical-specifications)
 * [Timeline and Deliverables](#-timeline-and-deliverables)
 * [Conclusion](#-conclusion)
@@ -60,7 +60,7 @@ It will be possible to view the Energy Consumption Analysis Dashboard from any d
 <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/dashboard.gif" height="150">
 </div>
 
-## 👻 Risk and limitations
+## 👻 Risks and Limitations
 Although creating the energy consumption analysis dashboard will provide make our life more convienient, it still has its risk and limitations:
 
 ### 😱 Financial Risk

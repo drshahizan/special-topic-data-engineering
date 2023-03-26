@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.pinimg.com/originals/aa/a6/84/aaa684fc7767831dde31a5b7e855565a.jpg" alt="Paris" height="250"></img>
+<img src="https://monkeylearn.com/static/9b9d3688679ad5d6b8b2fbbc9b191963/Natural-Language-Processing-Tools-Social.png" alt="NLP Tools"></img>
 </p>
 
 <div>

@@ -60,14 +60,21 @@ Software/Hardware:
 - Provide a flowchart or block diagram of the system architecture.
 
 ## 7. Risks and Limitation
-The capacity of Netflix's show recommendation algorithm to cater recommendations to specific users based on their viewing habits, ratings, and tastes has received high praise. But it's also important to take into account some of the system's hazards and restrictions:
-- Limited Variety of Recommendations: Netflix's recommendation system frequently favours media that users have already viewed or highly rated. This may result in a narrow range of recommendations and could even confirm current prejudices or preferences.
-- Privacy Concerns: Netflix gathers a lot of information about its users, including their viewing habits, ratings, and even the times of day they watch. Although this information is utilised to enhance the recommendation system, privacy issues are also raised.
-- Limited Knowledge of User Preferences: Although the recommendation system is intended to learn from users' behaviour and preferences, it may occasionally fail to accurately capture a user's genuine interests or preferences. This may result in inappropriate suggestions or recommendations that don't suit the user's preferences.
-- Over-Reliance on Popular Content: Netflix's recommendation engine frequently favours well-known films over lesser-known ones, which can lead to an over-reliance on popular content. Smaller, niche titles that users would find interesting may not receive as much publicity as they could otherwise.
-- Lack of Transparency: Users may find it challenging to comprehend why they are receiving specific recommendations or how to increase the accuracy of their recommendations because Netflix does not clearly explain how its recommendation algorithm works.
+Netflix's show recommendation system has been widely praised for its ability to personalize recommendations to individual users based on their viewing history, ratings, and preferences. However, there are also some risks and limitations to the system that are worth considering:
+1. Technical
+- Scalability: As Netflix's user base grows, the recommendation algorithm must be able to handle increasingly large amounts of data and make recommendations in real-time. This can be challenging from a technical perspective and may require significant investments in infrastructure and engineering.
+- Data Quality: The accuracy of the recommendation algorithm depends on the quality and quantity of data available. If data is missing or incomplete, the algorithm may make less accurate recommendations, which could negatively impact user engagement and satisfaction.
+- Cold Start Problem: When a new user signs up for Netflix, the recommendation algorithm has no data about their preferences or viewing history, making it difficult to provide personalized recommendations. This "cold start" problem can be challenging to overcome and may require alternative approaches to recommendation.
+2. Financial
+- Cost of Developing and Maintaining the Algorithm: Developing and maintaining a sophisticated recommendation algorithm like Netflix's requires significant investment in data science, machine learning, and software development. This can be a substantial financial burden for companies looking to implement similar systems.
+- Reliance on User Data: Netflix's recommendation algorithm relies heavily on user data to make personalized recommendations. If users become concerned about privacy or the use of their data, they may be less likely to engage with the platform or may even cancel their subscriptions.
+- Potential for Algorithmic Bias: As with any algorithm, there is a risk of bias in Netflix's recommendation system. If the algorithm is biased towards certain types of content or certain groups of users, it could have negative financial impacts by limiting the reach and appeal of the platform.
+3. Legal Risk
+- Privacy and Data Protection: Netflix collects a lot of personal data from users to improve the recommendation system, such as viewing history, ratings, and user profiles. This data is subject to data protection laws and regulations, and Netflix must ensure that it is collecting and processing this data in compliance with applicable laws.
+- Transparency and Disclosure: Netflix may be required to disclose how the recommendation algorithm works, how it uses user data, and what factors are used to make recommendations. Failure to provide adequate disclosure could result in legal challenges related to consumer protection or data protection.
+- Accuracy and Liability: If the recommendation algorithm makes inaccurate recommendations that lead to harm or financial loss for users, Netflix could be liable for damages. As such, the accuracy of the recommendation system is crucial from a legal perspective.
 
-In general, Netflix's suggestion system works well, but it's crucial to understand its limitations and potential risks as well as how the algorithm is influencing our viewing habits and preferences.
+Overall, while Netflix's recommendation system is generally effective, it is important to recognize its limitations and potential risks, and to be mindful of how the algorithm is shaping our viewing habits and preferences.
 
 ## 8. Deliverables and Milestones
 - Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.

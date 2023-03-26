@@ -170,7 +170,7 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
   
   ```mermaid
 gantt
-    title Project Timeline
+    title Cafe Satisfactory Timeline
     dateFormat  YYYY-MM-DD
   
     section Data Collections
@@ -202,27 +202,27 @@ gantt
   ```
   </div>
   
-- Data Collection(Week 1)
+- Data Collection (`Week 1`)
 
-  > Discussing which data source suit the best for our project objectives and scope
+  > Discussing which data source that suit the best for our project objectives and scope. 
   
-- Data Cleaning and Preprocessing (Week 2 - 4)
+- Data Cleaning and Preprocessing (`Week 2 - Week 4`)
 
-  > Data Cleaning and preporcessing the dataset to be used for more advance processing such as EDA, Data Integration, Aggregation and Visualization.
+  > Data Cleaning and preporcessing the data to be used for more advance processing such as EDA, Data Integration, Aggregation and Visualization. This phase is given 3 weeks to complete since we need to remove noisy data and duplications in order to have a completly clean data. 
 
-- Machine Learning Algorithm (Week 5 - 6)
+- Machine Learning Algorithm (`Week 5 - Week 6`)
 
   > phase where we will be training the data and allow machine learning to use the data to create prediction, classification and clustering. 
 
-- Data Visualizations (Week 7 - 8)
+- Data Visualizations (`Week 7 - Week 8`)
 
-  > Present all the data collected, data calculated or data trained into a chart, bar or scale for easier interpretations
+  > Present all the data collected, data calculated or data trained into graphics such as chart, bar or scales for easier and friendlier interpretations. 
   
-- User Interface Design (Week 9 - 12)
+- User Interface Design (`Week 9 - Week 12`)
 
   > A crucial phase as overall project to create a stable and reliable system. Understanding the target audience, developing the interface with their wants and preferences in mind, and taking interactive elements, colour schemes, and typefaces into consideration are just a few of the tasks involved in UI design. For enterprises and organisations, a well-designed user interface may improve the user experience, allow for more effective decision-making, and increase energy efficiency.
 
-- Testing & project launch (Week 13 - 14)
+- Testing & project launch (`Week 13 - Week 14`)
 
   > An important phase in this project to test our website/server before launch for several reasons including identifying defects in the system, ensuring all the functions are working and ready to be use, ensuring stability(system is stable and reliable to handle huge amount of user traffic) and Mitigating risk(could reduce the risk of costly downtime)
 

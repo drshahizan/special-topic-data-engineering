@@ -38,6 +38,7 @@ The goal is to develop an energy consumption analysis dashboard that could ease 
 - To categorize energy costs based on different segments. 
 - To determine areas with high energy consumption.
 - To observe the variation in energy consumption of a specific period.
+
 This allows companies to focus their attention on reasons for high demand of energy and plan ways to control energy consumption and minimize costs.
 
 <div align="center">

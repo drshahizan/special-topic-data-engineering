@@ -1,7 +1,7 @@
 <h1 align='center'>Recommendation Engine: Netflix Shows/Movie Reccomendation 🔍</h1>
-<p align="center">
-<img height='400px' src='https://www.researchgate.net/profile/Maad-Mijwil/publication/357163408/figure/fig3/AS:1102587768127488@1639888817989/Netflix-recommendation-system-50.ppm'/>
-</p>
+
+![enter image description here](https://www.researchgate.net/profile/Maad-Mijwil/publication/357163408/figure/fig3/AS:1102587768127488@1639888817989/Netflix-recommendation-system-50.ppm)
+
 
 ## Table of Contents
 - [Executive Summary](#executive-summary)

@@ -119,7 +119,36 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 ---
 
 ### Deliverables and Milestones:
-- Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
+<table border="1" align="center">
+  <tr>
+    <th>Deliverables and Milestones</th>
+    <th>Timeframe</th>
+  </tr>
+  <tr>
+    <td>Data Collection</td>
+    <td>Week 1-2</td>
+  </tr>
+  <tr>
+    <td>Data Cleaning and Preprocessing</td>
+    <td>Week 3-5</td>
+  </tr>
+  <tr>
+    <td>Feature Extraction</td>
+    <td>Week 6-8</td>
+  </tr>
+  <tr>
+    <td>Machine Learning Algorithms</td>
+    <td>Week 9-10</td>
+  </tr>
+  <tr>
+    <td>Data Visualizations</td>
+    <td>Week 11-12</td>
+  </tr>
+  <tr>
+    <td>Report</td>
+    <td>Week 13-14</td>
+  </tr>
+</table>
 
 ---
 

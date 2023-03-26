@@ -20,34 +20,32 @@ Netflix, YouTube, Spotify and many more streaming platforms have been introduced
 > Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes. 
 
 ## Background
-- As Netflix is one of the streaming platform , it uses Netflix Recommendation Algorithm (NRA) , to analyze user behaviour. Personalization is the key to success in today consumer world because it grabs consumer attention for the best experience and interaction towards Netflix. Netflix Recommendation Algorithm (NRA) create personalization based on 
+etflix is a global streaming service that provides a vast selection of TV shows, movies, and documentaries. It has over 200 million subscribers worldwide and is available in over 190 countries. One of the key features that set Netflix apart from other streaming services is its personalized recommendation system, which uses data science and machine learning algorithms to provide personalized content recommendations to its users.
+
+The Netflix recommendation system is based on a complex algorithm that takes into account a wide range of factors, such as the user's viewing history, search history, ratings, time of day, and device used, among others. The system continuously learns from the user's behavior and adjusts the recommendations to provide more relevant content over time.
+
+The recommendation system has been a critical factor in Netflix's success and has helped the company retain and attract new subscribers. As a result, the development and improvement of the recommendation system have been a key focus for Netflix's data science and engineering teams.
+
+In recent years, Netflix has also made its recommendation system available to the research community through various data science challenges, such as the Netflix Prize, which aimed to improve the accuracy of the recommendation system by at least 10%. The challenge resulted in significant improvements to the recommendation system and led to the adoption of several new algorithms and techniques.
+
+As a result of its success, the Netflix recommendation system has become a benchmark for personalized recommendation systems across various industries, and its algorithms and techniques have been adopted by other companies, such as Amazon, Spotify, and YouTube.
+
+As Netflix is one of the streaming platform , it uses Netflix Recommendation Algorithm (NRA) , to analyze user behaviour. Personalization is the key to success in today consumer world because it grabs consumer attention for the best experience and interaction towards Netflix. Netflix Recommendation Algorithm (NRA) create personalization based on 
 these informations :
 
-1)Time duration of a viewer watching a video.
-
-2)Viewing history.
-
-3)How titles were rated by the user.
-
-4)Other users who may have similar tastes.
-
-5)Information about titles such as genre, actors and release year.
-
-6)The time of day you watch.
-
-7)When the user watches a scene more than once.
-
-8)If the show was paused, rewound, or fast-forwarded.
-
-9)If the viewer resumed watching after pausing.
-
-10)The device you are watching on.
-
-11)The number of searches and what is searched for.
-
-12)Screen shots when the show was paused.
-
-13)When the user left the show
+1) Time duration of a viewer watching a video.
+2) Viewing history.
+3) How titles were rated by the user.
+4) Other users who may have similar tastes.
+5) Information about titles such as genre, actors and release year.
+6) The time of day you watch.
+7) When the user watches a scene more than once.
+8) If the show was paused, rewound, or fast-forwarded.
+9) If the viewer resumed watching after pausing.
+10) The device you are watching on.
+11) The number of searches and what is searched for.
+12) Screen shots when the show was paused.
+13) When the user left the show
 
 ## Goals and Objective
 1) Implement the usage of MongoDB to create recommendation engine

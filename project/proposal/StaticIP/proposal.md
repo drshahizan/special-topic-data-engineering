@@ -5,18 +5,18 @@
 </div>
 
 ## Table of content
-* [Executive Summary](#📒-Executive-Summary)
-* [Background](#🧱-Background)
-* [Objective](#🔬-Objective)
-* [Scope](#🧿-Scope)
-* [Methologies](#🔖-Methologies)
-* [System Architecture](#🖥️-System-Architecture)
-* [Risks and Limitations](#Risks-and-Limitations)
-* [Deliverables and Milestones](#Deliverables-and-Milestones)
-* [Resource](#🗂️-Resources)
-* [Technical Specifications](#Technical-Specifications)
-* [Timeline and Deliverables](#Timeline-and-Deliverables)
-* [Conclusion](#🔍-Conclusion)
+* [Executive Summary](#executive-summary)
+* [Background](#background)
+* [Goals and Objective](#goals-and-objectives)
+* [Scope](#scope)
+* [Methodology](#methodology)
+* [System Architecture](#system-architecture)
+* [Risks and Limitations](#risks-and-limitations)
+* [Deliverables and Milestones](#deliverables-and-milestones)
+* [Resource](#resources)
+* [Technical Specifications](#technical-specifications)
+* [Timeline and Deliverables](#timeline-and-deliverables)
+* [Conclusion](#conclusion)
 
 ## 📒 Executive Summary
 As the world becomes more aware of the impact of energy consumption on the environment, businesses and organizations are increasingly seeking ways to improve their energy efficiency. One of the most effective ways to achieve this is through Energy Consumption Analysis. However, this process can be complicated, time-consuming, and difficult to track. This proposal outlines the development of an Energy Consumption Analysis Dashboard that will simplify the process and provide real-time insights into energy consumption, enabling businesses and organizations to take informed decisions and improve their energy efficiency.

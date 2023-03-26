@@ -12,12 +12,12 @@
 * [Goals and Objectives](#-goals-and-objectives)
 * [Scope](#-scope)
 * [Methodology](#-methodology)
-* [System Architecture](#-system-architecture)
+* [System Architecture](#-System-Architecture)
 * [Risks and Limitations](#-risks-and-limitations)
 * [Deliverables and Milestones](#-deliverables-and-milestones)
-* [Resources](#-resources)
-* [Technical Specifications](#-technical-specifications)
-* [Timeline and Deliverables](#-timeline-and-deliverables)
+* [Resources](#-Resources)
+* [Technical Specifications](#-Technical-Specifications)
+* [Timeline and Deliverables](#-Timeline-and-Deliverables)
 * [Conclusion](#-conclusion)
 
 ## 📒 Executive Summary
@@ -46,7 +46,9 @@ This allows companies to focus their attention on reasons for high demand of ene
 </div>
 
 ## 🧿 Scope
-- This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
+The development of an energy consumption analysis dashboard enables businesses and organizations to monitor their energy consumption easily and efficiently as the dashboard will provide real-time data on energy consumption and prices and offer actionable solutions to boost energy efficiency.
+
+-The data source to be used in this project is through the [Malaysia Energy Information Hub (MEIH)](https://meih.st.gov.my/statistics) website.
 
 ## 🔖 Methodology
 The Energy Consumption Analysis Dashboard will be developed using MongoDB to analyze energy consumption patterns and identify opportunities for energy savings.

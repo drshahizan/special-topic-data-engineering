@@ -1,7 +1,3 @@
-<h1 align='center'>Recommendation Engine: Netflix Shows/Movie Reccomendation 🔍</h1>
-
-![enter image description here](https://www.researchgate.net/profile/Maad-Mijwil/publication/357163408/figure/fig3/AS:1102587768127488@1639888817989/Netflix-recommendation-system-50.ppm)
-
 
 ## Table of Contents
 - [Executive Summary](#executive-summary)
@@ -23,7 +19,7 @@ Netflix, YouTube, Spotify and many more streaming platforms have been introduced
 > Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes. 
 
 ## 2. Background
-etflix is a global streaming service that provides a vast selection of TV shows, movies, and documentaries. It has over 200 million subscribers worldwide and is available in over 190 countries. One of the key features that set Netflix apart from other streaming services is its personalized recommendation system, which uses data science and machine learning algorithms to provide personalized content recommendations to its users. The Netflix recommendation system is based on a complex algorithm that takes into account a wide range of factors, such as the user's viewing history, search history, ratings, time of day, and device used, among others. The system continuously learns from the user's behavior and adjusts the recommendations to provide more relevant content over time.
+Netflix is a global streaming service that provides a vast selection of TV shows, movies, and documentaries. It has over 200 million subscribers worldwide and is available in over 190 countries. One of the key features that set Netflix apart from other streaming services is its personalized recommendation system, which uses data science and machine learning algorithms to provide personalized content recommendations to its users. The Netflix recommendation system is based on a complex algorithm that takes into account a wide range of factors, such as the user's viewing history, search history, ratings, time of day, and device used, among others. The system continuously learns from the user's behavior and adjusts the recommendations to provide more relevant content over time.
 
 The recommendation system has been a critical factor in Netflix's success and has helped the company retain and attract new subscribers. As a result, the development and improvement of the recommendation system have been a key focus for Netflix's data science and engineering teams. In recent years, Netflix has also made its recommendation system available to the research community through various data science challenges, such as the Netflix Prize, which aimed to improve the accuracy of the recommendation system by at least 10%. The challenge resulted in significant improvements to the recommendation system and led to the adoption of several new algorithms and techniques.
 

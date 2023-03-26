@@ -96,11 +96,11 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 - Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks. 
 - Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
 
-| Issues | Risk  | Limitation |
+|     Issues    | Risk  | Limitation |
 | ------------- | ------------- | ----- |
-| Technical  | Content Cell  |       |
-| Financial  | Content Cell  |       |
-| Legal  | Content Cell  |       |
+|   Technical   | Content Cell  |       |
+|   Financial   | Content Cell  |       |
+|     Legal     | Content Cell  |       |
 
 ---
 

@@ -229,7 +229,4 @@ gantt
 ---
 
 ## Conclusion:
-- Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
-- Summarize the proposal and reiterate the importance of the project.
-- Mention any potential limitations or challenges that may arise during the project.
-- Provide a call to action for the client to approve the proposal and proceed with the project.
+We believe our data science project is in fact crucial for both business and tourism in Johor. On the business side of things, cafe owners can use our analysis to improve the services if a complaint was made by a customer. It can be done much more efficiently as we could identify an actual helpful review which could be difficult by doing it manually. On the tourism side, tourist can actually recommend the cafes to their friends which could boost tourism even more. However, this can only be done if they actually had an amazing time so a good and reliable review would definitely help. However, we do not expect the project will sailing smoothly as there would be some challenges which we would expect to arise such as the model not working as intended. Fortunately, we could always ask our lecturer for any assistance. 

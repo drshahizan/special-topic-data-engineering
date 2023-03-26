@@ -68,7 +68,7 @@ Netflix's show recommendation system has been widely praised for its ability to 
 3. Legal Risk
 - `Privacy and Data Protection:` Netflix collects a lot of personal data from users to improve the recommendation system, such as viewing history, ratings, and user profiles. This data is subject to data protection laws and regulations, and Netflix must ensure that it is collecting and processing this data in compliance with applicable laws.
 
-Potential Strategies to Mitigate the Risks & Limitation
+Potential Strategies to Mitigate the Risks & Limitation:
 
 1. Technical Risk
 - `Cold Start Problem:` To address the cold start problem, Netflix can use hybrid recommendation approaches that combine collaborative filtering (based on user behavior) with content-based filtering (based on content metadata). This can help to provide relevant recommendations to new users even when they have no viewing history.

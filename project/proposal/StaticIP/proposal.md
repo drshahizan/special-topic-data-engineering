@@ -75,10 +75,16 @@ Although creating the energy consumption analysis dashboard will provide make ou
 A huge investments may be needed for data aggregation, collection and storage. If there is no proper financial planning, projects managers may waste the money on unnecessary places. The project end up to be abandoned and unable to be completed causing the organization to lose benefits. Therefore, before starting this project, it is very crucial to specify the software and hardware will be used. The team who is responsible to the project must make a report to the project manager what software that may need to subscribe and what hardware may need to purchase. With this detailed financial report, there will be no waste of money on unnecessary places.
 
 ### 🙀 Technical Risk
-One of the most serious technical risk is the data quality. Data quality may be problematic as it will affect the confidence of the sample. This confidence will represent the 
+One of the most serious technical risk is not having the right data. As we all know, the data sources chosen to carry out the analysis is very important in a data science project. When choosing a data source, the analytics team must think of the following aspects:
 
-Data quality could be an issue when testing of data integration and data cleansing techniques is done on the basis of sample testing, especially when Big Data is involved. While the techniques may produce good data in development and test samples, what is the confidence that the sample represents the entire data population well enough? Again, this is not something that requires a 100% check of the data population, but when it results in significant skews or outliers it’s always worth asking the question and then going back to double check the quality of the data points leading to such results. 
+- How to ensure the data security?
+- Is there a bias in underlying data?
+- Can you use the data in an ethical and legal manner in your anticipated use case?
+- Are you able to process the data on a timely and cost-effective basis?
+- Is the data clean? If not, are you able to clean it?
+- Do you know whether the data drift over time?
 
+Therefore, it is suggested that the analytics team should lay down internal protocols including policies, checklists and reviews to enforce proper data usage.
 
 ### 😨 Legal Risk
  This kind of risk happens when the analytics team is given freedom to take any data sources that are relevant are needed to do their job. In this case, it may cause the violence of security, privacy and confidentiality due to the illegal use of the data. Although it is normal to give the permissions to the employees to access the data, it is also very risky as we cannot guarantee that they may intend to use it to do something illegally. In the end, the company has to bear the consequences and it may be very problematic. However, this risk is easier to control compare to other risks. It is suggested that the company only gives the permissions to access the data to one or two of the team members only, but not the whole analytics team. This will help the company to have a better control on the data security, privacy and confidentiality.

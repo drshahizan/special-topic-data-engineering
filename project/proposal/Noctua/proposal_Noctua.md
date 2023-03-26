@@ -89,7 +89,7 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 - `Data Collection and Processing:`
   For data collection, the project will utilize web scraping techniques to extract reviews from Google's API.  The data will then be cleaned using data cleaning techniques such as removing punctuation, converting text to lowercase, and removing stop words. The cleaned data will then be analyzed and machine learning algorithms will be applied to predict customer satisfaction based on the data collected.
   
-- Software and Hardware Resources: 
+- `Software and Hardware Resources:` 
   The software resources required for this project include Python programming language, web scraping libraries such as Selenium, data analysis libraries such as Pandas, machine learning libraries such as Scikit-learn or  any libraries learnt in the previous semester. Data visualization tools such as Tableau or Python libraries such as Matplotlib or Seaborn can be used to present the results. The hardware resources required for this project include a computer with sufficient processing power and memory to handle the data.
 ---
 

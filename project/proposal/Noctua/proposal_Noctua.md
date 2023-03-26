@@ -126,27 +126,27 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
   </tr>
   <tr>
     <td>Data Collection</td>
-    <td>Week 1-2</td>
+    <td>Week 01</td>
   </tr>
   <tr>
     <td>Data Cleaning and Preprocessing</td>
-    <td>Week 3-5</td>
-  </tr>
-  <tr>
-    <td>Feature Extraction</td>
-    <td>Week 6-8</td>
+    <td>Week 02 - 04</td>
   </tr>
   <tr>
     <td>Machine Learning Algorithms</td>
-    <td>Week 9-10</td>
+    <td>Week 05 - 06</td>
   </tr>
   <tr>
-    <td>Data Visualizations</td>
-    <td>Week 11-12</td>
+    <td>Data Visualizations Design</td>
+    <td>Week 07 - 08</td>
   </tr>
   <tr>
-    <td>Report</td>
-    <td>Week 13-14</td>
+    <td>User Interface Design</td>
+    <td>Week 09 - 12</td>
+  </tr>
+  <tr>
+    <td>Testing & Project Launch</td>
+    <td>Week 13 - 14</td>
   </tr>
 </table>
 

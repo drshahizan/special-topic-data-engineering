@@ -86,7 +86,7 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
   4. `Machine Learning Algorithms:` Next, machine learning algorithms can be used to predict customer satisfaction based on the data collected. This can be done by building a model using supervised learning techniques such as regression or classification.
   5. `Data Visualization:` The final step is to present the results of the analysis and machine learning algorithms using data visualization techniques. This can be done using tools such as Tableau or Python libraries such as Matplotlib or Seaborn.
 
-- Data Collection and Processing:
+- `Data Collection and Processing:`
   For data collection, the project will utilize web scraping techniques to extract reviews from Google's API.  The data will then be cleaned using data cleaning techniques such as removing punctuation, converting text to lowercase, and removing stop words. The cleaned data will then be analyzed and machine learning algorithms will be applied to predict customer satisfaction based on the data collected.
 ---
 

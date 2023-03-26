@@ -172,21 +172,48 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 gantt
     title Project Timeline
     dateFormat  YYYY-MM-DD
-    section Project Tasks
-    Task 1           :a1, 2023-04-01, 30d
-    Task 2           :after a1  , 20d
-    Task 3           :after a1  , 20d
-    section Other Tasks
-    Task 4          :2023-04-15  , 10d
-    Task 5          :2023-04-25 , 10d
-    Task 6          :2023-05-05 , 10d
+  
+    section Data Collections
+    Data Searching   :2023-04-01 , 5d
+  
+    section Data Cleaning and Preprocessing
+    Data Cleaning            :2023-04-6  , 7d
+    EDA                      :2023-04-10 , 10d
+    Finalizing               :2023-04-20 , 7d
+  
+    section Machine Learning Algorithm
+    Preparing Model       :2023-04-27 , 7d
+    Model Testing         :2023-05-04 , 7d
+  
+    section Data Visualization
+    Simple data chart            :2023-05-11 , 8d
+    ML visualization             :2023-05-16 , 9d
+  
+    section User Interface Design
+    Designing User interface  :2023-05-25 , 11d
+    Features add-ons          :2023-06-04 , 8d
+    Modul insert              :2023-06-11 , 6d
+    Finalizing                :2023-06-17 , 5d
+  
+    section Testing & project launch
+    Live Testing      :2023-06-23 , 7d
+    Fixing flaws      :2023-06-30 , 7d
+  
   ```
   </div>
-- Provide a detailed timeline for the project, including milestones and deadlines.
+  
+- Data Collection(Week 1)
 
-- Specify the deliverables that will be provided at each milestone. It should also specify the expected time frame for each deliverable and the resources that will be required to complete the project.
+- Data Cleaning and Preprocessing (Week 2 - 4)
 
-- Explain the quality assurance and testing procedures that will be followed.
+- Machine Learning Algorithm (Week 5 - 6)
+
+- Data Visualizations (Week 7 - 8)
+
+- User Interface Design (Week 9 - 12)
+
+- Testing & project launch (Week 13 - 14)
+  
 
 ---
 

@@ -21,7 +21,7 @@ Netflix, YouTube, Spotify and many more streaming platforms have been introduced
 > Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes. 
 
 ## 2. Background
-etflix is a global streaming service that provides a vast selection of TV shows, movies, and documentaries. It has over 200 million subscribers worldwide and is available in over 190 countries. One of the key features that set Netflix apart from other streaming services is its personalized recommendation system, which uses data science and machine learning algorithms to provide personalized content recommendations to its users. The Netflix recommendation system is based on a complex algorithm that takes into account a wide range of factors, such as the user's viewing history, search history, ratings, time of day, and device used, among others. The system continuously learns from the user's behavior and adjusts the recommendations to provide more relevant content over time.
+Netflix is a global streaming service that provides a vast selection of TV shows, movies, and documentaries. It has over 200 million subscribers worldwide and is available in over 190 countries. One of the key features that set Netflix apart from other streaming services is its personalized recommendation system, which uses data science and machine learning algorithms to provide personalized content recommendations to its users. The Netflix recommendation system is based on a complex algorithm that takes into account a wide range of factors, such as the user's viewing history, search history, ratings, time of day, and device used, among others. The system continuously learns from the user's behavior and adjusts the recommendations to provide more relevant content over time.
 
 The recommendation system has been a critical factor in Netflix's success and has helped the company retain and attract new subscribers. As a result, the development and improvement of the recommendation system have been a key focus for Netflix's data science and engineering teams. In recent years, Netflix has also made its recommendation system available to the research community through various data science challenges, such as the Netflix Prize, which aimed to improve the accuracy of the recommendation system by at least 10%. The challenge resulted in significant improvements to the recommendation system and led to the adoption of several new algorithms and techniques.
 
@@ -60,8 +60,21 @@ Software/Hardware:
 - Provide a flowchart or block diagram of the system architecture.
 
 ## 7. Risks and Limitation
-- Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks.
-- Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
+Netflix's show recommendation system has been widely praised for its ability to personalize recommendations to individual users based on their viewing history, ratings, and preferences. However, there are also some risks and limitations to the system that are worth considering:
+1. Technical
+- Scalability: As Netflix's user base grows, the recommendation algorithm must be able to handle increasingly large amounts of data and make recommendations in real-time. This can be challenging from a technical perspective and may require significant investments in infrastructure and engineering.
+- Data Quality: The accuracy of the recommendation algorithm depends on the quality and quantity of data available. If data is missing or incomplete, the algorithm may make less accurate recommendations, which could negatively impact user engagement and satisfaction.
+- Cold Start Problem: When a new user signs up for Netflix, the recommendation algorithm has no data about their preferences or viewing history, making it difficult to provide personalized recommendations. This "cold start" problem can be challenging to overcome and may require alternative approaches to recommendation.
+2. Financial
+- Cost of Developing and Maintaining the Algorithm: Developing and maintaining a sophisticated recommendation algorithm like Netflix's requires significant investment in data science, machine learning, and software development. This can be a substantial financial burden for companies looking to implement similar systems.
+- Reliance on User Data: Netflix's recommendation algorithm relies heavily on user data to make personalized recommendations. If users become concerned about privacy or the use of their data, they may be less likely to engage with the platform or may even cancel their subscriptions.
+- Potential for Algorithmic Bias: As with any algorithm, there is a risk of bias in Netflix's recommendation system. If the algorithm is biased towards certain types of content or certain groups of users, it could have negative financial impacts by limiting the reach and appeal of the platform.
+3. Legal Risk
+- Privacy and Data Protection: Netflix collects a lot of personal data from users to improve the recommendation system, such as viewing history, ratings, and user profiles. This data is subject to data protection laws and regulations, and Netflix must ensure that it is collecting and processing this data in compliance with applicable laws.
+- Transparency and Disclosure: Netflix may be required to disclose how the recommendation algorithm works, how it uses user data, and what factors are used to make recommendations. Failure to provide adequate disclosure could result in legal challenges related to consumer protection or data protection.
+- Accuracy and Liability: If the recommendation algorithm makes inaccurate recommendations that lead to harm or financial loss for users, Netflix could be liable for damages. As such, the accuracy of the recommendation system is crucial from a legal perspective.
+
+Overall, while Netflix's recommendation system is generally effective, it is important to recognize its limitations and potential risks, and to be mindful of how the algorithm is shaping our viewing habits and preferences.
 
 ## 8. Deliverables and Milestones
 - Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.

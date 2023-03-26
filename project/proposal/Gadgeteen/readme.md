@@ -5,6 +5,12 @@
   <img src="https://cdn-insights.statusbrew.com/images/2021/07/top_27_social_media_monitoring_tools_for_businesses_of_all_sizes.png" width="350" title="Fraud Detection">
 </p>
 
+<p>
+Social media has dominated our lives in the current digital era. Millions of people use social media sites like Facebook, Twitter, Instagram, and LinkedIn, and an incredible quantity of data is generated on these sites. By analysing this data, one can learn important things about customer behaviour, sentiment analysis, competitor analysis, and more. Businesses and organisations need a social media monitoring tool in order to track and analyse social media data.
+
+This project proposal aims to provide a social media monitoring tool that can gather, examine, and visualise social media data from different sources. Businesses and organisations will benefit from the tool's insightful data on consumer behaviour, sentiment analysis, competitor analysis, and more. The device will be easy to use, customizable, and will provide real-time insights into social media data.
+  </p>
+  
 <h2 align="center">
   Group Name
   <br>

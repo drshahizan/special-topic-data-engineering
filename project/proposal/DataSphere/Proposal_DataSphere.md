@@ -59,13 +59,13 @@ Deliverables:
 
 Milestones :
 1. Week 1-2: Research on the product feature data science project requirements and finalize the proposal
-2. Week 3: Technical specification document outlining the architecture and design of the project
-3. Week 4: Collecting customer data 
-4. Week 5: Data pre-processing
-5. Week 6: Identify the relevant features of customers' product
-6. Week 7: Segment the customers based on the product
-7. Week 14: Visualize the insights
-8. Week 14: 
+2. Week 3-4: Technical specification document outlining the architecture and design of the project
+3. Week 5-6: Collecting customer data 
+4. Week 7-8: Data pre-processing
+5. Week 9-10: Identify the relevant features of customers' product
+6. Week 11-12: Segment the customers based on the product
+7. Week 13: Visualize the insights
+8. Week 14: Presenting finale result
 
 ## Resources
 - Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.

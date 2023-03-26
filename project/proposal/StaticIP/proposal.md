@@ -48,7 +48,7 @@ This allows companies to focus their attention on reasons for high demand of ene
 ## 🧿 Scope
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
 
-## 🔖 Methologies
+## 🔖 Methodology
 The Energy Consumption Analysis Dashboard will be developed using MongoDB to analyze energy consumption patterns and identify opportunities for energy savings.
 
 To begin the project, all relevant data such as electricity usage and gas usage will be collected. After the data is collected, the data will undergo pre-processing process before it is analyzed. The tasks in data pre-processing include cleaning, filtering and data transforming to ensure the data is usable. Then, we will start to carry out data analysis to derive insights from the data. In order to achieve this task, we will be using MongoDB's aggregation to determine and analyze the peak demand period and energy consumption patterns by geographic location or demographic group or detecting anomalies in energy consumption. Next, we will identify what features will be used to analyze the energy consumption pattern. Example of the features may be used is time, weather and occupancy. After that, we will predict the energy demand and determine the energy efficiency opportunities by developing predictive models by using machine learning models and algorihtms such as linear regression, time-series forecasting or clustering. Finally, we will visualize the results of the analysis by using chart or graph so that we can understand the energy usage patterns and areas of energy savings easily.

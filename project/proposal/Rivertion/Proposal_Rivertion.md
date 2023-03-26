@@ -77,12 +77,6 @@ The proposed data science project for developing a computer-aided diagnostic (CA
   	</ul>
 </ol>
 
-
-Data collection and processing:
-<ul>
-<li>The medical image dataset will be collected from various sources, including hospitals and medical research institutions. The images will be pre-processed to remove any noise, artifacts, or irrelevant information. The images will be resized, normalized, and standardized to ensure consistency across the dataset. The images will also be labeled to indicate the presence or absence of specific medical conditions.</li>
-</ul>
-
 The software and hardware resources required for the project include:
 
 1. Python programming language for developing machine learning models and data visualization tools.
@@ -260,12 +254,38 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 </ol>
 
 ## 11. 🏁 Timeline and Deliverables: 
-
-- Provide a detailed timeline for the project, including milestones and deadlines.
-
-- Specify the deliverables that will be provided at each milestone. It should also specify the expected time frame for each deliverable and the resources that will be required to complete the project.
-
-- Explain the quality assurance and testing procedures that will be followed.
+<ol>
+	<li>Detailed Timeline:</li>
+</ol>
+<ul>
+	<li>Week 1-2: Data Collection</li>
+	<li>Week 3-5: Data Cleaning and Preprocessing</li>
+	<li>Week 6-8: Feature Extraction</li>
+	<li>Week 9-10: Machine Learning Algorithms</li>
+	<li>Week 11-12: Data Visualizations</li>
+	<li>Week 13-14: Report</li>
+</ul>
+<ol start="2">
+	<li>Deliverables and Resources:</li>
+</ol>
+<ul>
+	<li>Data Collection: Deliverable: Complete dataset; Resources: Data acquisition and storage</li>
+	<li>Data Cleaning and Preprocessing: Deliverable: Cleaned and standardized dataset; Resources: Computers for staff, image processing libraries</li>
+	<li>Feature Extraction: Deliverable: Extracted features from dataset; Resources: High-performance computing equipment, deep learning frameworks</li>
+	<li>Machine Learning Algorithms: Deliverable: Trained machine learning models; Resources: High-performance computing equipment, supervised and unsupervised learning algorithms</li>
+	<li>Data Visualizations: Deliverable: Visualizations of dataset and model performance; Resources: Matplotlib, Seaborn, Tableau</li>
+	<li>Report: Deliverable: Final report on the project; Resources: Collaboration and project management tools</li>
+</ul>
+<ol start="3">
+	<li>Quality Assurance and Testing Procedures:</li>
+</ol>
+<ul>
+	<li>Cross-validation will be used to assess model performance and prevent overfitting.</li>
+	<li>The dataset will be split into training, validation, and test sets.</li>
+	<li>Hyperparameter tuning will be performed to optimize model performance.</li>
+	<li>A radiologist will provide domain expertise to ensure the accuracy of the image annotations.</li>
+	<li>The final report will include a discussion of limitations and potential areas for improvement.</li>
+</ul>
 
 
 ## 12. 📄 Conclusion:

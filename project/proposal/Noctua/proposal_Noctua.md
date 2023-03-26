@@ -166,8 +166,26 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 ---
 
 ## Timeline and Deliverables: 
+<div class="mermaid">
+  
+  ```mermaid
+gantt
+    title Project Timeline
+    dateFormat  YYYY-MM-DD
+    section Project Tasks
+    Task 1           :a1, 2023-04-01, 30d
+    Task 2           :after a1  , 20d
+    Task 3           :after a1  , 20d
+    section Other Tasks
+    Task 4          :2023-04-15  , 10d
+    Task 5          :2023-04-25 , 10d
+    Task 6          :2023-05-05 , 10d
+  ```
+  </div>
 - Provide a detailed timeline for the project, including milestones and deadlines.
+
 - Specify the deliverables that will be provided at each milestone. It should also specify the expected time frame for each deliverable and the resources that will be required to complete the project.
+
 - Explain the quality assurance and testing procedures that will be followed.
 
 ---

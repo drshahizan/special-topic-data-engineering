@@ -72,7 +72,7 @@ It will be possible to view the Energy Consumption Analysis Dashboard from any d
 Although creating the energy consumption analysis dashboard will provide make our life more convienient, it still has its risk and limitations:
 
 ### 😱 Financial Risk
-A huge investments may be needed for data aggregation, collection and storage. If there is no proper financial planning, projects managers may waste the money on unnecessary places. The project end up to be abandoned and unable to be completed causing the organization to lose benefits. 
+A huge investments may be needed for data aggregation, collection and storage. If there is no proper financial planning, projects managers may waste the money on unnecessary places. The project end up to be abandoned and unable to be completed causing the organization to lose benefits. Therefore, before starting this project, it is very crucial to specify the software and hardware will be used. The team who is responsible to the project must make a report to the project manager what software that may need to subscribe and what hardware may need to purchase. With this detailed financial report, there will be no waste of money on unnecessary places.
 
 ### 🙀 Technical Risk
 Technical risk can involves system breaches, cyber-attacks and technical failure. 

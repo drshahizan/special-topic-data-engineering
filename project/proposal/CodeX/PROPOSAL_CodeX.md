@@ -122,7 +122,7 @@ Software/Hardware:
 - Memory (RAM): The system will require a large amount of RAM for handling big data sets and training complex machine learning models. At least 16GB of RAM is recommended for a small-scale system, but larger systems will require more memory.
 - Storage: The system will require a large amount of storage to store the Netflix viewing history, search queries, user ratings and reviews, content metadata, and machine learning models. A high-performance storage system, such as a solid-state drive (SSD), is recommended for better performance.
 
-7)Software Requirements:
+7) Software Requirements:
 - Operating System: The recommended operating system for the system is Linux or MacOS, as they are both reliable and support many of the required software tools.
 - Programming Language: The system will use Python as the primary programming language for building machine learning models and data processing pipelines.
 - Frameworks and Libraries: The system will use a variety of machine learning frameworks and libraries such as Apache Spark, TensorFlow, PyTorch, Scikit-learn, Keras, Pandas, and NumPy. These libraries can be installed using the pip package manager in Python.

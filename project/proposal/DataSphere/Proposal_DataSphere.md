@@ -52,7 +52,7 @@ Deliverables:
 2. Technical specification document outlining the architecture and design of the project
 3. Collecting customer data 
 4. Data pre-processing
-5. 
+5. Identify the relevant features of customers' product
 
 Milestones :
 1. Week 1-2: Research on the product feature data science project requirements and finalize the proposal

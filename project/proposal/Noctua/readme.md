@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://i.pinimg.com/originals/aa/a6/84/aaa684fc7767831dde31a5b7e855565a.jpg" alt="Paris" height="250"></img>
+</p>
+
 <div>
   <h1>Project Proposal: NATURAL LANGUAGE PROCESSING TOOL :wrench:</h2>
 </div>

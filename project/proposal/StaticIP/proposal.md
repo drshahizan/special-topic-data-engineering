@@ -75,17 +75,13 @@ Although creating the energy consumption analysis dashboard will provide make ou
 A huge investments may be needed for data aggregation, collection and storage. If there is no proper financial planning, projects managers may waste the money on unnecessary places. The project end up to be abandoned and unable to be completed causing the organization to lose benefits. Therefore, before starting this project, it is very crucial to specify the software and hardware will be used. The team who is responsible to the project must make a report to the project manager what software that may need to subscribe and what hardware may need to purchase. With this detailed financial report, there will be no waste of money on unnecessary places.
 
 ### 🙀 Technical Risk
-Technical risk can involves system breaches, cyber-attacks and technical failure. 
+One of the most serious technical risk is the data quality. Data quality may be problematic as it will affect the confidence of the sample. This confidence will represent the 
 
-Effective management of technology risk involves:
+Data quality could be an issue when testing of data integration and data cleansing techniques is done on the basis of sample testing, especially when Big Data is involved. While the techniques may produce good data in development and test samples, what is the confidence that the sample represents the entire data population well enough? Again, this is not something that requires a 100% check of the data population, but when it results in significant skews or outliers it’s always worth asking the question and then going back to double check the quality of the data points leading to such results. 
 
-Identifying potential risks.
-Assessing their impact on the project.
-Implementing measures to mitigate and manage them.
-This can include security protocols, redundancy measures, and contingency plans to ensure the project's success.
 
 ### 😨 Legal Risk
-Legal risk can be unpredictable and may arise from legal and regulatory duties. These include contract risks, litigation brought against the business or organization, and internal legal issues. 
+ This kind of risk happens when the analytics team is given freedom to take any data sources that are relevant are needed to do their job. In this case, it may cause the violence of security, privacy and confidentiality due to the illegal use of the data. Although it is normal to give the permissions to the employees to access the data, it is also very risky as we cannot guarantee that they may intend to use it to do something illegally. In the end, the company has to bear the consequences and it may be very problematic. However, this risk is easier to control compare to other risks. It is suggested that the company only gives the permissions to access the data to one or two of the team members only, but not the whole analytics team. This will help the company to have a better control on the data security, privacy and confidentiality.
 
 ## 🗿 Deliverables and Milestones
 Key deliverables and milestones:

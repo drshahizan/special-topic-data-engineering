@@ -60,19 +60,22 @@ Software/Hardware:
 |Recommendation Algorithms | 
 
 ## 7. Risks and Limitation
-Netflix's show recommendation system has been widely praised for its ability to personalize recommendations to individual users based on their viewing history, ratings, and preferences. However, there are also some risks and limitations to the system that are worth considering:
-1. Technical
-- Scalability: As Netflix's user base grows, the recommendation algorithm must be able to handle increasingly large amounts of data and make recommendations in real-time. This can be challenging from a technical perspective and may require significant investments in infrastructure and engineering.
-- Data Quality: The accuracy of the recommendation algorithm depends on the quality and quantity of data available. If data is missing or incomplete, the algorithm may make less accurate recommendations, which could negatively impact user engagement and satisfaction.
-- Cold Start Problem: When a new user signs up for Netflix, the recommendation algorithm has no data about their preferences or viewing history, making it difficult to provide personalized recommendations. This "cold start" problem can be challenging to overcome and may require alternative approaches to recommendation.
-2. Financial
-- Cost of Developing and Maintaining the Algorithm: Developing and maintaining a sophisticated recommendation algorithm like Netflix's requires significant investment in data science, machine learning, and software development. This can be a substantial financial burden for companies looking to implement similar systems.
-- Reliance on User Data: Netflix's recommendation algorithm relies heavily on user data to make personalized recommendations. If users become concerned about privacy or the use of their data, they may be less likely to engage with the platform or may even cancel their subscriptions.
-- Potential for Algorithmic Bias: As with any algorithm, there is a risk of bias in Netflix's recommendation system. If the algorithm is biased towards certain types of content or certain groups of users, it could have negative financial impacts by limiting the reach and appeal of the platform.
+Netflix's show recommendation system has been widely praised for its ability to personalize recommendations to individual users based on their viewing history, ratings, and preferences. However, here are some potential risks and limitations associated with Netflix's recommendation system, along with potential strategies to mitigate them:
+1. Technical Risk
+- `Cold Start Problem:` When a new user signs up for Netflix, the recommendation algorithm has no data about their preferences or viewing history, making it difficult to provide personalized recommendations. This "cold start" problem can be challenging to overcome and may require alternative approaches to recommendation.
+2. Financial Risk
+- `Cost of Developing and Maintaining the Algorithm:` Developing and maintaining a sophisticated recommendation algorithm like Netflix's requires significant investment in data science, machine learning, and software development. This can be a substantial financial burden for companies looking to implement similar systems.
 3. Legal Risk
-- Privacy and Data Protection: Netflix collects a lot of personal data from users to improve the recommendation system, such as viewing history, ratings, and user profiles. This data is subject to data protection laws and regulations, and Netflix must ensure that it is collecting and processing this data in compliance with applicable laws.
-- Transparency and Disclosure: Netflix may be required to disclose how the recommendation algorithm works, how it uses user data, and what factors are used to make recommendations. Failure to provide adequate disclosure could result in legal challenges related to consumer protection or data protection.
-- Accuracy and Liability: If the recommendation algorithm makes inaccurate recommendations that lead to harm or financial loss for users, Netflix could be liable for damages. As such, the accuracy of the recommendation system is crucial from a legal perspective.
+- `Privacy and Data Protection:` Netflix collects a lot of personal data from users to improve the recommendation system, such as viewing history, ratings, and user profiles. This data is subject to data protection laws and regulations, and Netflix must ensure that it is collecting and processing this data in compliance with applicable laws.
+
+Potential Strategies to Mitigate the Risks & Limitation:
+
+1. Technical Risk
+- `Cold Start Problem:` To address the cold start problem, Netflix can use hybrid recommendation approaches that combine collaborative filtering (based on user behavior) with content-based filtering (based on content metadata). This can help to provide relevant recommendations to new users even when they have no viewing history.
+2. Financial Risk
+- `Cost of Developing and Maintaining the Algorithm:` The maintenance cost of the recommendation system includes the cost of updating and retraining machine learning models, improving data quality, and enhancing the algorithm. To mitigate this risk, Netflix can use automated processes and tools to streamline the maintenance process and reduce manual intervention.
+3. Legal Risk
+- `Privacy and Data Protection:` To mitigate the risk of data protection and privacy breaches, Netflix should ensure that it complies with applicable privacy laws and regulations. This includes implementing adequate data protection measures, obtaining user consent for data collection and processing, and providing users with transparency and control over their data.
 
 Overall, while Netflix's recommendation system is generally effective, it is important to recognize its limitations and potential risks, and to be mindful of how the algorithm is shaping our viewing habits and preferences.
 
@@ -138,9 +141,18 @@ Software Requirements:
 - Regular security audits: Regular security audits should be performed to identify vulnerabilities, address security concerns, and ensure that security policies and procedures are being followed. Security audits can be performed internally or by third-party security firms.
 
 ## 11. Timeline and Deliverables
-- Provide a detailed timeline for the project, including milestones and deadlines.
-- Specify the deliverables that will be provided at each milestone. It should also specify the expected time frame for each deliverable and the resources that will be required to complete the project.
-- Explain the quality assurance and testing procedures that will be followed.
+- (WEEK 1 - 4) : `Data Collection and Processing`
+  > Collect user and item data and store it in a MongoDB database.
+  > Preprocess the data to remove any inconsistencies or anomalies.
+- (WEEK 5 - 6) : `Data Modeling`
+  > Choose a recommendation algorithm that suits your use case, such as collaborative filtering or content-based filtering.
+- (WEEK 7 - 10) : `User Interface`
+  > Build a user interface that enables users to interact with the recommendation engine and view the recommendations.
+- (WEEK 11) : `Deployment and Testing`
+  > Deploy the recommendation engine and database on a cloud platform such as AWS or Heroku.
+  > Test the recommendation engine to ensure that it is functioning correctly and providing accurate recommendations.
+- (WEEK 12 - 14) : `Maintenance`
+  > Maintain and update the recommendation engine as needed to ensure that it continues to meet the requirements of the project.
 
 ## 12. Conclusion
 - Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.

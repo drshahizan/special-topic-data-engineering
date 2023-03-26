@@ -23,7 +23,6 @@ Netflix, YouTube, Spotify and many more streaming platforms have been introduced
 - As Netflix is one of the streaming platform , it uses Netflix Recommendation Algorithm (NRA) , to analyze user behaviour. Personalization is the key to success in today consumer world because it grabs consumer attention for the best experience and interaction towards Netflix. Netflix Recommendation Algorithm (NRA) create personalization based on 
 these informations :
 
-
 1)Time duration of a viewer watching a video.
 
 2)Viewing history.
@@ -53,23 +52,17 @@ these informations :
 ## Goals and Objective
 1) Implement the usage of MongoDB to create recommendation engine
 2) Be able to understand steps of using MongoDB to create recommendation engine, which are Data Collection , Data Cleaning, Data Transformation , Data Loading , Model Training and Recommedation Generation based on study case (Netflix)
-
-The objective of recommendation engines such as Spotify and Apple Music is to provide personalized recommendations to users based on their listening history, preferences, and behavior. By analyzing large amounts of data about user interactions with music, recommendation engines can generate personalized playlists and song suggestions that are more likely to resonate with each user's individual taste.
-
-The primary goal of these recommendation engines is to enhance the user experience by providing users with a more personalized and engaging listening experience. By offering tailored recommendations, these platforms can increase user engagement, retention, and loyalty, as well as increase the likelihood of users discovering new music and artists that they enjoy.
-
-In addition to improving the user experience, recommendation engines also provide value to the platform itself. By increasing user engagement and retention, these engines can drive more revenue through subscription fees, advertising, and other means.
-
-Overall, the objective of recommendation engines such as Spotify and Apple Music is to provide a more personalized and engaging experience for users while also driving business value for the platform.
-
+3) Improve the user experience: One of the primary goals of a data-driven project may be to improve the user experience. For example, in a recommendation system like Netflix, the goal may be to provide personalized and relevant content recommendations to improve user satisfaction and engagement.
+4)Enhance data quality: A key objective of a data-driven project may be to enhance data quality. This includes ensuring data accuracy, completeness, and consistency to improve the reliability and usefulness of the data for analysis and modeling.
+5)Develop predictive models: Another objective may be to develop predictive models to forecast future trends and outcomes. For example, in a financial institution, the goal may be to build predictive models to identify potential fraud or assess credit risk.
+6)Ensure data security: One of the critical objectives of a data-driven project may be to ensure data security. This includes implementing appropriate security measures to protect sensitive data from unauthorized access, data breaches, and cyber threats.
+7)Improve operational efficiency: A data-driven project may aim to improve operational efficiency by automating tasks, reducing manual intervention, and streamlining processes. For example, in a manufacturing industry, the goal may be to optimize production processes and reduce waste by using predictive maintenance techniques.
 
 ## Scope
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
 - 
 
 ## Methodology
--Technique will used :
-
 1) Data Collection : collect data from sources such as Netflix Recommendation Algorithm (NRA). This data will be used to train the reccomendation model
 2) Data Cleaning : clean the collected data to removed irrelevant data or incomplete data such as null in user watching video period.
 3) Data Transformation : Transform the cleaned data into format(____) used by MongoDB
@@ -77,7 +70,7 @@ Overall, the objective of recommendation engines such as Spotify and Apple Music
 5) Model Training : Trains the recommendatiob model using machne learning algorithm based on data collected in steps 1
 6) Recommendation generation : Generate recommendations for users based on their previous interaction with the system.
 
--Software/Hardware uses: 
+Software/Hardware: 
 
 
 ## System Architecture

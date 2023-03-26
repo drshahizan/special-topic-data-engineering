@@ -77,6 +77,12 @@ The proposed data science project for developing a computer-aided diagnostic (CA
   	</ul>
 </ol>
 
+
+Data collection and processing:
+<ul>
+<li>The medical image dataset will be collected from various sources, including hospitals and medical research institutions. The images will be pre-processed to remove any noise, artifacts, or irrelevant information. The images will be resized, normalized, and standardized to ensure consistency across the dataset. The images will also be labeled to indicate the presence or absence of specific medical conditions.</li>
+</ul>
+
 The software and hardware resources required for the project include:
 
 1. Python programming language for developing machine learning models and data visualization tools.

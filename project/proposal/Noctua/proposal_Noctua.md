@@ -172,14 +172,33 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 gantt
     title Project Timeline
     dateFormat  YYYY-MM-DD
-    section Project Tasks
-    Task 1           :a1, 2023-04-01, 30d
-    Task 2           :after a1  , 20d
-    Task 3           :after a1  , 20d
-    section Other Tasks
-    Task 4          :2023-04-15  , 10d
-    Task 5          :2023-04-25 , 10d
-    Task 6          :2023-05-05 , 10d
+    section Data Collections
+    Task 1           :2023-04-01 , 7d
+    Task 2           :2023-04-08 , 7d
+  
+    section Data Cleaning and Preprocessing
+    Task 1          :2023-04-15  , 7d
+    Task 2          :2023-04-22 , 7d
+    Task 3          :2023-04-29, 7d
+  
+    section Feature Extraction
+    Task 1          :2023-05-6  , 7d
+    Task 2          :2023-05-13 , 7d
+    Task 3          :2023-05-20 , 7d
+  
+    section Machine Learning Algorithm
+    Task 1          :2023-05-27 , 7d
+    Task 2          :2023-06-03 , 7d
+  
+    section Data Visualizations
+    Task 1          :2023-06-10 , 7d
+    Task 2          :2023-06-17 , 7d
+  
+    section Report
+    Task 1          :2023-06-24 , 7d
+    Task 2          :2023-07-01 , 7d
+    
+  
   ```
   </div>
 - Provide a detailed timeline for the project, including milestones and deadlines.

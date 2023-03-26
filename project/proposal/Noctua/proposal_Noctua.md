@@ -177,7 +177,7 @@ gantt
     Data Searching   :2023-04-01 , 5d
   
     section Data Cleaning and Preprocessing
-    Start Data Cleaning      :2023-04-6  , 6d
+    Data Cleaning            :2023-04-6  , 7d
     EDA                      :2023-04-10 , 10d
     Finalizing               :2023-04-20 , 7d
   
@@ -186,18 +186,18 @@ gantt
     Model Testing         :2023-05-04 , 7d
   
     section Data Visualization
-    Simple data chart            :2023-05-11 , 5d
-    ML algorithm visualization   :2023-05-16 , 9d
+    Simple data chart            :2023-05-11 , 8d
+    ML visualization             :2023-05-16 , 9d
   
     section User Interface Design
-    Designing User interface  :2023-05-25 , 6d
-    Features add-ons          :2023-05-31 , 7d
-    Modul insert              :2023-06-07 , 10d
+    Designing User interface  :2023-05-25 , 11d
+    Features add-ons          :2023-06-04 , 8d
+    Modul insert              :2023-06-11 , 6d
     Finalizing                :2023-06-17 , 5d
   
     section Testing & project launch
-    Testing project on live       :2023-06-23 , 7d
-    Fixing flaws and security     :2023-06-30 , 7d
+    Live Testing      :2023-06-23 , 7d
+    Fixing flaws      :2023-06-30 , 7d
   
   ```
   </div>

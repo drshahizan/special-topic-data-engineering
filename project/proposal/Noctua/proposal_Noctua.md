@@ -97,9 +97,9 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 - Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
 
 - Potential Risks and Limitations:
-  1. Technical risks: The data you collect from Google reviews may not be accurate, complete, or up-to-date. Also, the analysis of such data requires expertise in data analytics and statistical techniques. There may be issues with data privacy, such as sensitive customer information being exposed.
-  2. Financial risks: The cost of collecting, processing, and storing data may be higher than anticipated. There may also be unexpected expenses, such as the need for additional hardware or software.
-  3. Legal risks: You may be infringing on intellectual property rights or data privacy laws while collecting and using the data. It is essential to ensure that you are compliant with local regulations and that you have obtained the necessary permissions.
+  1. `Technical risks:` The data you collect from Google reviews may not be accurate, complete, or up-to-date. Also, the analysis of such data requires expertise in data analytics and statistical techniques. There may be issues with data privacy, such as sensitive customer information being exposed.
+  2. `Financial risks:` The cost of collecting, processing, and storing data may be higher than anticipated. There may also be unexpected expenses, such as the need for additional hardware or software.
+  3. `Legal risks:` You may be infringing on intellectual property rights or data privacy laws while collecting and using the data. It is essential to ensure that you are compliant with local regulations and that you have obtained the necessary permissions.
 
 
 

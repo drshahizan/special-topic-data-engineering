@@ -126,27 +126,27 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
   </tr>
   <tr>
     <td>Data Collection</td>
-    <td>Week 1-2</td>
+    <td>Week 01</td>
   </tr>
   <tr>
     <td>Data Cleaning and Preprocessing</td>
-    <td>Week 3-5</td>
-  </tr>
-  <tr>
-    <td>Feature Extraction</td>
-    <td>Week 6-8</td>
+    <td>Week 02 - 04</td>
   </tr>
   <tr>
     <td>Machine Learning Algorithms</td>
-    <td>Week 9-10</td>
+    <td>Week 05 - 06</td>
   </tr>
   <tr>
-    <td>Data Visualizations</td>
-    <td>Week 11-12</td>
+    <td>Data Visualizations Design</td>
+    <td>Week 07 - 08</td>
   </tr>
   <tr>
-    <td>Report</td>
-    <td>Week 13-14</td>
+    <td>User Interface Design</td>
+    <td>Week 09 - 12</td>
+  </tr>
+  <tr>
+    <td>Testing & Project Launch</td>
+    <td>Week 13 - 14</td>
   </tr>
 </table>
 
@@ -204,11 +204,11 @@ gantt
   
 - Data Collection(Week 1)
 
-  Discussing which data source suit the best for our project objectives and scope
+  > Discussing which data source suit the best for our project objectives and scope
   
 - Data Cleaning and Preprocessing (Week 2 - 4)
 
-  Data Cleaning and preporcessing the dataset to be used for more advance processing such as EDA, Data Integration, Aggregation and Visualization.
+  > Data Cleaning and preporcessing the dataset to be used for more advance processing such as EDA, Data Integration, Aggregation and Visualization.
 
 - Machine Learning Algorithm (Week 5 - 6)
 
@@ -216,15 +216,15 @@ gantt
 
 - Data Visualizations (Week 7 - 8)
 
-  Present all the data collected, data calculated or data trained into a chart, bar or scale for easier interpretations
+  > Present all the data collected, data calculated or data trained into a chart, bar or scale for easier interpretations
   
 - User Interface Design (Week 9 - 12)
 
-  A crucial phase as overall project to create a stable and reliable system. The 
+  > A crucial phase as overall project to create a stable and reliable system. Understanding the target audience, developing the interface with their wants and preferences in mind, and taking interactive elements, colour schemes, and typefaces into consideration are just a few of the tasks involved in UI design. For enterprises and organisations, a well-designed user interface may improve the user experience, allow for more effective decision-making, and increase energy efficiency.
 
 - Testing & project launch (Week 13 - 14)
 
-  An important phase in this project to test our website/server before launch for several reasons including identifying defects in the system, ensuring all the functions are working and ready to be use, ensuring stability(system is stable and reliable to handle huge amount of user traffic) and Mitigating risk(could reduce the risk of costly downtime)
+  > An important phase in this project to test our website/server before launch for several reasons including identifying defects in the system, ensuring all the functions are working and ready to be use, ensuring stability(system is stable and reliable to handle huge amount of user traffic) and Mitigating risk(could reduce the risk of costly downtime)
 
 ---
 

@@ -41,10 +41,6 @@ The goal is to develop an energy consumption analysis dashboard that could ease 
 
 This allows companies to focus their attention on reasons for high demand of energy and plan ways to control energy consumption and minimize costs.
 
-<div align="center">
-<img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/analysis.gif" height="150">
-</div>
-
 ## 🧿 Scope
 The development of an energy consumption analysis dashboard enables businesses and organizations to monitor their energy consumption easily and efficiently as the dashboard will provide real-time data on energy consumption and prices and offer actionable solutions to boost energy efficiency.
 

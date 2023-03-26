@@ -1,5 +1,5 @@
 <div>
-<h1 align = 'center'><b>Energy Consumption Analysis in Malaysia.</b></h1>
+<h1 align = 'center'><b>Energy Consumption Analysis in Malaysia</b></h1>
 </div>
 
 <div align="center">
@@ -9,7 +9,7 @@
 ## Table of content
 * [Executive Summary](#-executive-summary)
 * [Background](#-background)
-* [Goals and Objective](#-goals-and-objectives)
+* [Goals and Objectives](#-goals-and-objectives)
 * [Scope](#-scope)
 * [Methodology](#-methodology)
 * [System Architecture](#-system-architecture)
@@ -21,24 +21,24 @@
 * [Conclusion](#-conclusion)
 
 ## 📒 Executive Summary
-Businesses and organisations are continuously looking for ways to boost their energy efficiency as Malaysians become more aware of their energy consumption and its effects on the environment. Therefore, energy consumption analysis is one of the most effective ways to accomplish this. However, this process can be complicated, time-consuming, and challenging to monitor. This proposal outlines the development of an energy consumption analysis dashboard that will streamline the process and provide real-time insights on energy consumption, enabling businesses and organizations to take informed decisions and wise choices to improve their energy efficiency.
+Businesses and organisations are continuously looking for ways to boost their energy efficiency as Malaysians become more aware of their energy consumption and its effects on the environment. Therefore, energy consumption analysis is one of the most effective ways to accomplish this. However, this process can be complicated, time-consuming, and challenging to monitor. This proposal outlines the development of an energy consumption analysis dashboard that will streamline the process and provide real-time insights on energy consumption where the  expected outcomes enable businesses and organizations to take informed decisions and wise choices to improve their energy efficiency.
 
 ## 🧱 Background
 Energy consumption analysis is the process of analyzing energy usage patterns to quantify the energy required by different systems in an organizations. By analyzing the energy usage, we can identify the energy consumption inefficiencies, thus provide alternative solutions to this problem. While conducting the analysis, data sources related to energy consumption of the organization is collected and analyzed to identify the areas of high energy consumption. Strategies to reduce energy usage are proposed based on the analysis. 
 
 However, traditional methods of energy consumption analysis are problematic and inefficient as it does not provide real-time information causing workload increament and time-consuming. We may need to update the analysis manually once there is any update on the data. Traditional energy consumption analysis is also can be difficult to track and monitor because users are unable to interact with it. Users cannot see the previous version of the analysis. Besides, the way of presentation of the analysis is complicated and hard to study.
 
-By implementing energy consumption analysis dashboard, an organization can save up their time and the workload of thier employees because the dashboard provides a real-time energy consumption analysis. There is no longer th need of updating the data manually. Furthermore, dashboard is a good tool to get an overview of energy consumption of the organization. It offers clear and readable data so that users can understand the analysis easily at a glance improving the user experience.
+By implementing energy consumption analysis dashboard, an organization can save up their time and the workload of thier employees because the dashboard provides a real-time energy consumption analysis. There is no longer the need of updating the data manually. Furthermore, dashboard is a good tool to get an overview of energy consumption of the organization. It offers clear and readable data so that users can understand the analysis easily at a glance improving the user experience.
 
-## 🔬 Objective
-The goal is to develop an energy consumption analysis dashboard that makes it easier to analyze energy consumption, offers real-time information, and aids companies and groups in keeping track of their energy usage, spotting areas with high levels of consumption and waste, and taking proactive steps to increase efficiency.
+## 🔬 Goals and Objectives
+The goal is to develop an energy consumption analysis dashboard that could ease the analysis process of energy consumption in Malaysia which offers real-time information, aids companies and groups in keeping track of their energy usage, spotting areas with high levels of consumption and waste as well as taking proactive steps to increase efficiency. The following objectives are the focus of our energy consumption analysis dashboard:
 
-- Create a dashboard for energy consumption analysis.
-- Simplify the energy usage measurement procedure.
-- Offer real-time information on energy consumption trends
-- Make it simple and effective for companies and groups to keep track of their energy usage 
-- Spot areas with high energy use and loss
-- Be diligent in making improvements to energy economy.
+- To monitor real-time energy KPIs.
+- To keep track of energy usage by individual utilities easily.
+- To categorize energy costs based on different segments. 
+- To determine areas with high energy consumption.
+- To observe the variation in energy consumption of a specific period.
+This allows companies to focus their attention on reasons for high demand of energy and plan ways to control energy consumption and minimize costs.
 
 <div align="center">
 <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/analysis.gif" height="150">

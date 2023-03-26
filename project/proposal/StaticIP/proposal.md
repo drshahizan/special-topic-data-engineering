@@ -12,12 +12,12 @@
 * [Goals and Objectives](#-goals-and-objectives)
 * [Scope](#-scope)
 * [Methodology](#-methodology)
-* [System Architecture](#-System-Architecture)
+* [System Architecture](#-system-architecture)
 * [Risks and Limitations](#-risks-and-limitations)
 * [Deliverables and Milestones](#-deliverables-and-milestones)
-* [Resources](#-Resources)
-* [Technical Specifications](#-Technical-Specifications)
-* [Timeline and Deliverables](#-Timeline-and-Deliverables)
+* [Resources](#-resources)
+* [Technical Specifications](#-technical-specifications)
+* [Timeline and Deliverables](#-timeline-and-deliverables)
 * [Conclusion](#-conclusion)
 
 ## 📒 Executive Summary
@@ -48,7 +48,13 @@ This allows companies to focus their attention on reasons for high demand of ene
 ## 🧿 Scope
 The development of an energy consumption analysis dashboard enables businesses and organizations to monitor their energy consumption easily and efficiently as the dashboard will provide real-time data on energy consumption and prices and offer actionable solutions to boost energy efficiency.
 
--The data source to be used in this project is through the [Malaysia Energy Information Hub (MEIH)](https://meih.st.gov.my/statistics) website.
+- The data source to be used in this project is through the [Malaysia Energy Information Hub (MEIH)](https://meih.st.gov.my/statistics) portal. This portal has a comprehensive of Malaysia's energy database such as crude oil & petroleum, natural gas and electricity.
+
+- MongoDB's aggregation framework will be used as the main tool to extract insights from the data source and execute advanced queries and aggregations which involve pinpointing periods of high energy demand, examining unusual patterns of energy usage.
+
+- Duration, type of industry and other appropriate features are used for analyzing the energy consumption trends via machine learning algorithms to create a model that can forecast energy usage, recognize trends and discover anomalies.
+
+- By using visualisations, the outcomes from the energy usage analysis could be easily comprehend and the findings obtained can be used as opportunities to identify energy savings strategies to increase the efficiency of energy use.
 
 ## 🔖 Methodology
 The Energy Consumption Analysis Dashboard will be developed using MongoDB to analyze energy consumption patterns and identify opportunities for energy savings.

@@ -64,13 +64,13 @@ It will be possible to view the Energy Consumption Analysis Dashboard from any d
 <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/dashboard.gif" height="150">
 </div>
 
-## 👻 Risks and Limitations
+## 💣 Risks and Limitations
 Although creating the energy consumption analysis dashboard will provide make our life more convienient, it still has its risk and limitations:
 
-### 😱 Financial Risk
+### 💰 Financial Risk
 A huge investments may be needed for data aggregation, collection and storage. If there is no proper financial planning, projects managers may waste the money on unnecessary places. The project end up to be abandoned and unable to be completed causing the organization to lose benefits. Therefore, before starting this project, it is very crucial to specify the software and hardware will be used. The team who is responsible to the project must make a report to the project manager what software that may need to subscribe and what hardware may need to purchase. With this detailed financial report, there will be no waste of money on unnecessary places.
 
-### 🙀 Technical Risk
+### ⚙️ Technical Risk
 One of the most serious technical risk is not having the right data. As we all know, the data sources chosen to carry out the analysis is very important in a data science project. When choosing a data source, the analytics team must think of the following aspects:
 
 - How to ensure the data security?
@@ -82,7 +82,7 @@ One of the most serious technical risk is not having the right data. As we all k
 
 Therefore, it is suggested that the analytics team should lay down internal protocols including policies, checklists and reviews to enforce proper data usage.
 
-### 😨 Legal Risk
+### 📑 Legal Risk
  This kind of risk happens when the analytics team is given freedom to take any data sources that are relevant are needed to do their job. In this case, it may cause the violence of security, privacy and confidentiality due to the illegal use of the data. Although it is normal to give the permissions to the employees to access the data, it is also very risky as we cannot guarantee that they may intend to use it to do something illegally. In the end, the company has to bear the consequences and it may be very problematic. However, this risk is easier to control compare to other risks. It is suggested that the company only gives the permissions to access the data to one or two of the team members only, but not the whole analytics team. This will help the company to have a better control on the data security, privacy and confidentiality.
 
 ## 🗿 Deliverables and Milestones

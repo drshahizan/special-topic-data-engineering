@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-<img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/energy%20consumtion.gif">
+<img src="https://www.energymagazine.com.au/wp-content/uploads/2019/03/shutterstock_1069016036-e1553576133807.jpg">
 </div>
 
 ## Table of content

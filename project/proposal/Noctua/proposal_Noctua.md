@@ -98,8 +98,9 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 
 | Issues | Risk  | Limitation |
 | ------------- | ------------- | ----- |
-| Content Cell  | Content Cell  |       |
-| Content Cell  | Content Cell  |       |
+| Technical  | Content Cell  |       |
+| Financial  | Content Cell  |       |
+| Legal  | Content Cell  |       |
 
 ---
 

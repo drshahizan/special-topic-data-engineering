@@ -54,6 +54,7 @@ Deliverables:
 4. Data pre-processing
 5. Identify the relevant features of customers' product
 6. Segment the customers based on the product
+7. Visualize the insights
 
 Milestones :
 1. Week 1-2: Research on the product feature data science project requirements and finalize the proposal

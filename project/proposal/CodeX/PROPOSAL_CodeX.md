@@ -52,12 +52,12 @@ As a result of its success, the Netflix recommendation system has become a bench
 
 Software/Hardware: 
 
-
 ## 6. System Architecture
-- Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
-- Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
-- Discuss the tools and frameworks that will be used for data visualization and analysis.
-- Provide a flowchart or block diagram of the system architecture.
+| Components | Tools and Technologies|
+|--|--|
+|Data Ingestion | Ingest data from Netflix, including user and item data, ratings, and interactions. The data can be stored in MongoDB|
+|Data Preprocessing | The data will be processed to ensure consistency. The tolls will be used are Pandas, NumPy, and Scikit-learn.|
+|Recommendation Algorithms | 
 
 ## 7. Risks and Limitation
 Netflix's show recommendation system has been widely praised for its ability to personalize recommendations to individual users based on their viewing history, ratings, and preferences. However, there are also some risks and limitations to the system that are worth considering:

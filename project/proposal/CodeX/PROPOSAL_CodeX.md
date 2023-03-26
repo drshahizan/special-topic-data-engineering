@@ -60,8 +60,14 @@ Software/Hardware:
 - Provide a flowchart or block diagram of the system architecture.
 
 ## 7. Risks and Limitation
-- Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks.
-- Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
+The capacity of Netflix's show recommendation algorithm to cater recommendations to specific users based on their viewing habits, ratings, and tastes has received high praise. But it's also important to take into account some of the system's hazards and restrictions:
+- Limited Variety of Recommendations: Netflix's recommendation system frequently favours media that users have already viewed or highly rated. This may result in a narrow range of recommendations and could even confirm current prejudices or preferences.
+- Privacy Concerns: Netflix gathers a lot of information about its users, including their viewing habits, ratings, and even the times of day they watch. Although this information is utilised to enhance the recommendation system, privacy issues are also raised.
+- Limited Knowledge of User Preferences: Although the recommendation system is intended to learn from users' behaviour and preferences, it may occasionally fail to accurately capture a user's genuine interests or preferences. This may result in inappropriate suggestions or recommendations that don't suit the user's preferences.
+- Over-Reliance on Popular Content: Netflix's recommendation engine frequently favours well-known films over lesser-known ones, which can lead to an over-reliance on popular content. Smaller, niche titles that users would find interesting may not receive as much publicity as they could otherwise.
+- Lack of Transparency: Users may find it challenging to comprehend why they are receiving specific recommendations or how to increase the accuracy of their recommendations because Netflix does not clearly explain how its recommendation algorithm works.
+
+In general, Netflix's suggestion system works well, but it's crucial to understand its limitations and potential risks as well as how the algorithm is influencing our viewing habits and preferences.
 
 ## 8. Deliverables and Milestones
 - Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.

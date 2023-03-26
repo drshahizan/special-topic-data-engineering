@@ -78,9 +78,9 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 ---
 
 ### Methodology:
-- Explain the methodology and the techniques that will be used in the project. Provide a detailed methodology that outlines how the proposed data science project will be executed, including data collection and cleaning, data analysis, machine learning algorithms, and data visualization techniques.
-- Explain how the data will be collected and processed.
-- Discuss the software and hardware resources that will be required for the project.
+1. `Data Collection:` The first step is to collect data on Google reviews about cafes in Johor. This can be done by using web scraping techniques to extract reviews from Google's API. Another option is to manually extract data by browsing Google reviews of cafes in Johor.
+
+
 
 ---
 

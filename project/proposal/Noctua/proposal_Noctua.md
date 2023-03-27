@@ -112,7 +112,7 @@ Components in system architecture:
 MongoDB usage steps:
   1. `Design data schema:` Identifying the relationships of data before storing it in MongoDB
   2. `Create databases and collections:` Create databases and collections based on the data scheme design. 
-  3. 'Data insertion:` A JSON-like formate of data can be inserted into MongoDB using insert() method or mongoimport.
+  3. `Data insertion:` A JSON-like formate of data can be inserted into MongoDB using insert() method or mongoimport.
   4. `Retrive and data query:` Queried data using find() method, and operators such as filter, sort, etc.
   5. `Indexing:` Improve data retrieval for fast lookups. The index contains a list of values and pointers to the location of the records
   6. `Aggregation:` Grouping data based on certain criteria. 

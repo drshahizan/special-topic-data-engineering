@@ -2,7 +2,10 @@
 
 
 ## Table of Contents
-- [Executive Summary](#1.Executive Summary)
+<!---
+<li><a href="#section1">Section 1</a></li>
+--->
+- [Executive Summary](#executive-summary)
 - [Background](#background)
 - [Goals and Objectives](#goals-and-objectives)
 - [Scope](#scope)

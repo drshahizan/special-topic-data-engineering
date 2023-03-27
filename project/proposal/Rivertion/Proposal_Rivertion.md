@@ -139,27 +139,27 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
     <th>Timeframe</th>
   </tr>
   <tr>
-    <td>Data Collection</td>
+    <td>Data Gathering</td>
     <td>Week 1-2</td>
   </tr>
   <tr>
     <td>Data Cleaning and Preprocessing</td>
-    <td>Week 3-5</td>
+    <td>Week 3-4</td>
   </tr>
   <tr>
-    <td>Feature Extraction</td>
-    <td>Week 6-8</td>
+    <td>EDA</td>
+    <td>Week 5-7</td>
   </tr>
   <tr>
-    <td>Machine Learning Algorithms</td>
-    <td>Week 9-10</td>
+    <td>Build Model</td>
+    <td>Week 8-10</td>
   </tr>
   <tr>
-    <td>Data Visualizations</td>
+    <td>Evaluate Model</td>
     <td>Week 11-12</td>
   </tr>
   <tr>
-    <td>Report</td>
+    <td>Deploy Model</td>
     <td>Week 13-14</td>
   </tr>
 </table>

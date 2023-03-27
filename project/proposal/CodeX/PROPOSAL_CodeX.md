@@ -2,7 +2,7 @@
 
 
 ## Table of Contents
-- [Executive Summary](# Executive-Summary)
+- [Executive Summary](# executive-summary)
 - [Background](#background)
 - [Goals and Objectives](#goals-and-objectives)
 - [Scope](#scope)

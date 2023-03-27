@@ -57,7 +57,10 @@ Software/Hardware:
 |--|--|
 |Data Ingestion | Ingest data from Netflix, including user and item data, ratings, and interactions. The data can be stored in MongoDB|
 |Data Preprocessing | The data will be processed to ensure consistency. The tolls will be used are Pandas, NumPy, and Scikit-learn.|
-|Recommendation Algorithms | 
+|Recommendation Algorithms | The algorithm will generate recommendations based on user preferences and item features.|
+|Model Training | The recommendation algorithm will be trained using historical data to learn the patterns and realationsjip between users and Netflix.|
+|Model Deployment| The deployed model will be able to generate real-time recommendations for users.|
+|Data Visualization and Analytics| By using Matplotlib, Seaborn and Tableau, to visualize and analyze the recommendation data.| 
 
 ## 7. Risks and Limitation
 Netflix's show recommendation system has been widely praised for its ability to personalize recommendations to individual users based on their viewing history, ratings, and preferences. However, here are some potential risks and limitations associated with Netflix's recommendation system, along with potential strategies to mitigate them:

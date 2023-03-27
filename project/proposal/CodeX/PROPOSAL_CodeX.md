@@ -285,7 +285,7 @@ Deliverables and Resources
   > - `Resources` : Collaborative / Content-based / Hybrid filtering algorithms
 - User Interface Design
   > - `Deliverables` : User-friendly interface and personalized recommendation
-  > - `Resources` : UI/UX design tools such as Figma, Sketch or Adobe XD
+  > - `Resources` : HTML, CSS, Javascript
 - Deployment and Testing
   > - `Deliverables` : A deployed recommendation system and testing results
   > - `Resources` : User feedback mechanism

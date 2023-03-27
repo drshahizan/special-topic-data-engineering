@@ -283,7 +283,7 @@ Deliverables and Resources
 - Data Modeling
   > - `Deliverables` : A recommendation algorithm
   > - `Resources` : Collaborative / Content-based / Hybrid filtering algorithms
-- User Interface
+- User Interface Design
   > - `Deliverables` : User-friendly interface and personalized recommendation
   > - `Resources` : UI/UX design tools such as Figma, Sketch or Adobe XD
 - Deployment and Testing

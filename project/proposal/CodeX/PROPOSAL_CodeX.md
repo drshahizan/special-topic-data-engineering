@@ -16,7 +16,7 @@
 - [Conclusion](#conclusion)
 
 ## 1. Executive Summary
-Netflix, YouTube, Spotify and many more streaming platforms have been introduced to the world as the technologies are advancing rapidly nowadays. With this being said, users are prone to use it almost everyday whenever they wanted to watch movies or tv shows and stream any music. In this project, our group will focused on the recommendation engine implemented in Netflix. The objective of this project is to create a system that display the best suggestion of musics or shows on streaming platform. The system we proposed will implement the usage of MongoDB as a database that can keep track on the user behavioral data which will then be processed using machine learning to recognize streaming patterns of each user so that the most relevant suggestion can be presented to the users to increase the users satisfactory.
+Netflix, YouTube, Spotify and many more streaming platforms have been introduced to the world as the technologies are advancing rapidly nowadays. With this being said, users are prone to use it almost everyday whenever they wanted to watch movies or tv shows and stream any music. In this project, our group will focused on the recommendation engine implemented in Netflix. The objective of this project is to create a system that display the best suggestion of tv shows on streaming platform. The system we proposed will implement the usage of MongoDB as a database that can keep track on the user behavioral data which will then be processed using machine learning to recognize streaming patterns of each user so that the most relevant suggestion can be presented to the users to increase the users satisfactory.
 
 
 ## 2. Background
@@ -105,6 +105,77 @@ Overall, while Netflix's recommendation system is generally effective, it is imp
 
 ## 8. Deliverables and Milestones
 - Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
+
+<table border="1" align="center">
+  <tr>
+    <th>Deliverables and Milestones</th>
+    <th>Timeframe</th>
+  </tr>
+  <tr>
+    <td>Data Collection and Preprocessing</td>
+    <td>Week 1-4</td>
+  </tr>
+  <tr>
+    <td>Data Modeling</td>
+    <td>Week 5-6</td>
+  </tr>
+  <tr>
+    <td>User Interface</td>
+    <td>Week 7-10</td>
+  </tr>
+  <tr>
+    <td>Deployment and Testing</td>
+    <td>Week 11</td>
+  </tr>
+  <tr>
+    <td>Maintenance</td>
+    <td>Week 12-14</td>
+  </tr>
+</table>
+
+
+<table border="1" align="center">
+  <tr>
+    <th>Deliverable</th>
+    <th>Description</th>
+    <th>Milestone</th>
+  </tr>
+  <tr>
+    <td>Data Collection</td>
+    <td>Collection of data from the target source (Netflix)</td>
+    <td>Milestone 1: Data collected from legit source</td>
+  </tr>
+  <tr>
+    <td>Data Cleaning and Preprocessing</td>
+    <td>Perform all the data cleaning and preprocessing steps to the data collected before since the data are raw</td>
+    <td>Milestone 2: Data is cleaned so it can be used for the next milestones</td>
+  </tr>
+  <tr>
+    <td>Exploratory Data Analysis (EDA)</td>
+    <td>A step used to summarize the datasets according to their characteristics as well as identify the relationship, patterns and anamolies</td>
+    <td>Milestone 3: Data is summarized according to its similarities</td>
+  </tr>
+  <tr>
+    <td>Build Model</td>
+    <td>Creation of website structure and functionality using HTML, CSS, and JavaScript</td>
+    <td>Milestone 4: Create a website with dashboard</td>
+  </tr>
+  <tr>
+    <td>Evaluate Model</td>
+    <td>Testing of website usability, functionality, and user experience</td>
+    <td>Milestone 5: User testing completed and feedback incorporated</td>
+  </tr>
+  <tr>
+    <td>Deploy Model</td>
+    <td>Website made live and available to the public</td>
+    <td>Milestone 6: Website launched and operational</td>
+  </tr>
+  <tr>
+    <td>Maintenance</td>
+    <td>Ongoing support and maintenance of website</td>
+    <td>Milestone 7: Post-launch support and maintenance for the users</td>
+  </tr>
+</table>
 
 ## 9. Resources
 1. Staff

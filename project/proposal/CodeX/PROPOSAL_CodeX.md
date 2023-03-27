@@ -79,31 +79,9 @@ Software/Hardware:
 6) Power BI: Power BI is a business analytics service by Microsoft that allows users to create interactive dashboards and reports. It provides a range of visualization types, including charts, maps, and tables.
 
 Below are the flowchart for the system architecture:
-```mermaid
-graph TD;
-+------------------+          +------------------+
-| User Interaction |          |  Recommendation  |
-|     Data         |          |    Generation    |
-|   (User Input)   |          |   Component      |
-+---------^--------+          +--------^---------+
-          |                             |
-          |                             |
-+---------v--------+            +--------v---------+
-|     MongoDB      |            |    Model Training |
-|   Data Storage   |            |     Component    |
-+---------^--------+            +--------^---------+
-          |                             |
-          |                             |
-+---------v--------+            +--------v---------+
-| Data Processing  |            |  Model Evaluation |
-|   Component      |            |     Component    |
-+---------^--------+            +--------^---------+
-          |                             |
-          |                             |
-+---------v--------+            +--------v---------+
-|     Other        |            |   Feedback       |
-|   Components     |            | Collection      |
-+------------------+            +------------------+
+<p align="center">
+<img height='400px' src='Flowchart.png'/>
+</p>
 
 
 ## 7. Risks and Limitation

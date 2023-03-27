@@ -79,7 +79,7 @@ Software/Hardware:
 6) Power BI: Power BI is a business analytics service by Microsoft that allows users to create interactive dashboards and reports. It provides a range of visualization types, including charts, maps, and tables.
 
 Below are the flowchart for the system architecture:
-
+```mermaid
 graph TD;
 +------------------+          +------------------+
 | User Interaction |          |  Recommendation  |

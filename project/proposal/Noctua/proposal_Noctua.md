@@ -96,7 +96,9 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 ## System Architecture:
 - Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
 - Discuss the tools and frameworks that will be used for data visualization and analysis.
-- 
+- Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
+- Provide a flowchart or block diagram of the system architecture.
+
 Components in system architecture:
   1. `Data acquisition:` Collect data using *web scraping* techniques to extract reviews from Google's API or manually extract data by browsing Google reviews of cafes in Johor.
   2. `Data storage:` The collected data may be structured or unstructured data and the storage should capable on handling a high volume of data. This also will allow a fast retrieval of data. Tools that will be used here is a NoSQL database which is *MongoDB*.
@@ -106,8 +108,6 @@ Components in system architecture:
   6. `Model monitoring and maintenance:` The procedure of keeping track of the models' performance and updating them as necessary. This might entail keeping track of the model's precision, or retraining the model using new data. Tools that can be use is MLflow, which is an open-source platform for managing the machine learning lifecycle, including model training, deployment, and monitoring.
   7. `Visualization and reporting:` Process of visualizing insights in a suitable format such as dashboards, reports, or interactive visualizations. Some common tools are *Tableau and PowerBI*.
   8. `Workflow and collaboration:` The procedure for working with team members and managing the workflow. Project management software, issue trackers, and version control systems may be used in this.
-
-- Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
 
 MongoDB usage steps:
   1. `Design data schema:` Identifying the relationships of data before storing it in MongoDB
@@ -136,8 +136,6 @@ MongoDB requirements:
       <td>MongoDB agent must be installed only on 64-bit architectures</td>
     </tr>
   </table>
-
-- Provide a flowchart or block diagram of the system architecture.
 
 ---
 

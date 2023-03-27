@@ -62,6 +62,28 @@ Software/Hardware:
 |Model Deployment| The deployed model will be able to generate real-time recommendations for users.|
 |Data Visualization and Analytics| By using Matplotlib, Seaborn and Tableau, to visualize and analyze the recommendation data.| 
 
+- MongoDB will store the data in MongoDB collections, if there is a large volumes of data, MongoDB also can handle using sharding.
+- MongoDB provides tools and features for managing data, including data modeling, backup and recovery, security, and monitoring.
+- We can also do aggregation, map-reduce, and text search to analyst the data and extract insights from the recommendation data.
+
+1) Matplotlib: Matplotlib is a Python library for creating static, animated, and interactive visualizations in Python. It provides a wide range of charts and graphs, including line charts, bar charts, scatter plots, and heat maps.
+
+2) Seaborn: Seaborn is a Python library based on Matplotlib that provides a high-level interface for creating beautiful and informative statistical graphics. It includes various visualization types, such as heat maps, categorical plots, and distribution plots.
+
+3) Plotly: Plotly is an open-source data visualization library that allows users to create interactive plots and charts. It supports a wide range of chart types, including scatter plots, line charts, bar charts, and heat maps.
+
+4) D3.js: D3.js is a JavaScript library for creating dynamic, interactive data visualizations in web browsers. It provides a wide range of chart types and customization options and is widely used for creating complex and interactive visualizations.
+
+5) Tableau: Tableau is a data visualization and business intelligence tool that allows users to create interactive dashboards and reports. It provides a drag-and-drop interface for creating visualizations and supports a wide range of data sources.
+
+6) Power BI: Power BI is a business analytics service by Microsoft that allows users to create interactive dashboards and reports. It provides a range of visualization types, including charts, maps, and tables.
+
+Below are the flowchart for the system architecture:
+```mermaid
+graph TD;
+    A[Data Storage and Management]-->B[Machine Learning Model Training and Evaluation];
+    B[Machine Learning Model Training and Evaluation]-->C[CAD System Interface];
+```
 ## 7. Risks and Limitation
 Netflix's show recommendation system has been widely praised for its ability to personalize recommendations to individual users based on their viewing history, ratings, and preferences. However, here are some potential risks and limitations associated with Netflix's recommendation system, along with potential strategies to mitigate them:
 1. Technical Risk

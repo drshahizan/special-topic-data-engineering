@@ -254,6 +254,9 @@ Software Requirements:
 - Regular security audits: Regular security audits should be performed to identify vulnerabilities, address security concerns, and ensure that security policies and procedures are being followed. Security audits can be performed internally or by third-party security firms.
 
 ## 11. Timeline and Deliverables
+
+Timeline
+
 - WEEK 1 - 4 : `Data Collection and Processing`
 
   > Collect user and item data and store it in a MongoDB database.
@@ -271,6 +274,25 @@ Software Requirements:
 - WEEK 12 - 14 : `Maintenance`
 
   > Maintain and update the recommendation engine as needed to ensure that it continues to meet the requirements of the project.
+
+Deliverables and Resources
+
+- Data Collection and Processing
+  > - `Deliverables` : Cleaned and structured data
+  > - `Resources` : Data cleaning tools such as Python's Pandas library
+- Data Modeling
+  > - `Deliverables` : A recommendation algorithm
+  > - `Resources` : Collaborative / Content-based / Hybrid filtering algorithms
+- User Interface
+  > - `Deliverables` : User-friendly interface and personalized recommendation
+  > - `Resources` : UI/UX design tools such as Figma, Sketch or Adobe XD
+- Deployment and Testing
+  > - `Deliverables` : A deployed recommendation system and testing results
+  > - `Resources` : User feedback mechanism
+- Maintenance
+  > - `Deliverables` : Performance monitoring and user feedback analysis
+  > - `Resources` : User feedback mechanism
+
 
 ## 12. Conclusion
 - Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.

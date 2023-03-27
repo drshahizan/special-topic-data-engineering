@@ -96,10 +96,15 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 ## System Architecture:
 - Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
 
-Components of the system:
-  1. `Data collection:` Collect data using web scraping techniques to extract reviews from Google's API or manually extract data by browsing Google reviews of cafes in Johor. Then, stored the structured or unstructured data in a NoSQL database which is MongoDB.
+Components in system architecture:
+  1. `Data acquisition:` Collect data using web scraping techniques to extract reviews from Google's API or manually extract data by browsing Google reviews of cafes in Johor.
   2. `Data storage:` The collected data may be an unstructured data and the storage should capable on handling a high volume of data. This also will allow a fast retrieval of data. Tools that will be used here is a NoSQL database which is MongoDB.
-  3. ................
+  3. `Data preprocessing:` Process of cleaning and transforming data such as handling missing and inconsistent data, removing outliers and data normalization. Tools and technologies that can be use are Pandas, NumPy, and Scikit-learn for machine learning.
+  4. ` Data analysis and modeling:` Process of data analysis and model building to extract insights and make predictions. This process may involve machine learning, deep learning, or some other statistical methods
+  5. `Model deployment:` Process of making a trained machine learning model available in a suitable environment for predictions on new data. Tools that will be used is Django. Python's Django is a full-stack web framework with support for RESTful APIs, a built-in admin interface, and database connectivity. It is frequently used to create sophisticated web apps with machine learning models.
+  6. `Model monitoring and maintenance:` The procedure of keeping track of the models' performance and updating them as necessary. This might entail keeping track of the model's precision, or retraining the model using new data. Tools that can be use is MLflow, which is an open-source platform for managing the machine learning lifecycle, including model training, deployment, and monitoring.
+  7. `Visualization and reporting:` Process of visualizing insights in a suitable format such as dashboards, reports, or interactive visualizations. Some commong tools are Tableau and PowerBI.
+  8. `Workflow and collaboration:` The procedure for working with team members and managing the workflow. Project management software, issue trackers, and version control systems may be used in this.
 
 
 - Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.

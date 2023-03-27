@@ -108,7 +108,22 @@ Overall, while Netflix's recommendation system is generally effective, it is imp
 - Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
 
 ## 9. Resources
-- Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.
+1. Staff
+- Project Managers
+- Data Engineers
+- Software Developers
+- UX/UI Designers
+
+2. Equipment
+- MongoDB database
+- Server
+- Programming languages
+
+3. software
+- Python Libraries
+
+4. Other expenses
+- Software costs
 
 ## 10. Technical Specifications
 Data Sources:

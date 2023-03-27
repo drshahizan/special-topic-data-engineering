@@ -79,11 +79,32 @@ Software/Hardware:
 6) Power BI: Power BI is a business analytics service by Microsoft that allows users to create interactive dashboards and reports. It provides a range of visualization types, including charts, maps, and tables.
 
 Below are the flowchart for the system architecture:
-```mermaid
-graph TD;
-    A[Data Storage and Management]-->B[Machine Learning Model Training and Evaluation];
-    B[Machine Learning Model Training and Evaluation]-->C[CAD System Interface];
-```
+
++------------------+          +------------------+
+| User Interaction |          |  Recommendation  |
+|     Data         |          |    Generation    |
+|   (User Input)   |          |   Component      |
++---------^--------+          +--------^---------+
+          |                             |
+          |                             |
++---------v--------+            +--------v---------+
+|     MongoDB      |            |    Model Training |
+|   Data Storage   |            |     Component    |
++---------^--------+            +--------^---------+
+          |                             |
+          |                             |
++---------v--------+            +--------v---------+
+| Data Processing  |            |  Model Evaluation |
+|   Component      |            |     Component    |
++---------^--------+            +--------^---------+
+          |                             |
+          |                             |
++---------v--------+            +--------v---------+
+|     Other        |            |   Feedback       |
+|   Components     |            | Collection      |
++------------------+            +------------------+
+
+
 ## 7. Risks and Limitation
 Netflix's show recommendation system has been widely praised for its ability to personalize recommendations to individual users based on their viewing history, ratings, and preferences. However, here are some potential risks and limitations associated with Netflix's recommendation system, along with potential strategies to mitigate them:
 1. Technical Risk

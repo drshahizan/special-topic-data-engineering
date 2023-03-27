@@ -1,5 +1,5 @@
 <div>
-<h1 align = 'center'><b>Cafe Satisfactory	:pizza: <br> Monitor google review about customer satisfaction on cafes in Johor.</b></h1>
+<h1 align = 'center'><b>Cafe Satisfactory	☕: <br> Monitor google review about customer satisfaction on cafes in Johor.</b></h1>
   </div>
 
 ---
@@ -95,6 +95,13 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 
 ## System Architecture:
 - Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
+
+Components of the system:
+  1. `Data collection:` Collect data using web scraping techniques to extract reviews from Google's API or manually extract data by browsing Google reviews of cafes in Johor. Then, stored the structured or unstructured data in a NoSQL database which is MongoDB.
+  2. `Data storage:` The collected data may be an unstructured data and the storage should capable on handling a high volume of data. This also will allow a fast retrieval of data. Tools that will be used here is a NoSQL database which is MongoDB.
+  3. ................
+
+
 - Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
 - Discuss the tools and frameworks that will be used for data visualization and analysis.
 - Provide a flowchart or block diagram of the system architecture.

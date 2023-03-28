@@ -5,18 +5,22 @@
 
 
 ## Table of content
-* [Executive Summary](#-executive-summary)
-* [Background](#-background)
-* [Goals and Objectives](#-goals-and-objectives)
-* [Scope](#-scope)
-* [Methodology](#-methodology)
-* [System Architecture](#-system-architecture)
-* [Risks and Limitations](#-risks-and-limitations)
-* [Deliverables and Milestones](#-deliverables-and-milestones)
-* [Resources](#-resources)
-* [Technical Specifications](#-technical-specifications)
-* [Timeline and Deliverables](#-timeline-and-deliverables)
-* [Conclusion](#-conclusion)
+- [Table of content](#table-of-content)
+- [📒 Executive Summary](#-executive-summary)
+- [🧱 Background](#-background)
+- [🔬 Goals and Objectives](#-goals-and-objectives)
+- [🧿 Scope](#-scope)
+- [🔖 Methodology](#-methodology)
+- [🖥️ System Architecture (mq)](#️-system-architecture-mq)
+- [💣 Risks and Limitations (mq)](#-risks-and-limitations-mq)
+  - [💰 Financial Risk](#-financial-risk)
+  - [⚙️ Technical Risk](#️-technical-risk)
+  - [📑 Legal Risk](#-legal-risk)
+- [🗿 Deliverables and Milestones](#-deliverables-and-milestones)
+- [🗂️ Resources](#️-resources)
+- [🛠️ Technical Specifications](#️-technical-specifications)
+- [⏲️ Timeline and Deliverables](#️-timeline-and-deliverables)
+- [🔍 Conclusion](#-conclusion)
 
 ## 📒 Executive Summary
 
@@ -32,11 +36,11 @@
 
 ## 🔖 Methodology
 
-## 🖥️ System Architecture
+## 🖥️ System Architecture (mq)
 
 
 
-## 💣 Risks and Limitations
+## 💣 Risks and Limitations (mq)
 
 
 ### 💰 Financial Risk

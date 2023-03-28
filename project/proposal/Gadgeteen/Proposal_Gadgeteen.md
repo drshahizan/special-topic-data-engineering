@@ -148,3 +148,4 @@ gantt
   </div>
 
 ## 🔍 Conclusion
+In conclusion, the proposed social media monitoring tool for ChatGPT in Malaysia has the potential to provide valuable insights into public opinion and sentiment towards the platform. By automating the process of analyzing social media data, the tool can save time and reduce the risk of biases and errors associated with manual analysis. The project's scope includes collecting and processing social media data, performing sentiment analysis and topic modeling, and developing machine learning algorithms to classify social media data based on sentiment. The project can ultimately benefit ChatGPT by providing areas for improvement and potential new features, thus improving its popularity and usage in Malaysia.

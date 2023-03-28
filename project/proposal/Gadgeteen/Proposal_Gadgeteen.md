@@ -149,6 +149,25 @@ All in all, the methodology of the project is to collect and pre-process Twitter
 
 ## 🗂️ Resources
 
+- **Staff**
+   - Data Scientist
+   - Data Engineer
+   - Database administrator
+   - Project Manager
+
+- **Equipment**
+   - Computer/Laptop
+   
+- **Software**
+   - Python and libraries like Tweepy, Pandas, Scikit-learn, NLTK, Matplotlib
+   - MongoDB
+   - Visual Studio Code
+   - Tableau / Power BI
+   - Git and Github
+   
+- **Other expenses**
+   - Twitter API
+   - Cloud services
 
 ## 🛠️ Technical Specifications
 

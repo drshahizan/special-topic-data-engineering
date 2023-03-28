@@ -190,6 +190,29 @@ gantt
   
   ```
   </div>
+- Data Collection (`Week 1 - Week 2`)
+
+  > Discussing which data source that suit the best for our project objectives and scope. 
+  
+- Data Cleaning and Preprocessing (`Week 3 - Week 4`)
+
+  > Data Cleaning and preporcessing the data to be used for more advance processing such as EDA, Data Integration, Aggregation and Visualization. This phase is given 3 weeks to complete since we need to remove noisy data and duplications in order to have a completly clean data. 
+
+- Sentiment Analysis (`Week 5 - Week 7`)
+
+  > phase where we will be training the data and allow machine learning to use the data to create prediction, classification and clustering. 
+
+- Build Model & User Interface (`Week 8 - Week 11`)
+
+  > A crucial phase as overall project to create a stable and reliable system. Understanding the target audience, developing the interface with their wants and preferences in mind, and taking interactive elements, colour schemes, and typefaces into consideration are just a few of the tasks involved in UI design. For enterprises and organisations, a well-designed user interface may improve the user experience, allow for more effective decision-making, and increase energy efficiency.
+  
+- Deployment and Testing (`Week 12`)
+
+  > Before we launch our website, it is important that we thoroughly test the system to ensure that everything is working properly and that the functions are ready to be used. This step also involves identifying and fixing any issues that could cause a system failure.
+
+- Maintenance (`Week 13 - Week 14`)
+
+  >  Performance monitoring and user feedback analysis
 
 ## 🔍 Conclusion
 In conclusion, the proposed social media monitoring tool for ChatGPT in Malaysia has the potential to provide valuable insights into public opinion and sentiment towards the platform. By automating the process of analyzing social media data, the tool can save time and reduce the risk of biases and errors associated with manual analysis. The project's scope includes collecting and processing social media data, performing sentiment analysis and topic modeling, and developing machine learning algorithms to classify social media data based on sentiment. The project can ultimately benefit ChatGPT by providing areas for improvement and potential new features, thus improving its popularity and usage in Malaysia.

@@ -49,23 +49,21 @@
 <!--Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines. --->
 Deliverables:
 1. Detailed proposal outlining the product features of the data science project using MongoDB
-2. Technical specification document outlining the architecture and design of the project
-3. Collecting customer data 
-4. Data pre-processing
-5. Identify the relevant features of customers' product
-6. Segment the customers based on the product
-7. Visualize the insights
-8. Presenting finale result
+2. Collecting customer data 
+3. Data pre-processing
+4. Perform exploratory data analysis
+5. Segment the customers based on the product
+6. Deploy machine learning model
+7. Presenting finale result
 
 Milestones :
-1. Week 1-2: Research on the product feature data science project requirements and finalize the proposal
-2. Week 3-4: Technical specification document outlining the architecture and design of the project
-3. Week 5-6: Collecting customer data 
-4. Week 7-8: Data pre-processing
-5. Week 9-10: Identify the relevant features of customers' product
-6. Week 11-12: Segment the customers based on the product
-7. Week 13: Visualize the insights
-8. Week 14: Presenting finale result
+1. Week 1-3: Research on the product feature data science project requirements and finalize the proposal
+2. Week 4-6: Collecting customer data 
+3. Week 7: Data pre-processing
+4. Week 8-9: Perform exploratory data analysis
+5. Week 10: Segment the customers based on the product
+6. Week 11-12: Deploy machine learning model
+7. Week 13-14: Presenting finale result
 
 ## Resources
 - Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.

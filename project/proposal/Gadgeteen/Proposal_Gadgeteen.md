@@ -38,10 +38,10 @@ ChatGPT is an artificial intelligence language model developed by OpenAI that is
 ## 🧿 Scope
 The project will focus specifically on Twitter data, as Twitter is a popular social media platform for discussing technology and current events. By analyzing Twitter data in real-time, the project aims to provide valuable insights into the public's perception of ChatGpt
 
-Data Sources:
+<b>Data Sources:</b>
 The primary data source for this project will be Twitter's API, which will provide us with real-time access to tweets related to "ChatGpt." We will use Twitter's streaming API to collect tweets in real-time, using specific keywords and hashtags related to ChatGpt.
 
-Tools and Technologies:
+<b>Tools and Technologies:</b>
 We will use Python as the main programming language for this project, along with several open-source libraries such as Tweepy, Pandas, and MongoDB:
 
 I.	Tweepy: Use to connect to Twitter's API.
@@ -54,7 +54,7 @@ IV.	NLTK (Natural Language Toolkit): Use for sentiment analysis
 
 V.	PowerBi: To visualize and explore the data.
 
-Other Relevant Information:
+<b>Other Relevant Information:</b>
 To ensure data privacy and security, we will comply with Twitter's API Terms of Service and any applicable laws and regulations related to data privacy and security. We will also use appropriate measures to secure the data, such as encrypting the database and using secure protocols for data transfer.
 
 

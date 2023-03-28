@@ -6,17 +6,17 @@
 
 ## Table of Contents
 * [🗞️ Executive Summary](#-executive-summary)
-* [Background](#background)
-* [Goals and Objectives](#goals-and-objectives)
-* [Scope](#scope)
-* [Methodology](#methodology)
-* [System Architecture](#system-architecture)
-* [Risks and Limitations](#risks-and-limitations)
-* [Deliverables and Milestones](#deliverables-and-milestones)
-* [Resources](#resources)
-* [Technical Specifications](#technical-specifications)
-* [Timeline and Deliverables](#timeline-and-deliverables)
-* [Conclusion](#conclusion)
+* [✍️ Background](#-background)
+* [🥅 Goals and Objectives](#-goals-and-objectives)
+* [🔭 Scope](#-scope)
+* [🍄 Methodology](#-methodology)
+* [🧮 System Architecture](#-system-architecture)
+* [🍡 Risks and Limitations](#-risks-and-limitations)
+* [🪃 Deliverables and Milestones](#-deliverables-and-milestones)
+* [🛢️ Resources](#-resources)
+* [💻 Technical Specifications](#-technical-specifications)
+* [⏳ Timeline and Deliverables](#-timeline-and-deliverables)
+* [🎓 Conclusion](#-conclusion)
 ---
 
 ## Key components
@@ -28,7 +28,7 @@ Restaurant reviews from Google are often used to survey places for customers tha
 
 ---
 
-## Background
+## ✍️ Background
 <p align="center">
 <img src="https://i.pinimg.com/originals/aa/a6/84/aaa684fc7767831dde31a5b7e855565a.jpg" alt="Paris" height="250"></img>
 </p>
@@ -46,7 +46,7 @@ Overall, this project aims to provide insights into the customer satisfaction of
 
 ---
 
-## Goals and Objectives
+## 🥅 Goals and Objectives
 
 Problem Statement:
 Customer reviews do not always show the true meaning. It can make other customers misunderstand the views of those customers who might want to try the cafe. Newer customers might find some reviews unreliable after trying out themselves. There are also some people who wanted to downgrade the cafe by intentionally giving negative reviews. The cafe owner also might want to improve their services thus, a reliable review might help them. 
@@ -63,7 +63,7 @@ In this project, we aim to monitor the Google reviews about customer satisfactio
 
 ---
 
-## Scope: 
+## 🔭 Scope: 
 The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Malaysia to gain insights into customer satisfaction levels and identify common themes in customer feedback. To achieve this, we will collect data from Google My Business, which will provide access to a large volume of reviews for cafes in the Johor Bharu area. To achieve the result in question, here are the project scope statement that we will be using to our aid.
 
 - 1. `Data Sources` Collect Google reviews of cafes in Johor Bharu, Malaysia using the `Enter data source here`
@@ -77,7 +77,7 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 
 ---
 
-## Methodology:
+## 🍄 Methodology:
 - Methodology and the techniques that will be used
   1. `Data Collection:` The first step is to collect data on Google reviews about cafes in Johor. This can be done by using web scraping techniques to extract reviews from Google's API. Another option is to manually extract data by browsing Google reviews of cafes in Johor.
 
@@ -93,7 +93,7 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
   The software resources required for this project include Python programming language, web scraping libraries such as Selenium, data analysis libraries such as Pandas, machine learning libraries such as Scikit-learn or  any libraries learnt in the previous semester. Data visualization tools such as Tableau or Python libraries such as Matplotlib or Seaborn can be used to present the results. The hardware resources required for this project include a computer with sufficient processing power and memory to handle the data.
 ---
 
-## System Architecture:
+## 🧮 System Architecture:
 - Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
 - Discuss the tools and frameworks that will be used for data visualization and analysis.
 - Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
@@ -139,7 +139,7 @@ MongoDB requirements:
 
 ---
 
-## Risks and Limitations:
+## 🍡 Risks and Limitations:
 - Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks. 
 - Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
 
@@ -156,7 +156,7 @@ MongoDB requirements:
 
 ---
 
-## Deliverables and Milestones:
+## 🪃 Deliverables and Milestones:
 <table border="1" align="center">
   <tr>
     <th>Deliverables and Milestones</th>
@@ -190,7 +190,7 @@ MongoDB requirements:
 
 ---
 
-## Resources:
+## 🛢️ Resources:
 - Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.
 
 1. **Staff**
@@ -215,7 +215,7 @@ MongoDB requirements:
 
 ---
 
-## Technical Specifications:
+## 💻 Technical Specifications:
 - Discuss the technical specifications of the proposed data science project, including data sources, data schema, data transformations, machine learning algorithms, data visualization tools, and other technical details.
 - Mention the programming languages, frameworks, and libraries that will be used in the project.
 - Provide details about the hardware and software requirements for the proposed system.
@@ -223,7 +223,7 @@ MongoDB requirements:
 
 ---
 
-## Timeline and Deliverables: 
+## ⏳ Timeline and Deliverables: 
 <div class="mermaid">
   
   ```mermaid
@@ -286,5 +286,5 @@ gantt
 
 ---
 
-## Conclusion:
+## 🎓 Conclusion:
 We believe our data science project is in fact crucial for both business and tourism in Johor. On the business side of things, cafe owners can use our analysis to improve the services if a complaint was made by a customer. It can be done much more efficiently as we could identify an actual helpful review which could be difficult by doing it manually. On the tourism side, tourist can actually recommend the cafes to their friends which could boost tourism even more. However, this can only be done if they actually had an amazing time so a good and reliable review would definitely help. However, we do not expect the project will sailing smoothly as there would be some challenges which we would expect to arise such as the model not working as intended. Fortunately, we could always ask our lecturer for any assistance. 

@@ -2,7 +2,7 @@
   Predictive analytics in improving patient outcomes and reducing healthcare costs 
  </h1>
 <p align='center'>
-  <img height='250px' width='400px' src='https://github.com/TanYongSheng728/TanYongSheng728/blob/main/medicine.gif'/>
+  <img height='400px' width='400px' src='https://github.com/TanYongSheng728/TanYongSheng728/blob/main/medicine.gif'/>
 </p>
   
 ## 📝 Table of Contents

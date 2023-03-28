@@ -240,7 +240,36 @@ flowchart TB
 - Provide details about the hardware and software requirements for the proposed system.
 - Explain the data security measures that will be implemented.
 
-Programming language that will be used in this project would be Python.
+- Data source: Google Review
+- Data Visualization Tools: Tableau / PowerBI
+- Programming language that will be used in this project would be Python, PyScript and json based language MongoDB Query Language (MQL). By using Selenium, we can scrap and extract all the reviews from Google and export it into .csv formatted file.
+
+There are few data security measures that will be implemented in this project including;
+
+- Encryption: Data can be encrypted using a secure algorithm to ensure that only authorized parties can access the information. Reviewer's full name will not be displayed for security reasons.
+- Access controls: Access controls can limit who has access to certain data, and what they are able to do with that data. Only 5 of our group members can access the data.
+- Password policies: Strong password policies can help prevent unauthorized access to data by requiring users to create complex passwords that are changed regularly. 
+- Regular software updates: Regular software updates can patch security vulnerabilities that could be exploited by attackers. Ensuring all software used in this project are up to date.
+
+MongoDB requirements:
+<table border="1" align="center">
+  <tr>
+    <th>Hardware</th>
+    <th>Software</th>
+  </tr>
+  <tr>
+    <td>Multi-core or higher processor with clock speed of 2.6 GHz or higher</td>
+    <td>MongoDB server software</td>
+  </tr>
+   <tr>
+      <td>At least 8 GB of RAM</td>
+      <td>Operating system that compatible with MOngoDB such as Windows, Linux, or macOS</td>
+    </tr>
+    <tr>
+      <td>At least 10 GB of free disk space</td>
+      <td>MongoDB agent must be installed only on 64-bit architectures</td>
+    </tr>
+  </table>
 
 ---
 

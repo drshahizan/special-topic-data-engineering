@@ -1,5 +1,5 @@
 <div>
-<h1 align = 'center'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIwD84MUO1g9n6U0VWNJKRK0pPFVGTXsBeQ3KTeeGTpxX7VKB3-rMoW1J2bvU2blIFiM&usqp=CAU"  width="40" height="40"/><b> CHATGPT SENTIMENT ANALYSIS ON TWITTER POST</b> </h1>
+<h1 align = 'center'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIwD84MUO1g9n6U0VWNJKRK0pPFVGTXsBeQ3KTeeGTpxX7VKB3-rMoW1J2bvU2blIFiM&usqp=CAU"  width="40" height="40"/><b> SENTIMENT ANALYSIS IN SOCIAL MEDIA: A STUDY ON CHATGPT IN MALAYSIA</b> </h1>
 </div>
 
 

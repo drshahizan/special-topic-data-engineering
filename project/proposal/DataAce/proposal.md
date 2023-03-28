@@ -1,5 +1,5 @@
 <h1 align='center'> Credit Card Fraud Detection Proposal </h1>
---
+
 
 ## 	:game_die: Table of Contents
 - [Executive Summary](#executive-summary)

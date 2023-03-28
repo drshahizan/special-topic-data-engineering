@@ -22,7 +22,20 @@ The importance of credit card fraud detection cannot be overstated as it has a s
 - Provide a background to the problem that the proposed data science project aims to solve. This should include a clear explanation of the current situation, the problems faced, and the potential benefits of the proposed solution.
 
 ## Goals and Objectives:
-The system is designed to identify fraudalent transactions by analyzing a vast amount of historical as well as real-time data, looking for patterns and anomalies that indicate fraud and present the data in interactive dashboard for effective decision-making and analysis.The dashboard will provide valuable insights and analytics on fraudulent transactions, allowing for the identification of patterns and trends, as well as the development of strategies to avoid future frauds. The primary objective of this project are to prevent potential financial damages, minimize losses due to the fraudalent transactions and improving customer satisfaction thus providing them more secure and reliable payment platform.
+The system is designed to identify fraudalent transactions by analyzing a vast amount of historical as well as real-time data, looking for patterns and anomalies that indicate fraud and present the data in interactive dashboard for effective decision-making and analysis. The dashboard will provide valuable insights and analytics on fraudulent transactions, allowing for the identification of patterns and trends, as well as the development of strategies to avoid future frauds. The primary objective of this project are to prevent potential financial damages, minimize losses due to the fraudalent transactions and improving customer satisfaction thus providing them more secure and reliable payment platform.
+
+The credit card fraud detection system project aims to solve these problem statements: 
+- i) Identify the fraudulent transactions - Analyzing patterns from historical and real-time data as quickly as possible to prevent losses from fraud. This can minimize further losses.
+
+- ii) Pattern recognition - Identifying patterns will made the system learn from past incidents and develop strategies to prevent future frauds.
+
+- iii) Real-time monitoring - This can help detect fraudalent transactions as soon as they occur thus automatically prompt action to solve the issue.
+
+- iv) Dashboard visualization - Provide a meaningful insights and the visualization is in user-friendly format. This will help relevant stakeholders such as fraud management team and customer service team to understand better and faster.
+
+- v) Quality and completeness of data - To ensure the effectiveness of this system, the data must be accurate and complete. Data quality issues needs to be focused to made sure the system is reliable.
+
+- vi) Performance optimization - The system should be capable of handling large volumes of transactions and quickly processing them in order to provide real-time alerts and insights.
 
 ## Scope: 
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.

@@ -5,7 +5,7 @@
   <img height='250px' width='400px' src='https://intellipaat.com/blog/wp-content/uploads/2015/07/Big-Data.gif'/>
 </p>
   
-## 📝Table of Contents
+## 📝 Table of Contents
 - [Executive Summary](#executive-summary)
 - [Background](#background)
 - [Goals and Objectives](#goals-and-objectives)
@@ -19,14 +19,14 @@
 - [Timeline and Deliverables](#timeline-and-deliverables)
 - [Conclusion](#conclusion)
 
-## 📄Executive Summary
+## 📄 Executive Summary
 
 Increasing internet penetration and smarter, more powerful devices have made Malaysia's e-commerce market among the strongest it has ever been. Consumers are increasingly flocking online to purchase products and services. This means Malaysia e-commerce statistics are crucial to the creation of effective content strategies for publishers and affiliate marketers targeting the country. 
 
 Therefore, this project aims to produce an e-commerce analytics dashboard that helps to optimize e-commerce operations and to improve profitability by leveraging the insights provided by Shopee e-commerce data. Sales data will be used to identify which products are selling well and which are not, to understand seasonal trends and to optimize pricing strategies.
 
 
-## 🌎Background
+## 🌎 Background
 
 An ecommerce analytics dashboard is a group of visualizations based on ecommerce store’s data. Most dashboards cover a specific goal or topic, such as traffic or audience behavior. Nowadays, it has become essential since the number of online users have increased dramatically and there is a growing shift from offline to online purchasing. The growth is supported by the rapid adoption of smartphones, growing internet penetration, and the availability of secure online payment systems. This situation causes the difficulty of monitoring online business as there are large amounts of transactions in a day and new strategies are needed to attract customer interest. 
 
@@ -37,7 +37,7 @@ By analyzing the sales data from Shopee, we can have greater efficiency because 
 In summary, this project aims to provide a sales analysis dashboard that gives insight about the sales data in order to help e-commerce platforms increase efficiency, enhance business strategy and higher profitability. 
   
 
-## 🎯Goals and Objectives
+## 🎯 Goals and Objectives
 
 Around 80% of eCommerce businesses have been failing because of insufficient marketing strategy and selling the wrong product at the wrong price. Therefore, an effective marketing plan is the key success of all businesses. The business owner has to collect sales data and then analyze it himself. Without doing this, the business owner cannot understand the current situation of the marketplace.
 
@@ -52,13 +52,23 @@ However, modern technology can help to solve this problem effectively. Therefore
 This will be significant for online sellers to track their progress and quickly respond to any changes by getting insights and analytics on e-commerce data. 
   
 
-## 🔭Scope
+## 🔭 Scope
 
-- This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
+> This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
+
+This project will develop an e-commerce analytics dashboard to analyze the sales performance of Shopee in order for businesses to obtain valuable insights and look to optimize their online sales and marketing efforts.
+- The data that will be used in this project is collected from <a href="https://shopee.com.my/">Shopee</a> Malaysia. It is an e-commerce platform that sells a variety of categories of products like Home & Living, Health & Beauty and Electronics.
+ 
+- Web scraping tool is used to extract product information from Shopee. The extracted data will be processed and analyzed. 
+
+- MongoDB is important to store and analyze data since it contains a powerful aggregation framework to analyze the sales data. For example, the aggregation pipelines can be used to group the data by product, customer, or time period and calculate metrics such as total sales, average order value, and customer lifetime value.
+
+- Visualization tools like Power BI and Tableau are considered to help business owners to understand the sales data and support data-driven decisions.
+
 
   
 
-## 🔍Methodology
+## 🔍 Methodology
 
 - Explain the methodology and the techniques that will be used in the project. Provide a detailed methodology that outlines how the proposed data science project will be executed, including data collection and cleaning, data analysis, machine learning algorithms, and data visualization techniques.
 
@@ -68,7 +78,7 @@ This will be significant for online sellers to track their progress and quickly 
 
   
 
-## 🔧System Architecture
+## 🔧 System Architecture
 
 - Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
 
@@ -80,7 +90,7 @@ This will be significant for online sellers to track their progress and quickly 
 
   
 
-## 📊Risks and Limitations
+## 📊 Risks and Limitations
 
 - Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks.
 
@@ -88,13 +98,13 @@ This will be significant for online sellers to track their progress and quickly 
 
   
 
-## 🔑Deliverables and Milestones
+## 🔑 Deliverables and Milestones
 
 - Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
 
   
 
-## 💡Resources
+## 💡 Resources
 
 The resources needs as below:
 
@@ -114,7 +124,7 @@ The resources needs as below:
 - Other expenses
    
 
-## 📱Technical Specifications
+## 📱 Technical Specifications
 
 - Discuss the technical specifications of the proposed data science project, including data sources, data schema, data transformations, machine learning algorithms, data visualization tools, and other technical details.
 
@@ -151,7 +161,7 @@ The resources needs as below:
   </tr>
 </table>
 
-## ⌚Timeline and Deliverables
+## ⌚ Timeline and Deliverables
 
 - Provide a detailed timeline for the project, including milestones and deadlines.
 
@@ -161,7 +171,7 @@ The resources needs as below:
 
   
 
-## 🎓Conclusion
+## 🎓 Conclusion
 
 - Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
 

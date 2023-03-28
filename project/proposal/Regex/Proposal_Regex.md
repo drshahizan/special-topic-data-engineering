@@ -103,7 +103,22 @@ This will be significant for online sellers to track their progress and quickly 
 
 ## 💡Resources
 
-- Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.
+The resources needs as below:
+
+  -Staff
+   -Data Scientist: 
+   -Data Engineer:
+   -Project Manager:
+
+  -Equipment
+   -Computer/Laptop
+   -
+
+  -Software
+   -
+
+  -Other expenses
+   -
 
   
 

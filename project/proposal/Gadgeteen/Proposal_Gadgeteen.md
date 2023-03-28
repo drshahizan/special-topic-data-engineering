@@ -42,11 +42,16 @@ Scope:
 Data Sources:
 The primary data source for this project will be Twitter's API, which will provide us with real-time access to tweets related to "ChatGpt." We will use Twitter's streaming API to collect tweets in real-time, using specific keywords and hashtags related to ChatGpt.
 Tools and Technologies:
-We will use Python as the main programming language for this project, along with several open-source libraries such as Tweepy, Pandas, and MongoDB.
+We will use Python as the main programming language for this project, along with several open-source libraries such as Tweepy, Pandas, and MongoDB:
+
 I.	Tweepy: Use to connect to Twitter's API.
+
 II.	Pandas: Use for data manipulation and preprocessing. 
+
 III.	MongoDB:  To store the collected data which allow us to store and query the data efficiently.
+
 IV.	NLTK (Natural Language Toolkit): Use for sentiment analysis
+
 V.	PowerBi: To visualize and explore the data.
 
 Other Relevant Information:

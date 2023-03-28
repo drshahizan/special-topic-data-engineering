@@ -105,22 +105,21 @@ This will be significant for online sellers to track their progress and quickly 
 
 The resources needs as below:
 
-  -Staff
-   -Data Scientist: 
-   -Data Engineer:
-   -Project Manager:
+- Staff
 
-  -Equipment
-   -Computer/Laptop
+   - Data Scientist: 
+
+   - Data Engineer:
+
+   - Project Manager:
+
+- Equipment
+   - Computer/Laptop
    -
-
-  -Software
-   -
-
-  -Other expenses
-   -
-
-  
+- Software
+   
+- Other expenses
+   
 
 ## 📱Technical Specifications
 

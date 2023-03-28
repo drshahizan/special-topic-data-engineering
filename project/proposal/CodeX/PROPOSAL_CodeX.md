@@ -58,10 +58,10 @@ Software/Hardware:
 ## 6. System Architecture
 | Components | Tools and Technologies|
 |--|--|
-|Data Ingestion | Ingest data from Netflix, including user and item data, ratings, and interactions. The data can be stored in MongoDB|
+|Data Ingestion | Ingest data from Kaggle, including user and item data, ratings, and interactions. The data can be stored in MongoDB|
 |Data Preprocessing | The data will be processed to ensure consistency. The tolls will be used are Pandas, NumPy, and Scikit-learn.|
 |Recommendation Algorithms | The algorithm will generate recommendations based on user preferences and item features.|
-|Model Training | The recommendation algorithm will be trained using historical data to learn the patterns and realationsjip between users and Netflix.|
+|Model Training | The recommendation algorithm will be trained using historical data to learn the patterns and realationsjip between users and Amazon.|
 |Model Deployment| The deployed model will be able to generate real-time recommendations for users.|
 |Data Visualization and Analytics| By using Matplotlib, Seaborn and Tableau, to visualize and analyze the recommendation data.| 
 

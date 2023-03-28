@@ -23,15 +23,34 @@
 - [🔍 Conclusion](#-conclusion)
 
 ## 📒 Executive Summary
-
+This proposal outlines a social media monitoring tool to understand public opinion and sentiment on ChatGPT in Malaysia. The main goal of the project is to develop a web application that can identify areas for improvement and potential new features for ChatGPT. The project's scope includes collecting and processing social media data from social medias using APIs, performing sentiment analysis and topic modeling, and developing machine learning algorithms to classify social media data based on sentiment.
 
 ## 🧱 Background
+<p align="center">
+<img src="https://user-images.githubusercontent.com/97009588/228268824-9dc3aa13-493f-4002-b3d4-a82322902244.png" alt="Paris" height="250"></img>
+</p>
+ChatGPT is an artificial intelligence language model developed by OpenAI that is designed to generate human-like text in response to natural language inputs. As ChatGPT hits the market, it becomes crucial for us to understand public opinion and sentiment towards the platform. However, analyzing this data manually is time-consuming and often impractical. Therefore, there is a need for a platform that can monitor and analyze social media data in real-time to understand public opinion and sentiment on ChatGPT in Malaysia.
 
 ## 🔬 Goals and Objectives
 
 
 
 ## 🧿 Scope
+The project will focus specifically on Twitter data, as Twitter is a popular social media platform for discussing technology and current events. By analyzing Twitter data in real-time, the project aims to provide valuable insights into the public's perception of ChatGpt
+
+Scope:
+Data Sources:
+The primary data source for this project will be Twitter's API, which will provide us with real-time access to tweets related to "ChatGpt." We will use Twitter's streaming API to collect tweets in real-time, using specific keywords and hashtags related to ChatGpt.
+Tools and Technologies:
+We will use Python as the main programming language for this project, along with several open-source libraries such as Tweepy, Pandas, and MongoDB.
+I.	Tweepy: Use to connect to Twitter's API.
+II.	Pandas: Use for data manipulation and preprocessing. 
+III.	MongoDB:  To store the collected data which allow us to store and query the data efficiently.
+IV.	NLTK (Natural Language Toolkit): Use for sentiment analysis
+V.	PowerBi: To visualize and explore the data.
+
+Other Relevant Information:
+To ensure data privacy and security, we will comply with Twitter's API Terms of Service and any applicable laws and regulations related to data privacy and security. We will also use appropriate measures to secure the data, such as encrypting the database and using secure protocols for data transfer.
 
 
 ## 🔖 Methodology

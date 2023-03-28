@@ -54,6 +54,29 @@ To ensure data privacy and security, we will comply with Twitter's API Terms of 
 
 
 ## 🔖 Methodology
+The project will follow the Agile methodology, with sprints of 2-4 weeks, and regular demos and retrospectives to review progress and plan the next steps.
+
+1. Data Collection: The project will collect Twitter data using the Twitter API, which provides access to a sample of the real-time Twitter stream. The collected data will include tweets that mention "ChatGpt" and related hashtags, keywords, and phrases.
+
+2. Data Pre-processing: The collected data will be pre-processed to remove noise, such as irrelevant tweets and spam, and to extract relevant information, such as the user's sentiment towards ChatGpt. The pre-processing steps will include:
+  •	Removing duplicate tweets
+  •	Removing retweets
+  •	Removing tweets that are not in English
+  •	Tokenizing the text and removing stop words
+  •	Applying stemming or lemmatization to reduce the text to its base form
+  •	Applying part-of-speech tagging to identify noun phrases and named entities
+  •	Filtering the text to remove mentions, URLs, and other irrelevant information
+  •	Applying sentiment analysis to determine the polarity of the tweets
+
+3. Sentiment Analysis: The project will perform sentiment analysis on the pre-processed data to determine the polarity of the tweets, i.e., positive, negative, or neutral sentiment. The sentiment analysis will be performed using a machine learning model, such as a Naive Bayes or Support Vector Machine (SVM) classifier, trained on a labelled dataset of tweets.
+
+4. Data Visualization: The project will use data visualization techniques to display the sentiment analysis results in a meaningful and informative way, such as bar charts, pie charts, and word clouds. The visualization will provide an easy-to-understand summary of the sentiment distribution and the most common topics and phrases associated with ChatGpt.
+
+5. Real-time Analysis: The project will perform real-time analysis of Twitter data to provide up-to-date insights into public opinion and sentiment about ChatGpt. The real-time analysis will involve continuously collecting and pre-processing Twitter data, performing sentiment analysis, and updating the visualization.
+
+All in all, the methodology of the project is to collect and pre-process Twitter data, perform sentiment analysis, and visualize the results in real-time, using natural language processing and machine learning techniques. The methodology will provide valuable insights into public opinion and sentiment about ChatGpt, and help OpenAI to make data-driven decisions and improve its products and services.
+
+
 
 ## 🖥️ System Architecture (mq)
 

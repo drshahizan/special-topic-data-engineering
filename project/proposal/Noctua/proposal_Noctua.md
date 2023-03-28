@@ -240,6 +240,8 @@ flowchart TB
 - Provide details about the hardware and software requirements for the proposed system.
 - Explain the data security measures that will be implemented.
 
+Programming language that will be used in this project would be Python.
+
 ---
 
 ## ⏳ Timeline and Deliverables: 

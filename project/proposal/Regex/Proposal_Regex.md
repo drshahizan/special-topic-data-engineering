@@ -24,8 +24,7 @@
 Increasing internet penetration and smarter, more powerful devices have made Malaysia's e-commerce market among the strongest it has ever been. Consumers are increasingly flocking online to purchase products and services. This means Malaysia e-commerce statistics are crucial to the creation of effective content strategies for publishers and affiliate marketers targeting the country. 
 
 Therefore, this project aims to produce an e-commerce analytics dashboard that helps to optimize e-commerce operations and to improve profitability by leveraging the insights provided by Shopee e-commerce data. Sales data will be used to identify which products are selling well and which are not, to understand seasonal trends and to optimize pricing strategies.
-> Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
-  
+
 
 ## 🌎Background
 
@@ -36,9 +35,6 @@ Other than that, the increasing number of competitors is one of the problems wit
 By analyzing the sales data from Shopee, we can have greater efficiency because dashboards save time by showing us the most important metrics at a glance. It also allows decision-making faster since we won't have to wait on a report to get the relevant data and it presents all the relevant findings within a single pane. With only the most important data in focus, we will be better equipped to analyze the critical metrics in-depth.
 
 In summary, this project aims to provide a sales analysis dashboard that gives insight about the sales data in order to help e-commerce platforms increase efficiency, enhance business strategy and higher profitability. 
-
-> Provide a background to the problem that the proposed data science project aims to solve. This should include a clear explanation of the current situation, the problems faced, and the potential benefits of the proposed solution.
-
   
 
 ## 🎯Goals and Objectives
@@ -54,11 +50,6 @@ However, modern technology can help to solve this problem effectively. Therefore
 - To optimize pricing strategies.
 
 This will be significant for online sellers to track their progress and quickly respond to any changes by getting insights and analytics on e-commerce data. 
-
-> Provide a brief introduction about the project, its objective, and its significance. These should be measurable and tied to the overall business objectives of the organization.
-
-> Describe the problem statement that needs to be solved.
-
   
 
 ## 🔭Scope

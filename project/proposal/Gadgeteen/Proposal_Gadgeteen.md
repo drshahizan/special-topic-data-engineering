@@ -70,15 +70,15 @@
     <td>Week 5-7</td>
   </tr>
   <tr>
-    <td>Build Model</td>
-    <td>Week 8-10</td>
+    <td>Build Model & User Interface</td>
+    <td>Week 8-11</td>
   </tr>
   <tr>
-    <td>Evaluate Model</td>
-    <td>Week 11-12</td>
+    <td>Deployment and Testing</td>
+    <td>Week 12</td>
   </tr>
   <tr>
-    <td>Deploy Model</td>
+    <td>Maintenance</td>
     <td>Week 13-14</td>
   </tr>
 </table>
@@ -91,5 +91,41 @@
 
 
 ## ⏲️ Timeline and Deliverables
+<div class="mermaid">
+  
+  ```mermaid
+gantt
+    title SENTIMENT ANALYSIS IN SOCIAL MEDIA: A STUDY ON CHATGPT IN MALAYSIA
+    dateFormat  YYYY-MM-DD
+  
+    section Data Collections
+    Data Collection  :2023-04-01 , 5d
+  
+    section Data Cleaning and Preprocessing
+    Data Cleaning            :2023-04-6  , 7d
+    Data Preprocessing                    :2023-04-10 , 10d
+   
+  
+    section Sentiment Analysis
+    Finalizing               :2023-04-20 , 7d
+    Preparing Model       :2023-04-27 , 7d
+    Model Testing         :2023-05-04 , 7d
+  
+    section Build Model & User Interface
+    Simple data chart            :2023-05-11 , 8d
+    ML visualization             :2023-05-16 , 9d
+    Designing User interface  :2023-05-25 , 11d
+    Features add-ons          :2023-06-04 , 8d
+    Modul insert              :2023-06-11 , 6d
+  
+    section Deployment and Testing
+    Finalizing                :2023-06-17 , 5d
+  
+    section Testing & project launch
+    Live Testing      :2023-06-23 , 7d
+    Fixing flaws      :2023-06-30 , 7d
+  
+  ```
+  </div>
 
 ## 🔍 Conclusion

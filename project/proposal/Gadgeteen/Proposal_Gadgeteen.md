@@ -48,6 +48,36 @@
  
 
 ## 🗿 Deliverables and Milestones
+<table border="1" align="center">
+  <tr>
+    <th>Deliverables and Milestones</th>
+    <th>Timeframe</th>
+  </tr>
+  <tr>
+    <td>Data Collection</td>
+    <td>Week 1-2</td>
+  </tr>
+  <tr>
+    <td>Data Cleaning and Preprocessing</td>
+    <td>Week 3-4</td>
+  </tr>
+  <tr>
+    <td>Sentiment Analysis</td>
+    <td>Week 5-7</td>
+  </tr>
+  <tr>
+    <td>Build Model</td>
+    <td>Week 8-10</td>
+  </tr>
+  <tr>
+    <td>Evaluate Model</td>
+    <td>Week 11-12</td>
+  </tr>
+  <tr>
+    <td>Deploy Model</td>
+    <td>Week 13-14</td>
+  </tr>
+</table>
 
 
 ## 🗂️ Resources

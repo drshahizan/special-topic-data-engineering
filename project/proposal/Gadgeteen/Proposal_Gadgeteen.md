@@ -23,7 +23,7 @@
 - [🔍 Conclusion](#-conclusion)
 
 ## 📒 Executive Summary
-
+This proposal outlines a social media monitoring tool to understand public opinion and sentiment on ChatGPT in Malaysia. The main goal of the project is to develop a web application is to develop a platform that can identify areas for improvement and potential new features for ChatGPT. The project's scope includes collecting and processing social media data from social medias using APIs, performing sentiment analysis and topic modeling, and developing machine learning algorithms to classify social media data based on sentiment.
 
 ## 🧱 Background
 

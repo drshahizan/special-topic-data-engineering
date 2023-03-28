@@ -40,12 +40,29 @@ The credit card fraud detection system project aims to solve these problem state
 - vi. Performance optimization - The system should be capable of handling large volumes of transactions and quickly processing them in order to provide real-time alerts and insights.
 
 ## 	:mag: Scope: 
-- This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
+The objective of this system is to discern fraudulent transactions by analyzing a large amount of historal and real-time data which will enable users to gain insight for effective decision-making and analysis. Below contains the project scope statement which will help us achieve said objective.
+
+- i. Data Sources
+
+- ii. Tools and Technologies
+
+- iii. Data Cleaning and Preparation
+
+- iv. Reporting
 
 ## :open_book: Methodology:
-- Explain the methodology and the techniques that will be used in the project. Provide a detailed methodology that outlines how the proposed data science project will be executed, including data collection and cleaning, data analysis, machine learning algorithms, and data visualization techniques.
-- Explain how the data will be collected and processed.
-- Discuss the software and hardware resources that will be required for the project.
+This project will be using various research methods to achieve our main objective which is to build a system to detect fraudulent transactions. The table below presents the specified procedures, strategies, technologies and softwares used in this project. 
+
+| Components | Description |
+|--|--|
+| Data Collection | collect data related to financial transactions or user behavior, including information such as transaction amount, location, timestamp, user information, and other relevant data.   |
+| Data Pre-processing | cleaning, filtering, and transforming the data into a usable format. |
+| Data Analysis | Use MongoDB's aggregation framework to perform complex queries and aggregations to derive insights from the data. This could include identifying patterns of fraudulent behavior such as unusual transaction amounts or abnormal frequency of transactions. |
+| Feature Engineering | Identify the relevant features that you want to use to detect fraudulent activities. These features can include the transaction amount, the location, the time of the day, the user's device, or any other relevant characteristics. |
+| Fraud Detection| Build a model that can predict fraudulent activities based on the features you have identified. You can also use rule-based approaches to detect specific types of fraudulent activities. |
+| Visualization | Data visualization techniques such as charts or graphs to visualize the results of the fraud detection. |
+| Fraud Alert System | Use the results of the fraud detection models to generate alerts or notifications for suspicious transactions, allowing businesses to take immediate action to prevent financial losses. |
+| Interpretation | Use the insights gained from the analysis to improve your fraud prevention strategies, such as adding additional security measures or updating your fraud detection rules.
 
 ## :hammer_and_wrench: System Architecture:
 - Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system

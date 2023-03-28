@@ -5,24 +5,24 @@
 ---
 
 ## Table of Contents
-- [Executive Summary](#executive-summary)
-- [Background](#background)
-- [Goals and Objectives](#goals-and-objectives)
-- [Scope](#scope)
-- [Methodology](#methodology)
-- [System Architecture](#system-architecture)
-- [Risks and Limitations](#risks-and-limitations)
-- [Deliverables and Milestones](#deliverables-and-milestones)
-- [Resources](#resources)
-- [Technical Specifications](#technical-specifications)
-- [Timeline and Deliverables](#timeline-and-deliverables)
-- [Conclusion](#conclusion)
+* [🗞️ Executive Summary](#-executive-summary)
+* [Background](#background)
+* [Goals and Objectives](#goals-and-objectives)
+* [Scope](#scope)
+* [Methodology](#methodology)
+* [System Architecture](#system-architecture)
+* [Risks and Limitations](#risks-and-limitations)
+* [Deliverables and Milestones](#deliverables-and-milestones)
+* [Resources](#resources)
+* [Technical Specifications](#technical-specifications)
+* [Timeline and Deliverables](#timeline-and-deliverables)
+* [Conclusion](#conclusion)
 ---
 
 ## Key components
 The following are the key components of a data science project proposal:
 
-## Executive Summary
+## 🗞️ Executive Summary
 
 Restaurant reviews from Google are often used to survey places for customers that want to try that place out. We will perform an analysis on the reviews to determine whether it is positive or the opposite. From the analysis, we can conclude if a customer was satisfied with the service that was offered by the restaurant. Users who are searching for restaurants or places to eat will be able to find one not only by the ratings, but also with added criterias and information given or extracted from the review. 
 

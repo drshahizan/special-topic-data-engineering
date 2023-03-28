@@ -40,6 +40,7 @@ As a result of its success, the Netflix recommendation system has become a bench
 
 ## 4. Scope
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
+- The scope of this project is to develop AI 
 - 
 
 ## 5. Methodology

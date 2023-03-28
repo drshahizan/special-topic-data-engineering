@@ -240,8 +240,10 @@ flowchart TB
 - Provide details about the hardware and software requirements for the proposed system.
 - Explain the data security measures that will be implemented.
 
-- Data source: Google Review
+- Data Source: Google Review
 - Data Visualization Tools: Tableau / PowerBI
+- Data Transformation: Python, Pandas, Numpy, matplotlib
+- Machine Learning Algorithms: MLFlow, TensorFlow 
 - Programming language that will be used in this project would be Python, PyScript and json based language MongoDB Query Language (MQL). By using Selenium, we can scrap and extract all the reviews from Google and export it into .csv formatted file.
 
 There are few data security measures that will be implemented in this project including;

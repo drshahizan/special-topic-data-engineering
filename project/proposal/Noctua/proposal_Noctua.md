@@ -225,7 +225,7 @@ flowchart TB
   - `Data science:` Python
   - `Data visualization:` Tableau or PowerBI
   - `Data management:` MongoDB
-  - `Web apps with machine learning models:` Djanggo
+  - `Web apps with machine learning models:` Django
   - `Machine learning:` MLflow
   - `Project management:` MIRO
 

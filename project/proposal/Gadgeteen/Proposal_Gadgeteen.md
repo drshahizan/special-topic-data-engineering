@@ -68,7 +68,7 @@ To ensure data privacy and security, we will comply with Twitter's API Terms of 
 
 
 ## 🔖 Methodology
-The project will follow the Agile methodology, with sprints of 2-4 weeks, and regular demos and retrospectives to review progress and plan the next steps.
+The project will follow the Agile methodology, with sprints of 10-12 weeks, and regular demos and retrospectives to review progress and plan the next steps.
 
 1. Data Collection: The project will collect Twitter data using the Twitter API, which provides access to a sample of the real-time Twitter stream. The collected data will include tweets that mention "ChatGpt" and related hashtags, keywords, and phrases.
 

@@ -171,6 +171,55 @@ All in all, the methodology of the project is to collect and pre-process Twitter
 
 ## 🛠️ Technical Specifications
 
+<table>
+  <tr>
+    <th align= "left">Data sources</th>
+    <td>Twitter data collected by using Twitter API</td>
+  </tr>
+  <tr>
+    <th align= "left">Data schema</th>
+    <td>JSON like data including fields such as the tweet ID, tweet text, user ID, time and other relevant metadata</td>
+  </tr>
+  <tr>
+    <th align= "left">Data transformations</th>
+    <td>Data preprocessing techniques such as converting all text to lowercase, tokenization, removing stop words, stemming, and lemmatization will be used on the collected tweets text.</td>
+  </tr>
+  <tr>
+    <th align= "left">Machine learning algorithms</th>
+    <td>Linear Regression, Naive Bayes, Support Vector Machines (SVM), Neural Network</td>
+  </tr>
+  <tr>
+    <th align= "left">Data visualization tools</th>
+    <td>Tableau, Power BI, Matplotlib</td>
+  </tr>
+  <tr>
+    <th align= "left">Programming language</th>
+    <td>Python, HTML, CSS, Javascript, MongoDB Query Language (MQL)</td>
+  </tr>
+  <tr>
+    <th align= "left">Frameworks</th>
+    <td>Django, Pyscript</td>
+  </tr>
+  <tr>
+    <th align= "left">Libraries</th>
+    <td>Tweepy, Numpy, Pandas, Scikit-learn, NLTK, Matplotlib, Seaborn, WordCloud</td>
+  </tr>
+  <tr>
+    <th align= "left">Hardware & software requirements</th>
+    <td></td>
+  </tr>
+  <tr>
+    <th align= "left">Data security measures</th>
+    <td>
+	  <ul>
+	    <li>Use HTTPS to communicate with the Twitter API</li>
+	    <li>Implement data encryption to ensure data privacy and security</li>
+	    <li>Implement access control to ensure the access to database and the data is limited to authorized personnel only</li>
+	  </ul>
+	</td>
+  </tr>
+</table>
+
 
 ## ⏲️ Timeline and Deliverables
 <div class="mermaid">

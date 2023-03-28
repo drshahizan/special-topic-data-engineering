@@ -38,11 +38,18 @@ Currently, there is no platform dedicated to monitoring and analyzing social med
 By developing a web application that can collect, process, and analyze social media data in real-time, the project will provide areas for improvement and potential new features for ChatGPT. This project will help to automate the process of analyzing social media data, saving time and reducing the risk of biases and errors associated with manual analysis. Overall, the proposed solution has the potential to provide valuable insights that can help improve ChatGPT's popularity and usage in Malaysia.
 
 ## 🔬 Goals and Objectives
+The primary goal of this project is to develop a web application that can monitor and analyze social media data in real-time to understand public opinion and sentiment on ChatGPT in Malaysia.
+
+We have established these objectives in order to achieve this goal:
 
 
+- Develop a web application that can collect from social media using APIs and process those data.
+- Perform sentiment analysis and topic modeling to understand public opinion and sentiment towards ChatGPT in Malaysia. 
+- Develop visualizations and dashboards to present the results of the analysis.
+- Provide recommendations for further development of ChatGPT based on the insights gained from the analysis.
 
 ## 🧿 Scope
-The project will focus specifically on Twitter data, as Twitter is a popular social media platform for discussing technology and current events. By analyzing Twitter data in real-time, the project aims to provide valuable insights into the public's perception of ChatGpt
+The project will focus specifically on Twitter data, as Twitter is a popular social media platform for discussing technology and current events. By analyzing Twitter data in real-time, the project aims to provide valuable insights into the public's perception of ChatGPT
 
 <b>Data Sources:</b>
 

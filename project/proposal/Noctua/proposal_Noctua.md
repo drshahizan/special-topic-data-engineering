@@ -194,24 +194,24 @@ MongoDB requirements:
 - Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.
 
 1. **Staff**
-- `Data Scientists:` In charge of creating and putting into practise data science models, evaluating data, and offering conclusions and suggestions.
-- `Data Analysts:` In charge for data preparation, conduct exploratory data analysis (EDA), and perform visualizations.
-- `Project Management:` In charge on managing the project, team members, and ensureing the project meat the goals and requirements.
+  - `Data Scientists:` In charge of creating and putting into practise data science models, evaluating data, and offering conclusions and suggestions.
+  - `Data Analysts:` In charge for data preparation, conduct exploratory data analysis (EDA), and perform visualizations.
+  - `Project Management:` In charge on managing the project, team members, and ensureing the project meat the goals and requirements.
 
 2. **Equipment**
-- Well supported hardware
-- Enough data storage size
+  - Well supported hardware
+  - Enough data storage size
 
 3. **Software**
-- `Data science:` Python
-- `Data visualization:` Tableau or PowerBI
-- `Data management:` MongoDB
-- `Web apps with machine learning models:` Djanggo
-- `Machine learning:` MLflow
-- `Project management:` MIRO
+  - `Data science:` Python
+  - `Data visualization:` Tableau or PowerBI
+  - `Data management:` MongoDB
+  - `Web apps with machine learning models:` Djanggo
+  - `Machine learning:` MLflow
+  - `Project management:` MIRO
 
 4. **Other expenses**
-- Training and development
+  - Training and development
 
 ---
 

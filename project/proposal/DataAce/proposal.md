@@ -1,4 +1,4 @@
-# Proposal
+# Credit Card Fraud Detection Proposal
 ## Table of Contents
 - [Executive Summary](#executive-summary)
 - [Background](#background)

@@ -132,9 +132,51 @@ This project will be using various research methods to achieve our main objectiv
  -  Data Security Measures 
 
 ## :date: Timeline and Deliverables: 
-- Provide a detailed timeline for the project, including milestones and deadlines.
-- Specify the deliverables that will be provided at each milestone. It should also specify the expected time frame for each deliverable and the resources that will be required to complete the project.
-- Explain the quality assurance and testing procedures that will be followed.
+  **Detailed Timeline:**
+  
+Week 1-2: Project Planning and Data Collection
+
+ - Define the project scope, objectives, and deliverables 
+ - Gather necessary resources such as datasets and tools Identify potential fraud types and data sources 
+ - Collect, preprocess, and store data in MongoDB
+
+Week 3-4: Data Exploration and Cleaning
+
+ - Perform exploratory data analysis to understand the data and identify potential issues 
+ - Clean and transform the data to ensure it is ready for modeling 
+ - Create visualizations to better understand the data
+
+Week 5-6: Feature Engineering
+
+ - Define the features to be used for modeling 
+ - Develop new features or transform existing ones to better represent patterns in the data 
+ - Use MongoDB Aggregation Framework to perform complex transformations
+
+Week 7-9: Model Selection and Training
+
+ - Choose appropriate models to identify patterns and anomalies in the data that indicate fraud 
+ - Train and evaluate the models using cross-validation techniques Implement the models in Python and MongoDB
+
+Week 9-10: Model Evaluation and Refinement
+
+ - Test the models' effectiveness and accuracy 
+ - Tune hyperparameters to improve the model's performance 
+ - Evaluate the models' performance against business metrics such as precision, recall, and F1-score
+
+Week 11-12: Dashboard Development
+
+ - Design and develop a dashboard to display the fraud detection results
+ - Use MongoDB Charts to create visualizations and dashboards
+ - Incorporate interactivity, such as filtering and drill-down capabilities
+
+Week 13-14: Deployment and Documentation
+
+ - Deploy the dashboard and models into a production environment
+ - Document the project and provide instructions for future updates
+ - Conduct user testing and gather feedback for improvements
+
+
+  **Quality Assurance and Testing Procedures:**
 
 ## :round_pushpin: Conclusion:
 - Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.

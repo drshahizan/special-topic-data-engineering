@@ -11,8 +11,8 @@
 - [🔬 Goals and Objectives](#-goals-and-objectives)
 - [🧿 Scope](#-scope)
 - [🔖 Methodology](#-methodology)
-- [🖥️ System Architecture (mq)](#️-system-architecture-mq)
-- [💣 Risks and Limitations (mq)](#-risks-and-limitations-mq)
+- [🖥️ System Architecture](#️-system-architecture)
+- [💣 Risks and Limitations](#-risks-and-limitations)
   - [💰 Financial Risk](#-financial-risk)
   - [⚙️ Technical Risk](#️-technical-risk)
   - [📑 Legal Risk](#-legal-risk)
@@ -99,20 +99,79 @@ All in all, the methodology of the project is to collect and pre-process Twitter
 
 
 
-## 🖥️ System Architecture (mq)
+## 🖥️ System Architecture
+
+&ensp;Our proposed system architecture will be a web application that can monitor and analyze social media data in real-time to understand public opinion and sentiment on ChatGPT in Malaysia. The application will collect data from social media using APIs, perform sentiment analysis and topic modeling, and present the results through visualizations and dashboards.
+
+**Tools and Technologies:**
+Python: As the main programming language.
+Tweepy: To connect to Twitter's API.
+Pandas: For data manipulation and preprocessing.
+MongoDB: To store the collected data.
+NLTK: For sentiment analysis.
+Power BI: For data visualization and analysis.
+
+**Data Storage and Management:**
+We will use MongoDB as our database management system. MongoDB is a document-oriented NoSQL database that can handle large volumes of unstructured data. We will store the collected data in MongoDB in a format that is suitable for further analysis. We will use PyMongo, a Python library for MongoDB, to interact with the database. The data will be organized in a collection called "tweets" with the following fields: tweet_id, created_at, text, username, user_id, location, sentiment, and topic.
+
+**Hardware and Software Requirements:**
+The proposed system architecture requires a server with the following hardware specifications:
+
+Processor: Intel Core i7 or equivalent
+RAM: 8 GB or more
+Storage: 500 GB or more
+The software requirements for the server are:
+
+Operating System: Ubuntu Server 20.04 LTS
+Python 3.8 or higher
+MongoDB 4.4 or higher
+
+**Data Visualization and Analysis:**
+We will use Power BI, a business intelligence tool, for data visualization and analysis. Power BI allows us to create interactive dashboards and reports based on the data stored in MongoDB. We will use the Power BI Desktop app to connect to the MongoDB database and import the data. We will then create visualizations such as charts, graphs, and tables to display the sentiment and topics related to ChatGPT. We can also use filters and slicers to explore the data further.
+
+**Flowchart of System Architecture:**
+flowchart
 
 
-
-## 💣 Risks and Limitations (mq)
+## 💣 Risks and Limitations
 
 
 ### 💰 Financial Risk
+a) The cost of cloud computing services, such as MongoDB Atlas and Power BI, may exceed the project budget.
+
+**Mitigation Plan:**
+
+a) Conduct a thorough cost analysis before the project begins to ensure that the project remains within budget.
+
+b) Consider using open-source or low-cost alternatives to expensive software tools.
 
 ### ⚙️ Technical Risk
+a) Social media data collection may not be reliable or consistent due to changes in social media API or policies.
 
+b) Sentiment analysis accuracy may be affected by the use of slang or contextual references.
+
+c) Topic modeling may not accurately reflect the key themes of the social media data.
+
+**Mitigation Plan:**
+
+a) Monitor the social media API and policies and make necessary adjustments to data collection methods.
+
+b) Use Natural Language Processing techniques to preprocess the data and filter out irrelevant or confusing terms.
+
+c) Use additional analytical methods to validate the results of the topic modeling and ensure accuracy.
 
 ### 📑 Legal Risk
- 
+a) Legal and ethical concerns may arise due to the collection and use of user-generated social media data.
+
+b) Privacy concerns may arise if the social media data includes personal information.
+
+**Mitigation Plan:**
+
+a) Ensure that the collection and use of social media data comply with relevant laws and regulations, such as GDPR and CCPA.
+
+b) Anonymize the data by removing personal information, and ensure that all data is stored and analyzed in a secure environment.
+
+&ensp;Overall, a comprehensive risk management plan will be put in place to minimize the impact of any risks and limitations that may arise during the course of the project. This plan will include regular monitoring of project progress, identification of potential risks, and contingency strategies for addressing any issues that arise. In addition, the project team will maintain open communication with stakeholders to ensure that any concerns or issues are addressed in a timely and effective manner.
 
 ## 🗿 Deliverables and Milestones
 <table border="1" align="center">

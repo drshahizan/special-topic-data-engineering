@@ -18,7 +18,7 @@
 
 
 ## Executive Summary
-- Start the proposal with a brief summary that highlights the main points of the project, including its goals, objectives, and expected outcomes.
+-Consumer segmentation that prioritizes product attributes involves categorising customers into groups according to their needs or preferences for particular product features. To find customer groups with comparable traits and preferences, it entails examining data on customer behaviour, purchase history, demographics, and product preferences. (chosen bussiness)  can adjust their marketing initiatives and product offers to fit the unique needs of each consumer segment by understanding their needs and preferences, which will boost customer satisfaction and loyalty.
 
 ## Background
 - Provide a background to the problem that the proposed data science project aims to solve. This should include a clear explanation of the current situation, the problems faced, and the potential benefits of the proposed solution.

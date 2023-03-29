@@ -145,13 +145,14 @@ title: System Architecture Flowchart
 ---
   
 flowchart TB
-    A(Start) --> B[Data acquisition:\nWeb Scrapping]
-    B --> C[Data storage:\n MongoDB]
-    C --> D[Data preprocessing:\n Pandas]
-    D --> E[Data analysis and modeling:\n Machine Learning]
-    E --> F[Model deployment:\n Django]
-    F --> G[Visualization and reporting:\n Tableau or PowerBI]
-    G --> H(Stop)
+    A(Start) --> B[Data acquisition\nWeb Scrapping]
+    B --> C[(Data storage\n MongoDB)]
+    C --> D[Data preprocessing\n Pandas]
+    D --> E[Data analysis and modeling\n Machine Learning]
+    E --> F[Model deployment\n Django]
+    F --> G[Model monitoring and maintenance\n MLflow]
+    G --> H[Visualization and reporting\n Tableau or PowerBI]
+    H --> I(Stop)
   
   ```
   </div>

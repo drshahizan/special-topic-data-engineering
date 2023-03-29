@@ -74,7 +74,10 @@
 Here is a detailed timeline and deliverables for the data science project using MongoDB:
 
 
-
+Quality assurance and testing procedures:
+- Throughout the project, our team will follow standard best practices for data science and software engineering, including code review, and documentation.
+- The team will also conduct regular testing and validation of the data pipeline, machine learning model, and user interface to ensure accuracy and reliability.
+- Quality assurance will be done by comparing the results of the model with the actual data.
 
 ## Conclusion
 - Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.

@@ -1,5 +1,5 @@
 <h1 align='center'> 
-  Shopee Home & Living Analysis Dashboard<img height='50px' width='50px' src='https://user-images.githubusercontent.com/120556342/228145762-83c369fc-a6b8-49da-a2be-fd31b7f280c3.png'>
+  Shopee Sales Performance Analysis <img height='50px' width='50px' src='https://user-images.githubusercontent.com/120556342/228145762-83c369fc-a6b8-49da-a2be-fd31b7f280c3.png'>
  </h1>
 <p align='center'>
   <img height='250px' width='400px' src='https://intellipaat.com/blog/wp-content/uploads/2015/07/Big-Data.gif'/>
@@ -96,6 +96,12 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 
 - Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
 
+Data Availability: The availability of data is a significant restriction. The suggested project might need data that is hard to get or might not be available. Data may be accessible in some circumstances, but its acquisition may be prohibitively expensive.
+
+Data Quality: Although the data may be accessible, there may be problems with the data's quality. The quality of the outcomes may be impacted by the data's potential for being erroneous, inconsistent, or incomplete.
+
+
+Another danger is scope creep, in which the project's goals may change from what was originally planned. As a result, more effort and resources would be needed, which might have an impact on the project's budget and schedule.
   
 
 ## 🔑 Deliverables and Milestones

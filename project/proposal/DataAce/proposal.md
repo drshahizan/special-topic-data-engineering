@@ -120,10 +120,16 @@ This project will be using various research methods to achieve our main objectiv
 - Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.
 
 ## :card_file_box: Technical Specifications:
-- Discuss the technical specifications of the proposed data science project, including data sources, data schema, data transformations, machine learning algorithms, data visualization tools, and other technical details.
-- Mention the programming languages, frameworks, and libraries that will be used in the project.
-- Provide details about the hardware and software requirements for the proposed system.
-- Explain the data security measures that will be implemented.
+ - Data Sources
+ - Data Schema
+ - Data Transformations
+ - Machine Learning Algorithms
+    - Logistic regression, decision trees, and random forests. 
+    - Train the models using the preprocessed data stored in the MongoDB database.
+ - Data Visualization Tools
+ -  Programming Languages, Frameworks, and Libraries
+ -  Hardware and Software Requirements
+ -  Data Security Measures 
 
 ## :date: Timeline and Deliverables: 
 - Provide a detailed timeline for the project, including milestones and deadlines.

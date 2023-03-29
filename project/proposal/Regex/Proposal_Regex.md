@@ -88,6 +88,13 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 
 - Provide a flowchart or block diagram of the system architecture.
 
+<table>
+  <tr>
+    <th>Data collection</th>
+    <td></td>
+  </tr>
+</table>
+
   
 
 ## 📊 Risks and Limitations

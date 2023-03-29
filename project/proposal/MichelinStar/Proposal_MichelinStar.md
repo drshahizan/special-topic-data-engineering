@@ -23,7 +23,7 @@
 
 From year to year, the more and more disease have been discovered and spread across the world. Some of the diseases are non-communicable causes by bad habits from new generation. The amount of patient suffereing from the disease have been increasing drastically but due to financial status most of them not able to affort expensive healthcare treatment. This have becoming the main focus from government to tackle this problem. 
 
-Therefore, this proposal outlines the benefits of incorporating predictive analytics into healthcare analytics platforms for improving patient outcomes and reducing healthcare costs. By leveraging predictive analytics, healthcare organizations can anticipate patient needs, prevent adverse events, and optimize resource utilization, resulting in better patient outcomes and reduced costs.
+Therefore, this proposal outlines the benefits of incorporating predictive analytics into healthcare analytics platforms for improving patient outcomes and reducing healthcare costs. By leveraging predictive analytics, healthcare organizations can anticipate patient needs, prevent adverse events, and optimize resource utilization, resulting in better patient outcomes and reduced cost.
 
 
 ## 🌎 Background

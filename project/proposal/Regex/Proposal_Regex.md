@@ -1,5 +1,5 @@
 <h1 align='center'> 
-  Shopee Sales Performance Analysis Helloooo <img height='50px' width='50px' src='https://user-images.githubusercontent.com/120556342/228145762-83c369fc-a6b8-49da-a2be-fd31b7f280c3.png'>
+  Shopee Sales Performance Analysis<img height='50px' width='50px' src='https://user-images.githubusercontent.com/120556342/228145762-83c369fc-a6b8-49da-a2be-fd31b7f280c3.png'>
  </h1>
 <p align='center'>
   <img height='250px' width='400px' src='https://intellipaat.com/blog/wp-content/uploads/2015/07/Big-Data.gif'/>
@@ -76,7 +76,8 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 
 - Discuss the software and hardware resources that will be required for the project.
 
-  
+`Data Collection:` 
+`
 
 ## 🔧 System Architecture
 

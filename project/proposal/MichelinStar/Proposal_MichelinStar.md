@@ -54,10 +54,8 @@ By achieving these objectives, the healthcare analytics platform will improve pa
 
 ## 🔭 Scope
 
-> This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
-
-This project will develop an e-commerce analytics dashboard to analyze the sales performance of Shopee in order for businesses to obtain valuable insights and look to optimize their online sales and marketing efforts.
-- The data that will be used in this project is collected from <a href="https://shopee.com.my/">Shopee</a> Malaysia. It is an e-commerce platform that sells a variety of categories of products like Home & Living, Health & Beauty and Electronics.
+This project will develop an healthcare analytics platform to do predictive analytics in improving patient outcomes and reducing healthcare costs.
+- The data that will be used in this project is collected from <a href="https://www.google.com/">Data</a>.
  
 - Web scraping tool is used to extract product information from Shopee. The extracted data will be processed and analyzed. 
 

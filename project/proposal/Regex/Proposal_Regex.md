@@ -241,6 +241,7 @@ The resources needs as below:
     <th>Data visualization tools</th>
     <td>
       - Power BI
+      <tr>
       - Matplotlib, Seaborn, and Plotly (Python visualization libraries)
     </td>
   </tr>

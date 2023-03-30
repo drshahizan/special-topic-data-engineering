@@ -117,12 +117,41 @@ Overall, it's important to carefully consider these risks and limitations before
 
 - Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
 
-Data Availability: The availability of data is a significant restriction. The suggested project might need data that is hard to get or might not be available. Data may be accessible in some circumstances, but its acquisition may be prohibitively expensive.
+Here are some potential risks and limitations associated with Shopee Supermarket sales analytics dashboard project:
 
-Data Quality: Although the data may be accessible, there may be problems with the data's quality. The quality of the outcomes may be impacted by the data's potential for being erroneous, inconsistent, or incomplete.
+**Technical Risk**
+- Data Quality: Although the data may be accessible, there may be problems with the data's quality. The quality of the outcomes may be impacted by the data's potential for being erroneous, inconsistent, or incomplete.
+- Data Availability: The availability of data is a significant restriction. The suggested project might need data that is hard to get or might not be available. Data may be accessible in some circumstances, but its acquisition may be prohibitively expensive.
+- System crashes and downtime: When a system crashes or experiences a downtime, it will affect the implementation of the project and lead to delays and inaccurate insights.
 
+**Financial Risk**
+- Cost: It includes the cost of acquiring and storing data since the larger the amount of data that needs to be stored, the higher the cost of the project. Other than that, it can be costly to develop and maintain a dashboard, it depends on the complexity of the project and the tools used.
+- Return on investment (ROI): The dashboard may not bring enough profit to the business compared to the cost of development and maintenance.
 
-Another danger is scope creep, in which the project's goals may change from what was originally planned. As a result, more effort and resources would be needed, which might have an impact on the project's budget and schedule.
+**Legal Risk**
+- Data privacy and protection: Shopee contains the privacy and sensitive data of customers and the use of these data may be subject to data protection laws and regulations. Therefore, businesses must ensure compliance with these regulations.
+- Intellectual property rights: It is possible to face legal issues relating to intellectual property rights when using proprietary or copyrighted data or information.
+
+**Other Risk**
+- Scope creep: in which the project's goals may change from what was originally planned. As a result, more effort and resources would be needed, which might have an impact on the project's budget and schedule.
+
+These risks and limitations must be taken into consideration before implementing the project. Below are plans for mitigating these risks and limitations:
+
+**Technical Risk**
+- Collect data from reliable resources and implement the strategies like data cleaning, data validation and data standardization to ensure data accuracy, completeness, and consistency.
+- When the required data is not available, simulations or experiments can be used to generate data, or the data can be collected from different sources.
+- In the event of a system crash or other technical issue, implement a backup and recovery plan to minimize the downtime and losses of data.
+
+**Financial Risk**
+- Conduct a cost-benefit analysis and establish a budget for data acquisition, storage, and dashboard development and maintenance.
+- Reducing maintenance and development costs can be achieved with open-source dashboard tools.
+
+**Legal Risk**
+- Make sure that all applicable data protection and intellectual property laws are followed.
+- Consult experts to get legal advice to ensure compliance with relevant laws and regulations.
+
+**Other Risk**
+- Establish clear project goals and objectives and communicate effectively with stakeholders.
   
 
 ## 🔑 Deliverables and Milestones

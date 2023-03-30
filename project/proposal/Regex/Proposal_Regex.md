@@ -168,8 +168,11 @@ These risks and limitations must be taken into consideration before implementing
 
 The key deliverables: 
 
-- Data gathering and cleaning
-- Dashboard design and development
+**1. Data collection and cleaning**
+     
+This involves gathering sales data from Shopee Supermarket, such as product name, price and quantity sold by using APIs provided. Following the collection of  data, data pre-processing tasks such as cleaning, filtering, and transforming the data into usable format will be performed.
+     
+**2. Dashboard design and development**
 - Data analysis and modeling
 - Integration with e-commerce platform
 - Testing and debugging

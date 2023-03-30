@@ -167,6 +167,33 @@ The key deliverables:
   
 Milestones:
 
+<table align=center>
+  <tr>
+    <td>Data gathering and cleaning</td>
+    <td>End of week 4</td>
+  </tr>
+  <tr>
+    <td>Dashboard design and development</td>
+    <td>End of week 7</td>
+  </tr>
+  <tr>
+    <td>Data analysis and modeling</td>
+    <td>End of week 10</td>
+  </tr>
+    <tr>
+    <td>Integration with e-commerce platform</td>
+    <td>End of week 12</td>
+  </tr>
+    <tr>
+    <td>Testing and debugging</td>
+    <td>End of week 13</td>
+  </tr>
+  <tr>
+    <td>Dashboard deployed and live</td>
+    <td>End of week 14</td>
+  </tr>
+</table>
+
 ## 💡Resources
 
 The resources needs as below:

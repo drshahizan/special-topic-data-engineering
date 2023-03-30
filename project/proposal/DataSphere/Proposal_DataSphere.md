@@ -3,18 +3,19 @@
   </div>
 
 ## Table of Contents
-- [1. Executive Summary](#executive-summary)
-- [2. Background](#background)
-- [3. Goals and Objectives](#goals-and-objectives)
-- [4. Scope](#scope)
-- [5. Methodology](#methodology)
-- [6. System Architecture](#system-architecture)
-- [7. Risks and Limitations](#risks-and-limitations)
-- [8. Deliverables and Milestones](#deliverables-and-milestones)
-- [9. Resources](#resources)
-- [10.  Technical Specifications](#technical-specifications)
-- [11. Timeline and Deliverables](#timeline-and-deliverables)
-- [12. Conclusion](#conclusion)
+- [Table of Contents](#table-of-contents)
+- [Executive Summary](#executive-summary)
+- [Background](#background)
+- [Goals and Objectives](#goals-and-objectives)
+- [Scope](#scope)
+- [Methodology](#methodology)
+- [System Architecture](#system-architecture)
+- [Risks and Limitations](#risks-and-limitations)
+- [Deliverables and Milestones](#deliverables-and-milestones)
+- [Resources](#resources)
+- [Technical Specifications](#technical-specifications)
+- [Timeline and Deliverables](#timeline-and-deliverables)
+- [Conclusion](#conclusion)
 
 
 ## Executive Summary
@@ -73,11 +74,40 @@
 ## Timeline and Deliverables
 Here is a detailed timeline and deliverables for the data science project using MongoDB:
 
+1. Planning and Requirements Gatherings *(Week 1-20)*
+> - Deliverables: Project charter and scope and Requirements gathering plan
+> - Resources: Visual Studio Code
+
+2. Data Exploration and Cleaning *(Week 3-4)*
+> - Deliverables: Data cleaning, pre-processing, transformation and exploration report
+> - Resources: Python/web-scraper, MongoDB, Visual Studio Code
+
+3. Feature Engineering *(Week 5-6)*
+> - Deliverables: Feature engineering plan and implementation Feature importance analysis
+> - Resources: Python
+
+4. Model Selection and Training *(Week 7-8)*
+> - Deliverables: Model selection report, training plan, implementation and evaluation metrics
+> - Resources: Python
+
+5. Model Deployment *(Week 9-11)*
+> - Deliverables: Model deployment plan and implementation, and User acceptance testing (UAT) report
+> - Resources: Visual Studio Code
+
+6. Model Monitoring and Maintenance *(Week 12-13)*
+> - Deliverables: Model monitoring plan, maintenance plan and schedule
+> - Resources: Visual Studio Code, MongoDB
+
+7. Presentation *(Week 14)*
+> - Deliverables: Final project report and project presentation slides
+> - Resources: Visual Studio Code, Canva
+
 
 Quality assurance and testing procedures:
 - Throughout the project, our team will follow standard best practices for data science and software engineering, including code review, and documentation.
 - The team will also conduct regular testing and validation of the data pipeline, machine learning model, and user interface to ensure accuracy and reliability.
 - Quality assurance will be done by comparing the results of the model with the actual data.
+
 
 ## Conclusion
 - Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.

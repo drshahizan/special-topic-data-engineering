@@ -88,7 +88,7 @@ The software and hardware resources required for the project include:
 
 ## 6. ⚙️ System Architecture:
 
-The proposed system architecture for the computer-aided diagnostic (CAD) system for analyzing medical images consists of three main components: data storage and management, machine learning model training and evaluation, and the CAD system interface. The system architecture will be implemented using various tools and technologies, including MongoDB, Python, TensorFlow, Flask, and React.
+The CAD system architecture will consist of various components, including data collection, pre-processing, data analysis, feature extraction, machine learning, CAD system integration, and others. MongoDB will be used to store and manage the pre-processed medical image data, and TensorFlow will be used to build and train the machine learning models. The CAD system will be developed using Flask, a Python-based web framework, and will include interactive and static data visualization tools such as Plotly and Matplotlib.
 
 
 | Components | Description |

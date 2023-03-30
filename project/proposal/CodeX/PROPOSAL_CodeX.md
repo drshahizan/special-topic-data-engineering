@@ -5,18 +5,19 @@
 <!---
 <li><a href="#section1">Section 1</a></li>
 --->
-- [Executive Summary](#executive-summary)
-- [Background](#background)
-- [Goals and Objectives](#goals-and-objectives)
-- [Scope](#scope)
-- [Methodology](#methodology)
-- [System Architecture](#system-architecture)
-- [Risks and Limitations](#risks-and-limitations)
-- [Deliverables and Milestones](#deliverables-and-milestones)
-- [Resources](#resources)
-- [Technical Specifications](#technical-specifications)
-- [Timeline and Deliverables](#timeline-and-deliverables)
-- [Conclusion](#conclusion)
+- [Table of Contents](#table-of-contents)
+- [1. Executive Summary](#1-executive-summary)
+- [2. Background](#2-background)
+- [3. Goals and Objective](#3-goals-and-objective)
+- [4. Scope](#4-scope)
+- [5. Methodology](#5-methodology)
+- [6. System Architecture](#6-system-architecture)
+- [7. Risks and Limitation](#7-risks-and-limitation)
+- [8. Deliverables and Milestones](#8-deliverables-and-milestones)
+- [9. Resources](#9-resources)
+- [10. Technical Specifications](#10-technical-specifications)
+- [11. Timeline and Deliverables](#11-timeline-and-deliverables)
+- [12. Conclusion](#12-conclusion)
 
 ## 1. Executive Summary
 Netflix, YouTube, Spotify and many more streaming platforms have been introduced to the world as the technologies are advancing rapidly nowadays. With this being said, users are prone to use it almost everyday whenever they wanted to watch movies or tv shows and stream any music. In this project, our group will focused on the recommendation engine implemented in Netflix. The objective of this project is to create a system that display the best suggestion of tv shows on streaming platform. The system we proposed will implement the usage of MongoDB as a database that can keep track on the user behavioral data which will then be processed using machine learning to recognize streaming patterns of each user so that the most relevant suggestion can be presented to the users to increase the users satisfactory.
@@ -296,8 +297,4 @@ Deliverables and Resources
 
 
 ## 12. Conclusion
-- Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
-- Summarize the proposal and reiterate the importance of the project.
-- Mention any potential limitations or challenges that may arise during the project.
-- Provide a call to action for the client to approve the proposal and proceed with the project.
-
+In conclusion, the proposed system will provide shows/movies reccomendation based on user's favourite genre, director, actors, and many more. Users will be able to create content-based filtering to provide personalised reccomendation. However, the recommendation system is not perfect, and there have been cases where users have reported getting irrelevant or inappropriate recommendations. This can be due to various factors, such as limited data or biases in the algorithm. While there is still room for improvement, the system will be a game-changer in the entertainment industry and will help to shape the way we consume media today.

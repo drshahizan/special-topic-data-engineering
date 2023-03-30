@@ -8,7 +8,7 @@
 <p align='center'>
   <img height='250px' width='400px' src='https://intellipaat.com/blog/wp-content/uploads/2015/07/Big-Data.gif'/>
 </p>
-_________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________________
 <br>
   
 ## 📝 Table of Contents
@@ -256,17 +256,17 @@ The resources needs as below:
   <tr>
     <th>Data visualization tools</th>
     <td>
-      Power BI
+      - Power BI
       <br>
-      Python visualization libraries: Matplotlib, Seaborn, and Plotly 
+      - Python visualization libraries: Matplotlib, Seaborn, and Plotly 
     </td>
   </tr>
   <tr>
     <th>Programming Languages</th>
     <td>
-      SQL
+      - SQL
       <br>
-      Python
+      - Python
     </td>
   </tr>
 </table>

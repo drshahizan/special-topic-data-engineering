@@ -57,7 +57,7 @@ The proposed data science project for developing a computer-aided diagnostic (CA
 <ol>
 	<li>Data Collection</li>
   	<ul>
- 		<li>Medical images such as X-rays will be collected from various hospitals and medical centers in Malaysia. The images will be anonymized and stored in 		a secure database.</li>
+ 		<li>Medical images such as X-rays will be collected from various websites. The images will be anonymized and stored in 		a secure database.</li>
   	</ul>
 	<li>Data Cleaning and Preprocessing</li>
   	<ul>

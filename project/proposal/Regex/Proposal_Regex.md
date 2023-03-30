@@ -111,11 +111,13 @@ Software and Hardware Resources: The software resources required for this projec
   </tr>
 </table>
 
+```mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
+```
   
 
 ## 📊Risks and Limitations

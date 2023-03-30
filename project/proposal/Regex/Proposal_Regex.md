@@ -75,7 +75,21 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 - Explain how the data will be collected and processed.
 
 - Discuss the software and hardware resources that will be required for the project.
+Data Availability: A key limitation is the availability of data. The proposed project may require data that is difficult to obtain or may not be available. In some cases, data may be available, but it may be too expensive to acquire.
 
+Data Quality: Even if the data is available, there may be issues with the quality of the data. The data may be incomplete, inconsistent, or inaccurate, which can affect the quality of the results.
+
+Scope Creep: Another risk is scope creep, where the project's objectives may expand beyond the initial scope. This can lead to additional work and resources being required, which can affect the project's timeline and budget.
+
+Technical Limitations: Data science projects may require advanced technical skills and expertise, including knowledge of programming languages and statistical analysis. Limited technical knowledge can affect the project's quality and completion time.
+
+Legal and Ethical Issues: Data science projects may require access to sensitive data, which can raise legal and ethical issues related to privacy and confidentiality. This can require additional resources to ensure compliance with laws and regulations.
+
+Project Management: The project's success may also depend on effective project management, including stakeholder engagement, communication, and risk management. Poor project management can lead to delays, cost overruns, and low-quality results.
+
+Interpretation and Communication: Lastly, even if the project produces high-quality results, there may be challenges in interpreting and communicating these results to stakeholders who may not have technical expertise in the field. This can affect the project's overall impact and success.
+
+Overall, it's important to carefully consider these risks and limitations before proposing a data science project to ensure its success.
   
 
 ## 🔧 System Architecture

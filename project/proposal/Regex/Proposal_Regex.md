@@ -127,7 +127,7 @@ Another danger is scope creep, in which the project's goals may change from what
 
 ## 🔑 Deliverables and Milestones
 
-The key deliverables and milestones: 
+The key deliverables: 
 
 - Data gathering and cleaning
 - Dashboard design and development
@@ -136,6 +136,7 @@ The key deliverables and milestones:
 - Testing and debugging
 - Deployment and maintenance
   
+Milestones:
 
 ## 💡 Resources
 

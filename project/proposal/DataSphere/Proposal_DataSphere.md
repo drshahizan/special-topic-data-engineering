@@ -18,7 +18,7 @@
 - [Conclusion](#conclusion)
 
 
-## Executive Summary
+## Executive Summary 
 -Consumer segmentation that prioritizes product attributes involves categorising customers into groups according to their needs or preferences for particular product features. To find customer groups with comparable traits and preferences, it entails examining data on customer behaviour, purchase history, demographics, and product preferences. (chosen bussiness)  can adjust their marketing initiatives and product offers to fit the unique needs of each consumer segment by understanding their needs and preferences, which will boost customer satisfaction and loyalty.
 
 ## Background
@@ -66,15 +66,31 @@
 - Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.
 
 ## Technical Specifications
-- Discuss the technical specifications of the proposed data science project, including data sources, data schema, data transformations, machine learning algorithms, data visualization tools, and other technical details.
-- Mention the programming languages, frameworks, and libraries that will be used in the project.
-- Provide details about the hardware and software requirements for the proposed system.
-- Explain the data security measures that will be implemented.
+
+| Technical Specifications |                                  Details                                  |
+|:------------------------:|---------------------------------------------------------------------------|
+|       Data sources       | Extracted data from various APIs                                          |
+|        Data schema       | The data will be stored in MongoDB, which is a NoSQL database. The data schema will be designed based on the data structure and requirements. The schema will be flexible to allow for changes and updates in the data.  |
+|   Data transformations   | Python, Pandas, Numpy, MongoDB aggregation                                                   |
+|       ML algorithms      | Python libraries (scikit-learn, TensorFlow, and PyTorch)                                      |
+| Data visualization tools | Power BI/Tableau, Python visualization libraries (Matplotlib, Seaborn, and Plotly) |
+|   Programming Languages  | SQL, Python, pymongo (Python driver for interacting with MongoDB)    |
+
+Hardware and Software Requirements:
+- The project will require a machine with sufficient RAM and CPU power to run the MongoDB server and the machine learning algorithms.
+- The recommended hardware specification is a machine with 16GB RAM and an Intel i7 processor or equivalent.
+- The software requirements include MongoDB, Python, and the necessary Python libraries.
+
+Data Security Measures:
+- The project will implement various security measures to protect the data and prevent unauthorized access.
+- The MongoDB server will be configured to use SSL/TLS encryption to encrypt data in transit.
+- Access to the MongoDB server will be restricted to authorized users with strong passwords.
+- Data backups will be stored off-site in encrypted form.
+
 
 ## Timeline and Deliverables
-Here is a detailed timeline and deliverables for the data science project using MongoDB:
 
-1. Planning and Requirements Gatherings *(Week 1-20)*
+1. Planning and Requirements Gatherings *(Week 1-2)*
 > - Deliverables: Project charter and scope and Requirements gathering plan
 > - Resources: Visual Studio Code
 
@@ -100,7 +116,7 @@ Here is a detailed timeline and deliverables for the data science project using 
 
 7. Presentation *(Week 14)*
 > - Deliverables: Final project report and project presentation slides
-> - Resources: Visual Studio Code, Canva
+> - Resources: Power BI/Tableau , Canva
 
 
 Quality assurance and testing procedures:

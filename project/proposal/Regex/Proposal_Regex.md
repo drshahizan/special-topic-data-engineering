@@ -4,9 +4,12 @@
  <h3 align='center'> 
  Analyze Shopee Supermarket sales to gain insights into market trend and optimize sales strategy
   </h3>
+  <br>
 <p align='center'>
   <img height='250px' width='400px' src='https://intellipaat.com/blog/wp-content/uploads/2015/07/Big-Data.gif'/>
 </p>
+________________________________________________________________________________________________________________________________________________________
+<br>
   
 ## 📝 Table of Contents
 - [Executive Summary](#executive-summary)
@@ -241,26 +244,26 @@ The resources needs as below:
 <table>
   <tr>
     <th>Data sources</th>
-    <td> Extracted data from Shopee Supermarket Malaysia </td>
+    <td>Extracted data from Shopee Supermarket Malaysia </td>
   </tr>
   <tr>
     <th>Data schema</th>
-    <td>-</td>
+    <td>Product data: Product ID, Product Name, Items Sold, Product Category, Price per Product, Total Revenue </td>
   </tr>
   <tr>
     <th>Data transformations</th>
-    <td> Python, Pandas, Numpy </td>
+    <td>Python libraries: Pandas, Numpy </td>
   </tr>
   <tr>
     <th>ML algorithms</th>
-    <td>-</td>
+    <td>Scikit-learn</td>
   </tr>
   <tr>
     <th>Data visualization tools</th>
     <td>
       Power BI
       <br>
-      Matplotlib, Seaborn, and Plotly (Python visualization libraries)
+      Python visualization libraries: Matplotlib, Seaborn, and Plotly 
     </td>
   </tr>
   <tr>

@@ -227,7 +227,7 @@ The resources needs as below:
 <table>
   <tr>
     <th>Data sources</th>
-    <td> - Shopee (Web Scraping) </td>
+    <td> Shopee (Web Scraping) </td>
   </tr>
   <tr>
     <th>Data schema</th>
@@ -235,7 +235,7 @@ The resources needs as below:
   </tr>
   <tr>
     <th>Data transformations</th>
-    <td>-</td>
+    <td> Python, Pandas, Numpy </td>
   </tr>
   <tr>
     <th>ML algorithms</th>

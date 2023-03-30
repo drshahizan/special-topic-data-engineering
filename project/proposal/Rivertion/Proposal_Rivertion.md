@@ -11,7 +11,7 @@ The expected outcomes of the project include a dataset of annotated medical imag
 
 ## 2. 📝 Background:
 <p align="center">
-<img src="https://i.kym-cdn.com/entries/icons/original/000/032/279/Screen_Shot_2019-12-30_at_11.26.24_AM.png" alt="Paris" height="250"></img>
+<img src="https://www.postdicom.com/images/blog-posts/social-media-images/medical-imaging-science-and-applications-social.jpg" alt="Health" height="250"></img>
 </p>
 
 Medical imaging plays a crucial role in modern healthcare for the diagnosis and treatment of various diseases. In Malaysia, the demand for medical imaging services has been growing due to an aging population and increasing incidence of chronic diseases. However, the shortage of qualified radiologists, coupled with the increasing complexity of medical images, has led to delays in diagnosis, misdiagnosis, and suboptimal treatment outcomes.

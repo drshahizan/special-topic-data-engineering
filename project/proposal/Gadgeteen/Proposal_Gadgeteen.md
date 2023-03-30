@@ -262,7 +262,7 @@ b) Anonymize the data by removing personal information, and ensure that all data
   </tr>
   <tr>
     <th align= "left">Frameworks</th>
-    <td>Django, Pyscript</td>
+    <td>Django, Pyscript, Bootstrap</td>
   </tr>
   <tr>
     <th align= "left">Libraries</th>
@@ -270,7 +270,15 @@ b) Anonymize the data by removing personal information, and ensure that all data
   </tr>
   <tr>
     <th align= "left">Hardware & software requirements</th>
-    <td></td>
+    <td>
+      <ul>
+        <li>Processor: 2 GHz or more</li>
+        <li>Memory: 8 GB or more</li>
+        <li>Hard disk: 500 GB or more</li>
+        <li>Ethernet connection (LAN) OR a wireless adapter (Wi-Fi)</li>
+        <li>Windows, MacOS or Linux operating system with all the mentioned softwares, programming languages, frameworks and libraries installed including Python 3.8 or higher, and MongoDB</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <th align= "left">Data security measures</th>

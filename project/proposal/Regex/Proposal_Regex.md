@@ -8,7 +8,7 @@
 <p align='center'>
   <img height='250px' width='400px' src='https://intellipaat.com/blog/wp-content/uploads/2015/07/Big-Data.gif'/>
 </p>
-________________________________________________________________________________________________________________________________________________________
+
 <br>
   
 ## 📝 Table of Contents
@@ -278,6 +278,12 @@ The resources needs as below:
     </td>
   </tr>
 </table>
+
+Hardware requirements
+
+Software requirements
+
+Data security measures
 
 ## ⌚Timeline and Deliverables
 

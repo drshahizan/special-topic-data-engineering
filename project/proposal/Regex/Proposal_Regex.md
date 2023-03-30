@@ -75,7 +75,6 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 - Explain how the data will be collected and processed.
 
 - Discuss the software and hardware resources that will be required for the project.
-Data Availability: A key limitation is the availability of data. The proposed project may require data that is difficult to obtain or may not be available. In some cases, data may be available, but it may be too expensive to acquire.
   
 
 ## 🔧System Architecture
@@ -102,17 +101,24 @@ Data Availability: A key limitation is the availability of data. The proposed pr
 Here are some potential risks and limitations associated with Shopee Supermarket sales performance analysis dashboard project:
 
 **1. Technical Risk**
-- Data Quality: Although the data may be accessible, there may be problems with the data's quality. The quality of the outcomes may be impacted by the data's potential for being erroneous, inconsistent, or incomplete.
-- Data Availability: The availability of data is a significant restriction. The suggested project might need data that is hard to get or might not be available. Data may be accessible in some circumstances, but its acquisition may be prohibitively expensive.
-- System crashes and downtime: When a system crashes or experiences a downtime, it will affect the implementation of the project and lead to delays and inaccurate insights.
+
+`Data Quality:` Although the data may be accessible, there may be problems with the data's quality. The quality of the outcomes may be impacted by the data's potential for being erroneous, inconsistent, or incomplete.
+
+`Data Availability:` The availability of data is a significant restriction. The suggested project might need data that is hard to get or might not be available. Data may be accessible in some circumstances, but its acquisition may be prohibitively expensive.
+
+`System crashes and downtime:` When a system crashes or experiences a downtime, it will affect the implementation of the project and lead to delays and inaccurate insights.
 
 **2. Financial Risk**
-- Cost: It includes the cost of acquiring and storing data since the larger the amount of data that needs to be stored, the higher the cost of the project. Other than that, it can be costly to develop and maintain a dashboard, it depends on the complexity of the project and the tools used.
-- Return on investment (ROI): The dashboard may not bring enough profit to the business compared to the cost of development and maintenance.
+
+`Cost:` It includes the cost of acquiring and storing data since the larger the amount of data that needs to be stored, the higher the cost of the project. Other than that, it can be costly to develop and maintain a dashboard, it depends on the complexity of the project and the tools used.
+
+`Return on investment (ROI):` The dashboard may not bring enough profit to the business compared to the cost of development and maintenance.
 
 **3. Legal Risk**
-- Data privacy and protection: Shopee contains the privacy and sensitive data of customers and the use of these data may be subject to data protection laws and regulations. Therefore, businesses must ensure compliance with these regulations.
-- Intellectual property rights: It is possible to face legal issues relating to intellectual property rights when using proprietary or copyrighted data or information.
+
+`Data privacy and protection:` Shopee contains the privacy and sensitive data of customers and the use of these data may be subject to data protection laws and regulations. Therefore, businesses must ensure compliance with these regulations.
+
+`Intellectual property rights:` It is possible to face legal issues relating to intellectual property rights when using proprietary or copyrighted data or information.
 
 **4. Other Risk**
 - Scope creep: in which the project's goals may change from what was originally planned. As a result, more effort and resources would be needed, which might have an impact on the project's budget and schedule.
@@ -128,8 +134,6 @@ Legal and Ethical Issues: Data science projects may require access to sensitive 
 Project Management: The project's success may also depend on effective project management, including stakeholder engagement, communication, and risk management. Poor project management can lead to delays, cost overruns, and low-quality results.
 
 Interpretation and Communication: Lastly, even if the project produces high-quality results, there may be challenges in interpreting and communicating these results to stakeholders who may not have technical expertise in the field. This can affect the project's overall impact and success.
-
-Overall, it's important to carefully consider these risks and limitations before proposing a data science project to ensure its success.
 
 These risks and limitations must be taken into consideration before implementing the project. Below are plans for mitigating these risks and limitations:
 

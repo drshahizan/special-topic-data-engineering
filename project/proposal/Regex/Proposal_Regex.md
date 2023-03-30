@@ -116,11 +116,11 @@ Software and Hardware Resources: The software resources required for this projec
 
 ```mermaid
 
-flowchart LR
-    Shopee Application --> API Gateway
-    API Gateway --> Data Collection
-    Data Collection-->Data Storage
-    Data Storage-->Data Analysis
+flowchart LR;
+    id1[Shopee Application] --> id2[API Gateway]
+    id2[API Gateway] --> id3[Data Collection]
+    id3[Data Collection] --> id4[Data Storage]
+    id4[Data Storage] --> id5[Data Analysis]
 ```
   
 

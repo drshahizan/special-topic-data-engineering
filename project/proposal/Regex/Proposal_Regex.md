@@ -1,6 +1,9 @@
 <h1 align='center'> 
-  Shopee Supermarket Sales Performance Analysis Dashboard <img height='50px' width='50px' src='https://user-images.githubusercontent.com/120556342/228145762-83c369fc-a6b8-49da-a2be-fd31b7f280c3.png'>
+  Shopee Supermarket Sales Performance Dashboard <img height='50px' width='50px' src='https://user-images.githubusercontent.com/120556342/228145762-83c369fc-a6b8-49da-a2be-fd31b7f280c3.png'>
  </h1>
+ <h3 align='center'> 
+ Analyze Shopee Supermarket Sales to gain insight into maket trend and optimize sales stratergy
+  </h3>
 <p align='center'>
   <img height='250px' width='400px' src='https://intellipaat.com/blog/wp-content/uploads/2015/07/Big-Data.gif'/>
 </p>

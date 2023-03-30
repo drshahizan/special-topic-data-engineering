@@ -116,10 +116,10 @@ Software and Hardware Resources: The software resources required for this projec
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    Shopee Application-->API Gateway;
+    API Gateway-->Data Collection;
+    Data Collection-->Data Storage;
+    Data Storage-->Data Analysis;
 ```
   
 

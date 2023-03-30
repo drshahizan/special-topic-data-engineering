@@ -1,7 +1,20 @@
 <h1 align='center'><b>Analyzing Medical Images for Disease Diagnosis in Malaysia 👨‍⚕️</b></h1> 
 
+## Table of Contents
+* [📜 Executive Summary](#-executive-summary)
+* [📝 Background](#-background)
+* [🎯 Goals and Objectives](#-goals-and-objectives)
+* [🔍 Scope](#-scope)
+* [📄 Methodology](#-methodology)
+* [⚙️ System Architecture](#-system-architecture)
+* [🛑 Risks and Limitations](#-risks-and-limitations)
+* [⏳ Deliverables and Milestones](#-deliverables-and-milestones)
+* [📚 Resources](#-resources)
+* [🧰 Technical Specifications](#-technical-specifications)
+* [🏁 Timeline and Deliverables](#-timeline-and-deliverables)
+* [📄 Conclusion](#-conclusion)
 
-## 1. 📜 Executive Summary
+## 📜 Executive Summary
 
 This project aims to develop a computer-aided diagnostic (CAD) system for analyzing medical images to improve disease diagnosis in Malaysia. The objectives of the project are to train machine learning models on a dataset of medical images, evaluate the performance of the models using various metrics, and integrate the models into a CAD system that can assist medical professionals in making more accurate diagnoses.
 
@@ -9,7 +22,7 @@ The expected outcomes of the project include a dataset of annotated medical imag
 
 
 
-## 2. 📝 Background:
+## 📝 Background:
 <p align="center">
 <img src="https://www.postdicom.com/images/blog-posts/social-media-images/medical-imaging-science-and-applications-social.jpg" alt="Health" height="250"></img>
 </p>
@@ -23,7 +36,7 @@ The proposed data science project aims to address these challenges by developing
 The potential benefits of the proposed CAD system are significant. By improving the speed and accuracy of diagnosis, the system can reduce the time required for patients to receive treatment, which can be critical in cases where time is of the essence. Additionally, the system can help reduce the workload of radiologists and improve their efficiency, allowing them to spend more time on complex cases that require their expertise. Finally, the system can also help address the shortage of qualified radiologists by enabling healthcare providers to diagnose and treat more patients with existing resources. Overall, the proposed CAD system has the potential to significantly improve healthcare outcomes in Malaysia and enhance the quality of medical imaging services.
 
 
-## 3. 🎯 Goals and Objectives:
+## 🎯 Goals and Objectives:
 
 Goals:
 The main goal of the proposed project is to develop a computer-aided diagnostic (CAD) system for medical imaging analysis that can improve disease diagnosis in Malaysia. The CAD system will leverage machine learning models trained on a dataset of medical images to assist radiologists in making more accurate diagnoses, reducing the time and effort required to analyze images, and improving the efficiency of diagnosis. The ultimate goal is to improve patient outcomes and enhance the quality of medical imaging services in Malaysia.
@@ -39,7 +52,7 @@ Objectives:
 8. Refine the CAD system based on feedback from medical professionals and patients to improve its performance and usability.
 
 
-## 4. 🔍 Scope: 
+## 🔍 Scope: 
 
 <ul>
   <li>The scope of this project is to develop an AI system for the analysis of chest X-ray images of pediatric patients.</li>
@@ -50,7 +63,7 @@ Objectives:
 </ul>
 
 
-## 5. 📄 Methodology:
+## 📄 Methodology:
 
 The proposed data science project for developing a computer-aided diagnostic (CAD) system for analyzing medical images will be executed using the following methodology:
 
@@ -86,7 +99,8 @@ The software and hardware resources required for the project include:
 5. High-performance computing resources such as GPUs and multi-core processors for training the machine learning models.
 
 
-## 6. ⚙️ System Architecture:
+
+## ⚙️ System Architecture:
 
 The CAD system architecture will consist of various components, including data collection, pre-processing, data analysis, feature extraction, machine learning, CAD system integration, and others. MongoDB will be used to store and manage the pre-processed medical image data, and TensorFlow will be used to build and train the machine learning models. The CAD system will be developed using Flask, a Python-based web framework, and will include interactive and static data visualization tools such as Plotly and Matplotlib.
 
@@ -171,7 +185,7 @@ graph TD;
     J[Deployment on a Dedicated Server]-->K[Maintenance and Upgrades as necessary];
 ```
 
-## 7. 🛑 Risks and Limitations:
+## 🛑 Risks and Limitations:
 
 Even though analyzing medical images for disease diagnosis gives a lot of advantages both to doctors and patients, this process also poses several risks and limitations that should be considered. Below are points for technical, financial and legal risks:
 
@@ -193,7 +207,7 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 </ul>
 </ol>
 
-## 8. ⏳ Deliverables and Milestones:
+## ⏳ Deliverables and Milestones:
 
 <table border="1" align="center">
   <tr>
@@ -228,7 +242,7 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 
 
 
-## 9. 📚 Resources:
+## 📚 Resources:
 
 <ol>
   <li>
@@ -271,7 +285,7 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 </ol>
 
 
-## 10. 🧰 Technical Specifications:
+## 🧰 Technical Specifications:
 
 <ol>
 <li>Data Schema:</li>
@@ -315,7 +329,7 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 </ul>
 </ol>
 
-## 11. 🏁 Timeline and Deliverables: 
+## 🏁 Timeline and Deliverables: 
 <ol>
 	<li>Detailed Timeline:</li>
 </ol>
@@ -350,6 +364,6 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 </ul>
 
 
-## 12. 📄 Conclusion:
+## 📄 Conclusion:
 
 In conclusion, our proposed solution for automating the diagnosis of pneumonia through machine learning algorithms has the potential to revolutionize the medical field. By leveraging state-of-the-art technology and techniques, we aim to provide a robust and accurate diagnostic tool for medical professionals to assist in making informed decisions about patient care. Our project timeline, deliverables, and technical specifications have been carefully planned to make sure the project is executed efficiently and effectively. We are confident in our ability to deliver high-quality results within the proposed timeframe and budget. However, we recognize that challenges and limitations may arise during the project, such as data quality issues or hardware constraints. We believe that our proposed solution has the potential to make a significant impact in the medical field, and we are excited about the prospect of working on this project.

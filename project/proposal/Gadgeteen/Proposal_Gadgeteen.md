@@ -67,7 +67,7 @@ III.	MongoDB:  To store the collected data which allow us to store and query the
 
 IV.	NLTK (Natural Language Toolkit): Use for sentiment analysis
 
-V.	PowerBi: To visualize and explore the data.
+V.	PowerBI: To visualize and explore the data.
 
 <b>Other Relevant Information:</b>
 
@@ -218,7 +218,7 @@ b) Anonymize the data by removing personal information, and ensure that all data
    - Computer/Laptop
    
 - **Software**
-   - Python and libraries like Tweepy, Pandas, Scikit-learn, NLTK, Matplotlib
+   - Python and libraries like Tweepy, Pandas, NLTK, Matplotlib
    - MongoDB
    - Visual Studio Code
    - Tableau / Power BI
@@ -245,7 +245,12 @@ b) Anonymize the data by removing personal information, and ensure that all data
   </tr>
   <tr>
     <th align= "left">Machine learning algorithms</th>
-    <td>Linear Regression, Naive Bayes, Support Vector Machines (SVM), Neural Network</td>
+    <td>
+      <ul>
+	<li>Naive Bayes, Support Vector Machines (SVM), Neural Network</li>
+	<li>VADER</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <th align= "left">Data visualization tools</th>
@@ -261,7 +266,7 @@ b) Anonymize the data by removing personal information, and ensure that all data
   </tr>
   <tr>
     <th align= "left">Libraries</th>
-    <td>Tweepy, Numpy, Pandas, Scikit-learn, NLTK, Matplotlib, Seaborn, WordCloud</td>
+    <td>Tweepy, Numpy, Pandas, NLTK, Matplotlib, Seaborn, WordCloud</td>
   </tr>
   <tr>
     <th align= "left">Hardware & software requirements</th>

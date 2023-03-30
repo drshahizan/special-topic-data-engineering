@@ -72,10 +72,6 @@ Below is an overview example of how the system will be programmed:
 |Model Deployment| The deployed model will be able to generate real-time recommendations for users.|
 |Data Visualization and Analytics| By using Matplotlib, Seaborn and Tableau, to visualize and analyze the recommendation data.| 
 
-- MongoDB will store the data in MongoDB collections, if there is a large volumes of data, MongoDB also can handle using sharding.
-- MongoDB provides tools and features for managing data, including data modeling, backup and recovery, security, and monitoring.
-- We can also do aggregation, map-reduce, and text search to analyst the data and extract insights from the recommendation data.
-
 1) Matplotlib: Matplotlib is a Python library for creating static, animated, and interactive visualizations in Python. It provides a wide range of charts and graphs, including line charts, bar charts, scatter plots, and heat maps.
 
 2) Seaborn: Seaborn is a Python library based on Matplotlib that provides a high-level interface for creating beautiful and informative statistical graphics. It includes various visualization types, such as heat maps, categorical plots, and distribution plots.
@@ -87,6 +83,8 @@ Below is an overview example of how the system will be programmed:
 5) Tableau: Tableau is a data visualization and business intelligence tool that allows users to create interactive dashboards and reports. It provides a drag-and-drop interface for creating visualizations and supports a wide range of data sources.
 
 6) Power BI: Power BI is a business analytics service by Microsoft that allows users to create interactive dashboards and reports. It provides a range of visualization types, including charts, maps, and tables.
+
+7) MongoDB: MongoDB will store the data in MongoDB collections, if there is a large volumes of data, MongoDB also can handle using sharding. It provides tools and features for managing data, including data modeling, backup and recovery, security, and monitoring. We can also do aggregation, map-reduce, and text search to analyst the data and extract insights from the recommendation data.
 
 Below are the flowchart for the system architecture:
 <p align="center">

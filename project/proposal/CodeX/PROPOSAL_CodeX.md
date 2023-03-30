@@ -54,6 +54,7 @@ As a result of its success, the Netflix recommendation system has become a bench
 | Model Training | Trains the recommendatiob model using machne learning algorithm based on data collected in steps 1 |
 | Reccomendation Generator | Generate recommendations for users based on their previous interaction with the system. |
 
+Below is an overview example of how the system will be programmed:
 <p align="center">
 <img height='400px' src='netflixpix.jpg'/>
 </p> 

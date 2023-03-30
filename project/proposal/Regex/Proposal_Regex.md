@@ -113,8 +113,14 @@ Another danger is scope creep, in which the project's goals may change from what
 
 ## 🔑 Deliverables and Milestones
 
-- Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
+The key deliverables and milestones: 
 
+- Data gathering and cleaning
+- Dashboard design and development
+- Data analysis and modeling
+- Integration with e-commerce platform
+- Testing and debugging
+- Deployment and maintenance
   
 
 ## 💡 Resources

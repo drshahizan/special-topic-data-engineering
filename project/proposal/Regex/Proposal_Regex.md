@@ -121,19 +121,11 @@ Here are some potential risks and limitations associated with Shopee Supermarket
 `Intellectual property rights:` It is possible to face legal issues relating to intellectual property rights when using proprietary or copyrighted data or information.
 
 **4. Other Risk**
-- Scope creep: in which the project's goals may change from what was originally planned. As a result, more effort and resources would be needed, which might have an impact on the project's budget and schedule.
-- 
+
 `Data Quality:` Even if the data is available, there may be issues with the quality of the data. The data may be incomplete, inconsistent, or inaccurate, which can affect the quality of the results.
 
 `Scope Creep:` Another risk is scope creep, where the project's objectives may expand beyond the initial scope. This can lead to additional work and resources being required, which can affect the project's timeline and budget.
 
-Technical Limitations: Data science projects may require advanced technical skills and expertise, including knowledge of programming languages and statistical analysis. Limited technical knowledge can affect the project's quality and completion time.
-
-Legal and Ethical Issues: Data science projects may require access to sensitive data, which can raise legal and ethical issues related to privacy and confidentiality. This can require additional resources to ensure compliance with laws and regulations.
-
-Project Management: The project's success may also depend on effective project management, including stakeholder engagement, communication, and risk management. Poor project management can lead to delays, cost overruns, and low-quality results.
-
-Interpretation and Communication: Lastly, even if the project produces high-quality results, there may be challenges in interpreting and communicating these results to stakeholders who may not have technical expertise in the field. This can affect the project's overall impact and success.
 
 These risks and limitations must be taken into consideration before implementing the project. Below are plans for mitigating these risks and limitations:
 

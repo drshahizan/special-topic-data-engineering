@@ -77,9 +77,9 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 - Discuss the software and hardware resources that will be required for the project.
 Data Availability: A key limitation is the availability of data. The proposed project may require data that is difficult to obtain or may not be available. In some cases, data may be available, but it may be too expensive to acquire.
 
-Data Quality: Even if the data is available, there may be issues with the quality of the data. The data may be incomplete, inconsistent, or inaccurate, which can affect the quality of the results.
+`Data Quality:` Even if the data is available, there may be issues with the quality of the data. The data may be incomplete, inconsistent, or inaccurate, which can affect the quality of the results.
 
-Scope Creep: Another risk is scope creep, where the project's objectives may expand beyond the initial scope. This can lead to additional work and resources being required, which can affect the project's timeline and budget.
+`Scope Creep:` Another risk is scope creep, where the project's objectives may expand beyond the initial scope. This can lead to additional work and resources being required, which can affect the project's timeline and budget.
 
 Technical Limitations: Data science projects may require advanced technical skills and expertise, including knowledge of programming languages and statistical analysis. Limited technical knowledge can affect the project's quality and completion time.
 

@@ -228,10 +228,9 @@ Machine Learning Algorithms:
 - Content-based filtering: Recommends items to users based on the similarity of their attributes to items they have liked before.
 - Hybrid approaches: Combines collaborative and content-based filtering techniques to improve recommendations.
 - Matrix factorization: Factorizes the user-item interaction matrix into low-rank matrices to capture latent features.
-- Deep learning: Neural networks can be used to model complex user-item interactions and make recommendations.
 
 Data Visualization Tools:
-- Tableau, PowerBI, and other business intelligence tools can be used to create visualizations of the recommendation system's performance.
+- Tableau, PowerBI, Altryx and other business intelligence tools can be used to create visualizations of the recommendation system's performance.
 - Python visualization libraries like Matplotlib, Seaborn, and Plotly can be used to create interactive visualizations of the data and model results.
 
 Hardware Requirements:
@@ -240,7 +239,7 @@ Hardware Requirements:
 - Storage: The system will require a large amount of storage to store the Netflix viewing history, search queries, user ratings and reviews, content metadata, and machine learning models. A high-performance storage system, such as a solid-state drive (SSD), is recommended for better performance.
 
 Software Requirements:
-- Operating System: The recommended operating system for the system is Linux or MacOS, as they are both reliable and support many of the required software tools.
+- Operating System: The recommended operating system for the system is Windows, Linux or MacOS, as they are both reliable and support many of the required software tools.
 - Programming Language: The system will use Python as the primary programming language for building machine learning models and data processing pipelines.
 - Frameworks and Libraries: The system will use a variety of machine learning frameworks and libraries such as Apache Spark, TensorFlow, PyTorch, Scikit-learn, Keras, Pandas, and NumPy. These libraries can be installed using the pip package manager in Python.
 - Database: The system will use a distributed NoSQL database such as Apache Cassandra to store and manage large-scale data sets.
@@ -249,13 +248,11 @@ Software Requirements:
 **Data Security**
 - Encryption: Encryption is the process of encoding information in such a way that only authorized parties can access it. All sensitive data, including user data, machine learning models, and system logs, should be encrypted during storage and transmission. Encryption can be implemented using industry-standard protocols such as AES, SSL, and TLS.
 
-- Access control: Access control is the process of granting or denying access to resources based on the user's identity, role, and permissions. Access to sensitive data should be restricted to only authorized personnel who require access to perform their duties. Access control policies can be implemented using techniques such as role-based access control (RBAC) and attribute-based access control (ABAC).
+- Access control: Access control is the process of **granting or denying access to resources based on the user's identity, role, and permissions**. Access to sensitive data should be restricted to only authorized personnel who require access to perform their duties. Access control policies can be implemented using techniques such as role-based access control (RBAC) and attribute-based access control (ABAC).
 
-- Authentication and Authorization: Authentication is the process of verifying the identity of a user, while authorization is the process of granting or denying access to resources based on the user's identity and permissions. All users, including system administrators, should be required to authenticate before accessing the system. Authentication can be implemented using techniques such as password authentication, two-factor authentication (2FA), or biometric authentication. Authorization can be implemented using access control policies.
+- Authentication and Authorization: Authentication is the process of verifying the identity of a user, while authorization is the process of granting or denying access to resources based on the user's identity and permissions. All users, including system administrators, should be required to authenticate before accessing the system. Authentication can be implemented using techniques such as **password authentication, two-factor authentication (2FA), or biometric authentication.** Authorization can be implemented using access control policies.
 
 - Data Backup and Recovery: Regular backups of sensitive data should be taken to ensure that data can be recovered in case of any data loss, corruption or disaster. Backup and recovery policies should be put in place, and backup data should be stored in a secure and encrypted location.
-
-- Audit trails: An audit trail is a record of system activity that can be used to trace security breaches, detect unauthorized access, and ensure compliance with data security regulations. An audit trail should be implemented to track all system activity, including user logins, data access, and data modification.
 
 - Regular security audits: Regular security audits should be performed to identify vulnerabilities, address security concerns, and ensure that security policies and procedures are being followed. Security audits can be performed internally or by third-party security firms.
 

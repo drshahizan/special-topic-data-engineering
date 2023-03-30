@@ -200,7 +200,7 @@ The resources needs as below:
 <table>
   <tr>
     <th>Data sources</th>
-    <td> - Shopee  </td>
+    <td> - Shopee (Web Scraping) </td>
   </tr>
   <tr>
     <th>Data schema</th>
@@ -216,11 +216,19 @@ The resources needs as below:
   </tr>
   <tr>
     <th>Data visualization tools</th>
-    <td>-</td>
+    <td>
+      - Power BI
+      - Matplotlib, Seaborn, and Plotly (Python visualization libraries)
+    </td>
   </tr>
   <tr>
     <th>Other</th>
-    <td>-</td>
+    <td>Python
+JaveScript
+SQL
+Pandas
+NumPy
+Plotly</td>
   </tr>
 </table>
 

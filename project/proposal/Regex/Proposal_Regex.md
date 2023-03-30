@@ -19,14 +19,14 @@
 - [Timeline and Deliverables](#timeline-and-deliverables)
 - [Conclusion](#conclusion)
 
-## 📄 Executive Summary
+## 📄Executive Summary
 
 Increasing internet penetration and smarter, more powerful devices have made Malaysia's e-commerce market among the strongest it has ever been. Consumers are increasingly flocking online to purchase products and services. This means Malaysia e-commerce statistics are crucial to the creation of effective content strategies for publishers and affiliate marketers targeting the country. 
 
 Therefore, this project aims to produce an e-commerce analytics dashboard that helps to optimize e-commerce operations and to improve profitability by leveraging the insights provided by Shopee e-commerce data. Sales data will be used to identify which products are selling well and which are not, to understand seasonal trends and to optimize pricing strategies.
 
 
-## 🌎 Background
+## 🌎Background
 
 An ecommerce analytics dashboard is a group of visualizations based on ecommerce store’s data. Most dashboards cover a specific goal or topic, such as traffic or audience behavior. Nowadays, it has become essential since the number of online users have increased dramatically and there is a growing shift from offline to online purchasing. The growth is supported by the rapid adoption of smartphones, growing internet penetration, and the availability of secure online payment systems. This situation causes the difficulty of monitoring online business as there are large amounts of transactions in a day and new strategies are needed to attract customer interest. 
 
@@ -37,7 +37,7 @@ By analyzing the sales data from Shopee, we can have greater efficiency because 
 In summary, this project aims to provide a sales analysis dashboard that gives insight about the sales data in order to help e-commerce platforms increase efficiency, enhance business strategy and higher profitability. 
   
 
-## 🎯 Goals and Objectives
+## 🎯Goals and Objectives
 
 Around 80% of eCommerce businesses have been failing because of insufficient marketing strategy and selling the wrong product at the wrong price. Therefore, an effective marketing plan is the key success of all businesses. The business owner has to collect sales data and then analyze it himself. Without doing this, the business owner cannot understand the current situation of the marketplace.
 
@@ -52,7 +52,7 @@ However, modern technology can help to solve this problem effectively. Therefore
 This will be significant for online sellers to track their progress and quickly respond to any changes by getting insights and analytics on e-commerce data. 
   
 
-## 🔭 Scope
+## 🔭Scope
 
 > This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
 
@@ -68,7 +68,7 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 
   
 
-## 🔍 Methodology
+## 🔍Methodology
 
 - Explain the methodology and the techniques that will be used in the project. Provide a detailed methodology that outlines how the proposed data science project will be executed, including data collection and cleaning, data analysis, machine learning algorithms, and data visualization techniques.
 
@@ -92,7 +92,7 @@ Interpretation and Communication: Lastly, even if the project produces high-qual
 Overall, it's important to carefully consider these risks and limitations before proposing a data science project to ensure its success.
   
 
-## 🔧 System Architecture
+## 🔧System Architecture
 
 - Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
 
@@ -111,50 +111,50 @@ Overall, it's important to carefully consider these risks and limitations before
 
   
 
-## 📊 Risks and Limitations
+## 📊Risks and Limitations
 
-- Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks.
+> Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks.
 
-- Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
+> Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
 
-Here are some potential risks and limitations associated with Shopee Supermarket sales analytics dashboard project:
+Here are some potential risks and limitations associated with Shopee Supermarket sales performance analysis dashboard project:
 
-**Technical Risk**
+**1. Technical Risk**
 - Data Quality: Although the data may be accessible, there may be problems with the data's quality. The quality of the outcomes may be impacted by the data's potential for being erroneous, inconsistent, or incomplete.
 - Data Availability: The availability of data is a significant restriction. The suggested project might need data that is hard to get or might not be available. Data may be accessible in some circumstances, but its acquisition may be prohibitively expensive.
 - System crashes and downtime: When a system crashes or experiences a downtime, it will affect the implementation of the project and lead to delays and inaccurate insights.
 
-**Financial Risk**
+**2. Financial Risk**
 - Cost: It includes the cost of acquiring and storing data since the larger the amount of data that needs to be stored, the higher the cost of the project. Other than that, it can be costly to develop and maintain a dashboard, it depends on the complexity of the project and the tools used.
 - Return on investment (ROI): The dashboard may not bring enough profit to the business compared to the cost of development and maintenance.
 
-**Legal Risk**
+**3. Legal Risk**
 - Data privacy and protection: Shopee contains the privacy and sensitive data of customers and the use of these data may be subject to data protection laws and regulations. Therefore, businesses must ensure compliance with these regulations.
 - Intellectual property rights: It is possible to face legal issues relating to intellectual property rights when using proprietary or copyrighted data or information.
 
-**Other Risk**
+**4. Other Risk**
 - Scope creep: in which the project's goals may change from what was originally planned. As a result, more effort and resources would be needed, which might have an impact on the project's budget and schedule.
 
 These risks and limitations must be taken into consideration before implementing the project. Below are plans for mitigating these risks and limitations:
 
-**Technical Risk**
+**1. Technical Risk**
 - Collect data from reliable resources and implement the strategies like data cleaning, data validation and data standardization to ensure data accuracy, completeness, and consistency.
 - When the required data is not available, simulations or experiments can be used to generate data, or the data can be collected from different sources.
 - In the event of a system crash or other technical issue, implement a backup and recovery plan to minimize the downtime and losses of data.
 
-**Financial Risk**
+**2. Financial Risk**
 - Conduct a cost-benefit analysis and establish a budget for data acquisition, storage, and dashboard development and maintenance.
 - Reducing maintenance and development costs can be achieved with open-source dashboard tools.
 
-**Legal Risk**
+**3. Legal Risk**
 - Make sure that all applicable data protection and intellectual property laws are followed.
 - Consult experts to get legal advice to ensure compliance with relevant laws and regulations.
 
-**Other Risk**
+**4. Other Risk**
 - Establish clear project goals and objectives and communicate effectively with stakeholders.
   
 
-## 🔑 Deliverables and Milestones
+## 🔑Deliverables and Milestones
 
 The key deliverables: 
 
@@ -167,7 +167,7 @@ The key deliverables:
   
 Milestones:
 
-## 💡 Resources
+## 💡Resources
 
 The resources needs as below:
 
@@ -187,7 +187,7 @@ The resources needs as below:
 - Other expenses
    
 
-## 📱 Technical Specifications
+## 📱Technical Specifications
 
 - Discuss the technical specifications of the proposed data science project, including data sources, data schema, data transformations, machine learning algorithms, data visualization tools, and other technical details.
 
@@ -224,7 +224,7 @@ The resources needs as below:
   </tr>
 </table>
 
-## ⌚ Timeline and Deliverables
+## ⌚Timeline and Deliverables
 
 - Provide a detailed timeline for the project, including milestones and deadlines.
 
@@ -234,7 +234,7 @@ The resources needs as below:
 
   
 
-## 🎓 Conclusion
+## 🎓Conclusion
 
 - Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
 

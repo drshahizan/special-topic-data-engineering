@@ -293,6 +293,44 @@ Data security measures
 
 - Explain the quality assurance and testing procedures that will be followed.
 
+<div class="mermaid">
+  
+  ```mermaid
+gantt
+    title Shopee Supermarket Sales Performance Dashboard
+    dateFormat  YYYY-MM-DD
+  
+    section Data Gathering and Cleaning
+    Data Gathering  :2023-04-01 , 5d
+    Data Cleaning  :2023-04-01 , 5d
+  
+    section Dashboard Design and Development
+    Dashboard Design            :2023-04-6  , 7d
+    Dashboard Development                    :2023-04-10 , 10d
+   
+  
+    section Data Analysis and Modeling 
+    Data Analysis               :2023-04-20 , 7d
+    Data Modeling       :2023-04-27 , 7d
+  
+    section Integration with E-Commerce Platform
+    Simple data chart            :2023-05-11 , 8d
+    ML visualization             :2023-05-16 , 9d
+    Designing User interface  :2023-05-25 , 11d
+    Features add-ons          :2023-06-04 , 8d
+    Modul insert              :2023-06-11 , 6d
+  
+    section Testing and Debugging
+    Live Testin                :2023-06-17 , 5d
+    Debugging     :2023-06-30 , 7d
+  
+    section Dashboard deployed and live
+    Dashboard deployed      :2023-06-23 , 7d
+    Dashboard live      :2023-06-30 , 7d
+  
+  ```
+  </div>
+
   
 
 ## 🎓Conclusion

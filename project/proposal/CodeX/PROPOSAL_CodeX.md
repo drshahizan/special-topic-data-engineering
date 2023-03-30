@@ -1,5 +1,8 @@
 <h1 align='center'>Recommendation Engine: Netflix Shows/Movie Reccomendation 🔍</h1>
 
+<p align="center">
+<img height='400px' src='logo.jpg'/>
+</p> 
 
 ## Table of Contents
 <!---

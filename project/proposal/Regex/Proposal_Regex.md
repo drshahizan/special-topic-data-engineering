@@ -223,7 +223,7 @@ The resources needs as below:
 <table>
   <tr>
     <th>Data sources</th>
-    <td> - Shopee (Web Scraping) </td>
+    <td> Extracted data from Shopee Supermarket Malaysia </td>
   </tr>
   <tr>
     <th>Data schema</th>
@@ -231,7 +231,7 @@ The resources needs as below:
   </tr>
   <tr>
     <th>Data transformations</th>
-    <td>-</td>
+    <td> Python, Pandas, Numpy </td>
   </tr>
   <tr>
     <th>ML algorithms</th>
@@ -241,17 +241,16 @@ The resources needs as below:
     <th>Data visualization tools</th>
     <td>
       - Power BI
+      <tr>
       - Matplotlib, Seaborn, and Plotly (Python visualization libraries)
     </td>
   </tr>
   <tr>
-    <th>Other</th>
-    <td>Python
-JaveScript
-SQL
-Pandas
-NumPy
-Plotly</td>
+    <th>Programming Languages</th>
+    <td>
+      SQL
+      Python
+    </td>
   </tr>
 </table>
 

@@ -105,10 +105,43 @@ The CAD system architecture will consist of various components, including data c
 | 10. | Deployment | Deploy the CAD system on a server with appropriate hardware and software resources such as a GPU with at least 8 GB of VRAM, a Linux operating system with Python, TensorFlow, Flask, and MongoDB installed, and data visualization and analysis tools such as Plotly and Matplotlib. |
 | 11. | Maintenance | Regularly monitor and upgrade the hardware and software resources as necessary to ensure optimal performance of the CAD system. |
 
+___
 
-The suggested system architecture calls for a server with at least 16 GB of RAM and a multi-core CPU in terms of hardware and software requirements. For the purpose of accelerating the training of machine learning models, the server should also include a GPU with at least 8 GB of VRAM. Python, TensorFlow, Flask, MongoDB, and a Linux operating system should all be installed on the server.
+<ol>
+	<li>Data Storage and Management:</li>
+<br>
+<p>MongoDB is a NoSQL document-oriented database that is highly suitable for handling large and complex datasets such as medical images. MongoDB stores data in collections of documents, which are JSON-like structures that allow for flexible and efficient data storage and retrieval. In the proposed system architecture, MongoDB will be used to store and manage pre-processed medical image data.</p>
 
-For data visualisation and analysis, the CAD system interface will make use of a variety of programmes and frameworks, such as Plotly and Matplotlib for dynamic and static plots, respectively. Medical professionals will be able to investigate and examine the diagnostic outcomes of the trained machine learning models using the interface's data tables, which will also be included.
+<p>The medical images will be pre-processed to extract features relevant to disease diagnosis, and the resulting features will be stored as documents in MongoDB collections. Each document will represent a single medical image and will include the extracted features, metadata such as patient ID, and other relevant information.</p>
+
+MongoDB provides several features that are beneficial for managing and analyzing large datasets, including:
+	<ul>
+<li>Scalability: MongoDB is highly scalable and can handle large volumes of data, making it suitable for storing medical image data.</li>
+
+<li>Indexing: MongoDB supports indexing, which allows for fast retrieval of data based on specific criteria. This feature is essential for efficient querying of medical image data.</li>
+
+<li>Aggregation: MongoDB supports powerful aggregation capabilities, which enable complex data analysis and processing.</li>
+	</ul>
+<br>
+<li>Data Analysis:</li>
+<br>
+<p>MongoDB provides several features that facilitate data analysis, including indexing, aggregation, and real-time querying capabilities. The data analysis will be performed using Python-based data analysis libraries such as NumPy, Pandas, and Scikit-learn, which provide a wide range of data analysis tools, including data cleaning, preprocessing, feature selection, and feature extraction. These libraries will be used to manipulate and analyze the data stored in MongoDB, enabling the extraction of meaningful insights and patterns from the data. Data visualization tools such as Matplotlib and Plotly will be used to visualize the results of the data analysis.</p>
+<br>
+<li>Hardware and Software Requirements:</li>
+<br>
+<p>To support the use of MongoDB in the proposed system architecture, the following hardware and software requirements will be needed:</p>
+	<ul>
+<li>A dedicated server: MongoDB requires a dedicated server with sufficient storage capacity and processing power to handle large volumes of medical image data. The server should have at least 16 GB of RAM, a multi-core CPU, and sufficient disk space to store the data.</li>
+
+<li>MongoDB database: The MongoDB database will need to be installed and configured on the dedicated server. MongoDB can be installed on Windows, macOS, and Linux operating systems.</li>
+
+<li>Python: The system will require a Python installation with the appropriate libraries and packages for interacting with the MongoDB database. The recommended package for this is PyMongo, which provides a Python API for interacting with MongoDB.</li>
+
+<li>Data pre-processing software: Before storing the medical images in MongoDB, they will need to be pre-processed to extract relevant features. This will require the use of software tools such as OpenCV or TensorFlow, depending on the specific feature extraction technique being used.</li>
+	</ul>
+</ol>
+
+___
 
 Below are the flowchart for the system architecture:
 ```mermaid

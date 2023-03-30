@@ -156,11 +156,19 @@ The proposed system architecture will employ various tools and frameworks for da
 
 ___
 
-Below are the flowchart for the system architecture:
+Flowchart of the CAD System Architecture::
 ```mermaid
 graph TD;
-    A[Data Storage and Management]-->B[Machine Learning Model Training and Evaluation];
-    B[Machine Learning Model Training and Evaluation]-->C[CAD System Interface];
+    A[Data Collection]-->B[Pre-processing];
+    B[Pre-processing]-->C[Data Analysis];
+    C[Data Analysis]-->D[Feature Extraction using CNNs];
+    D[Feature Extraction using CNNs]-->E[Machine Learning using SVMs or Random Forests];
+    E[Machine Learning using SVMs or Random Forests]-->F[Model Evaluation and Optimization];
+    F[Model Evaluation and Optimization]-->G[Integration into a CAD System using Flask];
+    G[Integration into a CAD System using Flask]-->H[User Interface Development];
+    H[User Interface Development]-->I[Data Visualization using Plotly and Matplotlib];
+    I[Data Visualization using Plotly and Matplotlib]-->J[Deployment on a Dedicated Server];
+    J[Deployment on a Dedicated Server]-->K[Maintenance and Upgrades as necessary];
 ```
 
 ## 7. 🛑 Risks and Limitations:

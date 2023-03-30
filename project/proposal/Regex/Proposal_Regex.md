@@ -176,31 +176,47 @@ These risks and limitations must be taken into consideration before implementing
 
 ## 🔑Deliverables and Milestones
 
-The key deliverables: 
+The key deliverables and milestones: 
 
 **1. Data collection and cleaning**
      
 This involves gathering sales data from Shopee Supermarket, such as product name, price and quantity sold by using APIs provided. Following the collection of  data, data pre-processing tasks such as cleaning, filtering, and transforming the data into usable format will be performed.
-     
-**2. Dashboard design and development**
-- Data analysis and modeling
-- Integration with e-commerce platform
-- Testing and debugging
-- Deployment and maintenance
-  
-Milestones:
+
+**2. Data analysis and modeling**
+
+Analyze the sales data by grouping the data and calculating metrics with MongoDB's integration framework. This entails analysing the data using statistical and machine learning techniques and developing models that can be used to make predictions.
+
+**3. Dashboard design and development**
+
+Designing the dashboard's layout and visualisations based on sales analysis results, such as charts or graphs, to identify top-selling products and understand sales trends.
+
+**4. Integration with e-commerce platform**
+
+Integrating the dashboard with the e-commerce platform to collect data and display data insights in real time using MongoDB's real-time data ingestion.
+
+**5. Testing and debugging**
+
+Testing the dashboard to ensure its functionality and debugging any issues that arise.
+
+**6. Deployment and maintenance**
+
+Launching the dashboard and ensuring that it is maintained and updated as necessary.
 
 <table align=center>
+  <tr>
+    <th>Deliverables and Milestones</th>
+    <th>Timeframe</th>
+  </tr>
   <tr>
     <td>Data gathering and cleaning</td>
     <td>End of week 4</td>
   </tr>
   <tr>
-    <td>Dashboard design and development</td>
+    <td>Data analysis and modeling</td>
     <td>End of week 7</td>
   </tr>
   <tr>
-    <td>Data analysis and modeling</td>
+    <td>Dashboard design and development</td>
     <td>End of week 10</td>
   </tr>
     <tr>
@@ -212,7 +228,7 @@ Milestones:
     <td>End of week 13</td>
   </tr>
   <tr>
-    <td>Dashboard deployed and live</td>
+    <td>Dashboard deployed and presentation</td>
     <td>End of week 14</td>
   </tr>
 </table>
@@ -231,11 +247,14 @@ The resources needs as below:
 
 - Equipment
    - Computer/Laptop
-   -
+ 
 - Software
-   
+   - MongoDB
+   - Django
+   - Power BI
+  
 - Other expenses
-   
+  - The cost of the software
 
 ## 📱Technical Specifications
 

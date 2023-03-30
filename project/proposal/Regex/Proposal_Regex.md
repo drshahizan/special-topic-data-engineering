@@ -223,7 +223,7 @@ The resources needs as below:
 <table>
   <tr>
     <th>Data sources</th>
-    <td> Shopee (Web Scraping) </td>
+    <td> Extracted data from Shopee Supermarket Malaysia </td>
   </tr>
   <tr>
     <th>Data schema</th>
@@ -245,13 +245,11 @@ The resources needs as below:
     </td>
   </tr>
   <tr>
-    <th>Other</th>
-    <td>Python
-JaveScript
-SQL
-Pandas
-NumPy
-Plotly</td>
+    <th>Programming Languages</th>
+    <td>
+      SQL
+      Python
+    </td>
   </tr>
 </table>
 

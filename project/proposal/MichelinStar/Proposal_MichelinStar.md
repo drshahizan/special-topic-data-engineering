@@ -129,8 +129,7 @@ Here are some potential risks and limitations associated with heart disease pred
 
 ## 🔑 Deliverables and Milestones
 
-- Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
-Deliverables:
+**Deliverables:**
 1. Project Proposal: A proposal that outlines the goals, scope, and methodology of the project.
 2. Data Collection and Preprocessing: A cleaned dataset that is ready for analysis.
 3. Exploratory Data Analysis: A report on the statistical properties and characteristics of the dataset.
@@ -139,7 +138,7 @@ Deliverables:
 6. Deployment: A web application or API that can take in patient data and provide a heart disease prediction.
 
 
- Milestones:
+ **Milestones:**
  <div align="center">
   
 | Milestones | Timeframe  |

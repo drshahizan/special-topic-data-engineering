@@ -308,7 +308,6 @@ The resources needs as below:
       <li>MongoDB</li>
       <li>Shopee API</li>
       <li>Visual Studio Code</li>
-      <li>Shopee data scraper</li>
       <li>Python 3.8 r higher with included libraries</li>
     </td>
   </tr>

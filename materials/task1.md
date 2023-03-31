@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Task 1: Additional Notes
 
-Task 1 requires you to create supplementary notes for one module, based on the provided lecture notes. Please select a topic in the [notes subtopic] (https://github.com/drshahizan/special-topic-data-engineering#notes). You are allowed to use various resources such as ChatGPT, websites, articles, and books to generate these notes. [Software Engineering: Module 1](https://github.com/drshahizan/software-engineering/blob/main/materials/sec02/mod1.md) can serve as an example of the type of additional notes that are required.
+Task 1 requires you to create supplementary notes for one module, based on the provided lecture notes. Please select a topic in the [notes subtopic](https://github.com/drshahizan/special-topic-data-engineering#notes). You are allowed to use various resources such as ChatGPT, websites, articles, and books to generate these notes. [Software Engineering: Module 1](https://github.com/drshahizan/software-engineering/blob/main/materials/sec02/mod1.md) can serve as an example of the type of additional notes that are required.
 
 ## Instructions
 1. To create a record of your group and the desired module, please input the relevant information into this [Google Sheets](https://docs.google.com/spreadsheets/d/16eKnUHr0a1FUC2fl7ja2W5FrzwHZN1us-GK4_jhvZD8/edit?usp=sharing) file. You are required to provide the group name and the name of the module you wish to create in the designated fields.This task should be completed in a group of four students.

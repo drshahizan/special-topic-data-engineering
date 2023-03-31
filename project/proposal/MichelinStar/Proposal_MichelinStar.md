@@ -141,16 +141,22 @@ Here are some potential risks and limitations associated with heart disease pred
 
  **Milestones:**
  <div align="left">
-  
+
 | Milestones | Timeframe  |
 |----------|:-------------:|
-| Project Proposal | Week 1-2 |
-| Data Collection and Preprocessing | Week 3-4 |
-| Exploratory Data Analysis | Week 5-6 |
-| Machine Learning Model Development | Week 7-8 |
-| Model Evaluation | Week 9-10 |
-| Deployment | Week 11-12 |
-| Maintenance & Monitoring | Week 13 |
+| Project Plan | Week 1 |
+| Preparation of Data Data Requirement Document | Week 2 |
+| Collect and Gather the Data | Week 3 |
+| Data Cleaning | Week 4 |
+| Data Analysis  | Week 5 |
+| Preparation of Data Exploration Report | Week 6 |
+| Develop Data and Design UI | Week 7 |
+| Add Special feature in UI | Week 8 |
+| Preparation of Model Design Document | Week 9 |
+| Testing the System | Week 10 |
+| Preparation of Testing and Validation Report | Week 11 |
+| Deployment of System | Week 12 |
+| Maintenance and Monitoring | Week 13 |
 
 ## 💡 Resources
 

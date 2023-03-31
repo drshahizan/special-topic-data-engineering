@@ -40,7 +40,7 @@ Customer segmentation enables organisations to more fully comprehend their custo
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
 
 ## Methodology
-- Explain the methodology and the techniques that will be used in the project. Provide a detailed methodology that outlines how the proposed data science project will be executed, including data collection and cleaning, data analysis, machine learning algorithms, and data visualization techniques.
+
 - Explain how the data will be collected and processed.
 - Discuss the software and hardware resources that will be required for the project.
 

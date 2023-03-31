@@ -327,8 +327,6 @@ The resources needs as below:
   </tr>
 </table>
 
-Use HTTPS to communicate with the Twitter API
-
 ## ⌚Timeline and Deliverables
 
 - Provide a detailed timeline for the project, including milestones and deadlines.

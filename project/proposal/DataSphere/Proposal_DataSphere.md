@@ -41,7 +41,7 @@ Customer segmentation enables organisations to more fully comprehend their custo
 
 ## Methodology
 
-- Discuss the software and hardware resources that will be required for the project.
+
 
 ## System Architecture
 - Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system

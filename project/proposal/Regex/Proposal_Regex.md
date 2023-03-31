@@ -311,32 +311,29 @@ gantt
     dateFormat  YYYY-MM-DD
   
     section Data Gathering and Cleaning
-    Data Gathering  :2023-04-01 , 5d
-    Data Cleaning  :2023-04-01 , 5d
+    Data Gathering  :2023-04-02 , 10d
+    Data Cleaning  :2023-04-12 , 4d
   
-    section Dashboard Design and Development
-    Dashboard Design            :2023-04-6  , 7d
-    Dashboard Development                    :2023-04-10 , 10d
+    section Dashboard Analysis and Modeling
+    Dashboard Analysis            :2023-04-16  , 5d
+    Dashboard Modeling                    :2023-04-30 , 7d
    
   
-    section Data Analysis and Modeling 
-    Data Analysis               :2023-04-20 , 7d
-    Data Modeling       :2023-04-27 , 7d
+    section Data Design and Development
+    Data Design               :2023-05-07 , 7d
+    Data Development       :2023-05-14 , 14d
   
     section Integration with E-Commerce Platform
-    Simple data chart            :2023-05-11 , 8d
-    ML visualization             :2023-05-16 , 9d
-    Designing User interface  :2023-05-25 , 11d
-    Features add-ons          :2023-06-04 , 8d
-    Modul insert              :2023-06-11 , 6d
+    Designing User interface            :2023-05-28 , 4d
+    Features add-ons             :2023-06-01 , 10d
   
     section Testing and Debugging
-    Live Testin                :2023-06-17 , 5d
-    Debugging     :2023-06-30 , 7d
+    Live Testing                :2023-06-11 , 2d
+    Debugging     :2023-06-13 , 5d
   
     section Dashboard deployed and live
-    Dashboard deployed      :2023-06-23 , 7d
-    Dashboard live      :2023-06-30 , 7d
+    Dashboard deployed      :2023-06-18 , 3d
+    Dashboard live      :2023-06-21 , 4d
   
   ```
   </div>

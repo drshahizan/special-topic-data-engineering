@@ -122,11 +122,12 @@ The resources needs as below:
    - Project Manager:
 
 - Equipment
-   - Computer/Laptop
-   -
+   - Computer
+   - Laptop
 - Software
    - Kaggle
    - Projectpro.IO
+   - Github
 
 - Other expenses
    

@@ -101,7 +101,7 @@ Here are some potential risks and limitations associated with healthcare analyti
 
 **1. Technical Risk**
 
-`Data quality and accuracy:` The data collectio process cannot ensure the quality of the data as there may be problems with the data's quality. The quality of the outcomes may be impacted by the data's potential for being erroneous, inconsistent, or incomplete.
+`Data quality and accuracy:` The data collection process cannot ensure the quality of the data as there may be problems with the data's quality. The quality of the outcomes may be impacted by the data's potential for being erroneous, inconsistent, or incomplete.
 
 `Data bias and ethical considerations:` Healthcare analytics platforms can suffer from bias due to the use of historical data that may reflect past biases or systematic inequalities, which can lead to unfair outcomes and potential harm to patients. Ethical considerations must be taken into account to ensure that the use of patient data is transparent, fair, and respectful of patients' rights and privacy.
 

@@ -59,12 +59,23 @@ Customer segmentation enables organisations to more fully comprehend their custo
 -Collecting meaningful and real-time data: With so much data available, it can be challenging to delve deep and find the insights that are most needed.
 
 
-#### financial risks: 
+#### Financial risks: 
 -Cost of cloud computing services and softwares. Extra cost could be expected to subscribe the extra features in the cloud computing services in order to perform the tasks. 
 
 #### Legal risks:
 -Data security : A bigger danger of data breach results from larger big data volumes. The larger the concentration of data, the more attractive it is to hackers, and the more serious the implications of the breach.
 -Consumer privacy : the privacy of the data provider and their data should be protected. 
+
+### Plan for Mitigating Risks and Limitations: 
+#### Technical risks:
+-Develop quality skills before and while completing the project. 
+-Proper research before selecting dataset and clearly knows what you want kind of data you finding and find from the right place
+
+#### Financial risks: 
+-Provide proper funding for completing th project and have a little bit extra budget than the exact amount of budget as cost of software can rise. 
+
+#### Legal risks:
+-To reduce the risk of data integrity connected to preserving data assets, security vulnerabilities must be removed. This method of reducing risk requires subject matter -expertise for determining known security vulnerabilities and implementing measures to eliminate them. 
 
 
 

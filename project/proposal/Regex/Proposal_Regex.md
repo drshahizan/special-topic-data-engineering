@@ -105,7 +105,31 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
     <td>Data are gathered from Shopee Malaysia Website, supermarket section</td>
   </tr>
   <tr>
-    <th>Shopee API</th>
+    <th>Web Scraper</th>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Database</th>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Data Preparation</th>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Data Analysis</th>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Model Training</th>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Application Deployment</th>
+    <td></td>
+  </tr>
+  <tr>
+    <th>User</th>
     <td></td>
   </tr>
 </table>
@@ -113,10 +137,10 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 ```mermaid
 
 flowchart LR;
-    id1[Shopee Application] --> id2[API Gateway]
-    id2[API Gateway] --> id3[Data Collection]
-    id3[Data Collection] --> id4[Data Storage]
-    id4[Data Storage] --> id5[Data Analysis]
+    id1[Shopee Website] <--Get products and sold amount--> id2[API Scraper]
+    id2[API Scraper] --> id3[(Database)]
+    id3[(Database)] --> id4[Data Preparation]
+    id4[Data Preparation] --> id5[Data Analysis]
 ```
   
 

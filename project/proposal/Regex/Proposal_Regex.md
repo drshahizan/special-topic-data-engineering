@@ -95,9 +95,17 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 
 - Provide a flowchart or block diagram of the system architecture.
 
-<table>
+<table align=center>
   <tr>
-    <th>Data collection</th>
+    <th>Components</th>
+    <th>Details</th>
+  </tr>
+  <tr>
+    <th>Shopee Malaysia Website</th>
+    <td>Data are gathered from Shopee Malaysia Website, supermarket section</td>
+  </tr>
+  <tr>
+    <th>Shopee API</th>
     <td></td>
   </tr>
 </table>

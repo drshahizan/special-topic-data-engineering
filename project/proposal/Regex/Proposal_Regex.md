@@ -289,15 +289,45 @@ The resources needs as below:
       <li>Python</li>
     </td>
   </tr>
+  <tr>
+    <th>Hardware requirements</th>
+    <td>
+      <li>Memory: 16 GB or more</li>
+      <li>Processor: 2 GHz or more</li>
+      <li>Storage: 25 GB or more free disk space</li>
+      <li>Web browser</li>
+      <li>Domain name</li>
+      <li>Ethernet connection (LAN) or wireless adapter (Wi-Fi)</li>
+
+    </td>
+  </tr>
+  <tr>
+    <th>Software requirements</th>
+    <td>
+      <li>MongoDB</li>
+      <li>Power BI</li>
+      <li>Shopee API</li>
+      <li>Shopee data scraper</li>
+      <li>Visual Studio Code</li>
+      <li>Python 3.8 r higher with included libraries</li>
+    </td>
+  </tr>
+  <tr>
+    <th>Data security measures</th>
+    <td>
+      <li>Perform Encryption</li>
+      <li>Conduct regular backups</li>
+      <li>Install anti-malware software</li>
+      <li>Enable access control on MongoDB</li>
+      <li>Use a firewall / security groups (if in cloud)</li>
+      <li>Use strong password for authentication and authorization of MongoDB</li>
+      <li>Secure servers by lock down to access so that only certain IP addresses are allowed to use it.</li>
+      <li>Disable listening to all ethernet interfaces (only bind MongoDB ports to the interfaces that intended to exposed)</li>
+    </td>
+  </tr>
 </table>
 
-
-
-Hardware requirements
-
-Software requirements
-
-Data security measures
+Use HTTPS to communicate with the Twitter API
 
 ## ⌚Timeline and Deliverables
 

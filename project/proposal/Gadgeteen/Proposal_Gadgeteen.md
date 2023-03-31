@@ -294,7 +294,7 @@ b) Anonymize the data by removing personal information, and ensure that all data
   </tr>
   <tr>
     <th align= "left">Data schema</th>
-    <td>JSON like data including fields such as the tweet ID, tweet text, user ID, time and other relevant metadata</td>
+    <td>JSON like data including fields such as the tweet ID, tweet text, user ID, time, location and other relevant metadata</td>
   </tr>
   <tr>
     <th align= "left">Data transformations</th>
@@ -309,8 +309,9 @@ b) Anonymize the data by removing personal information, and ensure that all data
     <th align= "left">Machine learning algorithms</th>
     <td>
       <ul>
-	<li>Naive Bayes, Support Vector Machines (SVM), Neural Network</li>
-	<li>VADER</li>
+	<li>Supervised: Naive Bayes, Support Vector Machines (SVM), Neural Network</li>
+	<li>Lexicon-based approach: VADER</li>
+	<li>Topic modeling: Latent Dirichlet Allocation (LDA)</li>
       </ul>
     </td>
   </tr>
@@ -328,7 +329,7 @@ b) Anonymize the data by removing personal information, and ensure that all data
   </tr>
   <tr>
     <th align= "left">Libraries</th>
-    <td>Tweepy, Numpy, Pandas, PyMongo, NLTK, Matplotlib, Seaborn, WordCloud</td>
+    <td>Tweepy, Numpy, Pandas, PyMongo, NLTK, Gensim, Matplotlib, Seaborn, WordCloud</td>
   </tr>
   <tr>
     <th align= "left">Hardware & software requirements</th>

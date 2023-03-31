@@ -72,6 +72,19 @@ This project will be using various research methods to achieve our main objectiv
 ## :hammer_and_wrench: System Architecture:
 - Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
 - Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
+
+3. Software and Hardware Requirements: 
+ 
+   The software and hardware required for building a fraud detection dashboard using MongoDB depends on the size and complexity of the data to be processed:
+
+      Software:
+      * MongoDB Server
+      * MongoDB Compass or MongoDB Shell for interacting with the database
+      * MongoDB Charts, Tableau, or Power BI for data visualization and building dashboard
+      * Python, Pandas, Scikit-learn, TensorFlow, and PyTorch for data analysis and machine learning
+      
+      Hardware: 
+      * At least 8 GB of RAM is recommended, a multi-core processor with a clock speed of at least 2.5 GHz and a high-speed network connection is recommended for fast         data transfer between the MongoDB database and other components of the system.
 - Discuss the tools and frameworks that will be used for data visualization and analysis.
 - Provide a flowchart or block diagram of the system architecture.
 

@@ -40,15 +40,15 @@ Customer segmentation enables organisations to more fully comprehend their custo
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
 
 ## Methodology
--Data collection : Gather information on customer preferences, product features with age and gender preferences, and other pertinent information using the data scraping method. 
+- Data collection : Gather information on customer preferences, product features with age and gender preferences, and other pertinent information using the data scraping method. 
 
--Data cleaning and processing : The collected data will be cleaned, filtered, pre-processed to remove duplicate data.
+- Data cleaning and processing : The collected data will be cleaned, filtered, pre-processed to remove duplicate data.
 
--Data analysis : Data analysis utilizing descriptive statistics and exploratory data analysis methods comes after the data have been cleaned. This will make it easier to spot patterns and trends in the information.
+- Data analysis : Data analysis utilizing descriptive statistics and exploratory data analysis methods comes after the data have been cleaned. This will make it easier to spot patterns and trends in the information.
 
--Machine learning algorithms : Based on the gathered data, machine learning algorithms can be utilized to anticipate the customer choice. Hence, can build a model utilizing supervised learning methods like regression or classification.
+- Machine learning algorithms : Based on the gathered data, machine learning algorithms can be utilized to anticipate the customer choice. Hence, can build a model utilizing supervised learning methods like regression or classification.
 
--Data visualization : Use data visualization approaches to illustrate the relationship between product feature patterns, analysis, and machine learning algorithms. Tools like Tableau and Python packages like Matplotlib and Seaborn can be used for this.
+- Data visualization : Use data visualization approaches to illustrate the relationship between product feature patterns, analysis, and machine learning algorithms. Tools like Tableau and Python packages like Matplotlib and Seaborn can be used for this.
 
 
 ## System Architecture
@@ -59,29 +59,29 @@ Customer segmentation enables organisations to more fully comprehend their custo
 
 ## Risks and Limitations
 #### Technical risks:
--Shortage of skills : lack of skills while completing the project 
--Poor quality data : low quality data could impact in the quality of the output at the end of the project
--Collecting meaningful and real-time data: With so much data available, it can be challenging to delve deep and find the insights that are most needed.
+- Shortage of skills : lack of skills while completing the project 
+- Poor quality data : low quality data could impact in the quality of the output at the end of the project
+- Collecting meaningful and real-time data: With so much data available, it can be challenging to delve deep and find the insights that are most needed.
 
 
 #### Financial risks: 
--Cost of cloud computing services and softwares. Extra cost could be expected to subscribe the extra features in the cloud computing services in order to perform the tasks. 
+- Cost of cloud computing services and softwares. Extra cost could be expected to subscribe the extra features in the cloud computing services in order to perform the tasks. 
 
 #### Legal risks:
--Data security : A bigger danger of data breach results from larger big data volumes. The larger the concentration of data, the more attractive it is to hackers, and the more serious the implications of the breach.
--Consumer privacy : the privacy of the data provider and their data should be protected. 
+- Data security : A bigger danger of data breach results from larger big data volumes. The larger the concentration of data, the more attractive it is to hackers, and the more serious the implications of the breach.
+- Consumer privacy : the privacy of the data provider and their data should be protected. 
 
 ### Plan for Mitigating Risks and Limitations: 
 
 #### Technical risks:
--Develop quality skills before and while completing the project. 
--Proper research before selecting dataset and clearly knows what you want kind of data you finding and find from the right place
+- Develop quality skills before and while completing the project. 
+- Proper research before selecting dataset and clearly knows what you want kind of data you finding and find from the right place
 
 #### Financial risks: 
--Provide proper funding for completing th project and have a little bit extra budget than the exact amount of budget as cost of software can rise. 
+- Provide proper funding for completing th project and have a little bit extra budget than the exact amount of budget as cost of software can rise. 
 
 #### Legal risks:
--To reduce the risk of data integrity connected to preserving data assets, security vulnerabilities must be removed. This method of reducing risk requires subject matter -expertise for determining known security vulnerabilities and implementing measures to eliminate them. 
+- To reduce the risk of data integrity connected to preserving data assets, security vulnerabilities must be removed. This method of reducing risk requires subject matter expertise for determining known security vulnerabilities and implementing measures to eliminate them. 
 
 
 

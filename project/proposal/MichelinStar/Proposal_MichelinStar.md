@@ -175,7 +175,6 @@ The resources needs as below:
    - Laptop
 - Software
    - Kaggle
-   - Projectpro.IO
    - Github
    - MangoDB
  

@@ -40,10 +40,15 @@ Customer segmentation enables organisations to more fully comprehend their custo
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
 
 ## Methodology
-#### Technical risks:
--Shortage of skills : lack of skills while completing the project 
+-Data collection : Gather information on customer preferences, product features with age and gender preferences, and other pertinent information using the data scraping method. 
 
+-Data cleaning and processing : The collected data will be cleaned, filtered, pre-processed to remove duplicate data.
 
+-Data analysis : Data analysis utilizing descriptive statistics and exploratory data analysis methods comes after the data have been cleaned. This will make it easier to spot patterns and trends in the information.
+
+-Machine learning algorithms : Based on the gathered data, machine learning algorithms can be utilized to anticipate the customer choice. Hence, can build a model utilizing supervised learning methods like regression or classification.
+
+-Data visualization : Use data visualization approaches to illustrate the relationship between product feature patterns, analysis, and machine learning algorithms. Tools like Tableau and Python packages like Matplotlib and Seaborn can be used for this.
 
 
 ## System Architecture
@@ -53,7 +58,7 @@ Customer segmentation enables organisations to more fully comprehend their custo
 - Provide a flowchart or block diagram of the system architecture.
 
 ## Risks and Limitations
-#### <u>Technical risks:</u>
+#### Technical risks:
 -Shortage of skills : lack of skills while completing the project 
 -Poor quality data : low quality data could impact in the quality of the output at the end of the project
 -Collecting meaningful and real-time data: With so much data available, it can be challenging to delve deep and find the insights that are most needed.
@@ -67,6 +72,7 @@ Customer segmentation enables organisations to more fully comprehend their custo
 -Consumer privacy : the privacy of the data provider and their data should be protected. 
 
 ### Plan for Mitigating Risks and Limitations: 
+
 #### Technical risks:
 -Develop quality skills before and while completing the project. 
 -Proper research before selecting dataset and clearly knows what you want kind of data you finding and find from the right place

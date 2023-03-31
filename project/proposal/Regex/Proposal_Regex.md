@@ -256,7 +256,7 @@ The resources needs as below:
 <table>
   <tr>
     <th>Data sources</th>
-    <td>Extracted data from Shopee Supermarket Malaysia </td>
+    <td>Extracted live monthly data from Shopee Supermarket Malaysia </td>
   </tr>
   <tr>
     <th>Data schema</th>
@@ -344,13 +344,13 @@ gantt
     Data Gathering  :2023-04-02 , 19d
     Data Cleaning  :2023-04-30 , 7d
   
-    section Dashboard Analysis and Modeling
-    Dashboard Analysis            :2023-05-07  , 7d
-    Dashboard Modeling                    :2023-05-14 , 7d
+    section Data Analysis and Modeling
+    Data Analysis            :2023-05-07  , 7d
+    Data Modeling                    :2023-05-14 , 7d
   
-    section Data Design and Development
-    Data Design               :2023-05-21 , 7d
-    Data Development       :2023-05-28 , 14d
+    section Dashboard Design and Development
+    Dashboard Design               :2023-05-21 , 7d
+    Dashboard Development       :2023-05-28 , 14d
  
     section Testing and Debugging
     Live Testing                :2023-06-11 , 2d
@@ -365,21 +365,17 @@ gantt
 
   - WEEK 1 - 4 : `Data Gathering and Cleaning`
 
-  > - Gather product data through web scraping process and store the data in MongoDB.
+  > - Gather product data and store the data in MongoDB.
   > - Clean the data to remove any inconsistencies or anomalies.
   
-- WEEK 5 - 6 : `Dashboard Analysis and Modeling`
+- WEEK 5 - 6 : `Data Analysis and Modeling`
 
-  > - Analysis
+  > - Perform data Analysis
   > - Modeling
   
-- WEEK 7 - 10 : ` Data Design and Development`
+- WEEK 7 - 10 : ` Dashboard Design and Development`
 
   > Design.
-  
-- WEEK 11 : `Integration with E-Commerce Platform`
-
-  > Integration with E-Commerce Platform
   
 - WEEK 12 - 14 : `Testing and Debugging`
 

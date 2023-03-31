@@ -275,7 +275,7 @@ b) Anonymize the data by removing personal information, and ensure that all data
    - Computer/Laptop
    
 - **Software**
-   - Python and libraries like Tweepy, Pandas, NLTK, Matplotlib
+   - Python and libraries like Tweepy, Pandas, PyMongo, NLTK, Matplotlib
    - MongoDB
    - Visual Studio Code
    - Tableau / Power BI
@@ -323,7 +323,7 @@ b) Anonymize the data by removing personal information, and ensure that all data
   </tr>
   <tr>
     <th align= "left">Libraries</th>
-    <td>Tweepy, Numpy, Pandas, NLTK, Matplotlib, Seaborn, WordCloud</td>
+    <td>Tweepy, Numpy, Pandas, PyMongo, NLTK, Matplotlib, Seaborn, WordCloud</td>
   </tr>
   <tr>
     <th align= "left">Hardware & software requirements</th>
@@ -331,8 +331,8 @@ b) Anonymize the data by removing personal information, and ensure that all data
       <ul>
         <li>Processor: 2 GHz or more</li>
         <li>Memory: 8 GB or more</li>
-        <li>Hard disk: 500 GB or more</li>
-        <li>Ethernet connection (LAN) OR a wireless adapter (Wi-Fi)</li>
+        <li>Storage: 10 GB or more free disk space</li>
+        <li>Ethernet connection (LAN) or wireless adapter (Wi-Fi)</li>
         <li>Windows, MacOS or Linux operating system with all the mentioned softwares, programming languages, frameworks and libraries installed including Python 3.8 or higher, and MongoDB</li>
       </ul>
     </td>

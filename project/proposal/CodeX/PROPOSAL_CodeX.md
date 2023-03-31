@@ -43,16 +43,18 @@ As a result of its success, the Netflix recommendation system has become a bench
 7) Improve operational efficiency: A data-driven project may aim to improve operational efficiency by automating tasks, reducing manual intervention, and streamlining processes. For example, in a manufacturing industry, the goal may be to optimize production processes and reduce waste by using predictive maintenance techniques.
 
 ## 4. Scope
-- This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
-- The scope of this project is to develop AI 
-- 
+- The scope of this project is to create Netflix recommedation engine based on few factors. These factors will create personalized recommendation.
+- This project requires dataset scraped from Netflix websites using Phyton.
+- The main tool will be used in this project is MongoDB to store Netflix viewing history , Netflix search queries , user ratings and reviews and Netflix content    metadata.
+- Matplotlib, Seaborn and Tableau will be used to create visualizations of the recommendation system's performance.
+
 
 ## 5. Methodology
 | Components | Description |
 |--|--|
 | Data Collection | collect data from sources such as Netflix Recommendation Algorithm (NRA). This data will be used to train the reccomendation model  |
 | Data Cleaning| clean the collected data to removed irrelevant data or incomplete data such as null in user watching video period. |
-| Data Transforming| Transform the cleaned data into format(____) used by MongoDB |
+| Data Transforming| Transform the cleaned data used by MongoDB |
 | Data Loading| Load transformed data into MongoDB collections |
 | Model Training | Trains the recommendatiob model using machne learning algorithm based on data collected in steps 1 |
 | Reccomendation Generator | Generate recommendations for users based on their previous interaction with the system. |
@@ -291,11 +293,18 @@ Deliverables and Resources
   > - `Resources` : HTML, CSS, Javascript
 - Deployment and Testing
   > - `Deliverables` : A deployed recommendation system and testing results
-  > - `Resources` : User feedback mechanism
 - Maintenance
   > - `Deliverables` : Performance monitoring and user feedback analysis
-  > - `Resources` : User feedback mechanism
 
+Quality Assurance and Testing Procedures
+
+1. Quality Assurance
+  - Validate the data used by the recommendation system. The data should be accurate, up-to-date, and relevant to the user.
+  - Collect feedback from users. The system can ask the users to rate the recommendations they receive and use the feedback to enhance the system.
+2. Testing Procedures
+  - Functional testing verifying that the system is working as intended that includes the system's ability to produce recommendations based on user history, preference and ratings.
+  - Performance testing verifying that the system able to handle a high volume of requests and provide recommendations in a timely manner.
+  - User Acceptance testing is to test the system with the actual users to verify that the system is providing relevant recommendations that meet their needs.
 
 ## 12. Conclusion
 In conclusion, the proposed system will provide shows/movies reccomendation based on user's favourite genre, director, actors, and many more. Users will be able to create content-based filtering to provide personalised reccomendation. However, the recommendation system is not perfect, and there have been cases where users have reported getting irrelevant or inappropriate recommendations. This can be due to various factors, such as limited data or biases in the algorithm. While there is still room for improvement, the system will be a game-changer in the entertainment industry and will help to shape the way we consume media today.

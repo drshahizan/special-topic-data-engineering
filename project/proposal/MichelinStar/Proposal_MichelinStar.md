@@ -1,5 +1,5 @@
 <h1 align='center'> 
-  Predictive analytics in improving patient outcomes and reducing healthcare costs 
+  Heart Disease Prediction Using Machine Learning
  </h1>
 <p align='center'>
   <img height='400px' width='400px' src='https://github.com/TanYongSheng728/TanYongSheng728/blob/main/medicine.gif'/>
@@ -21,54 +21,56 @@
 
 ## 📄 Executive Summary
 
-From year to year, the more and more disease have been discovered and spread across the world. Some of the diseases are non-communicable causes by bad habits from new generation. The amount of patient suffereing from the disease have been increasing drastically but due to financial status most of them not able to affort expensive healthcare treatment. This have becoming the main focus from government to tackle this problem. 
+From year to year, the more and more disease have been discovered and spread across the world. Some of the diseases are non-communicable causes by bad habits from new generation. The amount of patient suffereing from the disease have been increasing drastically but due to financial status most of them not able to affort expensive healthcare treatment. Early detection and prevention are crucial to reduce the morbidity and mortality associated with the disease.
 
-Therefore, this proposal outlines the benefits of incorporating predictive analytics into healthcare analytics platforms for improving patient outcomes and reducing healthcare costs. By leveraging predictive analytics, healthcare organizations can anticipate patient needs, prevent adverse events, and optimize resource utilization, resulting in better patient outcomes and reduced cost.
+Therefore, this proposal outlines the development of a heart disease prediction model using machine learning techniques. The model will analyze patient data to predict the likelihood of developing heart disease and will enable healthcare providers to take proactive measures to prevent the disease. By leveraging predictive analytics, healthcare organizations can anticipate patient needs, prevent adverse events, and optimize resource utilization, resulting in better patient outcomes and reduced cost.
 
 
 ## 🌎 Background
 
-Healthcare is a data-intensive industry, generating vast amounts of data on patients, clinical procedures, and operations. However, this data is often siloed and underutilized, resulting in missed opportunities for improving patient care and reducing healthcare costs. The emergence of healthcare analytics platforms has provided a solution to this problem by enabling healthcare organizations to collect, store, analyze, and derive insights from their data.
+Heart disease, also known as cardiovascular disease, refers to a group of conditions that affect the heart and blood vessels. It is a leading cause of death worldwide, accounting for approximately 17.9 million deaths each year. Heart disease is caused by various factors such as smoking, high blood pressure, high cholesterol, obesity, diabetes, and a sedentary lifestyle.
 
-Healthcare analytics platforms use various analytical techniques to derive insights from data, including descriptive analytics, diagnostic analytics, prescriptive analytics, and predictive analytics. Descriptive analytics involves summarizing past data to understand what happened, while diagnostic analytics involves analyzing past data to determine why something happened. Prescriptive analytics involves recommending actions based on past data, while predictive analytics involves forecasting future outcomes based on past data.
+Detecting heart disease early is crucial for improving patient outcomes and reducing the risk of complications such as heart attack and stroke. Traditional risk assessment tools such as the Framingham Risk Score and the ASCVD risk estimator use patient data such as age, gender, blood pressure, cholesterol levels, and smoking status to estimate the risk of developing heart disease. However, these tools have limited accuracy, and many patients with heart disease are not identified until they experience symptoms.
 
-Predictive analytics, in particular, is gaining prominence in healthcare analytics platforms as it can help healthcare organizations anticipate patient needs, prevent adverse events, and optimize resource utilization. For example, predictive analytics can be used to identify patients at risk of readmission or adverse events and provide timely interventions to prevent such events. It can also be used to optimize resource utilization by predicting patient demand and resource needs, enabling healthcare organizations to allocate resources efficiently.
+Machine learning techniques offer a promising approach to predicting heart disease risk by analyzing patient data to identify patterns and relationships. By leveraging the power of machine learning algorithms, it is possible to develop predictive models that can accurately identify patients at risk of developing heart disease.
 
-The benefits of predictive analytics in healthcare are well-documented, with several studies demonstrating its potential to improve patient outcomes and reduce healthcare costs. For example, a study conducted by the University of Chicago Medicine found that a predictive model for sepsis reduced the rate of sepsis-related deaths by 53% and reduced hospital length of stay by 4.4 days. Another study by the Mayo Clinic found that a predictive model for hospital readmissions reduced readmissions by 10%.
+In recent years, there has been a growing interest in using machine learning for heart disease prediction. Researchers have developed various machine learning models to predict heart disease risk using patient data such as electronic health records, medical imaging, and genetic data. These models have shown promising results, outperforming traditional risk assessment tools and improving patient outcomes.
 
-Given the potential benefits of predictive analytics in healthcare, there is a growing need for healthcare organizations to adopt predictive analytics platforms. However, implementing predictive analytics in healthcare is not without its challenges, including data privacy and security concerns, technical complexity, and the need for skilled resources to develop and maintain the platform. Nevertheless, with the right strategy and approach, healthcare organizations can overcome these challenges and unlock the full potential of predictive analytics in healthcare.
-
+Therefore, the proposed heart disease prediction using machine learning project aims to develop an accurate prediction model that can enable healthcare providers to identify patients at risk of developing heart disease, take proactive measures to prevent the disease, and improve patient outcomes.
 
 ## 🎯 Goals and Objectives
 
-The goal of the healthcare analytics platform is to improve patient outcomes, reduce healthcare costs, and optimize resource utilization through predictive analytics. To achieve this goal, the platform will have the following objectives:
+The goal of the heart disease prediction platform is to improve patient outcomes, reduce healthcare costs, and optimize resource utilization through predictive analytics. To achieve this goal, the platform will have the following objectives:
 
-- To collect and integrate healthcare data.
+- To collect and preprocess patient data such as medical history, demographics, lab results, and other relevant variables.
 - Develop predictive models using advanced analytics techniques.
-- Provide actionable insights customized to the needs of healthcare providers.
-- To Support clinical decision-making with real-time clinical decision support.
+- To develop a user-friendly web-based interface for healthcare providers to input patient data and obtain heart disease risk predictions.
+- To identify the most important predictors of heart disease risk using feature selection techniques.
 - Monitor and evaluate platform performance to continuously improve outcomes.
 
-By achieving these objectives, the healthcare analytics platform will improve patient outcomes, reduce healthcare costs, and optimize resource utilization. The platform will enable healthcare providers to make informed decisions about patient care and resource allocation and will help healthcare organizations to achieve their strategic goals.
+Overall, the goals and objectives of this proposal are aimed at developing a reliable and accurate machine learning-based heart disease prediction system. The platform will enable healthcare providers to make informed decisions about patient care and resource allocation and will help healthcare organizations to achieve their strategic goals.
   
 
 ## 🔭 Scope
 
 This project will develop an healthcare analytics platform that will leverage predictive analytics and machine learning to provide actionable insights and identify opportunities for cost savings.
-- The data that will be used in this project is collected from <a href="https://www.google.com/">Unknown</a>.
+- The data that will be used in this project is collected from <a href="https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset?resource=download">Kaggle - Framingham heart study dataset</a>.
 
-- To ensure a comprehensive and reliable data set, we will utilize web scraping methods to streamline the process of data collection from numerous online sources, and ultimately yield insights on patient outcomes and healthcare costs.
+- To ensure a comprehensive and reliable data set, we will utilize data collection methods to streamline the process of data collection from numerous online sources, and ultimately yield insights on patient outcomes and healthcare costs.
 
 - MongoDB represents the future of data storage in the healthcare industry, and its importance in this project cannot be overstated. By leveraging this cutting-edge platform, we can effectively manage and store complex data sets, and extract meaningful insights to drive better health outcomes and increased cost-efficiency.
 
 ## 🔍 Methodology
 
-- Explain the methodology and the techniques that will be used in the project. Provide a detailed methodology that outlines how the proposed data science project will be executed, including data collection and cleaning, data analysis, machine learning algorithms, and data visualization techniques.
+- Data Collection: The first step in the project is to collect relevant healthcare data. This can include electronic health records (EHRs), medical claims data, and other relevant sources. The data will be collected in a secure manner, and all relevant privacy regulations will be adhered to.
 
-- Explain how the data will be collected and processed.
+- Data Cleaning: Once the data is collected, it needs to be cleaned and preprocessed. This involves removing irrelevant data, handling missing data, and resolving any inconsistencies. The data will also be transformed into a format suitable for analysis.
 
-- Discuss the software and hardware resources that will be required for the project.
+- Data Analysis: The cleaned data will be analyzed to identify patterns and trends. This can be done using descriptive statistics and data visualization techniques. Exploratory data analysis (EDA) will be performed to gain an understanding of the data and identify potential outliers and anomalies.
 
+- Machine Learning Algorithms: Once the data has been analyzed, machine learning algorithms will be used to build predictive models. This can include supervised and unsupervised learning techniques such as regression analysis, decision trees, and clustering algorithms. The models will be trained and tested using the available data.
+
+- Data Visualization: Finally, the results of the analysis and machine learning models will be visualized using various techniques, including graphs, charts, and dashboards. This will allow stakeholders to easily understand and interpret the results.
   
 
 ## 🔧 System Architecture
@@ -81,15 +83,49 @@ This project will develop an healthcare analytics platform that will leverage pr
 
 - Provide a flowchart or block diagram of the system architecture.
 
+<b>Overview of system architecture</b><br>
+<table>
+<tr>
+  <td><b>1. Data Collection</b></td>
+  <td>Collect the healthcare data from Kaggle and download them in csv format. </td>
+</tr>
+<tr>
+  <td><b>2. Data storage</b></td>
+  <td>Upload the collected data to the </td>
+</tr>
+</table>
+
   
 
 ## 📊 Risks and Limitations
 
-- Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks.
+Here are some potential risks and limitations associated with heart disease prediction platform project:
 
-- Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
+**1. Technical Risk**
 
-  
+`Data quality and accuracy:` The data collection process cannot ensure the quality of the data as there may be problems with the data's quality. The quality of the outcomes may be impacted by the data's potential for being erroneous, inconsistent, or incomplete.
+
+`Data bias and ethical considerations:` Heart disease prediction platforms can suffer from bias due to the use of historical data that may reflect past biases or systematic inequalities, which can lead to unfair outcomes and potential harm to patients. Ethical considerations must be taken into account to ensure that the use of patient data is transparent, fair, and respectful of patients' rights and privacy.
+
+`Integration and interoperability:` Integration of various data sources, systems, and applications can be complex and challenging, resulting in interoperability issues, data inconsistencies, and difficulty in data analysis and reporting.
+
+**2. Financial Risk**
+
+`Cost:` Heart disease prediction platforms require ongoing maintenance, updates, and support, which can result in significant ongoing costs that must be factored into the project budget and it can require significant upfront investment, including the cost of hardware, software, and personnel resources.
+
+`Regulatory changes and uncertainty:` Healthcare regulations and policies are constantly evolving, which can create uncertainty around the financial viability of healthcare analytics platforms that may be impacted by these changes. Therefore, the return on investment (ROI) for healthcare analytics platforms can be difficult to predict, and there may be uncertainty around the financial benefits that the platform can deliver.
+
+**3. Legal Risk**
+
+`Data ownership and licensing:` The ownership and licensing of healthcare data can be complex, which can create financial risks related to the use, access, and storage of this data. Failure to properly manage data ownership and licensing can result in financial penalties and legal issues.
+
+`Regulatory compliance:` Healthcare analytics platforms must comply with various legal and regulatory requirements such as HIPAA, GDPR, and data protection laws, failure to comply with these regulations can result in penalties, fines, and legal actions.
+
+**4. Other Risk**
+
+`Lack of standardization:` Heart disease data can be fragmented and inconsistent, with different data formats, terminologies, and coding systems used across different healthcare providers and organizations. This lack of standardization can create challenges for healthcare analytics platforms in integrating and analyzing data effectively.
+
+`Cultural and organizational challenges:` Cultural and organizational challenges can impact the success of healthcare analytics platforms, including lack of communication, siloed data, and misaligned incentives between different stakeholders. Addressing these challenges can require significant organizational change and buy-in from key stakeholders.
 
 ## 🔑 Deliverables and Milestones
 
@@ -110,10 +146,13 @@ The resources needs as below:
    - Project Manager:
 
 - Equipment
-   - Computer/Laptop
-   -
+   - Computer
+   - Laptop
 - Software
-   
+   - Kaggle
+   - Projectpro.IO
+   - Github
+
 - Other expenses
    
 
@@ -161,7 +200,7 @@ The resources needs as below:
 - Specify the deliverables that will be provided at each milestone. It should also specify the expected time frame for each deliverable and the resources that will be required to complete the project.
 
 - Explain the quality assurance and testing procedures that will be followed.
-
+![Timeline](https://user-images.githubusercontent.com/120614501/229098758-412eed0b-661c-4b20-8603-63a36570ac1c.png)
   
 
 ## 🎓 Conclusion

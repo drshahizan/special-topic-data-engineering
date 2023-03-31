@@ -56,7 +56,7 @@ Overall, the goals and objectives of this proposal are aimed at developing a rel
 This project will develop an healthcare analytics platform that will leverage predictive analytics and machine learning to provide actionable insights and identify opportunities for cost savings.
 - The data that will be used in this project is collected from <a href="https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset?resource=download">Kaggle - Framingham heart study dataset</a>.
 
-- To ensure a comprehensive and reliable data set, we will utilize web scraping methods to streamline the process of data collection from numerous online sources, and ultimately yield insights on patient outcomes and healthcare costs.
+- To ensure a comprehensive and reliable data set, we will utilize data collection methods to streamline the process of data collection from numerous online sources, and ultimately yield insights on patient outcomes and healthcare costs.
 
 - MongoDB represents the future of data storage in the healthcare industry, and its importance in this project cannot be overstated. By leveraging this cutting-edge platform, we can effectively manage and store complex data sets, and extract meaningful insights to drive better health outcomes and increased cost-efficiency.
 

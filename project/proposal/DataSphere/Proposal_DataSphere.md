@@ -40,6 +40,7 @@ Customer segmentation enables organisations to more fully comprehend their custo
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
 
 ## Methodology
+#### Technical risks:
 
 
 

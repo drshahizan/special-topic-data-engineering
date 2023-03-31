@@ -419,27 +419,26 @@ gantt
   ```
   </div>
 
-  - WEEK 1 - 4 : `Data Gathering and Cleaning`
-
+- WEEK 3 - 7 : `Data Gathering and Cleaning`
   > - Gather product data and store the data in MongoDB.
   > - Clean the data to remove any inconsistencies or anomalies.
   
-- WEEK 5 - 6 : `Data Analysis and Modeling`
+- WEEK 8 - 9 : `Data Analysis and Modeling`
 
-  > - Perform data Analysis
-  > - Modeling
+  > - Perform EDA and data modeling to discover the market trend.
+    
+- WEEK 10 - 12 : ` Dashboard Design and Development`
+
+  > - Design and development the dashboard to visualize the product summary in Shopee.
   
-- WEEK 7 - 10 : ` Dashboard Design and Development`
+- WEEK 13 : `Testing and Debugging`
 
-  > Design.
-  
-- WEEK 12 - 14 : `Testing and Debugging`
+  > - Test the dashboard whether it can working properly or not and ensure that it is ready to be used.
+  > - Identify errors and remove those errors if there exist.
 
-  > Testing and Debugging.
+- WEEK 14 : `Dashboard deployed and live`
 
-- WEEK 12 - 14 : `Dashboard deployed and live`
-
-  > Dashboard deployed and live.
+  > - Deploy dashboard and make it live where it should change constantly according to the incoming(live) data monthly.
 
 ## 🎓Conclusion
 

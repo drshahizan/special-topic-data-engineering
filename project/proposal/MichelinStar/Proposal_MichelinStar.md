@@ -1,5 +1,5 @@
 <h1 align='center'> 
-  Predictive analytics in improving patient outcomes and reducing healthcare costs 
+  Heart Disease Prediction Using Machine Learning
  </h1>
 <p align='center'>
   <img height='400px' width='400px' src='https://github.com/TanYongSheng728/TanYongSheng728/blob/main/medicine.gif'/>
@@ -21,41 +21,40 @@
 
 ## 📄 Executive Summary
 
-From year to year, the more and more disease have been discovered and spread across the world. Some of the diseases are non-communicable causes by bad habits from new generation. The amount of patient suffereing from the disease have been increasing drastically but due to financial status most of them not able to affort expensive healthcare treatment. This have becoming the main focus from government to tackle this problem. 
+From year to year, the more and more disease have been discovered and spread across the world. Some of the diseases are non-communicable causes by bad habits from new generation. The amount of patient suffereing from the disease have been increasing drastically but due to financial status most of them not able to affort expensive healthcare treatment. Early detection and prevention are crucial to reduce the morbidity and mortality associated with the disease.
 
-Therefore, this proposal outlines the benefits of incorporating predictive analytics into healthcare analytics platforms for improving patient outcomes and reducing healthcare costs. By leveraging predictive analytics, healthcare organizations can anticipate patient needs, prevent adverse events, and optimize resource utilization, resulting in better patient outcomes and reduced cost.
+Therefore, this proposal outlines the development of a heart disease prediction model using machine learning techniques. The model will analyze patient data to predict the likelihood of developing heart disease and will enable healthcare providers to take proactive measures to prevent the disease. By leveraging predictive analytics, healthcare organizations can anticipate patient needs, prevent adverse events, and optimize resource utilization, resulting in better patient outcomes and reduced cost.
 
 
 ## 🌎 Background
 
-Healthcare is a data-intensive industry, generating vast amounts of data on patients, clinical procedures, and operations. However, this data is often siloed and underutilized, resulting in missed opportunities for improving patient care and reducing healthcare costs. The emergence of healthcare analytics platforms has provided a solution to this problem by enabling healthcare organizations to collect, store, analyze, and derive insights from their data.
+Heart disease, also known as cardiovascular disease, refers to a group of conditions that affect the heart and blood vessels. It is a leading cause of death worldwide, accounting for approximately 17.9 million deaths each year. Heart disease is caused by various factors such as smoking, high blood pressure, high cholesterol, obesity, diabetes, and a sedentary lifestyle.
 
-Healthcare analytics platforms use various analytical techniques to derive insights from data, including descriptive analytics, diagnostic analytics, prescriptive analytics, and predictive analytics. Descriptive analytics involves summarizing past data to understand what happened, while diagnostic analytics involves analyzing past data to determine why something happened. Prescriptive analytics involves recommending actions based on past data, while predictive analytics involves forecasting future outcomes based on past data.
+Detecting heart disease early is crucial for improving patient outcomes and reducing the risk of complications such as heart attack and stroke. Traditional risk assessment tools such as the Framingham Risk Score and the ASCVD risk estimator use patient data such as age, gender, blood pressure, cholesterol levels, and smoking status to estimate the risk of developing heart disease. However, these tools have limited accuracy, and many patients with heart disease are not identified until they experience symptoms.
 
-Predictive analytics, in particular, is gaining prominence in healthcare analytics platforms as it can help healthcare organizations anticipate patient needs, prevent adverse events, and optimize resource utilization. For example, predictive analytics can be used to identify patients at risk of readmission or adverse events and provide timely interventions to prevent such events. It can also be used to optimize resource utilization by predicting patient demand and resource needs, enabling healthcare organizations to allocate resources efficiently.
+Machine learning techniques offer a promising approach to predicting heart disease risk by analyzing patient data to identify patterns and relationships. By leveraging the power of machine learning algorithms, it is possible to develop predictive models that can accurately identify patients at risk of developing heart disease.
 
-The benefits of predictive analytics in healthcare are well-documented, with several studies demonstrating its potential to improve patient outcomes and reduce healthcare costs. For example, a study conducted by the University of Chicago Medicine found that a predictive model for sepsis reduced the rate of sepsis-related deaths by 53% and reduced hospital length of stay by 4.4 days. Another study by the Mayo Clinic found that a predictive model for hospital readmissions reduced readmissions by 10%.
+In recent years, there has been a growing interest in using machine learning for heart disease prediction. Researchers have developed various machine learning models to predict heart disease risk using patient data such as electronic health records, medical imaging, and genetic data. These models have shown promising results, outperforming traditional risk assessment tools and improving patient outcomes.
 
-Given the potential benefits of predictive analytics in healthcare, there is a growing need for healthcare organizations to adopt predictive analytics platforms. However, implementing predictive analytics in healthcare is not without its challenges, including data privacy and security concerns, technical complexity, and the need for skilled resources to develop and maintain the platform. Nevertheless, with the right strategy and approach, healthcare organizations can overcome these challenges and unlock the full potential of predictive analytics in healthcare.
-
+Therefore, the proposed heart disease prediction using machine learning project aims to develop an accurate prediction model that can enable healthcare providers to identify patients at risk of developing heart disease, take proactive measures to prevent the disease, and improve patient outcomes.
 
 ## 🎯 Goals and Objectives
 
-The goal of the healthcare analytics platform is to improve patient outcomes, reduce healthcare costs, and optimize resource utilization through predictive analytics. To achieve this goal, the platform will have the following objectives:
+The goal of the heart disease prediction platform is to improve patient outcomes, reduce healthcare costs, and optimize resource utilization through predictive analytics. To achieve this goal, the platform will have the following objectives:
 
-- To collect and integrate healthcare data.
+- To collect and preprocess patient data such as medical history, demographics, lab results, and other relevant variables.
 - Develop predictive models using advanced analytics techniques.
-- Provide actionable insights customized to the needs of healthcare providers.
-- To Support clinical decision-making with real-time clinical decision support.
+- To develop a user-friendly web-based interface for healthcare providers to input patient data and obtain heart disease risk predictions.
+- To identify the most important predictors of heart disease risk using feature selection techniques.
 - Monitor and evaluate platform performance to continuously improve outcomes.
 
-By achieving these objectives, the healthcare analytics platform will improve patient outcomes, reduce healthcare costs, and optimize resource utilization. The platform will enable healthcare providers to make informed decisions about patient care and resource allocation and will help healthcare organizations to achieve their strategic goals.
+Overall, the goals and objectives of this proposal are aimed at developing a reliable and accurate machine learning-based heart disease prediction system. The platform will enable healthcare providers to make informed decisions about patient care and resource allocation and will help healthcare organizations to achieve their strategic goals.
   
 
 ## 🔭 Scope
 
 This project will develop an healthcare analytics platform that will leverage predictive analytics and machine learning to provide actionable insights and identify opportunities for cost savings.
-- The data that will be used in this project is collected from <a href="https://www.google.com/">Unknown</a>.
+- The data that will be used in this project is collected from <a href="https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset?resource=download">Kaggle - Framingham heart study dataset</a>.
 
 - To ensure a comprehensive and reliable data set, we will utilize web scraping methods to streamline the process of data collection from numerous online sources, and ultimately yield insights on patient outcomes and healthcare costs.
 

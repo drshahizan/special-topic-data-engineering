@@ -37,7 +37,7 @@ data engineering, database systems and technologies. Various topics of interests
 
 
 
-## Student Information
+## [Student Information](./materials/student.md)
 
 | No | Name | ID |  Github | 
 | ----- | ----- | ------ | :------: | 

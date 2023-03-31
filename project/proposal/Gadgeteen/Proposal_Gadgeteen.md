@@ -80,13 +80,21 @@ The project will follow the Agile methodology, with sprints of 10-12 weeks, and 
 1. Data Collection: The project will collect Twitter data using the Twitter API, which provides access to a sample of the real-time Twitter stream. The collected data will include tweets that mention "ChatGpt" and related hashtags, keywords, and phrases.
 
 2. Data Pre-processing: The collected data will be pre-processed to remove noise, such as irrelevant tweets and spam, and to extract relevant information, such as the user's sentiment towards ChatGpt. The pre-processing steps will include:
+
   •	Removing duplicate tweets
+  
   •	Removing retweets
+  
   •	Removing tweets that are not in English
+  
   •	Tokenizing the text and removing stop words
+  
   •	Applying stemming or lemmatization to reduce the text to its base form
+  
   •	Applying part-of-speech tagging to identify noun phrases and named entities
+  
   •	Filtering the text to remove mentions, URLs, and other irrelevant information
+  
   •	Applying sentiment analysis to determine the polarity of the tweets
 
 3. Sentiment Analysis: The project will perform sentiment analysis on the pre-processed data to determine the polarity of the tweets, i.e., positive, negative, or neutral sentiment. The sentiment analysis will be performed using a machine learning model, such as a Naive Bayes or Support Vector Machine (SVM) classifier, trained on a labelled dataset of tweets.
@@ -105,17 +113,17 @@ All in all, the methodology of the project is to collect and pre-process Twitter
 
 **Tools and Technologies:**
 
-Python: As the main programming language.
+- **Python**: As the main programming language.
 
-Tweepy: To connect to Twitter's API.
+- **Tweepy**: To connect to Twitter's API.
 
-Pandas: For data manipulation and preprocessing.
+- **Pandas**: For data manipulation and preprocessing.
 
-MongoDB: To store the collected data.
+- **MongoDB**: To store the collected data.
 
-NLTK: For sentiment analysis.
+- **NLTK**: For sentiment analysis.
 
-Power BI: For data visualization and analysis.
+- **Power BI**: For data visualization and analysis.
 
 
 **Data Storage and Management:**
@@ -131,7 +139,7 @@ Power BI: For data visualization and analysis.
   </tr>
   <tr>
     <td>Processor</td>
-    <td>Intel Core i7 or equivalent</td>
+    <td>2 GHz or more</td>
   </tr>
    <tr>
       <td>RAM</td>

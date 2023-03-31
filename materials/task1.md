@@ -15,7 +15,6 @@ Task 1 requires you to create supplementary notes for one module, based on the p
 1. To create a record of your group and the desired module, please input the relevant information into this [Google Sheets](https://docs.google.com/spreadsheets/d/16eKnUHr0a1FUC2fl7ja2W5FrzwHZN1us-GK4_jhvZD8/edit?usp=sharing) file. You are required to provide the group name and the name of the module you wish to create in the designated fields.This task should be completed in a group of four students.
 2. Save the file in the [notes](./notes) folder and name it `modX.md`, where `X` refers to the module number.
 3. Use only markdown files and you can utilize tools like https://stackedit.io/ or Visual Studio Code to create the notes.
-4. Ensure that the additional notes are completed before the topic is taught.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

@@ -70,23 +70,24 @@ This project will be using various research methods to achieve our main objectiv
 | Interpretation | Use the insights gained from the analysis to improve your fraud prevention strategies, such as adding additional security measures or updating your fraud detection rules.
 
 ## :hammer_and_wrench: System Architecture:
-- Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
-- Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
 
-3. Software and Hardware Requirements: 
- 
-   The software and hardware required for building a fraud detection dashboard using MongoDB depends on the size and complexity of the data to be processed:
+The system architecture consists of several components that work together to process and visualize data stored in a MongoDB database:
 
-      Software:
-      * MongoDB Server
-      * MongoDB Compass or MongoDB Shell for interacting with the database
-      * MongoDB Charts, Tableau, or Power BI for data visualization and building dashboard
-      * Python, Pandas, Scikit-learn, TensorFlow, and PyTorch for data analysis and machine learning
-      
-      Hardware: 
-      * At least 8 GB of RAM is recommended, a multi-core processor with a clock speed of at least 2.5 GHz and a high-speed network connection is recommended for fast         data transfer between the MongoDB database and other components of the system.
-- Discuss the tools and frameworks that will be used for data visualization and analysis.
-- Provide a flowchart or block diagram of the system architecture.
+![system architecture](architecture.jpg)
+
+
+1. MongoDB Database: This component serves as the primary data storage for the system. The database will contain the original dataset uploaded from Kaggle, as well as any new incoming synthetic data that is processed using TensorFlow.
+
+2. TensorFlow: This component will be used to process new incoming synthetic data, label it, and prepare it for entry into the MongoDB database. TensorFlow will be used to build and train a machine learning model on the original dataset, which will then be used to label new incoming data.
+
+3. Python Script: This component will be used to connect to the MongoDB database, generate synthetic transactional data using the Faker Python library, process it using TensorFlow, and enter the labeled data back into the database.
+
+4. MongoDB Charts: This component will be used to produce a dashboard that visualizes the data stored in the MongoDB database. The dashboard will display metrics and insights derived from the data, and will be updated in real-time as new data is added to the database.
+
+5. Web Application: This component will be used to embed the MongoDB Charts dashboard and make it available to end-users. The website will provide a user-friendly interface for interacting with the dashboard and exploring the data stored in the MongoDB database.
+
+Overall, this system architecture leverages the power of machine learning and MongoDB to process and visualize data in real-time. By using TensorFlow to label incoming synthetic data, the system can generate new insights and metrics that can be used to improve business processes and decision-making. The MongoDB Charts dashboard provides a convenient and user-friendly way to explore this data, making it accessible to a wide range of management levels.
+
 
 ## :pushpin: Risks and Limitations:
 

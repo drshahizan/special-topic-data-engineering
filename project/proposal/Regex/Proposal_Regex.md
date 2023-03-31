@@ -250,23 +250,27 @@ The resources needs as below:
 
 - Staff
 
-   - Data Scientist: 
+   - Data Scientist
 
-   - Data Engineer:
+   - Data Engineer
+ 
+   - Database Administrator
 
-   - Project Manager:
+   - Project Manager
+ 
+   - UX/UI Designer
 
 - Equipment
    - Computer/Laptop
  
 - Software
-   - Shopee API 
+   - python and libraries
    - MongoDB
    - Django/Visual Studio Code
    - Power BI
   
 - Other expenses
-  - The cost of the software
+  - Software cost (if needed)
 
 ## 📱Technical Specifications
 

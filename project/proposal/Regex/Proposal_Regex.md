@@ -95,6 +95,30 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 
 - Provide a flowchart or block diagram of the system architecture.
 
+**Proposed system architecture for the Shopee Supermarket Sales Performance Dashboard:**
+1. Data Sources: to provide raw data for analysis. The data sources will include the following:
+  -Shopee Supermarket transactional data: This will include data on sales transactions, product details, category details, and customer details.
+  -Shopee Supermarket inventory data: This will include data on product availability, pricing, and promotions.
+  -Shopee Supermarket customer data: This will include data on customer demographics, buying patterns, and preferences.
+  
+2. Data Storage: storing the prepared data in a data warehouse or a data lake. This data will be stored in a format that is optimized for fast querying and analysis.
+
+4. Data Processing and Analysis: Once the data is collected and stored, it needs to be preprocessed and transformed into a format that can be analyzed. This involves data cleaning, normalization, transformation, etc. Various analytics tools to analyze the data stored in the data warehouse. The data analysis will include the following:
+  -Descriptive analytics: This will involve analyzing historical data to identify trends, patterns, and anomalies in sales performance.
+  -Diagnostic analytics: This will involve identifying the factors contributing to sales performance, such as product availability, pricing, promotions, and customer preferences.
+  -Predictive analytics will involve using machine learning algorithms to predict future sales performance based on historical data and other factors.
+  -Prescriptive analytics: This will involve recommending actions to optimize sales performance, such as adjusting pricing, promotions, and product availability.
+
+5. Data Visualization: present the results of the data analysis in a user-friendly format. The data visualization will include the following:
+  -Dashboards: This will provide a high-level view of sales performance, such as overall sales, top-performing products and categories, and seasonal trends.
+  -Reports: This will provide a detailed sales performance analysis, such as sales by product, category, and region.
+  -Charts and graphs: This will provide visual representations of the data, such as line charts, bar charts, and pie charts.
+
+6. User Interface: provide an interactive platform for users to access the data visualization and make informed decisions. The user interface will be designed to be user-friendly and intuitive, with features such as filters, search, and drill-down capabilities.
+
+7. Security and Privacy: To ensure the confidentiality, integrity, and availability of the data. This will include access controls, data encryption, and regular backups.
+
+
 <table align=center>
   <tr>
     <th>Components</th>

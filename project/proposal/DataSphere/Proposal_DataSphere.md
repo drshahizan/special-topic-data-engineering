@@ -53,7 +53,7 @@ Customer segmentation enables organisations to more fully comprehend their custo
 - Provide a flowchart or block diagram of the system architecture.
 
 ## Risks and Limitations
-#### Technical risks:
+#### <u>Technical risks:</u>
 -Shortage of skills : lack of skills while completing the project 
 -Poor quality data : low quality data could impact in the quality of the output at the end of the project
 -Collecting meaningful and real-time data: With so much data available, it can be challenging to delve deep and find the insights that are most needed.

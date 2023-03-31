@@ -129,9 +129,34 @@ Here are some potential risks and limitations associated with heart disease pred
 
 ## 🔑 Deliverables and Milestones
 
-- Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
+**Deliverables:**
+1. Project Proposal: A proposal that outlines the goals, scope, and methodology of the project will be created for the system.
+2. Data Collection and Preprocessing: After the collection of data, the data will be clean for further analysis.
+3. Exploratory Data Analysis: A report on the statistical properties and characteristics of the dataset will be created.
+4. Machine Learning Model Development: A machine learning model that can predict the presence of heart disease.
+5. Model Evaluation: An evaluation of the performance of the machine learning model.
+6. Deployment: A web application or API that can take in patient data and provide a heart disease prediction.
+7. Maintenance & Monitoring: After the system had been created, we need to maintain and monitor the system to ensure the system can ran smoothly without any error.
 
-  
+
+ **Milestones:**
+ <div align="left">
+
+| Milestones | Timeframe  |
+|----------|:-------------:|
+| Project Plan | Week 1 |
+| Preparation of Data Data Requirement Document | Week 2 |
+| Collect and Gather the Data | Week 3 |
+| Data Cleaning | Week 4 |
+| Data Analysis  | Week 5 |
+| Preparation of Data Exploration Report | Week 6 |
+| Develop Data and Design UI | Week 7 |
+| Add Special feature in UI | Week 8 |
+| Preparation of Model Design Document | Week 9 |
+| Testing the System | Week 10 |
+| Preparation of Testing and Validation Report | Week 11 |
+| Deployment of System | Week 12 |
+| Maintenance and Monitoring | Week 13 |
 
 ## 💡 Resources
 
@@ -150,9 +175,9 @@ The resources needs as below:
    - Laptop
 - Software
    - Kaggle
-   - Projectpro.IO
    - Github
-
+   - MangoDB
+ 
 - Other expenses
    
 
@@ -205,10 +230,4 @@ The resources needs as below:
 
 ## 🎓 Conclusion
 
-- Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
-
-- Summarize the proposal and reiterate the importance of the project.
-
-- Mention any potential limitations or challenges that may arise during the project.
-
-- Provide a call to action for the client to approve the proposal and proceed with the project.
+Based on this proposed project, the main aims is to develop a system that can accurately predict the likelihood of heart disease. The proposed system utilizes machine learning algorithms to analyze a dataset of patient information and generate predictions. The project's scope, methodology, and expected outcomes are well-defined, and the team has proposed a detailed timeline and resource plan for the project. The proposed system is significantly for practical applications, such as helping doctors and healthcare professionals to diagnose and treat patients with heart disease more effectively. The project's results may contribute to the development of more accurate and efficient medical diagnostic tools, which could potentially save lives and improve public health. However, there are also some risk and limitation about this system such as technical, financial and legal risk. In conclusion, the Heart Disease Prediction Using Machine Learning project is a promising initiative with the potential to make a significant impact on the field of healthcare and data science.

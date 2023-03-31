@@ -13,64 +13,29 @@ Don't forget to hit the :star: if you like this repo.
 This course presents to the students recent research and industrial issues pertaining to
 data engineering, database systems and technologies. Various topics of interests that are directly or indirectly affecting or are being influenced by data engineering, database systems and technologies are explored and discussed. Participation in forums as well as face to face interaction, with researchers and practitioners on these topics are encouraged. Students should then be able to conduct their own investigation and deductions. This course will also expose students to industry’s experiences in managing database systems and technologies through sharing knowledge sessions and work based learning activities with selected organization.
 
-## Headline ⚡
+## 🔥 Important things ⚡
 
 - [Course Information](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/CI_SCSP3843_STDE_22232.pdf)
-
+- [Task 1: Additional Notes](./materials/task1.md)
 ### Project
 - [Description of the project's topic](./materials/mongodb-ds.md)
 - [Project and group names](./materials/project-group.md)
 - [Guideline for Data Science Proposal](./materials/project-guidelines.md)
 
+## Notes
+| No | Module | Description | Notes |
+| :-----: | ------ | ------ | :-----: | 
+| 1 | Data Engineer, Data Engineering, Data Science, Data Scientist | Data Engineer, Data Engineering, Data Science, and Data Scientist are all related to handling and processing large amounts of data. Data engineering and data science are both parts of the data lifecycle, where data engineering focuses on building and maintaining the data infrastructure, while data science focuses on extracting insights from the data using various techniques. They all require a strong understanding of various tools and technologies used in data processing and analysis, such as SQL, Python, Hadoop, Spark, and cloud computing. They also require a solid understanding of data structures, algorithms, and programming concepts to perform their work effectively. |<a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/mod1.md" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| 
+| 2 | Data Integration | Data integration in data science is the process of combining data from multiple sources into a unified view for analysis. This involves identifying relevant data sources, transforming and cleansing the data to ensure consistency and quality, and integrating the data into a common format. Data integration tools automate the process of data integration and enable organizations to manage the entire data integration process, including data mapping, data transformation, and data quality. These tools can be categorized into three types: ETL (Extract, Transform, Load), ELT (Extract, Load, Transform), and EAI (Enterprise Application Integration). Popular data integration tools include Apache Kafka, Apache NiFi, Talend, Informatica PowerCenter, and Microsoft SQL Server Integration Services. These tools help organizations to streamline their data integration process, enabling data scientists to analyze data from multiple sources, and gain a comprehensive understanding of a particular phenomenon or problem. |<a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/mod2.md" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| 
+| 3 | Types of Data & NoSQL Database | Data can be broadly categorized into two types: structured and unstructured data. Structured data is organized and formatted in a specific way that makes it easy to store and analyze using traditional relational database management systems (RDBMS). Unstructured data, on the other hand, refers to data that does not have a predefined structure, such as text, images, videos, and audio files. NoSQL databases are a type of non-relational database that are designed to handle unstructured or semi-structured data. There are several types of NoSQL databases, including document-oriented, key-value, column-family, and graph databases. Document-oriented databases such as MongoDB store data in flexible JSON-like documents, while key-value databases such as Redis store data as key-value pairs. Column-family databases such as Apache Cassandra store data in column families, and graph databases such as Neo4j are designed to handle highly connected data such as social networks. Each type of NoSQL database has its own strengths and weaknesses and is suited to different use cases depending on the nature of the data and the requirements of the application. |<a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/mod3.md" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| 
+| 4 | Data Scraping | Data scraping, also known as web scraping, is the process of extracting data from websites using automated software programs. It involves writing code that sends automated requests to a website, parses the HTML or XML content, and extracts the desired information. Data scraping tools automate this process and can be used to collect data for research, analysis, or business intelligence purposes. Some popular data scraping tools include Beautiful Soup, Scrapy, Octoparse, Parsehub, and WebHarvy. These tools provide a range of features and capabilities, such as the ability to extract data from different types of web pages, the ability to handle complex data structures, and the ability to schedule and automate scraping tasks. However, it is important to ensure that data scraping is done in compliance with applicable laws and regulations, and with respect for the privacy of individuals. |<a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/mod4.md" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| 
+| 5 | Data Wrangling | Data wrangling, also known as data cleaning or data preprocessing, is the process of cleaning, transforming, and preparing raw data for analysis. This involves identifying and addressing issues such as missing or inconsistent data, formatting errors, and duplicates. Data wrangling tools automate this process and can be used to streamline data cleaning and preparation tasks. Some popular data wrangling tools include OpenRefine, Trifacta, DataWrangler, KNIME, and Talend. These tools provide a range of features and capabilities, such as the ability to handle large datasets, automate data cleaning tasks, and visualize data for exploration and analysis. Data wrangling is an essential step in the data analysis process, as it helps to ensure that the data is accurate, consistent, and relevant for analysis. |<a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/mod5.md" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>|
+| 6 | Feature Engineering | Feature engineering is the process of selecting, creating, and transforming variables (or features) in a dataset to improve the performance of a machine learning model. This involves identifying relevant variables, transforming variables to make them more useful, and creating new variables that capture important information. Feature engineering tools automate this process and can be used to streamline feature selection and creation tasks. Some popular feature engineering tools include Featuretools, tpot, AutoML, and H2O.ai. These tools provide a range of features and capabilities, such as the ability to automate feature selection and creation, identify important variables, and optimize feature pipelines for machine learning models. Feature engineering is an important step in the machine learning process, as it helps to ensure that the model is able to learn from relevant data and make accurate predictions. |<a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/mod6.md" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| 
+| 7 | Application Programming Interface  (API) | An API, or Application Programming Interface, is a set of protocols and tools for building software applications. In data science, APIs are often used to access and integrate data from external sources into data analysis workflows. APIs enable developers and data scientists to retrieve data in a structured way, typically in JSON or XML format, and to perform data analysis tasks programmatically. Some popular APIs for data science include the Twitter API, Google Maps API, and Spotify API. These APIs provide access to a wide range of data, including social media data, geographic data, and music data, and can be used to extract insights and build predictive models. API tools such as Postman, Swagger, and Insomnia can be used to test, document, and automate API requests, and to build more complex workflows using multiple APIs. |<a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/mod7.md" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| 
+| 8 | Artificial Intelligence  vs Machine Learning vs Deep Learning | Artificial Intelligence, Machine Learning, and Deep Learning are all related to the field of computer science and are focused on enabling computers to learn and make decisions based on data. Artificial intelligence involves building systems that can perform tasks that typically require human intelligence, such as language understanding, decision making, and problem-solving. Machine learning is a subset of AI that focuses on building algorithms that can learn patterns and make decisions based on data without being explicitly programmed. Deep learning is a subset of machine learning that utilizes neural networks with multiple layers to learn and identify patterns in data. Overall, all three fields involve leveraging data to build intelligent systems that can learn from experience and make decisions based on that learning.|<a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/mod8.md" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| 
+| 9 | Visualization| RData visualization is the process of representing data graphically to help people understand and make sense of complex data. Visualization tools in data science allow users to create visual representations of data, such as charts, graphs, and maps, that can be easily interpreted and analyzed. Some popular data visualization tools include Tableau, Power BI, Google Data Studio, and D3.js. These tools provide a range of features and capabilities, such as the ability to create interactive dashboards, explore data in real-time, and collaborate with others on visualizations. Data visualization is an important part of the data analysis process, as it helps to uncover patterns, trends, and insights in the data that might not be apparent from raw data alone.|<a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/mod9.md" ><img src="./images/markdownp.png" width="24px" height="24px" ></a>| 
 
-## Student Information
-
-| No | Name | ID |  Github | 
-| ----- | ----- | ------ | :------: | 
-| 1 | ADAM WAFII BIN AZUAR | Jokeryde | [:octocat:](https://github.com/Jokeryde) | 
-| 2 | ADRINA ASYIQIN BINTI MD ADHA | adrinaasyiqin | [:octocat:](https://github.com/adrinaasyiqin) | 
-| 3 | AFIF HAZMIE ARSYAD BIN AGUS | AfifHazmie | [:octocat:](https://github.com/AfifHazmie) | 
-| 4 | AHMAD AIMAN HAFIZI BIN MUHAMMAD | AimanHafizi619 | [:octocat:](https://github.com/AimanHafizi619) | 
-| 5 | AHMAD MUHAIMIN BIN AHMAD HAMBALI | Mincridible | [:octocat:](https://github.com/Mincridible) | 
-| 6 | AMIRAH RAIHANAH BINTI ABDUL RAHIM | raihanarahim | [:octocat:](https://github.com/raihanarahim) | 
-| 7 | CHLOE RACQUELMAE KENNEDY | Racquelmae | [:octocat:](https://github.com/Racquelmae) | 
-| 8 | CHONG KAI ZHE | Chongkz29 | [:octocat:](https://github.com/Chongkz29) | 
-| 9 | EDDIE WONG CHUNG PHENG | Prowong01 | [:octocat:](https://github.com/Prowong01) | 
-| 10 | FARAH IRDINA BINTI AHMAD BAHARUDIN | arasayooo | [:octocat:](https://github.com/arasayooo) | 
-| 11 | GOO YE JUI | yejui626 | [:octocat:](https://github.com/yejui626) | 
-| 12 | HONG PEI GEOK | peiyu00 | [:octocat:](https://github.com/peiyu00) | 
-| 13 | KELVIN EE | Kelvinnn-2 | [:octocat:](https://github.com/Kelvinnn-2) | 
-| 14 | KONG JIA ROU | jrkong2001utm | [:octocat:](https://github.com/jrkong2001utm) | 
-| 15 | LEE CAI XUAN | leecaixuan | [:octocat:](https://github.com/leecaixuan) | 
-| 16 | LEE JIA XIAN| Leejxx | [:octocat:](https://github.com/Leejxx) | 
-| 17 | LEE MING QI | MQiLEE | [:octocat:](https://github.com/MQiLEE) | 
-| 18 | LOW JUNYI | LowJunyi2001 | [:octocat:](https://github.com/LowJunyi2001) | 
-| 19 | LUQMAN ARIFF BIN NOOR AZHAR | samsamsambal | [:octocat:](https://github.com/samsamsambal) | 
-| 20 | MADIHAH BINTI CHE ZABRI | Madihah04 | [:octocat:](https://github.com/Madihah04) | 
-| 21 | MADINA SURAYA BINTI ZHARIN | madinasuraya | [:octocat:](https://github.com/madinasuraya) | 
-| 22 | MAIZATUL AFRINA SAFIAH BINTI SAIFUL AZWAN | maizatulafrina | [:octocat:](https://github.com/maizatulafrina) | 
-| 23 | MIKHEL ADAM BIN MUHAMMAD EZRIN | HUNK12 | [:octocat:](https://github.com/HUNK12) | 
-| 24 | MUHAMMAD DINIE HAZIM BIN AZALI | DinieHazim | [:octocat:](https://github.com/DinieHazim) | 
-| 25 | MUHAMMAD IMRAN HAKIMI BIN MOHD SHUKRI | muhdimranh | [:octocat:](https://github.com/muhdimranh) | 
-| 26 | MUHAMMAD NAQUIB BIN ZAKARIA | nqbzkr01 | [:octocat:](https://github.com/nqbzkr01) | 
-| 27 | MYZA NAZIFA BINTI NAZRY | myzanazifah | [:octocat:](https://github.com/myzanazifah) | 
-| 28 | NAYLI NABIHAH BINTI JASNI | nellyexey | [:octocat:](https://github.com/nellyexey) | 
-| 29 | NUR IRDINA ALIAH BINTI ABDUL WAHAB | Deelia99 | [:octocat:](https://github.com/Deelia99) | 
-| 30 | NUR IZZAH MARDHIAH BINTI RASHIDI | izzahmardhiah | [:octocat:](https://github.com/izzahmardhiah) | 
-| 31 | NUR SYAMALIA FAIQAH BINTI MOHD KAMAL | nursyamalia | [:octocat:](https://github.com/nursyamalia) | 
-| 32 | NURARISSA DAYANA BINTI MOHD SUKRI | yanakunn | [:octocat:](https://github.com/yanakunn) | 
-| 33 | NURFARRAHIN BINTI CHE ALIAS | FarrahinUtm | [:octocat:](https://github.com/FarrahinUtm) | 
-| 34 | ONG HAN WAH | ongwah | [:octocat:](https://github.com/ongwah) | 
-| 35 | QAISARA BINTI ROHZAN | qaisarrra | [:octocat:](https://github.com/qaisarrra) | 
-| 36 | RADIN DAFINA BINTI RADIN ZULKAR NAIN | radindafina | [:octocat:](https://github.com/radindafina) | 
-| 37 | RISHMA FATHIMA BINTI BASHER | rishmafathima | [:octocat:](https://github.com/rishmafathima) | 
-| 38 | SAKINAH AL'IZZAH BINTI MOHD ASRI | sakinahalizzah | [:octocat:](https://github.com/sakinahalizzah) | 
-| 39 | SINGTHAI SRISOI | singthai-srisoi | [:octocat:](https://github.com/singthai-srisoi) | 
-| 40 | TAN YONG SHENG | TanYongSheng728 | [:octocat:](https://github.com/TanYongSheng728) | 
-| 41 | TERENCE A/L LOORTHANATHAN | Terence172 | [:octocat:](https://github.com/Terence172) | 
-| 42 | VINCENT BOO EE KHAI | Vincboo | [:octocat:](https://github.com/Vincboo) | 
-| 43 | YONG ZHI YAN | yongzy328 | [:octocat:](https://github.com/yongzy328) | 
-
+## [Student Information](./materials/student.md) :woman::man:
 
 ## Visual Studio Code
 ### <img src="https://github.com/drshahizan/learn-php/blob/main/images/youtube64.png" width="24px" height="24px"></a> Video

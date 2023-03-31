@@ -170,8 +170,6 @@ Here are some potential risks and limitations associated with Shopee Supermarket
 
 **4. Other Risk**
 
-`Data Quality:` Even if the data is available, there may be issues with the quality of the data. The data may be incomplete, inconsistent, or inaccurate, which can affect the quality of the results.
-
 `Scope Creep:` Another risk is scope creep, where the project's objectives may expand beyond the initial scope. This can lead to additional work and resources being required, which can affect the project's timeline and budget.
 
 
@@ -192,7 +190,8 @@ These risks and limitations must be taken into consideration before implementing
 
 **4. Other Risk**
 - Establish clear project goals and objectives and communicate effectively with stakeholders.
-  
+
+Overall, it is important to recognize the risks and limitations of the project and have mitigation strategies that help to minimize risks in order to ensure the success of the project. 
 
 ## 🔑Deliverables and Milestones
 
@@ -200,7 +199,7 @@ The key deliverables and milestones:
 
 **1. Data collection and cleaning**
      
-This involves gathering sales data from Shopee Supermarket, such as product name, price and quantity sold by using APIs provided. Following the collection of  data, data pre-processing tasks such as cleaning, filtering, and transforming the data into usable format will be performed.
+This involves gathering sales data from Shopee Supermarket, such as product name, price and quantity sold by using APIs provided and display data in real time using MongoDB's real-time data ingestion. Following the collection of  data, data pre-processing tasks such as cleaning, filtering, and transforming the data into usable format will be performed.
 
 **2. Data analysis and modeling**
 
@@ -210,15 +209,11 @@ Analyze the sales data by grouping the data and calculating metrics with MongoDB
 
 Designing the dashboard's layout and visualisations based on sales analysis results, such as charts or graphs, to identify top-selling products and understand sales trends.
 
-**4. Integration with e-commerce platform**
-
-Integrating the dashboard with the e-commerce platform to collect data and display data insights in real time using MongoDB's real-time data ingestion.
-
-**5. Testing and debugging**
+**4. Testing and debugging**
 
 Testing the dashboard to ensure its functionality and debugging any issues that arise.
 
-**6. Deployment and maintenance**
+**5. Deployment and maintenance**
 
 Launching the dashboard and ensuring that it is maintained and updated as necessary.
 
@@ -229,19 +224,15 @@ Launching the dashboard and ensuring that it is maintained and updated as necess
   </tr>
   <tr>
     <td>Data gathering and cleaning</td>
-    <td>End of week 4</td>
+    <td>End of week 5</td>
   </tr>
   <tr>
     <td>Data analysis and modeling</td>
-    <td>End of week 7</td>
+    <td>End of week 8</td>
   </tr>
   <tr>
     <td>Dashboard design and development</td>
-    <td>End of week 10</td>
-  </tr>
-    <tr>
-    <td>Integration with e-commerce platform</td>
-    <td>End of week 12</td>
+    <td>End of week 11</td>
   </tr>
     <tr>
     <td>Testing and debugging</td>
@@ -269,8 +260,9 @@ The resources needs as below:
    - Computer/Laptop
  
 - Software
+   - Shopee API 
    - MongoDB
-   - Django
+   - Django/Visual Studio Code
    - Power BI
   
 - Other expenses
@@ -338,9 +330,8 @@ The resources needs as below:
     <td>
       <li>Power BI</li>
       <li>MongoDB</li>
-      <li>Shopee API</li>
+      <li>Postman API</li>
       <li>Visual Studio Code</li>
-      <li>Shopee data scraper</li>
       <li>Python 3.8 r higher with included libraries</li>
     </td>
   </tr>
@@ -375,28 +366,23 @@ gantt
     dateFormat  YYYY-MM-DD
   
     section Data Gathering and Cleaning
-    Data Gathering  :2023-04-02 , 10d
-    Data Cleaning  :2023-04-12 , 4d
+    Data Gathering  :2023-04-02 , 19d
+    Data Cleaning  :2023-04-30 , 7d
   
     section Dashboard Analysis and Modeling
-    Dashboard Analysis            :2023-04-16  , 5d
-    Dashboard Modeling                    :2023-04-30 , 7d
-   
+    Dashboard Analysis            :2023-05-07  , 7d
+    Dashboard Modeling                    :2023-05-14 , 7d
   
     section Data Design and Development
-    Data Design               :2023-05-07 , 7d
-    Data Development       :2023-05-14 , 14d
-  
-    section Integration with E-Commerce Platform
-    Designing User interface            :2023-05-28 , 4d
-    Features add-ons             :2023-06-01 , 10d
-  
+    Data Design               :2023-05-21 , 7d
+    Data Development       :2023-05-28 , 14d
+ 
     section Testing and Debugging
     Live Testing                :2023-06-11 , 2d
     Debugging     :2023-06-13 , 5d
   
     section Dashboard deployed and live
-    Dashboard deployed      :2023-06-18 , 3d
+    Dashboard deployed      :2023-06-18  , 3d
     Dashboard live      :2023-06-21 , 4d
   
   ```
@@ -430,10 +416,9 @@ gantt
 
 ## 🎓Conclusion
 
-- Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
+In conclusion, the proposed Shopee Supermarket Sales Performance Dashboard project is a powerful solution for business since it can provide valuable insights for businesses looking to optimize their sales strategy and increase revenue on Shopee. Other than that, the dashboard enables business owners to monitor sales performance, identify top-performing products and analyze the sales data. From here, this will definitely improve the decision making process of businesses and help them stay competitive in the marketplace.
 
-- Summarize the proposal and reiterate the importance of the project.
+However, there are some challenges that need to be overcome in building a successful dashboard. For example, technical risks like data quality and availability issues, financial and legal risks should also be considered and develop a comprehensive risk management plan that helps to mitigate these risks to ensure the success of the project. 
 
-- Mention any potential limitations or challenges that may arise during the project.
+We believe by approving this proposal, it will bring the benefit to the business at the end of the completion of the project. Since they will be able to gain profit by using this powerful dashboard. We will also try to deliver a high-quality dashboard to solve the client's problem and help their business succeed on Shopee.
 
-- Provide a call to action for the client to approve the proposal and proceed with the project.

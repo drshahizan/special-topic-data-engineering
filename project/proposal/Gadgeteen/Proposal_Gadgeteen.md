@@ -23,22 +23,22 @@
 - [🔍 Conclusion](#-conclusion)
 
 ## 📒 Executive Summary
-This proposal outlines a social media monitoring tool to understand public opinion and sentiment on ChatGPT in Malaysia. The main goal of the project is to develop a web application that can identify areas for improvement and potential new features for ChatGPT. The project's scope includes collecting and processing social media data from social medias using APIs, performing sentiment analysis and topic modeling, and developing machine learning algorithms to classify social media data based on sentiment.
+&ensp;&ensp; This proposal outlines a social media monitoring tool to understand public opinion and sentiment on ChatGPT in Malaysia. The main goal of the project is to develop a web application that can identify areas for improvement and potential new features for ChatGPT. The project's scope includes collecting and processing social media data from social medias using APIs, performing sentiment analysis and topic modeling, and developing machine learning algorithms to classify social media data based on sentiment.
 
 ## 🧱 Background
 <p align="center">
 <img src="https://user-images.githubusercontent.com/97009588/228268824-9dc3aa13-493f-4002-b3d4-a82322902244.png" alt="Paris" height="250"></img>
 </p>
-ChatGPT is an artificial intelligence language model developed by OpenAI that is designed to generate human-like text in response to natural language inputs. As ChatGPT hits the market, it becomes crucial for us to understand public opinion and sentiment towards the platform. However, analyzing this data manually is time-consuming and often impractical. Therefore, there is a need for a platform that can monitor and analyze social media data in real-time to understand public opinion and sentiment on ChatGPT in Malaysia.
+&ensp;&ensp; ChatGPT is an artificial intelligence language model developed by OpenAI that is designed to generate human-like text in response to natural language inputs. As ChatGPT hits the market, it becomes crucial for us to understand public opinion and sentiment towards the platform. However, analyzing this data manually is time-consuming and often impractical. Therefore, there is a need for a platform that can monitor and analyze social media data in real-time to understand public opinion and sentiment on ChatGPT in Malaysia.
 <br><br>
-<b>Current Situation and Problems Faced:</b><br>
-Currently, there is no platform dedicated to monitoring and analyzing social media data on ChatGPT in Malaysia. This makes it challenging to understand user behavior, preferences, and sentiment towards the platform. Manual analysis of social media data is time-consuming and often subject to biases and errors.
+<b>Current Situation and Problems Faced:</b><br><br>
+&ensp;&ensp; Currently, there is no platform dedicated to monitoring and analyzing social media data on ChatGPT in Malaysia. This makes it challenging to understand user behavior, preferences, and sentiment towards the platform. Manual analysis of social media data is time-consuming and often subject to biases and errors.
 <br><br>
-<b>Potential Benefits of the Proposed Solution:</b><br>
-By developing a web application that can collect, process, and analyze social media data in real-time, the project will provide areas for improvement and potential new features for ChatGPT. This project will help to automate the process of analyzing social media data, saving time and reducing the risk of biases and errors associated with manual analysis. Overall, the proposed solution has the potential to provide valuable insights that can help improve ChatGPT's popularity and usage in Malaysia.
+<b>Potential Benefits of the Proposed Solution:</b><br><br>
+&ensp;&ensp; By developing a web application that can collect, process, and analyze social media data in real-time, the project will provide areas for improvement and potential new features for ChatGPT. This project will help to automate the process of analyzing social media data, saving time and reducing the risk of biases and errors associated with manual analysis. Overall, the proposed solution has the potential to provide valuable insights that can help improve ChatGPT's popularity and usage in Malaysia.
 
 ## 🔬 Goals and Objectives
-The primary goal of this project is to develop a web application that can monitor and analyze social media data in real-time to understand public opinion and sentiment on ChatGPT in Malaysia.
+&ensp;&ensp; The primary goal of this project is to develop a web application that can monitor and analyze social media data in real-time to understand public opinion and sentiment on ChatGPT in Malaysia.
 
 We have established these objectives in order to achieve this goal:
 
@@ -49,80 +49,74 @@ We have established these objectives in order to achieve this goal:
 - Provide recommendations for further development of ChatGPT based on the insights gained from the analysis.
 
 ## 🧿 Scope
-The project will focus specifically on Twitter data, as Twitter is a popular social media platform for discussing technology and current events. By analyzing Twitter data in real-time, the project aims to provide valuable insights into the public's perception of ChatGPT
+&ensp; The project will focus specifically on Twitter data, as Twitter is a popular social media platform for discussing technology and current events. By analyzing Twitter data in real-time, the project aims to provide valuable insights into the public's perception of ChatGPT
 
 <b>Data Sources:</b>
 
-The primary data source for this project will be Twitter's API, which will provide us with real-time access to tweets related to "ChatGpt." We will use Twitter's streaming API to collect tweets in real-time, using specific keywords and hashtags related to ChatGpt.
+&ensp;&ensp; The primary data source for this project will be Twitter's API, which will provide us with real-time access to tweets related to "ChatGpt." We will use Twitter's streaming API to collect tweets in real-time, using specific keywords and hashtags related to ChatGpt.
 
 <b>Tools and Technologies:</b>
 
-We will use Python as the main programming language for this project, along with several open-source libraries such as Tweepy, Pandas, and MongoDB:
+&ensp;&ensp; We will use Python as the main programming language for this project, along with several open-source libraries such as Tweepy, Pandas, and MongoDB:
 
-I.	Tweepy: Use to connect to Twitter's API.
+&ensp;&ensp;I.	**Tweepy**: Use to connect to Twitter's API.
 
-II.	Pandas: Use for data manipulation and preprocessing. 
+&ensp;&ensp;II.	**Pandas**: Use for data manipulation and preprocessing. 
 
-III.	MongoDB:  To store the collected data which allow us to store and query the data efficiently.
+&ensp;&ensp;III. **MongoDB**:  To store the collected data which allow us to store and query the data efficiently.
 
-IV.	NLTK (Natural Language Toolkit): Use for sentiment analysis
+&ensp;&ensp;IV.	**NLTK (Natural Language Toolkit)**: Use for sentiment analysis
 
-V.	PowerBI: To visualize and explore the data.
+&ensp;&ensp;V.	**PowerBI**: To visualize and explore the data.
 
 <b>Other Relevant Information:</b>
 
-To ensure data privacy and security, we will comply with Twitter's API Terms of Service and any applicable laws and regulations related to data privacy and security. We will also use appropriate measures to secure the data, such as encrypting the database and using secure protocols for data transfer.
+&ensp;&ensp; To ensure data privacy and security, we will comply with Twitter's API Terms of Service and any applicable laws and regulations related to data privacy and security. We will also use appropriate measures to secure the data, such as encrypting the database and using secure protocols for data transfer.
 
 
 ## 🔖 Methodology
 The project will follow the Agile methodology, with sprints of 10-12 weeks, and regular demos and retrospectives to review progress and plan the next steps.
 
-1. Data Collection: The project will collect Twitter data using the Twitter API, which provides access to a sample of the real-time Twitter stream. The collected data will include tweets that mention "ChatGpt" and related hashtags, keywords, and phrases.
+1. **Data Collection**: The project will collect Twitter data using the Twitter API, which provides access to a sample of the real-time Twitter stream. The collected data will include tweets that mention "ChatGpt" and related hashtags, keywords, and phrases.
 
-2. Data Pre-processing: The collected data will be pre-processed to remove noise, such as irrelevant tweets and spam, and to extract relevant information, such as the user's sentiment towards ChatGpt. The pre-processing steps will include:
-  •	Removing duplicate tweets
-  •	Removing retweets
-  •	Removing tweets that are not in English
-  •	Tokenizing the text and removing stop words
-  •	Applying stemming or lemmatization to reduce the text to its base form
-  •	Applying part-of-speech tagging to identify noun phrases and named entities
-  •	Filtering the text to remove mentions, URLs, and other irrelevant information
-  •	Applying sentiment analysis to determine the polarity of the tweets
+2. **Data Pre-processing**: The collected data will be pre-processed to remove noise, such as irrelevant tweets and spam, and to extract relevant information, such as the user's sentiment towards ChatGpt. The pre-processing steps will include:
 
-3. Sentiment Analysis: The project will perform sentiment analysis on the pre-processed data to determine the polarity of the tweets, i.e., positive, negative, or neutral sentiment. The sentiment analysis will be performed using a machine learning model, such as a Naive Bayes or Support Vector Machine (SVM) classifier, trained on a labelled dataset of tweets.
+ &ensp;&ensp;&ensp;&ensp; -	Removing duplicate tweets
+  
+ &ensp;&ensp;&ensp;&ensp; -	Removing retweets
+  
+ &ensp;&ensp;&ensp;&ensp; -	Removing tweets that are not in English
+  
+ &ensp;&ensp;&ensp;&ensp; -	Tokenizing the text and removing stop words
+  
+ &ensp;&ensp;&ensp;&ensp; -	Applying stemming or lemmatization to reduce the text to its base form
+  
+ &ensp;&ensp;&ensp;&ensp; -	Applying part-of-speech tagging to identify noun phrases and named entities
+  
+ &ensp;&ensp;&ensp;&ensp; -	Filtering the text to remove mentions, URLs, and other irrelevant information
+  
+ &ensp;&ensp;&ensp;&ensp; -	Applying sentiment analysis to determine the polarity of the tweets
 
-4. Data Visualization: The project will use data visualization techniques to display the sentiment analysis results in a meaningful and informative way, such as bar charts, pie charts, and word clouds. The visualization will provide an easy-to-understand summary of the sentiment distribution and the most common topics and phrases associated with ChatGpt.
+3. **Sentiment Analysis**: The project will perform sentiment analysis on the pre-processed data to determine the polarity of the tweets, i.e., positive, negative, or neutral sentiment. The sentiment analysis will be performed using a machine learning model, such as a Naive Bayes or Support Vector Machine (SVM) classifier, trained on a labelled dataset of tweets.
 
-5. Real-time Analysis: The project will perform real-time analysis of Twitter data to provide up-to-date insights into public opinion and sentiment about ChatGpt. The real-time analysis will involve continuously collecting and pre-processing Twitter data, performing sentiment analysis, and updating the visualization.
+4. **Data Visualization**: The project will use data visualization techniques to display the sentiment analysis results in a meaningful and informative way, such as bar charts, pie charts, and word clouds. The visualization will provide an easy-to-understand summary of the sentiment distribution and the most common topics and phrases associated with ChatGpt.
 
-All in all, the methodology of the project is to collect and pre-process Twitter data, perform sentiment analysis, and visualize the results in real-time, using natural language processing and machine learning techniques. The methodology will provide valuable insights into public opinion and sentiment about ChatGpt, and help OpenAI to make data-driven decisions and improve its products and services.
+5. **Real-time Analysis**: The project will perform real-time analysis of Twitter data to provide up-to-date insights into public opinion and sentiment about ChatGpt. The real-time analysis will involve continuously collecting and pre-processing Twitter data, performing sentiment analysis, and updating the visualization.
+
+&ensp;&ensp; All in all, the methodology of the project is to collect and pre-process Twitter data, perform sentiment analysis, and visualize the results in real-time, using natural language processing and machine learning techniques. The methodology will provide valuable insights into public opinion and sentiment about ChatGpt, and help OpenAI to make data-driven decisions and improve its products and services.
 
 
 
 ## 🖥️ System Architecture
 
-&ensp;&ensp;Our proposed system architecture will be a web application that can monitor and analyze social media data in real-time to understand public opinion and sentiment on ChatGPT in Malaysia. The application will collect data from social media using APIs, perform sentiment analysis and topic modeling, and present the results through visualizations and dashboards.
-
-**Tools and Technologies:**
-
-Python: As the main programming language.
-
-Tweepy: To connect to Twitter's API.
-
-Pandas: For data manipulation and preprocessing.
-
-MongoDB: To store the collected data.
-
-NLTK: For sentiment analysis.
-
-Power BI: For data visualization and analysis.
+&ensp;&ensp; Our proposed system architecture will be a web application that can monitor and analyze social media data in real-time to understand public opinion and sentiment on ChatGPT in Malaysia. In this system, we will be using **Python** as the main programming language. As for the data collection from social, we will use **Tweepy** to connect to Twitter's API. After collecting the data, **Pandas** library will be used for data manipulation and preprocessing and the preprocessed data will be stored in **MongoDB**. Lastly, **Natural Language Toolkit (NLTK)** will be used to perform sentiment analysis and topic modeling, and present the results through visualizations and dashboards by using **Power BI**.
 
 
 **Data Storage and Management:**
 
-&ensp;&ensp;We will use MongoDB as our database management system. MongoDB is a document-oriented NoSQL database that can handle large volumes of unstructured data. We will store the collected data in MongoDB in a format that is suitable for further analysis. We will use PyMongo, a Python library for MongoDB, to interact with the database. The data will be organized in a collection called "tweets" with the following fields: tweet_id, created_at, text, username, user_id, location, sentiment, and topic.
+&ensp;&ensp; We will use **MongoDB** as our database management system. MongoDB is a document-oriented NoSQL database that can handle large volumes of unstructured data. We will store the collected data in MongoDB in a format that is suitable for further analysis. We will use PyMongo, a Python library for MongoDB, to interact with the database. The data will be organized in a collection, for example, called "tweets" with the following fields: tweet_id, created_at, text, username, user_id, location, sentiment, and topic.
 
-**Hardware and Software Requirements:**
+**Hardware and Software Requirements for MongoDB:**
 
 <table border="1" align="center">
   <tr>
@@ -131,7 +125,7 @@ Power BI: For data visualization and analysis.
   </tr>
   <tr>
     <td>Processor</td>
-    <td>Intel Core i7 or equivalent</td>
+    <td>2 GHz or more</td>
   </tr>
    <tr>
       <td>RAM</td>
@@ -228,7 +222,7 @@ a) Ensure that the collection and use of social media data comply with relevant 
 
 b) Anonymize the data by removing personal information, and ensure that all data is stored and analyzed in a secure environment.
 
-&ensp;Overall, a comprehensive risk management plan will be put in place to minimize the impact of any risks and limitations that may arise during the course of the project. This plan will include regular monitoring of project progress, identification of potential risks, and contingency strategies for addressing any issues that arise. In addition, the project team will maintain open communication with stakeholders to ensure that any concerns or issues are addressed in a timely and effective manner.
+&ensp;&ensp; Overall, a comprehensive risk management plan will be put in place to minimize the impact of any risks and limitations that may arise during the course of the project. This plan will include regular monitoring of project progress, identification of potential risks, and contingency strategies for addressing any issues that arise. In addition, the project team will maintain open communication with stakeholders to ensure that any concerns or issues are addressed in a timely and effective manner.
 
 ## 🗿 Deliverables and Milestones
 <table border="1" align="center">
@@ -419,4 +413,4 @@ gantt
   >  Performance monitoring and user feedback analysis
 
 ## 🔍 Conclusion
-In conclusion, the proposed social media monitoring tool for ChatGPT in Malaysia has the potential to provide valuable insights into public opinion and sentiment towards the platform. By automating the process of analyzing social media data, the tool can save time and reduce the risk of biases and errors associated with manual analysis. The project's scope includes collecting and processing social media data, performing sentiment analysis and topic modeling, and developing machine learning algorithms to classify social media data based on sentiment. The project can ultimately benefit ChatGPT by providing areas for improvement and potential new features, thus improving its popularity and usage in Malaysia.
+&ensp;&ensp; In conclusion, the proposed social media monitoring tool for ChatGPT in Malaysia has the potential to provide valuable insights into public opinion and sentiment towards the platform. By automating the process of analyzing social media data, the tool can save time and reduce the risk of biases and errors associated with manual analysis. The project's scope includes collecting and processing social media data, performing sentiment analysis and topic modeling, and developing machine learning algorithms to classify social media data based on sentiment. The project can ultimately benefit ChatGPT by providing areas for improvement and potential new features, thus improving its popularity and usage in Malaysia.

@@ -279,8 +279,9 @@ The resources needs as below:
     <td>
       <li>Power BI</li>
       <li> Python visualization libraries: 
-        - Matplotlib
-        - Seaborn
+        <br>
+        - Matplotlib <br>
+        - Seaborn <br>
         - Plotly
       </li>
     </td>

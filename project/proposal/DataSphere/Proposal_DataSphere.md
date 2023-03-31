@@ -53,8 +53,20 @@ Customer segmentation enables organisations to more fully comprehend their custo
 - Provide a flowchart or block diagram of the system architecture.
 
 ## Risks and Limitations
-- Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks. 
-- Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
+#### Technical risks:
+-Shortage of skills : lack of skills while completing the project 
+-Poor quality data : low quality data could impact in the quality of the output at the end of the project
+-Collecting meaningful and real-time data: With so much data available, it can be challenging to delve deep and find the insights that are most needed.
+
+
+#### financial risks: 
+-Cost of cloud computing services and softwares. Extra cost could be expected to subscribe the extra features in the cloud computing services in order to perform the tasks. 
+
+#### Legal risks:
+-Data security : A bigger danger of data breach results from larger big data volumes. The larger the concentration of data, the more attractive it is to hackers, and the more serious the implications of the breach.
+-Consumer privacy : the privacy of the data provider and their data should be protected. 
+
+
 
 ## Deliverables and Milestones
 

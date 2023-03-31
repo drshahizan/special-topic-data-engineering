@@ -265,7 +265,10 @@ The resources needs as below:
   </tr>
   <tr>
     <th>Data transformations</th>
-    <td>Python libraries: Pandas, Numpy </td>
+    <td>Python libraries:
+      <li>Pandas</li>
+      <li>Numpy</li>
+    </td>
   </tr>
   <tr>
     <th>ML algorithms</th>
@@ -274,20 +277,24 @@ The resources needs as below:
   <tr>
     <th>Data visualization tools</th>
     <td>
-      Power BI
-      <br>
-      Python visualization libraries: Matplotlib, Seaborn, and Plotly 
+      <li>Power BI</li>
+      <li> Python visualization libraries: 
+        <li>Matplotlib</li>
+        <li>Seaborn</li>
+        <li>Plotly</li>
+      </li>
     </td>
   </tr>
   <tr>
     <th>Programming Languages</th>
     <td>
-      SQL
-      <br>
-      Python
+      <li>SQL</li>
+      <li>Python</li>
     </td>
   </tr>
 </table>
+
+
 
 Hardware requirements
 

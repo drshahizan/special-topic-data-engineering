@@ -296,6 +296,15 @@ Deliverables and Resources
 - Maintenance
   > - `Deliverables` : Performance monitoring and user feedback analysis
 
+Quality Assurance and Testing Procedures
+
+1. Quality Assurance
+  - Validate the data used by the recommendation system. The data should be accurate, up-to-date, and relevant to the user.
+  - Collect feedback from users. The system can ask the users to rate the recommendations they receive and use the feedback to enhance the system.
+2. Testing Procedures
+  - Functional testing `verifying that the system is working as intended that includes the system's ability to produce recommendations based on user history, preference and ratings`.
+  - Performance testing `verifying that the system able to handle a high volume of requests and provide recommendations in a timely manner`.
+  - User Acceptance testing `is to test the system with the actual users to verify that the system is providing relevant recommendations that meet their needs`.
 
 ## 12. Conclusion
 In conclusion, the proposed system will provide shows/movies reccomendation based on user's favourite genre, director, actors, and many more. Users will be able to create content-based filtering to provide personalised reccomendation. However, the recommendation system is not perfect, and there have been cases where users have reported getting irrelevant or inappropriate recommendations. This can be due to various factors, such as limited data or biases in the algorithm. While there is still room for improvement, the system will be a game-changer in the entertainment industry and will help to shape the way we consume media today.

@@ -293,10 +293,8 @@ Deliverables and Resources
   > - `Resources` : HTML, CSS, Javascript
 - Deployment and Testing
   > - `Deliverables` : A deployed recommendation system and testing results
-  > - `Resources` : User feedback mechanism
 - Maintenance
   > - `Deliverables` : Performance monitoring and user feedback analysis
-  > - `Resources` : User feedback mechanism
 
 
 ## 12. Conclusion

@@ -138,8 +138,6 @@ Here are some potential risks and limitations associated with Shopee Supermarket
 
 **4. Other Risk**
 
-`Data Quality:` Even if the data is available, there may be issues with the quality of the data. The data may be incomplete, inconsistent, or inaccurate, which can affect the quality of the results.
-
 `Scope Creep:` Another risk is scope creep, where the project's objectives may expand beyond the initial scope. This can lead to additional work and resources being required, which can affect the project's timeline and budget.
 
 
@@ -160,7 +158,8 @@ These risks and limitations must be taken into consideration before implementing
 
 **4. Other Risk**
 - Establish clear project goals and objectives and communicate effectively with stakeholders.
-  
+
+Overall, it is important to recognize the risks and limitations of the project and have mitigation strategies that help to minimize risks in order to ensure the success of the project. 
 
 ## 🔑Deliverables and Milestones
 

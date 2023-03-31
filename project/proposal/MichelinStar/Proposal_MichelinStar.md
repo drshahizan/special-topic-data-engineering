@@ -139,7 +139,7 @@ Here are some potential risks and limitations associated with heart disease pred
 
 
  **Milestones:**
- <div align="center">
+ <div align="left">
   
 | Milestones | Timeframe  |
 |----------|:-------------:|

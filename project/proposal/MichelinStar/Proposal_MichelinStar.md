@@ -125,7 +125,9 @@ The resources needs as below:
    - Computer/Laptop
    -
 - Software
-   
+   - Kaggle
+   - Projectpro.IO
+
 - Other expenses
    
 

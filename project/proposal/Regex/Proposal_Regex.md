@@ -304,11 +304,11 @@ The resources needs as below:
   <tr>
     <th>Software requirements</th>
     <td>
-      <li>MongoDB</li>
       <li>Power BI</li>
+      <li>MongoDB</li>
       <li>Shopee API</li>
-      <li>Shopee data scraper</li>
       <li>Visual Studio Code</li>
+      <li>Shopee data scraper</li>
       <li>Python 3.8 r higher with included libraries</li>
     </td>
   </tr>
@@ -370,7 +370,31 @@ gantt
   ```
   </div>
 
+  - WEEK 1 - 4 : `Data Gathering and Cleaning`
+
+  > - Gather product data through web scraping process and store the data in MongoDB.
+  > - Clean the data to remove any inconsistencies or anomalies.
   
+- WEEK 5 - 6 : `Dashboard Analysis and Modeling`
+
+  > Analysis
+  > Modeling
+  
+- WEEK 7 - 10 : ` Data Design and Development`
+
+  > Design.
+  
+- WEEK 11 : `Integration with E-Commerce Platform`
+
+  > Integration with E-Commerce Platform
+  
+- WEEK 12 - 14 : `Testing and Debugging`
+
+  > Testing and Debugging.
+
+- WEEK 12 - 14 : `Dashboard deployed and live`
+
+  > Dashboard deployed and live.
 
 ## 🎓Conclusion
 

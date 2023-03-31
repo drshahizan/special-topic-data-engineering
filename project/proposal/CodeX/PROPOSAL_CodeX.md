@@ -43,16 +43,18 @@ As a result of its success, the Netflix recommendation system has become a bench
 7) Improve operational efficiency: A data-driven project may aim to improve operational efficiency by automating tasks, reducing manual intervention, and streamlining processes. For example, in a manufacturing industry, the goal may be to optimize production processes and reduce waste by using predictive maintenance techniques.
 
 ## 4. Scope
-- This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
-- The scope of this project is to develop AI 
-- 
+- The scope of this project is to create Netflix recommedation engine based on few factors. These factors will create personalized recommendation.
+- This project requires dataset scraped from Netflix websites using Phyton.
+- The main tool will be used in this project is MongoDB to store Netflix viewing history , Netflix search queries , user ratings and reviews and Netflix content    metadata.
+- Matplotlib, Seaborn and Tableau will be used to create visualizations of the recommendation system's performance.
+
 
 ## 5. Methodology
 | Components | Description |
 |--|--|
 | Data Collection | collect data from sources such as Netflix Recommendation Algorithm (NRA). This data will be used to train the reccomendation model  |
 | Data Cleaning| clean the collected data to removed irrelevant data or incomplete data such as null in user watching video period. |
-| Data Transforming| Transform the cleaned data into format(____) used by MongoDB |
+| Data Transforming| Transform the cleaned data used by MongoDB |
 | Data Loading| Load transformed data into MongoDB collections |
 | Model Training | Trains the recommendatiob model using machne learning algorithm based on data collected in steps 1 |
 | Reccomendation Generator | Generate recommendations for users based on their previous interaction with the system. |

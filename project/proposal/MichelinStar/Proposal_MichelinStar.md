@@ -177,7 +177,8 @@ The resources needs as below:
    - Kaggle
    - Projectpro.IO
    - Github
-
+   - MangoDB
+ 
 - Other expenses
    
 

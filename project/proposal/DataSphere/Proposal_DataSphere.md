@@ -41,6 +41,8 @@ Customer segmentation enables organisations to more fully comprehend their custo
 
 ## Methodology
 #### Technical risks:
+-Shortage of skills : lack of skills while completing the project 
+
 
 
 

@@ -85,9 +85,12 @@ This project will develop an healthcare analytics platform that will leverage pr
 <table>
 <tr>
   <td><b>1. Data Collection</b></td>
-  <td>The healthcare data is collected from Kaggle and downloaded in csv format. </td>
+  <td>Collect the healthcare data from Kaggle and download them in csv format. </td>
 </tr>
 <tr>
+  <td><b>2. Data storage</b></td>
+  <td>Upload the collected data to the </td>
+</tr>
 </table>
 
   

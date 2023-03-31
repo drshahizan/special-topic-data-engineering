@@ -201,7 +201,7 @@ The resources needs as below:
 - Specify the deliverables that will be provided at each milestone. It should also specify the expected time frame for each deliverable and the resources that will be required to complete the project.
 
 - Explain the quality assurance and testing procedures that will be followed.
-
+![Timeline](https://user-images.githubusercontent.com/120614501/229098758-412eed0b-661c-4b20-8603-63a36570ac1c.png)
   
 
 ## 🎓 Conclusion

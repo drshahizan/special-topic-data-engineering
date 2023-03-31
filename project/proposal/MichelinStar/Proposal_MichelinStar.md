@@ -81,6 +81,15 @@ This project will develop an healthcare analytics platform that will leverage pr
 
 - Provide a flowchart or block diagram of the system architecture.
 
+<b>Overview of system architecture</b><br>
+<table>
+<tr>
+  <td><b>1. Data Collection</b></td>
+  <td>The healthcare data is collected from Kaggle and downloaded in csv format. </td>
+</tr>
+<tr>
+</table>
+
   
 
 ## 📊 Risks and Limitations

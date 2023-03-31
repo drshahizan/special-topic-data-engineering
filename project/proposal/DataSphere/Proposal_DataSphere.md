@@ -41,7 +41,6 @@ Customer segmentation enables organisations to more fully comprehend their custo
 
 ## Methodology
 
-- Explain how the data will be collected and processed.
 - Discuss the software and hardware resources that will be required for the project.
 
 ## System Architecture

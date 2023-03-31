@@ -298,7 +298,12 @@ b) Anonymize the data by removing personal information, and ensure that all data
   </tr>
   <tr>
     <th align= "left">Data transformations</th>
-    <td>Data preprocessing techniques such as converting all text to lowercase, tokenization, removing stop words, stemming, and lemmatization will be used on the collected tweets text.</td>
+    <td>
+      <ul>
+        <li>Data preprocessing techniques such as converting all text to lowercase, tokenization, removing stop words, stemming, and lemmatization will be used on the collected tweets text.</li>
+        <li>Feature extraction, dimensionality reduction, and normalization will be performed on the data before model training.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <th align= "left">Machine learning algorithms</th>

@@ -405,16 +405,16 @@ gantt
     
 - WEEK 10 - 12 : ` Dashboard Design and Development`
 
-  > Design and development the dashboard to visualize the product summary in Shopee.
+  > - Design and development the dashboard to visualize the product summary in Shopee.
   
 - WEEK 13 : `Testing and Debugging`
 
-  > Test the dashboard whether it can working properly or not and ensure that it is ready to be used.
-  > Identify errors and remove those errors if there exist.
+  > - Test the dashboard whether it can working properly or not and ensure that it is ready to be used.
+  > - Identify errors and remove those errors if there exist.
 
 - WEEK 14 : `Dashboard deployed and live`
 
-  > Deploy dashboard and make it live where it should change constantly according to the incoming(live) data monthly.
+  > - Deploy dashboard and make it live where it should change constantly according to the incoming(live) data monthly.
 
 ## 🎓Conclusion
 

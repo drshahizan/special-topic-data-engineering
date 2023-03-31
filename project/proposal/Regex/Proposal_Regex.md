@@ -302,9 +302,8 @@ The resources needs as below:
     <td>
       <li>Power BI</li>
       <li>MongoDB</li>
-      <li>Shopee API</li>
+      <li>Postman API</li>
       <li>Visual Studio Code</li>
-      <li>Shopee data scraper</li>
       <li>Python 3.8 r higher with included libraries</li>
     </td>
   </tr>
@@ -339,28 +338,23 @@ gantt
     dateFormat  YYYY-MM-DD
   
     section Data Gathering and Cleaning
-    Data Gathering  :2023-04-02 , 10d
-    Data Cleaning  :2023-04-12 , 4d
+    Data Gathering  :2023-04-02 , 19d
+    Data Cleaning  :2023-04-30 , 7d
   
     section Dashboard Analysis and Modeling
-    Dashboard Analysis            :2023-04-16  , 5d
-    Dashboard Modeling                    :2023-04-30 , 7d
-   
+    Dashboard Analysis            :2023-05-07  , 7d
+    Dashboard Modeling                    :2023-05-14 , 7d
   
     section Data Design and Development
-    Data Design               :2023-05-07 , 7d
-    Data Development       :2023-05-14 , 14d
-  
-    section Integration with E-Commerce Platform
-    Designing User interface            :2023-05-28 , 4d
-    Features add-ons             :2023-06-01 , 10d
-  
+    Data Design               :2023-05-21 , 7d
+    Data Development       :2023-05-28 , 14d
+ 
     section Testing and Debugging
     Live Testing                :2023-06-11 , 2d
     Debugging     :2023-06-13 , 5d
   
     section Dashboard deployed and live
-    Dashboard deployed      :2023-06-18 , 3d
+    Dashboard deployed      :2023-06-18  , 3d
     Dashboard live      :2023-06-21 , 4d
   
   ```
@@ -394,10 +388,9 @@ gantt
 
 ## 🎓Conclusion
 
-- Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
+In conclusion, the proposed Shopee Supermarket Sales Performance Dashboard project is a powerful solution for business since it can provide valuable insights for businesses looking to optimize their sales strategy and increase revenue on Shopee. Other than that, the dashboard enables business owners to monitor sales performance, identify top-performing products and analyze the sales data. From here, this will definitely improve the decision making process of businesses and help them stay competitive in the marketplace.
 
-- Summarize the proposal and reiterate the importance of the project.
+However, there are some challenges that need to be overcome in building a successful dashboard. For example, technical risks like data quality and availability issues, financial and legal risks should also be considered and develop a comprehensive risk management plan that helps to mitigate these risks to ensure the success of the project. 
 
-- Mention any potential limitations or challenges that may arise during the project.
+We believe by approving this proposal, it will bring the benefit to the business at the end of the completion of the project. Since they will be able to gain profit by using this powerful dashboard. We will also try to deliver a high-quality dashboard to solve the client's problem and help their business succeed on Shopee.
 
-- Provide a call to action for the client to approve the proposal and proceed with the project.

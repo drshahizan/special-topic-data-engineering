@@ -7,30 +7,14 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-<!---
-Module X: XXX
+# Task 1: Additional Notes
 
-Group XXXX
-1. XXXX
-2. XXXX
-3. XXXX
-4. XXXX
+Task 1 requires you to create supplementary notes for one module, based on the provided lecture notes. Please select a topic in the [notes subtopic](https://github.com/drshahizan/special-topic-data-engineering#notes). You are allowed to use various resources such as ChatGPT, websites, articles, and books to generate these notes. [Software Engineering: Module 1](https://github.com/drshahizan/software-engineering/blob/main/materials/sec02/mod1.md) can serve as an example of the type of additional notes that are required.
 
--->
-
-# Module X: Data Engineer, Data Engineering, Data Science, Data Scientist
-
-### Contents:
-#### Notes
-- [Abc](#abc)
-
-### Others
-- [xyz](https://utm.my)
-
-
-## ABC
-Software engineering is an essential field of study that deals with the design, development, and maintenance of software applications. It plays a vital role in the development and success of modern technology. Here are some of the reasons why software engineering is important:
-
+## Instructions
+1. To create a record of your group and the desired module, please input the relevant information into this [Google Sheets](https://docs.google.com/spreadsheets/d/16eKnUHr0a1FUC2fl7ja2W5FrzwHZN1us-GK4_jhvZD8/edit?usp=sharing) file. You are required to provide the group name and the name of the module you wish to create in the designated fields.This task should be completed in a group of four students.
+2. Save the file in the [notes](./notes) folder and name it `modX.md`, where `X` refers to the module number.
+3. Use only markdown files and you can utilize tools like https://stackedit.io/ or Visual Studio Code to create the notes.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
@@ -38,5 +22,6 @@ Please create an [Issue](https://github.com/drshahizan/special-topic-data-engine
 You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
+
 
 

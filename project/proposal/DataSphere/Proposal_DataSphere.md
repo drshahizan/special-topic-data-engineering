@@ -25,8 +25,16 @@
 - Provide a background to the problem that the proposed data science project aims to solve. This should include a clear explanation of the current situation, the problems faced, and the potential benefits of the proposed solution.
 
 ## Goals and Objectives
-- Provide a brief introduction about the project, its objective, and its significance. These should be measurable and tied to the overall business objectives of the organization.
-- Describe the problem statement that needs to be solved.
+In order to enhance marketing and sales strategies, boost customer satisfaction and retention, and ultimately spur business growth, it is important to better understand and target certain groups of customers based on their traits, requirements, and habits.
+
+1. Using data from demographics, psychographics, behaviour, and preferences, identify unique client categories.
+2. Examine client data to comprehend the requirements and buying habits of each category.
+3. Create marketing campaigns and messages that are relevant to each demographic.
+4. Design tailored experiences for each group to increase client happiness and adherence.
+5. Evaluate and assess segmentation strategies' efficacy to continuously enhance and hone strategies.
+6. Understanding and applying MongoDB to develop a recommendation engine 
+
+Customer segmentation enables organisations to more fully comprehend their customers and deliver individualised experiences that may increase customer loyalty, pleasure, and return on investment (ROI)
 
 ## Scope
 - This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.

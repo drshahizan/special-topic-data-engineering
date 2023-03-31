@@ -18,7 +18,10 @@ Group XXXX
 
 -->
 
-# Module X: Data Engineer, Data Engineering, Data Science, Data Scientist
+# Module 9: Visualization
+
+### Introduction
+RData visualization is the process of representing data graphically to help people understand and make sense of complex data. Visualization tools in data science allow users to create visual representations of data, such as charts, graphs, and maps, that can be easily interpreted and analyzed. Some popular data visualization tools include Tableau, Power BI, Google Data Studio, and D3.js. These tools provide a range of features and capabilities, such as the ability to create interactive dashboards, explore data in real-time, and collaborate with others on visualizations. Data visualization is an important part of the data analysis process, as it helps to uncover patterns, trends, and insights in the data that might not be apparent from raw data alone.
 
 ### Contents:
 #### Notes

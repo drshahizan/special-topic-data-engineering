@@ -168,7 +168,7 @@ The key deliverables and milestones:
 
 **1. Data collection and cleaning**
      
-This involves gathering sales data from Shopee Supermarket, such as product name, price and quantity sold by using APIs provided. Following the collection of  data, data pre-processing tasks such as cleaning, filtering, and transforming the data into usable format will be performed.
+This involves gathering sales data from Shopee Supermarket, such as product name, price and quantity sold by using APIs provided and display data in real time using MongoDB's real-time data ingestion. Following the collection of  data, data pre-processing tasks such as cleaning, filtering, and transforming the data into usable format will be performed.
 
 **2. Data analysis and modeling**
 
@@ -178,15 +178,11 @@ Analyze the sales data by grouping the data and calculating metrics with MongoDB
 
 Designing the dashboard's layout and visualisations based on sales analysis results, such as charts or graphs, to identify top-selling products and understand sales trends.
 
-**4. Integration with e-commerce platform**
-
-Integrating the dashboard with the e-commerce platform to collect data and display data insights in real time using MongoDB's real-time data ingestion.
-
-**5. Testing and debugging**
+**4. Testing and debugging**
 
 Testing the dashboard to ensure its functionality and debugging any issues that arise.
 
-**6. Deployment and maintenance**
+**5. Deployment and maintenance**
 
 Launching the dashboard and ensuring that it is maintained and updated as necessary.
 
@@ -197,19 +193,15 @@ Launching the dashboard and ensuring that it is maintained and updated as necess
   </tr>
   <tr>
     <td>Data gathering and cleaning</td>
-    <td>End of week 4</td>
+    <td>End of week 5</td>
   </tr>
   <tr>
     <td>Data analysis and modeling</td>
-    <td>End of week 7</td>
+    <td>End of week 8</td>
   </tr>
   <tr>
     <td>Dashboard design and development</td>
-    <td>End of week 10</td>
-  </tr>
-    <tr>
-    <td>Integration with e-commerce platform</td>
-    <td>End of week 12</td>
+    <td>End of week 11</td>
   </tr>
     <tr>
     <td>Testing and debugging</td>
@@ -237,8 +229,9 @@ The resources needs as below:
    - Computer/Laptop
  
 - Software
+   - Shopee API 
    - MongoDB
-   - Django
+   - Django/Visual Studio Code
    - Power BI
   
 - Other expenses

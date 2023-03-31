@@ -298,9 +298,8 @@ The resources needs as below:
     <td>
       <li>Power BI</li>
       <li>MongoDB</li>
-      <li>Shopee API</li>
+      <li>Postman API</li>
       <li>Visual Studio Code</li>
-      <li>Shopee data scraper</li>
       <li>Python 3.8 r higher with included libraries</li>
     </td>
   </tr>
@@ -335,28 +334,23 @@ gantt
     dateFormat  YYYY-MM-DD
   
     section Data Gathering and Cleaning
-    Data Gathering  :2023-04-02 , 10d
-    Data Cleaning  :2023-04-12 , 4d
+    Data Gathering  :2023-04-02 , 19d
+    Data Cleaning  :2023-04-30 , 7d
   
     section Dashboard Analysis and Modeling
-    Dashboard Analysis            :2023-04-16  , 5d
-    Dashboard Modeling                    :2023-04-30 , 7d
-   
+    Dashboard Analysis            :2023-05-07  , 7d
+    Dashboard Modeling                    :2023-05-14 , 7d
   
     section Data Design and Development
-    Data Design               :2023-05-07 , 7d
-    Data Development       :2023-05-14 , 14d
-  
-    section Integration with E-Commerce Platform
-    Designing User interface            :2023-05-28 , 4d
-    Features add-ons             :2023-06-01 , 10d
-  
+    Data Design               :2023-05-21 , 7d
+    Data Development       :2023-05-28 , 14d
+ 
     section Testing and Debugging
     Live Testing                :2023-06-11 , 2d
     Debugging     :2023-06-13 , 5d
   
     section Dashboard deployed and live
-    Dashboard deployed      :2023-06-18 , 3d
+    Dashboard deployed      :2023-06-18  , 3d
     Dashboard live      :2023-06-21 , 4d
   
   ```

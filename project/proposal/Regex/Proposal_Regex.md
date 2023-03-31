@@ -390,10 +390,9 @@ gantt
 
 ## 🎓Conclusion
 
-- Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
+In conclusion, the proposed Shopee Supermarket Sales Performance Dashboard project is a powerful solution for business since it can provide valuable insights for businesses looking to optimize their sales strategy and increase revenue on Shopee. Other than that, the dashboard enables business owners to monitor sales performance, identify top-performing products and analyze the sales data. From here, this will definitely improve the decision making process of businesses and help them stay competitive in the marketplace.
 
-- Summarize the proposal and reiterate the importance of the project.
+However, there are some challenges that need to be overcome in building a successful dashboard. For example, technical risks like data quality and availability issues, financial and legal risks should also be considered and develop a comprehensive risk management plan that helps to mitigate these risks to ensure the success of the project. 
 
-- Mention any potential limitations or challenges that may arise during the project.
+We believe by approving this proposal, it will bring the benefit to the business at the end of the completion of the project. Since they will be able to gain profit by using this powerful dashboard. We will also try to deliver a high-quality dashboard to solve the client's problem and help their business succeed on Shopee.
 
-- Provide a call to action for the client to approve the proposal and proceed with the project.

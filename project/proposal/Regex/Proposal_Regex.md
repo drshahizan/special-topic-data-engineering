@@ -137,10 +137,13 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 ```mermaid
 
 flowchart TD;
-    id1[Shopee Website] <--Get products and sold amount--> id2[API Scraper]
-    id2[API Scraper] --> id3[(Database)]
-    id3[(Database)] --> id4[Data Preparation]
-    id4[Data Preparation] --> id5[Data Analysis]
+    id1([start])-->id2[Shopee Website]
+    id2[Shopee Website] <--Get products and sold amount--> id3[API Scraper]
+    id3[API Scraper] --> id4[(Database)]
+    id4[(Database)] --> id5[[Data Preparation]]
+    id5[[Data Preparation]] --> id6[Model Training]
+    id6[Model Training] --> id7[Application Deployment]
+    id7[Application Deployment] --> id8([End])
 ```
   
 

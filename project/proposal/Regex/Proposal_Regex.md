@@ -377,8 +377,8 @@ gantt
   
 - WEEK 5 - 6 : `Dashboard Analysis and Modeling`
 
-  > Analysis
-  > Modeling
+  > - Analysis
+  > - Modeling
   
 - WEEK 7 - 10 : ` Data Design and Development`
 

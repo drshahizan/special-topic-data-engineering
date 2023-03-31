@@ -324,11 +324,8 @@ gantt
     Data Development       :2023-05-14 , 14d
   
     section Integration with E-Commerce Platform
-    Simple data chart            :2023-05-28 , 4d
-    ML visualization             :2023-06-01 , 10d
-    Designing User interface  :2023-05-25 , 11d
-    Features add-ons          :2023-06-04 , 8d
-    Modul insert              :2023-06-11 , 6d
+    Designing User interface            :2023-05-28 , 4d
+    Features add-ons             :2023-06-01 , 10d
   
     section Testing and Debugging
     Live Testing                :2023-06-11 , 2d

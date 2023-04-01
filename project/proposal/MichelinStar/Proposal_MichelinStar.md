@@ -166,15 +166,29 @@ A device with:
 <ul>
 <li>Software requirements: <br>
 MongoDB is compatible with:  
-<ul> 
-<li>operating system - Linux / Windows / macOS</li>
-<li>programming languages - Python</li>
-<li>framework - Django</li>
-<li>Graphical User Interfaces (GUI) - MongoDB Atlas / MongoDB Compass</li>
-<li>integrated development environment (IDE) - VS Code</li>
-</ul>
+<table> 
+<tr>
+<td>operating system</td> <td>Linux / Windows / macOS</td>
+</tr>
+<tr>
+<td>programming languages</td> <td>Python</td>
+</tr>
+<tr>
+<td>framework</td> 
+<td>Django</td>
+</tr>
+<tr>
+<td>Graphical User Interfaces (GUI)</td> 
+<td>MongoDB Atlas / MongoDB Compass</td>
+</tr>
+<tr>
+<td>integrated development environment (IDE)</td> <td>VS Code</td>
+</tr>
+</table>
 </li>
-</ul>
+</ul><br>
+
+<b>Flowchart of system architecture:</b><br>
 
 
 

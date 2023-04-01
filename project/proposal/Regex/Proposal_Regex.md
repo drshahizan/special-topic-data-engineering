@@ -430,7 +430,7 @@ gantt
   </div>
 
 
-#### Detailed timeline
+**Detailed timeline**
 
 - WEEK 3 - 7 : `Data Gathering and Cleaning`
   > - Gather product data and store the data in MongoDB.
@@ -454,33 +454,33 @@ gantt
   > - Deploy dashboard and make it live where it should change constantly according to the incoming(live) data monthly.
   
 
-#### Deliverables and resources
+**Deliverables and resources**
 
-- Data Gathering and Cleaning
-  > - Deliverables : 
-  > - Resources : 
+Data Gathering and Cleaning
+  - Deliverables : 
+  - Resources : 
   
-- Data Analysis and Modeling
+Data Analysis and Modeling
 
-  > - Deliverables : 
-  > - Resources : 
+  - Deliverables : 
+  - Resources : 
     
-- Dashboard Design and Development
-  > - Deliverables : 
-  > - Resources : Design and development the dashboard to visualize the product summary in Shopee.
+Dashboard Design and Development
+  - Deliverables : 
+  - Resources : Design and development the dashboard to visualize the product summary in Shopee.
   
-- Testing and Debugging
+Testing and Debugging
 
-  > - Deliverables : 
-  > - Resources : 
+  - Deliverables : 
+  - Resources : 
 
-- Dashboard deployed and live
+Dashboard deployed and live
 
-  > - Deliverables : 
-  > - Resources : 
+  - Deliverables : 
+  - Resources : 
   
   
-#### Quality assurance and testing procedures
+**Quality assurance and testing procedures**
 
 ## 🎓Conclusion
 

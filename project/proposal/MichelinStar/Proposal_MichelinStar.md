@@ -282,14 +282,6 @@ The resources needs as below:
 
 ## 📱 Technical Specifications
 
-- Discuss the technical specifications of the proposed data science project, including data sources, data schema, data transformations, machine learning algorithms, data visualization tools, and other technical details.
-
-- Mention the programming languages, frameworks, and libraries that will be used in the project.
-
-- Provide details about the hardware and software requirements for the proposed system.
-
-- Explain the data security measures that will be implemented.
-
 <table>
   <tr>
     <td>Data sources</td>

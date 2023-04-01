@@ -430,7 +430,7 @@ gantt
   </div>
 
 
-**Detailed timeline**
+**1. Detailed timeline**
 
 - WEEK 3 - 7 : `Data Gathering and Cleaning`
   > - Gather product data and store the data in MongoDB.
@@ -453,8 +453,9 @@ gantt
 
   > - Deploy dashboard and make it live where it should change constantly according to the incoming(live) data monthly.
   
+<br>
 
-**Deliverables and resources**
+**2. Deliverables and resources**
 
 Data Gathering and Cleaning
   - Deliverables : 
@@ -479,8 +480,9 @@ Dashboard deployed and live
   - Deliverables : 
   - Resources : 
   
-  
-**Quality assurance and testing procedures**
+<br>
+ 
+**3. Quality assurance and testing procedures**
 
 ## 🎓Conclusion
 

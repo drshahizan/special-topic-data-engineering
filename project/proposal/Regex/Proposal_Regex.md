@@ -429,6 +429,7 @@ gantt
   ```
   </div>
 
+<br>
 
 **1. Detailed timeline**
 

@@ -1,5 +1,5 @@
 <div>
-<h1 align = 'center'><b>Customer Segmentation	📄: <br> Product Feature</b></h1>
+<h1 align = 'center'><b>📄Customer Segmentation	<br> for Product Development Strategy</b></h1>
   </div>
 
 ## Table of Contents
@@ -50,25 +50,76 @@ In order to enhance marketing and sales strategies, boost customer satisfaction 
 Customer segmentation enables organisations to more fully comprehend their customers and deliver individualised experiences that may increase customer loyalty, pleasure, and return on investment (ROI)
 
 ## Scope
-- This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
+The objective of this project is to improve an organisations performance in terms of decision making and customer overall experience. With this known, the scope of this project will be :
+
+- **Data Source** : In this project, dataset from ``not determined`` will be used
+- **Tools & Technologies** : ``how to get data``, and store it in MongoDB. Which then will be cleaned and prepared using `Pandas`, `Numpy` and `MongoDB Aggregation`. Clustering algorithms using `scikit-learn`, `TensorFlow` and `PyTorch` libraries will be applied on the cleaned data. Findings will be visualised using `Tableau` or `PowerBI`.
+- **Resources** : 
+  - Team of 5 people.
+  - Each team member posses skills from gathering appropriate data to visualising data, using tools and technologies listed.
+  - Adequate hardware and software to progress.
 
 ## Methodology
-- Data collection : Gather information on customer preferences, product features with age and gender preferences, and other pertinent information using the data scraping method. 
+- ``Data collection`` : Gather information on customer preferences, product features with age and gender preferences, and other pertinent information using the data scraping method. 
 
-- Data cleaning and processing : The collected data will be cleaned, filtered, pre-processed to remove duplicate data.
+- ``Data cleaning and processing`` : The collected data will be cleaned, filtered, pre-processed to remove duplicate data.
 
-- Data analysis : Data analysis utilizing descriptive statistics and exploratory data analysis methods comes after the data have been cleaned. This will make it easier to spot patterns and trends in the information.
+- ``Data analysis`` : Data analysis utilizing descriptive statistics and exploratory data analysis methods comes after the data have been cleaned. This will make it easier to spot patterns and trends in the information.
 
-- Machine learning algorithms : Based on the gathered data, machine learning algorithms can be utilized to anticipate the customer choice. Hence, can build a model utilizing supervised learning methods like regression or classification.
+- ``Machine learning algorithms`` : Based on the gathered data, machine learning algorithms can be utilized to anticipate the customer choice. Hence, can build a model utilizing supervised learning methods like regression or classification.
 
-- Data visualization : Use data visualization approaches to illustrate the relationship between product feature patterns, analysis, and machine learning algorithms. Tools like Tableau and Python packages like Matplotlib and Seaborn can be used for this.
+- ``Data visualization`` : Use data visualization approaches to illustrate the relationship between product feature patterns, analysis, and machine learning algorithms. Tools like Tableau and Python packages like Matplotlib and Seaborn can be used for this.
 
 
 ## System Architecture
-- Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
-- Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
-- Discuss the tools and frameworks that will be used for data visualization and analysis.
-- Provide a flowchart or block diagram of the system architecture.
+
+The system will consist of the following components:
+1. ``Data acquisition: `` Customer information will be gathered from a variety of sources, including CRM systems, marketing campaigns, website analytics, and social media platforms, by the data acquisition component. Real-time data collection and storage in a centralised database will make it simple to obtain the information.
+
+2. ``Data storage:`` **MongoDB** will be the main database used by the data storage component to store and manage the customer data. A NoSQL database called MongoDB offers adaptable data formats and simple scalability. A cloud-based server will host the database to guarantee high availability and data protection.
+
+3. ``Data preprocessing:`` The component of data preprocessing will clean, transform, and prepare the data for analysis. Duplicates, missing values, and irrelevant features will be removed. Preprocessing will also include feature engineering, such as the creation of new variables that extract meaningful information from the data.
+
+4. ``Data analysis and modeling:`` The data analysis and modelling component will identify customer segments based on their behaviour, preferences, and demographics by employing various statistical and machine learning techniques. Python and its data science libraries such as NumPy, Pandas, and Scikit-learn will be used for the analysis. The models will be trained using MongoDB customer data and validated using cross-validation techniques.
+
+5. ``Model deployment:`` Flask, a Python web framework, will be used by the model deployment component to deploy machine learning models to a web server. Predictions based on user input will be provided via API endpoints. Setting up a continuous integration and delivery pipeline will also be part of the deployment to ensure that the models are up to date and accurate.
+
+6. ``Model monitoring and maintenance:`` The model monitoring and maintenance component will continuously monitor the models' performance and retrain them as needed. MongoDB's change stream feature, which provides real-time notifications when data changes, will be used for monitoring. Updating the models to account for new data sources and changing customer behaviour will be part of the maintenance.
+
+7. ``Visualization and reporting`` The visualisation and reporting component will create interactive dashboards and reports using data visualisation tools such as Tableau, Power BI, or Matplotlib. Stakeholders will be able to monitor key performance indicators (KPIs) such as customer retention, acquisition, and engagement using these dashboards.
+
+8. ``Workflow and collaboration:`` To track progress, assign tasks, and collaborate with team members, the workflow and collaboration component will use project management tools like **Trello** or **Asana**. In addition, the team will use version control software such as Git to ensure that all changes to the codebase are tracked and easily reversible.
+
+**Hardware and Software Requirements**
+
+The following hardware and software will be required to support the proposed system architecture:
+
+<table border="1" align="center">
+  <tr>
+    <th>Hardware</th>
+    <th>Software</th>
+  </tr>
+  <tr>
+    <td>Cloud-based server (e.g., AWS EC2, GCP Compute Engine, or Azure VM)</td>
+    <td>MongoDB as the primary database</td>
+  </tr>
+   <tr>
+      <td>Adequate storage for the customer data (e.g., AWS S3, GCP Cloud Storage, or Azure Blob Storage)</td>
+      <td>Python and its data science libraries (NumPy, Pandas, Scikit-learn, etc.)</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Flask for model deployment</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Data visualization tools (Tableau, Power BI, Matplotlib, etc.)</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Project management tools (Trello, Asana, etc.)</td>
+    </tr>
+  </table>
 
 ## Risks and Limitations
 #### Technical risks:
@@ -105,16 +156,46 @@ Customer segmentation enables organisations to more fully comprehend their custo
 | Deliverables and Milestones | Timeframe  |
 |----------|:-------------:|
 | Planning and Requirements Gatherings | Week 1-2 |
-| Data Exploration and Cleaning | Week 3-5 |
-| Feature Engineering | Week 6 |
+| Data Exploration and Cleaning | Week 3-4 |
+| Feature Engineering | Week 5-6 |
 | Model Selection and Training | Week 7-8 |
-| Model Deployment and Testing | Week 9-12 |
-| Presentation result | Week 13-14 | 
+| Model Deployment | Week 9-11 |
+| Model Monitoring and Maintenance | Week 12-13 |
+| Presentation | Week 14 | 
 
 </div>
 
 ## Resources
-- Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.
+
+1. **Staff**: 
+ 
+The project will require a team of experienced data scientists and engineers with expertise in the areas such as data analysis and modeling, machine learning, database management, software development, data visualization, and project management.
+
+- Project manager
+- Data scientist
+- Machine learning engineer
+- Database administrator
+- Software developer
+- Data visualization specialist
+
+2. **Equipment**:
+- ``Cloud-based server:`` This will be used to host the MongoDB database and run the web server for model deployment. The cost will depend on the size and configuration of the server.
+- ``Workstations:`` The team will require high-performance workstations to run the data analysis and modeling software. The cost will depend on the configuration of the workstations.
+
+3. **Software**:
+- MongoDB: This will be the primary database for storing and managing customer information.
+- Python: For data analysis and modelling, machine learning, and software development.
+- Flask: This is where the machine learning models will be deployed to a web server.
+- Data visualization tools: These software will be used to create interactive dashboards and reports.
+- Project management tools: This will be used to keep track of progress, assign tasks, and collaborate with team members.
+- Version control software: This will be used to track code changes and collaborate with team members.
+- 
+> The cost of the software will depend on whether the team opts for open-source or commercial licenses.
+
+4. **Other Expenses**
+- Cloud storage
+- Training and development
+- Miscellaneous expenses
 
 ## Technical Specifications
 
@@ -141,61 +222,31 @@ Data Security Measures:
 
 ## Timeline and Deliverables
 
-<div class="mermaid">
-  
-  ```mermaid
-gantt
-    title Product Feature Project Gantt Chart
-    dateFormat  YYYY-MM-DD
-
-    section Planning and Requirements Gatherings
-    Requirements Gatherings  :2023-03-19 , 14d
-  
-    section Data Exploration and Cleaning
-    Data Collection            :2023-04-02  , 10d
-    Data Cleaning              :2023-04-12 , 6d
-    Data Analysis              :2023-04-18 , 5d
-  
-    section Feature Engineering
-    Features identification        :2023-04-23 , 7d
- 
-    section Model Selection and Training
-    Model Selection        :2023-04-30 , 7d
-    Model Training     :2023-05-07 , 7d
-  
-    section Model Deployment and Testing
-    Model Deployed               :2023-05-14 , 21d
-    Testing     :2023-06-04 , 7d
-  
-    section Presentation
-    Final report      :2023-06-11  , 7d
-    Presentation     :2023-06-18 , 7d
-  
-  ```
-  </div>
-
-
 1. Planning and Requirements Gatherings *(Week 1-2)*
-> - **Deliverables**: Project charter and scope and Requirements gathering plan
-> - **Resources**: Github, ChatGPT
+> - Deliverables: Project charter and scope and Requirements gathering plan
+> - Resources: Visual Studio Code
 
-2. Data Exploration and Cleaning *(Week 3-5)*
-> - Deliverables: Data collection, cleaning, pre-processing, transformation and exploration report
+2. Data Exploration and Cleaning *(Week 3-4)*
+> - Deliverables: Data cleaning, pre-processing, transformation and exploration report
 > - Resources: Python/web-scraper, MongoDB, Visual Studio Code
 
-3. Feature Engineering *(Week 6)*
-> - Deliverables:  Identify the relevant features for product feature segmentation
+3. Feature Engineering *(Week 5-6)*
+> - Deliverables: Feature engineering plan and implementation Feature importance analysis
 > - Resources: Python
 
 4. Model Selection and Training *(Week 7-8)*
 > - Deliverables: Model selection report, training plan, implementation and evaluation metrics
 > - Resources: Python
 
-5. Model Deployment and Testing *(Week 9-12)*
-> - Deliverables: Model deployment documentation, testing plan and report, and debugging.
-> - Resources: Visual Studio Code, MongoDB, Github
+5. Model Deployment *(Week 9-11)*
+> - Deliverables: Model deployment plan and implementation, and User acceptance testing (UAT) report
+> - Resources: Visual Studio Code
 
-7. Presentation *(Week 13-14)*
+6. Model Monitoring and Maintenance *(Week 12-13)*
+> - Deliverables: Model monitoring plan, maintenance plan and schedule
+> - Resources: Visual Studio Code, MongoDB
+
+7. Presentation *(Week 14)*
 > - Deliverables: Final project report and project presentation slides
 > - Resources: Power BI/Tableau , Canva
 

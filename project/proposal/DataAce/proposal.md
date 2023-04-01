@@ -77,17 +77,17 @@ The system architecture consists of several components that work together to pro
 ![system architecture](sysarchitecture.jpg)
 
 
-1. MongoDB Database: This component serves as the primary data storage for the system. The database will contain the original dataset uploaded from Kaggle, as well as any new incoming synthetic data that is processed using TensorFlow.
+1. MongoDB Database: This component serves as the primary data storage for the system. The database will contain the original dataset uploaded from Kaggle.
 
-2. TensorFlow: This component will be used to process new incoming synthetic data, label it, and prepare it for entry into the MongoDB database. TensorFlow will be used to build and train a machine learning model on the original dataset, which will then be used to label new incoming data.
+2. TensorFlow: TensorFlow will be used to build and train a machine learning model on the dataset.
 
-3. Python Script: This component will be used to connect to the MongoDB database, generate synthetic transactional data using the Faker Python library, process it using TensorFlow, and enter the labeled data back into the database.
+3. Python Script: This component will be used to connect to the MongoDB database, prepping data using Pandas and Numpy, build model using TensorFlow, and enter the labeled data back into the database.
 
-4. MongoDB Charts: This component will be used to produce a dashboard that visualizes the data stored in the MongoDB database. The dashboard will display metrics and insights derived from the data, and will be updated in real-time as new data is added to the database.
+4. MongoDB Charts: This component will be used to produce a dashboard that visualizes the data stored in the MongoDB database. The dashboard will display metrics and insights derived from the data.
 
 5. Web Application: This component will be used to embed the MongoDB Charts dashboard and make it available to end-users. The website will provide a user-friendly interface for interacting with the dashboard and exploring the data stored in the MongoDB database.
 
-Overall, this system architecture leverages the power of machine learning and MongoDB to process and visualize data in real-time. By using TensorFlow to label incoming synthetic data, the system can generate new insights and metrics that can be used to improve business processes and decision-making. The MongoDB Charts dashboard provides a convenient and user-friendly way to explore this data, making it accessible to a wide range of management levels.
+Overall, this system architecture leverages the power of machine learning and MongoDB to process and visualize data. By using TensorFlow to build machine learning model, the system can generate new insights and metrics that can be used to improve business processes and decision-making. The MongoDB Charts dashboard provides a convenient and user-friendly way to explore this data, making it accessible to a wide range of management levels.
 
 
 ## :pushpin: Risks and Limitations:
@@ -168,69 +168,16 @@ There are several risks and limitations that need to be considered when building
 3. Infrastucture : if planning to host on own server
 
 ## :card_file_box: Technical Specifications:
- ## :card_file_box: Technical Specifications:
-<table>
-  <tr>
-    <th align= "left">Data sources</th>
-    <td>Data retrieve from Kaggle https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud </td>
-  </tr>
-  <tr>
-    <th align= "left">Data schema</th>
-    <td>Dataset contains features V1 until V8 obtained with PCA. Due to confidentiality issues, the original features and background information on the data cannot be provided. 'Time' and 'Amount' are also the features.</td>
-  </tr>
-  <tr>
-    <th align= "left">Data transformations</th>
-    <td>
-      <ul>
-        <li>Balancing the dataset as it is imbalanced.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <th align= "left">Machine learning algorithms</th>
-    <td>
-      <ul>
-	<li>Classification, Logistic Regression, SMOTE</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <th align= "left">Data visualization tools</th>
-    <td>MongoDB charts, Tableau, PowerBI</td>
-  </tr>
-  <tr>
-    <th align= "left">Programming language</th>
-    <td>Python, MongoDB Query Language (MQL), CSS, PHP, Javascript</td>
-  </tr>
-  <tr>
-    <th align= "left">Frameworks</th>
-    <td>Django, TensorFlow</td>
-  </tr>
-  <tr>
-    <th align= "left">Libraries</th>
-    <td>Matplotlib, Seaborn, Scikit learn, Numpy, Djongo</td>
-  </tr>
-  <tr>
-    <th align= "left">Hardware & software requirements</th>
-    <td>
-      <ul>
-        <li>A computer or server with at least 8GB of RAM (recommended 16GB or more)</li>
-        <li>Sufficient storage to store the data and environment</li>
-        <li> Windows operating system (recomended) installed with all softwares mentioned such as MongoDB and Django</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <th align= "left">Data security measures</th>
-    <td>
-	  <ul>
-	    <li>Authentication and authorization : only authorized users can have access to sensitive data and functionalities.</li>
-	    <li>Data encryption : to protect sensitive data</li>
-	    <li>Regular updates : always update the web application if there is any improvements need to be done.</li>
-	  </ul>
-	</td>
-  </tr>
-</table>
+ - Data Sources
+ - Data Schema
+ - Data Transformations
+ - Machine Learning Algorithms
+    - Logistic regression, decision trees, and random forests. 
+    - Train the models using the preprocessed data stored in the MongoDB database.
+ - Data Visualization Tools
+ -  Programming Languages, Frameworks, and Libraries
+ -  Hardware and Software Requirements
+ -  Data Security Measures 
 
 ## :date: Timeline and Deliverables: 
 **Detailed Timeline:**

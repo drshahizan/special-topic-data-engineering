@@ -167,8 +167,6 @@ There are several risks and limitations that need to be considered when building
 2. Data acquisition and storage
 3. Infrastucture : if planning to host on own server
 
-## :card_file_box: Technical Specifications:
- ## :card_file_box: Technical Specifications:
  ## :card_file_box: Technical Specifications:
 <table>
   <tr>

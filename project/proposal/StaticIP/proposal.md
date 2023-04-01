@@ -74,14 +74,14 @@ To illustrate the system architecture, we have provided a flowchart below:
 
 ```
                      +------------+
-                     |    User           |
+                     |    User    |
                      +------------+
                            |
                            |
                            |
                            v
                      +------------+
-                     |   Server         |
+                     |   Server   |
                      +------------+
                            |
                            |
@@ -95,9 +95,10 @@ To illustrate the system architecture, we have provided a flowchart below:
                            |
                            v
           +--------------------------+
-          | Data visualization tools       |
-          | Data analysis frameworks  |
+          | Data visualization tools |
+          | Data analysis frameworks |
           +--------------------------+
+
 ```
 
 Last but not least, the proposed system design will be built using a combination of high-performance hardware and software, MongoDB, and tools and frameworks for data visualisation and analysis. This will provide the system with a stable and secure environment while ensuring effective data management, storage, and analysis.

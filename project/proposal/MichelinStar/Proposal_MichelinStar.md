@@ -282,15 +282,16 @@ The resources needs as below:
 
 - Staff
 
-   - Data Scientist: 
+   - Data Scientist: Data Scientist need to make some of the data analysis and statistical analysis.
 
-   - Data Engineer:
+   - Data Engineer: Data Engineer need to design data architecture, develope data pipelines and of course ensuring data quality
 
-   - Project Manager:
+   - Project Manager: Project Manager need to handle project planning, risk management, resource allocation, communication and team management.
 
 - Equipment
    - Computer
    - Laptop
+  <br>
 - Software
    - Kaggle Datasets: Kaggle Datasets is a collection of public datasets that you can use for machine learning tasks, including heart disease prediction. The datasets are hosted on Kaggle and can be easily downloaded and used in your machine learning models.
 
@@ -299,9 +300,10 @@ The resources needs as below:
    - TensorFlow: TensorFlow is an open-source machine learning framework developed by Google. It has a large community of developers and supports a wide range of machine learning tasks, including heart disease prediction.
 
    - Scikit-learn: Scikit-learn is a popular machine learning library in Python, and has several algorithms for classification tasks. It is easy to use and has good documentation.
-
- 
+ <br>
 - Other expenses
+  - Cloud computing costs
+  - Annotation costs
    
 
 ## 📱 Technical Specifications

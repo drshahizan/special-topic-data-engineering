@@ -86,7 +86,15 @@ flowchart TD;
   ```
 Steps of store and analyse data:
 
-• `Data :`
+• `Data acquisition:` Collect data from Malaysia Energy Information Hub (MEIH) portal: https://meih.st.gov.my/statistics
+
+• `Data atorage:` MongoDB will be used for NoSQL database. The data will also be stored at cloud database which is AWS cloud platform that could provide data security and it is easy to use.
+
+• `Data preprocessing:` This step is to remove unwanted data and handle all the missing values, outliers and inconsistent data that could affect the result and accuracy of data analysis.
+
+• `Data modeling:` The data is being analysed by using the algorithms such as regression and classification. This process also involves machine learning to make predictions about the data.
+
+• `Model development:` 
 
 #### 
 Last but not least, the proposed system design will be built using a combination of high-performance hardware and software, MongoDB, and tools and frameworks for data visualisation and analysis. This will provide the system with a stable and secure environment while ensuring effective data management, storage, and analysis.

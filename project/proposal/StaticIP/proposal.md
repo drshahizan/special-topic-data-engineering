@@ -65,7 +65,7 @@
 
 • `Hardware and software requirements:` To support its complex data processing and analysis needs, the system will need high-performance hardware and software. This entails quick processors, lots of RAM, and SSD storage for quick data access. For a stable and secure setting, we will also use Apache web server and Linux-based operating systems.
 
-• `Data visualization and analysis tools and frameworks:` To visualise and examine the data from the system, we will employ a variety of structures and tools. These include live data analysis and visualisation tools like Jupyter Notebooks, data manipulation and analysis tools like Pandas, and data visualisation tools like D3.js.
+• `Data visualization and analysis tools and frameworks:` To visualise and examine the data from the system, we will employ a variety of structures and tools. For live data analysis and visualisation tools, we will be using visual studio code, while for data manipulation and analysis tools, we will be using Python libraries such as Pandas, Numpy, Matplotlib, Seaborn.  To visualize the data, we will use Power BI.
 
 To illustrate the system architecture, we have provided a flowchart below:
 
@@ -73,11 +73,11 @@ To illustrate the system architecture, we have provided a flowchart below:
   
 flowchart TD;
     A([Start]) --> B[Collect data from Malaysia Energy Information Hub]
-    B --> C[(Preprocess and clean data using Pandas)]
-    C --> D[Store data into MongoDB database]
+    B --> C[Preprocess and clean data using Pandas]
+    C --> D[(Store data into MongoDB database)]
     D --> E[Perform EDA on data]
     E --> F[Perform modeling]
-    F --> G[Store new data into MongoDB]
+    F --> G[(Store new data into MongoDB)]
     G --> H[Connect Power BI to MongoDB database]
     H --> I[Import data into Power BI Desktop]
     I --> J[Create visualizations using Power BI]	
@@ -86,17 +86,16 @@ flowchart TD;
   ```
 Steps of storing and analysing data:
 
-• `Data acquisition:` Collect data from Malaysia Energy Information Hub (MEIH) portal: https://meih.st.gov.my/statistics
-
-• `Data storage:` MongoDB will be used for NoSQL database. The data will also be stored at cloud database which is AWS cloud platform that could provide data security and it is easy to use.
+• `Data acquisition:` Collect data from Malaysia Energy Information Hub (MEIH) portal: https://meih.st.gov.my/statistics .
 
 • `Data preprocessing:` This step is to remove unwanted data and handle all the missing values, outliers and inconsistent data that could affect the result and accuracy of data analysis.
+
+• `Data storage:` MongoDB will be used for NoSQL database. All data including the preprocssed data and the data model will be store into MongoDB database. The data will also be stored at cloud database which is AWS cloud platform that could provide data security and it is easy to use.
 
 • `Data modeling:` Libraries like Pandas and Numpy will be used to analyse the data. Algorithms such as regression and classification will be carried out in this step. This process also involves machine learning to make predictions about the data.
 
 • `Visualization and reporting:` Tools like Tableau and Power BI will be used to visualize the result of the analysis into charts and graphs. Power BI will be connected to MongoDB and the data will be imported into Power BI. It then creates an interactive dashboard for users to get a better insights of the data. After that, the dashboard will be embed to the websites with explanations and descriptions of the data analysis.
 
-#### 
 Last but not least, the proposed system design will be built using a combination of high-performance hardware and software, MongoDB, and tools and frameworks for data visualisation and analysis. This will provide the system with a stable and secure environment while ensuring effective data management, storage, and analysis.
 
 ## 💣 Risks and Limitations

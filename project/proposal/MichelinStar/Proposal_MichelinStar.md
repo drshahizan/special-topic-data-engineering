@@ -141,12 +141,16 @@ The steps to store csv files into MongoDB are shown as below: <br>
 <tr>
 <td><b>Managing data</b></td>
 <td>
+Data can be managed by MongoDB through a few aspects including querying data, backup and restoring data, and ensuring security of data. Data can be queried through the CRUD operations which stands for creating, reading, updating and deleting data. MongoDB supports the creation of indexes which aid in improving query performance. 
 
+Data availability can be ensured by using the backup and restoring tools of MongoDB. MongoDB also provide authentication and authorization process to avoid unauthorized access and data encryption in order to enhance the data security. 
 </td>
 </tr>
 <tr>
 <td><b>Analysing data</b></td>
-<td></td>
+<td>
+To analyse the data, we can use the aggregation function in MongoDB which is a pipeline-based framework to carry out complex data analysis through grouping, filtering and tramsforming data in the collection. 
+</td>
 </tr>
 </table>
 

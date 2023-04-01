@@ -1,5 +1,5 @@
 <div>
-<h1 align = 'center'><b>Customer Segmentation	📄: <br> Product Feature</b></h1>
+<h1 align = 'center'><b>📄Customer Segmentation	<br> for Product Development Strategy</b></h1>
   </div>
 
 ## Table of Contents
@@ -72,10 +72,58 @@ The objective of this project is to improve an organisations performance in term
 
 
 ## System Architecture
-- Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
-- Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
-- Discuss the tools and frameworks that will be used for data visualization and analysis.
-- Provide a flowchart or block diagram of the system architecture.
+
+The system will consist of the following components:
+1. ``Data acquisition: `` Customer information will be gathered from a variety of sources, including CRM systems, marketing campaigns, website analytics, and social media platforms, by the data acquisition component. Real-time data collection and storage in a centralised database will make it simple to obtain the information.
+
+2. ``Data storage:`` **MongoDB** will be the main database used by the data storage component to store and manage the customer data. A NoSQL database called MongoDB offers adaptable data formats and simple scalability. A cloud-based server will host the database to guarantee high availability and data protection.
+
+3. ``Data preprocessing:`` The component of data preprocessing will clean, transform, and prepare the data for analysis. Duplicates, missing values, and irrelevant features will be removed. Preprocessing will also include feature engineering, such as the creation of new variables that extract meaningful information from the data.
+
+4. ``Data analysis and modeling:`` The data analysis and modelling component will identify customer segments based on their behaviour, preferences, and demographics by employing various statistical and machine learning techniques. Python and its data science libraries such as NumPy, Pandas, and Scikit-learn will be used for the analysis. The models will be trained using MongoDB customer data and validated using cross-validation techniques.
+
+5. ``Model deployment:`` Flask, a Python web framework, will be used by the model deployment component to deploy machine learning models to a web server. Predictions based on user input will be provided via API endpoints. Setting up a continuous integration and delivery pipeline will also be part of the deployment to ensure that the models are up to date and accurate.
+
+6. ``Model monitoring and maintenance:`` The model monitoring and maintenance component will continuously monitor the models' performance and retrain them as needed. MongoDB's change stream feature, which provides real-time notifications when data changes, will be used for monitoring. Updating the models to account for new data sources and changing customer behaviour will be part of the maintenance.
+
+7. ``Visualization and reporting`` The visualisation and reporting component will create interactive dashboards and reports using data visualisation tools such as Tableau, Power BI, or Matplotlib. Stakeholders will be able to monitor key performance indicators (KPIs) such as customer retention, acquisition, and engagement using these dashboards.
+
+8. ``Workflow and collaboration:`` To track progress, assign tasks, and collaborate with team members, the workflow and collaboration component will use project management tools like **Trello** or **Asana**. In addition, the team will use version control software such as Git to ensure that all changes to the codebase are tracked and easily reversible.
+
+**Hardware and Software Requirements**
+
+The following hardware and software will be required to support the proposed system architecture:
+
+<table border="1" align="center">
+  <tr>
+    <th>Hardware</th>
+    <th>Software</th>
+  </tr>
+  <tr>
+    <td>Cloud-based server (e.g., AWS EC2, GCP Compute Engine, or Azure VM)</td>
+    <td>MongoDB as the primary database</td>
+  </tr>
+   <tr>
+      <td>Adequate storage for the customer data (e.g., AWS S3, GCP Cloud Storage, or Azure Blob Storage)</td>
+      <td>Python and its data science libraries (NumPy, Pandas, Scikit-learn, etc.)</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Flask for model deployment</td>
+    </tr>
+     <tr>
+      <td></td>
+      <td>Flask for model deployment</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Data visualization tools (Tableau, Power BI, Matplotlib, etc.)</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Project management tools (Trello, Asana, etc.)</td>
+    </tr>
+  </table>
 
 ## Risks and Limitations
 #### Technical risks:

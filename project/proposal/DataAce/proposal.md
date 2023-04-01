@@ -3,26 +3,26 @@
   <img src="https://images.readwrite.com/wp-content/uploads/2023/02/Machine-Learning-Solving-Fraud-825x500.jpg" title="Fraud Detection">
 </p>
 
-## 	:game_die: Table of Contents
-- [Executive Summary](#executive-summary)
-- [Background](#background)
-- [Goals and Objectives](#goals-and-objectives)
-- [Scope](#scope)
-- [Methodology](#methodology)
-- [System Architecture](#system-architecture)
-- [Risks and Limitations](#risks-and-limitations)
-- [Deliverables and Milestones](#deliverables-and-milestones)
-- [Resources](#resources)
-- [Technical Specifications](#technical-specifications)
-- [Timeline and Deliverables](#timeline-and-deliverables)
-- [Conclusion](#conclusion)
+## Table of content
+* [Executive Summary](#-executive-summary)
+* [Background](#-background)
+* [Goals and Objectives](#-goals-and-objectives)
+* [Scope](#-scope)
+* [Methodology](#-methodology)
+* [System Architecture](#-system-architecture)
+* [Risks and Limitations](#-risks-and-limitations)
+* [Deliverables and Milestones](#-deliverables-and-milestones)
+* [Resources](#-resources)
+* [Technical Specifications](#-technical-specifications)
+* [Timeline and Deliverables](#-timeline-and-deliverables)
+* [Conclusion](#-conclusion)
 
-## :compass: Executive Summary
+## 🧭 Executive Summary
 The objective of this project is to develop a dashboard via web application for credit card fraud detection. The system will use MongoDB as the database to store and machine learning algorithms will be employed to classify fraudulent and non-fraudulent. Dashboard will be tailored to provide relevant insights based on the management level of the company.
 
 The importance of credit card fraud detection cannot be overstated as it has a significant impact on the financial security and reputation of companies. The consequences of not detecting and preventing fraud can result in significant financial losses and damage to the company's reputation, which can lead to a loss of customer trust. The expected outcome of this project is an effective fraud detection system that can help companies reduce the risk of financial losses due to fraudulent activity and improve their overall financial security.
 
-## :seedling:  Background:
+## 🌱 Background:
 Credit card fraud occurs when a criminal uses someone else's credit card or credit card information to make unauthorized purchases or obtain cash advances. There are several types of credit card fraud such as **stolen cards, skimming, phishing and identity theft**. 
 
 Data science can be used to detect credit card fraud by analyzing large datasets of credit card transactions. One technology that can be used to store and analyze this data is MongoDB. MongoDB is a NoSQL database that can handle large datasets with high speed and scalability. To detect credit card fraud using MongoDB, we can use machine learning algorithms to analyze patterns in credit card transactions. For example, they can look for transactions that are significantly different from a customer's usual spending habits or transactions that occur outside of a customer's normal location or time of day. These anomalies could indicate fraudulent activity.
@@ -30,7 +30,7 @@ Data science can be used to detect credit card fraud by analyzing large datasets
 A fraud detection dashboard typically contains visualizations and metrics that provide an overview of the fraud detection system's performance and enable users to monitor and investigate potential fraudulent activities.  This dashboard will help mitigate the risks associated with financial fraud, protecting businesses and individuals from financial losses and reputational damage.
 
 
-## :medal_sports: Goals and Objectives:
+## 🏅 Goals and Objectives:
 The system is designed to identify fraudalent transactions by analyzing a vast amount of historical as well as real-time data, looking for patterns and anomalies that indicate fraud and present the data in interactive dashboard for effective decision-making and analysis. The dashboard will provide valuable insights and analytics on fraudulent transactions, allowing for the identification of patterns and trends, as well as the development of strategies to avoid future frauds. The primary objective of this project are to prevent potential financial damages, minimize losses due to the fraudalent transactions and improving customer satisfaction thus providing them more secure and reliable payment platform.
 
 The credit card fraud detection system project aims to solve these problem statements: 
@@ -46,7 +46,7 @@ The credit card fraud detection system project aims to solve these problem state
 
 - vi. Performance optimization - The system should be capable of handling large volumes of transactions and quickly processing them in order to provide real-time alerts and insights.
 
-## 	:mag: Scope: 
+## 🔍 Scope: 
 The objective of this system is to discern fraudulent transactions by analyzing a large amount of historal and real-time data which will enable users to gain insight for effective decision-making and analysis. Below contains the project scope statement which will help us achieve said objective.
 
 - i. Data Sources : The data which will be used in this project will be collected from Kaggle dataset, <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud">Credit Card Fraud Detection</a>.
@@ -57,7 +57,7 @@ The objective of this system is to discern fraudulent transactions by analyzing 
 
 - iv. Reporting : The dataset will be visualised in a form of a dashboard by using MongoDB Charts.
 
-## :open_book: Methodology:
+## 📖 Methodology:
 This project will be using various research methods to achieve our main objective which is to build a system to detect fraudulent transactions. The table below presents the specified procedures, strategies, technologies and softwares used in this project. 
 
 | Components | Description |
@@ -70,7 +70,7 @@ This project will be using various research methods to achieve our main objectiv
 | Visualization | Data will be displayed by using MongoDB Charts in a form of a dashboard. |
 
 
-## :hammer_and_wrench: System Architecture:
+## 🛠️ System Architecture:
 
 The system architecture consists of several components that work together to process and visualize data stored in a MongoDB database:
 
@@ -90,7 +90,7 @@ The system architecture consists of several components that work together to pro
 Overall, this system architecture leverages the power of machine learning and MongoDB to process and visualize data. By using TensorFlow to build machine learning model, the system can generate new insights and metrics that can be used to improve business processes and decision-making. The MongoDB Charts dashboard provides a convenient and user-friendly way to explore this data, making it accessible to a wide range of management levels.
 
 
-## :pushpin: Risks and Limitations:
+## 📌 Risks and Limitations:
 
 There are several risks and limitations that need to be considered when building fraud detection dashboard:
 
@@ -141,7 +141,7 @@ There are several risks and limitations that need to be considered when building
 </table>
 
 
-## :triangular_flag_on_post: Resources:
+## 🚩 Resources:
 - Staff
 1. Data Scientist
 2. Data analyst
@@ -167,7 +167,7 @@ There are several risks and limitations that need to be considered when building
 2. Data acquisition and storage
 3. Infrastucture : if planning to host on own server
 
- ## :card_file_box: Technical Specifications:
+ ## 🗃️ Technical Specifications:
 <table>
   <tr>
     <th align= "left">Data sources</th>
@@ -231,7 +231,7 @@ There are several risks and limitations that need to be considered when building
   </tr>
 </table>
 
-## :date: Timeline and Deliverables: 
+## 📅 Timeline and Deliverables: 
 **Detailed Timeline:**
   
 Week 1-2: Project Planning and Data Collection
@@ -281,7 +281,7 @@ Week 13-14: Deployment and Documentation
   * Validate the model's performance on test data to ensure it is reliable and capable of detecting fraud in real-time.
   * Test the security and privacy of the system to ensure sensitive data is protected and the system is not vulnerable to attacks.
 
-## :round_pushpin: Conclusion:
+## 📍 Conclusion:
 
 This project proposal outlines a comprehensive plan for developing the fraud detection dashboard, including data collection, preprocessing, analysis, visualization, and reporting. The proposed system architecture leverages MongoDB, Python, and a web-based dashboard to deliver an effective and efficient solution.
 

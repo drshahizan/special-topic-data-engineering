@@ -189,7 +189,7 @@ MongoDB is compatible with:
 </ul><br>
 
 <b>Flowchart of system architecture:</b><br>
-
+<img src='https://github.com/drshahizan/special-topic-data-engineering/blob/11119729e4994e69addabc0437bc56a61eb7e2a7/project/proposal/MichelinStar/flowchart_ver1.jpg'>
 
 
   

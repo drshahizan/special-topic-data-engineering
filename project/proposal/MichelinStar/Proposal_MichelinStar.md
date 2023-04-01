@@ -227,13 +227,26 @@ Here are some potential risks and limitations associated with heart disease pred
 ## 🔑 Deliverables and Milestones
 
 **Deliverables:**
-1. Project Proposal: A proposal that outlines the goals, scope, and methodology of the project will be created for the system.
-2. Data Collection and Preprocessing: After the collection of data, the data will be clean for further analysis.
-3. Exploratory Data Analysis: A report on the statistical properties and characteristics of the dataset will be created.
-4. Machine Learning Model Development: A machine learning model that can predict the presence of heart disease.
-5. Model Evaluation: An evaluation of the performance of the machine learning model.
-6. Deployment: A web application or API that can take in patient data and provide a heart disease prediction.
-7. Maintenance & Monitoring: After the system had been created, we need to maintain and monitor the system to ensure the system can ran smoothly without any error.
+*1.* *Project Proposal*
+A proposal that outlines the goals, scope, and methodology of the project will be created for the system.
+
+*2. Data Collection and Preprocessing*
+After the collection of data, the data will be clean for further analysis.
+
+3. Exploratory Data Analysis
+A report on the statistical properties and characteristics of the dataset will be created.
+
+4. Machine Learning Model Development
+A machine learning model that can predict the presence of heart disease.
+
+5. Model Evaluation
+An evaluation of the performance of the machine learning model.
+
+6. Deployment
+A web application or API that can take in patient data and provide a heart disease prediction.
+
+7. Maintenance & Monitoring
+After the system had been created, we need to maintain and monitor the system to ensure the system can ran smoothly without any error.
 
 
  **Milestones:**

@@ -149,7 +149,6 @@ The dashboard for energy consumption analysis requires the following resources:
 
 #### Equipment
 - Computer
-- Electric meters
 
 #### Software
 - Visual studio code

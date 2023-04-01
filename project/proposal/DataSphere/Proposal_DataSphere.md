@@ -156,12 +156,11 @@ The following hardware and software will be required to support the proposed sys
 | Deliverables and Milestones | Timeframe  |
 |----------|:-------------:|
 | Planning and Requirements Gatherings | Week 1-2 |
-| Data Exploration and Cleaning | Week 3-4 |
-| Feature Engineering | Week 5-6 |
+| Data Exploration and Cleaning | Week 3-5 |
+| Feature Engineering | Week 6 |
 | Model Selection and Training | Week 7-8 |
-| Model Deployment | Week 9-11 |
-| Model Monitoring and Maintenance | Week 12-13 |
-| Presentation | Week 14 | 
+| Model Deployment and Testing | Week 9-12 |
+| Presentation result | Week 13-14 | 
 
 </div>
 
@@ -222,33 +221,61 @@ Data Security Measures:
 
 ## Timeline and Deliverables
 
+<div class="mermaid">
+
+  ```mermaid
+gantt
+    title Product Feature Project Gantt Chart
+    dateFormat  YYYY-MM-DD
+    section Planning and Requirements Gatherings
+    Requirements Gatherings  :2023-03-19 , 14d
+  
+    section Data Exploration and Cleaning
+    Data Collection            :2023-04-02  , 10d
+    Data Cleaning              :2023-04-12 , 6d
+    Data Analysis              :2023-04-18 , 5d
+  
+    section Feature Engineering
+    Features identification        :2023-04-23 , 7d
+ 
+    section Model Selection and Training
+    Model Selection        :2023-04-30 , 7d
+    Model Training     :2023-05-07 , 7d
+  
+    section Model Deployment and Testing
+    Model Deployed               :2023-05-14 , 21d
+    Testing     :2023-06-04 , 7d
+  
+    section Presentation
+    Final report      :2023-06-11  , 7d
+    Presentation     :2023-06-18 , 7d
+  
+  ```
+  </div>
+
 1. Planning and Requirements Gatherings *(Week 1-2)*
-> - Deliverables: Project charter and scope and Requirements gathering plan
-> - Resources: Visual Studio Code
+> - **Deliverables**: Project charter and scope and Requirements gathering plan
+> - **Resources**: Visual Studio Code
 
-2. Data Exploration and Cleaning *(Week 3-4)*
-> - Deliverables: Data cleaning, pre-processing, transformation and exploration report
-> - Resources: Python/web-scraper, MongoDB, Visual Studio Code
+2. Data Exploration and Cleaning *(Week 3-5)*
+> - **Deliverables**: Data collection, cleaning, pre-processing, transformation and exploration report
+> - **Resources**: Python/web-scraper, MongoDB, Visual Studio Code
 
-3. Feature Engineering *(Week 5-6)*
-> - Deliverables: Feature engineering plan and implementation Feature importance analysis
-> - Resources: Python
+3. Feature Engineering *(Week 6)*
+> - **Deliverables**:  Identify the relevant features for product feature segmentation
+> - **Resources**: Python
 
 4. Model Selection and Training *(Week 7-8)*
-> - Deliverables: Model selection report, training plan, implementation and evaluation metrics
-> - Resources: Python
+> - **Deliverables**: Model selection report, training plan, implementation and evaluation metrics
+> - **Resources**: Python
 
-5. Model Deployment *(Week 9-11)*
-> - Deliverables: Model deployment plan and implementation, and User acceptance testing (UAT) report
-> - Resources: Visual Studio Code
+5. Model Deployment and Testing *(Week 9-12)*
+> - **Deliverables**: Model deployment documentation, testing plan and report, and debugging.
+> - **Resources**: Visual Studio Code, MongoDB, Github
 
-6. Model Monitoring and Maintenance *(Week 12-13)*
-> - Deliverables: Model monitoring plan, maintenance plan and schedule
-> - Resources: Visual Studio Code, MongoDB
-
-7. Presentation *(Week 14)*
-> - Deliverables: Final project report and project presentation slides
-> - Resources: Power BI/Tableau , Canva
+6. Presentation *(Week 13-14)*
+> - **Deliverables**: Final project report and project presentation slides
+> - **Resources**: Power BI/Tableau , Canva
 
 
 Quality assurance and testing procedures:

@@ -334,12 +334,12 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 	<li>Detailed Timeline:</li>
 </ol>
 <ul>
-	<li>Week 1-2: Data Collection</li>
+	<li>Week 1-2: Data Gathering</li>
 	<li>Week 3-5: Data Cleaning and Preprocessing</li>
-	<li>Week 6-8: Feature Extraction</li>
-	<li>Week 9-10: Machine Learning Algorithms</li>
-	<li>Week 11-12: Data Visualizations</li>
-	<li>Week 13-14: Report</li>
+	<li>Week 6-8: EDA</li>
+	<li>Week 9-10: Build Model</li>
+	<li>Week 11-12: Evaluate Model</li>
+	<li>Week 13-14: Deploy Model</li>
 </ul>
 <ol start="2">
 	<li>Deliverables and Resources:</li>

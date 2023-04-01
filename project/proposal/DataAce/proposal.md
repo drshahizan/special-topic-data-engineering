@@ -53,21 +53,21 @@ The objective of this system is to discern fraudulent transactions by analyzing 
 
 - iii. Data Cleaning and Preparation : The dataset will be cleaned and prepared by using Python library such as Pandas and Numpy.
 
-- iv. Reporting : The dataset will be visualised in a form of a dashboard by using MongoDB charts which will also be updated automatically once new data comes.
+- iv. Reporting : The dataset will be visualised in a form of a dashboard by using MongoDB Charts.
 
 ## :open_book: Methodology:
 This project will be using various research methods to achieve our main objective which is to build a system to detect fraudulent transactions. The table below presents the specified procedures, strategies, technologies and softwares used in this project. 
 
 | Components | Description |
 |--|--|
-| Data Collection | collect data related to financial transactions or user behavior, including information such as transaction amount, location, timestamp, user information, and other relevant data.   |
-| Data Pre-processing | cleaning, filtering, and transforming the data into a usable format. |
-| Data Analysis | Use MongoDB's aggregation framework to perform complex queries and aggregations to derive insights from the data. This could include identifying patterns of fraudulent behavior such as unusual transaction amounts or abnormal frequency of transactions. |
-| Feature Engineering | Identify the relevant features that you want to use to detect fraudulent activities. These features can include the transaction amount, the location, the time of the day, the user's device, or any other relevant characteristics. |
-| Fraud Detection| Build a model that can predict fraudulent activities based on the features you have identified. You can also use rule-based approaches to detect specific types of fraudulent activities. |
-| Visualization | Data visualization techniques such as charts or graphs to visualize the results of the fraud detection. |
-| Fraud Alert System | Use the results of the fraud detection models to generate alerts or notifications for suspicious transactions, allowing businesses to take immediate action to prevent financial losses. |
-| Interpretation | Use the insights gained from the analysis to improve your fraud prevention strategies, such as adding additional security measures or updating your fraud detection rules.
+| Data Collection | Data related to financial transactions or user behavior which includes information such as transaction amount, timestamp and other relevant variables data will be collected from Kaggle dataset.   |
+| Data Pre-processing | Data collected from Kaggle will be cleaned, filtered and transformed into a usable format by using Python library such as Numpy and Pandas. |
+| Data Analysis | Data will be analysed by identifying patterns of fraudulent behavior by using Tensorflow. |
+| Feature Engineering | The relevant features which will be used to detect fraudulent activities will be analysed by using Tensorflow. |
+| Fraud Detection| A classification model will be built which will able to predict fraudulent activities based on the features identified.
+ |
+| Visualization | Data will be displayed by using MongoDB Charts in a form of a dashboard . |
+
 
 ## :hammer_and_wrench: System Architecture:
 

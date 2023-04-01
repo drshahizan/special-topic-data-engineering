@@ -142,30 +142,34 @@ There are several risks and limitations that need to be considered when building
 
 
 ## 🚩 Resources:
-- Staff
-1. Data Scientist
-2. Data analyst
-3. UI/UX designer
-4. Software engineer
-5. Project manager
-6. Database administrator
 
-- Equipment
-1. Laptop
-2. Computer
-3. High performing computing equipment
+**1. Staff**
+  * Data Scientist
+  * Data analyst
+  * UI/UX designer
+  * Software engineer
+  * Project manager
+  * Database administrator
 
-- Software
-1. Microsoft Visual Studio
-2. MongoDB
-3. TensorFlow
-4. Faker
-5. Django
+**2. Equipment**
 
-- Other expenses
-1. Cloud storage
-2. Data acquisition and storage
-3. Infrastucture : if planning to host on own server
+  * Laptop
+  * Computer
+  * High performing computing equipment
+
+**3. Software**
+
+  * Microsoft Visual Studio
+  * MongoDB
+  * TensorFlow
+  * Faker
+  * Django
+
+**4. Other expenses**
+
+  * Cloud storage
+  * Data acquisition and storage
+  * Infrastucture : if planning to host on own server
 
  ## 🗃️ Technical Specifications:
 <table>

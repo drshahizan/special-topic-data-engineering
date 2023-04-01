@@ -115,7 +115,6 @@ Potential Strategies to Mitigate the Risks & Limitation:
 Overall, while Netflix's recommendation system is generally effective, it is important to recognize its limitations and potential risks, and to be mindful of how the algorithm is shaping our viewing habits and preferences.
 
 ## 8. Deliverables and Milestones
-- Provide a list of the key deliverables and milestones of the proposed data science project, including timelines and deadlines.
 
 <table border="1" align="center">
   <tr>

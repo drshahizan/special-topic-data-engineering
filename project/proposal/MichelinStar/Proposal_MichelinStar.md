@@ -298,6 +298,7 @@ The resources needs as below:
    - Scikit-learn: Scikit-learn is a popular machine learning library in Python, and has several algorithms for classification tasks. It is easy to use and has good documentation.
 
    - Visual Studio Code: Make collaboration with teammates and upload the code to Github by syncing them together. It is easy to track teammates progress and work together. 
+   - Github/Git: Github is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
 
   
 - Other expenses

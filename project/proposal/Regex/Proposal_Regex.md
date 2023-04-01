@@ -451,26 +451,26 @@ gantt
 
 Data Gathering and Cleaning
   - Deliverables : Cleaned and structured Shopee Supermarket data
-  - Resources : Python's libraries like pandas
+  - Resources :  Web-scraper, MongoDB, Visual Studio Code
   
 Data Analysis and Modeling
 
-  - Deliverables : 
-  - Resources : 
+  - Deliverables : A conceptual representation of data objects, relationships between them, and the rules that govern data manipulation.
+  - Resources : Visual Studio Code
     
 Dashboard Design and Development
-  - Deliverables : 
-  - Resources : Design and development the dashboard to visualize the product summary in Shopee.
+  - Deliverables : Dashboard on the web
+  - Resources : MongoDB, Power BI
   
 Testing and Debugging
 
-  - Deliverables : 
-  - Resources : 
+  - Deliverables : A high quality and reliable dashboard  
+  - Resources : Visual Studio Code, Django
 
 Dashboard deployed and live
 
-  - Deliverables : 
-  - Resources : 
+  - Deliverables : A functional and complete dashboard
+  - Resources : Django
   
 <br>
  

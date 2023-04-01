@@ -308,7 +308,7 @@ The resources needs as below:
    - Computer/Laptop
  
 - Software
-   - python and libraries
+   - Python and libraries
    - MongoDB
    - Django/Visual Studio Code
    - Power BI
@@ -318,18 +318,11 @@ The resources needs as below:
 
 ## 📱Technical Specifications
 
-- Discuss the technical specifications of the proposed data science project, including data sources, data schema, data transformations, machine learning algorithms, data visualization tools, and other technical details.
-
-- Mention the programming languages, frameworks, and libraries that will be used in the project.
-
-- Provide details about the hardware and software requirements for the proposed system.
-
-- Explain the data security measures that will be implemented.
 
 <table>
   <tr>
     <th>Data sources</th>
-    <td>Extracted live monthly data from Shopee Supermarket Malaysia </td>
+    <td>Extracted data from Shopee Supermarket Malaysia by performing web scraping</td>
   </tr>
   <tr>
     <th>Data schema</th>
@@ -377,9 +370,7 @@ The resources needs as below:
     <td>
       <li>Power BI</li>
       <li>MongoDB</li>
-      <li>Postman API</li>
       <li>Visual Studio Code</li>
-      <li>Python 3.8 r higher with included libraries</li>
     </td>
   </tr>
   <tr>

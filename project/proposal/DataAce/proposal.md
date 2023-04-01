@@ -168,16 +168,69 @@ There are several risks and limitations that need to be considered when building
 3. Infrastucture : if planning to host on own server
 
 ## :card_file_box: Technical Specifications:
- - Data Sources
- - Data Schema
- - Data Transformations
- - Machine Learning Algorithms
-    - Logistic regression, decision trees, and random forests. 
-    - Train the models using the preprocessed data stored in the MongoDB database.
- - Data Visualization Tools
- -  Programming Languages, Frameworks, and Libraries
- -  Hardware and Software Requirements
- -  Data Security Measures 
+ ## :card_file_box: Technical Specifications:
+<table>
+  <tr>
+    <th align= "left">Data sources</th>
+    <td>Data retrieve from Kaggle https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud </td>
+  </tr>
+  <tr>
+    <th align= "left">Data schema</th>
+    <td>Dataset contains features V1 until V8 obtained with PCA. Due to confidentiality issues, the original features and background information on the data cannot be provided. 'Time' and 'Amount' are also the features.</td>
+  </tr>
+  <tr>
+    <th align= "left">Data transformations</th>
+    <td>
+      <ul>
+        <li>Balancing the dataset as it is imbalanced.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <th align= "left">Machine learning algorithms</th>
+    <td>
+      <ul>
+	<li>Classification, Logistic Regression, SMOTE</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <th align= "left">Data visualization tools</th>
+    <td>MongoDB charts, Tableau, PowerBI</td>
+  </tr>
+  <tr>
+    <th align= "left">Programming language</th>
+    <td>Python, MongoDB Query Language (MQL), CSS, PHP, Javascript</td>
+  </tr>
+  <tr>
+    <th align= "left">Frameworks</th>
+    <td>Django, TensorFlow</td>
+  </tr>
+  <tr>
+    <th align= "left">Libraries</th>
+    <td>Matplotlib, Seaborn, Scikit learn, Numpy, Djongo</td>
+  </tr>
+  <tr>
+    <th align= "left">Hardware & software requirements</th>
+    <td>
+      <ul>
+        <li>A computer or server with at least 8GB of RAM (recommended 16GB or more)</li>
+        <li>Sufficient storage to store the data and environment</li>
+        <li> Windows operating system (recomended) installed with all softwares mentioned such as MongoDB and Django</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <th align= "left">Data security measures</th>
+    <td>
+	  <ul>
+	    <li>Authentication and authorization : only authorized users can have access to sensitive data and functionalities.</li>
+	    <li>Data encryption : to protect sensitive data</li>
+	    <li>Regular updates : always update the web application if there is any improvements need to be done.</li>
+	  </ul>
+	</td>
+  </tr>
+</table>
 
 ## :date: Timeline and Deliverables: 
 **Detailed Timeline:**

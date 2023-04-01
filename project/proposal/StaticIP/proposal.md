@@ -58,7 +58,49 @@
  To begin the project, all relevant data such as electricity usage and gas usage will be collected. After the data is collected, the data will undergo pre-processing process before it is analyzed. The tasks in data pre-processing include cleaning, filtering and data transforming to ensure the data is usable. Then, we will start to carry out data analysis to derive insights from the data. In order to achieve this task, we will be using MongoDB's aggregation to determine and analyze the peak demand period and energy consumption patterns by geographic location or demographic group or detecting anomalies in energy consumption. Next, we will identify what features will be used to analyze the energy consumption pattern. Example of the features may be used is time, weather and occupancy. After that, we will predict the energy demand and determine the energy efficiency opportunities by developing predictive models by using machine learning models and algorihtms such as linear regression, time-series forecasting or clustering. Finally, we will visualize the results of the analysis by using chart or graph so that we can understand the energy usage patterns and areas of energy savings easily.
 
 ## 🖥️ System Architecture
+```
  It will be possible to view the Energy Consumption Analysis Dashboard from any device via the internet. With customized dashboards that can be adjusted to the particular demands of individual businesses and groups, it will be made to be user-friendly and simple to traverse. With the help of the dashboard, businesses and organizations will be able to spot areas with high energy consumption and waste and take proactive steps to increase energy efficiency. The dashboard will also provide real-time data on energy usage, expenses, and efficiency. Besides, it will send messages and alerts to users when energy use significantly changes so they can react right away.
+ ```
+ 
+ Various tools and technologies will be combined to create the suggested system architecture. We will make use of the following to guarantee rapid and successful system development and deployment:
+
+• MongoDB: The system's data will be stored and managed using MongoDB. It is a NoSQL database that provides the scalability and freedom necessary for a system of this kind. MongoDB is a great option for our data management requirements because it also has an intuitive interface and a strong query language.
+
+• Hardware and software requirements: To support its complex data processing and analysis needs, the system will need high-performance hardware and software. This entails quick processors, lots of RAM, and SSD storage for quick data access. For a stable and secure setting, we will also use Apache web server and Linux-based operating systems.
+
+• Data visualization and analysis tools and frameworks: To visualise and examine the data from the system, we will employ a variety of structures and tools. These include live data analysis and visualisation tools like Jupyter Notebooks, data manipulation and analysis tools like Pandas, and data visualisation tools like D3.js.
+
+To illustrate the system architecture, we have provided a flowchart below:
+
+```
+                     +------------+
+                     |    User           |
+                     +------------+
+                           |
+                           |
+                           |
+                           v
+                     +------------+
+                     |   Server         |
+                     +------------+
+                           |
+                           |
+                           |
+                           v
+                 +-------------------+
+                 |    MongoDB DBMS   |
+                 +-------------------+
+                           |
+                           |
+                           |
+                           v
+          +--------------------------+
+          | Data visualization tools       |
+          | Data analysis frameworks  |
+          +--------------------------+
+```
+
+Last but not least, the proposed system design will be built using a combination of high-performance hardware and software, MongoDB, and tools and frameworks for data visualisation and analysis. This will provide the system with a stable and secure environment while ensuring effective data management, storage, and analysis.
 
 <div align="center">
 <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/dashboard.gif" height="150">

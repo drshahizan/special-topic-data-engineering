@@ -75,7 +75,7 @@ This project will develop an healthcare analytics platform that will leverage pr
 
 ## 🔧 System Architecture
 
-- Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
+ hardware and software requirements needed to support the system.
 
 - Provide a flowchart or block diagram of the system architecture.
 

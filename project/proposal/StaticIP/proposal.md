@@ -63,7 +63,45 @@
 
 • `MongoDB:` The system's data will be stored and managed using MongoDB. It is a NoSQL database that provides the scalability and freedom necessary for a system of this kind. MongoDB is a great option for our data management requirements because it also has an intuitive interface and a strong query language.
 
-• `Hardware and software requirements:` To support its complex data processing and analysis needs, the system will need high-performance hardware and software. This entails quick processors, lots of RAM, and SSD storage for quick data access. For a stable and secure setting, we will also use Apache web server and Linux-based operating systems.
+• `Hardware and software requirements:` 
+<table align=center>
+   <tr>
+    <td>RAM</td>
+    <td>8 GB or more</td>
+   <tr>
+   <tr>
+    <td>Processor</td>
+    <td>Minimum 1GHz; Recommended 2 GHz or more</td>
+   </tr>
+   <tr>
+    <td>Hard Drive</td>
+    <td>20 GB or more free disk space</td>
+   </tr>
+   <tr>
+    <td>System type</td>
+    <td>64-bit operating system</td>
+   </tr>
+   <tr>
+    <td>Operating systems</td>
+    <td>Windows 7 or newer/Mac OS X v10.7 or higher</td>
+   </tr>
+   <tr>
+    <td>Connection</td>
+    <td>Ethernet connection (LAN) or wireless adapter (Wi-Fi)</td>
+   </tr>
+   <tr>
+    <td>Python</td>
+    <td>Version 3.8 or higher</td>
+   </tr>
+   <tr>
+    <td>MongoDB</td>
+    <td>Version 4.4 or higher</td>
+   </tr>
+   <tr>
+    <td>Visual Studio Code</td>
+    <td>1.75 or higher</td>
+   </tr>
+ </table>
 
 • `Data visualization and analysis tools and frameworks:` To visualise and examine the data from the system, we will employ a variety of structures and tools. For live data analysis and visualisation tools, we will be using visual studio code, while for data manipulation and analysis tools, we will be using Python libraries such as Pandas, Numpy, Matplotlib, Seaborn.  To visualize the data, we will use Power BI.
 
@@ -286,13 +324,10 @@ T    <img height="330px" src="https://github.com/drshahizan/special-topic-data-e
     > Testing and dissemination are crucial phases in the development process to guarantee that the Energy Consumption Analysis Dashboard is functional, bug-free, meets the required specifications, and is distributed securely. Making a test plan, conducting test cases, identifying issues and flaws, and fixing them before publication are all part of the testing process. The dashboard is then distributed to the desired platform after testing is complete, keeping security and data safety in mind. The hardware must be built up, and the software must be installed and customised. Ongoing monitoring and maintenance are required to keep the dashboard functioning correctly and satisfying user requirements.
 
 ## 🔍 Conclusion
-```
- It is crucial to create an energy usage research panel in order to improve energy efficiency and reduce energy costs for businesses and organizations. Because it gives real-time views into energy use and pollution, it makes it easier to take preventative steps and reduce carbon effect. It is simple to measure and track energy consumption with the interface thanks to its accessibility from any device, which contributes to the development of a more sustainable future.
-```
  In order to increase the efficiency of the client's marketing strategies, our proposal concludes by outlining the advantages of implementing a data-driven strategy. We can assist the client in gaining important insights into consumer behavior, preferences, and needs so they can develop individualised marketing campaigns that successfully reach their target audience. We do this by utilising data analytics, machine learning, and AI technologies.
 
-The benefits of our suggested answer include improved brand awareness, higher ROI, and higher consumer engagement. By staying abreast of the most recent marketing trends and technologies, it also helps the client remain one step ahead of the competition.
+ The benefits of our suggested answer include improved brand awareness, higher ROI, and higher consumer engagement. By staying abreast of the most recent marketing trends and technologies, it also helps the client remain one step ahead of the competition.
 
-We are however conscious of the potential drawbacks and challenges that may arise when putting this initiative into practice, such as concerns with data privacy, the need for specialised knowledge and resources, and potential resistance to change from some stakeholders.
+ We are however conscious of the potential drawbacks and challenges that may arise when putting this initiative into practice, such as concerns with data privacy, the need for specialised knowledge and resources, and potential resistance to change from some stakeholders.
 
  There are also risk and disadvantage but the benefits outweigh any potential disadvantages. This will help the us firm establish a data-driven culture, enhance marketing outcomes, and boost overall business success.

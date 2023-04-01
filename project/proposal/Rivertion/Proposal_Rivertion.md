@@ -345,12 +345,33 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 	<li>Deliverables and Resources:</li>
 </ol>
 <ul>
-	<li>Data Collection: Deliverable: Complete dataset; Resources: Data acquisition and storage</li>
-	<li>Data Cleaning and Preprocessing: Deliverable: Cleaned and standardized dataset; Resources: Computers for staff, image processing libraries</li>
-	<li>Feature Extraction: Deliverable: Extracted features from dataset; Resources: High-performance computing equipment, deep learning frameworks</li>
-	<li>Machine Learning Algorithms: Deliverable: Trained machine learning models; Resources: High-performance computing equipment, supervised and unsupervised learning algorithms</li>
-	<li>Data Visualizations: Deliverable: Visualizations of dataset and model performance; Resources: Matplotlib, Seaborn, Tableau</li>
-	<li>Report: Deliverable: Final report on the project; Resources: Collaboration and project management tools</li>
+	<li>
+		Data Collection:<br>
+		Deliverable: Complete dataset;<br> 
+		Resources: Data acquisition and storage
+	</li>
+	<li>
+		Data Cleaning and Preprocessing: <br>
+		Deliverable: Cleaned and standardized dataset; <br>
+		Resources: Computers for staff, image processing libraries
+	</li>
+	<li>
+		Feature Extraction: <br>
+		Deliverable: Extracted features from dataset; <br>
+		Resources: High-performance computing equipment, deep learning frameworks</li>
+	<li>
+		Machine Learning Algorithms: <br>
+		Deliverable: Trained machine learning models; <br>
+		Resources: High-performance computing equipment, supervised and unsupervised learning algorithms</li>
+	<li>
+		Data Visualizations: <br>
+		Deliverable: Visualizations of dataset and model performance; <br>
+		Resources: Matplotlib, Seaborn, Tableau</li>
+	<li>
+		Report: <br>
+		Deliverable: Final report on the project; <br>
+		Resources: Collaboration and project management tools
+	</li>
 </ul>
 <ol start="3">
 	<li>Quality Assurance and Testing Procedures:</li>

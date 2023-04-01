@@ -230,31 +230,31 @@ Here are some potential risks and limitations associated with heart disease pred
 <br>
 **1. Project Proposal**
 - A proposal that outlines the goals, scope, and methodology of the project will be created for the system.
+</br>
 <br>
-
 **2. Data Collection and Preprocessing**
 - After the collection of data, the data will be clean for further analysis.
+</br>
 <br>
-
 **3. Exploratory Data Analysis**
 - A report on the statistical properties and characteristics of the dataset will be created.
+</br>
 <br>
-
 **4. Machine Learning Model Development**
 - A machine learning model that can predict the presence of heart disease.
+</br>
 <br>
-
 **5. Model Evaluation**
 - An evaluation of the performance of the machine learning model.
+</br>
 <br>
-
 **6. Deployment**
 - A web application or API that can take in patient data and provide a heart disease prediction.
+</br>
 <br>
-
 **7. Maintenance & Monitoring**
 - After the system had been created, we need to maintain and monitor the system to ensure the system can ran smoothly without any error.
-<br>
+</br>
 
 
  **Milestones:**
@@ -279,7 +279,7 @@ Here are some potential risks and limitations associated with heart disease pred
 ## 💡 Resources
 
 The resources needs as below:
-
+  <br></br>
 - Staff
 
    - Data Scientist: Data Scientist need to make some of the data analysis and statistical analysis.
@@ -291,7 +291,7 @@ The resources needs as below:
 - Equipment
    - Computer
    - Laptop
-  <br>
+  <br></br>
 - Software
    - Kaggle Datasets: Kaggle Datasets is a collection of public datasets that you can use for machine learning tasks, including heart disease prediction. The datasets are hosted on Kaggle and can be easily downloaded and used in your machine learning models.
 

@@ -123,7 +123,7 @@ This project will develop an healthcare analytics platform that will leverage pr
 </tr>
 <tr>
   <td><b>10. Model monitoring and maintenance</b></td>
-  <td></td>
+  <td>The <b>MLflow</b> platform is chosen for the purpose of monitor and maintenance of the model. We can carry out tracking experiments, package code into reproducible runs, share and deploy the model through MLflow. </td>
 </tr>
 </table>
 

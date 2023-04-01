@@ -50,7 +50,14 @@ In order to enhance marketing and sales strategies, boost customer satisfaction 
 Customer segmentation enables organisations to more fully comprehend their customers and deliver individualised experiences that may increase customer loyalty, pleasure, and return on investment (ROI)
 
 ## Scope
-- This section should define the scope of the project, including the data sources to be used, the tools and technologies to be employed, and any other relevant information that will be needed to successfully complete the project.
+The objective of this project is to improve an organisations performance in terms of decision making and customer overall experience. With this known, the scope of this project will be :
+
+- **Data Source** : In this project, dataset from ``not determined`` will be used
+- **Tools & Technologies** : ``how to get data``, and store it in MongoDB. Which then will be cleaned and prepared using `Pandas`, `Numpy` and `MongoDB Aggregation`. Clustering algorithms using `scikit-learn`, `TensorFlow` and `PyTorch` libraries will be applied on the cleaned data. Findings will be visualised using `Tableau` or `PowerBI`.
+- **Resources** : 
+  - Team of 5 people.
+  - Each team member posses skills from gathering appropriate data to visualising data, using tools and technologies listed.
+  - Adequate hardware and software to progress.
 
 ## Methodology
 - Data collection : Gather information on customer preferences, product features with age and gender preferences, and other pertinent information using the data scraping method. 

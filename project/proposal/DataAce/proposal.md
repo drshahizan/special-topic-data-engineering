@@ -16,7 +16,7 @@
 - [Conclusion](#conclusion)
 
 ## :compass: Executive Summary
-The objective of this project is to develop a real-time dashboard via web application for credit card fraud detection. The system will use MongoDB as the database to store and process large volumes of transactional data, and machine learning algorithms will be employed to identify fraudulent patterns and alert the appropriate personnel. The dashboard will be tailored to provide relevant insights and alerts based on the management level of the company.
+The objective of this project is to develop a dashboard via web application for credit card fraud detection. The system will use MongoDB as the database to store and machine learning algorithms will be employed to classify fraudulent and non-fraudulent. Dashboard will be tailored to provide relevant insights based on the management level of the company.
 
 The importance of credit card fraud detection cannot be overstated as it has a significant impact on the financial security and reputation of companies. The consequences of not detecting and preventing fraud can result in significant financial losses and damage to the company's reputation, which can lead to a loss of customer trust. The expected outcome of this project is an effective fraud detection system that can help companies reduce the risk of financial losses due to fraudulent activity and improve their overall financial security.
 

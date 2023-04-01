@@ -496,7 +496,7 @@ Dashboard deployed and live
  
 **3. Quality assurance and testing procedures**
 
-To guarantee that an ecommerce analysis dashboard complies with the necessary standards and provides accurate and reliable data, quality assurance and testing processes are essential. Here are a few suggested actions:
+To guarantee that an ecommerce analysis dashboard complies with the necessary standards and provides accurate and reliable data, quality assurance and testing processes are essential. 
 
 - 1. Data Validation: The process of validating the accuracy and completeness of the data gathered by the ecommerce analytics dashboard is known as data validation. This involves making sure the data is accurate, complete, and consistent.
 

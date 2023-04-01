@@ -500,7 +500,7 @@ To guarantee that an ecommerce analysis dashboard complies with the necessary st
 
 - 1. Data Validation: The process of validating the accuracy and completeness of the data gathered by the ecommerce analytics dashboard is known as data validation. This involves making sure the data is accurate, complete, and consistent.
 
-- 2. Continuous Monitoring: To make sure the ecommerce analytics dashboard is functioning properly and giving accurate data, continuous monitoring entails routinely reviewing it. This requires 
+- 2. Continuous Monitoring: This is to make sure the ecommerce analytics dashboard is functioning properly and giving accurate data.
 
 - 3. Functional testing: This process makes sure the dashboard works as intended. To ensure they function properly, all the features and connections must be tested.
 

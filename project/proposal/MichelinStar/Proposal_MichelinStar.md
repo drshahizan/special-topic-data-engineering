@@ -131,8 +131,8 @@ This project will develop an healthcare analytics platform that will leverage pr
 <tr>
 <td><b>Storing data</b></td>
 <td>
-The steps to store csv files into MongoDB are shown as below:
-1. Install `pymongo` and `csv` pacakages using `pip install`.
+The steps to store csv files into MongoDB are shown as below: <br>
+1. Install `pymongo` and `csv` pacakages using `pip install`. <br>
 2. 
 </td>
 </tr>

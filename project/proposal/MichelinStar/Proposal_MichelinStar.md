@@ -227,6 +227,7 @@ Here are some potential risks and limitations associated with heart disease pred
 ## 🔑 Deliverables and Milestones
 
 **Deliverables:**
+<br>
 **1.Project Proposal**
 - A proposal that outlines the goals, scope, and methodology of the project will be created for the system.
 <br>

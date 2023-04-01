@@ -153,7 +153,6 @@ The dashboard for energy consumption analysis requires the following resources:
 
 #### Software
 - Visual studio code
-- Tableau
 - Power BI
 - MongoDB
 
@@ -192,7 +191,6 @@ The dashboard for energy consumption analysis requires the following resources:
   <tr>
     <th>Data visualization tools</th>
     <td>
-      <li>Tableau</li>
       <li>Power BI</li>
     </td>
   </tr>

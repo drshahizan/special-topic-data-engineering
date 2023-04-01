@@ -267,11 +267,11 @@ The key deliverables and milestones:
 
 **1. Data collection and cleaning**
      
-This involves gathering sales data from Shopee Supermarket, such as product name, price and quantity sold by using APIs provided and display data in real time using MongoDB's real-time data ingestion. Following the collection of  data, data pre-processing tasks such as cleaning, filtering, and transforming the data into usable format will be performed.
+This involves gathering sales data from Shopee Supermarket, such as product name, price and quantity sold by using web scraping. Following the collection of  data, data pre-processing tasks such as cleaning, filtering, and transforming the data into usable format will be performed.
 
 **2. Data analysis and modeling**
 
-Analyze the sales data by grouping the data and calculating metrics with MongoDB's integration framework. This entails analysing the data using statistical and machine learning techniques and developing models that can be used to make predictions.
+Analyze the sales data by grouping the data and calculating metrics with MongoDB's integration framework. This entails analysing the data using statistical and machine learning techniques and developing models.
 
 **3. Dashboard design and development**
 

@@ -201,17 +201,24 @@ Software requirements:
 
 
 ## ⏲️ Timeline and Deliverables
+<div align="center">
+    <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-01%20at%2011.02.10%20AM.png"/>
+</div>
+
 * week1 - week3 : Data collection and integration
     >  This step included searching for data source and data preprocessing. We planned to use 3 weeks on this step as a clean data is the top priority for future use.  
 
-* week4 - week6 : Data visualization design
+* week4 - week6 : Data analysis
+    > In this step, exploratory data analysis (EDA) will be done to analyze and investigate data to understand thee characteristic of the data and the relationship between the data.
+
+* week7 - week9 : Data visualization design
     > Data visualization, which seeks to represent complex data in a simple and straightforward graphic manner, is a crucial part of an Energy Consumption Analysis Dashboard. Using concise and straightforward representations like charts, graphs, and maps, businesses and organizations can quickly identify areas of high energy consumption, track changes in energy usage over time, and make decisions to improve energy efficiency. To create user-friendly images for all users, the process involves transforming numerical data into visual representations, including dynamic components. Companies and organizations can improve energy economy through the use of data visualization, which lowers expenses and encourages a more sustainable future.
 
-* week7 - week10 : User interface design
-    >  The user interface (UI) design is a crucial element of an Energy Consumption Analysis Dashboard. Its goal is to create a user-friendly layout that is easy to browse and access vital data. The UI design process includes several steps, such as comprehending the target audience, designing the interface with their needs and preferences in mind, and considering interactive features, colour schemes, and fonts. A well-designed user interface can enhance user experience, enable more efficient decision-making, and boost energy economy for businesses and groups.
+* week10 - week12 : User interface design
+    > The user interface (UI) design is a crucial element of an Energy Consumption Analysis Dashboard. Its goal is to create a user-friendly layout that is easy to browse and access vital data. The UI design process includes several steps, such as comprehending the target audience, designing the interface with their needs and preferences in mind, and considering interactive features, colour schemes, and fonts. A well-designed user interface can enhance user experience, enable more efficient decision-making, and boost energy economy for businesses and groups.
 
-* week10 - week14 : Testing and deployment
-    >  Testing and dissemination are crucial phases in the development process to guarantee that the Energy Consumption Analysis Dashboard is functional, bug-free, meets the required specifications, and is distributed securely. Making a test plan, conducting test cases, identifying issues and flaws, and fixing them before publication are all part of the testing process. The dashboard is then distributed to the desired platform after testing is complete, keeping security and data safety in mind. The hardware must be built up, and the software must be installed and customised. Ongoing monitoring and maintenance are required to keep the dashboard functioning correctly and satisfying user requirements.
+* week13 - week14 : Testing and deployment
+    > Testing and dissemination are crucial phases in the development process to guarantee that the Energy Consumption Analysis Dashboard is functional, bug-free, meets the required specifications, and is distributed securely. Making a test plan, conducting test cases, identifying issues and flaws, and fixing them before publication are all part of the testing process. The dashboard is then distributed to the desired platform after testing is complete, keeping security and data safety in mind. The hardware must be built up, and the software must be installed and customised. Ongoing monitoring and maintenance are required to keep the dashboard functioning correctly and satisfying user requirements.
 
 ## 🔍 Conclusion
  It is crucial to create an energy usage research panel in order to improve energy efficiency and reduce energy costs for businesses and organizations. Because it gives real-time views into energy use and pollution, it makes it easier to take preventative steps and reduce carbon effect. It is simple to measure and track energy consumption with the interface thanks to its accessibility from any device, which contributes to the development of a more sustainable future.

@@ -263,3 +263,15 @@ We are however conscious of the potential drawbacks and challenges that may aris
 
  There are also risk and disadvantage but the benefits outweigh any potential disadvantages. This will help the us firm establish a data-driven culture, enhance marketing outcomes, and boost overall business success.
 
+## Table of Contents
+- [Executive Summary](#executive-summary)
+- [Background](#background)
+- [Goals and Objectives](#goals-and-objectives)
+- [Scope](#scope)
+- [Methodology](#methodology)
+- [System Architecture](#system-architecture)
+- [Risks and Limitations](#risks-and-limitations)
+- [Deliverables and Milestones](#deliverables-and-milestones)
+- [Resources](#resources)
+- [Technical Specifications](#technical-specifications)
+- [Timeline and Deliverables](#timeline-and-deliverables)

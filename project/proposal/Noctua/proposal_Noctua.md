@@ -66,14 +66,13 @@ In this project, we aim to monitor the Google reviews about customer satisfactio
 ## 🔭 Scope: 
 The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Malaysia to gain insights into customer satisfaction levels and identify common themes in customer feedback. To achieve this, we will collect data from Google My Business, which will provide access to a large volume of reviews for cafes in the Johor Bharu area. To achieve the result in question, here are the project scope statement that we will be using to our aid.
 
-- 1. `Data Sources` Collect Google reviews of cafes in Johor Bharu, Malaysia using the `Enter data source here`
-- 2. `Tools and Technologies` Use web scraping tools like BeautifulSoup or Scrapy to scrape the reviews from `Enter data source here`, and then utilize Natural Language Processing (NLP) techniques to perform sentiment analysis on the reviews
+- 1. `Data Sources` Collect Google reviews of cafes in Johor Bharu, Malaysia using the `web scrapping`.
+- 2. `Tools and Technologies` Use web scraping tools like BeautifulSoup or Scrapy to scrape the reviews from `Google My Business`, and then utilize Natural Language Processing (NLP) techniques to perform sentiment analysis on the reviews
 - 3. `Research Objectives` The objective of the research is to monitor customer satisfaction in cafes in Johor Bharu, Malaysia through analyzing the sentiment of the Google reviews, identifying the most commonly mentioned aspects of customers' experiences, and measuring overall customer satisfaction levels for each cafe.
-- 4. `Sampling` Collect reviews of cafes that are located in Johor Bharu, Malaysia, and only include reviews that have been posted within the last `Enter duration here`.
+- 4. `Sampling` Collect reviews of cafes that are located in Johor Bharu, Malaysia, and only include reviews that have been posted within the last `24 hours`.
 - 5. `Data Cleaning and Preparation` Clean the data by removing any irrelevant or duplicate reviews, correcting any spelling or grammar errors, and standardizing the format of the data.
 - 6. `Analysis methods` Analyze the data using descriptive statistics, topic modeling, and sentiment analysis to identify common themes and patterns in customer feedback and to measure overall customer satisfaction levels.
 - 7. `Reporting` Present the findings of the analysis in a report that includes charts and graphs to visualize the data, as well as a written summary of the key findings and recommendations for improving customer satisfaction in the cafes in Johor Bharu, Malaysia.
-- 8. **If the format is wrong, change it at will** 
 
 ---
 
@@ -94,10 +93,6 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 ---
 
 ## 🧮 System Architecture:
-- Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
-- Discuss the tools and frameworks that will be used for data visualization and analysis.
-- Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
-- Provide a flowchart or block diagram of the system architecture.
 
 Components in system architecture:
   1. `Data acquisition:` Collect data using **web scraping** techniques to extract reviews from Google's API or manually extract data by browsing Google reviews of cafes in Johor.
@@ -160,9 +155,6 @@ flowchart TB
 ---
 
 ## 🍡 Risks and Limitations:
-- Identify potential risks and limitations associated with the proposed data science project, including technical, financial, and legal risks. 
-- Provide a clear plan for mitigating these risks and limitations. This should include a risk management plan and contingency strategies.
-
 - Potential Risks and Limitations:
   1. `Technical risks:` The data collected from Google reviews may not be accurate, complete, or up-to-date. Also, the analysis of such data requires expertise in data analytics and statistical techniques. There may be issues with data privacy, such as sensitive customer information being exposed. Moreover, sometimes words cannot fully predict the actual sentiment of a person towards said cafe. For example, a person may make some complaints about what they do not like about the cafe, however they still rate it highly in the rating section.
   2. `Financial risks:` The cost of collecting, processing, and storing data may be higher than anticipated. There may also be unexpected expenses, such as the need for additional hardware or software. For the time being, only free softwares or tools will be used in this project. There are several options to scrap data easily using paid software but we will not go for that route, as for now.
@@ -211,7 +203,6 @@ flowchart TB
 ---
 
 ## 🛢️ Resources:
-- Provide a detailed breakdown of the resources required for the proposed data science project, including staff, equipment, software, and other expenses.
 
 1. **Staff**
   - `Data Scientists:` In charge of creating and putting into practise data science models, evaluating data, and offering conclusions and suggestions.
@@ -227,7 +218,7 @@ flowchart TB
   - `Data visualization:` Tableau or PowerBI
   - `Data management:` MongoDB
   - `Web apps with machine learning models:` Django
-  - `Machine learning:` MLflow
+  - `Machine learning:` MLflow or TenserFlow
   - `Project management:` MIRO
 
 4. **Other expenses**
@@ -236,10 +227,6 @@ flowchart TB
 ---
 
 ## 💻 Technical Specifications:
-- Discuss the technical specifications of the proposed data science project, including data sources, data schema, data transformations, machine learning algorithms, data visualization tools, and other technical details.
-- Mention the programming languages, frameworks, and libraries that will be used in the project.
-- Provide details about the hardware and software requirements for the proposed system.
-- Explain the data security measures that will be implemented.
 
 - Data Source: Google Review
 - Data Visualization Tools: Tableau / PowerBI
@@ -266,7 +253,7 @@ MongoDB requirements:
   </tr>
    <tr>
       <td>At least 8 GB of RAM</td>
-      <td>Operating system that compatible with MOngoDB such as Windows, Linux, or macOS</td>
+      <td>Operating system that compatible with MongoDB such as Windows, Linux, or macOS</td>
     </tr>
     <tr>
       <td>At least 10 GB of free disk space</td>

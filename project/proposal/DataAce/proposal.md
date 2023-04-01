@@ -183,19 +183,11 @@ There are several risks and limitations that need to be considered when building
   </tr>
   <tr>
     <th align= "left">Data transformations</th>
-    <td>
-      <ul>
-        <li>Balancing the dataset as it is imbalanced.</li>
-      </ul>
-    </td>
+    <td>Balancing the dataset as it is imbalanced.</td>
   </tr>
   <tr>
     <th align= "left">Machine learning algorithms</th>
-    <td>
-      <ul>
-	<li>Classification, Logistic Regression, SMOTE</li>
-      </ul>
-    </td>
+    <td>Classification, Logistic Regression, SMOTE</td>
   </tr>
   <tr>
     <th align= "left">Data visualization tools</th>

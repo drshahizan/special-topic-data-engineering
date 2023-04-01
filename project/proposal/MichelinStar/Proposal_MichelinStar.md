@@ -158,7 +158,7 @@ To analyse the data, we can use the aggregation function in MongoDB which is a p
 Hardware requirements: <br>
 A device with:
 <ul>
-<li>64-bit CPU processor</li>
+<li>64-bit processor</li>
 <li>at least 4 GB of RAM</li> <li>at least 10 GB of free disk space</li>
 </ul>
 </li>
@@ -189,7 +189,9 @@ MongoDB is compatible with:
 </ul><br>
 
 <b>Flowchart of system architecture:</b><br>
-
+<p align='center'>
+<img src='https://github.com/drshahizan/special-topic-data-engineering/blob/11119729e4994e69addabc0437bc56a61eb7e2a7/project/proposal/MichelinStar/flowchart_ver1.jpg'>
+</p>
 
 
   
@@ -280,37 +282,60 @@ The resources needs as below:
 
 ## 📱 Technical Specifications
 
-- Discuss the technical specifications of the proposed data science project, including data sources, data schema, data transformations, machine learning algorithms, data visualization tools, and other technical details.
-
-- Mention the programming languages, frameworks, and libraries that will be used in the project.
-
-- Provide details about the hardware and software requirements for the proposed system.
-
-- Explain the data security measures that will be implemented.
-
 <table>
   <tr>
-    <th>Data sources</th>
-    <td>-</td>
+    <td>Data sources</td>
+    <td>Framingham heart disease dataset from Kaggle</td>
   </tr>
   <tr>
-    <th>Data schema</th>
-    <td>-</td>
+    <td>Data schema</td>
+    <td>Patient data: gender, age, education, cigarette intake, symptoms of the disease, BMI, risk of future coronary heart disease (CHD)</td>
   </tr>
   <tr>
-    <th>Data transformations</th>
-    <td>-</td>
+    <td>Data transformations</td>
+    <td>Python libraries: 
+    <li>Pandas</li>
+    <li>Numpy</li>
+    </td>
   </tr>
   <tr>
-    <th>ML algorithms</th>
-    <td>-</td>
+    <td>ML algorithms</td>
+    <td>Scikit-learn</td>
   </tr>
   <tr>
-    <th>Data visualization tools</th>
-    <td>-</td>
+    <td>Data visualization tools</td>
+    <td>Python visualisation libraries: 
+    <li>Matplotlib</li>
+    <li>Seaborn</li>
+    <li>Plotly</li>
+    </td>
   </tr>
   <tr>
-    <th>Other</th>
+    <td>Programming Languages</td>
+    <td>
+    <li>Python</li>
+    <li>MongoDB Query Language (MQL)</li>
+    </td>
+  </tr>
+  <tr>
+    <td>Hardware requirements</td>
+    <td>
+    <li>64-bit processor</li>
+    <li>at least 4 GB of RAM</li>
+    <li>at least 10 GB of free disk space</li>
+    </td>
+  </tr>
+  <tr>
+    <td>Software requirements</td>
+    <td>
+    <li>Linux / Windows / macOS operating system</li>
+    <li>Django framework</li>
+    <li>MongoDB Atlas / MongoDB Compass GUI</li>
+    <li>VS Code IDE</li>
+    </td>
+  </tr>
+  <tr>
+    <td>Data security measures</td>
     <td>-</td>
   </tr>
 </table>

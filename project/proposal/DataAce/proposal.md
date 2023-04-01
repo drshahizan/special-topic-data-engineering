@@ -179,7 +179,7 @@ There are several risks and limitations that need to be considered when building
  -  Data Security Measures 
 
 ## :date: Timeline and Deliverables: 
-  **Detailed Timeline:**
+**Detailed Timeline:**
   
 Week 1-2: Project Planning and Data Collection
 
@@ -218,12 +218,15 @@ Week 11-12: Dashboard Development
 
 Week 13-14: Deployment and Documentation
 
- - Deploy the dashboard and models into a production environment
- - Document the project and provide instructions for future updates
- - Conduct user testing and gather feedback for improvements
-
+  * Deploy the dashboard and models into a production environment
+  * Document the project and provide instructions for future updates
+  * Conduct user testing and gather feedback for improvements
 
   **Quality Assurance and Testing Procedures:**
+  
+  * Test the data for accuracy, completeness, and consistency to ensure it is representative of fraud scenarios that are most relevant to the organization.
+  * Validate the model's performance on test data to ensure it is reliable and capable of detecting fraud in real-time.
+  * Test the security and privacy of the system to ensure sensitive data is protected and the system is not vulnerable to attacks.
 
 ## :round_pushpin: Conclusion:
 

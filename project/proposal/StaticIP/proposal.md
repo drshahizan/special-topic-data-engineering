@@ -238,7 +238,7 @@ Software requirements:
 
 ## ⏲️ Timeline and Deliverables
 <div align="center">
-    <img height="280px" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-01%20at%2011.02.10%20AM.png"/>
+    <img height="300px" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-01%20at%2011.02.10%20AM.png"/>
 </div>
 
 * week1 - week3 : Data collection and integration

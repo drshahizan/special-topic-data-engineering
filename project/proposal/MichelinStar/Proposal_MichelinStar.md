@@ -125,7 +125,27 @@ This project will develop an healthcare analytics platform that will leverage pr
   <td><b>10. Model monitoring and maintenance</b></td>
   <td>The <b>MLflow</b> platform is chosen for the purpose of monitor and maintenance of the model. We can carry out tracking experiments, package code into reproducible runs, share and deploy the model through MLflow. </td>
 </tr>
+</table><br>
+<b>Storing, managing and analysing data using MongoDB:</b><br>
+<table>
+<tr>
+<td><b>Storing data</b></td>
+<td>
+The steps to store csv files into MongoDB are shown as below:
+1. Install `pymongo` and `csv` pacakages using `pip install`.
+2. 
+</td>
+</tr>
+<tr>
+<td><b>Managing data</b></td>
+<td></td>
+</tr>
+<tr>
+<td><b>Analysing data</b></td>
+<td></td>
+</tr>
 </table>
+
 
   
 

@@ -51,8 +51,8 @@ However, modern technology can help to solve this problem effectively. Therefore
 
 - To determine sales trends.
 - To provide real-time information on sales.
-- To monitor the most important metrics and KPIs
-- To identify which products are selling well and which are not
+- To monitor the most important metrics and KPIs.
+- To identify which products are selling well and which are not.
 - To optimize pricing strategies.
 
 This will be significant for online sellers to track their progress and quickly respond to any changes by getting insights and analytics on e-commerce data. 

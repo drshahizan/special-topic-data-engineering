@@ -383,7 +383,7 @@ The resources needs as below:
 
 - Project Plan (`Week 1`)
 
-  > Discussing which data source that suit the best for our project objectives and scope. 
+  > A project plan is a comprehensive document that outlines the goals, objectives, and strategies for completing a specific project. It includes a detailed timeline, task list, and resource allocation, as well as risk assessment and mitigation strategies. The project plan serves as a roadmap for the entire team and ensures that everyone is aligned and working towards the same end goal. 
 
 - Data Preparation (`Week 2`)
 
@@ -391,35 +391,35 @@ The resources needs as below:
   
 - Data Collection (`Week 3`)
 
-  > Discussing which data source that suit the best for our project objectives and scope. 
+  > Data collection is the process of gathering and measuring information on a specific topic or phenomenon of interest. This involves identifying the data sources, selecting the appropriate data collection methods, and collecting the data itself. 
   
 - Data Cleaning and Preprocessing (`Week 4`)
 
-  > Data Cleaning and preporcessing the data to be used for more advance processing such as EDA, Data Integration, Aggregation and Visualization. This phase is given 3 weeks to complete since we need to remove noisy data and duplications in order to have a completly clean data. 
+  > Data cleaning involves removing any errors, duplicates, or irrelevant information from the dataset. Data integration involves combining data from multiple sources into a single dataset. Data transformation involves converting the data into a format that can be easily analyzed, such as converting categorical data into numerical data. Data reduction involves reducing the size of the dataset by removing any redundant or unnecessary data.
 
 - Data Analysis (`Week 5`)
 
-  > phase where we will be training the data and allow machine learning to use the data to create prediction, classification and clustering. 
+  > Data analysis is the process of examining and interpreting data to extract useful insights and information. This involves various techniques such as data mining, statistical analysis, machine learning, and visualization.
 
 - Exploration Report (`Week 6`)
 
-  > Discussing which data source that suit the best for our project objectives and scope. 
+  > Make a document that summarizes the findings and insights gained from exploring a particular topic or dataset. The purpose of an exploration report is to provide a comprehensive overview of the data and any patterns or trends that were identified during the exploration process.
 
 - Build User Interface (`Week 7 - Week 8`)
 
-  > A crucial phase as overall project to create a stable and reliable system. Understanding the target audience, developing the interface with their wants and preferences in mind, and taking interactive elements, colour schemes, and typefaces into consideration are just a few of the tasks involved in UI design. For enterprises and organisations, a well-designed user interface may improve the user experience, allow for more effective decision-making, and increase energy efficiency.
+  > Gather user requirements and design the layout and functionality of the UI. This involves creating wireframes or mockups to visualize the final UI design. Then developed using programming languages and frameworks such as HTML, CSS, and JavaScript. The UI should be designed to be responsive and accessible across multiple devices and platforms.
 
 - Build Model (`Week 9`)
 
-  > Discussing which data source that suit the best for our project objectives and scope. 
+  > Developing a mathematical or computational representation of a real-world system or phenomenon. This model can be used to make predictions or understand the behavior of the system in different scenarios.
 
 - System Testing & Report (`Week 10 - Week 11`)
 
-  > Discussing which data source that suit the best for our project objectives and scope. 
+  > Evaluate a software system or application to ensure that it meets the specified requirements and performs as intended. This involves testing the system as a whole, rather than individual components or modules. 
   
 - System Deployment (`Week 12`)
 
-  > Before we launch our website, it is important that we thoroughly test the system to ensure that everything is working properly and that the functions are ready to be used. This step also involves identifying and fixing any issues that could cause a system failure.
+  > After several testing on our website, it is important to release and install a software application or system into a production environment. This involves preparing the system for use by end-users and ensuring that it is available and accessible.
 
 - Maintenance & Monitoring(`Week 13`)
 

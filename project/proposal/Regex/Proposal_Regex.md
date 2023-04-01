@@ -61,6 +61,7 @@ This will be significant for online sellers to track their progress and quickly 
 ## 🔭Scope
 
 This project will develop an e-commerce analytics dashboard to analyze the sales performance of Shopee Supermarket in order for businesses to obtain valuable insights and look to optimize their online sales and marketing efforts.
+
 - The data that will be used in this project is collected from <a href="https://shopee.com.my/">Shopee</a> Malaysia. It is an e-commerce platform that sells a variety of categories of products like Home & Living, Health & Beauty and Electronics.
  
 - Web scraping tool is used to extract product information from Shopee. The extracted data will be processed and analyzed. 

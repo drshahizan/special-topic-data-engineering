@@ -1,5 +1,7 @@
 <h1 align='center'> Credit Card Fraud Detection Proposal </h1>
-
+<p align="center">
+  <img src="https://images.readwrite.com/wp-content/uploads/2023/02/Machine-Learning-Solving-Fraud-825x500.jpg" title="Fraud Detection">
+</p>
 
 ## 	:game_die: Table of Contents
 - [Executive Summary](#executive-summary)
@@ -65,7 +67,7 @@ This project will be using various research methods to achieve our main objectiv
 | Data Analysis | Data will be analysed by identifying patterns of fraudulent behavior by using Tensorflow. |
 | Feature Engineering | The relevant features which will be used to detect fraudulent activities will be analysed by using Tensorflow. |
 | Fraud Detection| A classification model will be built which will able to predict fraudulent activities based on the features identified.|
-| Visualization | Data will be displayed by using MongoDB Charts in a form of a dashboard which will be embedded in the website by using Django. |
+| Visualization | Data will be displayed by using MongoDB Charts in a form of a dashboard. |
 
 
 ## :hammer_and_wrench: System Architecture:

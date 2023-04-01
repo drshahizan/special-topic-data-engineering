@@ -385,8 +385,6 @@ The resources needs as below:
       <li>Processor: 2 GHz or more</li>
       <li>Storage: 25 GB or more free disk space</li>
       <li>Web browser</li>
-      <li>Domain name</li>
-      <li>Ethernet connection (LAN) or wireless adapter (Wi-Fi)</li>
     </td>
   </tr>
   <tr>
@@ -406,8 +404,6 @@ The resources needs as below:
       <li>Enable access control on MongoDB</li>
       <li>Use a firewall / security groups (if in cloud)</li>
       <li>Use strong password for authentication and authorization of MongoDB</li>
-      <li>Secure servers by lock down to access so that only certain IP addresses are allowed to use it.</li>
-      <li>Disable listening to all ethernet interfaces (only bind MongoDB ports to the interfaces that intended to exposed)</li>
     </td>
   </tr>
 </table>

@@ -64,8 +64,7 @@ This project will be using various research methods to achieve our main objectiv
 | Data Pre-processing | Data collected from Kaggle will be cleaned, filtered and transformed into a usable format by using Python library such as Numpy and Pandas. |
 | Data Analysis | Data will be analysed by identifying patterns of fraudulent behavior by using Tensorflow. |
 | Feature Engineering | The relevant features which will be used to detect fraudulent activities will be analysed by using Tensorflow. |
-| Fraud Detection| A classification model will be built which will able to predict fraudulent activities based on the features identified.
- |
+| Fraud Detection| A classification model will be built which will able to predict fraudulent activities based on the features identified.|
 | Visualization | Data will be displayed by using MongoDB Charts in a form of a dashboard . |
 
 

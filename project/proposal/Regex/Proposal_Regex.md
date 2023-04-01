@@ -485,28 +485,28 @@ Dashboard deployed and live
  
 **3. Quality assurance and testing procedures**
 
-1. To guarantee that an ecommerce analysis dashboard complies with the necessary standards and provides accurate and reliable data, quality assurance and testing processes are essential. Here are a few suggested actions:
+- 1. To guarantee that an ecommerce analysis dashboard complies with the necessary standards and provides accurate and reliable data, quality assurance and testing processes are essential. Here are a few suggested actions:
 
- 2. Data Validation: The process of validating the accuracy and completeness of the data gathered by the ecommerce analytics dashboard is known as data validation. This involves making sure the data is accurate, complete, and consistent.
+- 2. Data Validation: The process of validating the accuracy and completeness of the data gathered by the ecommerce analytics dashboard is known as data validation. This involves making sure the data is accurate, complete, and consistent.
 
-3. Continuous Monitoring: To make sure the ecommerce analytics dashboard is functioning properly and giving accurate data, continuous monitoring entails routinely reviewing it. This requires 
+- 3. Continuous Monitoring: To make sure the ecommerce analytics dashboard is functioning properly and giving accurate data, continuous monitoring entails routinely reviewing it. This requires 
 
-4. Functional testing: This process makes sure the dashboard works as intended. To ensure they function properly, all the features and connections must be tested.
+- 4. Functional testing: This process makes sure the dashboard works as intended. To ensure they function properly, all the features and connections must be tested.
 
-5. Compatibility Testing: This process verifies that the dashboard is functional on all widely used platforms and is compatible with a variety of browsers.
+- 5. Compatibility Testing: This process verifies that the dashboard is functional on all widely used platforms and is compatible with a variety of browsers.
 
-6. Performance testing: Performance testing analyzes the dashboard's speed and performance under various loads to make sure it can manage a lot of users and data.
+- 6. Performance testing: Performance testing analyzes the dashboard's speed and performance under various loads to make sure it can manage a lot of users and data.
 
-7. Security testing: Security testing makes sure that confidential data is protected and that the dashboard is safe from unauthorised access. This involves  testing data encryption, user identification, and other security features.
+- 7. Security testing: Security testing makes sure that confidential data is protected and that the dashboard is safe from unauthorised access. This involves  testing data encryption, user identification, and other security features.
 
-8. Usability testing: Usability testing determines how simple and user-friendly the interface is to use and how easy it is to understand. This includes testing the dashboard's navigation, layout, and overall user experience.
+- 8. Usability testing: Usability testing determines how simple and user-friendly the interface is to use and how easy it is to understand. This includes testing the dashboard's navigation, layout, and overall user experience.
 
-9. Regression Testing: Regression testing is used to make sure that new dashboard features or modifications would not have an impact on existing functionality.
+- 9. Regression Testing: Regression testing is used to make sure that new dashboard features or modifications would not have an impact on existing functionality.
 
-10. User Acceptance Testing: In user acceptance testing, a group of users who represent the intended target audience test the dashboard. This can assure that the dashboard meets their needs and expectations.
+- 10. User Acceptance Testing: In user acceptance testing, a group of users who represent the intended target audience test the dashboard. This can assure that the dashboard meets their needs and expectations.
 
 As a result of following these testing procedures, we can make sure that our ecommerce analysis dashboard is high quality, reliable, and offers valuable insights to the customers.
-
+<br>
 
 ## 🎓Conclusion
 

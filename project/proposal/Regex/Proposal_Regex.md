@@ -149,6 +149,7 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
   </tr>
 </table>
 
+<br>
 **To store, manage, and analyze data using MongoDB, the following steps can be taken:**
 
 <table align=center>
@@ -174,6 +175,7 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
   </tr>
 </table>
 
+<br>
 **The hardware and software requirements for MongoDB**
 
 <table align=center>
@@ -195,6 +197,7 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
   </tr>
 </table>
 
+<br>
 **Flowchart of the system architecture**
 
 ```mermaid

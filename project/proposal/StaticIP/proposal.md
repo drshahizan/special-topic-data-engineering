@@ -169,7 +169,7 @@ The dashboard for energy consumption analysis requires the following resources:
   </tr>
   <tr>
     <th>Data schema</th>
-    <td></td>
+    <td>Energy database on crude oil & petroleum, natural gas and electricity</td>
   </tr>
   <tr>
     <th>Data transformations</th>
@@ -185,8 +185,9 @@ The dashboard for energy consumption analysis requires the following resources:
   <tr>
     <th>Data visualization tools</th>
     <td>
-      <li></li>
-      <li></li>
+      <li>Tableau</li>
+      <li>Power BI</li>
+      <li>Seaborn, Matplotlib, Plotly</li>
     </td>
   </tr>
   <tr>
@@ -210,8 +211,8 @@ The dashboard for energy consumption analysis requires the following resources:
   <tr>
     <th>Software requirements</th>
     <td>
-      <li></li>
-      <li></li>
+      <li>Databse: MySQL</li>
+      <li>IoT Platform: AWS IoT or Azure IoT</li>
       <li></li>
       <li></li>
       <li></li>
@@ -229,18 +230,6 @@ The dashboard for energy consumption analysis requires the following resources:
   </tr>
 </table>
 
- Data can be collected from different sources such as smart meters, utility bills for energy consumptions analysis. The data schema includes:
-
-- Timestamp
-- Energy consumption
-- Occupancy data
-
-Data Visualization Tools:
- 
-- Tableau
-- Plotly
-- Power BI
-
 Programming Languages, Frameworks and Libraries:
 
 - Python
@@ -249,41 +238,6 @@ Programming Languages, Frameworks and Libraries:
 - Pandas
 - NumPy
 - Plotly
-
-<a href="https://www.python.org/">
-    <img height="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"/>
-</a>
-
-<a href="https://www.javascript.com/">
-    <img height="50" src="https://github.com/yurijserrano/Github-Profile-Readme-Logos/blob/master/programming%20languages/javascript.svg"/>
-</a>
-
-Tools Used:
-- MySQL
-- AWS and Azure Cloud Platforms
-
- Before analysis and dashboard design, data cleaning and pre-processing must be involved to remove noise and outliers. This can increase the accuracy and consistency of result when energy consumption data is being analyzed.
-
- Machine learning algorithm is also included to create build predictive models. Examples of algorithms that can be used are regression models, clustering and neural networks. The choice of algorithm is depended on the type of data and performance metrics for the analysis.
-
- Since the dashboard will be included on the cloud platform, data must be secured and protected from loss, leakage and misuse. Therefore, some steps must be taken to increase data security such as encryption, data backup and recovery, user access control and data segregation.
-
-
-- Provide details about the hardware and software requirements for the proposed system.
-
-Hardware requirements:
-
-- Computer
-
-  A desktop or laptop computer with a multi-core processor and a dedicated graphics card is recommended.
-
-- IoT Sensors
-
-  To collect real-time data to create the energy consumption analysis dashboard.
-
-- Network Connection
-
-  To store and transfer data on the cloud platform
  
 Software requirements:
 

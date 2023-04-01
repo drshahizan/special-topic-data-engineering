@@ -450,8 +450,8 @@ gantt
 **2. Deliverables and resources**
 
 Data Gathering and Cleaning
-  - Deliverables : 
-  - Resources : 
+  - Deliverables : Cleaned and structured Shopee Supermarket data
+  - Resources : Python's libraries like pandas
   
 Data Analysis and Modeling
 

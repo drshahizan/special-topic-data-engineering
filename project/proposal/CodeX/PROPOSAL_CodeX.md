@@ -211,10 +211,8 @@ Data Sources:
 - Netflix search queries
 - User ratings and reviews
 - Netflix content metadata (e.g., movie and TV show titles, actors, directors, genres)
-> use API if needed (Rapid API, Flask API)
 
 Data Schema:
-- User data: User ID, viewing history, search queries, ratings, reviews, demographics (age, gender, location, etc.)
 - Item data: Movie and TV show ID, title, cast, crew, genre, release date, rating, reviews, duration, country, language
 - Interaction data: User ID, item ID, interaction type (e.g., watched, searched, rated), timestamp
 
@@ -223,16 +221,16 @@ Data Transformations:
 - Feature engineering: Create new features from existing data, such as average rating per genre, popularity score, etc.
 - Data normalization and scaling: Normalize and scale numerical features to ensure they have similar ranges.
 - Text preprocessing: Tokenization, stemming/lemmatization, stop word removal, and other techniques to process text data.
-- Dimensionality reduction: Reduce the dimensionality of the data using techniques like PCA or t-SNE to improve model performance.
 
 Machine Learning Algorithms:
 - Collaborative filtering: Recommends items to users based on their past behavior and preferences.
 - Content-based filtering: Recommends items to users based on the similarity of their attributes to items they have liked before.
 - Hybrid approaches: Combines collaborative and content-based filtering techniques to improve recommendations.
 - Matrix factorization: Factorizes the user-item interaction matrix into low-rank matrices to capture latent features.
+> API --> Rapid API, Flask API
 
 Data Visualization Tools:
-- Tableau, PowerBI, Altryx and other business intelligence tools can be used to create visualizations of the recommendation system's performance.
+- Tableau, PowerBI, Alteryx and other business intelligence tools can be used to create visualizations of the recommendation system's performance.
 - Python visualization libraries like Matplotlib, Seaborn, and Plotly can be used to create interactive visualizations of the data and model results.
 
 Hardware Requirements:

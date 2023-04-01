@@ -89,36 +89,6 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 
 **Proposed system architecture for the Shopee Supermarket Sales Performance Dashboard:**
 
-4. Data Processing and Analysis: Once the data is collected and stored, it needs to be preprocessed and transformed into a format that can be analyzed. This involves data cleaning, normalization, transformation, etc. Various analytics tools to analyze the data stored in the data warehouse. The data analysis will include the following:
-   - 
-
-5. Data Visualization: present the results of the data analysis in a user-friendly format. The data visualization will include the following:
-   - Dashboards: This will provide a high-level view of sales performance, such as overall sales, top-performing products and categories, and seasonal trends.
-   - Reports: This will provide a detailed sales performance analysis, such as sales by product, category, and region.
-   - Charts and graphs: This will provide visual representations of the data, such as line charts, bar charts, and pie charts.
-
-6. User Interface: provide an interactive platform for users to access the data visualization and make informed decisions. The user interface will be designed to be user-friendly and intuitive, with features such as filters, search, and drill-down capabilities.
-
-7. Security and Privacy: To ensure the confidentiality, integrity, and availability of the data. This will include access controls, data encryption, and regular backups.
-
-**To store, manage, and analyze data using MongoDB, the following steps can be taken:**
-
-1. Data modeling: The first step is to create a data model that fits the structure of the data and the analysis needs. In MongoDB, the data is stored as documents, which can be nested and have different fields. A data model should be designed based on the types of data sources and analysis requirements.
-
-2. Data ingestion: The data can be ingested from various sources such as the Shopee API, CSV files, and SQL databases. The data can be transformed into JSON format and inserted into MongoDB using an ETL tool such as Talend, Apache NiFi, or AWS Glue.
-
-3. Data storage: MongoDB can be installed on-premises or in the cloud, such as on AWS or Microsoft Azure. The hardware requirements depend on the data size and the traffic volume. For example, MongoDB recommends at least 8 GB of RAM for a production deployment. The storage can be provisioned using a distributed file system such as Amazon EBS or Google Persistent Disk.
-
-4. Data analysis: MongoDB has a rich set of querying capabilities, such as aggregation pipeline, full-text search, and geospatial queries. MongoDB can also be integrated with programming languages such as Python, Java, and JavaScript. Data analysis can be done using tools such as Jupyter Notebook, Apache Spark, or Amazon SageMaker.
-
-5. Data visualization: The analyzed data can be visualized using tools such as Tableau, Power BI, or D3.js. The visualization tools can be integrated with MongoDB using MongoDB Connector for BI.
-
-The hardware and software requirements for MongoDB depend on the data size and the traffic volume. Here are some examples:
-
-Hardware requirements: MongoDB recommends at least 8 GB of RAM for a production deployment. The CPU and disk requirements depend on the workload and the data size. For a large deployment, a cluster of multiple nodes is recommended for high availability and scalability.
-
-Software requirements: MongoDB can be installed on various operating systems, such as Linux, Windows, and macOS. The software requirements include MongoDB server, MongoDB drivers for programming languages, and MongoDB Connector for BI for visualization tools.
-
 <table align=center>
   <tr>
     <th>Components</th>
@@ -152,69 +122,80 @@ Software requirements: MongoDB can be installed on various operating systems, su
       <li>Prescriptive analytics: Recommending actions to optimize sales performance, such as adjusting pricing, promotions, and product availability.</li>
       </ol></td>
     <td>
-      <ol><li>Data Processing</li>
-        <ul><li>Python programming language</li>
+          <li>Python</li>
           <li>Pandas library for data manipulation and cleaning</li>
-          <li>NumPy library for mathematical operations on arrays</li></ul>
-Data Storage:
-
-Amazon S3 for cloud-based storage
-PostgreSQL or MySQL for relational databases
-Apache Hadoop for big data storage and processing
-Data Analysis:
-
-Python programming language
-Matplotlib, Seaborn, or Plotly for data visualization
-Scikit-learn for machine learning algorithms
-Statsmodels for statistical analysis
-Machine Learning Models:
-
-Scikit-learn for regression and forecasting models
-XGBoost for gradient boosting models
-        TensorFlow or Keras for neural network models</ol></td>
+          <li>NumPy library for mathematical operations on arrays</li>
+          <li>Matplotlib, Seaborn, or Plotly for data visualization</li>
+          <li>Scikit-learn for machine learning algorithms</li>
+     </td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Visualization</td>
+    <td>Present the results of the data analysis in the following format:
+      <ol><li>Dashboards: A high-level view of sales performance, such as overall sales, top-performing products and categories, and seasonal trends.</li>
+      <li>Reports: A detailed sales performance analysis, such as sales by product, and category.</li>
+      <li>Charts and graphs: This will provide visual representations of the data, such as line charts, bar charts, and pie charts.</li>
+  </td>
+    <td><li>Power BI</li></td>
+  </tr>
+  <tr>
+    <td>User Interface</td>
+    <td>Provide an interactive platform for users to access the data visualization and make informed decisions.</td>
+    <td rowspan='2'><li>Django</li></td>
+  </tr>
+   <tr>
+    <th>Web Deployment</th>
+    <td>Deploy the dashboard on a suitable platform and ensure that monitoring tools are in place to detect and address any issues that may arise.</td>
   </tr>
 </table>
 
+**To store, manage, and analyze data using MongoDB, the following steps can be taken:**
 
 <table align=center>
   <tr>
-    <th>Components</th>
-    <th>Details</th>
+    <th>Steps</th>
+    <th>Descriptions</th>
   </tr>
   <tr>
-    <th>Data Sources</th>
-    <td>Data are gathered from Shopee Malaysia Website</td>
+    <td>Data modeling</td>
+    <td>Create a data model that fits the structure of the data and the analysis needs. In MongoDB, the data is stored as documents, which can be nested and have different fields. A data model should be designed based on the types of data sources and analysis requirements.</td>
   </tr>
   <tr>
-    <th>Web Scraper</th>
-    <td></td>
+    <td>Data storage</td>
+    <td>MongoDB can be installed on-premises or in the cloud, such as on AWS or Microsoft Azure. The hardware requirements depend on the data size and the traffic volume. For example, MongoDB recommends at least 8 GB of RAM for a production deployment. The storage can be provisioned using a distributed file system such as Amazon EBS or Google Persistent Disk.</td>
   </tr>
   <tr>
-    <th>Database</th>
-    <td></td>
+    <td>Data analysis</td>
+    <td>MongoDB has a rich set of querying capabilities, such as aggregation pipeline, full-text search, and geospatial queries. MongoDB can also be integrated with programming languages such as Python, Java, and JavaScript.</td>
   </tr>
   <tr>
-    <th>Data Preparation</th>
-    <td></td>
-  </tr>
-  <tr>
-    <th>Data Analysis</th>
-    <td></td>
-  </tr>
-  <tr>
-    <th>Model Training</th>
-    <td></td>
-  </tr>
-  <tr>
-    <th>User Interface</th>
-    <td></td>
+    <td>Data visualization</td>
+    <td>The analyzed data can be visualized using tools such as Power BI. The visualization tools can be integrated with MongoDB using MongoDB Connector for BI.</td>
   </tr>
 </table>
+
+**The hardware and software requirements for MongoDB**
+
+<table align=center>
+  <tr>
+    <th>Hardware Requirements</th>
+    <th>Software Requirements</th>
+  </tr>
+  <tr>
+    <td>CPU: 4-core, 2.5 GHz or higher</td>
+    <td>Linux, Windows, and macOS</td>
+  </tr>
+  <tr>
+    <td>RAM: 16 GB or higher</td>
+    <td>MongoDB server, drivers, Compass, and BI Connector</td>
+  </tr>
+  <tr>
+    <td>Storage: 500 GB or higher, preferably using SSDs</td>
+    <td>Third-party tools such as Python, R, or SQL for data analysis</td>
+  </tr>
+</table>
+
+**Flowchart of the system architecture**
 
 ```mermaid
 
@@ -222,8 +203,8 @@ flowchart TD;
     id1([start])-->id2[Data Gathering]
     id2[Data Gathering] --> id3[(Data Storage)]
     id3[(Data Storage)] --> id4[Data Processing and Analysis]
-    id4[Data Processing and Analysis] --> id5[Data Visualization]
-    id5[Data Visualization] --> id6[User Interface]
+    id4[Data Processing and Analysis] --> id5[Visualization]
+    id5[Visualization] --> id6[User Interface]
     id6[User Interface] --> id7[Web Deployment]
     id7[Web Deployment] --> id8([End])
 ```

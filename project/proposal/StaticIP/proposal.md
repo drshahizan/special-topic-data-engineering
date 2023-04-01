@@ -107,21 +107,53 @@ Key deliverables and milestones:
 
    Testing is required to check if the dashboard can function and interact with users properly. Deployment is needed to improve the performance of the dashboard.
 
-| Week | Deliverables and Milestones | 
-| ----- | ----- |
-| Week 1 - 3 | Data collection and integration | 
-| Week 4 - 6 | Data visualization design | 
-| Week 7 - 10 | User interface design | 
-| Week 10 - 14 | Testing and deployment | 
-
+<table align=center>
+  <tr>
+    <th>Week</th>
+    <th>Deliverables and Milestones</th>
+  </tr>
+  <tr>
+    <td>Week 1 - 3</td>
+    <td>Data collection and integration</td>
+  </tr>
+  <tr>
+    <td>Week 4 - 6</td>
+    <td>Data analysis</td>
+  </tr>
+  <tr>
+    <td>Week 7 - 9</td>
+    <td>Data visualization design</td>
+  </tr>
+    <tr>
+    <td>Week 10 - 12</td>
+    <td>User interface design</td>
+  </tr>
+  <tr>
+    <td>Week 13 - 14</td>
+    <td>Testing and deployment</td>
+  </tr>
+</table>
 
 ## 🗂️ Resources
-The dashboard for energy consumption analysis requires the following tools:
+The dashboard for energy consumption analysis requires the following resources:
 
-- A team of programmers and data scientists 
-- Software for data extraction and machine learning - Web development tools and platforms
-- Energy meters, data collectors, and monitoring devices
-- Cloud saving and storage services
+#### Staff
+- Programmers
+- Data scientists
+- Data administrator
+- Project manager
+
+#### Equipment
+- Computer
+- Electric meters
+
+#### Software
+- Visual studio code
+- Tableau
+- Power BI
+
+#### Other expenses
+- Software plan subscription
 
 ## 🛠️ Technical Specifications
 

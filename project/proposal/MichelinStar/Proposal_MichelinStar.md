@@ -228,7 +228,7 @@ Here are some potential risks and limitations associated with heart disease pred
 
 **Deliverables:**
 <br>
-**1.Project Proposal**
+**1. Project Proposal**
 - A proposal that outlines the goals, scope, and methodology of the project will be created for the system.
 <br>
 
@@ -300,7 +300,8 @@ The resources needs as below:
    - TensorFlow: TensorFlow is an open-source machine learning framework developed by Google. It has a large community of developers and supports a wide range of machine learning tasks, including heart disease prediction.
 
    - Scikit-learn: Scikit-learn is a popular machine learning library in Python, and has several algorithms for classification tasks. It is easy to use and has good documentation.
- <br>
+ <br> </br>
+  
 - Other expenses
   - Cloud computing costs
   - Annotation costs

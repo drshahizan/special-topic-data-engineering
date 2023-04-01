@@ -379,13 +379,51 @@ The resources needs as below:
 
 ## ⌚ Timeline and Deliverables
 
-- Provide a detailed timeline for the project, including milestones and deadlines.
-
-- Specify the deliverables that will be provided at each milestone. It should also specify the expected time frame for each deliverable and the resources that will be required to complete the project.
-
-- Explain the quality assurance and testing procedures that will be followed.
 ![Timeline](https://user-images.githubusercontent.com/120614501/229098758-412eed0b-661c-4b20-8603-63a36570ac1c.png)
+
+- Project Plan (`Week 1`)
+
+  > Discussing which data source that suit the best for our project objectives and scope. 
+
+- Data Preparation (`Week 2`)
+
+  > Discussing which data source that suit the best for our project objectives and scope. 
   
+- Data Collection (`Week 3`)
+
+  > Discussing which data source that suit the best for our project objectives and scope. 
+  
+- Data Cleaning and Preprocessing (`Week 4`)
+
+  > Data Cleaning and preporcessing the data to be used for more advance processing such as EDA, Data Integration, Aggregation and Visualization. This phase is given 3 weeks to complete since we need to remove noisy data and duplications in order to have a completly clean data. 
+
+- Data Analysis (`Week 5`)
+
+  > phase where we will be training the data and allow machine learning to use the data to create prediction, classification and clustering. 
+
+- Exploration Report (`Week 6`)
+
+  > Discussing which data source that suit the best for our project objectives and scope. 
+
+- Build User Interface (`Week 7 - Week 8`)
+
+  > A crucial phase as overall project to create a stable and reliable system. Understanding the target audience, developing the interface with their wants and preferences in mind, and taking interactive elements, colour schemes, and typefaces into consideration are just a few of the tasks involved in UI design. For enterprises and organisations, a well-designed user interface may improve the user experience, allow for more effective decision-making, and increase energy efficiency.
+
+- Build Model (`Week 9`)
+
+  > Discussing which data source that suit the best for our project objectives and scope. 
+
+- System Testing & Report (`Week 10 - Week 11`)
+
+  > Discussing which data source that suit the best for our project objectives and scope. 
+  
+- System Deployment (`Week 12`)
+
+  > Before we launch our website, it is important that we thoroughly test the system to ensure that everything is working properly and that the functions are ready to be used. This step also involves identifying and fixing any issues that could cause a system failure.
+
+- Maintenance & Monitoring(`Week 13`)
+
+  >  Performance monitoring and user feedback analysis
 
 ## 🎓 Conclusion
 

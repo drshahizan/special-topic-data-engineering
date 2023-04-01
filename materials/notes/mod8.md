@@ -8,17 +8,18 @@
 Don't forget to hit the :star: if you like this repo.
 
 <!---
-Module X: XXX
+Module 8: Artificial Intelligence vs Machine Learning vs Deep Learning
 
-Group XXXX
-1. XXXX
-2. XXXX
-3. XXXX
-4. XXXX
+Group Regex
+1. HONG PEI GEOK
+2. MADIHAH BINTI CHE ZABRI
+3. MAIZATUL AFRINA SAFIAH BINTI SAIFUL AZWAN
+4. NURARISSA DAYANA BINTI MOHD SUKRI
+5. SAKINAH AL'IZZAH BINTI MOHD ASRI
 
 -->
 
-# Module X: Data Engineer, Data Engineering, Data Science, Data Scientist
+# Module 8: Artificial Intelligence vs Machine Learning vs Deep Learning
 
 ### Contents:
 #### Notes

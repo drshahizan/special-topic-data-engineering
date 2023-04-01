@@ -149,7 +149,7 @@ There are several risks and limitations that need to be considered when building
 5. Project manager
 6. Database administrator
 
--Equipment
+- Equipment
 1. Laptop
 2. Computer
 3. High performing computing equipment

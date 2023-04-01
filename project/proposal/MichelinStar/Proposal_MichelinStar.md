@@ -335,6 +335,7 @@ The resources needs as below:
     <li>Matplotlib</li>
     <li>Seaborn</li>
     <li>Plotly</li>
+    <li>PowerBI</li>
     </td>
   </tr>
   <tr>
@@ -342,11 +343,14 @@ The resources needs as below:
     <td>
     <li>Python</li>
     <li>MongoDB Query Language (MQL)</li>
+    <li>CSS</li>
+    <li>HTML</li>
     </td>
   </tr>
   <tr>
     <td>Hardware requirements</td>
     <td>
+    <li>Windows operating system</li>
     <li>64-bit processor</li>
     <li>at least 4 GB of RAM</li>
     <li>at least 10 GB of free disk space</li>

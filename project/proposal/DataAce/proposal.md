@@ -177,7 +177,7 @@ There are several risks and limitations that need to be considered when building
   </tr>
   <tr>
     <th align= "left">Data schema</th>
-    <td>Dataset contains features V1 until V8 obtained with PCA. Due to confidentiality issues, the original features and background information on the data cannot be provided. 'Time' and 'Amount' are also the features.</td>
+    <td>Dataset contains 31 features obtained with PCA. Due to confidentiality issues, the original features and background information on the data cannot be provided. There are three features that has not been transformed : 'Time','Amount' and 'Class'.</td>
   </tr>
   <tr>
     <th align= "left">Data transformations</th>

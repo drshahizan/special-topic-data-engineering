@@ -79,10 +79,10 @@ title: System Architecture Flowchart
 flowchart TB
     A(Start) --> B[Collect data from Malaysia Energy Information Hub (MEIH)]
     B --> C[Preprocess and clean data using Pandas]
-    C --> D[(Store data into MongoDB database)]
+    C --> D[Store data into MongoDB database]
     D --> E[Perform EDA on data]
     E --> F[Perform modeling]
-    F --> G[(Store new data into MongoDB)]
+    F --> G[Store new data into MongoDB]
     G --> H[Connect Power BI to MongoDB database]
     H --> I[Import data into Power BI Desktop]
     I --> J[Create visualizations using Power BI]	

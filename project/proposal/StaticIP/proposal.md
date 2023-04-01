@@ -88,10 +88,6 @@ flowchart TD;
 #### 
 Last but not least, the proposed system design will be built using a combination of high-performance hardware and software, MongoDB, and tools and frameworks for data visualisation and analysis. This will provide the system with a stable and secure environment while ensuring effective data management, storage, and analysis.
 
-<div align="center">
-<img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/dashboard.gif" height="150">
-</div>
-
 ## 💣 Risks and Limitations
  Although creating the energy consumption analysis dashboard will provide make our life more convienient, it still has its risk and limitations:
 

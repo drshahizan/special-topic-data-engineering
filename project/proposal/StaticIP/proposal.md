@@ -91,23 +91,23 @@ Key deliverables and milestones:
 
    Based on the goals of our dashboard, data from different sources must be collected. For example, data from sensors, energy meters and building management systems.  All of the data will be collected and integrated in the dashboard.
 
-2) Data analysis
+#### 2) Data analysis
 
    Data analysis include performing exploratory data analysis which will indicate the characteristic of the data and find out the hidden relationship in the dataset.
 
-3) Data visualization design
+#### 3) Data visualization design
 
    Data visualization provides graphs and charts to show the latest information on energy consumption analysis. With graphs and charts, data is easy to interpret and understand.
 
-4) User interface design
+#### 4) User interface design
 
    The design of user interface must be user-friendly. Users can easily navigate and use the dashboard.
 
-5) Security and privacy
+#### 5) Security and privacy
 
    To ensure the data is secure and protected, security and privacy must be implemented into our dashboard system. The privacy of users will not be lost and used by the others.
 
-6) Testing and deployment
+#### 6) Testing and deployment
 
    Testing is required to check if the dashboard can function and interact with users properly. Deployment is needed to improve the performance of the dashboard.
 

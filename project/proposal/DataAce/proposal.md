@@ -73,7 +73,7 @@ This project will be using various research methods to achieve our main objectiv
 
 The system architecture consists of several components that work together to process and visualize data stored in a MongoDB database:
 
-![system architecture](architecture.jpg)
+![system architecture](architecture (1).jpg)
 
 
 1. MongoDB Database: This component serves as the primary data storage for the system. The database will contain the original dataset uploaded from Kaggle, as well as any new incoming synthetic data that is processed using TensorFlow.

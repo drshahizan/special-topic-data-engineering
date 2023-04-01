@@ -86,12 +86,20 @@ This project will develop an healthcare analytics platform that will leverage pr
 <b>Overview of system architecture</b><br>
 <table>
 <tr>
-  <td><b>1. Data Collection</b></td>
-  <td>Collect the healthcare data from Kaggle and download them in csv format. </td>
+  <td><b>1. Data acquisition</b></td>
+  <td>Collect the healthcare data from Kaggle and download them in <b>csv</b> format. </td>
 </tr>
 <tr>
   <td><b>2. Data storage</b></td>
-  <td>Upload the collected data to the </td>
+  <td>Upload the collected data to the <b>MongoDB</b>, a NoSQL database which is capable in handling various types and high volume of data. </td>
+</tr>
+<tr>
+  <td><b>3. Data preprocessing</b></td>
+  <td>Perform data cleaning process using the <b>Pandas</b> and <b>Numpy</b> libraries to remove, modify and format data which is irrelevant, duplicated or incorrect. This is a significant step to ensure data quality of the building of machine learning model later. </td>
+</tr>
+<tr>
+  <td><b>4. Exploratory Data Analysis (EDA)</b></td>
+  <td></td>
 </tr>
 </table>
 

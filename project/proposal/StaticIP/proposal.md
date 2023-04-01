@@ -224,7 +224,6 @@ The dashboard for energy consumption analysis requires the following resources:
     <th>Data security measures</th>
     <td>
       <li>User and device authentication</li>
-
      <li>Data access control</li>
       <li>Encrypt data in AWS cloud database</li>
       <li>Perform data backup and recovery</li>
@@ -234,7 +233,7 @@ The dashboard for energy consumption analysis requires the following resources:
  
 ## ⏲️ Timeline and Deliverables
 <div align="center">
-    <img height="330px" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-01%20at%2011.02.10%20AM.png"/>
+T    <img height="330px" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-01%20at%2011.02.10%20AM.png"/>
 </div>
 
 * week1 - week3 : Data collection and integration
@@ -253,7 +252,14 @@ The dashboard for energy consumption analysis requires the following resources:
     > Testing and dissemination are crucial phases in the development process to guarantee that the Energy Consumption Analysis Dashboard is functional, bug-free, meets the required specifications, and is distributed securely. Making a test plan, conducting test cases, identifying issues and flaws, and fixing them before publication are all part of the testing process. The dashboard is then distributed to the desired platform after testing is complete, keeping security and data safety in mind. The hardware must be built up, and the software must be installed and customised. Ongoing monitoring and maintenance are required to keep the dashboard functioning correctly and satisfying user requirements.
 
 ## 🔍 Conclusion
+```
  It is crucial to create an energy usage research panel in order to improve energy efficiency and reduce energy costs for businesses and organizations. Because it gives real-time views into energy use and pollution, it makes it easier to take preventative steps and reduce carbon effect. It is simple to measure and track energy consumption with the interface thanks to its accessibility from any device, which contributes to the development of a more sustainable future.
- 
-The proposal's final section describes how to create an energy consumption analysis dashboard that will provide up-to-date data on energy consumption and help businesses and organisations make decisions that will increase their energy efficiency. In addition to describing the project's deliverables, resources, technical requirements, and schedule, the proposal also discusses the project's context, goals, objectives, scope, methodology, system architecture, risks, and constraints. In order to lower energy costs, consumption, and ensure a more sustainable future, this dashboard must be made. However, there are additional risks and constraints associated with the project that must be considered and managed in terms of money, technology, and the law. The proposal provides a comprehensive and well-organized plan for developing an energy consumption analysis dashboard that will be helpful to Malaysian businesses and organisations.
+```
+ In order to increase the efficiency of the client's marketing strategies, our proposal concludes by outlining the advantages of implementing a data-driven strategy. We can assist the client in gaining important insights into consumer behavior, preferences, and needs so they can develop individualised marketing campaigns that successfully reach their target audience. We do this by utilising data analytics, machine learning, and AI technologies.
+
+The benefits of our suggested answer include improved brand awareness, higher ROI, and higher consumer engagement. By staying abreast of the most recent marketing trends and technologies, it also helps the client remain one step ahead of the competition.
+
+We are however conscious of the potential drawbacks and challenges that may arise when putting this initiative into practice, such as concerns with data privacy, the need for specialised knowledge and resources, and potential resistance to change from some stakeholders.
+
+ There are also risk and disadvantage but the benefits outweigh any potential disadvantages. This will help the us firm establish a data-driven culture, enhance marketing outcomes, and boost overall business success.
 

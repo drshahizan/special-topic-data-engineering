@@ -176,18 +176,21 @@ The dashboard for energy consumption analysis requires the following resources:
     <td>Python libraries:
       <li>Pandas</li>
       <li>Numpy</li>
+      <li>Seaborn</li>
+      <li>Matplotlib</li>
+      <li>Plotly</li>
     </td>
   </tr>
   <tr>
     <th>ML algorithms</th>
-    <td>Scikit-learn</td>
+    <td>Regression</td>
+    <td>Classification</td>
   </tr>
   <tr>
     <th>Data visualization tools</th>
     <td>
       <li>Tableau</li>
       <li>Power BI</li>
-      <li>Seaborn, Matplotlib, Plotly</li>
     </td>
   </tr>
   <tr>

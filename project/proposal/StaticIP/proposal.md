@@ -84,17 +84,17 @@ flowchart TD;
     J --> K[Embed to website]
     K --> L([End])
   ```
-Steps of store and analyse data:
+Steps of storing and analysing data:
 
 • `Data acquisition:` Collect data from Malaysia Energy Information Hub (MEIH) portal: https://meih.st.gov.my/statistics
 
-• `Data atorage:` MongoDB will be used for NoSQL database. The data will also be stored at cloud database which is AWS cloud platform that could provide data security and it is easy to use.
+• `Data storage:` MongoDB will be used for NoSQL database. The data will also be stored at cloud database which is AWS cloud platform that could provide data security and it is easy to use.
 
 • `Data preprocessing:` This step is to remove unwanted data and handle all the missing values, outliers and inconsistent data that could affect the result and accuracy of data analysis.
 
-• `Data modeling:` The data is being analysed by using the algorithms such as regression and classification. This process also involves machine learning to make predictions about the data.
+• `Data modeling:` Libraries like Pandas and Numpy will be used to analyse the data. Algorithms such as regression and classification will be carried out in this step. This process also involves machine learning to make predictions about the data.
 
-• `Model development:` 
+• `Visualization and reporting:` Tools like Tableau and Power BI will be used to visualize the result of the analysis into charts and graphs. Power BI will be connected to MongoDB and the data will be imported into Power BI. It then creates an interactive dashboard for users to get a better insights of the data. After that, the dashboard will be embed to the websites with explanations and descriptions of the data analysis.
 
 #### 
 Last but not least, the proposed system design will be built using a combination of high-performance hardware and software, MongoDB, and tools and frameworks for data visualisation and analysis. This will provide the system with a stable and secure environment while ensuring effective data management, storage, and analysis.

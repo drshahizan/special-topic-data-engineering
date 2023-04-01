@@ -58,7 +58,50 @@
  To begin the project, all relevant data such as electricity usage and gas usage will be collected. After the data is collected, the data will undergo pre-processing process before it is analyzed. The tasks in data pre-processing include cleaning, filtering and data transforming to ensure the data is usable. Then, we will start to carry out data analysis to derive insights from the data. In order to achieve this task, we will be using MongoDB's aggregation to determine and analyze the peak demand period and energy consumption patterns by geographic location or demographic group or detecting anomalies in energy consumption. Next, we will identify what features will be used to analyze the energy consumption pattern. Example of the features may be used is time, weather and occupancy. After that, we will predict the energy demand and determine the energy efficiency opportunities by developing predictive models by using machine learning models and algorihtms such as linear regression, time-series forecasting or clustering. Finally, we will visualize the results of the analysis by using chart or graph so that we can understand the energy usage patterns and areas of energy savings easily.
 
 ## 🖥️ System Architecture
+```
  It will be possible to view the Energy Consumption Analysis Dashboard from any device via the internet. With customized dashboards that can be adjusted to the particular demands of individual businesses and groups, it will be made to be user-friendly and simple to traverse. With the help of the dashboard, businesses and organizations will be able to spot areas with high energy consumption and waste and take proactive steps to increase energy efficiency. The dashboard will also provide real-time data on energy usage, expenses, and efficiency. Besides, it will send messages and alerts to users when energy use significantly changes so they can react right away.
+ ```
+ 
+ Various tools and technologies will be combined to create the suggested system architecture. We will make use of the following to guarantee rapid and successful system development and deployment:
+
+• MongoDB: The system's data will be stored and managed using MongoDB. It is a NoSQL database that provides the scalability and freedom necessary for a system of this kind. MongoDB is a great option for our data management requirements because it also has an intuitive interface and a strong query language.
+
+• Hardware and software requirements: To support its complex data processing and analysis needs, the system will need high-performance hardware and software. This entails quick processors, lots of RAM, and SSD storage for quick data access. For a stable and secure setting, we will also use Apache web server and Linux-based operating systems.
+
+• Data visualization and analysis tools and frameworks: To visualise and examine the data from the system, we will employ a variety of structures and tools. These include live data analysis and visualisation tools like Jupyter Notebooks, data manipulation and analysis tools like Pandas, and data visualisation tools like D3.js.
+
+To illustrate the system architecture, we have provided a flowchart below:
+
+```
+                     +------------+
+                     |    User    |
+                     +------------+
+                           |
+                           |
+                           |
+                           v
+                     +------------+
+                     |   Server   |
+                     +------------+
+                           |
+                           |
+                           |
+                           v
+                 +-------------------+
+                 |    MongoDB DBMS   |
+                 +-------------------+
+                           |
+                           |
+                           |
+                           v
+          +--------------------------+
+          | Data visualization tools |
+          | Data analysis frameworks |
+          +--------------------------+
+
+```
+
+Last but not least, the proposed system design will be built using a combination of high-performance hardware and software, MongoDB, and tools and frameworks for data visualisation and analysis. This will provide the system with a stable and secure environment while ensuring effective data management, storage, and analysis.
 
 <div align="center">
 <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/dashboard.gif" height="150">
@@ -149,12 +192,11 @@ The dashboard for energy consumption analysis requires the following resources:
 
 #### Equipment
 - Computer
-- Electric meters
 
 #### Software
 - Visual studio code
-- Tableau
 - Power BI
+- MongoDB
 
 #### Other expenses
 - Software plan subscription
@@ -176,18 +218,22 @@ The dashboard for energy consumption analysis requires the following resources:
     <td>Python libraries:
       <li>Pandas</li>
       <li>Numpy</li>
+      <li>Seaborn</li>
+      <li>Matplotlib</li>
+      <li>Plotly</li>
     </td>
   </tr>
   <tr>
     <th>ML algorithms</th>
-    <td>Scikit-learn</td>
+    <td>
+      <li>Regression</li>
+      <li>Classification</li>
+    </td>
   </tr>
   <tr>
     <th>Data visualization tools</th>
     <td>
-      <li>Tableau</li>
       <li>Power BI</li>
-      <li>Seaborn, Matplotlib, Plotly</li>
     </td>
   </tr>
   <tr>
@@ -214,13 +260,14 @@ The dashboard for energy consumption analysis requires the following resources:
       <li>Power BI</li>
       <li>AWS cloud database</li>
       <li>Visual Studio Code</li>
+      <li>MongoDB</li>
     </td>
   </tr>
   <tr>
     <th>Data security measures</th>
     <td>
       <li>User and device authentication</li>
-      <li>Data access control</li>
+     <li>Data access control</li>
       <li>Encrypt data in AWS cloud database</li>
       <li>Perform data backup and recovery</li>
     </td>
@@ -229,7 +276,7 @@ The dashboard for energy consumption analysis requires the following resources:
  
 ## ⏲️ Timeline and Deliverables
 <div align="center">
-    <img height="330px" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-01%20at%2011.02.10%20AM.png"/>
+T    <img height="330px" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-01%20at%2011.02.10%20AM.png"/>
 </div>
 
 * week1 - week3 : Data collection and integration
@@ -248,4 +295,13 @@ The dashboard for energy consumption analysis requires the following resources:
     > Testing and dissemination are crucial phases in the development process to guarantee that the Energy Consumption Analysis Dashboard is functional, bug-free, meets the required specifications, and is distributed securely. Making a test plan, conducting test cases, identifying issues and flaws, and fixing them before publication are all part of the testing process. The dashboard is then distributed to the desired platform after testing is complete, keeping security and data safety in mind. The hardware must be built up, and the software must be installed and customised. Ongoing monitoring and maintenance are required to keep the dashboard functioning correctly and satisfying user requirements.
 
 ## 🔍 Conclusion
+```
  It is crucial to create an energy usage research panel in order to improve energy efficiency and reduce energy costs for businesses and organizations. Because it gives real-time views into energy use and pollution, it makes it easier to take preventative steps and reduce carbon effect. It is simple to measure and track energy consumption with the interface thanks to its accessibility from any device, which contributes to the development of a more sustainable future.
+```
+ In order to increase the efficiency of the client's marketing strategies, our proposal concludes by outlining the advantages of implementing a data-driven strategy. We can assist the client in gaining important insights into consumer behavior, preferences, and needs so they can develop individualised marketing campaigns that successfully reach their target audience. We do this by utilising data analytics, machine learning, and AI technologies.
+
+The benefits of our suggested answer include improved brand awareness, higher ROI, and higher consumer engagement. By staying abreast of the most recent marketing trends and technologies, it also helps the client remain one step ahead of the competition.
+
+We are however conscious of the potential drawbacks and challenges that may arise when putting this initiative into practice, such as concerns with data privacy, the need for specialised knowledge and resources, and potential resistance to change from some stakeholders.
+
+ There are also risk and disadvantage but the benefits outweigh any potential disadvantages. This will help the us firm establish a data-driven culture, enhance marketing outcomes, and boost overall business success.

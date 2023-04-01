@@ -18,7 +18,7 @@ Group XXXX
 
 -->
 
-# Module X: Data Engineer, Data Engineering, Data Science, Data Scientist
+# Module 5: Data Wrangling
 
 ### Contents:
 #### Notes

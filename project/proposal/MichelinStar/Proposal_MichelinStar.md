@@ -75,15 +75,9 @@ This project will develop an healthcare analytics platform that will leverage pr
 
 ## 🔧 System Architecture
 
-- Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
-
-- Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
-
-- Discuss the tools and frameworks that will be used for data visualization and analysis.
-
 - Provide a flowchart or block diagram of the system architecture.
 
-<b>Overview of system architecture</b><br>
+<b>Overview of system architecture:</b><br>
 <table>
 <tr>
   <td><b>1. Data acquisition</b></td>
@@ -99,9 +93,104 @@ This project will develop an healthcare analytics platform that will leverage pr
 </tr>
 <tr>
   <td><b>4. Exploratory Data Analysis (EDA)</b></td>
-  <td></td>
+  <td>In this step, we can identify: 
+  <li>the relationship between the features through visualisation using <b>Matpoltlib, Seaborn</b> and any other graph plottiong libraries</li> 
+  <li>the occurance of outliers</li>
+  <li>the summary of the statistics of the dataset using <b>Pandas</b> and <b>Numpy</b></li>
+  <li>the hidden correlation between the features which we overlooked </li></td>
+</tr>
+<tr>
+  <td><b>5. Feture engineering</b></td>
+  <td>Feature engineering aims to transform the features in EDA into features which is suitable for building machine learning model. <b>Pandas, Numpy</b> and <b>Scikit-learn</b> are used to handle missing values, skewness, outliers, and imbalance data, scaling down the features and creating new features from existing features for the further steps. </td>
+</tr>
+<tr>
+  <td><b>6. Feature selection</b></td>
+  <td>Feature selection is a process in choosing the best set of independent features which are required in model training. It is important in improving the machine learning model performance, reducing the training time of the algorithms and enhance the generalization of the model.</td>
+</tr>
+<tr>
+  <td><b>7. Model building</b></td>
+  <td>We choose to build a <b>classification</b> model using the selected dataset in order to help medical-related person in predicting the diagonis result according to the patient's symptoms. The dataset will be split into 3 sets which are train set (to train the algorithms), validation set (to optimise the model) and test set (to evaluate the model). </td>
+</tr>
+<tr>
+  <td><b>8. Model evaluation</b></td>
+  <td>The model built will then be evaluated using the <b>Scikit-learn</b> library. Since we are doing classification model, we choose to evaluate our model using the confusion matrix, where we can conclude the level of accuracy, precision, and recall. </td>
+</tr>
+<tr>
+  <td><b>9. Model deployment</b></td>
+  <td>The <b>Django</b> web framework will be used to built a web application which allows user to enter the symptoms of the patient and obtain prediction from the classification model. </td>
+</tr>
+<tr>
+  <td><b>10. Model monitoring and maintenance</b></td>
+  <td>The <b>MLflow</b> platform is chosen for the purpose of monitor and maintenance of the model. We can carry out tracking experiments, package code into reproducible runs, share and deploy the model through MLflow. </td>
+</tr>
+</table><br>
+<b>Storing, managing and analysing data using MongoDB:</b><br>
+<table>
+<tr>
+<td><b>Storing data</b></td>
+<td>
+The steps to store csv files into MongoDB are shown as below: <br>
+1. Install <code>pymongo</code> and <code>csv</code> pacakages using <code>pip install</code>.<br>
+2. Connect to the MongoDB server using <code>pymongo</code> package, then create a new database and collection. <br>
+3. Use the <code>csv</code> package to read the csv file, converts each row into one dictionary, and insert them into the collection of the database. <br>
+4. Verify the inserted data by querying the collection. 
+</td>
+</tr>
+<tr>
+<td><b>Managing data</b></td>
+<td>
+Data can be managed by MongoDB through a few aspects including querying data, backup and restoring data, and ensuring security of data. Data can be queried through the CRUD operations which stands for creating, reading, updating and deleting data. MongoDB supports the creation of indexes which aid in improving query performance. 
+
+Data availability can be ensured by using the backup and restoring tools of MongoDB. MongoDB also provide authentication and authorization process to avoid unauthorized access and data encryption in order to enhance the data security. 
+</td>
+</tr>
+<tr>
+<td><b>Analysing data</b></td>
+<td>
+To analyse the data, we can use the aggregation function in MongoDB which is a pipeline-based framework to carry out complex data analysis through grouping, filtering and tramsforming data in the collection. 
+</td>
+</tr>
+</table><br>
+
+<b>Requirements to support MongoDB: </b><br>
+<ul>
+<li>
+Hardware requirements: <br>
+A device with:
+<ul>
+<li>64-bit CPU processor</li>
+<li>at least 4 GB of RAM</li> <li>at least 10 GB of free disk space</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Software requirements: <br>
+MongoDB is compatible with:  
+<table> 
+<tr>
+<td>operating system</td> <td>Linux / Windows / macOS</td>
+</tr>
+<tr>
+<td>programming languages</td> <td>Python</td>
+</tr>
+<tr>
+<td>framework</td> 
+<td>Django</td>
+</tr>
+<tr>
+<td>Graphical User Interfaces (GUI)</td> 
+<td>MongoDB Atlas / MongoDB Compass</td>
+</tr>
+<tr>
+<td>integrated development environment (IDE)</td> <td>VS Code</td>
 </tr>
 </table>
+</li>
+</ul><br>
+
+<b>Flowchart of system architecture:</b><br>
+
+
 
   
 

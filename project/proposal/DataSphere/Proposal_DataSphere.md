@@ -60,15 +60,15 @@ The objective of this project is to improve an organisations performance in term
   - Adequate hardware and software to progress.
 
 ## Methodology
-- Data collection : Gather information on customer preferences, product features with age and gender preferences, and other pertinent information using the data scraping method. 
+- ``Data collection`` : Gather information on customer preferences, product features with age and gender preferences, and other pertinent information using the data scraping method. 
 
-- Data cleaning and processing : The collected data will be cleaned, filtered, pre-processed to remove duplicate data.
+- ``Data cleaning and processing`` : The collected data will be cleaned, filtered, pre-processed to remove duplicate data.
 
-- Data analysis : Data analysis utilizing descriptive statistics and exploratory data analysis methods comes after the data have been cleaned. This will make it easier to spot patterns and trends in the information.
+- ``Data analysis`` : Data analysis utilizing descriptive statistics and exploratory data analysis methods comes after the data have been cleaned. This will make it easier to spot patterns and trends in the information.
 
-- Machine learning algorithms : Based on the gathered data, machine learning algorithms can be utilized to anticipate the customer choice. Hence, can build a model utilizing supervised learning methods like regression or classification.
+- ``Machine learning algorithms`` : Based on the gathered data, machine learning algorithms can be utilized to anticipate the customer choice. Hence, can build a model utilizing supervised learning methods like regression or classification.
 
-- Data visualization : Use data visualization approaches to illustrate the relationship between product feature patterns, analysis, and machine learning algorithms. Tools like Tableau and Python packages like Matplotlib and Seaborn can be used for this.
+- ``Data visualization`` : Use data visualization approaches to illustrate the relationship between product feature patterns, analysis, and machine learning algorithms. Tools like Tableau and Python packages like Matplotlib and Seaborn can be used for this.
 
 
 ## System Architecture

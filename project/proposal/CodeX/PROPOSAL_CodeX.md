@@ -287,7 +287,7 @@ Overall, while Netflix's recommendation system is generally effective, it is imp
     <th align= "left">Data Security</th>
     <td>
 	    <ul>
-			<li>Encryption: AES/SSl/TLS</li>
+			<li>Encryption: AES/SSL/TLS</li>
 		    <li>Access control: RBAC/ABAC</li>
 		    <li>Authentication and Authorisation:  password authentication, 2FA, biometric authentication</li>
 		    <li>Data backup and recovery: regular backups of sensitive data, data should be stored in a secure and encrypted location.</li>

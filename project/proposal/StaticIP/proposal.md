@@ -224,7 +224,8 @@ The dashboard for energy consumption analysis requires the following resources:
     <th>Data security measures</th>
     <td>
       <li>User and device authentication</li>
-      <li>Data access control</li>
+
+     <li>Data access control</li>
       <li>Encrypt data in AWS cloud database</li>
       <li>Perform data backup and recovery</li>
     </td>
@@ -253,3 +254,6 @@ The dashboard for energy consumption analysis requires the following resources:
 
 ## 🔍 Conclusion
  It is crucial to create an energy usage research panel in order to improve energy efficiency and reduce energy costs for businesses and organizations. Because it gives real-time views into energy use and pollution, it makes it easier to take preventative steps and reduce carbon effect. It is simple to measure and track energy consumption with the interface thanks to its accessibility from any device, which contributes to the development of a more sustainable future.
+ 
+The proposal's final section describes how to create an energy consumption analysis dashboard that will provide up-to-date data on energy consumption and help businesses and organisations make decisions that will increase their energy efficiency. In addition to describing the project's deliverables, resources, technical requirements, and schedule, the proposal also discusses the project's context, goals, objectives, scope, methodology, system architecture, risks, and constraints. In order to lower energy costs, consumption, and ensure a more sustainable future, this dashboard must be made. However, there are additional risks and constraints associated with the project that must be considered and managed in terms of money, technology, and the law. The proposal provides a comprehensive and well-organized plan for developing an energy consumption analysis dashboard that will be helpful to Malaysian businesses and organisations.
+

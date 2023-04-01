@@ -281,6 +281,8 @@ The resources needs as below:
    - Data Engineer: Data Engineer need to design data architecture, develope data pipelines and of course ensuring data quality for the system.
 
    - Project Manager: Project Manager need to handle project planning, risk management, resource allocation, communication and team management to create the system.
+  
+   - UI/UX Designer: UI/UX Designer need to design the user interface for web application and make it comfortable for user's operation.
 
 - Equipment
    - Computer
@@ -294,6 +296,8 @@ The resources needs as below:
    - TensorFlow: TensorFlow is an open-source machine learning framework developed by Google. It has a large community of developers and supports a wide range of machine learning tasks, including heart disease prediction.
 
    - Scikit-learn: Scikit-learn is a popular machine learning library in Python, and has several algorithms for classification tasks. It is easy to use and has good documentation.
+
+   - Visual Studio Code: Make collaboration with teammates and upload the code to Github by syncing them together. It is easy to track teammates progress and work together. 
 
   
 - Other expenses

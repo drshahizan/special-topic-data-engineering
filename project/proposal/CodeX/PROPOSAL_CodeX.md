@@ -211,6 +211,7 @@ Data Sources:
 - Netflix search queries
 - User ratings and reviews
 - Netflix content metadata (e.g., movie and TV show titles, actors, directors, genres)
+> use API if needed (Rapid API, Flask API)
 
 Data Schema:
 - User data: User ID, viewing history, search queries, ratings, reviews, demographics (age, gender, location, etc.)

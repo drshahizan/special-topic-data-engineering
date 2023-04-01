@@ -399,12 +399,6 @@ The resources needs as below:
 
 ## ⌚Timeline and Deliverables
 
-- Provide a detailed timeline for the project, including milestones and deadlines.
-
-- Specify the deliverables that will be provided at each milestone. It should also specify the expected time frame for each deliverable and the resources that will be required to complete the project.
-
-- Explain the quality assurance and testing procedures that will be followed.
-
 <div class="mermaid">
   
   ```mermaid
@@ -435,6 +429,8 @@ gantt
   ```
   </div>
 
+### Detailed timeline
+
 - WEEK 3 - 7 : `Data Gathering and Cleaning`
   > - Gather product data and store the data in MongoDB.
   > - Clean the data to remove any inconsistencies or anomalies.
@@ -443,7 +439,7 @@ gantt
 
   > - Perform EDA and data modeling to discover the market trend.
     
-- WEEK 10 - 12 : ` Dashboard Design and Development`
+- WEEK 10 - 12 : `Dashboard Design and Development`
 
   > - Design and development the dashboard to visualize the product summary in Shopee.
   
@@ -455,6 +451,33 @@ gantt
 - WEEK 14 : `Dashboard deployed and live`
 
   > - Deploy dashboard and make it live where it should change constantly according to the incoming(live) data monthly.
+
+### Deliverables and resources
+
+- Data Gathering and Cleaning
+  > - Deliverables : 
+  > - Resources : 
+  
+- Data Analysis and Modeling
+
+  > - Deliverables : 
+  > - Resources : 
+    
+- Dashboard Design and Development
+  > - Deliverables : 
+  > - Resources : Design and development the dashboard to visualize the product summary in Shopee.
+  
+- Testing and Debugging
+
+  > - Deliverables : 
+  > - Resources : 
+
+- Dashboard deployed and live
+
+  > - Deliverables : 
+  > - Resources : 
+  
+### Quality assurance and testing procedures
 
 ## 🎓Conclusion
 

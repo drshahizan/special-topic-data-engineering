@@ -276,29 +276,30 @@ The resources needs as below:
 
 - Staff
 
-   - Data Scientist: Data Scientist need to make some of the data analysis and statistical analysis for the system.
+   - <strong>Data Scientist</strong>: Data Scientist need to make some of the data analysis and statistical analysis for the system.
 
-   - Data Engineer: Data Engineer need to design data architecture, develope data pipelines and of course ensuring data quality for the system.
+   - <strong>Data Engineer</strong>: Data Engineer need to design data architecture, develope data pipelines and of course ensuring data quality for the system.
 
-   - Project Manager: Project Manager need to handle project planning, risk management, resource allocation, communication and team management to create the system.
+   - <strong>Project Manager</strong>: Project Manager need to handle project planning, risk management, resource allocation, communication and team management to create the system.
   
-   - UI/UX Designer: UI/UX Designer need to design the user interface for web application and make it comfortable for user's operation.
+   - <strong>UI/UX Designer</strong>: UI/UX Designer need to design the user interface for web application and make it comfortable for user's operation.
 
 - Equipment
    - Computer
    - Laptop
 
 - Software
-   - Kaggle Datasets: Kaggle Datasets is a collection of public datasets that you can use for machine learning tasks, including heart disease prediction. The datasets are hosted on Kaggle and can be easily downloaded and used in your machine learning models.
+   - <strong>Kaggle Datasets</strong>: Kaggle Datasets is a collection of public datasets that you can use for machine learning tasks, including heart disease prediction. The datasets are hosted on Kaggle and can be easily downloaded and used in your machine learning models.
 
-   - MongoDB: MongoDB is a NoSQL database that can be used in machine learning applications in several ways. MongoDB can be used to store and manage large volumes of data for machine learning applications, including heart disease prediction. It is highly scalable and can handle structured, semi-structured, and unstructured data.
+   - <strong>MongoDB</strong>: MongoDB is a NoSQL database that can be used in machine learning applications in several ways. MongoDB can be used to store and manage large volumes of data for machine learning applications, including heart disease prediction. It is highly scalable and can handle structured, semi-structured, and unstructured data.
 
-   - TensorFlow: TensorFlow is an open-source machine learning framework developed by Google. It has a large community of developers and supports a wide range of machine learning tasks, including heart disease prediction.
+   - <strong>TensorFlow</strong>: TensorFlow is an open-source machine learning framework developed by Google. It has a large community of developers and supports a wide range of machine learning tasks, including heart disease prediction.
 
-   - Scikit-learn: Scikit-learn is a popular machine learning library in Python, and has several algorithms for classification tasks. It is easy to use and has good documentation.
+   - <strong>Scikit-learn</strong>: Scikit-learn is a popular machine learning library in Python, and has several algorithms for classification tasks. It is easy to use and has good documentation.
 
-   - Visual Studio Code: Make collaboration with teammates and upload the code to Github by syncing them together. It is easy to track teammates progress and work together. 
-   - Github/Git: Github is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
+   - <strong>Visual Studio Code</strong>: Make collaboration with teammates and upload the code to Github by syncing them together. It is easy to track teammates progress and work together. 
+  
+   - <strong>Github/Git</strong>: Github is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
 
   
 - Other expenses

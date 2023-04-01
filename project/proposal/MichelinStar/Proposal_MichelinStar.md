@@ -75,11 +75,7 @@ This project will develop an healthcare analytics platform that will leverage pr
 
 ## 🔧 System Architecture
 
-- Provide a detailed overview of the proposed system architecture including the tools and technologies that will be used to develop and deploy the system
-
 - Explain how the data will be stored, managed, and analyzed using MongoDB, as well as the hardware and software requirements needed to support the system.
-
-- Discuss the tools and frameworks that will be used for data visualization and analysis.
 
 - Provide a flowchart or block diagram of the system architecture.
 

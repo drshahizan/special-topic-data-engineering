@@ -72,13 +72,10 @@ To illustrate the system architecture, we have provided a flowchart below:
 <div class="mermaid">
   
  ```mermaid
----
-title: System Architecture Flowchart 
----
   
 flowchart TD;
-    A(Start) --> B[Collect data from Malaysia Energy Information Hub (MEIH)]
-    B --> C[Preprocess and clean data using Pandas]
+    A([Start]) --> B[Collect data from Malaysia Energy Information Hub (MEIH)]
+    B --> C[(Preprocess and clean data using Pandas)]
     C --> D[Store data into MongoDB database]
     D --> E[Perform EDA on data]
     E --> F[Perform modeling]
@@ -87,9 +84,7 @@ flowchart TD;
     H --> I[Import data into Power BI Desktop]
     I --> J[Create visualizations using Power BI]	
     J --> K[Embed to website]
-    K --> L(Stop)
-	
-  
+    K --> L([End])
   ```
 </div>
 

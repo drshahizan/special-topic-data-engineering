@@ -61,11 +61,11 @@
  
  Various tools and technologies will be combined to create the suggested system architecture. We will make use of the following to guarantee rapid and successful system development and deployment:
 
-• MongoDB: The system's data will be stored and managed using MongoDB. It is a NoSQL database that provides the scalability and freedom necessary for a system of this kind. MongoDB is a great option for our data management requirements because it also has an intuitive interface and a strong query language.
+• `MongoDB:` The system's data will be stored and managed using MongoDB. It is a NoSQL database that provides the scalability and freedom necessary for a system of this kind. MongoDB is a great option for our data management requirements because it also has an intuitive interface and a strong query language.
 
-• Hardware and software requirements: To support its complex data processing and analysis needs, the system will need high-performance hardware and software. This entails quick processors, lots of RAM, and SSD storage for quick data access. For a stable and secure setting, we will also use Apache web server and Linux-based operating systems.
+• `Hardware and software requirements:` To support its complex data processing and analysis needs, the system will need high-performance hardware and software. This entails quick processors, lots of RAM, and SSD storage for quick data access. For a stable and secure setting, we will also use Apache web server and Linux-based operating systems.
 
-• Data visualization and analysis tools and frameworks: To visualise and examine the data from the system, we will employ a variety of structures and tools. These include live data analysis and visualisation tools like Jupyter Notebooks, data manipulation and analysis tools like Pandas, and data visualisation tools like D3.js.
+• `Data visualization and analysis tools and frameworks:` To visualise and examine the data from the system, we will employ a variety of structures and tools. These include live data analysis and visualisation tools like Jupyter Notebooks, data manipulation and analysis tools like Pandas, and data visualisation tools like D3.js.
 
 To illustrate the system architecture, we have provided a flowchart below:
 

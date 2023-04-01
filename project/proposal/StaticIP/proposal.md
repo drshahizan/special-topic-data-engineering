@@ -164,7 +164,7 @@ The dashboard for energy consumption analysis requires the following resources:
   <tr>
     <th>Data sources</th>
     <td>
-     <li>Use data from [Malaysia Energy Information Hub (MEIH)](https://meih.st.gov.my/statistics) portal</li>
+     Use data from Malaysia Energy Information Hub (MEIH) portal: https://meih.st.gov.my/statistics
    </td>
   </tr>
   <tr>

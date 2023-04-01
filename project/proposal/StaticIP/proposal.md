@@ -76,7 +76,7 @@ To illustrate the system architecture, we have provided a flowchart below:
 title: System Architecture Flowchart 
 ---
   
-flowchart TB
+flowchart TD;
     A(Start) --> B[Collect data from Malaysia Energy Information Hub (MEIH)]
     B --> C[Preprocess and clean data using Pandas]
     C --> D[Store data into MongoDB database]

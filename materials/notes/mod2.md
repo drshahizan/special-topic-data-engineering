@@ -7,18 +7,50 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-<!---
-Module X: XXX
+# Module 2: Data Integration
 
-Group XXXX
-1. XXXX
-2. XXXX
-3. XXXX
-4. XXXX
+<h2 align="center">
+  Group Name
+  <br>
+</h2>
 
--->
+<p align="center">
+  <a>DataSphere</a><br>
+</p>
 
-# Module X: Data Engineer, Data Engineering, Data Science, Data Scientist
+<h2 align="center">
+  Group Members
+  <br>
+</h2>
+<p align="center">
+<table align="center">
+  <tr>
+    <th>Name</th>
+    <th>Matric No</th>
+  </tr>
+  <tr>
+    <th>TERENCE A/L LOORTHANATHAN   </th>
+    <th>A20EC0165</th>
+  </tr>
+    <tr>
+    <th>RISHMA FATHIMA BINTI BASHER </th>
+    <th>A20EC0137</th>
+  </tr>
+    <tr>
+    <th>NUR SYAMALIA FAIQAH BINTI MOHD KAMAL</th>
+    <th>A20EC0118</th>
+  </tr>
+    <tr>
+    <th>QAISARA BINTI ROHZAN</th>
+    <th>A20EC0133</th>
+  </tr>
+    <tr>
+    <th>NURFARRAHIN BINTI CHE ALIAS </th>
+    <th>A20EC0121</th>
+  </tr>
+  </table>
+</p>
+
 
 ### Contents:
 #### Notes

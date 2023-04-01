@@ -111,10 +111,6 @@ The following hardware and software will be required to support the proposed sys
       <td></td>
       <td>Flask for model deployment</td>
     </tr>
-     <tr>
-      <td></td>
-      <td>Flask for model deployment</td>
-    </tr>
     <tr>
       <td></td>
       <td>Data visualization tools (Tableau, Power BI, Matplotlib, etc.)</td>

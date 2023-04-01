@@ -148,9 +148,8 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
     <td>Deploy the dashboard on a suitable platform and ensure that monitoring tools are in place to detect and address any issues that may arise.</td>
   </tr>
 </table>
-
-<br>
-**To store, manage, and analyze data using MongoDB, the following steps can be taken:**
+<br></br>
+<b>To store, manage, and analyze data using MongoDB, the following steps can be taken:</b>
 
 <table align=center>
   <tr>
@@ -174,11 +173,10 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
     <td>The analyzed data can be visualized using tools such as Power BI. The visualization tools can be integrated with MongoDB using MongoDB Connector for BI.</td>
   </tr>
 </table>
+<br></br>
+<b>The hardware and software requirements for MongoDB</b>
 
-<br>
-**The hardware and software requirements for MongoDB**
-
-<table align=center>
+<table>
   <tr>
     <th>Hardware Requirements</th>
     <th>Software Requirements</th>
@@ -196,9 +194,8 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
     <td>Third-party tools such as Python, R, or SQL for data analysis</td>
   </tr>
 </table>
-
-<br>
-**Flowchart of the system architecture**
+<br></br>
+<b>Flowchart of the system architecture</b>
 
 ```mermaid
 

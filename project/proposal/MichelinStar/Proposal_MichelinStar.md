@@ -75,8 +75,6 @@ This project will develop an healthcare analytics platform that will leverage pr
 
 ## 🔧 System Architecture
 
-- Provide a flowchart or block diagram of the system architecture.
-
 <b>Overview of system architecture:</b><br>
 <table>
 <tr>

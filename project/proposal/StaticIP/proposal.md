@@ -69,8 +69,6 @@
 
 To illustrate the system architecture, we have provided a flowchart below:
 
-<div class="mermaid">
-  
  ```mermaid
   
 flowchart TD;
@@ -86,7 +84,6 @@ flowchart TD;
     J --> K[Embed to website]
     K --> L([End])
   ```
-</div>
 
 #### 
 Last but not least, the proposed system design will be built using a combination of high-performance hardware and software, MongoDB, and tools and frameworks for data visualisation and analysis. This will provide the system with a stable and secure environment while ensuring effective data management, storage, and analysis.

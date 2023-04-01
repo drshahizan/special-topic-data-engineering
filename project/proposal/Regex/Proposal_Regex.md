@@ -429,6 +429,7 @@ gantt
   ```
   </div>
 
+<br>
 #### Detailed timeline
 
 - WEEK 3 - 7 : `Data Gathering and Cleaning`
@@ -451,7 +452,9 @@ gantt
 - WEEK 14 : `Dashboard deployed and live`
 
   > - Deploy dashboard and make it live where it should change constantly according to the incoming(live) data monthly.
-
+  
+<br>
+<br>
 #### Deliverables and resources
 
 - Data Gathering and Cleaning
@@ -477,6 +480,8 @@ gantt
   > - Deliverables : 
   > - Resources : 
   
+<br>
+<br>
 #### Quality assurance and testing procedures
 
 ## 🎓Conclusion

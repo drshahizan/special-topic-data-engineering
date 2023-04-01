@@ -133,7 +133,9 @@ This project will develop an healthcare analytics platform that will leverage pr
 <td>
 The steps to store csv files into MongoDB are shown as below: <br>
 1. Install <code>pymongo</code> and <code>csv</code> pacakages using <code>pip install</code>.<br>
-2. 
+2. Connect to the MongoDB server using <code>pymongo</code> package, then create a new database and collection. <br>
+3. Use the <code>csv</code> package to read the csv file, converts each row into one dictionary, and insert them into the collection of the database. <br>
+4. Verify the inserted data by querying the collection. 
 </td>
 </tr>
 <tr>

@@ -273,7 +273,7 @@ Here are some potential risks and limitations associated with heart disease pred
 ## 💡 Resources
 
 The resources needs as below:
-  <br></br>
+
 - Staff
 
    - Data Scientist: Data Scientist need to make some of the data analysis and statistical analysis.
@@ -285,7 +285,7 @@ The resources needs as below:
 - Equipment
    - Computer
    - Laptop
-  <br></br>
+
 - Software
    - Kaggle Datasets: Kaggle Datasets is a collection of public datasets that you can use for machine learning tasks, including heart disease prediction. The datasets are hosted on Kaggle and can be easily downloaded and used in your machine learning models.
 
@@ -294,7 +294,7 @@ The resources needs as below:
    - TensorFlow: TensorFlow is an open-source machine learning framework developed by Google. It has a large community of developers and supports a wide range of machine learning tasks, including heart disease prediction.
 
    - Scikit-learn: Scikit-learn is a popular machine learning library in Python, and has several algorithms for classification tasks. It is easy to use and has good documentation.
- <br> </br>
+
   
 - Other expenses
   - Cloud computing costs

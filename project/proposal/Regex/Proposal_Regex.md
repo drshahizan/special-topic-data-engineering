@@ -370,7 +370,6 @@ The resources needs as below:
       <li>Web browser</li>
       <li>Domain name</li>
       <li>Ethernet connection (LAN) or wireless adapter (Wi-Fi)</li>
-
     </td>
   </tr>
   <tr>

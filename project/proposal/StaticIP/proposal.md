@@ -183,8 +183,8 @@ The dashboard for energy consumption analysis requires the following resources:
   </tr>
   <tr>
     <th>ML algorithms</th>
-    <td>Regression</td>
-    <td>Classification</td>
+    <li>Regression</li>
+    <li>Classification</li>
   </tr>
   <tr>
     <th>Data visualization tools</th>

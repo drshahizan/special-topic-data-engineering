@@ -140,7 +140,9 @@ The steps to store csv files into MongoDB are shown as below: <br>
 </tr>
 <tr>
 <td><b>Managing data</b></td>
-<td></td>
+<td>
+
+</td>
 </tr>
 <tr>
 <td><b>Analysing data</b></td>

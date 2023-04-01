@@ -292,9 +292,14 @@ The resources needs as below:
    - Computer
    - Laptop
 - Software
-   - Kaggle
-   - Github
-   - MangoDB
+   - Kaggle Datasets: Kaggle Datasets is a collection of public datasets that you can use for machine learning tasks, including heart disease prediction. The datasets are hosted on Kaggle and can be easily downloaded and used in your machine learning models.
+    <br>
+   - MongoDB: MongoDB is a NoSQL database that can be used in machine learning applications in several ways. MongoDB can be used to store and manage large volumes of data for machine learning applications, including heart disease prediction. It is highly scalable and can handle structured, semi-structured, and unstructured data.
+    <br>
+   - TensorFlow: TensorFlow is an open-source machine learning framework developed by Google. It has a large community of developers and supports a wide range of machine learning tasks, including heart disease prediction.
+  <br>
+   - Scikit-learn: Scikit-learn is a popular machine learning library in Python, and has several algorithms for classification tasks. It is easy to use and has good documentation.
+  <br>
  
 - Other expenses
    

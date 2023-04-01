@@ -72,7 +72,7 @@ To illustrate the system architecture, we have provided a flowchart below:
  ```mermaid
   
 flowchart TD;
-    A([Start]) --> B[Collect data from Malaysia Energy Information Hub (MEIH)]
+    A([Start]) --> B[Collect data from Malaysia Energy Information Hub]
     B --> C[(Preprocess and clean data using Pandas)]
     C --> D[Store data into MongoDB database]
     D --> E[Perform EDA on data]

@@ -1,10 +1,8 @@
-<h1 align="center">
-  E-Commerce Analytics Dashboard <img width=30px; height=30px src='https://user-images.githubusercontent.com/120556342/213840786-a564d96a-9798-4a3a-902b-ed90f1e9cef1.png'/>
-</h1>
-<h3 align='center'>
-  An e-commerce analytics dashboard using MongoDB is a web-based tool that provides insights and analytics on e-commerce data, which is stored in a MongoDB database.
-  It is a data visualization tool that helps businesses to track their sales, analyze customer behavior, and optimize their marketing campaigns to improve their
-  bottom line.
+<h1 align='center'> 
+  Shopee Supermarket Sales Performance Dashboard <img height='50px' width='50px' src='https://user-images.githubusercontent.com/120556342/228145762-83c369fc-a6b8-49da-a2be-fd31b7f280c3.png'>
+ </h1>
+ <h3 align='center'> 
+ Analyze Shopee Supermarket sales to gain insights into market trend and optimize sales strategy
   </h3>
   <br>
 <p align='center'>

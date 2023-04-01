@@ -276,11 +276,11 @@ The resources needs as below:
 
 - Staff
 
-   - Data Scientist: Data Scientist need to make some of the data analysis and statistical analysis.
+   - Data Scientist: Data Scientist need to make some of the data analysis and statistical analysis for the system.
 
-   - Data Engineer: Data Engineer need to design data architecture, develope data pipelines and of course ensuring data quality
+   - Data Engineer: Data Engineer need to design data architecture, develope data pipelines and of course ensuring data quality for the system.
 
-   - Project Manager: Project Manager need to handle project planning, risk management, resource allocation, communication and team management.
+   - Project Manager: Project Manager need to handle project planning, risk management, resource allocation, communication and team management to create the system.
 
 - Equipment
    - Computer

@@ -336,7 +336,13 @@ The resources needs as below:
   </tr>
   <tr>
     <td>Data security measures</td>
-    <td>-</td>
+    <td>
+    <li>control the users' access to data according to their role and responsibility through user authentication</li>
+    <li>encrypt the data</li>
+    <li>backup the data regularly to prevent data lost due to unexpected disaster</li>
+    <li>enable firewall to protect the system from cyber attacks</li>
+    <li>consitently change the access password to prevent unnecessary password leakage</li>
+    </td>
   </tr>
 </table>
 

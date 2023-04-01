@@ -174,13 +174,13 @@ The dashboard for energy consumption analysis requires the following resources:
   <tr>
     <th>Data transformations</th>
     <td>Python libraries:
-      <li></li>
-      <li></li>
+      <li>Pandas</li>
+      <li>Numpy</li>
     </td>
   </tr>
   <tr>
     <th>ML algorithms</th>
-    <td></td>
+    <td>Scikit-learn</td>
   </tr>
   <tr>
     <th>Data visualization tools</th>
@@ -211,53 +211,22 @@ The dashboard for energy consumption analysis requires the following resources:
   <tr>
     <th>Software requirements</th>
     <td>
-      <li>Databse: MySQL</li>
-      <li>IoT Platform: AWS IoT or Azure IoT</li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>Power BI</li>
+      <li>AWS cloud database</li>
+      <li>Visual Studio Code</li>
     </td>
   </tr>
   <tr>
     <th>Data security measures</th>
     <td>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>User and device authentication</li>
+      <li>Data access control</li>
+      <li>Encrypt data in AWS cloud database</li>
+      <li>Perform data backup and recovery</li>
     </td>
   </tr>
 </table>
-
-Programming Languages, Frameworks and Libraries:
-
-- Python
-- JaveScript
-- SQL
-- Pandas
-- NumPy
-- Plotly
  
-Software requirements:
-
-- Database
-
-  To store and manage the energy consumption analysis data
-
-- Programming Language
-
-  Use programming language such as Python, SQL, JavaScript to create dashboard
-
-- Analysis Tools
-
-  To perform analytics on the energy consumption data
-
-  - IoT Platform
-
-  To connect to sensors and transfer data to the dashboard such as AWS IoT and Azure IoT.
-
-
 ## ⏲️ Timeline and Deliverables
 <div align="center">
     <img height="330px" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-01%20at%2011.02.10%20AM.png"/>

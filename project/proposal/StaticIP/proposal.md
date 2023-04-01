@@ -160,6 +160,72 @@ The dashboard for energy consumption analysis requires the following resources:
 - Software plan subscription
 
 ## 🛠️ Technical Specifications
+<table>
+  <tr>
+    <th>Data sources</th>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Data schema</th>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Data transformations</th>
+    <td>Python libraries:
+      <li></li>
+      <li></li>
+    </td>
+  </tr>
+  <tr>
+    <th>ML algorithms</th>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Data visualization tools</th>
+    <td>
+      <li></li>
+      <li></li>
+    </td>
+  </tr>
+  <tr>
+    <th>Programming Languages</th>
+    <td>
+      <li>SQL</li>
+      <li>Python</li>
+    </td>
+  </tr>
+  <tr>
+    <th>Hardware requirements</th>
+    <td>
+      <li>RAM: 8 GB or more</li>
+      <li>Processor: Minimum 1GHz; Recommended 2 GHz or more</li>
+      <li>Hard Drive: 20 GB or more free disk space</li>
+      <li>System type: 64-bit operating system</li>
+      <li>Operating systems: Windows 7 or newer/Mac OS X v10.7 or higher</li>
+      <li>Ethernet connection (LAN) or wireless adapter (Wi-Fi)</li>
+    </td>
+  </tr>
+  <tr>
+    <th>Software requirements</th>
+    <td>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </td>
+  </tr>
+  <tr>
+    <th>Data security measures</th>
+    <td>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </td>
+  </tr>
+</table>
 
  Data can be collected from different sources such as smart meters, utility bills for energy consumptions analysis. The data schema includes:
 

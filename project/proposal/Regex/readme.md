@@ -32,6 +32,10 @@ An e-commerce analytics dashboard using MongoDB is a web-based tool that provide
   </tr>
 </table>
 
-<b>Project Proposal 🌟: </b>
-| Open in Github |  [:octocat:](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/Regex/Proposal_Regex.md) |
-|  ------ | :------: | 
+<h2 align=center>Project Proposal 🌟: </h2>
+<table>
+  <tr>
+    <th>Header 1</th>
+    <td><a href='https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/Regex/Proposal_Regex.md'></a>:octocat:</td>
+  </tr>
+</table>

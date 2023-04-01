@@ -25,10 +25,10 @@
 - [Conclusion](#conclusion)
 
 
-## Executive Summary 
+## 📖: Executive Summary 
 Consumer segmentation that prioritizes product attributes involves categorising customers into groups according to their needs or preferences for particular product features. To find customer groups with comparable traits and preferences, it entails examining data on customer behaviour, purchase history, demographics, and product preferences. (chosen bussiness)  can adjust their marketing initiatives and product offers to fit the unique needs of each consumer segment by understanding their needs and preferences, which will boost customer satisfaction and loyalty.
 
-## Background
+## 🖼️: Background
 Today, it is a no brainer that every market is highly competitive. All businesses that are competing in each of these markets are going beyond reach to get an edge over their competitors. One of the tools used by businesses today to reap profits today is customer segmentation.
 <br><br>
 Customer segmentation is the process of dividing a company's customer base into specific groups or segments based on shared characteristics, behaviors, and needs. The concept of this process has evolved over time, but it can be traced back to the early days of marketing when businesses began to realize that not all customers were the same and that different groups of customers had different needs and preferences.
@@ -37,7 +37,7 @@ As time passed, data science eventually became the new technology to help busine
 <br><br>
 The system that is proposed here, aims to segment customers into groups using clustering and potentially other methods to several groups. This would allow business decisions to be catered to one or many customer segments. Thus, allowing any individual or organisation that uses it to posses an advantage over their competitors.
 
-## Goals and Objectives
+## 🔎: Goals and Objectives
 In order to enhance marketing and sales strategies, boost customer satisfaction and retention, and ultimately spur business growth, it is important to better understand and target certain groups of customers based on their traits, requirements, and habits.
 
 1. Using data from demographics, psychographics, behaviour, and preferences, identify unique client categories.
@@ -49,7 +49,7 @@ In order to enhance marketing and sales strategies, boost customer satisfaction 
 
 Customer segmentation enables organisations to more fully comprehend their customers and deliver individualised experiences that may increase customer loyalty, pleasure, and return on investment (ROI)
 
-## Scope
+## 🔬: Scope
 The objective of this project is to improve an organisations performance in terms of decision making and customer overall experience. With this known, the scope of this project will be :
 
 - **Data Source** : In this project, dataset from ``not determined`` will be used
@@ -59,7 +59,7 @@ The objective of this project is to improve an organisations performance in term
   - Each team member posses skills from gathering appropriate data to visualising data, using tools and technologies listed.
   - Adequate hardware and software to progress.
 
-## Methodology
+## ▶️: Methodology
 - ``Data collection`` : Gather information on customer preferences, product features with age and gender preferences, and other pertinent information using the data scraping method. 
 
 - ``Data cleaning and processing`` : The collected data will be cleaned, filtered, pre-processed to remove duplicate data.
@@ -71,7 +71,7 @@ The objective of this project is to improve an organisations performance in term
 - ``Data visualization`` : Use data visualization approaches to illustrate the relationship between product feature patterns, analysis, and machine learning algorithms. Tools like Tableau and Python packages like Matplotlib and Seaborn can be used for this.
 
 
-## System Architecture
+## 💻: System Architecture
 
 The system will consist of the following components:
 1. ``Data acquisition: `` Customer information will be gathered from a variety of sources, including CRM systems, marketing campaigns, website analytics, and social media platforms, by the data acquisition component. Real-time data collection and storage in a centralised database will make it simple to obtain the information.
@@ -121,7 +121,7 @@ The following hardware and software will be required to support the proposed sys
     </tr>
   </table>
 
-## Risks and Limitations
+## ❎: Risks and Limitations
 #### Technical risks:
 - Shortage of skills : lack of skills while completing the project 
 - Poor quality data : low quality data could impact in the quality of the output at the end of the project
@@ -149,7 +149,7 @@ The following hardware and software will be required to support the proposed sys
 
 
 
-## Deliverables and Milestones
+## 📝: Deliverables and Milestones
 
 <div align="center">
   
@@ -164,7 +164,7 @@ The following hardware and software will be required to support the proposed sys
 
 </div>
 
-## Resources
+## 💰: Resources
 
 1. **Staff**: 
  
@@ -196,7 +196,7 @@ The project will require a team of experienced data scientists and engineers wit
 - Training and development
 - Miscellaneous expenses
 
-## Technical Specifications
+## 🧑‍💻: Technical Specifications
 
 | Technical Specifications |                                  Details                                  |
 |:------------------------:|---------------------------------------------------------------------------|
@@ -219,7 +219,7 @@ Data Security Measures:
 - Data backups will be stored off-site in encrypted form.
 
 
-## Timeline and Deliverables
+## 📆: Timeline and Deliverables
 
 <div class="mermaid">
 
@@ -254,28 +254,28 @@ gantt
   </div>
 
 1. Planning and Requirements Gatherings *(Week 1-2)*
-> - **Deliverables**: Project charter and scope and Requirements gathering plan
-> - **Resources**: Visual Studio Code
+> - **Deliverables** : Project charter and scope and Requirements gathering plan
+> - **Resources** : Project Manager, stakeholders
 
 2. Data Exploration and Cleaning *(Week 3-5)*
-> - **Deliverables**: Data collection, cleaning, pre-processing, transformation and exploration report
-> - **Resources**: Python/web-scraper, MongoDB, Visual Studio Code
+> - **Deliverables** : Data collection, cleaning, transformation and EDA
+> - **Resources** : Python, MongoDB, Data Analyst, database administrator
 
 3. Feature Engineering *(Week 6)*
-> - **Deliverables**:  Identify the relevant features for product feature segmentation
-> - **Resources**: Python
+> - **Deliverables** :  Identify the relevant features for product feature segmentation
+> - **Resources** : Data Analyst, Machine learning engineer
 
 4. Model Selection and Training *(Week 7-8)*
-> - **Deliverables**: Model selection report, training plan, implementation and evaluation metrics
-> - **Resources**: Python
+> - **Deliverables** : Model selection report, training plan, implementation and evaluation metrics
+> - **Resources** : Data Analyst, Machine learning engineer
 
 5. Model Deployment and Testing *(Week 9-12)*
-> - **Deliverables**: Model deployment documentation, testing plan and report, and debugging.
-> - **Resources**: Visual Studio Code, MongoDB, Github
+> - **Deliverables** :Deployed machine learning model, tested and validated results
+> - **Resources** : Data analyst, machine learning engineer, web developer
 
 6. Presentation *(Week 13-14)*
-> - **Deliverables**: Final project report and project presentation slides
-> - **Resources**: Power BI/Tableau , Canva
+> - **Deliverables** : Final project report and project presentation 
+> - **Resources** : Project manager, data analyst, machine learning engineer, web developer
 
 
 Quality assurance and testing procedures:
@@ -284,7 +284,7 @@ Quality assurance and testing procedures:
 - Quality assurance will be done by comparing the results of the model with the actual data.
 
 
-## Conclusion
+## #️⃣: Conclusion
 - Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
 - Summarize the proposal and reiterate the importance of the project.
 - Mention any potential limitations or challenges that may arise during the project.

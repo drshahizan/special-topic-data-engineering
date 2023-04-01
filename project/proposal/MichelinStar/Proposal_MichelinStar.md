@@ -75,11 +75,9 @@ This project will develop an healthcare analytics platform that will leverage pr
 
 ## 🔧 System Architecture
 
- hardware and software requirements needed to support the system.
-
 - Provide a flowchart or block diagram of the system architecture.
 
-<b>Overview of system architecture</b><br>
+<b>Overview of system architecture:</b><br>
 <table>
 <tr>
   <td><b>1. Data acquisition</b></td>
@@ -152,7 +150,32 @@ Data availability can be ensured by using the backup and restoring tools of Mong
 To analyse the data, we can use the aggregation function in MongoDB which is a pipeline-based framework to carry out complex data analysis through grouping, filtering and tramsforming data in the collection. 
 </td>
 </tr>
-</table>
+</table><br>
+
+<b>Requirements to support MongoDB: </b><br>
+<ul>
+<li>
+Hardware requirements: <br>
+A device with:
+<ul>
+<li>64-bit CPU processor</li>
+<li>at least 4 GB of RAM</li> <li>at least 10 GB of free disk space</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Software requirements: <br>
+MongoDB is compatible with:  
+<ul> 
+<li>operating system - Linux / Windows / macOS</li>
+<li>programming languages - Python</li>
+<li>framework - Django</li>
+<li>Graphical User Interfaces (GUI) - MongoDB Atlas / MongoDB Compass</li>
+<li>integrated development environment (IDE) - VS Code</li>
+</ul>
+</li>
+</ul>
+
 
 
   

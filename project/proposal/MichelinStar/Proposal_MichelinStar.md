@@ -99,6 +99,34 @@ This project will develop an healthcare analytics platform that will leverage pr
 </tr>
 <tr>
   <td><b>4. Exploratory Data Analysis (EDA)</b></td>
+  <td>In this step, we can identify: 
+  <li>the relationship between the features through visualisation using <b>Matpoltlib, Seaborn</b> and any other graph plottiong libraries</li> 
+  <li>the occurance of outliers</li>
+  <li>the summary of the statistics of the dataset using <b>Pandas</b> and <b>Numpy</b></li>
+  <li>the hidden correlation between the features which we overlooked </li></td>
+</tr>
+<tr>
+  <td><b>5. Feture engineering</b></td>
+  <td>Feature engineering aims to transform the features in EDA into features which is suitable for building machine learning model. <b>Pandas, Numpy</b> and <b>Scikit-learn</b> are used to handle missing values, skewness, outliers, and imbalance data, scaling down the features and creating new features from existing features for the further steps. </td>
+</tr>
+<tr>
+  <td><b>6. Feature selection</b></td>
+  <td>Feature selection is a process in choosing the best set of independent features which are required in model training. It is important in improving the machine learning model performance, reducing the training time of the algorithms and enhance the generalization of the model.</td>
+</tr>
+<tr>
+  <td><b>7. Model building</b></td>
+  <td>We choose to build a <b>classification</b> model using the selected dataset in order to help medical-related person in predicting the diagonis result according to the patient's symptoms. The dataset will be split into 3 sets which are train set (to train the algorithms), validation set (to optimise the model) and test set (to evaluate the model). </td>
+</tr>
+<tr>
+  <td><b>8. Model evaluation</b></td>
+  <td>The model built will then be evaluated using the <b>Scikit-learn</b> library. Since we are doing classification model, we choose to evaluate our model using the confusion matrix, where we can conclude the level of accuracy, precision, and recall. </td>
+</tr>
+<tr>
+  <td><b>9. Model deployment</b></td>
+  <td>The <b>Django</b> web framework will be used to built a web application which allows user to enter the symptoms of the patient and obtain prediction from the classification model. </td>
+</tr>
+<tr>
+  <td><b>10. Model monitoring and maintenance</b></td>
   <td></td>
 </tr>
 </table>

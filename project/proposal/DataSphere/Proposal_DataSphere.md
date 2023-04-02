@@ -26,14 +26,14 @@
 
 
 ## 📖: Executive Summary 
-Consumer segmentation that prioritizes product attributes involves categorising customers into groups according to their needs or preferences for particular product features. To find customer groups with comparable traits and preferences, it entails examining data on customer behaviour, purchase history, demographics, and product preferences. (chosen bussiness)  can adjust their marketing initiatives and product offers to fit the unique needs of each consumer segment by understanding their needs and preferences, which will boost customer satisfaction and loyalty.
+Consumer segmentation that prioritizes product attributes involves categorising customers into groups according to their needs or preferences for particular product features. To find customer groups with comparable traits and preferences, it entails examining data on customer behaviour, purchase history, demographics, and product preferences. Companies can adjust their marketing initiatives and product offers to fit the unique needs of each consumer segment by understanding their needs and preferences, which will boost customer satisfaction and loyalty.
 
 ## 🖼️: Background
-Today, it is a no brainer that every market is highly competitive. All businesses that are competing in each of these markets are going beyond reach to get an edge over their competitors. One of the tools used by businesses today to reap profits is customer segmentation.
+Today, it is a no brainer that every market is highly competitive. All businesses that are competing in each of these markets are going beyond reach to get an edge over their competitors. One of the tools used by businesses today to reap profits today is customer segmentation.
 <br><br>
 Customer segmentation is the process of dividing a company's customer base into specific groups or segments based on shared characteristics, behaviors, and needs. The concept of this process has evolved over time, but it can be traced back to the early days of marketing when businesses began to realize that not all customers were the same and that different groups of customers had different needs and preferences.
 <br><br>
-As time passed, data science eventually became the new technology to help businesses to improve on all aspects. Now, businesses use the help of data science to tailor their marketing strategies and messages to better reach each segment of customers.
+As time passed, data science eventually became the new technology to help businesses to improve on all aspects. Now, businesses use the help of data science to companies can tailor their marketing strategies and messages to better reach each segment of customers.
 <br><br>
 The system that is proposed here, aims to segment customers into groups using clustering and potentially other methods to several groups. This would allow business decisions to be catered to one or many customer segments. Thus, allowing any individual or organisation that uses it to posses an advantage over their competitors.
 
@@ -52,9 +52,9 @@ Customer segmentation enables organisations to more fully comprehend their custo
 ## 🔬: Scope
 The objective of this project is to improve an organisations performance in terms of decision making and customer overall experience. With this known, the scope of this project will be :
 
-- **Data Source** : In this project, dataset from ``not determined`` will be used
-- **Tools & Technologies** : ``how to get data``, and store it in MongoDB. Which then will be cleaned and prepared using `Pandas`, `Numpy` and `MongoDB Aggregation`. Clustering algorithms using `scikit-learn`, `TensorFlow` and `PyTorch` libraries will be applied on the cleaned data. Findings will be visualised using `Tableau` or `PowerBI`.
-- **Resources** : 
+- ``Data Source`` : In this project, dataset from will be extracted from a variety of sources.
+- ``Tools & Technologies`` : Retrieved data will be stored in MongoDB. Which then will be cleaned and prepared using **Pandas**, **Numpy** and **MongoDB Aggregation**. Clustering algorithms using **scikit-learn**, **TensorFlow** and **PyTorch** libraries will be applied on the cleaned data. Findings will be visualised using **Tableau** or **PowerBI**.
+- ``Resources`` : 
   - Team of 5 people.
   - Each team member posses skills from gathering appropriate data to visualising data, using tools and technologies listed.
   - Adequate hardware and software to progress.
@@ -206,7 +206,7 @@ The project will require a team of experienced data scientists and engineers wit
 3. **Software**:
 - MongoDB: This will be the primary database for storing and managing customer information.
 - Python: For data analysis and modelling, machine learning, and software development.
-- Flask: This is where the machine learning models will be deployed to a web server.
+- MongoDB: This is where the machine learning models will be deployed to a web server.
 - Data visualization tools: These software will be used to create interactive dashboards and reports.
 - Project management tools: This will be used to keep track of progress, assign tasks, and collaborate with team members.
 - Version control software: This will be used to track code changes and collaborate with team members.
@@ -225,7 +225,7 @@ The project will require a team of experienced data scientists and engineers wit
 |       Data sources       | Extracted data from various APIs                                          |
 |        Data schema       | The data will be stored in MongoDB, which is a NoSQL database. The data schema will be designed based on the data structure and requirements. The schema will be flexible to allow for changes and updates in the data.  |
 |   Data transformations   | Python, Pandas, Numpy, MongoDB aggregation                                                   |
-|       ML algorithms      | Python libraries (scikit-learn, TensorFlow, and PyTorch)                                      |
+|       ML algorithms      | Django, Python libraries (scikit-learn, TensorFlow, and PyTorch)                                      |
 | Data visualization tools | Power BI/Tableau, Python visualization libraries (Matplotlib, Seaborn, and Plotly) |
 |   Programming Languages  | SQL, Python, pymongo (Python driver for interacting with MongoDB)    |
 

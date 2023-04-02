@@ -32,8 +32,7 @@ https://lnkd.in/d6Uqqj7r
 7. Data Visualization with R
 https://lnkd.in/dXzgiQRX
 
-8. Data Analysis with R
-https://lnkd.in/dVE9uHi4
+8. [Data Analysis with R](https://www.coursera.org/learn/data-analysis-r)
 
 9. IBM AI Engineering Professional Certificate
 https://lnkd.in/dCvp-VFY

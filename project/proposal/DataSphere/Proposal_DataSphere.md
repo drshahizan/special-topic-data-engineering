@@ -4,13 +4,13 @@
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Executive Summary](#executive-summary)
-- [Background](#background)
-- [Goals and Objectives](#goals-and-objectives)
-- [Scope](#scope)
-- [Methodology](#methodology)
-- [System Architecture](#system-architecture)
-- [Risks and Limitations](#risks-and-limitations)
+- [📖 Executive Summary](#executive-summary)
+- [🖼️ Background](#background)
+- [🔎Goals and Objectives](#goals-and-objectives)
+- [🔬 Scope](#scope)
+- [▶️ Methodology](#methodology)
+- [💻 System Architecture](#system-architecture)
+- [❎ Risks and Limitations](#risks-and-limitations)
     - [Technical risks:](#technical-risks)
     - [Financial risks:](#financial-risks)
     - [Legal risks:](#legal-risks)
@@ -18,11 +18,11 @@
     - [Technical risks:](#technical-risks-1)
     - [Financial risks:](#financial-risks-1)
     - [Legal risks:](#legal-risks-1)
-- [Deliverables and Milestones](#deliverables-and-milestones)
-- [Resources](#resources)
-- [Technical Specifications](#technical-specifications)
-- [Timeline and Deliverables](#timeline-and-deliverables)
-- [Conclusion](#conclusion)
+- [📝 Deliverables and Milestones](#deliverables-and-milestones)
+- [💰 Resources](#resources)
+- [🧑‍ Technical Specifications](#technical-specifications)
+- [📆 Timeline and Deliverables](#timeline-and-deliverables)
+- [#️⃣ Conclusion](#conclusion)
 
 
 ## 📖: Executive Summary 
@@ -74,7 +74,7 @@ The objective of this project is to improve an organisations performance in term
 ## 💻: System Architecture
 
 The system will consist of the following components:
-1. ``Data acquisition: `` Customer information will be gathered from a variety of sources, including CRM systems, marketing campaigns, website analytics, and social media platforms, by the data acquisition component. Real-time data collection and storage in a centralised database will make it simple to obtain the information.
+1. ``Data acquisition: `` Customer information will be gathered from a variety of sources, including marketing campaigns, website analytics, and social media platforms, by the data acquisition component. Real-time data collection and storage in a centralised database will make it simple to obtain the information.
 
 2. ``Data storage:`` **MongoDB** will be the main database used by the data storage component to store and manage the customer data. A NoSQL database called MongoDB offers adaptable data formats and simple scalability. A cloud-based server will host the database to guarantee high availability and data protection.
 
@@ -82,7 +82,7 @@ The system will consist of the following components:
 
 4. ``Data analysis and modeling:`` The data analysis and modelling component will identify customer segments based on their behaviour, preferences, and demographics by employing various statistical and machine learning techniques. Python and its data science libraries such as NumPy, Pandas, and Scikit-learn will be used for the analysis. The models will be trained using MongoDB customer data and validated using cross-validation techniques.
 
-5. ``Model deployment:`` Flask, a Python web framework, will be used by the model deployment component to deploy machine learning models to a web server. Predictions based on user input will be provided via API endpoints. Setting up a continuous integration and delivery pipeline will also be part of the deployment to ensure that the models are up to date and accurate.
+5. ``Model deployment:`` **Django**, a Python-based web framework, will be used by the model deployment component to deploy machine learning models to a web server. Predictions based on user input will be provided via API endpoints. Setting up a continuous integration and delivery pipeline will also be part of the deployment to ensure that the models are up to date and accurate.
 
 6. ``Model monitoring and maintenance:`` The model monitoring and maintenance component will continuously monitor the models' performance and retrain them as needed. MongoDB's change stream feature, which provides real-time notifications when data changes, will be used for monitoring. Updating the models to account for new data sources and changing customer behaviour will be part of the maintenance.
 
@@ -120,6 +120,28 @@ The following hardware and software will be required to support the proposed sys
       <td>Project management tools (Trello, Asana, etc.)</td>
     </tr>
   </table>
+  
+<div class="mermaid">
+  
+```mermaid
+---
+title: System Architecture Flowchart 
+---
+  
+flowchart TB
+    A(Start) --> B[Data collection\nWeb Scrapping]
+    B --> C[(Data storage\n MongoDB)]
+    C --> D[Data preprocessing\n Pandas]
+    D --> E[Data analysis and modeling]
+    E --> F[Model deployment\n using Django]
+    F --> G[Model monitoring and maintenance\n]
+    G --> H[Visualization and reporting\n Tableau or PowerBI]
+    H --> I(Stop)
+  
+  ```
+  </div>
+ 
+---
 
 ## ❎: Risks and Limitations
 #### Technical risks:
@@ -285,6 +307,9 @@ Quality assurance and testing procedures:
 
 
 ## #️⃣: Conclusion
-In conclusion, the primary goal of the proposed project is the development of a system that helps company have a better understanding and target certain groups of customers based on their traits, requirements, and habits. The suggested system analyses a dataset of customers and generates predictions using machine learning methods. The team has developed a meticulous schedule and resource plan for the project. As for the project's scope, methodology, and expected results are all well specified. The project's outcomes might enable organisations to more fully comprehend their customers and deliver individualised experiences that may increase customer loyalty, pleasure, and return on investment (ROI). However, there are also some risk and limitation about this system such as technical, financial and legal risk. In the end of this project, we are sure this will be beneficial to other businesses in increasing their sales performance.
+- Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
+- Summarize the proposal and reiterate the importance of the project.
+- Mention any potential limitations or challenges that may arise during the project.
+- Provide a call to action for the client to approve the proposal and proceed with the project.
 
 

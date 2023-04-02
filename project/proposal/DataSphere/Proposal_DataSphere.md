@@ -4,13 +4,13 @@
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [📖 Executive Summary](#executive-summary)
-- [🖼️ Background](#background)
-- [🔎Goals and Objectives](#goals-and-objectives)
-- [🔬 Scope](#scope)
-- [▶️ Methodology](#methodology)
-- [💻 System Architecture](#system-architecture)
-- [❎ Risks and Limitations](#risks-and-limitations)
+- [📖: Executive Summary](#executive-summary)
+- [🖼️: Background](#background)
+- [🔎: Goals and Objectives](#goals-and-objectives)
+- [🔬: Scope](#scope)
+- [▶️: Methodology](#methodology)
+- [💻: System Architecture](#system-architecture)
+- [❎: Risks and Limitations](#risks-and-limitations)
     - [Technical risks:](#technical-risks)
     - [Financial risks:](#financial-risks)
     - [Legal risks:](#legal-risks)
@@ -18,11 +18,11 @@
     - [Technical risks:](#technical-risks-1)
     - [Financial risks:](#financial-risks-1)
     - [Legal risks:](#legal-risks-1)
-- [📝 Deliverables and Milestones](#deliverables-and-milestones)
-- [💰 Resources](#resources)
-- [🧑‍ Technical Specifications](#technical-specifications)
-- [📆 Timeline and Deliverables](#timeline-and-deliverables)
-- [#️⃣ Conclusion](#conclusion)
+- [📝: Deliverables and Milestones](#deliverables-and-milestones)
+- [💰: Resources](#resources)
+- [🧑‍: Technical Specifications](#technical-specifications)
+- [📆: Timeline and Deliverables](#timeline-and-deliverables)
+- [#️⃣: Conclusion](#conclusion)
 
 
 ## 📖: Executive Summary 

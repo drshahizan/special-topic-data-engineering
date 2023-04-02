@@ -18,7 +18,7 @@ Group XXXX
 
 -->
 
-# Module X: Data Engineer, Data Engineering, Data Science, Data Scientist
+# Module 1: Data Engineer, Data Engineering, Data Science, Data Scientist
 Abc 
 ### Contents:
 #### Notes

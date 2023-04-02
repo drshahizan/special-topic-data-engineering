@@ -285,9 +285,6 @@ Quality assurance and testing procedures:
 
 
 ## #️⃣: Conclusion
-- Conclude your proposal with a call to action, highlighting the benefits of your proposed solution and urging the decision-makers to take action.
-- Summarize the proposal and reiterate the importance of the project.
-- Mention any potential limitations or challenges that may arise during the project.
-- Provide a call to action for the client to approve the proposal and proceed with the project.
+In conclusion, the primary goal of the proposed project is the development of a system that helps company have a better understanding and target certain groups of customers based on their traits, requirements, and habits. The suggested system analyses a dataset of customers and generates predictions using machine learning methods. The team has developed a meticulous schedule and resource plan for the project. As for the project's scope, methodology, and expected results are all well specified. The project's outcomes might enable organisations to more fully comprehend their customers and deliver individualised experiences that may increase customer loyalty, pleasure, and return on investment (ROI). However, there are also some risk and limitation about this system such as technical, financial and legal risk. In the end of this project, we are sure this will be beneficial to other businesses in increasing their sales performance.
 
 

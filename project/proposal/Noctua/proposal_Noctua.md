@@ -270,14 +270,15 @@ MongoDB requirements:
 gantt
     title Cafe Satisfactory Timeline
     dateFormat  YYYY-MM-DD
+    axisFormat %W
   
     section Data Collections
-    Data Searching   :2023-04-01 , 5d
+    Data Searching   :active, 2023-04-01 , 5d
   
     section Data Cleaning and Preprocessing
     Data Cleaning            :2023-04-6  , 7d
     EDA                      :2023-04-10 , 10d
-    Finalizing               :2023-04-20 , 7d
+    Finalizing               :crit, 2023-04-20 , 7d
   
     section Machine Learning Algorithm
     Preparing Model       :2023-04-27 , 7d
@@ -291,10 +292,10 @@ gantt
     Designing User interface  :2023-05-25 , 11d
     Features add-ons          :2023-06-04 , 8d
     Modul insert              :2023-06-11 , 6d
-    Finalizing                :2023-06-17 , 5d
+    Finalizing                :crit, 2023-06-17 , 5d
   
     section Testing & project launch
-    Live Testing      :2023-06-23 , 7d
+    Live Testing      :crit, 2023-06-23 , 7d
     Fixing flaws      :2023-06-30 , 7d
   
   ```

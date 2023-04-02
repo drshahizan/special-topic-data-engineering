@@ -145,7 +145,7 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
     <td rowspan='2'><li>Django</li></td>
   </tr>
    <tr>
-    <th>Web Deployment</th>
+    <td>Web Deployment</td>
     <td>Deploy the dashboard on a suitable platform and ensure that monitoring tools are in place to detect and address any issues that may arise.</td>
   </tr>
 </table>

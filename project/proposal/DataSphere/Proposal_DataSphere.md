@@ -29,11 +29,11 @@
 Consumer segmentation that prioritizes product attributes involves categorising customers into groups according to their needs or preferences for particular product features. To find customer groups with comparable traits and preferences, it entails examining data on customer behaviour, purchase history, demographics, and product preferences. Companies can adjust their marketing initiatives and product offers to fit the unique needs of each consumer segment by understanding their needs and preferences, which will boost customer satisfaction and loyalty.
 
 ## 🖼️: Background
-Today, it is a no brainer that every market is highly competitive. All businesses that are competing in each of these markets are going beyond reach to get an edge over their competitors. One of the tools used by businesses today to reap profits today is customer segmentation.
+Today, it is a no brainer that every market is highly competitive. All businesses that are competing in each of these markets are going beyond reach to get an edge over their competitors. One of the tools used by businesses today to reap profits is customer segmentation.
 <br><br>
 Customer segmentation is the process of dividing a company's customer base into specific groups or segments based on shared characteristics, behaviors, and needs. The concept of this process has evolved over time, but it can be traced back to the early days of marketing when businesses began to realize that not all customers were the same and that different groups of customers had different needs and preferences.
 <br><br>
-As time passed, data science eventually became the new technology to help businesses to improve on all aspects. Now, businesses use the help of data science to companies can tailor their marketing strategies and messages to better reach each segment of customers.
+As time passed, data science eventually became the new technology to help businesses to improve on all aspects. Now, businesses use the help of data science to tailor their marketing strategies and messages to better reach each segment of customers.
 <br><br>
 The system that is proposed here, aims to segment customers into groups using clustering and potentially other methods to several groups. This would allow business decisions to be catered to one or many customer segments. Thus, allowing any individual or organisation that uses it to posses an advantage over their competitors.
 

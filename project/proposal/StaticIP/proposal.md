@@ -106,22 +106,8 @@
 • `Data visualization and analysis tools and frameworks:` To visualise and examine the data from the system, we will employ a variety of structures and tools. For live data analysis and visualisation tools, we will be using visual studio code, while for data manipulation and analysis tools, we will be using Python libraries such as Pandas, Numpy, Matplotlib, Seaborn.  To visualize the data, we will use Power BI.
 
 To illustrate the system architecture, we have provided a flowchart below:
+<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-02%20at%2011.31.01%20AM.png"></div>
 
- ```mermaid
-  
-flowchart TD;
-    A([Start]) --> B[Collect data from Malaysia Energy Information Hub]
-    B --> C[Preprocess and clean data using Pandas]
-    C --> D[(Store data into MongoDB database)]
-    D --> E[Perform EDA on data]
-    E --> F[Perform modeling]
-    F --> G[(Store new data into MongoDB)]
-    G --> H[Connect Power BI to MongoDB database]
-    H --> I[Import data into Power BI Desktop]
-    I --> J[Create visualizations using Power BI]	
-    J --> K[Embed to website]
-    K --> L([End])
-  ```
 Steps of storing and analysing data:
 
 • `Data acquisition:` Collect data from Malaysia Energy Information Hub (MEIH) portal: https://meih.st.gov.my/statistics .

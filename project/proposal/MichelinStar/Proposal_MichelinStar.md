@@ -250,7 +250,6 @@ Here are some potential risks and limitations associated with heart disease pred
 - After the system had been created, we need to maintain and monitor the system to ensure the system can ran smoothly without any error.
 
 
-
  **Milestones:**
  <div align="left">
 
@@ -378,7 +377,6 @@ The resources needs as below:
 </table>
 
 ## ⌚ Timeline and Deliverables
-
 ![Timeline](https://user-images.githubusercontent.com/120614501/229098758-412eed0b-661c-4b20-8603-63a36570ac1c.png)
 
 - Project Plan (`Week 1`)

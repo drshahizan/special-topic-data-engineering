@@ -5,7 +5,7 @@
  </h1>
  <h3 align='center'> 
  Analyze Shopee Supermarket sales to gain insights into market trend and optimize sales strategy
-  </h3>
+ </h3>
 <br>
 
 <h2 align=center>Group Members <img width=30px; height=30px src="https://user-images.githubusercontent.com/120556342/215398734-609ba04a-88e5-44b5-9eaa-239ac8edd091.png"></h2>
@@ -37,9 +37,9 @@
 </table>
 
 <h2 align=center>Project Proposal 🌟: </h2>
-<table>
+<table align=center>
   <tr>
-    <th>Header 1</th>
-    <td><a href='https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/Regex/Proposal_Regex.md'></a>:octocat:</td>
+    <th>Github</th>
+    <td><a href='https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/Regex/Proposal_Regex.md'>:octocat:</a></td>
   </tr>
 </table>

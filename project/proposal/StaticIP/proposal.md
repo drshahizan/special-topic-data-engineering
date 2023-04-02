@@ -15,7 +15,7 @@
 * [System Architecture](#-system-architecture)
 * [Risks and Limitations](#-risks-and-limitations)
 * [Deliverables and Milestones](#-deliverables-and-milestones)
-* [Resources](#🗂️-resources)
+* [Resources](#-resources)
 * [Technical Specifications](#-technical-specifications)
 * [Timeline and Deliverables](#-timeline-and-deliverables)
 * [Conclusion](#-conclusion)

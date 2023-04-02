@@ -31,23 +31,21 @@ A fraud detection dashboard typically contains visualizations and metrics that p
 
 
 ## 🏅 Goals and Objectives:
-The system is designed to identify fraudalent transactions by analyzing a vast amount of historical as well as real-time data, looking for patterns and anomalies that indicate fraud and present the data in interactive dashboard for effective decision-making and analysis. The dashboard will provide valuable insights and analytics on fraudulent transactions, allowing for the identification of patterns and trends, as well as the development of strategies to avoid future frauds. The primary objective of this project are to prevent potential financial damages, minimize losses due to the fraudalent transactions and improving customer satisfaction thus providing them more secure and reliable payment platform.
+The system is designed to identify fraudalent transactions by analyzing a vast amount of historical data, looking for patterns and anomalies that indicate fraud and present the data in interactive dashboard for effective decision-making and analysis. The dashboard will provide valuable insights and analytics on fraudulent transactions, allowing for the identification of patterns and trends, as well as the development of strategies to avoid future frauds. The primary objective of this project are to prevent potential financial damages, minimize losses due to the fraudalent transactions and improving customer satisfaction thus providing them more secure and reliable payment platform.
 
 The credit card fraud detection system project aims to solve these problem statements: 
 - i. Identify the fraudulent transactions - Prepare a model from historical supervised data and apply to incoming data as quickly as possible to prevent losses from fraud. This can minimize further losses.
 
 - ii. Pattern recognition - Identifying which attributes contribute to the indication of fraudulent which will made the system learn from past incidents and develop strategies to prevent future frauds.
 
-- iii. Real-time monitoring - Dashboard will be updated based on available data from database, hence displaying real-time dashboard and quickly notify if fraudulent happens.
+- iii. Dashboard visualization - Provide a meaningful insights and the visualization is in user-friendly format. This will help relevant stakeholders such as fraud management team and customer service team to understand better and faster.
 
-- iv. Dashboard visualization - Provide a meaningful insights and the visualization is in user-friendly format. This will help relevant stakeholders such as fraud management team and customer service team to understand better and faster.
+- iv. Quality and completeness of data - To ensure the effectiveness of this system, the data must be accurate and complete. Data quality issues needs to be focused to made sure the system is reliable.
 
-- v. Quality and completeness of data - To ensure the effectiveness of this system, the data must be accurate and complete. Data quality issues needs to be focused to made sure the system is reliable.
-
-- vi. Performance optimization - The system should be capable of handling large volumes of transactions and quickly processing them in order to provide real-time alerts and insights.
+- v. Performance optimization - The system should be capable of handling large volumes of transactions and quickly processing them in order to provide real-time alerts and insights.
 
 ## 🔍 Scope: 
-The objective of this system is to discern fraudulent transactions by analyzing a large amount of historal and real-time data which will enable users to gain insight for effective decision-making and analysis. Below contains the project scope statement which will help us achieve said objective.
+The objective of this system is to discern fraudulent transactions by analyzing a large amount of historal data which will enable users to gain insight for effective decision-making and analysis. Below contains the project scope statement which will help us achieve said objective.
 
 - i. Data Sources : The data which will be used in this project will be collected from Kaggle dataset, <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud">Credit Card Fraud Detection</a>.
 

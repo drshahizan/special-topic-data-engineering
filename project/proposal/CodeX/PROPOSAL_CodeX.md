@@ -327,7 +327,7 @@ gantt
     System launching  :2023-06-16 , 1d
     
     section Maintenance
-    System monitoring & optimization    :2023-06-17 , 7d
+    System monitoring & optimization    :2023-06-17 , 14d
   
   ```
 

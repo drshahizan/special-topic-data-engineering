@@ -31,7 +31,9 @@ Group XXXX
 ## Types of Data
 | Unstructured Data | Semi-Structured Data | Structured Data |
 | ----------------- | -------------------- | ------------------ |
-| No specific and lack structure | Predefined format but not stored in Relational Database | Stored in predefined format and highly specific |
+| No specific and predefined format and structure | Predefined format but not stored in Relational Database | Stored in predefined format and highly specific |
+| Difficult to process with traditional data analysis tools | Can be processed with both traditional and NoSQL data analysis tools | Easy to process with traditional data analysis tools |
+| Examples: image, audio recording, video, web pages, free-form texts | Examples: JSON, XML, CSV and log file, email message, digital phorograph that has time stamped, geo tagged and device ID | Examples: names, address, ID number, stock information |
 
 
 ## Contribution 🛠️

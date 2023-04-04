@@ -29,7 +29,9 @@ Group XXXX
 
 
 ## Types of Data
-Software engineering is an essential field of study that deals with the design, development, and maintenance of software applications. It plays a vital role in the development and success of modern technology. Here are some of the reasons why software engineering is important:
+| Unstructured Data | Semi-Structured Data | Structured Data |
+| ----------------- | -------------------- | ------------------ |
+| No specific and lack structure | Predefined format but not stored in Relational Database | Stored in predefined format and highly specific |
 
 
 ## Contribution 🛠️

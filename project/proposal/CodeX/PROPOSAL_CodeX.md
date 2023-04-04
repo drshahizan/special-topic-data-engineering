@@ -301,6 +301,38 @@ Overall, while Netflix's recommendation system is generally effective, it is imp
 
 Timeline
 
+```mermaid
+
+gantt
+  title Netflix Recommendation System
+  dateFormat  YYYY-MM-DD
+  axisFormat %W
+
+  section Data Collection and Preprocessing
+  Data Searching   :active, 2023-04-01 , 7d
+  Data Cleaning    :2023-04-08 , 7d
+  EDA              :2023-04-15 , 14d
+  
+
+  section Data Modeling
+  Data analyzing           :2023-04-29 , 7d
+  Preparing data model     :2023-05-06 , 7d
+
+  section User Interface Design
+  Identify system needs     :2023-05-13 , 3d
+  Develop user interface    :2023-05-16 , 18d
+
+  section Deployment & Testing
+  System testing    :2023-06-03 , 13d
+  Refine design     :2023-06-03 , 13d
+  System launching  :2023-06-16 , 1d
+  
+  section Maintenance
+  System monitoring & optimization    :2023-06-17 , 7d
+
+```
+
+
 - WEEK 1 - 4 : `Data Collection and Processing`
 
   > Collect user and item data and store it in a MongoDB database.

@@ -342,11 +342,11 @@ gantt
 - WEEK 7 - 10 : `User Interface`
 
   > Build a user interface that enables users to interact with the recommendation engine and view the recommendations.
-- WEEK 11 : `Deployment and Testing`
+- WEEK 11 - 12 : `Deployment and Testing`
 
   > Deploy the recommendation engine and database on a cloud platform such as AWS or Heroku.
   > Test the recommendation engine to ensure that it is functioning correctly and providing accurate recommendations.
-- WEEK 12 - 14 : `Maintenance`
+- WEEK 13 - 14 : `Maintenance`
 
   > Maintain and update the recommendation engine as needed to ensure that it continues to meet the requirements of the project.
 

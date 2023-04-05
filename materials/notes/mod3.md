@@ -41,6 +41,8 @@ Group XXXX
 * Designed to handle large volume of unstructured and semi-structured data which is a good choice for big data and real-time web applications
 * Examples: MongoDB, Cassandra, Redis, Neo4j
 
+![](https://ares.decipherzone.com/blog-manager/uploads/ckeditor_Top%2010%20NoSQL%20Databases%20in%202022.png)
+
 Advantages of NoSQL Database:
 
 1)Flexibility

@@ -47,6 +47,8 @@ The credit card fraud detection system project aims to solve these problem state
 ## 🔍 Scope: 
 The objective of this system is to discern fraudulent transactions by analyzing a large amount of historal data which will enable users to gain insight for effective decision-making and analysis. Below contains the project scope statement which will help us achieve said objective.
 
+![scope](projectscope.jpg)
+
 - i. Data Sources : The data which will be used in this project will be collected from Kaggle dataset, <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud">Credit Card Fraud Detection</a>.
 
 - ii. Tools and Technologies : The dataset will be connected to MongoDB by using Tensorflow to do data pre-processing, training and testing data. Apart from that, Django will be used for the framework of the website.

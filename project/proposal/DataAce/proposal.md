@@ -241,7 +241,7 @@ There are several risks and limitations that need to be considered when building
 
   ```mermaid
 gantt
-    title Product Feature Project Gantt Chart
+    title Fraud Detection Project Gantt Chart
     dateFormat  YYYY-MM-DD
     section Planning and Requirements Gatherings
     Requirements Gatherings  :2023-03-19 , 14d
@@ -257,14 +257,18 @@ gantt
     section Model Selection and Training
     Model Selection        :2023-04-30 , 7d
     Model Training     :2023-05-07 , 7d
+	
+    section Model Evaluation and Refinement
+    Model Evaluation        :2023-05-08 , 2d
+    Model Refinement        :2023-05-10 , 3d
+   
+    section Dashboard development
+    Dashboard development              :2023-05-14 , 14d
+    Testing     :2023-05-28 , 2d
   
-    section Model Deployment and Testing
-    Model Deployed               :2023-05-14 , 21d
-    Testing     :2023-06-04 , 7d
-  
-    section Presentation
-    Final report      :2023-06-11  , 7d
-    Presentation     :2023-06-18 , 7d
+    section Deployment and documentation
+    Deployment     :2023-05-29  , 15d
+    Documentation     :2023-06-13 , 7d
   
   ```
   </div>

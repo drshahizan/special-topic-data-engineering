@@ -24,6 +24,7 @@ Group XXXX
 #### Notes
 - [Types of Data](#types-of-data)
 - [NoSQL Database](#NoSQL-database)
+- [Types of NoSQL Database](#types-of-NoSQL-database)
 
 ### Others
 - [xyz](https://utm.my)
@@ -62,6 +63,10 @@ NoSQL handles high volumes of reads and writes better than traditional relationa
 
 NoSQL database runs on commodity hardware and it does not require expensive licenses
 
+## Types of NoSQL database
+
+<div align="center"><img src="[https://ares.decipherzone.com/blog-manager/uploads/ckeditor_Top%2010%20NoSQL%20Databases%20in%202022.png](https://raw.githubusercontent.com/SupaeroDataScience/OBD/master/src/reveal/static/img/NoSQL-Database-Types.jpg)" height="350"
+                         ></div>
 
 
 

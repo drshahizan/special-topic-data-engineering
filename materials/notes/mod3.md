@@ -65,7 +65,7 @@ NoSQL database runs on commodity hardware and it does not require expensive lice
 
 ## Types of NoSQL database
 
-<div align="center"><img src="[https://ares.decipherzone.com/blog-manager/uploads/ckeditor_Top%2010%20NoSQL%20Databases%20in%202022.png](https://raw.githubusercontent.com/SupaeroDataScience/OBD/master/src/reveal/static/img/NoSQL-Database-Types.jpg)" height="350"
+<div align="center"><img src="https://abcloudz.com/wp-content/uploads/2021/01/NoSQL.png?x87761" height="250"
                          ></div>
 
 

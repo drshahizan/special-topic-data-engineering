@@ -42,19 +42,20 @@ Group XXXX
 * Examples: MongoDB, Cassandra, Redis, Neo4j
 
 Advantages of NoSQL Database:
-* Flexibility
+
+1) Flexibility
 
 NoSQL database has flexible schema and this makes it easier to add or remove data fields or change the structure of the data
 
-* Scalability
+2) Scalability
 
 NoSQL database often use sharding and partitioning to distribute data across multiple servers and nodes
 
-* High Performance
+3) High Performance
 
 NoSQL handles high volumes of reads and writes better than traditional relational databases
 
-* Cost-effective
+4) Cost-effective
 
 NoSQL database runs on commodity hardware and it does not require expensive licenses
 

@@ -37,6 +37,27 @@ Group XXXX
 | Examples: image, audio recording, video, web pages, free-form texts | Examples: JSON, XML, CSV and log file, email message, digital phorograph that has time stamped, geo tagged and device ID | Examples: names, address, ID number, stock information |
 
 ## NoSQL Database
+* A database that does not use traditional relational data model
+* Designed to handle large volume of unstructured and semi-structured data which is a good choice for big data and real-time web applications
+* Examples: MongoDB, Cassandra, Redis, Neo4j
+
+Advantages of NoSQL Database:
+* Flexibility
+
+NoSQL database has flexible schema and this makes it easier to add or remove data fields or change the structure of the data
+
+* Scalability
+
+NoSQL database often use sharding and partitioning to distribute data across multiple servers and nodes
+
+* High Performance
+
+NoSQL handles high volumes of reads and writes better than traditional relational databases
+
+* Cost-effective
+
+NoSQL database runs on commodity hardware and it does not require expensive licenses
+
 
 
 

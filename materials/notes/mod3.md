@@ -39,7 +39,7 @@ Group XXXX
 ## NoSQL Database
 * A database that does not use traditional relational data model
 * Designed to handle large volume of unstructured and semi-structured data which is a good choice for big data and real-time web applications
-* Examples: MongoDB, Cassandra, Redis, Neo4j
+* Examples: MongoDB, Cassandra, Redis, Neo4j, OrientDB
 
 <div align="center"><img src="https://ares.decipherzone.com/blog-manager/uploads/ckeditor_Top%2010%20NoSQL%20Databases%20in%202022.png" height="250"
                          ></div>

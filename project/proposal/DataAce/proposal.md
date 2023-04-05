@@ -49,13 +49,20 @@ The objective of this system is to discern fraudulent transactions by analyzing 
 
 ![scope](projectscope.jpg)
 
-- i. Data Sources : The data which will be used in this project will be collected from Kaggle dataset, <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud">Credit Card Fraud Detection</a>.
+- i. `Data Source` : The data which will be used in this project will be collected from Kaggle dataset, <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud">Credit Card Fraud Detection</a>.
 
-- ii. Tools and Technologies : The dataset will be connected to MongoDB by using Tensorflow to do data pre-processing, training and testing data. Apart from that, Django will be used for the framework of the website.
+- ii. `Database Development` : The dataset will be connected to MongoDB by using Tensorflow.
 
-- iii. Data Cleaning and Preparation : The dataset will be cleaned and prepared by using Python library such as Pandas and Numpy.
+- iii. `Data Cleaning` : The dataset will be cleaned and prepared by using Python library such as Pandas and Numpy.
 
-- iv. Reporting : The dataset will be visualised in a form of a dashboard by using MongoDB Charts.
+- iv. `Data Preparation`: Data pre-processing, training and testing will be done by using Tensorflow and the data will be visualised in a form of a dashboard by using MongoDB Charts.
+
+- v. `Website design` : Django will be used to build and design the framework of the website.
+
+- vi. `Website testing` : The website will be tested multiple times to detect any issues before making them live.
+
+- vii. `Project monitoring and documentation` : The project will continuously be monitored and documented to keep track of the progress of project and to optimize the website performance.
+
 
 ## 📖 Methodology:
 This project will be using various research methods to achieve our main objective which is to build a system to detect fraudulent transactions. The table below presents the specified procedures, strategies, technologies and softwares used in this project. 

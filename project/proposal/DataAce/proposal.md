@@ -237,7 +237,37 @@ There are several risks and limitations that need to be considered when building
 
 ## 📅 Timeline and Deliverables: 
 **Detailed Timeline:**
+  <div class="mermaid">
+
+  ```mermaid
+gantt
+    title Product Feature Project Gantt Chart
+    dateFormat  YYYY-MM-DD
+    section Planning and Requirements Gatherings
+    Requirements Gatherings  :2023-03-19 , 14d
   
+    section Data Exploration and Cleaning
+    Data Collection            :2023-04-02  , 10d
+    Data Cleaning              :2023-04-12 , 6d
+    Data Analysis              :2023-04-18 , 5d
+  
+    section Feature Engineering
+    Features identification        :2023-04-23 , 7d
+ 
+    section Model Selection and Training
+    Model Selection        :2023-04-30 , 7d
+    Model Training     :2023-05-07 , 7d
+  
+    section Model Deployment and Testing
+    Model Deployed               :2023-05-14 , 21d
+    Testing     :2023-06-04 , 7d
+  
+    section Presentation
+    Final report      :2023-06-11  , 7d
+    Presentation     :2023-06-18 , 7d
+  
+  ```
+  </div>
 Week 1-2: Project Planning and Data Collection
 
  - Define the project scope, objectives, and deliverables 

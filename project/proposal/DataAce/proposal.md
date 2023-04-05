@@ -66,6 +66,7 @@ This project will be using various research methods to achieve our main objectiv
 | Feature Engineering | The relevant features which will be used to detect fraudulent activities will be analysed by using Tensorflow. |
 | Fraud Detection| A classification model will be built which will able to predict fraudulent activities based on the features identified.|
 | Visualization | Data will be displayed by using MongoDB Charts in a form of a dashboard. |
+| Web Development | The framework for the website will be designed and built by using Django. |
 
 
 ## 🛠️ System Architecture:

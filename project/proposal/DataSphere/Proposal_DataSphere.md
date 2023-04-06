@@ -177,14 +177,30 @@ flowchart TB
   
 | Deliverables and Milestones | Timeframe  |
 |----------|:-------------:|
-| Planning and Requirements Gatherings | Week 1-2 |
-| Data Exploration and Cleaning | Week 3-5 |
-| Feature Engineering | Week 6 |
-| Model Selection and Training | Week 7-8 |
-| Model Deployment and Testing | Week 9-12 |
-| Presentation result | Week 13-14 | 
+| Planning and Requirements Gatherings | End of week 2 |
+| Data Collection and Preprocessing | End of week 6 |
+| Sentiment Analysis Development | End of week 8 |
+| Data Visualization and Insights | End of week 10 |
+| Model Deployment and Testing | End of week 12 |
+| Final Report and Presentation | End of week 14 | 
 
 </div>
+
+Week 1-2: Planning and Requirements Gatherings
+Determine the problem to be solved on Twitter regarding 'Menu Rahmah' tweets. Finalized proposal outlining system architecture, methodology and other related requirements. 
+
+Week 3-6: Data Collection and Preprocessing
+Collect Twitter data related to the Menu Rahmah project using the Twitter API or appropriate keywords. Then, preprocess the data by cleaning, filtering, and transforming it into a suitable format for analysis.Week 7-8:  Sentiment Analysis Development
+Do feature extraction of the meaningful features of the text and select, train and evaluate the model for sentiment analysis using NLP technique.
+
+Week 9-10:  Data Visualization and Insights
+Visualize the sentiment analysis results using appropriate charts, graphs, and dashboards. We will extract insights from the analysis, such as the most common sentiments expressed, the most frequently mentioned topics, and the overall sentiment trend over time.
+
+Week 11-12: Model Deployment and Testing
+After the analysis is completed, deploy and test the application to a production environment.
+
+Week 13-14: Final Report and Presentation
+Write a final report summarizing the project findings and recommendations. Finally, store the preprocessed data in a MongoDB database.
 
 ## 💰: Resources
 

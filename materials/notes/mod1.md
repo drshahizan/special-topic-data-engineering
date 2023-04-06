@@ -8,13 +8,14 @@
 Don't forget to hit the :star: if you like this repo.
 
 <!---
-Module X: XXX
+Module 1: Data Engineer, Data Engineering, Data Science, Data Scientist
 
-Group XXXX
-1. XXXX
+Group Codex
+1. 
 2. XXXX
 3. XXXX
 4. XXXX
+5. Muhammad Naquib Bin Zakaria | A20BE0161
 
 -->
 
@@ -29,8 +30,15 @@ Abc
 
 
 ## ABC
-Software engineering is an essential field of study that deals with the design, development, and maintenance of software applications. It plays a vital role in the development and success of modern technology. Here are some of the reasons why software engineering is important:
+"Data Engineer" refers to a person who is responsible for designing, developing, and maintaining the infrastructure that supports the storage, processing, and analysis of large volumes of data. To ensure that data is gathered, saved, and made accessible for use by data scientists and other stakeholders, data engineers employ a variety of technologies, including databases, data pipelines, and data warehouses. Data engineers are professionals in the design and implementation of data systems.
 
+"Data Engineering" is a field that includes the process, tools, and techniques used to design, develop and maintain the systems and infrastructure that support the data needs of an organization. In order to make sure that data is available and accessible for analysis and decision-making, data engineering makes use of a variety of technologies, including databases, data pipelines, and data warehouses.
+
+"Data Science" is an interdisciplinary field that includes the use of statistical and computational methods, machine learning, and other ways to extract knowledge and insight from data. Data science includes a range of activities, including data collection, cleaning, processing, analysis, and visualization, which aims to find trends, forecast the future, and guide decision-making.
+
+"Data Scientist" is a person who uses their skills and expertise in data science to solve complex problems by analyzing and interpreting large, complex datasets. Data scientists typically have a strong background in statistics, mathematics, and programming, and are able to develop and apply machine learning algorithms and other techniques to extract insights and knowledge from data.
+
+In summary, Data Engineers are responsible for building and maintaining data infrastructure, Data Engineering is the field or domain that encompasses the processes, tools, and techniques used in building and maintaining data infrastructure, Data Scientists are responsible for analyzing and interpreting data to extract insights and knowledge that inform decision-making, and Data Science is the interdisciplinary field that encompasses the entire process of data analysis from data collection to insights extraction.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

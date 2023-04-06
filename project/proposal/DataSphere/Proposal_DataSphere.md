@@ -38,6 +38,7 @@ As time passed, data science eventually became the new technology to help busine
 The system that is proposed here, aims to segment customers into groups using clustering and potentially other methods to several groups. This would allow business decisions to be catered to one or many customer segments. Thus, allowing any individual or organisation that uses it to posses an advantage over their competitors.
 
 ## 🔎: Goals and Objectives
+(to be edited) The goal of sentiment analysis is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed about a particular topic or entity. The objective of sentiment analysis is to classify the sentiment of the text as positive, negative, or neutral. This information can be used to understand the public opinion towards a specific product, service, brand, or event, and can be helpful in making informed decisions and improving customer satisfaction. It can also be useful in identifying potential issues or areas of improvement for businesses or organizations.
 In order to enhance marketing and sales strategies, boost customer satisfaction and retention, and ultimately spur business growth, it is important to better understand and target certain groups of customers based on their traits, requirements, and habits.
 
 1. Using data from demographics, psychographics, behaviour, and preferences, identify unique client categories.
@@ -47,7 +48,6 @@ In order to enhance marketing and sales strategies, boost customer satisfaction 
 5. Evaluate and assess segmentation strategies' efficacy to continuously enhance and hone strategies.
 6. Understanding and applying MongoDB to develop a recommendation engine 
 
-Customer segmentation enables organisations to more fully comprehend their customers and deliver individualised experiences that may increase customer loyalty, pleasure, and return on investment (ROI)
 
 ## 🔬: Scope
 The objective of this project is to improve an organisations performance in terms of decision making and customer overall experience. With this known, the scope of this project will be :

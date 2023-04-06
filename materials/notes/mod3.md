@@ -68,11 +68,30 @@ NoSQL database runs on commodity hardware and it does not require expensive lice
 <div align="center"><img src="https://abcloudz.com/wp-content/uploads/2021/01/NoSQL.png?x87761" height="250"
                          ></div>
                          
-| Types of NoSQL Database | Details | Examples |
-| ----------------- | -------------------- | ------------------ |
-| Document databases | * Store data in JSON, BSON or XML documents | * MongoDB |
-|                    |                                             | * Couchbase |
-                                                                   | * Apache Cassandra |
+<table>
+  <tr>
+    <th>Document databases</th>
+    <td>
+      <li>Store data in JSON, BSON or XML documents</li>
+      <li>Examples: MongoDB, Couchbase, Apache Cassandra, CouchDB, Amazon DocumentDB, RavenDB</li>
+   </td>
+  </tr>
+  <tr>
+    <th>Key-value stores</th>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <th>Column-oriented databases</th>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <th>Graph databases</th>
+    <td>
+    </td>
+  </tr>
+</table>
                                                                      
 
 ## Contribution 🛠️

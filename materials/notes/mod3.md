@@ -72,23 +72,31 @@ NoSQL database runs on commodity hardware and it does not require expensive lice
   <tr>
     <th>Document databases</th>
     <td>
-      <li>Store data in JSON, BSON or XML documents</li>
+      <li>Use key-value pairs to store data in JSON, BSON or XML documents</li>
+      <li>Support different operations including CRUD (Create, Read, Update, Delete), queries and indexing</li>
+      <li>No fixed query lanaguage</li>
+      <li>Suitable for hierarchical data storage</li>
+      <li>Do not require pre-defined schema and complex joins</li>
+      <li>Use cases: e-commerce, trading platforms, mobile applications, social networking, content management</li>
       <li>Examples: MongoDB, Couchbase, Apache Cassandra, CouchDB, Amazon DocumentDB, RavenDB</li>
    </td>
   </tr>
   <tr>
     <th>Key-value stores</th>
     <td>
+      <li>Examples: Redis, Riak, Apache Cassandra, Amazon DynamoDB, Couchbase, Aerospike</li>
     </td>
   </tr>
   <tr>
     <th>Column-oriented databases</th>
     <td>
+      <li>Examples: Apache Cassandra, Apache HBase, Google Bigtable, ScyllaDB, Apache Druid, Vertica</li>
     </td>
   </tr>
   <tr>
     <th>Graph databases</th>
     <td>
+      <li>Examples: Neo4j, OrientDB, ArangoDB, JanusGraph, Amazon Neptune, Microsoft Azure Cosmo DB</li>
     </td>
   </tr>
 </table>

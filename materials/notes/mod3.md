@@ -72,7 +72,7 @@ NoSQL database runs on commodity hardware and it does not require expensive lice
   <tr>
     <th>Document databases</th>
     <td>
-      <li>Use key-value pairs to store data in JSON, BSON or XML documents</li>
+      <li>Store data in JSON, BSON or XML documents</li>
       <li>Support different operations including CRUD (Create, Read, Update, Delete), queries and indexing</li>
       <li>No fixed query lanaguage</li>
       <li>Suitable for hierarchical data storage</li>
@@ -84,6 +84,12 @@ NoSQL database runs on commodity hardware and it does not require expensive lice
   <tr>
     <th>Key-value stores</th>
     <td>
+      <li>Each data element is stored as a key-value pair with attribute names and values</li>
+      <li>Store and retrieve data efficiently based on the key</li>
+      <li>Used for caching accessed data such as session data, page fragments and query results</li>
+      <li>Use for real-time analytics and make timely decision</li>
+      <li>Can handle high volumes of requests and privide fast accesss to session data</li>
+      <li>Use cases: Shopping carts, user profiles, user preference</li>
       <li>Examples: Redis, Riak, Apache Cassandra, Amazon DynamoDB, Couchbase, Aerospike</li>
     </td>
   </tr>

@@ -40,8 +40,6 @@ Abc
 
 In summary, Data Engineers are responsible for building and maintaining data infrastructure, Data Engineering is the field or domain that encompasses the processes, tools, and techniques used in building and maintaining data infrastructure, Data Scientists are responsible for analyzing and interpreting data to extract insights and knowledge that inform decision-making, and Data Science is the interdisciplinary field that encompasses the entire process of data analysis from data collection to insights extraction.
 
-![data-scientist-vs-data-engineer](https://user-images.githubusercontent.com/92329710/230423613-2274faaf-4738-4fea-86ae-a69bdebce9be.png)
-
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

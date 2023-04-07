@@ -38,11 +38,11 @@ In summary, predictive maintenance for playground equipment inspection and maint
 ## 🎯 Goals and Objectives:
 
 Goals:
-The primary objective of this project is to develop a predictive maintenance system for playground equipment inspection and maintenance. This system will be able to collect data from various sensors placed on the playground equipment, such as vibration, temperature, and humidity sensors. The data collected will then be analyzed using machine learning algorithms to identify patterns and predict when maintenance will be required. The goals of this project are as follows:
+The primary objective of this project is to develop a predictive maintenance system for playground equipment inspection and maintenance. This system will be able to collect visual data from the surveillance footage captured from the CCTV's around the playground. The data collected will then be analyzed using machine learning algorithms to identify patterns and predict when maintenance will be required. The goals of this project are as follows:
 
 1. Identify the key parameters that impact the health and safety of playground equipment.
-2. Develop a data collection system using sensors that capture the relevant parameters.
-3. Develop machine learning algorithms to analyze the data and predict maintenance needs.
+2. Develop a data collection system using images captured by CCTV's in the playgrounds vicinity.
+3. Develop machine learning algorithms to analyze the images and predict maintenance needs based on the physical condition.
 4. Build a dashboard that displays the status of the equipment and alerts maintenance personnel when maintenance is required.
 5. Test and validate the predictive maintenance system in real-world playground settings.
 

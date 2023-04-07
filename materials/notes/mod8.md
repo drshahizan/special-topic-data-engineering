@@ -31,6 +31,8 @@ Group Regex
   - [Machine Learning Process](#machine-learning-process)
   - [Machine Learning Applications](#machine-learning-applications)
 - [Deep Learning](#deep-learning)
+  - [Deep Learning Applications](#deep-learning-applications)
+
 
 ### Others
 - [xyz](https://utm.my)
@@ -144,6 +146,27 @@ Machine learning (ML) is a rapidly growing field with a wide range of applicatio
 These are just a few examples of the many applications of ML. As the field continues to evolve, we can expect to see even more applications in various industries.
 
 ## Deep Learning
+Deep learning is a subset of machine learning that is based on artificial neural networks with multiple layers. It involves training artificial neural networks to recognize patterns in data, by allowing them to automatically learn from and make decisions based on large amounts of labeled data.
+
+## Deep Learning Applications
+
+Some of the most common applications of deep learning include:
+
+- Image recognition and classification: Deep learning is used to identify objects and classify them into different categories in images or videos.
+
+- Natural language processing: Deep learning is used to develop chatbots, virtual assistants, and other systems that can understand and respond to human language.
+
+- Speech recognition: Deep learning is used to recognize and transcribe spoken language into text.
+
+- Recommendation systems: Deep learning is used to analyze user behavior and preferences, and to make personalized recommendations based on this data.
+
+- Fraud detection: Deep learning is used to detect fraudulent behavior in financial transactions, such as credit card fraud.
+
+- Autonomous vehicles: Deep learning is used to develop systems that can perceive and respond to the environment in order to drive vehicles autonomously.
+
+- Medical diagnosis and treatment: Deep learning is used to analyze medical images and data to aid in the diagnosis and treatment of diseases.
+
+With its ability to learn from large amounts of data, deep learning has the potential to revolutionize many industries and fields.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

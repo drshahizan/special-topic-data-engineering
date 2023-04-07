@@ -330,7 +330,41 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 
 ## 🏁 Timeline and Deliverables: 
 
+<div class="mermaid">
 
+  ```mermaid
+gantt
+    title Predictive Maintenance for Playground Equipment Inspection and Maintenance
+    dateFormat  YYYY-MM-DD
+    section Planning and Requirements Gatherings
+    Requirements Gatherings  :2023-03-19 , 14d
+  
+    section Data Exploration and Cleaning
+    Data Collection            :2023-04-02  , 10d
+    Data Cleaning              :2023-04-12 , 6d
+    Data Analysis              :2023-04-18 , 5d
+  
+    section Feature Engineering
+    Features identification        :2023-04-23 , 7d
+ 
+    section Model Selection and Training
+    Model Selection        :2023-04-30 , 7d
+    Model Training     :2023-05-07 , 7d
+	
+    section Model Evaluation and Refinement
+    Model Evaluation        :2023-05-08 , 2d
+    Model Refinement        :2023-05-10 , 3d
+   
+    section Dashboard development
+    Dashboard development              :2023-05-14 , 14d
+    Testing     :2023-05-28 , 2d
+  
+    section Deployment and documentation
+    Deployment     :2023-05-29  , 15d
+    Documentation     :2023-06-13 , 7d
+  
+  ```
+  </div>
 
 
 <ol start="2">

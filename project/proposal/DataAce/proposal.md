@@ -38,19 +38,19 @@ TikTok Insights Dashboard's primary goal is to provide TikTok creators with a co
 
 The TikTok insights dashboard project aims to solve these problem statements: 
 
-- i. Limited visibility into performance 
+- i. Limited visibility into performance -
 It is tough for creators to tell how their work is performing on TikTok without analytics tools. They may know how many views their videos have, but they may not know how long users are watching them, what their engagement rate is, or how their content affects their following growth.
 
-- ii. Difficulty detecting trends
+- ii. Difficulty detecting trends -
 TikTok is a fast-paced platform, and keeping up with hot subjects and hashtags can be tough. Creators may miss out on opportunities to develop content that resonates with their audience and capitalises on popular trends if they do not use analytics tools.
 
-- iii. Inability to measure success
+- iii. Inability to measure success - 
 Without analytics tools, content creators may be unaware of how successful their content is or what modifications they can make to increase interaction. This can lead to a loss of motivation and dissatisfaction for content creators who are attempting to grow their following and develop effective material.
 
-- iv. Quality and completeness of data 
+- iv. Quality and completeness of data - 
 To ensure the effectiveness of this system, the data must be accurate and complete. Data quality issues needs to be focused to made sure the system is reliable.
 
-- v. Inadequate grasp of audience demographics 
+- v. Inadequate grasp of audience demographics -
 Without data on their audience, creators may not know who is responding to their content or what changes they can make to better target their ideal audience. This can make it tough for them to develop material that will engage and grow their audience.
 
 ## 🔍 Scope: 

@@ -21,7 +21,7 @@ Playgrounds are an essential part of any community, providing children with an o
 
 ## 📝 Background:
 <p align="center">
-<img src="https://goplayplaygrounds.com/wp-content/uploads/2020/09/happy-boy-swinging.png" alt="Health" height="250"></img>
+<img src="https://goplayplaygrounds.com/wp-content/uploads/2020/09/happy-boy-swinging.png" alt="Playground" height="250"></img>
 </p>
 
 Playgrounds are often the focal point of outdoor play for children in communities across the world. As such, it is crucial that playground equipment is maintained in good working order to prevent injuries and ensure the equipment's longevity. However, traditional maintenance practices for playground equipment can be reactive, relying on periodic inspections and repairs after issues arise. This approach can be time-consuming, costly, and may not prevent equipment failures or hazards.
@@ -50,6 +50,7 @@ In summary, this project aims to develop a predictive maintenance system that le
 
 
 ## 🔍 Scope: 
+<img src="project/proposal/Rivertion/image/ScopePRoject.png" alt="Scope" height="250"></img>
 
 The scope of this project is to develop a predictive maintenance system for playground equipment inspection and maintenance. The system will use surveillance footage to collect images of the playground equipment and machine learning algorithms to analyze this images to predict when maintenance will be required. The system will also provide alerts to maintenance personnel when maintenance is needed.
 

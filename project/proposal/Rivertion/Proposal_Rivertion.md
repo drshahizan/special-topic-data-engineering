@@ -1,4 +1,4 @@
-<h1 align='center'><b>Analyzing Medical Images for Disease Diagnosis in Malaysia 👨‍⚕️</b></h1> 
+<h1 align='center'><b>Analyzing Facial Images 👨‍⚕️</b></h1> 
 
 ## Table of Contents
 * [📜 Executive Summary](#-executive-summary)

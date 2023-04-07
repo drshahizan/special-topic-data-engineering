@@ -1,4 +1,4 @@
-<h1 align='center'> Credit Card Fraud Detection Proposal </h1>
+<h1 align='center'> TikTok Insights Dashboard: A Video Categorization and Analysis Tool </h1>
 <p align="center">
   <img src="https://images.readwrite.com/wp-content/uploads/2023/02/Machine-Learning-Solving-Fraud-825x500.jpg" title="Fraud Detection">
 </p>

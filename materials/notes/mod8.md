@@ -33,6 +33,7 @@ Group Regex
 - [Deep Learning](#deep-learning)
   - [Deep Learning Applications](#deep-learning-applications)
   - [Types of Deep Neural Networks](#types-of-deep-neural-networks)
+- [AI vs ML vs DL](#ai-vs-ml-vs-dl)
 
 
 ### Others
@@ -184,6 +185,17 @@ With its ability to learn from large amounts of data, deep learning has the pote
 - Long Short-Term Memory (LSTM) Networks: LSTMs are a type of RNN that are designed to overcome the vanishing gradient problem, which can occur when training networks with long-term dependencies.
 
 These are just a few examples of the many types of deep neural networks that exist. Each type has its own strengths and weaknesses, and is suited to different types of tasks.
+
+## AI vs ML vs DL
+Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL) are all related concepts, but they are not the same thing. Here is a brief overview of each:
+
+Artificial Intelligence (AI): AI is a broad field that covers the development of machines that can perform tasks that normally require human intelligence. It includes everything from rule-based systems and expert systems to more advanced technologies like ML and DL.
+
+Machine Learning (ML): ML is a subset of AI that involves training algorithms to make predictions or decisions based on data. ML algorithms can learn from data without being explicitly programmed, and can improve their performance over time.
+
+Deep Learning (DL): DL is a subset of ML that uses artificial neural networks with multiple layers to analyze and classify data. DL is especially effective for tasks that involve large amounts of data, such as image and speech recognition.
+
+In other words, ML is a type of AI that involves training algorithms on data, and DL is a type of ML that uses deep neural networks to analyze data. While these concepts are related, they are not interchangeable, and each has its own strengths and limitations.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

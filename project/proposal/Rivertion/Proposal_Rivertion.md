@@ -50,7 +50,9 @@ In summary, this project aims to develop a predictive maintenance system that le
 
 
 ## 🔍 Scope: 
-<img src="https://github.com/drshahizan/special-topic-data-engineering/blob/934389517f04a4148ebe6db360a6c595e3d1e3ad/project/proposal/Rivertion/image/ScopePRoject.png" alt="Scope" height="250"></img>
+<p align="center">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/blob/934389517f04a4148ebe6db360a6c595e3d1e3ad/project/proposal/Rivertion/image/ScopePRoject.png" alt="Scope" height="400"></img>
+</p>
 
 The scope of this project is to develop a predictive maintenance system for playground equipment inspection and maintenance. The system will use surveillance footage to collect images of the playground equipment and machine learning algorithms to analyze this images to predict when maintenance will be required. The system will also provide alerts to maintenance personnel when maintenance is needed.
 

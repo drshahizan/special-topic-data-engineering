@@ -191,18 +191,19 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 <ol>
 	<li> Technical Risks: </li>
 <ul>
-  <li> Accuracy of the analysis: Analyzing medical images needs for specialized equipment in terms of technology, specifically AI. Nevertheless, the accuracy of the analysis is based on the image quality, the radiologist or specialist's experience and expertise, and the technology's quality. Improper treatments or delayed diagnosis are the possible outcomes of wrong diagnosis.</li>
-  <li> Security and privacy: The most private aspects of a person are their health information. Medical images contain sensitive patient information, including personal health information. Unauthorized disclosure may result in several discrimination and a breach of basic rights. Certain kinds of data processing may result in the infringement of personal rights and interests. As the context of their processing may pose serious threats to basic rights and freedoms, personal data, which are by their very nature highly sensitive in connection to those rights and freedoms, warrant special protection.</li>
+  <li> False positives and false negatives: Predictive maintenance relies on data and algorithms to predict equipment failures. However, the accuracy of the prediction depends on the quality and quantity of the data, as well as the effectiveness of the algorithms. False positives (predicting a failure that does not occur) and false negatives (not predicting a failure that does occur) can result in unnecessary maintenance costs or safety hazards.</li>
+  <li> Data quality and availability: Predictive maintenance requires accurate and timely data from the equipment sensors, which may not be available or reliable in some cases. For example, outdoor playground equipment may be subject to weather conditions that affect the sensors' accuracy or even cause sensor failure.</li>
+  <li> Sensor placement and maintenance: Sensors must be properly placed and maintained to provide accurate data. Failure to do so may result in false readings, leading to incorrect predictions and increased maintenance costs.</li>
 </ul>
 	<li> Financial Risks: </li>
 <ul>
-  <li> Cost: Medical image analysis may be costly, especially for cutting-edge technology like MRI or PET scans. The price of the software, maintenance, and hardware may be costly, which may have an impact on how much people must pay for healthcare.</li>
-  <li> Return on investment: For certain patients or medical professionals, the expense of medical image analysis could exceed the advantages. Alternative diagnostic techniques occasionally may be less expensive and yield comparable or superior outcomes.</li>
+  <li> Equipment and software costs: Implementing predictive maintenance requires an initial investment in equipment sensors, software, and other hardware. The cost of these components can be significant, depending on the size and complexity of the playground equipment.</li>
+  <li> Maintenance costs: Predictive maintenance can help reduce maintenance costs by predicting failures before they occur. However, there is still a cost associated with maintaining the equipment sensors, software, and other hardware components, as well as conducting the necessary repairs and replacements.</li>
 </ul>
 	<li> Legal Risks: </li>
 <ul>
-  <li> Liability: Medical image analysis is a crucial procedure with important patient consequences. Healthcare professionals or radiologists who diagnose ailments incorrectly or fail to spot problems run the danger of being held accountable.</li>
-  <li> Regulatory compliance: Medical image analysis is subject to regulation by healthcare authorities, such as the Malaysian Medical Council. Providers must ensure that they are complying with regulations related to medical image analysis and patient privacy.</li>
+  <li> Liability: Playground equipment is subject to safety regulations and standards, and failure to comply with these regulations can result in legal liabilities. Implementing predictive maintenance can help reduce the risk of safety hazards, but it does not eliminate the need to comply with safety regulations and standards.</li>
+  <li> Data privacy: Predictive maintenance requires the collection and analysis of data from the equipment sensors, which may include personal or sensitive information. The misuse or mishandling of this data can result in legal liabilities related to data privacy and security.</li>
 </ul>
 </ol>
 

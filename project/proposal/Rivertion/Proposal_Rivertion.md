@@ -302,33 +302,16 @@ Even though analyzing playground images for inspection and maintenance gives a l
 
 ## 🧰 Technical Specifications:
 
-<h3>Technical Specifications:</h3>
-<ul>
-  <li><strong>Data Sources:</strong> The data for this project will be sourced from publicly available datasets and images of fresh and rotten fruits from various sources.</li>
-  <li><strong>Data Schema:</strong> The data schema for the project will include the image file, label (fresh or rotten), and metadata related to the image, such as the fruit type, size, color, and any other relevant information.</li>
-  <li><strong>Data Transformations:</strong> The data will be preprocessed using various techniques, such as image resizing, normalization, and augmentation, to ensure that the images are consistent and suitable for use in the machine learning algorithms.</li>
-  <li><strong>Machine Learning Algorithms:</strong> The project will use machine learning algorithms such as Convolutional Neural Networks (CNNs), Support Vector Machines (SVMs), and Random Forests to train and test the model for detecting rotten fruit.</li>
-  <li><strong>Data Visualization Tools:</strong> Data visualization tools such as Matplotlib, Seaborn, and Plotly will be used to visualize the data and results from the machine learning model.</li>
-</ul>
-<h3>Programming Languages, Frameworks, and Libraries:</h3>
-<ul>
-  <li>The programming languages that will be used in this project include Python and R.</li>
-  <li>Python-based machine learning frameworks such as TensorFlow, Keras, and PyTorch will be used for building the models.</li>
-  <li>The libraries that will be used include NumPy, Pandas, Matplotlib, Seaborn, and Plotly.</li>
-</ul>
-<h3>Hardware and Software Requirements:</h3>
-<ul>
-  <li>The hardware requirements for this project will depend on the size of the dataset and complexity of the machine learning models used.</li>
-  <li>A typical setup could include a computer with a multi-core CPU, a dedicated GPU, and sufficient RAM.</li>
-  <li>The software requirements will include a Python or R environment, machine learning frameworks and libraries, and data visualization tools.</li>
-</ul>
-<h3>Data Security Measures:</h3>
-<ul>
-  <li>The data used in this project will be publicly available and will not contain any personally identifiable information.</li>
-  <li>The data will be stored securely and protected against unauthorized access or tampering.</li>
-  <li>The system will use encryption and access controls to protect the data, and regular backups will be taken to ensure data integrity.</li>
-  <li>Additionally, any third-party libraries or APIs used in the project will be carefully vetted for security vulnerabilities.</li>
-</ul>
+The scope of this project is to develop an image analysis system for detecting rotten fruits using machine learning algorithms. The system will analyze images of fruits and accurately identify which ones are in a state of decay. The project will involve the following activities:
+
+Collecting a diverse dataset of fruit images, including both healthy and rotten fruits, with a range of lighting conditions and camera angles.
+Preprocessing the image dataset to enhance image quality and extract features relevant to fruit quality.
+Designing and implementing a deep learning model, such as a convolutional neural network, to accurately classify fruits as healthy or rotten.
+Developing a user-friendly interface for the system, allowing for easy input of fruit images and displaying the results of the analysis.
+Validating the performance of the system using a separate test dataset and comparing its accuracy to existing methods for fruit quality control.
+The project will focus on the detection of rotten fruits in images, and will not include physical inspection of fruits or other aspects of fruit quality control. The project will use existing tools and libraries for machine learning and image analysis, rather than developing new algorithms from scratch. The project will be limited to the detection of rotten fruits in a controlled laboratory environment, and the system's performance may vary in real-world settings.
+
+The project team will consist of machine learning experts, computer vision specialists, and domain experts in the fruit industry. The project will be conducted over a period of six months and will be evaluated based on the accuracy and efficiency of the developed system. The project's deliverables will include a report detailing the methodology, results, and conclusions of the project, as well as a functional prototype of the image analysis system.
 
 ## 🏁 Timeline and Deliverables: 
 

@@ -32,6 +32,7 @@ Group Regex
   - [Machine Learning Applications](#machine-learning-applications)
 - [Deep Learning](#deep-learning)
   - [Deep Learning Applications](#deep-learning-applications)
+  - [Types of Deep Neural Networks](#types-of-deep-neural-networks)
 
 
 ### Others

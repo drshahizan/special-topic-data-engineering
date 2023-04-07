@@ -16,10 +16,7 @@
 
 ## 📜 Executive Summary
 
-This project aims to develop a computer-aided diagnostic (CAD) system for analyzing medical images to improve disease diagnosis in Malaysia. The objectives of the project are to train machine learning models on a dataset of medical images, evaluate the performance of the models using various metrics, and integrate the models into a CAD system that can assist medical professionals in making more accurate diagnoses.
-
-The expected outcomes of the project include a dataset of annotated medical images, trained machine learning models that can accurately diagnose diseases, and a CAD system that can be used in clinical practice to aid medical professionals. The project has the potential to improve the accuracy and speed of disease diagnosis, ultimately leading to better patient outcomes in Malaysia.
-
+Playgrounds are an essential part of any community, providing children with an outlet for physical activity, socialization, and play. As such, it is crucial to ensure that these playgrounds are safe and in good condition. This project aims to develop a predictive maintenance system for playground equipment inspection and maintenance. By leveraging data collected from playground sensors, the system will be able to identify potential maintenance issues and predict when maintenance will be required, allowing for more efficient and effective playground upkeep.
 
 
 ## 📝 Background:

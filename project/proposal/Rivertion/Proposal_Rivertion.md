@@ -302,47 +302,33 @@ Even though analyzing playground images for inspection and maintenance gives a l
 
 ## 🧰 Technical Specifications:
 
-<ol>
-<li>Data Schema:</li>
+<h3>Technical Specifications:</h3>
 <ul>
-	<li>The dataset consists of 5,863 X-Ray images (JPEG) of anterior-posterior view, with 2 categories - Pneumonia and Normal.</li>
-	<li>The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal).</li>
+  <li><strong>Data Sources:</strong> The data for this project will be sourced from publicly available datasets and images of fresh and rotten fruits from various sources.</li>
+  <li><strong>Data Schema:</strong> The data schema for the project will include the image file, label (fresh or rotten), and metadata related to the image, such as the fruit type, size, color, and any other relevant information.</li>
+  <li><strong>Data Transformations:</strong> The data will be preprocessed using various techniques, such as image resizing, normalization, and augmentation, to ensure that the images are consistent and suitable for use in the machine learning algorithms.</li>
+  <li><strong>Machine Learning Algorithms:</strong> The project will use machine learning algorithms such as Convolutional Neural Networks (CNNs), Support Vector Machines (SVMs), and Random Forests to train and test the model for detecting rotten fruit.</li>
+  <li><strong>Data Visualization Tools:</strong> Data visualization tools such as Matplotlib, Seaborn, and Plotly will be used to visualize the data and results from the machine learning model.</li>
 </ul>
-<li>Data Transformations:</li>
+<h3>Programming Languages, Frameworks, and Libraries:</h3>
 <ul>
-	<li>Data pre-processing will be performed to normalize and standardize the image data.</li>
-	<li>Data augmentation techniques such as rotation, zooming, and flipping will be used to increase the diversity of the dataset and improve model performance.</li>
+  <li>The programming languages that will be used in this project include Python and R.</li>
+  <li>Python-based machine learning frameworks such as TensorFlow, Keras, and PyTorch will be used for building the models.</li>
+  <li>The libraries that will be used include NumPy, Pandas, Matplotlib, Seaborn, and Plotly.</li>
 </ul>
-<li>Machine Learning Algorithms:</li>
+<h3>Hardware and Software Requirements:</h3>
 <ul>
-	<li>Convolutional Neural Networks (CNN) will be used for image classification tasks.</li>
-	<li>Transfer learning techniques will be used to leverage pre-trained models and improve the efficiency of the model training process.</li>
+  <li>The hardware requirements for this project will depend on the size of the dataset and complexity of the machine learning models used.</li>
+  <li>A typical setup could include a computer with a multi-core CPU, a dedicated GPU, and sufficient RAM.</li>
+  <li>The software requirements will include a Python or R environment, machine learning frameworks and libraries, and data visualization tools.</li>
 </ul>
-<li>Data Visualization Tools:</li>
+<h3>Data Security Measures:</h3>
 <ul>
-	<li>Matplotlib and Seaborn will be used for data visualization tasks.</li>
-	<li>Tableau.</li>
+  <li>The data used in this project will be publicly available and will not contain any personally identifiable information.</li>
+  <li>The data will be stored securely and protected against unauthorized access or tampering.</li>
+  <li>The system will use encryption and access controls to protect the data, and regular backups will be taken to ensure data integrity.</li>
+  <li>Additionally, any third-party libraries or APIs used in the project will be carefully vetted for security vulnerabilities.</li>
 </ul>
-<li>Programming Languages, Frameworks, and Libraries:</li>
-<ul>
-	<li>Python will be used as the primary programming language.</li>
-	<li>Tensorflow will be used as the deep learning frameworks.</li>
-	<li>Scikit-learn will be used for machine learning algorithms.</li>
-	<li>OpenCV will be used for image processing tasks.</li>
-	<li>Numpy and Pandas will be used for data manipulation and analysis.</li>
-</ul>
-<li>Hardware and Software Requirements:</li>
-<ul>
-	<li>A machine with a minimum of 8GB RAM and a dedicated GPU (e.g. Nvidia GTX 1080) is recommended for training the deep learning models.</li>
-	<li>The software requirements include Python 3.6+, Tensorflow, Scikit-learn, OpenCV, Numpy, and Pandas.</li>
-</ul>
-<li>Data Security Measures:</li>
-<ul>
-	<li>The dataset will be stored securely on a password-protected machine.</li>
-	<li>Access to the dataset will be restricted to authorized personnel only.</li>
-	<li>Any data backups will also be stored securely with proper encryption.</li>
-</ul>
-</ol>
 
 ## 🏁 Timeline and Deliverables: 
 

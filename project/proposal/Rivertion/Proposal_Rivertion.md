@@ -30,17 +30,15 @@ Playgrounds are subject to frequent wear and tear due to their heavy usage, expo
 ## 🎯 Goals and Objectives:
 
 Goals:
-The main goal of the proposed project is to develop a computer-aided diagnostic (CAD) system for medical imaging analysis that can improve disease diagnosis in Malaysia. The CAD system will leverage machine learning models trained on a dataset of medical images to assist radiologists in making more accurate diagnoses, reducing the time and effort required to analyze images, and improving the efficiency of diagnosis. The ultimate goal is to improve patient outcomes and enhance the quality of medical imaging services in Malaysia.
+The primary objective of this project is to develop a predictive maintenance system for playground equipment inspection and maintenance. This system will be able to collect data from various sensors placed on the playground equipment, such as vibration, temperature, and humidity sensors. The data collected will then be analyzed using machine learning algorithms to identify patterns and predict when maintenance will be required. The goals of this project are as follows:
 
-Objectives:
-1. Collect and annotate a dataset of medical images that covers a range of diseases and conditions relevant to Malaysia.
-2. Train machine learning models on the dataset to accurately diagnose diseases and conditions in medical images.
-3. Evaluate the performance of the machine learning models using various metrics, such as sensitivity, specificity, and accuracy.
-4. Integrate the trained machine learning models into a CAD system that can assist radiologists in analyzing medical images.
-5. Test the CAD system on a sample of medical images to ensure its accuracy and efficiency in diagnosing diseases and conditions.
-6. Deploy the CAD system in clinical practice and monitor its performance in assisting radiologists in making diagnoses.
-7. Evaluate the impact of the CAD system on diagnosis accuracy, diagnosis speed, radiologist workload, and patient outcomes.
-8. Refine the CAD system based on feedback from medical professionals and patients to improve its performance and usability.
+1. Identify the key parameters that impact the health and safety of playground equipment.
+2. Develop a data collection system using sensors that capture the relevant parameters.
+3. Develop machine learning algorithms to analyze the data and predict maintenance needs.
+4. Build a dashboard that displays the status of the equipment and alerts maintenance personnel when maintenance is required.
+5. Test and validate the predictive maintenance system in real-world playground settings.
+
+In summary, this project aims to develop a predictive maintenance system that leverages data analytics and machine learning algorithms to identify potential maintenance needs for playground equipment. By doing so, we hope to improve the safety, efficiency, and effectiveness of playground maintenance.
 
 
 ## 🔍 Scope: 

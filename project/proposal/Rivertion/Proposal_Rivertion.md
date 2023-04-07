@@ -21,7 +21,7 @@ Playgrounds are an essential part of any community, providing children with an o
 
 ## 📝 Background:
 <p align="center">
-<img src="https://images.pexels.com/photos/1795716/pexels-photo-1795716.jpeg?cs=srgb&dl=pexels-hy-aan-1795716.jpg&fm=jpg" alt="Health" height="250"></img>
+<img src="https://goplayplaygrounds.com/wp-content/uploads/2020/09/happy-boy-swinging.png" alt="Health" height="250"></img>
 </p>
 
 Playgrounds are often the focal point of outdoor play for children in communities across the world. As such, it is crucial that playground equipment is maintained in good working order to prevent injuries and ensure the equipment's longevity. However, traditional maintenance practices for playground equipment can be reactive, relying on periodic inspections and repairs after issues arise. This approach can be time-consuming, costly, and may not prevent equipment failures or hazards.

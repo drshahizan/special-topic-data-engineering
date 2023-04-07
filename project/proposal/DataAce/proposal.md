@@ -1,6 +1,6 @@
 <h1 align='center'> TikTok Insights Dashboard: A Video Categorization and Analysis Tool </h1>
 <p align="center">
-  <img src="https://images.readwrite.com/wp-content/uploads/2023/02/Machine-Learning-Solving-Fraud-825x500.jpg" title="Fraud Detection">
+  <img src="[https://images.readwrite.com/wp-content/uploads/2023/02/Machine-Learning-Solving-Fraud-825x500.jpg](https://s17233.pcdn.co/blog/wp-content/uploads/2022/12/tiktok_analytics_hero@2x.png)" title="TikTok Dashboard">
 </p>
 
 ## Table of content
@@ -34,18 +34,24 @@ This can lead to a more enjoyable and engaging experience on the platform, as us
 
 
 ## 🏅 Goals and Objectives:
-The system is designed to identify fraudalent transactions by analyzing a vast amount of historical data, looking for patterns and anomalies that indicate fraud and present the data in interactive dashboard for effective decision-making and analysis. The dashboard will provide valuable insights and analytics on fraudulent transactions, allowing for the identification of patterns and trends, as well as the development of strategies to avoid future frauds. The primary objective of this project are to prevent potential financial damages, minimize losses due to the fraudalent transactions and improving customer satisfaction thus providing them more secure and reliable payment platform.
+TikTok Insights Dashboard's primary goal is to provide TikTok creators with a complete picture of their account's performance and audience engagement. This is accomplished through the use of numerous metrics and data points that can assist creators in making informed decisions about their content strategy and understanding how their audience reacts to their material. With the help of informations from TikTok Insights Dashboard content creators, affiliates and marketing team can improvise their content to achieve their target audience and sales. In addition they also can optimize their content strategy, better engage with their audience, and grow their following on the platform. On top of that,
 
-The credit card fraud detection system project aims to solve these problem statements: 
-- i. Identify the fraudulent transactions - Prepare a model from historical supervised data and apply to incoming data as quickly as possible to prevent losses from fraud. This can minimize further losses.
+The TikTok insights dashboard project aims to solve these problem statements: 
 
-- ii. Pattern recognition - Identifying which attributes contribute to the indication of fraudulent which will made the system learn from past incidents and develop strategies to prevent future frauds.
+- i. Limited visibility into performance 
+It is tough for creators to tell how their work is performing on TikTok without analytics tools. They may know how many views their videos have, but they may not know how long users are watching them, what their engagement rate is, or how their content affects their following growth.
 
-- iii. Dashboard visualization - Provide a meaningful insights and the visualization is in user-friendly format. This will help relevant stakeholders such as fraud management team and customer service team to understand better and faster.
+- ii. Difficulty detecting trends
+TikTok is a fast-paced platform, and keeping up with hot subjects and hashtags can be tough. Creators may miss out on opportunities to develop content that resonates with their audience and capitalises on popular trends if they do not use analytics tools.
 
-- iv. Quality and completeness of data - To ensure the effectiveness of this system, the data must be accurate and complete. Data quality issues needs to be focused to made sure the system is reliable.
+- iii. Inability to measure success
+Without analytics tools, content creators may be unaware of how successful their content is or what modifications they can make to increase interaction. This can lead to a loss of motivation and dissatisfaction for content creators who are attempting to grow their following and develop effective material.
 
-- v. Performance optimization - The system should be capable of handling large volumes of transactions and quickly processing them in order to provide real-time alerts and insights.
+- iv. Quality and completeness of data 
+To ensure the effectiveness of this system, the data must be accurate and complete. Data quality issues needs to be focused to made sure the system is reliable.
+
+- v. Inadequate grasp of audience demographics 
+Without data on their audience, creators may not know who is responding to their content or what changes they can make to better target their ideal audience. This can make it tough for them to develop material that will engage and grow their audience.
 
 ## 🔍 Scope: 
 The objective of this system is to discern fraudulent transactions by analyzing a large amount of historal data which will enable users to gain insight for effective decision-making and analysis. Below contains the project scope statement which will help us achieve said objective.
@@ -186,15 +192,15 @@ There are several risks and limitations that need to be considered when building
 <table>
   <tr>
     <th align= "left">Data sources</th>
-    <td>Data retrieve from Kaggle https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud </td>
+    <td>Data retrieve Tiktok using web scraping and API </td>
   </tr>
   <tr>
     <th align= "left">Data schema</th>
-    <td>Dataset contains 31 features obtained with PCA. Due to confidentiality issues, the original features and background information on the data cannot be provided. There are three features that has not been transformed : 'Time','Amount' and 'Class'.</td>
+    <td>Dataset contains data on trendy hashtags, user's followers, profile views</td>
   </tr>
   <tr>
     <th align= "left">Data transformations</th>
-    <td>Balancing the dataset as it is imbalanced.</td>
+    <td>Data from web scraping transformed into tables for relatonal database.</td>
   </tr>
   <tr>
     <th align= "left">Machine learning algorithms</th>
@@ -244,7 +250,7 @@ There are several risks and limitations that need to be considered when building
 
   ```mermaid
 gantt
-    title Fraud Detection Project Gantt Chart
+    title TikTok Insights Dashboard Gantt Chart
     dateFormat  YYYY-MM-DD
     section Planning and Requirements Gatherings
     Requirements Gatherings  :2023-03-19 , 14d

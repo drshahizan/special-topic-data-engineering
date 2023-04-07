@@ -1,4 +1,4 @@
-<h1 align='center'><b>Predictive Maintenance for Playground Equipment Inspection and Maintenance 👷‍♂️</b></h1> 
+<h1 align='center'><b>Image Analysis for Rotten Fruit Detection 👷‍♂️</b></h1> 
 
 ## Table of Contents
 * [📜 Executive Summary](#-executive-summary)

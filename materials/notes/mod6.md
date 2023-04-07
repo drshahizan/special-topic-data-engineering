@@ -10,7 +10,7 @@ Don't forget to hit the :star: if you like this repo.
 <!---
 Module X: XXX
 
-Group XXXX
+Group DataAce
 1. XXXX
 2. XXXX
 3. XXXX
@@ -27,8 +27,8 @@ Group XXXX
 - [xyz](https://utm.my)
 
 
-## ABC
-Software engineering is an essential field of study that deals with the design, development, and maintenance of software applications. It plays a vital role in the development and success of modern technology. Here are some of the reasons why software engineering is important:
+## Definition
+Feature engineering is the process of selecting, manipulating, and transforming raw data into features that can be used in supervised learning. In order to make machine learning work well on new tasks, it might be necessary to design and train better features.
 
 
 ## Contribution 🛠️

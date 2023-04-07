@@ -214,27 +214,31 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
     <th>Timeframe</th>
   </tr>
   <tr>
-    <td>Data Gathering</td>
+    <td>Planning and Requirements Gathering</td>
     <td>Week 1-2</td>
   </tr>
   <tr>
-    <td>Data Cleaning and Preprocessing</td>
-    <td>Week 3-4</td>
+    <td>Data Exploration and Cleaning</td>
+    <td>Week 3-5</td>
   </tr>
   <tr>
-    <td>EDA</td>
-    <td>Week 5-7</td>
+    <td>Feature Engineering</td>
+    <td>Week 6</td>
   </tr>
   <tr>
-    <td>Build Model</td>
-    <td>Week 8-10</td>
+    <td>Model Selection and Training</td>
+    <td>Week 7-9</td>
   </tr>
   <tr>
-    <td>Evaluate Model</td>
+    <td>Model Evaluation and Refinement</td>
+    <td>Week 10</td>
+  </tr>
+  <tr>
+    <td>Dashboard Development</td>
     <td>Week 11-12</td>
   </tr>
   <tr>
-    <td>Deploy Model</td>
+    <td>Deployment and Documentation</td>
     <td>Week 13-14</td>
   </tr>
 </table>

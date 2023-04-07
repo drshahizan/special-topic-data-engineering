@@ -189,7 +189,7 @@ graph TD;
 
 ## 🛑 Risks and Limitations:
 
-Even though analyzing medical images for disease diagnosis gives a lot of advantages both to doctors and patients, this process also poses several risks and limitations that should be considered. Below are points for technical, financial and legal risks:
+Even though analyzing playground images for inspection and maintenance gives a lot of advantages to children and parents, this process also poses several risks and limitations that should be considered. Below are points for technical, financial and legal risks:
 
 <ol>
 	<li> Technical Risks: </li>

@@ -128,7 +128,8 @@ The Machine Learning (ML) process involves a series of steps that enable machine
 
 Overall, the ML process involves a series of steps that enable machines to learn and improve their performance over time. By following this process, ML models can be developed and deployed to solve complex problems and automate processes in various industries.
 
-<p align="left"><img src='https://user-images.githubusercontent.com/120556342/229358954-1206870c-b910-40e9-a3c1-d5ae35faee08.png'></p>
+<br>
+<p align="center"><img src='https://user-images.githubusercontent.com/120556342/229358954-1206870c-b910-40e9-a3c1-d5ae35faee08.png'></p>
 
 ## Machine Learning Applications
 Machine learning (ML) is a rapidly growing field with a wide range of applications in various industries. Here are some of the most common applications of ML:
@@ -197,7 +198,8 @@ Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL) are 
 
 In other words, ML is a type of AI that involves training algorithms on data, and DL is a type of ML that uses deep neural networks to analyze data. While these concepts are related, they are not interchangeable, and each has its own strengths and limitations.
 
-<p align="left"><img src='https://github.com/Madihah04/images/blob/d3ca218cfb06dd0e9e5becab27afc0c963463b3a/ai_ml_dl.jpeg'></p>
+<br>
+<p align="center"><img src='https://github.com/Madihah04/images/blob/d3ca218cfb06dd0e9e5becab27afc0c963463b3a/ai_ml_dl.jpeg'></p>
 
 
 ## Contribution 🛠️

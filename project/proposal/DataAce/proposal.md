@@ -1,6 +1,6 @@
 <h1 align='center'> TikTok Insights Dashboard: A Video Categorization and Analysis Tool </h1>
 <p align="center">
-  <img src="[https://images.readwrite.com/wp-content/uploads/2023/02/Machine-Learning-Solving-Fraud-825x500.jpg](https://s17233.pcdn.co/blog/wp-content/uploads/2022/12/tiktok_analytics_hero@2x.png)" title="TikTok Dashboard">
+  <img src="https://s17233.pcdn.co/blog/wp-content/uploads/2022/12/tiktok_analytics_hero@2x.png" title="TikTok Dashboard">
 </p>
 
 ## Table of content

@@ -16,7 +16,7 @@
 
 ## 📜 Executive Summary
 
-Playgrounds are an essential part of any community, providing children with an outlet for physical activity, socialization, and play. As such, it is crucial to ensure that these playgrounds are safe and in good condition. This project aims to develop a predictive maintenance system for playground equipment inspection and maintenance. By leveraging data collected from playground sensors, the system will be able to identify potential maintenance issues and predict when maintenance will be required, allowing for more efficient and effective playground upkeep.
+Playgrounds are an essential part of any community, providing children with an outlet for physical activity, socialization, and play. As such, it is crucial to ensure that these playgrounds are safe and in good condition. This project aims to develop a predictive maintenance system for playground equipment inspection and maintenance. By leveraging data collected from playground surveillance footage, the system will be able to identify potential maintenance issues and predict when maintenance will be required, allowing for more efficient and effective playground upkeep.
 
 
 ## 📝 Background:
@@ -28,11 +28,11 @@ Playgrounds are often the focal point of outdoor play for children in communitie
 
 Moreover, environmental factors such as exposure to the sun, wind, rain, and snow can cause significant wear and tear on playground equipment. Other factors such as heavy usage, vandalism, and equipment age can also contribute to the degradation of equipment. Furthermore, these factors may vary from one location to another, making it challenging to predict when and where maintenance will be required.
 
-Predictive maintenance for playground equipment inspection and maintenance involves the use of sensors and data analytics to identify potential maintenance issues before they become critical problems. This approach enables maintenance personnel to schedule proactive maintenance tasks that can prevent equipment failures and injuries. Moreover, it can help reduce maintenance costs by prioritizing maintenance activities based on need rather than a rigid schedule.
+Predictive maintenance for playground equipment inspection and maintenance involves the use of  and data analytics to identify potential maintenance issues before they become critical problems. This approach enables maintenance personnel to schedule proactive maintenance tasks that can prevent equipment failures and injuries. Moreover, it can help reduce maintenance costs by prioritizing maintenance activities based on need rather than a rigid schedule.
 
-The implementation of a predictive maintenance system for playground equipment inspection and maintenance requires the collection of data from sensors placed on playground equipment. These sensors can capture various parameters such as temperature, vibration, humidity, and usage patterns. The data collected can then be analyzed using machine learning algorithms to identify patterns and predict when maintenance will be required. The system can then alert maintenance personnel of potential maintenance needs before critical issues arise.
+The implementation of a predictive maintenance system for playground equipment inspection and maintenance requires the collection of data from surveillance footage from CCTV's placed around the playground. From the footage, physical damages should be visible and easily detected. The data collected can then be analyzed using machine learning algorithms to identify patterns and predict when maintenance will be required. The system can then alert maintenance personnel of potential maintenance needs before critical issues arise.
 
-In summary, predictive maintenance for playground equipment inspection and maintenance can provide several benefits over traditional reactive maintenance practices. It can help reduce maintenance costs, increase equipment lifespan, and improve overall safety. By using sensors and data analytics to predict maintenance needs, playground equipment can be proactively maintained, and potential hazards can be prevented.
+In summary, predictive maintenance for playground equipment inspection and maintenance can provide several benefits over traditional reactive maintenance practices. It can help reduce maintenance costs, increase equipment lifespan, and improve overall safety. By using the images captured from the footage and data analytics to predict maintenance needs, playground equipment can be proactively maintained, and potential hazards can be prevented.
 
 
 ## 🎯 Goals and Objectives:

@@ -1,10 +1,10 @@
-<h1 align='center'>Credit Card Fraud Detection Dashboard</h1>
+<h1 align='center'>Tiktok Trends Dashboard</h1>
 <p align="center">
-  <img src="https://resources.cdn.seon.io/uploads/2021/12/Credit_Card_Fraud_12.06_isolated.png" width="350" title="Fraud Detection">
+  <img src="https://www.socialchamp.io/wp-content/uploads/2022/04/Feature-Banner_April-Onwards-Q2-2022_1125x600_12.png" title="Fraud Detection">
 </p>
-<p> Credit card fraud is the act of using another person’s credit card to make purchases or request cash advances without the cardholder’s knowledge or consent. These criminals may obtain the card itself through physical theft, though increasingly fraudsters are leveraging digital means to steal the credit card number and accompanying personal information to make illicit transactions.
+<p> As TikTok continues to grow in popularity, it has become a powerful platform for brands and content creators to reach a large audience. However, with such a vast amount of content available, it can be difficult to know which types of videos will be most engaging and effective for marketing purposes.
 
-In this project, we will develop a web application to analyze transaction data and detect fraudulent behavior in real-time. The dashboard uses MongoDB to store and process large volumes of transactional data. Use machine learning algorithms to identify patterns that may indicate fraudulent activity and alert the appropriate personnel.</p>
+In this project, we will develop a system which will beneficial for marketing personnels, content creators or affiliators in engaging with their audience by providing a summary of today's Tiktok trends.</p>
 <h2 align='center'>Group Members</h2>
 <table align='center'>
   <tr>

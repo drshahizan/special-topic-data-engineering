@@ -1,4 +1,4 @@
-<h1 align='center'> TikTok Insights Dashboard: A Video Categorization and Analysis Tool </h1>
+<h1 align='center'> TikTok Insights Dashboard: Analysis Tool </h1>
 <p align="center">
   <img src="https://s17233.pcdn.co/blog/wp-content/uploads/2022/12/tiktok_analytics_hero@2x.png" title="TikTok Dashboard">
 </p>
@@ -91,20 +91,31 @@ This project will be using various research methods to achieve our main objectiv
 
 The system architecture consists of several components that work together to process and visualize data stored in a MongoDB database:
 
-![system architecture](sysarchitecture.jpg)
+![system architecture](sysarchitecture1.jpg)
 
 
-1. MongoDB Database: This component serves as the primary data storage for the system. The database will contain the original dataset uploaded from Kaggle.
+1. Data scraping:
+Use Tiktok Analytics API to scrape raw data such as username, number of likes and comments from Tiktok.
 
-2. TensorFlow: TensorFlow will be used to build and train a machine learning model on the dataset.
+2. Data storage:
+Use MongoDB to store the scraped data in a collection.
 
-3. Python Script: This component will be used to connect to the MongoDB database, prepping data using Pandas and Numpy, build model using TensorFlow, and enter the labeled data back into the database.
+3. Data preprocessing and feature engineering:
+Use the MongoDB Aggregation Framework to preprocess and transform the data as needed.
+Perform feature engineering operations such as scaling, normalization, or polynomial expansion.
 
-4. MongoDB Charts: This component will be used to produce a dashboard that visualizes the data stored in the MongoDB database. The dashboard will display metrics and insights derived from the data.
+4. Visualization:
+Use Streamlit to build a Tiktok Trend Dashboard that visualizes the preprocessed and feature-engineered data.
+Use MongoDB as the data source for the dashboard.
 
-5. Web Application: This component will be used to embed the MongoDB Charts dashboard and make it available to end-users. The website will provide a user-friendly interface for interacting with the dashboard and exploring the data stored in the MongoDB database.
 
-Overall, this system architecture leverages the power of machine learning and MongoDB to process and visualize data. By using TensorFlow to build machine learning model, the system can generate new insights and metrics that can be used to improve business processes and decision-making. The MongoDB Charts dashboard provides a convenient and user-friendly way to explore this data, making it accessible to a wide range of management levels.
+Overall system architecture:
+
+- Tiktok Analytics API for data scraping
+- MongoDB for data storage and preprocessing
+- Streamlit for data visualization
+- A web server such as Flask or Django to serve the Streamlit dashboard
+<!-- - A scheduler such as Cron or Airflow to automate the scraping and preprocessing tasks on a regular basis. -->
 
 
 ## 📌 Risks and Limitations:

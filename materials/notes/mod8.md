@@ -168,6 +168,22 @@ Some of the most common applications of deep learning include:
 
 With its ability to learn from large amounts of data, deep learning has the potential to revolutionize many industries and fields.
 
+## Types of deep neural networks
+
+- Convolutional Neural Networks (CNNs): CNNs are often used for image recognition and computer vision tasks. They work by applying filters to an image to extract features, and then classifying those features.
+
+- Recurrent Neural Networks (RNNs): RNNs are used for natural language processing and speech recognition. They have a memory that allows them to process sequential data, such as a sentence or a spoken word.
+
+- Generative Adversarial Networks (GANs): GANs are used for image and video generation. They work by pitting two neural networks against each other: a generator network that creates fake images or videos, and a discriminator network that tries to tell the difference between real and fake images.
+
+- Deep Belief Networks (DBNs): DBNs are used for unsupervised learning, such as in recommendation systems. They are composed of multiple layers of neurons that learn to represent the data in increasingly abstract ways.
+
+- Autoencoders: Autoencoders are used for dimensionality reduction and feature extraction. They work by learning a compressed representation of an input, and then using that representation to generate the output.
+
+- Long Short-Term Memory (LSTM) Networks: LSTMs are a type of RNN that are designed to overcome the vanishing gradient problem, which can occur when training networks with long-term dependencies.
+
+These are just a few examples of the many types of deep neural networks that exist. Each type has its own strengths and weaknesses, and is suited to different types of tasks.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

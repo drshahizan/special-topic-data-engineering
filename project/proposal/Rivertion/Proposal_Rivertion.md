@@ -51,13 +51,15 @@ In summary, this project aims to develop a predictive maintenance system that le
 
 ## 🔍 Scope: 
 
-<ul>
-  <li>The scope of this project is to develop an AI system for the analysis of chest X-ray images of pediatric patients.</li>
-  <li>The dataset comprises 5,863 high-quality X-Ray images (JPEG) of anterior-posterior view, with 2 categories - Pneumonia and Normal, which are organized into 3 folders (train, test, val) and contain subfolders for each image category (Pneumonia/Normal). The dataset was sourced from Kaggle, with the URL: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia.</li>
-  <li>The main tool to be employed in this project is 3D Slicer. In addition, various tools and technologies such as machine learning algorithms, deep learning frameworks, image processing libraries, and cloud-based computing resources will be used to develop the AI system.</li>
-  <li>The chest X-ray images were selected from retrospective cohorts of pediatric patients of one to five years old from Guangzhou Women and Children’s Medical Center, Guangzhou. The images were initially screened for quality control, and all low-quality or unreadable scans were removed from the dataset. The diagnoses for the images were then graded by two expert physicians, with the evaluation set checked by a third expert to account for any grading errors.</li>
-  <li>The successful completion of the project will enable accurate and efficient diagnosis of chest X-ray images in pediatric patients, contributing to improved clinical outcomes and patient care.</li>
-</ul>
+The scope of this project is to develop a predictive maintenance system for playground equipment inspection and maintenance. The system will use sensors to collect data on various parameters such as temperature, humidity, and vibration, and machine learning algorithms to analyze this data to predict when maintenance will be required. The system will also provide alerts to maintenance personnel when maintenance is needed.
+
+The project's primary focus is on developing the technology required for predictive maintenance of playground equipment. The system's sensors will be installed on the playground equipment to collect data, which will be analyzed using machine learning algorithms to identify patterns and predict maintenance needs. A dashboard will be developed to display the status of the equipment and alert maintenance personnel when maintenance is required.
+
+The project will also involve testing and validating the predictive maintenance system in real-world playground settings. The testing will involve installing the sensors on playground equipment and collecting data to train and validate the machine learning algorithms. The validation will include comparing the predicted maintenance needs to actual maintenance requirements and assessing the system's effectiveness in reducing maintenance costs, increasing equipment lifespan, and improving overall safety.
+
+The project's scope does not include any physical modifications or repairs to the playground equipment itself. The predictive maintenance system will only provide alerts for maintenance needs, and it will be up to the maintenance personnel to address these needs.
+
+Overall, the project's scope is to develop a predictive maintenance system for playground equipment inspection and maintenance that can help reduce maintenance costs, increase equipment lifespan, and improve overall safety.
 
 
 ## 📄 Methodology:

@@ -24,7 +24,13 @@ The importance of credit card fraud detection cannot be overstated as it has a s
 
 ## 🌱 Background:
 
-The proposed solution to this problem is to develop a machine learning model that can accurately categorize TikTok videos into relevant categories, such as dance, comedy, music, cooking, sports, and so on. By using a combination of visual, audio, and text features, the model can capture the unique characteristics of each video and make more accurate predictions about its category. This can improve the overall user experience on TikTok by providing more personalized and relevant recommendations to users and helping content creators reach their target audience more effectively.
+TikTok has become one of the most popular social media platforms for sharing short-form videos. While TikTok's categorization and recommendation algorithm is generally effective at providing relevant and engaging content to users, it can face some challenges due to the vast amount of content on the platform. 
+
+The proposed solution to this problem is to develop a machine learning model that can accurately categorize TikTok videos into relevant categories, such as dance, comedy, music, cooking, sports, and many more. To do this, we will use web scraping to gather data from TikTok and extract features such as video captions, hashtags, and user comments. By using a combination of video and text features, the model can capture the unique characteristics of each video and make more accurate predictions about its category. This can improve the overall user experience on TikTok by providing more personalized and relevant recommendations to users and helping content creators reach their target audience more effectively.
+
+MongoDB can be used as a database to store the data collected through web scraping. MongoDB's flexibility and scalability make it ideal for storing and handling unstructured data, such as the features extracted from TikTok videos. By using MongoDB, we can easily store, query, and manipulate the data as needed to prepare it for machine learning. Lastly, the dashboard may content a video distribution by category, trending categories, top categories by engagement and many more.
+
+This can lead to a more enjoyable and engaging experience on the platform, as users are more likely to discover videos that match their interests and preferences. Furthermore, for TikTok as a platform, it can lead to increased user engagement, retention, and revenue, as users spend more time on the app and engage with more content.
 
 
 ## 🏅 Goals and Objectives:

@@ -334,7 +334,7 @@ Even though analyzing medical images for disease diagnosis gives a lot of advant
 
   ```mermaid
 gantt
-    title Predictive Maintenance for Playground Equipment Inspection and Maintenance
+    title Predictive Maintenance for Playground Equipment Gantt Chart
     dateFormat  YYYY-MM-DD
     section Planning and Requirements Gatherings
     Requirements Gatherings  :2023-03-19 , 14d

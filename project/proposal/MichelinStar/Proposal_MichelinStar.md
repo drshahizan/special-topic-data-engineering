@@ -76,7 +76,7 @@ This project will develop an healthcare analytics platform that will leverage pr
 ## 🔧 System Architecture
 <b>Flowchart of system architecture:</b><br>
 <p align='center'>
-<img src='https://github.com/drshahizan/special-topic-data-engineering/blob/1193912872bc8b08e5677d5fbbb02911b121913a/project/proposal/MichelinStar/flowchart_ver3.jpg'>
+<img src='https://github.com/drshahizan/special-topic-data-engineering/blob/bdc3350dc8a21d41a13bde0b8a96b30737f10408/project/proposal/MichelinStar/flowchart_ver4.jpg'>
 </p><br>
 
 <b>Overview of system architecture:</b><br>

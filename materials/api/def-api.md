@@ -107,26 +107,102 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 ```
 
-Use the search method of the API object to search for tweets that match a particular query. The search method returns a list of Status objects, which represent individual tweets.
-python
-Copy code
+4. Use the `search` method of the API object to search for tweets that match a particular query. The `search` method returns a list of `Status` objects, which represent individual tweets.
+
+```python
 tweets = api.search(q="your_query_here")
+```
+
 Iterate over the list of tweets and extract the content that you want to save. For example, you may want to save the text of the tweets, the user who posted the tweet, the date and time of the tweet, and any relevant hashtags or mentions.
-python
-Copy code
+
+```python
 for tweet in tweets:
     text = tweet.text
     user = tweet.user.screen_name
     created_at = tweet.created_at
     hashtags = tweet.entities['hashtags']
     mentions = tweet.entities['user_mentions']
-    
+
     # Save the content in a database or a file
-Save the extracted content in a database or a file, depending on your requirements.
+```    
+
+6. Save the extracted content in a database or a file, depending on your requirements.
+
 Note that the search method of the Twitter API has some limitations, such as the maximum number of tweets that can be retrieved in a single request and the maximum number of requests that can be made in a given time period. You should also ensure that you comply with Twitter's terms of service and any applicable laws and regulations when using the API to save content from Twitter.
 
+## Save data from Twitter using the API and store it in a database
+To save data from Twitter using the API and store it in a database, you can use the following steps:
 
+1. Create a Twitter Developer account and obtain the necessary authentication credentials, which include the consumer key, consumer secret, access token, and access token secret.
 
+2. Install the necessary Python libraries, such as tweepy for accessing the Twitter API and a database connector library such as SQLAlchemy for connecting to a database.
+
+3. Authenticate your API client using the authentication credentials obtained in step 1.
+
+```python
+import tweepy
+from sqlalchemy import create_engine
+
+consumer_key = "YOUR_CONSUMER_KEY"
+consumer_secret = "YOUR_CONSUMER_SECRET"
+access_token = "YOUR_ACCESS_TOKEN"
+access_token_secret = "YOUR_ACCESS_TOKEN_SECRET"
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+
+api = tweepy.API(auth)
+```
+
+4. Connect to your database using SQLAlchemy, which provides a unified interface to various database management systems.
+
+```python
+db_uri = "DATABASE_URI_HERE"
+engine = create_engine(db_uri)
+```
+
+5. Define a table schema that matches the data you want to store. For example, if you want to store tweets, you might define a table with columns for the tweet ID, text, user, created date, and any other relevant metadata.
+
+```python
+from sqlalchemy import Column, Integer, String, DateTime
+
+class Tweet(Base):
+    __tablename__ = "tweets"
+
+    id = Column(Integer, primary_key=True)
+    text = Column(String)
+    user = Column(String)
+    created_at = Column(DateTime)
+
+```python
+
+Iterate over the tweets retrieved from the API and insert them into the database using SQLAlchemy's `session` object.
+
+```python
+from datetime import datetime
+from sqlalchemy.orm import sessionmaker
+
+Session = sessionmaker(bind=engine)
+session = Session()
+
+for tweet in tweepy.Cursor(api.search_tweets, q="your_query_here").items():
+    t = Tweet(
+        id=tweet.id,
+        text=tweet.text,
+        user=tweet.user.screen_name,
+        created_at=datetime.strptime(tweet.created_at, '%a %b %d %H:%M:%S %z %Y')
+    )
+    session.add(t)
+
+session.commit()
+```
+7. Close the database connection when you are done.
+
+```python
+session.close()
+```
+
+Note that you should be aware of Twitter's API limits and ensure that you are not exceeding them. You should also ensure that you comply with Twitter's terms of service and any applicable laws and regulations when using the API to save data from Twitter.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

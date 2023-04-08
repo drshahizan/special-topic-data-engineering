@@ -78,7 +78,7 @@ This project will be using various research methods to achieve our main objectiv
 |--|--|
 | Data Collection |  Installing TikTok API, Setup VS Code, Getting Data from TikTok|
 | Data Storage |  Export data to MongoDB database in JSON format|
-| Data Pre-processing | Data is processed in MongoDB, Data will be cleaned, filtered and transformed more into a usable format by using Python library such as Numpy and Pandas. |
+| Data Pre-processing | Data is processed in MongoDB, Data will be cleaned, filtered and transformed more into a usable format by using Python library such as Numpy and Pandas. [Example of TikTok preprocessed data](https://github.com/smaranjitghose/TikTok_Analytics/blob/master/data/preprocessed/tiktokdata.csv)|
 | Feature Engineering | Only relevant features will be selected to determine trends. |
 | Web Development | The framework for the website will be designed and built by using Streamlit. |
 | Visualization | Data will be displayed by using Streamlit into the web application. |

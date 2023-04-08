@@ -24,11 +24,11 @@ The importance of credit card fraud detection cannot be overstated as it has a s
 
 ## 🌱 Background:
 
-TikTok is a fast-growing social media platform that has become increasingly popular for marketing purposes. However, with millions of users with a lot of contents on the platform, it can be difficult to stand out and generate engagement.
+TikTok is a fast-growing social media platform that has become increasingly popular for marketing purposes. However,  with over 1 billion monthly active users (2021) on the platform, it can be difficult to stand out and generate engagement. As of now, there is no effective solution for users or businesses to analyze and understand TikTok trends and insights. This makes it difficult for businesses or individuals to understand what is popular on TikTok and create content that resonates with their target audience.
 
-The proposed solution is to develop a TikTok Insights Dashboard, which is an analysis tool that utilizes web scraping to collect data from TikTok's website or API and store it in a database like MongoDB. The dashboard will provide content creators, affiliates, and marketing teams with access to valuable insights on their performance on the platform, including metrics such as views, likes, shares, and comments. MongoDB can be used as a database to store the data collected through web scraping. 
+The proposed solution is to develop a TikTok Insights Dashboard, which is an analysis tool that utilizes web scraping to collect data from TikTok's website or API and store it in a database, MongoDB. The TikTok Insights Dashboard would contain analytics and insights on what is trending on the TikTok platform such as information on popular songs, hashtags, and challenges.
 
-By utilizing the dashboard, they can gain valuable insights that can help them understand their audience better, identify trends, and optimize their content strategies accordingly. This can lead to improved engagement rates, increased reach, and the ability to build a stronger following on TikTok.
+By utilizing the dashboard, businesses and individuals can gain valuable insights into the content that is currently trending and tailor their content to match the latest trends. This can help them increase their engagement on the platform and reach a wider audience.
 
 
 ## 🏅 Goals and Objectives:

@@ -155,27 +155,23 @@ It is important to identify and mitigate these risks when building a TikTok Insi
   </tr>
   <tr>
     <td>Project Planning and Data Acquisition</td>
-    <td>Week 1-2</td>
+    <td>Week 1-4</td>
   </tr>
   <tr>
-    <td>Data Exploration and Cleaning</td>
-    <td>Week 3-4</td>
+    <td>Web Scraping and Data Collection</td>
+    <td>Week 5-7</td>
   </tr>
   <tr>
-    <td>Feature Engineering</td>
-    <td>Week 5-6</td>
+    <td>Data Preparation and Feature Engineering</td>
+    <td>Week 8-0=9</td>
   </tr>
   <tr>
-    <td>Model Selection and Training</td>
-    <td>Week 7-9</td>
+    <td>Dashboard Creation and Refinement</td>
+    <td>Week 10-12</td>
   </tr>
   <tr>
-    <td>Model Deployment</td>
-    <td>Week 10-11</td>
-  </tr>
-  <tr>
-    <td>Model Monitoring and Maintenance</td>
-    <td>Week 11-13</td>
+    <td>Dashboard Deployment and Report Documentation</td>
+    <td>Week 13</td>
   </tr>
   <tr>
     <td>Project Wrap-up and Presentation</td>

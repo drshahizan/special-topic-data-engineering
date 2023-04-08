@@ -35,7 +35,7 @@ As Menu Rahmah has been implemented for some time now, it is essential to unders
 <br><br>
 Sentiment analysis is a computational technique used to analyze opinions, emotions, and attitudes expressed in written language. It has gained popularity in recent years as social media platforms become increasingly prevalent and a vast source of unstructured data.
 <br><br>
-By conducting sentiment analysis on tweets related to Menu Rahmah, we can gain insights into how Malaysians feel about the initiative. This information can help policymakers and participating organisations to understand the success of Menu Rahmah and identify areas for improvement.
+By conducting sentiment analysis on tweets related to Menu Rahmah, we can gain insights into how Malaysians feel about the initiative. This information can help policymakers and participating organisations to understand the success of Menu Rahmah and identify areas for improvement. Not to mention, help reassure the citizens of Malaysia that their voices are being heard and being taken into consideration.
 <br><br>
 The study will use a combination of natural language processing (NLP) and machine learning techniques to analyze a large dataset of tweets related to Menu Rahmah. The results will be presented in the form of visualizations, highlighting the overall sentiment towards Menu Rahmah and identifying key themes and topics mentioned by users.
 <br><br>
@@ -54,10 +54,11 @@ In order to enhance marketing and sales strategies, boost customer satisfaction 
 
 
 ## 🔬: Scope
-The objective of this project is to improve an organisations performance in terms of decision making and customer overall experience. With this known, the scope of this project will be :
+The objective of this project is to provide insights to policymakers, citizens of Malaysia and organisations participating in this program, on where Menu Rahmah excels and where it finds the short end of the stick. With this known, the scope of this project will be :
 
-- ``Data Source`` : In this project, dataset from will be extracted from a variety of sources.
-- ``Tools & Technologies`` : Retrieved data will be stored in MongoDB. Which then will be cleaned and prepared using **Pandas**, **Numpy** and **MongoDB Aggregation**. Clustering algorithms using **scikit-learn**, **TensorFlow** and **PyTorch** libraries will be applied on the cleaned data. Findings will be visualised using **Tableau** or **PowerBI**.
+- ``Data Source`` : Scraped tweets and information of their respective `tweeters`. Multiple tools will be used to gather data, including ``snscrape``. ``snscrape`` is a web scraping tool that utilizes the APIs of various social media platforms. It accesses the APIs of social media platforms such as Twitter, Instagram, YouTube, and Reddit to gather data from them.
+- ``Tools & Technologies`` : Retrieved data will be stored in MongoDB. Which then will be cleaned and prepared using **Pandas** and **Numpy**. Natural language processing (NLP) will be used to analyse tweets and retrieve information from them, libraries such as **NLTK (Natural Language Toolkit)** will be used for this function. To group tweets with similar sentiments clustering algorithms using **scikit-learn**, **TensorFlow** and **PyTorch** libraries will be applied on the cleaned data. Finally, Findings will be visualised using **Tableau** or **PowerBI**.
+- ``Alteryx`` : Alteryx is a data analytics and data science platform that provides a wide range of tools and functionalities for data preparation, blending, and analysis. Alteryx might be used for data preparation and analysis in a sentiment analysis study exploring the emotional response of Malaysians towards Menu Rahmah.
 - ``Resources`` : 
   - Team of 5 people.
   - Each team member posses skills from gathering appropriate data to visualising data, using tools and technologies listed.

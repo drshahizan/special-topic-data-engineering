@@ -287,7 +287,11 @@ gantt
   ```
   </div>
   
-- Data Collection (`Week 1`)
+- Data Collection (`Week 1 - Week 2`)
+
+  > Discussing which data source that suit the best for our project objectives and scope. 
+  
+- Data Collection (`Week 2`)
 
   > Discussing which data source that suit the best for our project objectives and scope. 
   
@@ -295,7 +299,7 @@ gantt
 
   > Data Cleaning and preporcessing the data to be used for more advance processing such as EDA, Data Integration, Aggregation and Visualization. This phase is given 3 weeks to complete since we need to remove noisy data and duplications in order to have a completly clean data. 
 
-- Machine Learning Algorithm (`Week 5 - Week 6`)
+- Natural Language Toolkit (`Week 4 - Week 6`)
 
   > phase where we will be training the data and allow machine learning to use the data to create prediction, classification and clustering. 
 

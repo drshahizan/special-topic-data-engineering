@@ -131,12 +131,11 @@ This project will develop an healthcare analytics platform that will leverage pr
 <tr>
 <td><b>Storing data</b></td>
 <td>
-Steps to store web scrapping data in MongoDB:<br>
-1. Install MongoDB.<br>
-2. Connect to MongoDB database. <br>
-3. Create new collection to store the web scrapping data. <br>
-4. Extract the data from the website, format the data and save it as a document. <br>
-5. Insert the saved document into the created collection.
+The steps to store csv files into MongoDB are shown as below: <br>
+1. Install <code>pymongo</code> and <code>csv</code> pacakages using <code>pip install</code>.<br>
+2. Connect to the MongoDB server using <code>pymongo</code> package, then create a new database and collection. <br>
+3. Use the <code>csv</code> package to read the csv file, converts each row into one dictionary, and insert them into the collection of the database. <br>
+4. Verify the inserted data by querying the collection. 
 </td>
 </tr>
 <tr>

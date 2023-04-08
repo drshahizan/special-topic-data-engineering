@@ -27,9 +27,9 @@ Group XXXX
 - [Types of NoSQL Database](#types-of-NoSQL-database)
 
 ### Others
-- [MongoDB](#MongoDB)
 
 ## Types of Data
+<div align="center"><img src="https://www.bigdataframework.org/wp-content/uploads/2019/01/data-structures-1-1024x349.png"></div>
 <table>
     <thead>
         <tr>
@@ -92,12 +92,6 @@ Group XXXX
             <td>names, address, ID number, stock information</td>
             <td>JSON, XML, CSV and log file, email message, digital photograph that has time stamped, geo tagged and device ID</td>
             <td>image, audio recording, video, web pages, free-form texts</td>
-        </tr>
-        <tr>
-            <td> </td>
-            <td><div align="center"><img src="https://www.automateexcel.com/excel/wp-content/uploads/2020/07/vba-insert-row.png" height="150"></div></td>
-            <td><div align="center"><img src="https://www.howtogeek.com/wp-content/uploads/2018/07/2018-07-25_15h10_29.png?trim=1,1&bg-color=000&pad=1,1" height="150"></div></td>
-            <td><div align="center"><img src="https://images.ctfassets.net/00i767ygo3tc/18ViOpst6sfsZKmWIMbFr1/8f3b20a1746d686f59e170b6d9383f77/how-to-make-a-video-go-viral.png?w=1800&q=50" height="150"></div></td>
         </tr>
         </tr>
     </tbody>

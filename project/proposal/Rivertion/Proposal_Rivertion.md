@@ -104,46 +104,18 @@ The proposed data science project for developing a Image Analysis System for Fru
 
 The system architecture for rotten fruit detection using image analysis includes several components that work together to perform the task of detecting rotten fruits in images. The proposed system architecture is as follows:
 
+<img src="https://github.com/drshahizan/special-topic-data-engineering/blob/028ad0e6b1ad457de7de210b7da3759020e2e23f/project/proposal/Rivertion/image/system_architecture.jpg" alt="SystemArchitecture"></img>
+
 
 | No. | Components | Description |
 | ------------- | ------------- | ------------- |
 | 1. | Image Acquisition | The first step in the process is to acquire the images of the fruits. This can be done using web scraping or API. These images will be processed and analyzed to detect the presence of any rotten fruit. |
 | 2. | Pre-processing | The acquired images will be pre-processed to remove any noise or artifacts that may interfere with the image analysis process. This may include resizing, cropping, and normalization. |
-| 3. | Image Analysis | The pre-processed images will be analyzed to detect the presence of any rotten fruit using image analysis techniques. This may include segmentation, feature extraction, and classification. |
+| 3. | Image Analysis | The pre-processed images will be analyzed to detect the presence of any rotten fruit using image analysis techniques. This may include feature extraction. |
 | 4. | Storage and Management | The analyzed images and their corresponding results will be stored in a MongoDB database. MongoDB is a NoSQL database that is highly scalable and flexible, making it a suitable choice for storing large volumes of image data. |
 | 5. | Machine Learning | A deep learning model, such as a convolutional neural network, will be trained on the preprocessed image dataset using TensorFlow or Keras. |
 | 6. | Data Visualization | Data analysis and visualization tools such as Python and R will be used to analyze the data stored in the MongoDB database. This will enable the identification of trends and patterns in the data that can be used to improve the accuracy of the system. |
-| 7. | Software Requirements | <li>Python and R programming languages</li><li>OpenCV, Keras, and TensorFlow frameworks for image processing and machine learning</li><li>MongoDB for database management</li>|
 
-____
-
-The proposed system architecture will employ various tools and frameworks for data visualization and analysis, including:
- | Tools/Frameworks | Description |
- | ------------- | ------------- |
-| Matplotlib | Matplotlib is a popular data visualization library for Python. It provides a wide range of functions for creating visualizations such as line charts, bar charts, scatterplots, and histograms. Matplotlib can also be used to create customized visualizations to meet specific requirements. |
-| Plotly | Plotly is a web-based data visualization framework that allows for the creation of interactive visualizations. It provides a wide range of chart types, including 3D charts, scatterplots, and heatmaps. Plotly is highly customizable and supports the creation of customized dashboards for data exploration and analysis. |
-| Seaborn | Seaborn is a data visualization library that is built on top of Matplotlib. It provides a high-level interface for creating statistical graphics such as heatmaps, regression plots, and distribution plots. Seaborn is highly customizable and supports the creation of complex visualizations with minimal coding. |
-| Tableau | Tableau is a data visualization and business intelligence tool that allows for the creation of interactive dashboards and reports. Tableau provides a wide range of chart types, including bar charts, line charts, and scatterplots. It also supports the integration of multiple data sources, allowing for the creation of comprehensive dashboards for data analysis. |
-| Scikit-learn | Scikit-learn is a popular machine learning library for Python. It provides a wide range of machine learning algorithms for tasks such as classification, regression, clustering, and dimensionality reduction. Scikit-learn also provides tools for data preprocessing, feature selection, and model evaluation. |
-| Pandas | Pandas is a Python library for data manipulation and analysis. It provides data structures for efficiently handling and manipulating large datasets, including time series data. Pandas also supports data visualization using Matplotlib. |
-| NumPy | NumPy is a Python library for scientific computing. It provides support for large, multi-dimensional arrays and matrices, along with a wide range of mathematical functions. NumPy is often used in conjunction with other data analysis libraries such as Pandas and Scikit-learn. |
-
-___
-
-Flowchart of the CAD System Architecture::
-```mermaid
-graph TD;
-    A[Data Collection]-->B[Pre-processing];
-    B[Pre-processing]-->C[Data Analysis];
-    C[Data Analysis]-->D[Feature Extraction using CNNs];
-    D[Feature Extraction using CNNs]-->E[Machine Learning using SVMs or Random Forests];
-    E[Machine Learning using SVMs or Random Forests]-->F[Model Evaluation and Optimization];
-    F[Model Evaluation and Optimization]-->G[Integration into a CAD System using Flask];
-    G[Integration into a CAD System using Flask]-->H[User Interface Development];
-    H[User Interface Development]-->I[Data Visualization using Plotly and Matplotlib];
-    I[Data Visualization using Plotly and Matplotlib]-->J[Deployment on a Dedicated Server];
-    J[Deployment on a Dedicated Server]-->K[Maintenance and Upgrades as necessary];
-```
 
 ## 🛑 Risks and Limitations:
 

@@ -90,6 +90,18 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 
 **Proposed system architecture for the Shopee Supermarket Sales Performance Dashboard:**
 
+```mermaid
+
+flowchart TD;
+    id1[Beautiful Soup Web Scraper]<--Get transactional and inventory data-->id2[Shopee Malaysia]
+    id1[Beautiful Soup Web Scraper] --Data Storage--> id3[(MongoDB)]
+    id3[(MongoDB)] --Data Processing and Analysis using Python--> id4[Visual Studio Code]
+    id4[Visual Studio Code] --Store processed data--> id3[(MongoDB)]
+    id3[(MongoDB)] --Visualisation in dashboard, reports and charts--> id5[Power BI]
+    id5[Power BI] --Deploy a platform and user interface for accessing data--> id6[Django]
+    id6[Django] --> id7[Public Interest]
+```
+
 <table align=center>
   <tr>
     <th>Components</th>
@@ -198,20 +210,6 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
   </tr>
 </table>
 <br>
-
-<b>Flowchart of the system architecture</b>
-
-```mermaid
-
-flowchart TD;
-    id1([start])-->id2[Data Gathering]
-    id2[Data Gathering] --> id3[(Data Storage)]
-    id3[(Data Storage)] --> id4[Data Processing and Analysis]
-    id4[Data Processing and Analysis] --> id5[Visualization]
-    id5[Visualization] --> id6[User Interface]
-    id6[User Interface] --> id7[Web Deployment]
-    id7[Web Deployment] --> id8([End])
-```
 
 ## 📊Risks and Limitations
 

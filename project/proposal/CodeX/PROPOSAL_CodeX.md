@@ -65,33 +65,6 @@ Below is an overview example of how the system will be programmed:
 </p> 
 
 ## 6. System Architecture
-| Components | Tools and Technologies|
-|--|--|
-|Data Ingestion | Ingest data from Kaggle, including user and item data, ratings, and interactions. The data can be stored in MongoDB|
-|Data Preprocessing | The data will be processed to ensure consistency. The tolls will be used are Pandas, NumPy, and Scikit-learn.|
-|Recommendation Algorithms | The algorithm will generate recommendations based on user preferences and item features.|
-|Model Training | The recommendation algorithm will be trained using historical data to learn the patterns and realationsjip between users and Amazon.|
-|Model Deployment| The deployed model will be able to generate real-time recommendations for users.|
-|Data Visualization and Analytics| By using Matplotlib, Seaborn and Tableau, to visualize and analyze the recommendation data.| 
-
-1) Matplotlib: Matplotlib is a Python library for creating static, animated, and interactive visualizations in Python. It provides a wide range of charts and graphs, including line charts, bar charts, scatter plots, and heat maps.
-
-2) Seaborn: Seaborn is a Python library based on Matplotlib that provides a high-level interface for creating beautiful and informative statistical graphics. It includes various visualization types, such as heat maps, categorical plots, and distribution plots.
-
-3) Plotly: Plotly is an open-source data visualization library that allows users to create interactive plots and charts. It supports a wide range of chart types, including scatter plots, line charts, bar charts, and heat maps.
-
-4) D3.js: D3.js is a JavaScript library for creating dynamic, interactive data visualizations in web browsers. It provides a wide range of chart types and customization options and is widely used for creating complex and interactive visualizations.
-
-5) Tableau: Tableau is a data visualization and business intelligence tool that allows users to create interactive dashboards and reports. It provides a drag-and-drop interface for creating visualizations and supports a wide range of data sources.
-
-6) Power BI: Power BI is a business analytics service by Microsoft that allows users to create interactive dashboards and reports. It provides a range of visualization types, including charts, maps, and tables.
-
-7) MongoDB: MongoDB will store the data in MongoDB collections, if there is a large volumes of data, MongoDB also can handle using sharding. It provides tools and features for managing data, including data modeling, backup and recovery, security, and monitoring. We can also do aggregation, map-reduce, and text search to analyst the data and extract insights from the recommendation data.
-
-Below are the flowchart for the system architecture:
-<p align="center">
-<img height='400px' src='Flowchart.png'/>
-</p>
 
 
 ## 7. Risks and Limitation

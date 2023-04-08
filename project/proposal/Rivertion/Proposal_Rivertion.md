@@ -307,11 +307,11 @@ Even though analyzing rotten fruit images gives a lot of advantages, this proces
 
 ## 🏁 Timeline and Deliverables: 
 
-<div class="mermaid">
+<div class="gantt">
 
   ```mermaid
 gantt
-    title Predictive Maintenance for Playground Equipment Gantt Chart
+    title Image Analysis for Rotten Fruit Detection Gantt Chart
     dateFormat  YYYY-MM-DD
     section Planning and Requirements Gatherings
     Requirements Gatherings  :2023-03-19 , 14d
@@ -342,6 +342,8 @@ gantt
   
   ```
   </div>
+
+
 
 <p>Deliverables and Milestones:</p>
 <ol>

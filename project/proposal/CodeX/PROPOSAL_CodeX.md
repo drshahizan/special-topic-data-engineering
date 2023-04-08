@@ -271,7 +271,8 @@ gantt
 
 
 - WEEK 1 - 4 : `Project Drafting, Data Collection and Processing`
-
+	
+  > Design the project planning which includes objectives, methodology and deliverables.
   > Collect user and item data and store it in a MongoDB database.
   > Preprocess the data to remove any inconsistencies or anomalies.
 - WEEK 5 - 6 : `Data Modeling`

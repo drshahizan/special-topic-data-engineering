@@ -259,44 +259,44 @@ Even though analyzing playground images for inspection and maintenance gives a l
 ## 📚 Resources:
 
 <ol>
-  <li>
-    <p>Staff:</p>
-    <ul>
-      <li>Project Manager</li>
-      <li>Data Scientist</li>
-      <li>Machine Learning Engineer</li>
-      <li>Radiologist (to provide domain expertise)</li>
-      <li>Annotators for the medical images</li>
-    </ul>
-  </li>
-  <li>
-    <p>Equipment:</p>
-    <ul>
-      <li>High-performance computing equipment (e.g., GPU-enabled workstations or cloud computing resources) to train machine learning models on the medical image dataset</li>
-      <li>Computers for the staff to work on</li>
-    </ul>
-  </li>
-  <li>
-    <p>Software:</p>
-    <ul>
-      <li>3D Slicer, a medical imaging software for visualization and analysis of medical images</li>
-      <li>Machine learning algorithms, such as supervised learning (e.g., convolutional neural networks, decision trees) and unsupervised learning (e.g., clustering)</li>
-      <li>Deep learning frameworks, such as TensorFlow or PyTorch</li>
-      <li>Image processing libraries, such as OpenCV</li>
-      <li>Annotation software for labeling medical images</li>
-      <li>Collaboration and project management tools, such as Jira, Trello, and GitHub</li>
-    </ul>
-  </li>
-  <li>
-    <p>Other expenses:</p>
-    <ul>
-      <li>Data acquisition and storage</li>
-      <li>Annotation costs</li>
-      <li>Cloud computing costs (if using cloud-based resources)</li>
-      <li>Travel and accommodation costs for the project team to meet and work together, if necessary.</li>
-    </ul>
-  </li>
-</ol>
+		<li>Staff:</li>
+	</ol>
+	<ul>
+		<li>Project Manager: responsible for managing the project timeline, ensuring milestones are met, and overseeing the work of the team.</li>
+		<li>Data Scientist(s): responsible for data collection, preprocessing, modeling, and evaluation.</li>
+		<li>Data Engineer(s): responsible for setting up the data infrastructure, managing data pipelines, and ensuring data quality.</li>
+		<li>UI/UX Designer: responsible for designing the user interface and ensuring a seamless user experience.</li>
+		<li>Quality Assurance Engineer: responsible for testing the system, identifying bugs, and ensuring the system is working correctly.</li>
+		<li>Subject Matter Expert(s): responsible for providing domain expertise on fruit quality control and advising on dataset collection and annotation.</li>
+	</ul>
+	<ol start="2">
+		<li>Equipment:</li>
+	</ol>
+	<ul>
+		<li>High-performance computing infrastructure: required for training and evaluating deep learning models.</li>
+		<li>High-quality cameras: required for capturing high-resolution fruit images.</li>
+		<li>Workstations/laptops: required for data preprocessing, modeling, and development.</li>
+	</ul>
+	<ol start="3">
+		<li>Software:</li>
+	</ol>
+	<ul>
+		<li>Python: required for data processing, modeling, and evaluation.</li>
+		<li>Deep learning frameworks such as TensorFlow, PyTorch, or Keras: required for developing deep learning models.</li>
+		<li>Image processing libraries such as OpenCV: required for preprocessing and analyzing images.</li>
+		<li>Version control systems such as Git: required for code management.</li>
+		<li>User interface development frameworks such as React or Angular: required for developing a user-friendly interface.</li>
+		<li>Cloud services such as Amazon Web Services or Google Cloud Platform: required for hosting the system and running computations.</li>
+	</ul>
+	<ol start="4">
+		<li>Other Expenses:</li>
+	</ol>
+	<ul>
+		<li>Data collection and annotation: expenses related to collecting and annotating the fruit image dataset.</li>
+		<li>Licensing fees: expenses related to purchasing licenses for software or datasets.</li>
+		<li>Travel expenses: expenses related to attending conferences or meetings related to the project.</li>
+		<li>Miscellaneous expenses: expenses related to hardware maintenance, data storage, or other unforeseen costs.</li>
+	</ul>
 
 
 ## 🧰 Technical Specifications:

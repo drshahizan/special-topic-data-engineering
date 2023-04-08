@@ -38,7 +38,7 @@ Early attempts at automated fruit quality inspection relied on simple image proc
 
 Several studies have investigated the use of CNNs for detecting rotten fruits. For example, one study used a deep learning approach to classify apples as healthy or rotten based on images taken from different viewpoints. Another study proposed a method for detecting rot in apples using a combination of texture and color features.
 
-Despite the progress made in automated fruit quality inspection, several challenges still need to be addressed. One major challenge is the development of a robust and diverse image dataset that can capture the variations in lighting, camera angle, and fruit type. Another challenge is the integration of image analysis systems into the fruit production chain, ensuring that the system is scalable, user-friendly, and cost-effective.
+Despite the progress made in automated fruit quality inspection, several challenges still need to be addressed. One major  challenge is the integration of image analysis systems into the fruit production chain, ensuring that the system is scalable, user-friendly, and cost-effective.
 
 In summary, automated systems for detecting rotten fruits using image analysis have the potential to improve the efficiency and accuracy of fruit quality control. Recent advancements in machine learning algorithms and computer vision have enabled more sophisticated approaches for fruit quality inspection. However, several challenges still need to be addressed, including the development of a diverse image dataset and the integration of image analysis systems into the fruit production chain.
 

@@ -70,6 +70,23 @@ Here is a step-by-step guide to using the Twitter API for social network analysi
 
 In summary, the Twitter API is a valuable tool for social network analysis. By retrieving and processing Twitter data, analyzing the network structure, and creating interactive dashboards, you can gain valuable insights from social media data. Using a combination of database storage and dashboard visualization can help you to better understand the Twitter network and identify key patterns and trends in the data.
 
+## Sentiment Analysis (SA)
+Twitter API can be used for sentiment analysis to extract insights from social media data about the sentiment of users towards a particular topic or brand. Sentiment analysis is a form of natural language processing that involves extracting the sentiment of text data, such as tweets, reviews, and feedback.
+
+Here is a step-by-step guide to using the Twitter API for sentiment analysis, including database and dashboard visualization:
+
+1. Authentication and Setup: Firstly, you need to create a Twitter developer account and authenticate your API requests using OAuth. Once you have authenticated your app, you can start making API calls to retrieve data. Then, set up a database to store the Twitter data. A popular choice is MongoDB, which is a NoSQL document database.
+
+2. Data Retrieval: Use the Twitter API to retrieve data about tweets related to a particular topic or brand. You can use the API endpoints to retrieve tweets based on hashtags or keywords.
+
+3. Data Processing and Storage: Process the retrieved data to extract the text of the tweets. You can use natural language processing techniques like tokenization, lemmatization, and stop-word removal to preprocess the text data. Store the processed data in the database.
+
+4. Sentiment Analysis: Use sentiment analysis algorithms to analyze the text data. There are several popular Python libraries for sentiment analysis such as TextBlob, NLTK, and Vader. You can use these libraries to classify the sentiment of each tweet as positive, negative, or neutral.
+
+5. Dashboard Visualization: Create a dashboard to visualize the results of the sentiment analysis. You can use dashboard tools like Tableau, PowerBI, or Plotly to create interactive dashboards. These dashboards can help you to analyze the sentiment of the Twitter users towards the topic or brand and gain valuable insights from the data.
+
+In summary, the Twitter API is a valuable tool for sentiment analysis. By retrieving and processing Twitter data, performing sentiment analysis on the text data, and creating interactive dashboards, you can gain valuable insights from social media data about the sentiment of users towards a particular topic or brand. Using a combination of database storage and dashboard visualization can help you to better understand the sentiment of Twitter users and identify key patterns and trends in the data.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

@@ -23,7 +23,7 @@ Here are some of the important data science use cases and data that can be acces
 
 5. Marketing research: Twitter data can be used to conduct market research, such as identifying consumer preferences, tracking brand sentiment, and monitoring competitor activity.
 
-# Twitter API Data
+## Twitter API Data
 Important data that can be accessed through the Twitter API includes:
 
 1. Tweets: The text content of tweets, along with metadata such as timestamp, location, and author information.

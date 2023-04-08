@@ -74,6 +74,10 @@ This project will develop an healthcare analytics platform that will leverage pr
   
 
 ## 🔧 System Architecture
+<b>Flowchart of system architecture:</b><br>
+<p align='center'>
+<img src='https://github.com/drshahizan/special-topic-data-engineering/blob/69411e745cdf4e795438ae3446b7e186e50a5ab1/project/proposal/MichelinStar/flowchart_ver2.jpg'>
+</p><br>
 
 <b>Overview of system architecture:</b><br>
 <table>
@@ -127,11 +131,7 @@ This project will develop an healthcare analytics platform that will leverage pr
 <tr>
 <td><b>Storing data</b></td>
 <td>
-The steps to store csv files into MongoDB are shown as below: <br>
-1. Install <code>pymongo</code> and <code>csv</code> pacakages using <code>pip install</code>.<br>
-2. Connect to the MongoDB server using <code>pymongo</code> package, then create a new database and collection. <br>
-3. Use the <code>csv</code> package to read the csv file, converts each row into one dictionary, and insert them into the collection of the database. <br>
-4. Verify the inserted data by querying the collection. 
+The collected data is stored at MongoDB.
 </td>
 </tr>
 <tr>
@@ -186,10 +186,6 @@ MongoDB is compatible with:
 </li>
 </ul><br>
 
-<b>Flowchart of system architecture:</b><br>
-<p align='center'>
-<img src='https://github.com/drshahizan/special-topic-data-engineering/blob/11119729e4994e69addabc0437bc56a61eb7e2a7/project/proposal/MichelinStar/flowchart_ver1.jpg'>
-</p>
 
 
   

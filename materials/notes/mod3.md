@@ -88,7 +88,7 @@ NoSQL database runs on commodity hardware and it does not require expensive lice
       <li>Store and retrieve data efficiently based on the key</li>
       <li>Used for caching accessed data such as session data, page fragments and query results</li>
       <li>Use for real-time analytics and make timely decision</li>
-      <li>Can handle high volumes of requests and privide fast accesss to session data</li>
+      <li>Can handle high volumes of requests and provide fast accesss to session data</li>
       <li>Use cases: Shopping carts, user profiles, user preference</li>
       <li>Examples: Redis, Riak, Apache Cassandra, Amazon DynamoDB, Couchbase, Aerospike</li>
     </td>
@@ -96,12 +96,21 @@ NoSQL database runs on commodity hardware and it does not require expensive lice
   <tr>
     <th>Column-oriented databases</th>
     <td>
+      <li>Data is stored as a set of columns instead of rows</li>
+      <li>Allow fast reads and write operatiions on large dataset</li>
+      <li>Each column contains data with same data types such as integer, string</li>
+      <li>Does not have fixed schema and can handle any data type</li>
+      <li>Use case: Analytics</li>
       <li>Examples: Apache Cassandra, Apache HBase, Google Bigtable, ScyllaDB, Apache Druid, Vertica</li>
     </td>
   </tr>
   <tr>
     <th>Graph databases</th>
     <td>
+      <li>Each element is stored as node, representing entities and relationship between them</li>
+      <li>Node can have properties such as name, or attributes</li>
+      <li>Use query language to perform function like traverse the graph, search for nodes and perform complex operations</li>
+      <li>Use cases: Social networking, fraud detection,recommendation engines</li>
       <li>Examples: Neo4j, OrientDB, ArangoDB, JanusGraph, Amazon Neptune, Microsoft Azure Cosmo DB</li>
     </td>
   </tr>

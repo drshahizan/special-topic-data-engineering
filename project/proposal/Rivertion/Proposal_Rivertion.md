@@ -20,7 +20,7 @@ Rotten fruits can cause significant problems for the fruit industry, leading to 
 
 This project aims to develop an image analysis system for detecting rotten fruits that utilizes state-of-the-art machine learning techniques. The system will analyze images of fruits and identify which ones are in a state of decay, enabling more efficient and accurate fruit quality control. This will have significant benefits for the fruit industry, as it will allow for improved quality control and reduced waste.
 
-To achieve this goal, the project will collect a diverse dataset of fruit images, including both healthy and rotten fruits, with a range of lighting conditions and camera angles. The dataset will be preprocessed to enhance image quality and extract features relevant to fruit quality. The team will then train and evaluate a deep learning model, such as a convolutional neural network, to accurately classify fruits as healthy or rotten.
+To achieve this goal, the project will collect a diverse dataset of fruit images, including both healthy and rotten fruits. The dataset will be preprocessed to enhance image quality and extract features relevant to fruit quality. The team will then train and evaluate a deep learning model, such as a convolutional neural network, to accurately classify fruits as healthy or rotten.
 
 The system will have a user-friendly interface, allowing for easy input of fruit images and displaying the results of the analysis. The performance of the system will be validated using a separate test dataset, and its accuracy will be compared to existing methods for fruit quality control.
 

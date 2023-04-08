@@ -269,63 +269,69 @@ Data Security Measures:
 
   ```mermaid
 gantt
-    title Product Feature Project Gantt Chart
+    title Sentiment Analysis Study: Exploring the Emotional Response of Malaysians towards Menu Rahmah
     dateFormat  YYYY-MM-DD
+
     section Planning and Requirements Gatherings
-    Requirements Gatherings  :2023-03-19 , 14d
+    Requirements Gatherings   :2023-03-19 , 14d
   
-    section Data Exploration and Cleaning
-    Data Collection            :2023-04-02  , 10d
-    Data Cleaning              :2023-04-12 , 6d
-    Data Analysis              :2023-04-18 , 5d
+    section Data Collection and Preprocessing
+    Data Collection            :2023-04-02  , 14d
+    Data Preprocessing         :2023-04-16 , 7d
+    Data Analysis              :2023-04-23 , 7d
   
-    section Feature Engineering
-    Features identification        :2023-04-23 , 7d
+    section Sentiment Analysis Development
+    Features Extraction        :2023-04-30 , 7d
+    Model Selection & Evaluation :2023-05-07 , 7d
  
-    section Model Selection and Training
-    Model Selection        :2023-04-30 , 7d
-    Model Training     :2023-05-07 , 7d
+    section Data Visualization and Insights
+    Data Visualization        :2023-05-14 , 7d
+    Insights                  :2023-05-21 , 7d
   
     section Model Deployment and Testing
-    Model Deployed               :2023-05-14 , 21d
-    Testing     :2023-06-04 , 7d
+    Model Deployed             :2023-05-28 , 7d
+    Testing                    :2023-06-04 , 7d
   
-    section Presentation
+    section Final Report and Presentation
     Final report      :2023-06-11  , 7d
     Presentation     :2023-06-18 , 7d
   
   ```
   </div>
 
-1. Planning and Requirements Gatherings *(Week 1-2)*
-> - **Deliverables** : Project charter and scope and Requirements gathering plan
-> - **Resources** : Project Manager, stakeholders
+Week 1-2: Planning and Requirements Gatherings
+- Determine the problem to be solved on Twitter regarding 'Menu Rahmah' tweets.
+- Finalized proposal outlining system architecture, methodology and other related requirements. 
+> Resources: Github, ChatGPT
 
-2. Data Exploration and Cleaning *(Week 3-5)*
-> - **Deliverables** : Data collection, cleaning, transformation and EDA
-> - **Resources** : Python, MongoDB, Data Analyst, database administrator
+Week 3-6: Data Collection and Preprocessing
+- Collect Twitter data related to the Menu Rahmah project using the Twitter API or appropriate keywords.
+- Preprocess the data by cleaning, filtering, and transforming it into a suitable format for analysis.
+- Store the preprocessed data in a MongoDB database.
+> Resources: Python/Social Media Monitoring Tools, MongoDB, Alteryx
 
-3. Feature Engineering *(Week 6)*
-> - **Deliverables** :  Identify the relevant features for product feature segmentation
-> - **Resources** : Data Analyst, Machine learning engineer
+Week 7-8:  Sentiment Analysis Development
+- Do feature extraction of the meaningful features of the text. 
+- Select, train and evaluate the model for sentiment analysis using NLP technique.
+> Resources: Python, Alteryx
 
-4. Model Selection and Training *(Week 7-8)*
-> - **Deliverables** : Model selection report, training plan, implementation and evaluation metrics
-> - **Resources** : Data Analyst, Machine learning engineer
+Week 9-10:  Data Visualization and Insights
+- Visualize the sentiment analysis results using appropriate charts, graphs, and dashboards.
+- Extract insights from the analysis, such as the most common sentiments expressed, the most frequently mentioned topics, and the overall sentiment trend over time.
+> Resources: Python, Tableau
 
-5. Model Deployment and Testing *(Week 9-12)*
-> - **Deliverables** :Deployed machine learning model, tested and validated results
-> - **Resources** : Data analyst, machine learning engineer, web developer
+Week 11-12: Model Deployment and Testing
+- After the analysis is completed, deploy and test the application to a production environment.
+> Resources: Python, Django
 
-6. Presentation *(Week 13-14)*
-> - **Deliverables** : Final project report and project presentation 
-> - **Resources** : Project manager, data analyst, machine learning engineer, web developer
+Week 13-14: Final Report and Presentation
+- Write a final report summarizing the project findings and recommendations.
+- Prepare a presentation to communicate the key insights and results to the stakeholders.
+> Resources: Tableau
 
-
+<br></br>
 Quality assurance and testing procedures:
-- Throughout the project, our team will follow standard best practices for data science and software engineering, including code review, and documentation.
-- The team will also conduct regular testing and validation of the data pipeline, machine learning model, and user interface to ensure accuracy and reliability.
-- Quality assurance will be done by comparing the results of the model with the actual data.
+For the Sentiment Analysis Study titled "Exploring the Emotional Response of Malaysians towards Menu Rahmah," we have implemented quality assurance and testing procedures to ensure the accuracy and validity of our findings. We have set specific deliverables and milestones to monitor the progress of the project, including Planning and Requirements Gatherings, Data Collection and Preprocessing, Sentiment Analysis Development, Data Visualization and Insights, Model Deployment and Testing, and Final Report and Presentation. These milestones are expected to be completed by the end of weeks 2, 6, 8, 10, 12, and 14, respectively. To ensure the quality of the project, we will conduct regular testing and validation of our sentiment analysis model and data visualization techniques, as well as ensuring that the data collection and preprocessing procedures are accurate and comprehensive. We will also perform a final review of the entire project before submitting the final report and presentation.
 
 
 ## #️⃣: Conclusion

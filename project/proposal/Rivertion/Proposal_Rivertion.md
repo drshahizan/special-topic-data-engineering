@@ -270,9 +270,8 @@ Even though analyzing rotten fruit images gives a lot of advantages, this proces
   <tr>
     <th align= "left">Machine learning algorithms</th>
     <td>The following machine learning algorithms will be used for image analysis:
-
-	    <li>Convolutional Neural Network (CNN) for feature extraction</li>
-	    <li>K-Nearest Neighbors (KNN) for classification</li>
+	<li>Convolutional Neural Network (CNN) for feature extraction</li>
+	<li>K-Nearest Neighbors (KNN) for classification</li>
 </td>
   </tr>
   <tr>

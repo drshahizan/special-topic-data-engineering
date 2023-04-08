@@ -56,19 +56,19 @@ The objective of this system is to discern fraudulent transactions by analyzing 
 
 ![scope](projectscope.jpg)
 
-- i. `Data Source` : The data which will be used in this project will be collected from Kaggle dataset, <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud">Credit Card Fraud Detection</a>.
+- `Data Source` : The data which will be used in this project will be collected from Kaggle dataset, <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud">Credit Card Fraud Detection</a>.
 
-- ii. `Database Development` : The dataset will be connected to MongoDB by using Tensorflow.
+- `Database Development` : The dataset will be connected to MongoDB by using Tensorflow.
 
-- iii. `Data Cleaning` : The dataset will be cleaned and prepared by using Python library such as Pandas and Numpy.
+- `Data Cleaning` : The dataset will be cleaned and prepared by using Python library such as Pandas and Numpy.
 
-- iv. `Data Preparation`: Data pre-processing, training and testing will be done by using Tensorflow and the data will be visualised in a form of a dashboard by using MongoDB Charts.
+- `Data Preparation`: Data pre-processing, training and testing will be done by using Tensorflow and the data will be visualised in a form of a dashboard by using MongoDB Charts.
 
-- v. `Website design` : Django will be used to build and design the framework of the website.
+- `Website design` : Django will be used to build and design the framework of the website.
 
-- vi. `Website testing` : The website will be tested multiple times to detect any issues before making them live.
+- `Website testing` : The website will be tested multiple times to detect any issues before making them live.
 
-- vii. `Project monitoring and documentation` : The project will continuously be monitored and documented to keep track of the progress of project and to optimize the website performance.
+- `Project monitoring and documentation` : The project will continuously be monitored and documented to keep track of the progress of project and to optimize the website performance.
 
 
 ## 📖 Methodology:
@@ -289,57 +289,45 @@ gantt
   
   ```
   </div>
-Week 1-2: Project Planning and Data Collection
+  
+**Weeks 1-4: Project Planning and Proposal**
 
- - Define the project scope, objectives, and deliverables 
- - Gather necessary resources such as datasets and tools Identify potential fraud types and data sources 
- - Collect, preprocess, and store data in MongoDB
+- Conduct research and finalize the project proposal
+- Determine the project timeline, milestones, and deadlines
 
-Week 3-4: Data Exploration and Cleaning
+**Weeks 5-7: Web Scraping and Data Collection**
+- Develop a web scraping tool to collect data from Tiktok's public APIs
+- Store the collected data in MongoDB for easy retrieval and analysis
 
- - Perform exploratory data analysis to understand the data and identify potential issues 
- - Clean and transform the data to ensure it is ready for modeling 
- - Create visualizations to better understand the data
+**Weeks 8-9: Data Preparation and Feature Engineering**
+- Clean and preprocess the collected data for machine learning
+-  Identify and engineer relevant features for predicting future trends
 
-Week 5-6: Feature Engineering
+**Weeks 10-11: Modeling and Testing**
+- Develop machine learning models to predict future trends on TikTok
+- Test and evaluate the models' performance
 
- - Define the features to be used for modeling 
- - Develop new features or transform existing ones to better represent patterns in the data 
- - Use MongoDB Aggregation Framework to perform complex transformations
+**Week 12: Dashboard Creation and Refinement**
+- Use Streamlit to create an interactive and customizable dashboard for data visualization and prediction
+- Incorporate the collected data and machine learning predictions into the dashboard
 
-Week 7-9: Model Selection and Training
-
- - Choose appropriate models to identify patterns and anomalies in the data that indicate fraud 
- - Train and evaluate the models using cross-validation techniques Implement the models in Python and MongoDB
-
-Week 9-10: Model Evaluation and Refinement
-
- - Test the models' effectiveness and accuracy 
- - Tune hyperparameters to improve the model's performance 
- - Evaluate the models' performance against business metrics such as precision, recall, and F1-score
-
-Week 11-12: Dashboard Development
-
- - Design and develop a dashboard to display the fraud detection results
- - Use MongoDB Charts to create visualizations and dashboards
- - Incorporate interactivity, such as filtering and drill-down capabilities
-
-Week 13-14: Deployment and Documentation
-
-  * Deploy the dashboard and models into a production environment
-  * Document the project and provide instructions for future updates
-  * Conduct user testing and gather feedback for improvements
+**Week 13: Dashboard Deployment and Report Documentation**
+- Deploy the dashboard to a cloud platform or web server
+- Prepare a detailed report documenting the project's goals, methodology, results, and potential applications
+- 
+**Week 14: Final Review and Refinement**
+- Conduct a final review of the project and make any necessary refinements or improvements
 
   **Quality Assurance and Testing Procedures:**
   
-  * Test the data for accuracy, completeness, and consistency to ensure it is representative of fraud scenarios that are most relevant to the organization.
-  * Validate the model's performance on test data to ensure it is reliable and capable of detecting fraud in real-time.
-  * Test the security and privacy of the system to ensure sensitive data is protected and the system is not vulnerable to attacks.
+  * Test the data for accuracy, completeness, and consistency to ensure it is representative current trends.
+  * Validate the model's performance on test data to ensure it is reliable and capable of predicting future trends.
+  * Test how different components of the project interact with each other to ensure that they are working together as intended.
 
 ## 📍 Conclusion:
 
-This project proposal outlines a comprehensive plan for developing the fraud detection dashboard, including data collection, preprocessing, analysis, visualization, and reporting. The proposed system architecture leverages MongoDB, Python, and a web-based dashboard to deliver an effective and efficient solution.
+This project proposal outlines a comprehensive plan for developing the TikTok Insights dashboard, including data collection, preprocessing, analysis, visualization, and reporting. The proposed system architecture leverages MongoDB, Python, and a web-based dashboard to deliver an effective and efficient solution.
 
-In conclusion, our proposed fraud detection dashboard using MongoDB presents a viable solution for businesses to combat fraudulent activities that could lead to significant financial losses. The dashboard will provide **real-time insights into fraudulent patterns, trends, and anomalies,** enabling businesses to take proactive measures and mitigate risks. While there may be challenges and limitations in implementing the project, including data privacy concerns and technical challenges stated above, these can be addressed through appropriate measures and strategies.
+In conclusion, our proposed TikTok Insights dashboard using MongoDB provides businesses  and individuals with a deeper understanding of TikTok trends. The dashboard will provide **insights into what is trending on TikTok**. While there may be challenges and limitations in implementing the project, including data privacy concerns and technical challenges stated above, these can be addressed through appropriate measures and strategies.
 
 Lastly, we propose to develop a fraud detection dashboard using MongoDB that leverages data science techniques to provide actionable insights into fraudulent activities. We believe that this project is brings critical importance to businesses and organizations.

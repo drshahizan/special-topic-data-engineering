@@ -121,14 +121,13 @@ Overall system architecture:
 There are several risks and limitations that need to be considered when building fraud detection dashboard:
 
  1. Technical Risks:
-	   - Data Quality: May not have access to all the data needed to build an effective fraud detection dashboard. 	For example, some data may be restricted due to        privacy concerns. Incomplete, inconsistent or inaccurate data can lead to false positives or missed fraud cases.
+	   - Server Infrastructure: Collecting and storing a large amount of data requires significant server infrastructure, including storage space, processing power, and memory. This can be expensive and requires careful planning to ensure optimal performance.
  2. Financial Risks:
-	   -  Maintenance Costs: After the initial development dashboard, Ongoing maintenance and updates are required to ensure that the system remains effective. This can result in additional costs, such as software upgrades, data storage, and data processing.
-	   - Investment Costs: May require significant upfront investment in infrastructure, software, and personnel. There is a risk that the organization may not see a return on investment if the dashboard does not effectively detect and prevent fraud.
+	   -  Maintenance Costs: Once the project is complete, it requires ongoing maintenance and support to ensure its continued success. These costs should be factored into the project's overall budget.
  3. Legal Risks: 
-	   - Liability: Organizations may be held liable for fraudulent activities that occur within their systems, even if they are not directly responsible. This could  result in significant legal and financial costs.
+	   - Consent: There is a risk of infringing on TikTok's terms of service, which prohibit web scraping and using data collected without consent.
 
- It is important to identify and mitigate these risks when building a fraud detection dashboard to ensure that the dashboard is effective, financially viable, and legally compliant. We can implement appropriate data security and privacy measures, engaging legal experts to review the dashboard's compliance with relevant regulations, and carefully evaluating the financial costs and benefits of the project.
+It is important to identify and mitigate these risks when building a TikTok Insights dashboard to ensure that the dashboard is effective, financially viable, and legally compliant. We can implement appropriate data security and privacy measures, engaging legal experts to review the dashboard's compliance with relevant regulations, and carefully evaluating the financial costs and benefits of the project.
 
 ## ⏳ Deliverables and Milestones:
 <table border="1" align="center">

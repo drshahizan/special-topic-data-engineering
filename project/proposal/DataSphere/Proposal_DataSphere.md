@@ -80,7 +80,7 @@ The system will consist of the following components:
 | 7. | Visualization and reporting | We will use **Streamlit**, a Python library for building interactive web applications, to visualize the sentiment analysis results. We will also use **Power BI or Tableau** to create reports and dashboards that can be shared with stakeholders. |
 | 8. | Workflow and collaboration | To track progress, assign tasks, and collaborate with team members, the workflow and collaboration component will use project management tools like **Trello** or **Asana**. In addition, the team will use version control software such as Git to ensure that all changes to the codebase are tracked and easily reversible. |
 
-<img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/DataSphere/Business%20process%20flow%20example%20-%20Page%202.png" alt="SystemArchitecture"></img>
+<img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/DataSphere/DataSphere%20System%20Architecture.png" alt="SystemArchitecture"></img>
 
 **Hardware and Software Requirements**
 

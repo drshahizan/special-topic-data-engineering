@@ -265,6 +265,65 @@ session.close()
 
 Note that you should be aware of Twitter's API limits and ensure that you are not exceeding them. You should also ensure that you comply with Twitter's terms of service and any applicable laws and regulations when using the API to save data from Twitter.
 
+## Save data from Twitter using the Twitter API and store it in a MySQL database
+You can follow these general steps:
+
+1. Set up a Twitter API developer account and obtain API credentials (consumer key, consumer secret, access token, access token secret).
+
+2. Install the tweepy Python library, which provides a convenient wrapper for the Twitter API.
+
+3. Install the mysql-connector-python Python library, which allows you to interact with a MySQL database.
+
+4. Connect to the Twitter API using your credentials and use the tweepy library to search for and retrieve tweets. You can filter tweets based on various criteria, such as keywords, hashtags, users, geolocation, and date ranges.
+
+5. For each tweet that you retrieve, extract the relevant information that you want to save to your MySQL database, such as the text, author, timestamp, location, and any other relevant metadata.
+
+6. Create a connection to your MySQL database using the mysql-connector-python library and execute SQL queries to insert the tweet data into your database.
+
+Here's some example Python code that demonstrates these steps:
+
+```python
+import tweepy
+import mysql.connector
+
+# Twitter API credentials
+consumer_key = 'your_consumer_key'
+consumer_secret = 'your_consumer_secret'
+access_token = 'your_access_token'
+access_token_secret = 'your_access_token_secret'
+
+# MySQL database credentials
+db_host = 'localhost'
+db_user = 'your_mysql_username'
+db_password = 'your_mysql_password'
+db_database = 'your_mysql_database_name'
+
+# connect to Twitter API
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+api = tweepy.API(auth)
+
+# search for tweets containing a keyword and save them to MySQL database
+tweets = api.search(q='data science', count=100)
+db = mysql.connector.connect(host=db_host, user=db_user, password=db_password, database=db_database)
+cursor = db.cursor()
+
+for tweet in tweets:
+    tweet_text = tweet.text
+    tweet_author = tweet.author.name
+    tweet_timestamp = tweet.created_at
+    tweet_location = tweet.user.location
+
+    sql = "INSERT INTO tweets (text, author, timestamp, location) VALUES (%s, %s, %s, %s)"
+    val = (tweet_text, tweet_author, tweet_timestamp, tweet_location)
+    cursor.execute(sql, val)
+
+db.commit()
+db.close()
+```
+
+In this example, we search for 100 tweets containing the keyword "data science", extract the text, author, timestamp, and location information from each tweet, and insert it into a MySQL database table called "tweets". Note that you will need to replace the database credentials and table name with your own values.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

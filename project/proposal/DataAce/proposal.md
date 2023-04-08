@@ -18,9 +18,9 @@
 * [Conclusion](#-conclusion)
 
 ## 🧭 Executive Summary
-The TikTok Trends Dashboard project aims to provide valuable insights into the latest trends on the popular social media platform TikTok. The project's primary goal is to create a dashboard that will display the ranking of TikTok's trending videos based on the number of likes, comments, shares, and plays.
+The objective of this project is to develop a dashboard via web application for credit card fraud detection. The system will use MongoDB as the database to store and machine learning algorithms will be employed to classify fraudulent and non-fraudulent. Dashboard will be tailored to provide relevant insights based on the management level of the company.
 
-The dashboard will be a powerful tool for marketing teams, content creators, and affiliates who are looking to engage with their audience on TikTok. By understanding what types of content are currently trending on the platform, they can create content that resonates with their audience and drives engagement and growth.
+The importance of credit card fraud detection cannot be overstated as it has a significant impact on the financial security and reputation of companies. The consequences of not detecting and preventing fraud can result in significant financial losses and damage to the company's reputation, which can lead to a loss of customer trust. The expected outcome of this project is an effective fraud detection system that can help companies reduce the risk of financial losses due to fraudulent activity and improve their overall financial security.
 
 ## 🌱 Background:
 
@@ -52,17 +52,17 @@ To ensure the effectiveness of this system, the data must be accurate and comple
 Without data on their audience, creators may not know who is responding to their content or what changes they can make to better target their ideal audience. This can make it tough for them to develop material that will engage and grow their audience.
 
 ## 🔍 Scope: 
-The objective of this system is to discern fraudulent transactions by analyzing a large amount of historal data which will enable users to gain insight for effective decision-making and analysis. Below contains the project scope statement which will help us achieve said objective.
+The objective of this system is to provide the overview insight of a Tiktok creators' performance including the type of trends which are trending in Tiktok by analyzing a large amount of historal data from the Tiktok application which will enable users to gain insight for effective decision-making and analysis. Below contains the project scope statement which will help us achieve said objective.
 
 ![scope](projectscope.jpg)
 
-- `Data Source` : The data which will be used in this project will be collected from Kaggle dataset, <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud">Credit Card Fraud Detection</a>.
+- `Data Source` : The data which will be used in this project will be collected from the Tiktok application by implementing web scraping or API.
 
-- `Database Development` : The dataset will be connected to MongoDB by using Tensorflow.
+- `Database Development` : The data collected will be connected to MongoDB by using Tensorflow.
 
-- `Data Cleaning` : The dataset will be cleaned and prepared by using Python library such as Pandas and Numpy.
+- `Data Cleaning` : The data collected will be cleaned and prepared by using Python library such as Pandas and Numpy.
 
-- `Data Preparation`: Data pre-processing, training and testing will be done by using Tensorflow and the data will be visualised in a form of a dashboard by using MongoDB Charts.
+- `Data Preparation`: Data pre-processing, training and testing will be done by using Tensorflow and the data will be visualised in a form of a dashboard by using Streamlit.
 
 - `Website design` : Django will be used to build and design the framework of the website.
 
@@ -72,16 +72,16 @@ The objective of this system is to discern fraudulent transactions by analyzing 
 
 
 ## 📖 Methodology:
-This project will be using various research methods to achieve our main objective which is to build a system to detect fraudulent transactions. The table below presents the specified procedures, strategies, technologies and softwares used in this project. 
+This project will be using various research methods to achieve our main objective which is to build a system to provide insights regarding the performance of a Tiktok creator and the trends in Tiktok. The table below presents the specified procedures, strategies, technologies and softwares used in this project. 
 
 | Components | Description |
 |--|--|
-| Data Collection | Data related to financial transactions or user behavior which includes information such as transaction amount, timestamp and other relevant variables data will be collected from Kaggle dataset.   |
-| Data Pre-processing | Data collected from Kaggle will be cleaned, filtered and transformed into a usable format by using Python library such as Numpy and Pandas. |
-| Data Analysis | Data will be analysed by identifying patterns of fraudulent behavior by using Tensorflow. |
-| Feature Engineering | The relevant features which will be used to detect fraudulent activities will be analysed by using Tensorflow. |
-| Fraud Detection| A classification model will be built which will able to predict fraudulent activities based on the features identified.|
-| Visualization | Data will be displayed by using MongoDB Charts in a form of a dashboard. |
+| Data Collection | Data related to trends or types of videos in Tiktok which includes information such as the video caption, hashtags and other relevant variables data will be collected from Tiktok application by implementing API or web scraping.   |
+| Data Pre-processing | Data collected from Tiktok will be cleaned, filtered and transformed into a usable format by using Python library such as Numpy and Pandas. |
+| Data Analysis | Data will be analysed by identifying patterns of the trends by using Tensorflow. |
+| Feature Engineering | The relevant features which will be used to detect trending videos will be analysed by using Tensorflow. |
+| Fraud Detection| A classification model will be built which will able to predict the type of videos which will gain attention based on the features identified.|
+| Visualization | Data will be displayed by using Streamlit in a form of a dashboard. |
 | Web Development | The framework for the website will be designed and built by using Django. |
 
 

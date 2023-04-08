@@ -135,6 +135,7 @@ flowchart TD;
       <li>Prescriptive analytics: Recommending actions to optimize sales performance, such as adjusting pricing, promotions, and product availability.</li>
       </ol></td>
     <td>
+          <li>Visual Studio Code</li>    
           <li>Python</li>
           <li>Pandas library for data manipulation and cleaning</li>
           <li>NumPy library for mathematical operations on arrays</li>

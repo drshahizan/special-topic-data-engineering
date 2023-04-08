@@ -133,6 +133,7 @@ MongoDB requirements:
   </table>
 
  <p align="center">
+  <h3>System Architecture Design</h3>
 <img src="Architecture.jpg" height="500"></img>
 </p>
  

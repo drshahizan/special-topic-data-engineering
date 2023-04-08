@@ -48,7 +48,7 @@ In summary, automated systems for detecting rotten fruits using image analysis h
 Goals:
 The primary goal of this project is to develop an accurate and reliable system for detecting rotten fruits using image analysis. The specific objectives include:
 
-1. Collecting a diverse dataset of fruit images, including both healthy and rotten fruits, with a range of lighting conditions and camera angles.
+1. Collecting a diverse dataset of fruit images, including both healthy and rotten fruits.
 2. Preprocessing the image dataset to enhance image quality and extract features relevant to fruit quality.
 3. Training and evaluating a deep learning model, such as a convolutional neural network, to accurately classify fruits as healthy or rotten.
 4. Developing a user-friendly interface for the system, allowing for easy input of fruit images and displaying the results of the analysis.

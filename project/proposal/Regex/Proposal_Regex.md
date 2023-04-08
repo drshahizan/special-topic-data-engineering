@@ -91,15 +91,28 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 **Proposed system architecture for the Shopee Supermarket Sales Performance Dashboard:**
 
 ```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#e76f51',
+      'primaryTextColor': '#d9d9d9',
+      'primaryBorderColor': '#e76f51',
+      'lineColor': '#d9d9d9',
+      'secondaryColor': '#284b63',
+      'tertiaryColor': '#d9d9d9'
+    }
+  }
+}%%
 
 flowchart TD;
     id1[Beautiful Soup Web Scraper]<--Get transactional and inventory data-->id2[Shopee Malaysia]
-    id1[Beautiful Soup Web Scraper] --Data Storage--> id3[(MongoDB)]
-    id3[(MongoDB)] --Data Processing and Analysis using Python--> id4[Visual Studio Code]
-    id4[Visual Studio Code] --Store processed data--> id3[(MongoDB)]
-    id3[(MongoDB)] --Visualisation in dashboard, reports and charts--> id5[Power BI]
-    id5[Power BI] --Deploy a platform and user interface for accessing data--> id6[Django]
-    id6[Django] --> id7[Public Interest]
+    id1[Beautiful Soup Web Scraper] --Store Data--> id3[(MongoDB)]
+    id3[(MongoDB)] --Process and analyse data using Python--> id7[Visual Studio Code]
+    id7[Visual Studio Code] --Store processed data--> id3[(MongoDB)]
+    id3[(MongoDB)] --Visualise data into dashboard, reports and charts--> id4[Power BI]
+    id4[Power BI] --Deploy a platform and user interface to access dashboard--> id5[Django]
+    id5[Django] --> id6[Public Interest]
 ```
 
 <table align=center>

@@ -1,28 +1,20 @@
 <div>
-<h1 align = 'center'><b> 🥣 A Sentiment Analysis Study:	<br>  Exploring the Emotional Response of Malaysians towards Menu Rahmah</b></h1>
+<h1 align = 'center'><b> 🥣 A Sentiment Analysis Study:</b></h1>
   </div>
 
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
-- [📖: Executive Summary](#-executive-summary)
-- [🖼️: Background](#️-background)
-- [🔎: Goals and Objectives](#-goals-and-objectives)
-- [🔬: Scope](#-scope)
-- [▶️: Methodology](#️-methodology)
-- [💻: System Architecture](#-system-architecture)
-- [❎: Risks and Limitations](#-risks-and-limitations)
-    - [Technical risks:](#technical-risks)
-    - [Financial risks:](#financial-risks)
-    - [Legal risks:](#legal-risks)
-  - [Plan for Mitigating Risks and Limitations:](#plan-for-mitigating-risks-and-limitations)
-    - [Technical risks:](#technical-risks-1)
-    - [Financial risks:](#financial-risks-1)
-    - [Legal risks:](#legal-risks-1)
-- [📝: Deliverables and Milestones](#-deliverables-and-milestones)
-- [💰: Resources](#-resources)
-- [🧑‍💻: Technical Specifications](#-technical-specifications)
-- [📆: Timeline and Deliverables](#-timeline-and-deliverables)
-- [#️⃣: Conclusion](#️⃣-conclusion)
+* [Executive Summary](#-executive-summary)
+* [Background](#️-background)
+* [Goals and Objectives](#-goals-and-objectives)
+* [Scope](#-scope)
+* [Methodology](#️-methodology)
+* [System Architecture](#-system-architecture)
+* [Risks and Limitations](#-risks-and-limitations)
+* [Deliverables and Milestones](#-deliverables-and-milestones)
+* [Resources](#-resources)
+* [Technical Specifications](#-technical-specifications)
+* [Timeline and Deliverables](#-timeline-and-deliverables)
+* [Conclusion](#️-conclusion)
 
 
 ## 📖: Executive Summary 
@@ -31,15 +23,11 @@ Consumer segmentation that prioritizes product attributes involves categorising 
 ## 🖼️: Background
 Menu Rahmah is a government initiative in Malaysia that aims to provide affordable meals to Malaysians, particularly those affected by the COVID-19 pandemic. Participating restaurants and food establishments are incentivized to offer meals priced under RM5 to help alleviate the cost of living for Malaysians. This program is part of the National Economic Recovery Plan (PENJANA) launched in 2020 in response to the economic impact of the COVID-19 pandemic.
 <br><br>
-As Menu Rahmah has been implemented for some time now, it is essential to understand how Malaysians perceive the initiative. This study aims to explore the emotional response of Malaysians towards Menu Rahmah through sentiment analysis of tweets.
-<br><br>
-Sentiment analysis is a computational technique used to analyze opinions, emotions, and attitudes expressed in written language. It has gained popularity in recent years as social media platforms become increasingly prevalent and a vast source of unstructured data.
+As Menu Rahmah has been implemented for some time now, it is essential to understand how Malaysians perceive the initiative. This study aims to explore the emotional response of Malaysians towards Menu Rahmah through sentiment analysis of tweets. Sentiment analysis is a computational technique used to analyze opinions, emotions, and attitudes expressed in written language. It has gained popularity in recent years as social media platforms become increasingly prevalent and a vast source of unstructured data.
 <br><br>
 By conducting sentiment analysis on tweets related to Menu Rahmah, we can gain insights into how Malaysians feel about the initiative. This information can help policymakers and participating organisations to understand the success of Menu Rahmah and identify areas for improvement. Not to mention, help reassure the citizens of Malaysia that their voices are being heard and being taken into consideration.
 <br><br>
-The study will use a combination of natural language processing (NLP) and machine learning techniques to analyze a large dataset of tweets related to Menu Rahmah. The results will be presented in the form of visualizations, highlighting the overall sentiment towards Menu Rahmah and identifying key themes and topics mentioned by users.
-<br><br>
-Overall, this study aims to provide valuable insights into how Malaysians perceive the Menu Rahmah initiative and the emotional response it elicits.
+The study will use a combination of natural language processing (NLP) and machine learning techniques to analyze a large dataset of tweets related to Menu Rahmah. The results will be presented in the form of visualizations, highlighting the overall sentiment towards Menu Rahmah and identifying key themes and topics mentioned by users. Overall, this study aims to provide valuable insights into how Malaysians perceive the Menu Rahmah initiative and the emotional response it elicits.
 
 ## 🔎: Goals and Objectives
 (to be edited) The goal of sentiment analysis is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed about a particular topic or entity. The objective of sentiment analysis is to classify the sentiment of the text as positive, negative, or neutral. This information can be used to understand the public opinion towards a specific product, service, brand, or event, and can be helpful in making informed decisions and improving customer satisfaction. It can also be useful in identifying potential issues or areas of improvement for businesses or organizations.
@@ -127,27 +115,6 @@ The following hardware and software will be required to support the proposed sys
     </tr>
   </table>
   
-<div class="mermaid">
-  
-```mermaid
----
-title: System Architecture Flowchart 
----
-  
-flowchart TB
-    A(Start) --> B[Data collection\nWeb Scrapping]
-    B --> C[(Data storage\n MongoDB)]
-    C --> D[Data preprocessing\n Pandas]
-    D --> E[Data analysis and modeling]
-    E --> F[Model deployment\n using Django]
-    F --> G[Model monitoring and maintenance\n]
-    G --> H[Visualization and reporting\n Tableau or PowerBI]
-    H --> I(Stop)
-  
-  ```
-  </div>
- 
----
 
 ## ❎: Risks and Limitations
 #### Technical risks:
@@ -228,7 +195,7 @@ The project will require a team of experienced data scientists and engineers wit
 3. **Software**:
 - MongoDB: This will be the primary database for storing and managing customer information.
 - Python: For data analysis and modelling, machine learning, and software development.
-- MongoDB: This is where the machine learning models will be deployed to a web server.
+- Django: This is where the machine learning models will be deployed to a web server.
 - Data visualization tools: These software will be used to create interactive dashboards and reports.
 - Project management tools: This will be used to keep track of progress, assign tasks, and collaborate with team members.
 - Version control software: This will be used to track code changes and collaborate with team members.

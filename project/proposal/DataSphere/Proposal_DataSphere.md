@@ -4,13 +4,13 @@
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [📖: Executive Summary](#executive-summary)
-- [🖼️: Background](#background)
-- [🔎: Goals and Objectives](#goals-and-objectives)
-- [🔬: Scope](#scope)
-- [▶️: Methodology](#methodology)
-- [💻: System Architecture](#system-architecture)
-- [❎: Risks and Limitations](#risks-and-limitations)
+- [📖: Executive Summary](#-executive-summary)
+- [🖼️: Background](#️-background)
+- [🔎: Goals and Objectives](#-goals-and-objectives)
+- [🔬: Scope](#-scope)
+- [▶️: Methodology](#️-methodology)
+- [💻: System Architecture](#-system-architecture)
+- [❎: Risks and Limitations](#-risks-and-limitations)
     - [Technical risks:](#technical-risks)
     - [Financial risks:](#financial-risks)
     - [Legal risks:](#legal-risks)
@@ -18,24 +18,28 @@
     - [Technical risks:](#technical-risks-1)
     - [Financial risks:](#financial-risks-1)
     - [Legal risks:](#legal-risks-1)
-- [📝: Deliverables and Milestones](#deliverables-and-milestones)
-- [💰: Resources](#resources)
-- [🧑‍: Technical Specifications](#technical-specifications)
-- [📆: Timeline and Deliverables](#timeline-and-deliverables)
-- [#️⃣: Conclusion](#conclusion)
+- [📝: Deliverables and Milestones](#-deliverables-and-milestones)
+- [💰: Resources](#-resources)
+- [🧑‍💻: Technical Specifications](#-technical-specifications)
+- [📆: Timeline and Deliverables](#-timeline-and-deliverables)
+- [#️⃣: Conclusion](#️⃣-conclusion)
 
 
 ## 📖: Executive Summary 
 Consumer segmentation that prioritizes product attributes involves categorising customers into groups according to their needs or preferences for particular product features. To find customer groups with comparable traits and preferences, it entails examining data on customer behaviour, purchase history, demographics, and product preferences. Companies can adjust their marketing initiatives and product offers to fit the unique needs of each consumer segment by understanding their needs and preferences, which will boost customer satisfaction and loyalty.
 
 ## 🖼️: Background
-Today, it is a no brainer that every market is highly competitive. All businesses that are competing in each of these markets are going beyond reach to get an edge over their competitors. One of the tools used by businesses today to reap profits is customer segmentation.
+Menu Rahmah is a government initiative in Malaysia that aims to provide affordable meals to Malaysians, particularly those affected by the COVID-19 pandemic. Participating restaurants and food establishments are incentivized to offer meals priced under RM5 to help alleviate the cost of living for Malaysians.
 <br><br>
-Customer segmentation is the process of dividing a company's customer base into specific groups or segments based on shared characteristics, behaviors, and needs. The concept of this process has evolved over time, but it can be traced back to the early days of marketing when businesses began to realize that not all customers were the same and that different groups of customers had different needs and preferences.
+As Menu Rahmah has been implemented for some time now, it is essential to understand how Malaysians perceive the initiative. This study aims to explore the emotional response of Malaysians towards Menu Rahmah through sentiment analysis of tweets.
 <br><br>
-As time passed, data science eventually became the new technology to help businesses to improve on all aspects. Now, businesses use the help of data science to tailor their marketing strategies and messages to better reach each segment of customers.
+Sentiment analysis is a computational technique used to analyze opinions, emotions, and attitudes expressed in written language. It has gained popularity in recent years as social media platforms become increasingly prevalent and a vast source of unstructured data.
 <br><br>
-The system that is proposed here, aims to segment customers into groups using clustering and potentially other methods to several groups. This would allow business decisions to be catered to one or many customer segments. Thus, allowing any individual or organisation that uses it to posses an advantage over their competitors.
+By conducting sentiment analysis on tweets related to Menu Rahmah, we can gain insights into how Malaysians feel about the initiative. This information can help policymakers and stakeholders understand the success of Menu Rahmah and identify areas for improvement.
+<br><br>
+The study will use a combination of natural language processing (NLP) and machine learning techniques to analyze a large dataset of tweets related to Menu Rahmah. The results will be presented in the form of visualizations, highlighting the overall sentiment towards Menu Rahmah and identifying key themes and topics mentioned by users.
+<br><br>
+Overall, this study aims to provide valuable insights into how Malaysians perceive the Menu Rahmah initiative and the emotional response it elicits.
 
 ## 🔎: Goals and Objectives
 (to be edited) The goal of sentiment analysis is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed about a particular topic or entity. The objective of sentiment analysis is to classify the sentiment of the text as positive, negative, or neutral. This information can be used to understand the public opinion towards a specific product, service, brand, or event, and can be helpful in making informed decisions and improving customer satisfaction. It can also be useful in identifying potential issues or areas of improvement for businesses or organizations.

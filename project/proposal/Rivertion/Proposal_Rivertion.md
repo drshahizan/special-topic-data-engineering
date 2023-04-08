@@ -62,15 +62,16 @@ By achieving these objectives, this project will provide a valuable tool for the
 <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/39749ec2da99317d7cc519446651431dc14ac85d/project/proposal/Rivertion/image/ss.png" alt="Scope" height="400"></img>
 </p>
 
-The scope of this project is to develop a predictive maintenance system for playground equipment inspection and maintenance. The system will use surveillance footage to collect images of the playground equipment and machine learning algorithms to analyze this images to predict when maintenance will be required. The system will also provide alerts to maintenance personnel when maintenance is needed.
+The scope of this project is to develop an image analysis system for detecting rotten fruits using machine learning algorithms. The system will analyze images of fruits and accurately identify which ones are in a state of decay. The project will involve the following activities:
 
-The project's primary focus is on developing the technology required for predictive maintenance of playground equipment. The system will use the surveillance footage and images captured by the CCTV's that are focused at the playground equipment to collect data, which will be analyzed using machine learning algorithms to identify patterns and predict maintenance needs. A dashboard will be developed to display the status of the equipment and alert maintenance personnel when maintenance is required.
+Collecting a diverse dataset of fruit images, including both healthy and rotten fruits, with a range of lighting conditions and camera angles.
+Preprocessing the image dataset to enhance image quality and extract features relevant to fruit quality.
+Designing and implementing a deep learning model, such as a convolutional neural network, to accurately classify fruits as healthy or rotten.
+Developing a user-friendly interface for the system, allowing for easy input of fruit images and displaying the results of the analysis.
+Validating the performance of the system using a separate test dataset and comparing its accuracy to existing methods for fruit quality control.
+The project will focus on the detection of rotten fruits in images, and will not include physical inspection of fruits or other aspects of fruit quality control. The project will use existing tools and libraries for machine learning and image analysis, rather than developing new algorithms from scratch. The project will be limited to the detection of rotten fruits in a controlled laboratory environment, and the system's performance may vary in real-world settings.
 
-The project will also involve testing and validating the predictive maintenance system in real-world playground settings. The validation will include comparing the predicted maintenance needs to actual maintenance requirements and assessing the system's effectiveness in reducing maintenance costs, increasing equipment lifespan, and improving overall safety.
-
-The project's scope does not include any physical modifications or repairs to the playground equipment itself. The predictive maintenance system will only provide alerts for maintenance needs, and it will be up to the maintenance personnel to address these needs.
-
-Overall, the project's scope is to develop a predictive maintenance system for playground equipment inspection and maintenance that can help reduce maintenance costs, increase equipment lifespan, and improve overall safety.
+The project team will consist of machine learning experts, computer vision specialists, and domain experts in the fruit industry. The project will be conducted over a period of six months and will be evaluated based on the accuracy and efficiency of the developed system. The project's deliverables will include a report detailing the methodology, results, and conclusions of the project, as well as a functional prototype of the image analysis system.
 
 
 ## 📄 Methodology:

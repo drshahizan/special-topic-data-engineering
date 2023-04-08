@@ -131,7 +131,12 @@ This project will develop an healthcare analytics platform that will leverage pr
 <tr>
 <td><b>Storing data</b></td>
 <td>
-The collected data is stored at MongoDB.
+Steps to store web scrapping data in MongoDB:<br>
+1. Install MongoDB.<br>
+2. Connect to MongoDB database. <br>
+3. Create new collection to store the web scrapping data. <br>
+4. Extract the data from the website, format the data and save it as a document. <br>
+5. Insert the saved document into the created collection.
 </td>
 </tr>
 <tr>

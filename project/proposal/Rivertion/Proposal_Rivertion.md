@@ -284,7 +284,7 @@ Even though analyzing rotten fruit images gives a lot of advantages, this proces
   </tr>
   <tr>
     <th align= "left">Frameworks</th>
-    <td>TensorFlow</td>
+    <td>TensorFlow, Keras</td>
   </tr>
   <tr>
     <th align= "left">Libraries</th>

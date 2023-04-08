@@ -25,18 +25,77 @@ Group XXXX
 - [Types of Data](#types-of-data)
 - [NoSQL Database](#NoSQL-database)
 - [Types of NoSQL Database](#types-of-NoSQL-database)
-- [MongoDB](#MongoDB)
 
 ### Others
-- [xyz](https://utm.my)
-
+- [MongoDB](#MongoDB)
 
 ## Types of Data
-| Unstructured Data | Semi-Structured Data | Structured Data |
-| ----------------- | -------------------- | ------------------ |
-| No specific and predefined format and structure | Predefined format but not stored in Relational Database | Stored in predefined format and highly specific |
-| Difficult to process with traditional data analysis tools | Can be processed with both traditional and NoSQL data analysis tools | Easy to process with traditional data analysis tools |
-| Examples: image, audio recording, video, web pages, free-form texts | Examples: JSON, XML, CSV and log file, email message, digital phorograph that has time stamped, geo tagged and device ID | Examples: names, address, ID number, stock information |
+<table>
+    <thead>
+        <tr>
+            <th> </th>
+            <th>Structured Data</th>
+            <th>Semi-Structured Data</th>
+            <th>Unstructured Data</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Characteristics</td>
+            <td>
+              <li>Predefined data models</li> 
+              <li>Easy to search </li>
+              <li>Shows what is happening</li>
+            </td>
+            <td>
+              <li>Loosely organized</li> 
+              <li>Meta-level structure that can contain unstructured data</li>
+            </td>
+            <td>
+              <li>No predefined data models</li> 
+              <li>Difficult to search </li>
+              <li>Shows the why</li>
+            </td>
+        </tr>
+       <tr>
+            <td>Process </td>
+            <td>
+              Easy to process with traditional data analysis tools
+            </td>
+            <td>
+              Can be processed with both traditional and NoSQL data analysis tools
+            </td>
+            <td>
+              Difficult to process with traditional data analysis tools
+            </td>
+        </tr>
+        <tr>
+            <td>Resides in</td>
+            <td>
+              <li>Relational databases</li> 
+              <li>Data warehouses </li>
+            </td>
+            <td>Relational databases</td>
+            <td>
+              <li>Data warehouses</li> 
+              <li>Data lakes</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Stored in </td>
+            <td>Rows and columns</td>
+            <td>Abstracts and figures</td>
+            <td>Various forms</td>
+        </tr>
+        <tr>
+            <td>Examples</td>
+            <td>names, address, ID number, stock information</td>
+            <td>JSON, XML, CSV and log file, email message, digital photograph that has time stamped, geo tagged and device ID</td>
+            <td>image, audio recording, video, web pages, free-form texts</td>
+        </tr>
+        </tr>
+    </tbody>
+</table>
 
 ## NoSQL Database
 * A database that does not use traditional relational data model

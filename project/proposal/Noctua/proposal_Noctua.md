@@ -93,16 +93,19 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 ---
 
 ## 🧮 System Architecture:
+<h4>Contain several components that work together to process and produce visual data.</h4>
+<p align="center">
+<img src="Architecture.jpg" height="500"></img>
+</p>
+
 
 Components in system architecture:
   1. `Data acquisition:` Collect data using **web scraping** techniques to extract reviews from Google's API or manually extract data by browsing Google reviews of cafes in Johor.
   2. `Data preprocessing:` Process of cleaning and transforming data such as handling missing and inconsistent data, removing outliers and data normalization. Tools and technologies that can be use are **Pandas, NumPy, and Scikit-learn** for machine learning.
   3. `Data storage:` The collected data may be structured or unstructured data and the storage should capable on handling a high volume of data. This also will allow a fast retrieval of data. Tools that will be used here is a NoSQL database which is **MongoDB**.
-  5. `Data analysis and modeling:` Process of data analysis and model building to extract insights and make predictions. This process may involve machine learning, deep learning, or some other statistical methods
-  6. `Model deployment:` Process of making a trained machine learning model available in a suitable environment for predictions on new data. Tools that will be used is **Django**. Python's Django is a full-stack web framework with support for RESTful APIs, a built-in admin interface, and database connectivity. It is frequently used to create sophisticated web apps with machine learning models.
-  7. `Model monitoring and maintenance:` The procedure of keeping track of the models' performance and updating them as necessary. This might entail keeping track of the model's precision, or retraining the model using new data. Tools that can be use is **MLflow**, which is an open-source platform for managing the machine learning lifecycle, including model training, deployment, and monitoring.
-  8. `Visualization and reporting:` Process of visualizing insights in a suitable format such as dashboards, reports, or interactive visualizations. Some common tools are **Tableau and PowerBI**.
-  9. `Workflow and collaboration:` The procedure for working with team members and managing the workflow. Project management software, issue trackers, and version control systems may be used in this.
+  4. `Data analysis and modeling:` Process of data analysis and model building to extract insights and make predictions. This process may involve machine learning, deep learning, or some other statistical methods
+  5. `Model deployment:` Process of making a trained machine learning model available in a suitable environment for predictions on new data. Tools that will be used is **Django**. Python's Django is a full-stack web framework with support for RESTful APIs, a built-in admin interface, and database connectivity. It is frequently used to create sophisticated web apps with machine learning models.
+  6. `Visualization and reporting:` Process of visualizing insights in a suitable format such as dashboards, reports, or interactive visualizations. Some common tools are **Tableau and PowerBI**.
 
 MongoDB usage steps:
   1. `Design data schema:` Identifying the relationships of data before storing it in MongoDB
@@ -132,12 +135,6 @@ MongoDB requirements:
     </tr>
   </table>
 
- <p align="center">
-  <h3>System Architecture Design</h3>
-<img src="Architecture.jpg" height="500"></img>
-</p>
- 
- 
 ---
 
 ## 🍡 Risks and Limitations:

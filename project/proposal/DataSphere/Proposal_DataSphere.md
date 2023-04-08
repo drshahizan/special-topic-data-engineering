@@ -65,9 +65,10 @@ The objective of this project is to provide insights to policymakers, citizens o
   - Adequate hardware and software to progress.
 
 ## ▶️: Methodology
-- ``Data collection`` : Gather information on customer preferences, product features with age and gender preferences, and other pertinent information using the data scraping method. 
+- ``Data collection`` : Scrape data from Twitter on responses and tweets of Menu Rahmah using twitter API.
 
-- ``Data cleaning and processing`` : The collected data will be cleaned, filtered, pre-processed to remove duplicate data.
+
+- ``Data cleaning and processing`` : The collected data will be cleaned, filtered, pre-processed to remove duplicate data using Alteryx and Python.
 
 - ``Data analysis`` : Data analysis utilizing descriptive statistics and exploratory data analysis methods comes after the data have been cleaned. This will make it easier to spot patterns and trends in the information.
 

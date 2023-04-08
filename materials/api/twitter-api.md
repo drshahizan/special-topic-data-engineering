@@ -23,6 +23,7 @@ Here are some of the important data science use cases and data that can be acces
 
 5. Marketing research: Twitter data can be used to conduct market research, such as identifying consumer preferences, tracking brand sentiment, and monitoring competitor activity.
 
+# Twitter API Data
 Important data that can be accessed through the Twitter API includes:
 
 1. Tweets: The text content of tweets, along with metadata such as timestamp, location, and author information.
@@ -33,6 +34,22 @@ Important data that can be accessed through the Twitter API includes:
 
 Overall, the Twitter API provides a powerful source of data for data science applications and can be used in conjunction with other data sources to gain deeper insights into user behavior, sentiment, and trends.
 
+## Social network analysis (SNA)
+Twitter API can be used for social network analysis (SNA) to extract valuable insights from social media data. Social network analysis is a field that involves studying the relationships and interactions between individuals or groups of people. Twitter provides a wealth of data for SNA, including user profiles, follower lists, and tweet data.
+
+Here is a step-by-step guide to using the Twitter API for social network analysis, including database and dashboard visualization:
+
+1. Authentication and Setup: Firstly, you need to create a Twitter developer account and authenticate your API requests using OAuth. Once you have authenticated your app, you can start making API calls to retrieve data. Then, set up a database to store the Twitter data. A popular choice is MongoDB, which is a NoSQL document database.
+
+2. Data Retrieval: Use the Twitter API to retrieve data about users, their followers, and their interactions. You can use the API endpoints to retrieve user data based on specific criteria or retrieve tweets based on hashtags or keywords.
+
+3. Data Processing and Storage: Store the retrieved data in the database. The data can be stored in raw or processed form. For example, you can store the raw data as JSON files or store processed data in a more structured format.
+
+4. Social Network Analysis: Use social network analysis algorithms to analyze the Twitter data. There are several popular Python libraries for SNA such as NetworkX and Gephi. You can use these libraries to create a graph of the Twitter network and analyze the network metrics such as degree centrality, betweenness centrality, and clustering coefficient.
+
+5. Dashboard Visualization: Create a dashboard to visualize the results of the SNA. You can use dashboard tools like Tableau, PowerBI, or Plotly to create interactive dashboards. These dashboards can help you to analyze the results of your SNA and gain valuable insights from the data.
+
+In summary, the Twitter API is a valuable tool for social network analysis. By retrieving and processing Twitter data, analyzing the network structure, and creating interactive dashboards, you can gain valuable insights from social media data. Using a combination of database storage and dashboard visualization can help you to better understand the Twitter network and identify key patterns and trends in the data.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

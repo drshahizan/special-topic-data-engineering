@@ -1,4 +1,4 @@
-<h1 align='center'><b>Image Analysis for Rotten Fruit Detection 👷‍♂️</b></h1> 
+<h1 align='center'><b>Image Analysis for Rotten Fruit Detection 🍇🍉🍎🍐🍓</b></h1> 
 
 ## Table of Contents
 * [📜 Executive Summary](#-executive-summary)
@@ -344,67 +344,54 @@ gantt
   </div>
 
 <p>Deliverables and Milestones:</p>
-	<ol>
-		<li>Planning and Requirements Gathering (Week 1-2):</li>
-	</ol>
+<ol>
+	<li>Planning and Requirements Gathering (Week 1-2):</li>
 	<ul>
 		<li>Define project objectives and goals</li>
 		<li>Identify data sources and collection methods</li>
 		<li>Determine hardware and software requirements</li>
 		<li>Finalize project plan and timeline</li>
 		<li>Deliverable: Project plan and timeline</li>
-	</ul>
-	<ol start="2">
+	</ul><br>
 		<li>Data Exploration and Cleaning (Week 3-5):</li>
-	</ol>
 	<ul>
 		<li>Gather and preprocess a diverse dataset of fruit images, including both healthy and rotten fruits, with a range of lighting conditions and camera angles</li>
 		<li>Analyze and visualize the dataset to identify data quality issues and outliers</li>
 		<li>Clean and normalize the dataset to prepare it for feature engineering</li>
 		<li>Deliverable: Cleaned dataset</li>
-	</ul>
-	<ol start="3">
+	</ul><br>
 		<li>Feature Engineering (Week 6):</li>
-	</ol>
 	<ul>
 		<li>Extract relevant features from the image dataset, such as color and texture</li>
 		<li>Preprocess the features to reduce dimensionality and optimize performance</li>
 		<li>Deliverable: Feature set</li>
-	</ul>
-	<ol start="4">
+	</ul><br>
 		<li>Model Selection and Training (Week 7-9):</li>
-	</ol>
 	<ul>
 		<li>Research and evaluate different deep learning models, such as convolutional neural networks, for fruit quality classification</li>
 		<li>Train the selected model on the feature set using appropriate hyperparameters and optimization techniques</li>
 		<li>Monitor and tune model performance as needed</li>
 		<li>Deliverable: Trained deep learning model</li>
-	</ul>
-	<ol start="5">
+	</ul><br>
 		<li>Model Evaluation and Refinement (Week 10):</li>
-	</ol>
 	<ul>
 		<li>Evaluate the performance of the trained model using a separate test dataset</li>
 		<li>Refine the model as needed to improve accuracy and reduce false positives/negatives</li>
 		<li>Deliverable: Optimized deep learning model</li>
-	</ul>
-	<ol start="6">
+	</ul><br>
 		<li>Dashboard Development (Week 11-12):</li>
-	</ol>
 	<ul>
 		<li>Develop a user-friendly interface for the system to allow for easy input of fruit images and displaying the results of the analysis</li>
 		<li>Incorporate visualization tools to help users interpret results</li>
 		<li>Deliverable: Fruit quality control dashboard</li>
-	</ul>
-	<ol start="7">
+	</ul><br>
 		<li>Deployment and Documentation (Week 13-14):</li>
-	</ol>
 	<ul>
 		<li>Integrate the fruit quality control dashboard into the fruit production chain</li>
 		<li>Develop documentation for the system, including user guides and technical manuals</li>
 		<li>Conduct final testing and quality assurance checks to ensure the system is scalable, user-friendly, and cost-effective</li>
 		<li>Deliverable: Deployed fruit quality control system with documentation</li>
-	</ul>
+	</ul><br>
 	<p>Quality Assurance and Testing Procedures:
 		To ensure the quality and accuracy of the system, the following procedures will be followed:
 	</p>
@@ -415,8 +402,7 @@ gantt
 		<li>User acceptance testing and feedback to ensure the dashboard is user-friendly and meets industry standards</li>
 		<li>Final testing and quality assurance checks before deployment to ensure the system is scalable, reliable, and cost-effective.</li>
 	</ul>
-
-</ul>
+</ol>
 
 
 ## 📄 Conclusion:

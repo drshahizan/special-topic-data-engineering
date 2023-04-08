@@ -95,8 +95,12 @@ Overall, while Netflix's recommendation system is generally effective, it is imp
     <th>Timeframe</th>
   </tr>
   <tr>
+    <td>Project Drafting and Planning</td>
+    <td>Week 1-2</td>
+  </tr>
+  <tr>
     <td>Data Collection and Preprocessing</td>
-    <td>Week 1-4</td>
+    <td>Week 3-4</td>
   </tr>
   <tr>
     <td>Data Modeling</td>
@@ -111,8 +115,12 @@ Overall, while Netflix's recommendation system is generally effective, it is imp
     <td>Week 11</td>
   </tr>
   <tr>
-    <td>Maintenance</td>
-    <td>Week 12-14</td>
+    <td>Maintenance and Monitoring</td>
+    <td>Week 12-13</td>
+  </tr>
+  <tr>
+    <td>Project Final Presentation</td>
+    <td>Week 14</td>
   </tr>
 </table>
 
@@ -237,7 +245,7 @@ gantt
     dateFormat  YYYY-MM-DD
     axisFormat %W
   
-    section Data Collection and Preprocessing
+    section Project Drafting, Data Collection and Preprocessing
     Data Searching   :active, 2023-04-01 , 7d
     Data Cleaning    :2023-04-08 , 7d
     EDA              :2023-04-15 , 14d
@@ -262,7 +270,7 @@ gantt
   ```
 
 
-- WEEK 1 - 4 : `Data Collection and Processing`
+- WEEK 1 - 4 : `Project Drafting, Data Collection and Processing`
 
   > Collect user and item data and store it in a MongoDB database.
   > Preprocess the data to remove any inconsistencies or anomalies.

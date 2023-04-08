@@ -318,7 +318,7 @@ gantt
 **Week 14: Final Review and Refinement**
 - Conduct a final review of the project and make any necessary refinements or improvements
 
-  **Quality Assurance and Testing Procedures:**
+**Quality Assurance and Testing Procedures:**
   
   * Test the data for accuracy, completeness, and consistency to ensure it is representative current trends.
   * Validate the model's performance on test data to ensure it is reliable and capable of predicting future trends.

@@ -117,49 +117,6 @@ Overall, while Netflix's recommendation system is generally effective, it is imp
 </table>
 
 
-<table border="1" align="center">
-  <tr>
-    <th>Deliverable</th>
-    <th>Description</th>
-    <th>Milestone</th>
-  </tr>
-  <tr>
-    <td>Data Collection</td>
-    <td>Collection of data from the target source (Netflix)</td>
-    <td>Milestone 1: Data collected from legit source</td>
-  </tr>
-  <tr>
-    <td>Data Cleaning and Preprocessing</td>
-    <td>Perform all the data cleaning and preprocessing steps to the data collected before since the data are raw</td>
-    <td>Milestone 2: Data is cleaned so it can be used for the next milestones</td>
-  </tr>
-  <tr>
-    <td>Exploratory Data Analysis (EDA)</td>
-    <td>A step used to summarize the datasets according to their characteristics as well as identify the relationship, patterns and anamolies</td>
-    <td>Milestone 3: Data is summarized according to its similarities</td>
-  </tr>
-  <tr>
-    <td>Build Model</td>
-    <td>Creation of website structure and functionality using HTML, CSS, and JavaScript</td>
-    <td>Milestone 4: Create a website with dashboard</td>
-  </tr>
-  <tr>
-    <td>Evaluate Model</td>
-    <td>Testing of website usability, functionality, and user experience</td>
-    <td>Milestone 5: User testing completed and feedback incorporated</td>
-  </tr>
-  <tr>
-    <td>Deploy Model</td>
-    <td>Website made live and available to the public</td>
-    <td>Milestone 6: Website launched and operational</td>
-  </tr>
-  <tr>
-    <td>Maintenance</td>
-    <td>Ongoing support and maintenance of website</td>
-    <td>Milestone 7: Post-launch support and maintenance for the users</td>
-  </tr>
-</table>
-
 ## 9. Resources
 1. Staff
 - Project Managers

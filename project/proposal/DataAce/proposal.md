@@ -83,6 +83,25 @@ This project will be using various research methods to achieve our main objectiv
 | Web Development | The framework for the website will be designed and built by using Streamlit. |
 | Visualization | Data will be displayed by using Streamlit into the web application. |
 
+Attributes that we may be interested in:
+- video description
+- video duration
+- video create time
+- video diggcount (likes)
+- video sharecount
+- video commentcount
+- video playcount
+- author uniqueid
+- author nickname
+- author verified
+- author following
+- author followers
+- author heartcount
+- author videocount
+- music title
+- music author name
+- music original
+- effectStickers
 
 ## 🛠️ System Architecture:
 

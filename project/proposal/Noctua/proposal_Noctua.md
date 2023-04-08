@@ -101,11 +101,12 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 
 Components in system architecture:
   1. `Data acquisition:` Collect data using **web scraping** techniques to extract reviews from Google's API or manually extract data by browsing Google reviews of cafes in Johor.
-  2. `Data preprocessing:` Process of cleaning and transforming data such as handling missing and inconsistent data, removing outliers and data normalization. Tools and technologies that can be use are **Pandas, NumPy, and Scikit-learn** for machine learning.
+  2. `Data preprocessing:` Process of cleaning and transforming text data using **Pandas and NumPy** such as handling inconsistent data, removing outliers and data normalization. We will be using **VSCode** as the editor.
   3. `Data storage:` The collected data may be structured or unstructured data and the storage should capable on handling a high volume of data. This also will allow a fast retrieval of data. Tools that will be used here is a NoSQL database which is **MongoDB**.
-  4. `Data analysis and modeling:` Process of data analysis and model building to extract insights and make predictions. This process may involve machine learning, deep learning, or some other statistical methods
-  5. `Model deployment:` Process of making a trained machine learning model available in a suitable environment for predictions on new data. Tools that will be used is **Django**. Python's Django is a full-stack web framework with support for RESTful APIs, a built-in admin interface, and database connectivity. It is frequently used to create sophisticated web apps with machine learning models.
-  6. `Visualization and reporting:` Process of visualizing insights in a suitable format such as dashboards, reports, or interactive visualizations. Some common tools are **Tableau and PowerBI**.
+  4. `Data analysis and modeling:` Process of data analysis and model building to extract insights and make predictions. This process may involve machine learning, deep learning, or some other statistical methods. Tools that will be use is **Natural Language Toolkit**.
+  5. `Exploratory data analysis (EDA):` Early analysis perform in **VSCode** before making a dashboard.
+  6. `Model deployment:` Process of making a trained machine learning model available in a suitable environment for predictions on new data. Tools that will be used is **Django**. Python's Django is a full-stack web framework with support for RESTful APIs, a built-in admin interface, and database connectivity. It is frequently used to create sophisticated web apps with machine learning models.
+  7. `Visualization and reporting:` Process of visualizing insights in a suitable format such as dashboards, reports, or interactive visualizations. Some common tools are Tableau and PowerBI.
 
 MongoDB usage steps:
   1. `Design data schema:` Identifying the relationships of data before storing it in MongoDB
@@ -213,8 +214,8 @@ MongoDB requirements:
 
 - Data Source: Google Review
 - Data Visualization Tools: Tableau / PowerBI
-- Data Transformation: Python, Pandas, Numpy, matplotlib
-- Machine Learning Algorithms: MLFlow, TensorFlow 
+- Data Transformation: Python, Pandas, Numpy
+- Machine Learning Algorithms: Natural Language Toolkit (NLTK) 
 - Programming language that will be used in this project would be Python, PyScript and json based language MongoDB Query Language (MQL). By using Selenium, we can scrap and extract all the reviews from Google and export it into .csv formatted file.
 
 There are few data security measures that will be implemented in this project including;

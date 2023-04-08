@@ -107,7 +107,7 @@ The system architecture for rotten fruit detection using image analysis includes
 
 | No. | Components | Description |
 | ------------- | ------------- | ------------- |
-| 1. | Image Acquisition | The first step in the process is to acquire the images of the fruits. This can be done using a camera or mobile device. These images will be processed and analyzed to detect the presence of any rotten fruit. |
+| 1. | Image Acquisition | The first step in the process is to acquire the images of the fruits. This can be done using web scraping or API. These images will be processed and analyzed to detect the presence of any rotten fruit. |
 | 2. | Pre-processing | The acquired images will be pre-processed to remove any noise or artifacts that may interfere with the image analysis process. This may include resizing, cropping, and normalization. |
 | 3. | Image Analysis | The pre-processed images will be analyzed to detect the presence of any rotten fruit using image analysis techniques. This may include segmentation, feature extraction, and classification. |
 | 4. | Storage and Management | The analyzed images and their corresponding results will be stored in a MongoDB database. MongoDB is a NoSQL database that is highly scalable and flexible, making it a suitable choice for storing large volumes of image data. |

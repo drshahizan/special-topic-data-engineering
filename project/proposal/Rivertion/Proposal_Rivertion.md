@@ -211,26 +211,21 @@ Even though analyzing rotten fruit images gives a lot of advantages, this proces
 
 <ol>
 		<li>Staff:</li>
-	</ol>
-	<ul>
+<ul>
 		<li>Project Manager: responsible for managing the project timeline, ensuring milestones are met, and overseeing the work of the team.</li>
 		<li>Data Scientist(s): responsible for data collection, preprocessing, modeling, and evaluation.</li>
 		<li>Data Engineer(s): responsible for setting up the data infrastructure, managing data pipelines, and ensuring data quality.</li>
 		<li>UI/UX Designer: responsible for designing the user interface and ensuring a seamless user experience.</li>
 		<li>Quality Assurance Engineer: responsible for testing the system, identifying bugs, and ensuring the system is working correctly.</li>
 		<li>Subject Matter Expert(s): responsible for providing domain expertise on fruit quality control and advising on dataset collection and annotation.</li>
-	</ul>
-	<ol start="2">
+</ul>
 		<li>Equipment:</li>
-	</ol>
-	<ul>
+<ul>
 		<li>High-performance computing infrastructure: required for training and evaluating deep learning models.</li>
 		<li>High-quality cameras: required for capturing high-resolution fruit images.</li>
 		<li>Workstations/laptops: required for data preprocessing, modeling, and development.</li>
 	</ul>
-	<ol start="3">
 		<li>Software:</li>
-	</ol>
 	<ul>
 		<li>Python: required for data processing, modeling, and evaluation.</li>
 		<li>Deep learning frameworks such as TensorFlow, PyTorch, or Keras: required for developing deep learning models.</li>
@@ -239,16 +234,14 @@ Even though analyzing rotten fruit images gives a lot of advantages, this proces
 		<li>User interface development frameworks such as React or Angular: required for developing a user-friendly interface.</li>
 		<li>Cloud services such as Amazon Web Services or Google Cloud Platform: required for hosting the system and running computations.</li>
 	</ul>
-	<ol start="4">
 		<li>Other Expenses:</li>
-	</ol>
 	<ul>
 		<li>Data collection and annotation: expenses related to collecting and annotating the fruit image dataset.</li>
 		<li>Licensing fees: expenses related to purchasing licenses for software or datasets.</li>
 		<li>Travel expenses: expenses related to attending conferences or meetings related to the project.</li>
 		<li>Miscellaneous expenses: expenses related to hardware maintenance, data storage, or other unforeseen costs.</li>
 	</ul>
-
+</ol>
 
 ## 🧰 Technical Specifications:
 

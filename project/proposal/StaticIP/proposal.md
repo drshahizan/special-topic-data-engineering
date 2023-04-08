@@ -68,12 +68,10 @@
 • `Visualization and reporting:` Finally, we will visualize the results of the analysis by Power BI so that we can understand the energy usage patterns and areas of energy savings easily. 
 
 ## 🖥️ System Architecture
- 
- Various tools and technologies will be combined to create the suggested system architecture. We will make use of the following to guarantee rapid and successful system development and deployment:
 
-• `MongoDB:` The system's data will be stored and managed using MongoDB. It is a NoSQL database that provides the scalability and freedom necessary for a system of this kind. MongoDB is a great option for our data management requirements because it also has an intuitive interface and a strong query language.
+In our proposed system architecture, it contains the following components:
 
-• `Hardware and software requirements:` 
+#### Hardware and software requirements:
 <table align=center>
    <tr>
     <td>RAM</td>
@@ -113,24 +111,42 @@
    </tr>
  </table>
 
-• `Data visualization and analysis tools and frameworks:` To visualise and examine the data from the system, we will employ a variety of structures and tools. For live data analysis and visualisation tools, we will be using visual studio code, while for data manipulation and analysis tools, we will be using Python libraries such as Pandas, Numpy, Matplotlib, Seaborn.  To visualize the data, we will use Power BI.
-
 To illustrate the system architecture, we have provided a flowchart below:
 <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-02%20at%2011.31.01%20AM.png"></div>
 
-Steps of storing and analysing data:
+• `Data source:` Raw data is collected from Malaysia Energy Information Hub (MEIH) portal: https://meih.st.gov.my/statistics .
 
-• `Data acquisition:` Collect data from Malaysia Energy Information Hub (MEIH) portal: https://meih.st.gov.my/statistics .
-
-• `Data preprocessing:` This step is to remove unwanted data and handle all the missing values, outliers and inconsistent data that could affect the result and accuracy of data analysis.
+• `Data preprocessing:` MongoDB Aggregation Framework is used to clean, filter and transform the data. 
 
 • `Data storage:` MongoDB will be used for NoSQL database. All data including the preprocssed data and the data model will be store into MongoDB database. The data will also be stored at cloud database which is AWS cloud platform that could provide data security and it is easy to use.
 
-• `Data modeling:` Libraries like Pandas and Numpy will be used to analyse the data. Algorithms such as regression and classification will be carried out in this step. This process also involves machine learning to make predictions about the data.
+• `Data modeling:` Python libraries like Pandas and Numpy will be used to analyse the data. Algorithms such as regression and classification will be carried out in this step. This process also involves machine learning to make predictions about the data.
 
-• `Visualization and reporting:` Tools like Tableau and Power BI will be used to visualize the result of the analysis into charts and graphs. Power BI will be connected to MongoDB and the data will be imported into Power BI. It then creates an interactive dashboard for users to get a better insights of the data. After that, the dashboard will be embed to the websites with explanations and descriptions of the data analysis.
+• `Visualization and reporting:` Power BI will be used to visualize the result of the analysis into charts and graphs. Power BI will be connected to MongoDB and the data will be imported into Power BI. It then creates an interactive dashboard for users to get a better insights of the data. After that, the dashboard will be embed to the websites with explanations and descriptions of the data analysis.
 
-Last but not least, the proposed system design will be built using a combination of high-performance hardware and software, MongoDB, and tools and frameworks for data visualisation and analysis. This will provide the system with a stable and secure environment while ensuring effective data management, storage, and analysis.
+#### Overview of the system architecture:
+<table align=center>
+   <tr>
+    <td>Data source</td>
+    <td>Malaysia Energy Information Hub (MEIH) portal: https://meih.st.gov.my/statistics</td>
+   <tr>
+   <tr>
+    <td>Data preprocessing</td>
+    <td>MongoDB Aggregation Framework</td>
+   </tr>
+   <tr>
+    <td>Data storage</td>
+    <td>Mongo DB</td>
+   </tr>
+   <tr>
+    <td>Data analysis and modeling</td>
+    <td>Python libraries</td>
+   </tr>
+   <tr>
+    <td>Visualization and reporting</td>
+    <td>Power BI</td>
+   </tr>
+ </table>
 
 ## 💣 Risks and Limitations
  Although creating the energy consumption analysis dashboard will provide make our life more convienient, it still has its risk and limitations:
@@ -243,9 +259,6 @@ The dashboard for energy consumption analysis requires the following resources:
     <td>Python libraries:
       <li>Pandas</li>
       <li>Numpy</li>
-      <li>Seaborn</li>
-      <li>Matplotlib</li>
-      <li>Plotly</li>
     </td>
   </tr>
   <tr>

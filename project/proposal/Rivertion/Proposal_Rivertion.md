@@ -147,24 +147,24 @@ graph TD;
 
 ## 🛑 Risks and Limitations:
 
-Even though analyzing playground images for inspection and maintenance gives a lot of advantages to children and parents, this process also poses several risks and limitations that should be considered. Below are points for technical, financial and legal risks:
+Even though analyzing rotten fruit images gives a lot of advantages, this process also poses several risks and limitations that should be considered. Below are points for technical, financial and legal risks:
 
 <ol>
 	<li> Technical Risks: </li>
 <ul>
-  <li> False positives and false negatives: Predictive maintenance relies on data and algorithms to predict equipment failures. However, the accuracy of the prediction depends on the quality and quantity of the data, as well as the effectiveness of the algorithms. False positives (predicting a failure that does not occur) and false negatives (not predicting a failure that does occur) can result in unnecessary maintenance costs or safety hazards.</li>
-  <li> Data quality and availability: Predictive maintenance requires accurate and timely data from the equipment sensors, which may not be available or reliable in some cases. For example, outdoor playground equipment may be subject to weather conditions that affect the sensors' accuracy or even cause sensor failure.</li>
-  <li> Sensor placement and maintenance: Sensors must be properly placed and maintained to provide accurate data. Failure to do so may result in false readings, leading to incorrect predictions and increased maintenance costs.</li>
+  <li> Accuracy: Image analysis algorithms rely on accurate and reliable data to make accurate predictions. However, variations in lighting, colors, and textures can affect the accuracy of the predictions. In addition, different types of fruits may have different shapes and sizes, making it challenging to create a one-size-fits-all algorithm for fruit detection.</li>
+  <li> False positives and false negatives: Image analysis algorithms can produce false positives (detecting fruit as rotten when it is not) and false negatives (failing to detect rotten fruit). This can lead to unnecessary waste of good fruit or contamination of batches of fruit, resulting in significant costs.</li>
+  <li> Hardware limitations: Image analysis requires a high-resolution camera and a powerful computer with advanced image processing capabilities, which can be expensive and require specialized expertise to set up and maintain.</li>
 </ul>
 	<li> Financial Risks: </li>
 <ul>
-  <li> Equipment and software costs: Implementing predictive maintenance requires an initial investment in equipment sensors, software, and other hardware. The cost of these components can be significant, depending on the size and complexity of the playground equipment.</li>
-  <li> Maintenance costs: Predictive maintenance can help reduce maintenance costs by predicting failures before they occur. However, there is still a cost associated with maintaining the equipment sensors, software, and other hardware components, as well as conducting the necessary repairs and replacements.</li>
+  <li> Equipment and software costs: Implementing image analysis requires an initial investment in high-quality cameras, image processing software, and other hardware. The cost of these components can be significant, depending on the size and complexity of the fruit processing operation.</li>
+  <li> Labor costs: Even with image analysis, there may still be a need for human labor to sort and handle the fruit, which can add to the overall cost of the process.</li>
 </ul>
 	<li> Legal Risks: </li>
 <ul>
-  <li> Liability: Playground equipment is subject to safety regulations and standards, and failure to comply with these regulations can result in legal liabilities. Implementing predictive maintenance can help reduce the risk of safety hazards, but it does not eliminate the need to comply with safety regulations and standards.</li>
-  <li> Data privacy: Predictive maintenance requires the collection and analysis of data from the equipment sensors, which may include personal or sensitive information. The misuse or mishandling of this data can result in legal liabilities related to data privacy and security.</li>
+  <li> Liability: The use of image analysis for fruit detection does not eliminate the need to comply with food safety regulations and standards. If contaminated or rotten fruit is not detected and removed, it can lead to legal liabilities related to food safety and product liability.</li>
+  <li> Data privacy: Image analysis involves the collection and storage of data, which may include personal or sensitive information. The misuse or mishandling of this data can result in legal liabilities related to data privacy and security.</li>
 </ul>
 </ol>
 

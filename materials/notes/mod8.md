@@ -95,15 +95,57 @@ Machine Learning (ML) is a subset of Artificial Intelligence (AI) that focuses o
 ## Types of Machine Learning
 There are three main types of Machine Learning (ML):
 
-- Supervised Learning: This type of ML involves training the algorithm on labeled data, meaning that the correct output for each input is provided. The algorithm learns to map input features to output labels by minimizing the difference between predicted and actual labels. Supervised learning can be used for tasks such as classification (predicting a discrete output) and regression (predicting a continuous output).
-
-- Unsupervised Learning: In unsupervised learning, the algorithm is trained on unlabeled data, meaning that the algorithm must identify patterns and relationships in the data without any guidance. This type of learning is often used for clustering and dimensionality reduction tasks, where the goal is to group similar data points together or to identify the most important features in the data.
-
-- Reinforcement Learning: Reinforcement learning involves training the algorithm to make decisions based on rewards and punishments. The algorithm learns through trial and error by receiving feedback in the form of rewards or punishments for its actions. This type of learning is often used in robotics and game playing applications.
+<table>
+  <tr>
+    <th>Type of Machine Learning</th>
+    <th>Description</th>
+    <th>Examples</th> 
+  </tr>
+  
+  <tr>
+    <td>Supervised Learning</td>
+    <td>ML algorithms learn from labeled data that includes input and output pairs. The algorithm learns to map inputs to outputs based on the training data.</td>
+    <td>
+      <li>Linear regression </li>
+      <li>Logistic regression</li>
+      <li>Decision tree</li>
+      <li>Random forest</li>
+      <li>Support vector machine (SVM)</li>
+      <li>K-nearest neighbors (KNN)</li>
+      <li>Neural networks</li>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>Unsupervised Learning</td>
+    <td>ML algorithms learn from unlabeled data and identify patterns and relationships within the data. The algorithm groups the input data into clusters or identifies underlying structures in the data.</td>
+    <td>
+      <li>K-means clustering </li>
+      <li>Hierarchical clustering</li>
+      <li>Principal component analysis (PCA)</li>
+      <li>Anomaly detection</li>
+      <li>Association rule learning</li>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>Reinforcement Learning</td>
+    <td>An agent learns to interact with an environment by receiving rewards or punishments for its actions. The agent learns to take actions that maximize its rewards over time.</td>
+    <td>
+      <li>Q-learning</li>
+      <li>Deep reinforcement learning</li>
+      <li>Policy gradient methods</li>
+    </td>
+  </tr>
+</table>
 
 In addition to these three main types of ML, there are also some other subcategories such as semi-supervised learning, transfer learning, and deep learning. Semi-supervised learning involves training an algorithm on a mix of labeled and unlabeled data. Transfer learning involves using knowledge gained from one task to improve performance on another task. Deep learning involves using neural networks with multiple hidden layers to learn complex representations of data.
 
 Each type of ML has its own strengths and weaknesses, and the choice of which type to use depends on the nature of the problem and the available data.
+
+<p align="center"><img height='350px' width='600px' src='https://user-images.githubusercontent.com/120556342/230711075-918d97b6-0a59-4789-9d15-f78ae96ba261.png'></p>
+
+
 
 ## Machine Learning Process
 The Machine Learning (ML) process involves a series of steps that enable machines to learn and improve their performance over time. Here are the general steps involved in the ML process:

@@ -281,7 +281,7 @@ Even though analyzing rotten fruit images gives a lot of advantages, this proces
   </tr>
   <tr>
     <th align= "left">Libraries</th>
-    <td>Matplotlib, Seaborn, Scikit learn, Numpy, Djongo</td>
+    <td>Matplotlib, Seaborn, Scikit learn, Numpy</td>
   </tr>
   <tr>
     <th align= "left">Hardware & software requirements</th>

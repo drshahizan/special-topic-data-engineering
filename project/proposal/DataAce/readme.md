@@ -5,8 +5,8 @@
 <p> As TikTok continues to grow in popularity, it has become a powerful platform for brands and content creators to reach a large audience. However, with such a vast amount of content available, it can be difficult to know which types of videos will be most engaging and effective for marketing purposes.
 
 In this project, we will develop a system which will beneficial for marketing personnels, content creators or affiliators in engaging with their audience by providing a summary of today's Tiktok trends.</p>
-<h2 align='center'>Group Members</h2>
-<table align='center'>
+<h2>Group Members</h2>
+<table>
   <tr>
     <th>Name</th>
     <th>Matric No</th>
@@ -28,3 +28,14 @@ In this project, we will develop a system which will beneficial for marketing pe
     <td>A20EC0135</td>
   </tr>
 </table>
+<h2>Content</h2>
+<p>
+
+- Example_dashboard.jpg : We inspired to build an interactive dashboard like in the picture.
+
+- project_scope.jpg : The process of project.
+
+- Proposal : Our TikTok Trends Dashboard proposal.
+
+- sysarchitecture1.jpg : The system architecture
+</p>

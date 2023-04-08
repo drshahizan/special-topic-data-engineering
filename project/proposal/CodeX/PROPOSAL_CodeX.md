@@ -245,7 +245,7 @@ gantt
     dateFormat  YYYY-MM-DD
     axisFormat %W
   
-    section Project Drafting, Data Collection and Preprocessing
+    section Data Collection and Preprocessing
     Data Searching   :active, 2023-04-01 , 7d
     Data Cleaning    :2023-04-08 , 7d
     EDA              :2023-04-15 , 14d

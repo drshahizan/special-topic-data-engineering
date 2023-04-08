@@ -52,7 +52,7 @@ To ensure the effectiveness of this system, the data must be accurate and comple
 Without data on their audience, creators may not know who is responding to their content or what changes they can make to better target their ideal audience. This can make it tough for them to develop material that will engage and grow their audience.
 
 ## 🔍 Scope: 
-<!-- The objective of this system is to discern fraudulent transactions by analyzing a large amount of historal data which will enable users to gain insight for effective decision-making and analysis. Below contains the project scope statement which will help us achieve said objective. -->
+<!-- The objective of this system is to provide current TikTok trends by analyzing a large amount of data which will enable users to gain insight for effective decision-making and analysis. Below contains the project scope statement which will help us achieve said objective. -->
 
 ![scope](projectscope.jpg)
 
@@ -163,7 +163,7 @@ It is important to identify and mitigate these risks when building a TikTok Insi
   </tr>
   <tr>
     <td>Data Preparation and Feature Engineering</td>
-    <td>Week 8-0=9</td>
+    <td>Week 8-9</td>
   </tr>
   <tr>
     <td>Dashboard Creation and Refinement</td>

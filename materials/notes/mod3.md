@@ -105,7 +105,7 @@ Group XXXX
 <div align="center"><img src="https://ares.decipherzone.com/blog-manager/uploads/ckeditor_Top%2010%20NoSQL%20Databases%20in%202022.png" height="250"
                          ></div>
 
-Advantages of NoSQL Database:
+**Advantages of NoSQL Database:**
 
 1)Flexibility
 
@@ -115,13 +115,21 @@ NoSQL database has flexible schema and this makes it easier to add or remove dat
 
 NoSQL database often use sharding and partitioning to distribute data across multiple servers and nodes
 
-3)High Performance
+3)Less on-going database maintainance
 
-NoSQL handles high volumes of reads and writes better than traditional relational databases
+easier for maintainance because of automatically partition and replicate information across nodes
 
 4)Cost-effective
 
 NoSQL database runs on commodity hardware and it does not require expensive licenses
+
+
+**Disadvantage of NoSQL**
+
+1)Less flexible query
+
+2)Less Mature compare to SQL
+
 
 ## Types of NoSQL database
 

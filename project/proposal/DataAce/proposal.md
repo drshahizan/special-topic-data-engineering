@@ -305,7 +305,6 @@ gantt
   </div>
   
 **Weeks 1-4: Project Planning and Proposal**
-
 - Conduct research and finalize the project proposal
 - Determine the project timeline, milestones, and deadlines
 
@@ -315,22 +314,21 @@ gantt
 
 **Weeks 8-9: Data Preparation and Feature Engineering**
 - Clean and preprocess the collected data for machine learning
--  Identify and engineer relevant features for predicting future trends
+- Identify and engineer relevant features for predicting future trends
 
-**Weeks 10-11: Modeling and Testing**
-- Develop machine learning models to predict future trends on TikTok
-- Test and evaluate the models' performance
-
-**Week 12: Dashboard Creation and Refinement**
+**Week 10-12: Dashboard Creation and Refinement**
 - Use Streamlit to create an interactive and customizable dashboard for data visualization and prediction
 - Incorporate the collected data and machine learning predictions into the dashboard
 
 **Week 13: Dashboard Deployment and Report Documentation**
 - Deploy the dashboard to a cloud platform or web server
 - Prepare a detailed report documenting the project's goals, methodology, results, and potential applications
-- 
-**Week 14: Final Review and Refinement**
-- Conduct a final review of the project and make any necessary refinements or improvements
+
+**Week 14: Project Presentation**
+- Prepare a presentation to showcase the TikTok Insights Dashboard project
+- Demonstrate the features and functionality of the dashboard
+
+---------
 
 **Quality Assurance and Testing Procedures:**
   

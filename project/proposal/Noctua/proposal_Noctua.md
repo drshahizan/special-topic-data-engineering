@@ -255,16 +255,19 @@ gantt
     dateFormat  YYYY-MM-DD
     axisFormat %W
   
+    section Planning & Information Gathering
+    Group Meeting : active, 2023-03-24 , 7d
+  
     section Data Collections
-    Data Searching   :active, 2023-04-01 , 5d
+    Data Searching   :2023-04-01 , 5d
   
     section Data Cleaning and Preprocessing
     Data Cleaning            :2023-04-6  , 7d
     EDA                      :2023-04-10 , 10d
     Finalizing               :crit, 2023-04-20 , 7d
   
-    section Machine Learning Algorithm
-    Preparing Model       :2023-04-27 , 7d
+    section NL Toolkit
+    Preparing data       :2023-04-27 , 7d
     Model Testing         :2023-05-04 , 7d
   
     section Data Visualization

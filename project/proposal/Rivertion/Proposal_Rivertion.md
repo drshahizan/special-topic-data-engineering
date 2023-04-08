@@ -252,16 +252,66 @@ Even though analyzing rotten fruit images gives a lot of advantages, this proces
 
 ## 🧰 Technical Specifications:
 
-The scope of this project is to develop an image analysis system for detecting rotten fruits using machine learning algorithms. The system will analyze images of fruits and accurately identify which ones are in a state of decay. The project will involve the following activities:
+<table>
+  <tr>
+    <th align= "left">Data sources</th>
+    <td>The data source for the proposed data science project will be fruit images. These images will be acquired using web scrapping method from Google API. </td>
+  </tr>
+  <tr>
+    <th align= "left">Data schema</th>
+    <td>The data schema will include the following fields:
+	    <li>Image: The original fruit image</li><li>Pre-processed Image: The image after pre-processing</li><li>Result: The analysis result (rotten or not rotten)</li></td>
+  </tr>
+  <tr>
+    <th align= "left">Data transformations</th>
+    <td>The following data transformations will be applied:
+	  <li>Pre-processing: Image resizing, cropping, and normalization</li><li>Image Analysis: Image segmentation, feature extraction, and classification</li></td>
+  </tr>
+  <tr>
+    <th align= "left">Machine learning algorithms</th>
+    <td>The following machine learning algorithms will be used for image analysis:
 
-Collecting a diverse dataset of fruit images, including both healthy and rotten fruits, with a range of lighting conditions and camera angles.
-Preprocessing the image dataset to enhance image quality and extract features relevant to fruit quality.
-Designing and implementing a deep learning model, such as a convolutional neural network, to accurately classify fruits as healthy or rotten.
-Developing a user-friendly interface for the system, allowing for easy input of fruit images and displaying the results of the analysis.
-Validating the performance of the system using a separate test dataset and comparing its accuracy to existing methods for fruit quality control.
-The project will focus on the detection of rotten fruits in images, and will not include physical inspection of fruits or other aspects of fruit quality control. The project will use existing tools and libraries for machine learning and image analysis, rather than developing new algorithms from scratch. The project will be limited to the detection of rotten fruits in a controlled laboratory environment, and the system's performance may vary in real-world settings.
-
-The project team will consist of machine learning experts, computer vision specialists, and domain experts in the fruit industry. The project will be conducted over a period of six months and will be evaluated based on the accuracy and efficiency of the developed system. The project's deliverables will include a report detailing the methodology, results, and conclusions of the project, as well as a functional prototype of the image analysis system.
+	    <li>Convolutional Neural Network (CNN) for feature extraction</li>
+	    <li>K-Nearest Neighbors (KNN) for classification</li>
+</td>
+  </tr>
+  <tr>
+    <th align= "left">Data visualization tools</th>
+    <td>MongoDB charts, Python's Matplotlib and Seaborn libraries</td>
+  </tr>
+  <tr>
+    <th align= "left">Programming language</th>
+    <td>Python, MongoDB Query Language (MQL), OpenCV, Keras, and TensorFlow frameworks for image processing and machine learning</td>
+  </tr>
+  <tr>
+    <th align= "left">Frameworks</th>
+    <td>Django, TensorFlow</td>
+  </tr>
+  <tr>
+    <th align= "left">Libraries</th>
+    <td>Matplotlib, Seaborn, Scikit learn, Numpy, Djongo</td>
+  </tr>
+  <tr>
+    <th align= "left">Hardware & software requirements</th>
+    <td>
+      <ul>
+        <li>RAM: 8GB or higher</li>
+        <li>Storage: At least 500GB of storage</li>
+        <li> Windows operating system (recomended) installed with all softwares mentioned such as MongoDB and Django</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <th align= "left">Data security measures</th>
+    <td>
+	  <ul>
+	    <li>Password protection and encryption for the MongoDB database</li>
+	    <li>Use of secure data transmission protocols such as SSL/TLS for data transfer</li>
+	    <li>Regular backups and disaster recovery planning</li>
+	  </ul>
+	</td>
+  </tr>
+</table>
 
 ## 🏁 Timeline and Deliverables: 
 

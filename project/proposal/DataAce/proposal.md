@@ -136,7 +136,7 @@ Overall system architecture:
 
 ## 📌 Risks and Limitations:
 
-There are several risks and limitations that need to be considered when building fraud detection dashboard:
+There are several risks and limitations that need to be considered when building TikTok Insights dashboard:
 
  1. Technical Risks:
 	   - Server Infrastructure: Collecting and storing a large amount of data requires significant server infrastructure, including storage space, processing power, and memory. This can be expensive and requires careful planning to ensure optimal performance.
@@ -228,14 +228,10 @@ It is important to identify and mitigate these risks when building a TikTok Insi
     <th align= "left">Data transformations</th>
     <td>Data from web scraping transformed into tables for relatonal database.</td>
   </tr>
-<!--   <tr>
-    <th align= "left">Machine learning algorithms</th>
-    <td>Classification, Logistic Regression, SMOTE</td>
-  </tr> -->
-  <tr>
+<!--  <tr>
     <th align= "left">Data visualization tools</th>
     <td>Streamlit/Tableau/PowerBI</td>
-  </tr>
+  </tr> -->
   <tr>
     <th align= "left">Programming language</th>
     <td>Python, SQL, MongoDB Query Language (MQL), CSS, PHP, Javascript</td>
@@ -348,4 +344,4 @@ This project proposal outlines a comprehensive plan for developing the TikTok In
 
 In conclusion, our proposed TikTok Insights dashboard using MongoDB provides businesses  and individuals with a deeper understanding of TikTok trends. The dashboard will provide **insights into what is trending on TikTok**. While there may be challenges and limitations in implementing the project, including data privacy concerns and technical challenges stated above, these can be addressed through appropriate measures and strategies.
 
-Lastly, we propose to develop a fraud detection dashboard using MongoDB that leverages data science techniques to provide actionable insights into fraudulent activities. We believe that this project is brings critical importance to businesses and organizations.
+Lastly, we propose to develop a TikTok Insights dashboard using MongoDB that leverages data science techniques to provide actionable insights into Tiktok trends. We believe that this project is brings critical importance to businesses and individuals.

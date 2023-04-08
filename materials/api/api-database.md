@@ -384,26 +384,6 @@ client.close()
 
 In this example, we search for 100 tweets containing the keyword "data science", extract the text, author, timestamp, and location information from each tweet, and insert it into a MongoDB collection called "your_mongodb_collection_name" in a database called "your_mongodb_database_name". Note that you will need to replace the database credentials and collection name with your own values.
 
-## Metadata in the Twitter API
-Metadata in the Twitter API refers to the additional information associated with a tweet beyond its text content. This information can include details such as the tweet's author, timestamp, location, and any media attachments (such as images, videos, or links).
-
-When you retrieve tweets using the Twitter API, the response includes a variety of metadata fields that provide additional context and information about the tweet. Some common metadata fields that you may encounter when working with the Twitter API include:
-
-- `id`: A unique identifier for the tweet.
-- `created_at`: The date and time that the tweet was created.
-- `text`: The actual text content of the tweet.
-- `user`: Information about the user who posted the tweet, including their username, display name, and bio.
-- `entities`: Information about any URLs, hashtags, or mentions included in the tweet.
-- `coordinates`: If available, the precise geolocation of the tweet.
-- `place`: Information about the location associated with the tweet, such as the name of a city or point of interest.
-- `retweeted_status`: If the tweet is a retweet, information about the original tweet and its author.
-- `favorite_count`: The number of times the tweet has been liked by other users.
-- `retweet_count`: The number of times the tweet has been retweeted by other users.
-- `lang`: The language of the tweet.
-
-This metadata can be useful when analyzing tweets for various purposes, such as sentiment analysis, geospatial analysis, or network analysis. By incorporating metadata into your analysis, you can gain a more comprehensive understanding of the context and meaning behind each tweet.
-
-
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

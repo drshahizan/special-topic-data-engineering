@@ -18,9 +18,9 @@
 * [Conclusion](#-conclusion)
 
 ## 🧭 Executive Summary
-The objective of this project is to develop a dashboard via web application for credit card fraud detection. The system will use MongoDB as the database to store and machine learning algorithms will be employed to classify fraudulent and non-fraudulent. Dashboard will be tailored to provide relevant insights based on the management level of the company.
+The TikTok Trends Dashboard project aims to provide valuable insights into the latest trends on the popular social media platform TikTok. The project's primary goal is to create a dashboard that will display the ranking of TikTok's trending videos based on the number of likes, comments, shares, and plays.
 
-The importance of credit card fraud detection cannot be overstated as it has a significant impact on the financial security and reputation of companies. The consequences of not detecting and preventing fraud can result in significant financial losses and damage to the company's reputation, which can lead to a loss of customer trust. The expected outcome of this project is an effective fraud detection system that can help companies reduce the risk of financial losses due to fraudulent activity and improve their overall financial security.
+The dashboard will be a powerful tool for marketing teams, content creators, and affiliates who are looking to engage with their audience on TikTok. By understanding what types of content are currently trending on the platform, they can create content that resonates with their audience and drives engagement and growth.
 
 ## 🌱 Background:
 
@@ -52,37 +52,36 @@ To ensure the effectiveness of this system, the data must be accurate and comple
 Without data on their audience, creators may not know who is responding to their content or what changes they can make to better target their ideal audience. This can make it tough for them to develop material that will engage and grow their audience.
 
 ## 🔍 Scope: 
-The objective of this system is to provide the overview insight of a Tiktok creators' performance including the type of trends which are trending in Tiktok by analyzing a large amount of historal data from the Tiktok application which will enable users to gain insight for effective decision-making and analysis. Below contains the project scope statement which will help us achieve said objective.
+<!-- The objective of this system is to discern fraudulent transactions by analyzing a large amount of historal data which will enable users to gain insight for effective decision-making and analysis. Below contains the project scope statement which will help us achieve said objective. -->
 
 ![scope](projectscope.jpg)
 
-- `Data Source` : The data which will be used in this project will be collected from the Tiktok application by implementing web scraping or API.
+- i. Data Source : The raw data will be scraped from TikTok through an [API](https://github.com/davidteather/TikTok-Api).
 
-- `Database Development` : The data collected will be connected to MongoDB by using Tensorflow.
+- ii. Database Development : The data will be stored into MongoDB database. 
 
-- `Data Cleaning` : The data collected will be cleaned and prepared by using Python library such as Pandas and Numpy.
+- iii. Data Cleaning : The dataset will be cleaned and prepared by using Python library such as Pandas and Numpy.
 
-- `Data Preparation`: Data pre-processing, training and testing will be done by using Tensorflow and the data will be visualised in a form of a dashboard by using Streamlit.
+- iv. Data Preparation: Data pre-processing will be done by using Python and the data will be visualised in a form of a dashboard by using Streamlit.
 
-- `Website design` : Django will be used to build and design the framework of the website.
+- v. Website design : Streamlit will be used to build and design the framework of the website.
 
-- `Website testing` : The website will be tested multiple times to detect any issues before making them live.
+- vi. Website testing : The website will be tested multiple times to detect any issues before making them live.
 
-- `Project monitoring and documentation` : The project will continuously be monitored and documented to keep track of the progress of project and to optimize the website performance.
+- vii. Project monitoring and documentation : The project will continuously be monitored and documented to keep track of the progress of project and to optimize the website performance.
 
 
 ## 📖 Methodology:
-This project will be using various research methods to achieve our main objective which is to build a system to provide insights regarding the performance of a Tiktok creator and the trends in Tiktok. The table below presents the specified procedures, strategies, technologies and softwares used in this project. 
+This project will be using various research methods to achieve our main objective which is to build a system to display TikTok trends. The table below presents the specified procedures, strategies, technologies and softwares used in this project. 
 
 | Components | Description |
 |--|--|
-| Data Collection | Data related to trends or types of videos in Tiktok which includes information such as the video caption, hashtags and other relevant variables data will be collected from Tiktok application by implementing API or web scraping.   |
-| Data Pre-processing | Data collected from Tiktok will be cleaned, filtered and transformed into a usable format by using Python library such as Numpy and Pandas. |
-| Data Analysis | Data will be analysed by identifying patterns of the trends by using Tensorflow. |
-| Feature Engineering | The relevant features which will be used to detect trending videos will be analysed by using Tensorflow. |
-| Fraud Detection| A classification model will be built which will able to predict the type of videos which will gain attention based on the features identified.|
-| Visualization | Data will be displayed by using Streamlit in a form of a dashboard. |
-| Web Development | The framework for the website will be designed and built by using Django. |
+| Data Collection |  Installing TikTok API, Setup VS Code, Getting Data from TikTok|
+| Data Storage |  Export data to MongoDB database in JSON format|
+| Data Pre-processing | Data is processed in MongoDB, Data will be cleaned, filtered and transformed more into a usable format by using Python library such as Numpy and Pandas. |
+| Feature Engineering | Only relevant features will be selected to determine trends. |
+| Web Development | The framework for the website will be designed and built by using Streamlit. |
+| Visualization | Data will be displayed by using Streamlit into the web application. |
 
 
 ## 🛠️ System Architecture:
@@ -204,31 +203,31 @@ It is important to identify and mitigate these risks when building a TikTok Insi
   </tr>
   <tr>
     <th align= "left">Data schema</th>
-    <td>Dataset contains data on trendy hashtags, user's followers, profile views</td>
+    <td>Dataset contains data on trendy hashtags, user's followers, profile views <i>(will be updated soon)</i></td>
   </tr>
   <tr>
     <th align= "left">Data transformations</th>
     <td>Data from web scraping transformed into tables for relatonal database.</td>
   </tr>
-  <tr>
+<!--   <tr>
     <th align= "left">Machine learning algorithms</th>
     <td>Classification, Logistic Regression, SMOTE</td>
-  </tr>
+  </tr> -->
   <tr>
     <th align= "left">Data visualization tools</th>
-    <td>MongoDB charts, Tableau, PowerBI</td>
+    <td>Streamlit/Tableau/PowerBI</td>
   </tr>
   <tr>
     <th align= "left">Programming language</th>
-    <td>Python, MongoDB Query Language (MQL), CSS, PHP, Javascript</td>
+    <td>Python, SQL, MongoDB Query Language (MQL), CSS, PHP, Javascript</td>
   </tr>
   <tr>
     <th align= "left">Frameworks</th>
-    <td>Django, TensorFlow</td>
+    <td>Streamlit/Django</td>
   </tr>
   <tr>
     <th align= "left">Libraries</th>
-    <td>Matplotlib, Seaborn, Scikit learn, Numpy, Djongo</td>
+    <td>Matplotlib, Seaborn, Scikit learn, Numpy</td>
   </tr>
   <tr>
     <th align= "left">Hardware & software requirements</th>
@@ -243,12 +242,12 @@ It is important to identify and mitigate these risks when building a TikTok Insi
   <tr>
     <th align= "left">Data security measures</th>
     <td>
-	  <ul>
-	    <li>Authentication and authorization : only authorized users can have access to sensitive data and functionalities.</li>
-	    <li>Data encryption : to protect sensitive data</li>
-	    <li>Regular updates : always update the web application if there is any improvements need to be done.</li>
-	  </ul>
-	</td>
+    <ul>
+      <li>Authentication and authorization : only authorized users can have access to sensitive data and functionalities.</li>
+      <li>Data encryption : to protect sensitive data</li>
+      <li>Regular updates : always update the web application if there is any improvements need to be done.</li>
+    </ul>
+  </td>
   </tr>
 </table>
 

@@ -29,13 +29,13 @@
 Consumer segmentation that prioritizes product attributes involves categorising customers into groups according to their needs or preferences for particular product features. To find customer groups with comparable traits and preferences, it entails examining data on customer behaviour, purchase history, demographics, and product preferences. Companies can adjust their marketing initiatives and product offers to fit the unique needs of each consumer segment by understanding their needs and preferences, which will boost customer satisfaction and loyalty.
 
 ## 🖼️: Background
-Menu Rahmah is a government initiative in Malaysia that aims to provide affordable meals to Malaysians, particularly those affected by the COVID-19 pandemic. Participating restaurants and food establishments are incentivized to offer meals priced under RM5 to help alleviate the cost of living for Malaysians.
+Menu Rahmah is a government initiative in Malaysia that aims to provide affordable meals to Malaysians, particularly those affected by the COVID-19 pandemic. Participating restaurants and food establishments are incentivized to offer meals priced under RM5 to help alleviate the cost of living for Malaysians. This program is part of the National Economic Recovery Plan (PENJANA) launched in 2020 in response to the economic impact of the COVID-19 pandemic.
 <br><br>
 As Menu Rahmah has been implemented for some time now, it is essential to understand how Malaysians perceive the initiative. This study aims to explore the emotional response of Malaysians towards Menu Rahmah through sentiment analysis of tweets.
 <br><br>
 Sentiment analysis is a computational technique used to analyze opinions, emotions, and attitudes expressed in written language. It has gained popularity in recent years as social media platforms become increasingly prevalent and a vast source of unstructured data.
 <br><br>
-By conducting sentiment analysis on tweets related to Menu Rahmah, we can gain insights into how Malaysians feel about the initiative. This information can help policymakers and stakeholders understand the success of Menu Rahmah and identify areas for improvement.
+By conducting sentiment analysis on tweets related to Menu Rahmah, we can gain insights into how Malaysians feel about the initiative. This information can help policymakers and participating organisations to understand the success of Menu Rahmah and identify areas for improvement.
 <br><br>
 The study will use a combination of natural language processing (NLP) and machine learning techniques to analyze a large dataset of tweets related to Menu Rahmah. The results will be presented in the form of visualizations, highlighting the overall sentiment towards Menu Rahmah and identifying key themes and topics mentioned by users.
 <br><br>

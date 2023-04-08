@@ -111,60 +111,22 @@ The software and hardware resources required for the project include:
 
 ## ⚙️ System Architecture:
 
-The CAD system architecture will consist of various components, including data collection, pre-processing, data analysis, feature extraction, machine learning, CAD system integration, and others. MongoDB will be used to store and manage the pre-processed medical image data, and TensorFlow will be used to build and train the machine learning models. The CAD system will be developed using Flask, a Python-based web framework, and will include interactive and static data visualization tools such as Plotly and Matplotlib.
+The system architecture for rotten fruit detection using image analysis includes several components that work together to perform the task of detecting rotten fruits in images. The proposed system architecture is as follows:
 
 
 | No. | Components | Description |
 | ------------- | ------------- | ------------- |
-| 1. | Data Collection | Collect medical images from various sources such as hospitals and medical research institutions. |
-| 2. | Pre-processing | Remove noise, artifacts, and irrelevant information from the images. Resize, normalize, and standardize the images to ensure consistency across the dataset. Label the images to indicate the presence or absence of specific medical conditions. |
-| 3. | Data Analysis | Conduct exploratory data analysis (EDA) techniques such as data visualization to gain insights into the data and identify potential outliers or anomalies. |
-| 4. | Feature Extraction | Extract meaningful features from the pre-processed images using techniques such as convolutional neural networks (CNNs). |
+| 1. | Image Acquisition | The first step in the process is to acquire the images of the fruits. This can be done using a camera or mobile device. These images will be processed and analyzed to detect the presence of any rotten fruit. |
+| 2. | Pre-processing | The acquired images will be pre-processed to remove any noise or artifacts that may interfere with the image analysis process. This may include resizing, cropping, and normalization. |
+| 3. | Image Analysis | The pre-processed images will be analyzed to detect the presence of any rotten fruit using image analysis techniques. This may include segmentation, feature extraction, and classification. |
+| 4. | Storage and Management | The analyzed images and their corresponding results will be stored in a MongoDB database. MongoDB is a NoSQL database that is highly scalable and flexible, making it a suitable choice for storing large volumes of image data. |
 | 5. | Machine Learning | Train a machine learning model such as a support vector machine (SVM) or random forest using the extracted features to predict the presence or absence of specific medical conditions. |
-| 6. | Model Evaluation | Evaluate the performance of the machine learning model using various metrics such as accuracy, precision, and recall. |
-| 7. | Model Optimization | Optimize the machine learning model using hyperparameter tuning and cross-validation techniques. |
-| 8. | CAD System Integration | Integrate the trained and optimized machine learning model into a CAD system that can assist medical professionals in making more accurate diagnoses. |
-| 9. | User Interface | Develop a user-friendly interface for the CAD system that includes various data visualization techniques such as interactive and static plots, data tables, and heatmaps. |
-| 10. | Deployment | Deploy the CAD system on a server with appropriate hardware and software resources such as a GPU with at least 8 GB of VRAM, a Linux operating system with Python, TensorFlow, Flask, and MongoDB installed, and data visualization and analysis tools such as Plotly and Matplotlib. |
-| 11. | Maintenance | Regularly monitor and upgrade the hardware and software resources as necessary to ensure optimal performance of the CAD system. |
+| 6. | Data Analysis and Visualization | Data analysis and visualization tools such as Python and R will be used to analyze the data stored in the MongoDB database. This will enable the identification of trends and patterns in the data that can be used to improve the accuracy of the system. |
+| 7. | Software Requirements | <li>Python and R programming languages</li>
+<li>OpenCV, Keras, and TensorFlow frameworks for image processing and machine learning</li>
+<li>MongoDB for database management</li>|
 
-___
 
-<ol>
-	<li>Data Storage and Management:</li>
-<br>
-<p>MongoDB is a NoSQL document-oriented database that is highly suitable for handling large and complex datasets such as medical images. MongoDB stores data in collections of documents, which are JSON-like structures that allow for flexible and efficient data storage and retrieval. In the proposed system architecture, MongoDB will be used to store and manage pre-processed medical image data.</p>
-
-<p>The medical images will be pre-processed to extract features relevant to disease diagnosis, and the resulting features will be stored as documents in MongoDB collections. Each document will represent a single medical image and will include the extracted features, metadata such as patient ID, and other relevant information.</p>
-
-MongoDB provides several features that are beneficial for managing and analyzing large datasets, including:
-	<ul>
-<li>Scalability: MongoDB is highly scalable and can handle large volumes of data, making it suitable for storing medical image data.</li>
-
-<li>Indexing: MongoDB supports indexing, which allows for fast retrieval of data based on specific criteria. This feature is essential for efficient querying of medical image data.</li>
-
-<li>Aggregation: MongoDB supports powerful aggregation capabilities, which enable complex data analysis and processing.</li>
-	</ul>
-<br>
-<li>Data Analysis:</li>
-<br>
-<p>MongoDB provides several features that facilitate data analysis, including indexing, aggregation, and real-time querying capabilities. The data analysis will be performed using Python-based data analysis libraries such as NumPy, Pandas, and Scikit-learn, which provide a wide range of data analysis tools, including data cleaning, preprocessing, feature selection, and feature extraction. These libraries will be used to manipulate and analyze the data stored in MongoDB, enabling the extraction of meaningful insights and patterns from the data. Data visualization tools such as Matplotlib and Plotly will be used to visualize the results of the data analysis.</p>
-<br>
-<li>Hardware and Software Requirements:</li>
-<br>
-<p>To support the use of MongoDB in the proposed system architecture, the following hardware and software requirements will be needed:</p>
-	<ul>
-<li>A dedicated server: MongoDB requires a dedicated server with sufficient storage capacity and processing power to handle large volumes of medical image data. The server should have at least 16 GB of RAM, a multi-core CPU, and sufficient disk space to store the data.</li>
-
-<li>MongoDB database: The MongoDB database will need to be installed and configured on the dedicated server. MongoDB can be installed on Windows, macOS, and Linux operating systems.</li>
-
-<li>Python: The system will require a Python installation with the appropriate libraries and packages for interacting with the MongoDB database. The recommended package for this is PyMongo, which provides a Python API for interacting with MongoDB.</li>
-
-<li>Data pre-processing software: Before storing the medical images in MongoDB, they will need to be pre-processed to extract relevant features. This will require the use of software tools such as OpenCV or TensorFlow, depending on the specific feature extraction technique being used.</li>
-	</ul>
-</ol>
-
-___
 
 The proposed system architecture will employ various tools and frameworks for data visualization and analysis, including:
  | Tools/Frameworks | Description |

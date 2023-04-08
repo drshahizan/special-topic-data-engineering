@@ -54,8 +54,18 @@
 
 ## 🔖 Methodology
  The Energy Consumption Analysis Dashboard will be developed using MongoDB to analyze energy consumption patterns and identify opportunities for energy savings.
+ 
+• `Data collection:` To begin the project, all relevant data such as electricity usage and gas usage will be collected from Malaysia Energy Information Hub (MEIH) portal: https://meih.st.gov.my/statistics .
 
- To begin the project, all relevant data such as electricity usage and gas usage will be collected. After the data is collected, the data will undergo pre-processing process before it is analyzed. The tasks in data pre-processing include cleaning, filtering and data transforming to ensure the data is usable. Then, we will start to carry out data analysis to derive insights from the data. In order to achieve this task, we will be using MongoDB's aggregation to determine and analyze the peak demand period and energy consumption patterns by geographic location or demographic group or detecting anomalies in energy consumption. Next, we will identify what features will be used to analyze the energy consumption pattern. Example of the features may be used is time, weather and occupancy. After that, we will predict the energy demand and determine the energy efficiency opportunities by developing predictive models by using machine learning models and algorihtms such as regression and classification. Finally, we will visualize the results of the analysis by using chart or graph so that we can understand the energy usage patterns and areas of energy savings easily.
+• `Data preprocessing:` After the data is collected, the data will undergo pre-processing process before it is analyzed. The tasks in data pre-processing include cleaning, filtering and data transforming. This step is to remove unwanted data and handle all the missing values, outliers and inconsistent data that could affect the result and accuracy of data analysis.
+
+• `Data storage:` All data including the preprocssed data and the data model will be store into MongoDB database. The data will also be stored at cloud database which is AWS cloud platform to ensure data security and ease of use.
+
+• `Data analysis and modeling:` Then, we will start to carry out data analysis to derive insights from the data. In order to achieve this task, we will be using MongoDB's aggregation to determine and analyze the peak demand period and energy consumption patterns by geographic location or demographic group or detecting anomalies in energy consumption. 
+
+• `Machine learning and algorithms:` Next, we will identify what features will be used to analyze the energy consumption pattern. Example of the features may be used is time, weather and occupancy. After that, we will predict the energy demand and determine the energy efficiency opportunities by developing predictive models by using machine learning models and algorihtms such as regression and classification. 
+
+• `Visualization and reporting:` Finally, we will visualize the results of the analysis by Power BI so that we can understand the energy usage patterns and areas of energy savings easily. 
 
 ## 🖥️ System Architecture
  

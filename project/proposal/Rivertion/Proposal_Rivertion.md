@@ -111,8 +111,8 @@ The system architecture for rotten fruit detection using image analysis includes
 | 2. | Pre-processing | The acquired images will be pre-processed to remove any noise or artifacts that may interfere with the image analysis process. This may include resizing, cropping, and normalization. |
 | 3. | Image Analysis | The pre-processed images will be analyzed to detect the presence of any rotten fruit using image analysis techniques. This may include segmentation, feature extraction, and classification. |
 | 4. | Storage and Management | The analyzed images and their corresponding results will be stored in a MongoDB database. MongoDB is a NoSQL database that is highly scalable and flexible, making it a suitable choice for storing large volumes of image data. |
-| 5. | Machine Learning | Train a machine learning model such as a support vector machine (SVM) or random forest using the extracted features to predict the presence or absence of specific medical conditions. |
-| 6. | Data Analysis and Visualization | Data analysis and visualization tools such as Python and R will be used to analyze the data stored in the MongoDB database. This will enable the identification of trends and patterns in the data that can be used to improve the accuracy of the system. |
+| 5. | Machine Learning | A deep learning model, such as a convolutional neural network, will be trained on the preprocessed image dataset using TensorFlow or Keras. |
+| 6. | Data Visualization | Data analysis and visualization tools such as Python and R will be used to analyze the data stored in the MongoDB database. This will enable the identification of trends and patterns in the data that can be used to improve the accuracy of the system. |
 | 7. | Software Requirements | <li>Python and R programming languages</li><li>OpenCV, Keras, and TensorFlow frameworks for image processing and machine learning</li><li>MongoDB for database management</li>|
 
 ____

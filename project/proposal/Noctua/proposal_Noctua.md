@@ -201,7 +201,7 @@ MongoDB requirements:
   - `Data visualization:` Tableau or PowerBI
   - `Data management:` MongoDB
   - `Web apps with machine learning models:` Django
-  - `Machine learning:` MLflow or TenserFlow
+  - `NLP Tool:` Natural Language ToolKit (NLTK)
   - `Project management:` MIRO
 
 4. **Other expenses**

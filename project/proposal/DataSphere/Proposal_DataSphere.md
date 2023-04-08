@@ -68,21 +68,18 @@ The objective of this project is to provide insights to policymakers, citizens o
 ## 💻: System Architecture
 
 The system will consist of the following components:
-1. ``Data acquisition: `` Customer information will be gathered from a variety of sources, including marketing campaigns, website analytics, and social media platforms, by the data acquisition component. Real-time data collection and storage in a centralised database will make it simple to obtain the information.
 
-2. ``Data storage:`` **MongoDB** will be the main database used by the data storage component to store and manage the customer data. A NoSQL database called MongoDB offers adaptable data formats and simple scalability. A cloud-based server will host the database to guarantee high availability and data protection.
+| No. | Components | Description |
+| ------------- | ------------- | ------------- |
+| 1. | Data Acquisition | To acquire data, we will use the Twitter API to collect tweets on "Menu Rahmah." We will connect with the Twitter API using Python's **Snscrape** package and save the collected data in JSON format. |
+| 2. | Data Storage | For storing the acquired data, we will use **MongoDB** as our primary database. MongoDB is a NoSQL database that works well with massive amounts of unstructured data, such as tweets. To interface with the database, we will use PyMongo, a Python library for MongoDB. |
+| 3. | Data preprocessing | We will clean and preprocess the data before evaluating it. To normalize the text data, we will remove stop words, punctuation, and URLs, as well as perform stemming and lemmatization. For text preparation and feature engineering, we will use Python's **NLTK** module. |
+| 4. | Data analysis and modeling | We will train a sentiment analysis model using the preprocessed data. We will train the model using labeled data using a supervised learning approach. For model training and evaluation, we will employ Python's Scikit-Learn package. We will also investigate additional models, such as deep learning approaches, utilizing frameworks such as TensorFlow and PyTorch. |
+| 5. | Model deployment |**Django**, a Python-based web framework, will be used by the model deployment component to deploy machine learning models to a web server. Predictions based on user input will be provided via API endpoints. Setting up a continuous integration and delivery pipeline will also be part of the deployment to ensure that the models are up to date and accurate. |
+| 6. | Model monitoring and maintenance | The model monitoring and maintenance component will continuously monitor the models' performance and retrain them as needed. MongoDB's change stream feature, which provides real-time notifications when data changes, will be used for monitoring. Updating the models to account for new data sources and changing customer behaviour will be part of the maintenance. |
+| 7. | Visualization and reporting | We will use **Streamlit**, a Python library for building interactive web applications, to visualize the sentiment analysis results. We will also use **Power BI or Tableau** to create reports and dashboards that can be shared with stakeholders. |
+| 8. | Workflow and collaboration | To track progress, assign tasks, and collaborate with team members, the workflow and collaboration component will use project management tools like **Trello** or **Asana**. In addition, the team will use version control software such as Git to ensure that all changes to the codebase are tracked and easily reversible. |
 
-3. ``Data preprocessing:`` The component of data preprocessing will clean, transform, and prepare the data for analysis. Duplicates, missing values, and irrelevant features will be removed. Preprocessing will also include feature engineering, such as the creation of new variables that extract meaningful information from the data.
-
-4. ``Data analysis and modeling:`` The data analysis and modelling component will identify customer segments based on their behaviour, preferences, and demographics by employing various statistical and machine learning techniques. Python and its data science libraries such as NumPy, Pandas, and Scikit-learn will be used for the analysis. The models will be trained using MongoDB customer data and validated using cross-validation techniques.
-
-5. ``Model deployment:`` **Django**, a Python-based web framework, will be used by the model deployment component to deploy machine learning models to a web server. Predictions based on user input will be provided via API endpoints. Setting up a continuous integration and delivery pipeline will also be part of the deployment to ensure that the models are up to date and accurate.
-
-6. ``Model monitoring and maintenance:`` The model monitoring and maintenance component will continuously monitor the models' performance and retrain them as needed. MongoDB's change stream feature, which provides real-time notifications when data changes, will be used for monitoring. Updating the models to account for new data sources and changing customer behaviour will be part of the maintenance.
-
-7. ``Visualization and reporting`` The visualisation and reporting component will create interactive dashboards and reports using data visualisation tools such as Tableau, Power BI, or Matplotlib. Stakeholders will be able to monitor key performance indicators (KPIs) such as customer retention, acquisition, and engagement using these dashboards.
-
-8. ``Workflow and collaboration:`` To track progress, assign tasks, and collaborate with team members, the workflow and collaboration component will use project management tools like **Trello** or **Asana**. In addition, the team will use version control software such as Git to ensure that all changes to the codebase are tracked and easily reversible.
 
 **Hardware and Software Requirements**
 

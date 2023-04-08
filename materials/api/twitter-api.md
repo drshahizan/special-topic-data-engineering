@@ -34,6 +34,25 @@ Important data that can be accessed through the Twitter API includes:
 
 Overall, the Twitter API provides a powerful source of data for data science applications and can be used in conjunction with other data sources to gain deeper insights into user behavior, sentiment, and trends.
 
+## Metadata in the Twitter API
+Metadata in the Twitter API refers to the additional information associated with a tweet beyond its text content. This information can include details such as the tweet's author, timestamp, location, and any media attachments (such as images, videos, or links).
+
+When you retrieve tweets using the Twitter API, the response includes a variety of metadata fields that provide additional context and information about the tweet. Some common metadata fields that you may encounter when working with the Twitter API include:
+
+- `id`: A unique identifier for the tweet.
+- `created_at`: The date and time that the tweet was created.
+- `text`: The actual text content of the tweet.
+- `user`: Information about the user who posted the tweet, including their username, display name, and bio.
+- `entities`: Information about any URLs, hashtags, or mentions included in the tweet.
+- `coordinates`: If available, the precise geolocation of the tweet.
+- `place`: Information about the location associated with the tweet, such as the name of a city or point of interest.
+- `retweeted_status`: If the tweet is a retweet, information about the original tweet and its author.
+- `favorite_count`: The number of times the tweet has been liked by other users.
+- `retweet_count`: The number of times the tweet has been retweeted by other users.
+- `lang`: The language of the tweet.
+
+This metadata can be useful when analyzing tweets for various purposes, such as sentiment analysis, geospatial analysis, or network analysis. By incorporating metadata into your analysis, you can gain a more comprehensive understanding of the context and meaning behind each tweet.
+
 ## Social network analysis (SNA)
 Twitter API can be used for social network analysis (SNA) to extract valuable insights from social media data. Social network analysis is a field that involves studying the relationships and interactions between individuals or groups of people. Twitter provides a wealth of data for SNA, including user profiles, follower lists, and tweet data.
 

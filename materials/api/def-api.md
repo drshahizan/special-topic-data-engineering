@@ -324,6 +324,86 @@ db.close()
 
 In this example, we search for 100 tweets containing the keyword "data science", extract the text, author, timestamp, and location information from each tweet, and insert it into a MySQL database table called "tweets". Note that you will need to replace the database credentials and table name with your own values.
 
+## Save data from Twitter using the Twitter API and store it in a MongoDB database.
+
+You can follow these general steps:
+
+1. Set up a Twitter API developer account and obtain API credentials (consumer key, consumer secret, access token, access token secret).
+
+2. Install the tweepy Python library, which provides a convenient wrapper for the Twitter API.
+
+3. Install the pymongo Python library, which allows you to interact with a MongoDB database.
+
+4. Connect to the Twitter API using your credentials and use the tweepy library to search for and retrieve tweets. You can filter tweets based on various criteria, such as keywords, hashtags, users, geolocation, and date ranges.
+
+5. For each tweet that you retrieve, extract the relevant information that you want to save to your MongoDB database, such as the text, author, timestamp, location, and any other relevant metadata.
+
+6. Create a connection to your MongoDB database using the pymongo library and insert the tweet data into a collection in your database.
+
+Here's some example Python code that demonstrates these steps:
+
+```python
+import tweepy
+from pymongo import MongoClient
+
+# Twitter API credentials
+consumer_key = 'your_consumer_key'
+consumer_secret = 'your_consumer_secret'
+access_token = 'your_access_token'
+access_token_secret = 'your_access_token_secret'
+
+# MongoDB database credentials
+mongodb_uri = 'mongodb://localhost:27017/'
+mongodb_database = 'your_mongodb_database_name'
+mongodb_collection = 'your_mongodb_collection_name'
+
+# connect to Twitter API
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+api = tweepy.API(auth)
+
+# connect to MongoDB database
+client = MongoClient(mongodb_uri)
+db = client[mongodb_database]
+collection = db[mongodb_collection]
+
+# search for tweets containing a keyword and save them to MongoDB database
+tweets = api.search(q='data science', count=100)
+
+for tweet in tweets:
+    tweet_text = tweet.text
+    tweet_author = tweet.author.name
+    tweet_timestamp = tweet.created_at
+    tweet_location = tweet.user.location
+
+    tweet_data = {'text': tweet_text, 'author': tweet_author, 'timestamp': tweet_timestamp, 'location': tweet_location}
+    collection.insert_one(tweet_data)
+
+client.close()
+```
+
+In this example, we search for 100 tweets containing the keyword "data science", extract the text, author, timestamp, and location information from each tweet, and insert it into a MongoDB collection called "your_mongodb_collection_name" in a database called "your_mongodb_database_name". Note that you will need to replace the database credentials and collection name with your own values.
+
+## Metadata in the Twitter API
+Metadata in the Twitter API refers to the additional information associated with a tweet beyond its text content. This information can include details such as the tweet's author, timestamp, location, and any media attachments (such as images, videos, or links).
+
+When you retrieve tweets using the Twitter API, the response includes a variety of metadata fields that provide additional context and information about the tweet. Some common metadata fields that you may encounter when working with the Twitter API include:
+
+- `id`: A unique identifier for the tweet.
+- `created_at`: The date and time that the tweet was created.
+- `text`: The actual text content of the tweet.
+- `user`: Information about the user who posted the tweet, including their username, display name, and bio.
+- `entities`: Information about any URLs, hashtags, or mentions included in the tweet.
+- `coordinates`: If available, the precise geolocation of the tweet.
+- `place`: Information about the location associated with the tweet, such as the name of a city or point of interest.
+- `retweeted_status`: If the tweet is a retweet, information about the original tweet and its author.
+- `favorite_count`: The number of times the tweet has been liked by other users.
+- `retweet_count`: The number of times the tweet has been retweeted by other users.
+- `lang`: The language of the tweet.
+
+This metadata can be useful when analyzing tweets for various purposes, such as sentiment analysis, geospatial analysis, or network analysis. By incorporating metadata into your analysis, you can gain a more comprehensive understanding of the context and meaning behind each tweet.
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

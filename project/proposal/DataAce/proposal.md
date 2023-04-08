@@ -1,4 +1,4 @@
-<h1 align='center'> TikTok Insights Dashboard: Analysis Tool </h1>
+<h1 align='center'> TikTok Insights Dashboard</h1>
 <p align="center">
   <img src="https://s17233.pcdn.co/blog/wp-content/uploads/2022/12/tiktok_analytics_hero@2x.png" title="TikTok Dashboard">
 </p>

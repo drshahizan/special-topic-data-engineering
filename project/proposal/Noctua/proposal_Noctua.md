@@ -95,7 +95,7 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 ## 🧮 System Architecture:
 <h4>Contain several components that work together to process and produce visual data.</h4>
 <p align="center">
-<img src="Architecture.jpg" height="500"></img>
+<img src="SystemArchitecture.jpg" height="500"></img>
 </p>
 
 

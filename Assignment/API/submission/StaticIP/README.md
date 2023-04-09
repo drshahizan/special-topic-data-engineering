@@ -68,6 +68,11 @@ df = pd.read_json (r'/content/data.json')
 df.to_csv (r'/content/data.csv', index = None)
 ```
 
+## Create Database in MongoDB
+
+<div align = "center"><img src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Create%20database.png" height = "450"></div>
+
+
 ## Import to MongoDB
 
 ```mongodb
@@ -79,5 +84,6 @@ mongoimport — db StaticIP — collection Airport — type csv — headerline �
 
 db.database.find()
 ```
+
 
 <div align = "center"><img src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Database%20in%20MongoDB.png" height = "450"</div>

@@ -16,7 +16,8 @@ Don't forget to hit the :star: if you like this repo.
 - [Database in Data Science](./ds-database.md)
 - [API and Web Scraping](./api-web-scraping.md)
 
-
+## Article
+- [How To Extract Data From The Twitter API Using Python](https://towardsdatascience.com/how-to-extract-data-from-the-twitter-api-using-python-b6fbd7129a33)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

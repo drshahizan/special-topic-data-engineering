@@ -1,4 +1,4 @@
-# Malaysia Holiday API
+<h1 align='center'>Malaysia Holiday API</h1>
 <div align='center'>
 <table>
   <tr>

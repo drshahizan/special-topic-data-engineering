@@ -43,8 +43,6 @@
 </p>
 
 
-#Library Used
-
 ## Library used
 
 The library we have used is `requests`, `csv` , `datetime` and `json`

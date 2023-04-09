@@ -1,6 +1,8 @@
 <h1> Malaysia Daily Vaccination Registration API </h1>
 
 <h2>Part 1: Retrieve Data From API & Save in CSV Format</h2>
+In this part, the vaccination registration data will be collected by using API and it will be saved in csv format. 
+
 <h3>Step 1: Import the libraries</h3>
 
 The libraries we have used are `requests`, `json` and `pandas`
@@ -17,12 +19,16 @@ import pandas as pd
 
 <h3>Step 2: Fetching data using Vaccination Registration API</h3>
 
+The library `requests` has been used to provide a simple API for interacting with HTTP operations and the result store in the data variable.
+
 ```python
 response_API = requests.get('https://myvaccination-backend.vercel.app/api/vacc_reg')
 data = response_API.text
 ```
 
 <h3>Step 3: Load data in json format</h3>
+
+After extracting the data, its now the time to convert and decode the data into proper JSON format.
 
 ```python
 dic = json.loads(data)
@@ -31,11 +37,18 @@ dic = dic['modifiedData']
 
 <h3>Step 4: Save in DataFrame</h3>
 
+The json file is then saved in DataFrame.
+
 ```python
 df = pd.DataFrame(dic)
 ```
 
+<img width="501" alt="image" src="https://user-images.githubusercontent.com/120556342/230760807-78077e69-f464-4273-9e2d-d1755fe41628.png">
+
+
 <h3>Step 5: Save the vaccination data to a CSV file</h3>
+
+The last step is save the vaccination data to a CSV file. 
 
 ```python
 df.to_csv('vaccination.csv',index=False)

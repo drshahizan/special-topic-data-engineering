@@ -85,7 +85,32 @@ Data.csv file is selected to store the data in MongoDB.
 <div align = "center"><img width=500 height=350 src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Database%20in%20MongoDB.png" ></div>
 
 ## Alternative 2:
+### Library used
+- `pymongo` is used to interact with MongoDB database
+- `csv` is used to import .csv file
 
-  
-  
-  
+```python
+!pip install pymongo
+import pymongo
+import csv  
+```  
+
+### Connecting to MongoDB
+To start connecting to the MongoDB, we must specify three things:
+- Mongo URL
+- Database name
+- Collection name
+
+```python
+# Create a new MongoDB client
+cstring = "mongodb://localhost:27017/"
+client = pymongo.MongoClient(cstring)
+
+# Select the database
+db = client["<database>"]
+
+# Select the collection
+collection = db["<collection>"]
+```  
+
+### Importing data to MongoDB

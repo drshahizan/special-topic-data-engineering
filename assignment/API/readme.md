@@ -39,6 +39,15 @@ Please follow the instructions below:
 - Ensure to send the report in **mark down** format and **source code**.
 - Please submit the assignments in the [**submission folder**](https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission). It would be best if you create a folder using your group name.
 
+## [Labs](./lab)
+
+| No | Group | Title | Files |
+| -----: | ----- | ----- | :------: | 
+| 1 | HTML | Your first HTML Page |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab0" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
+| 2 | HTML | HTML Text Appearance |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab1" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
+| 3 | HTML | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="./images/folder_info.png" width="24px" height="24px" ></a> |
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

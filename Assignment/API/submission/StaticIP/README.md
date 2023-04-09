@@ -42,8 +42,10 @@ import pandas as pd
 
 ## Fetching data from holidayapi using their api
 ```python
+year = "2022"
+country = "MY"
 api_key = "ce9d976d-726c-4eaa-b304-07cbc741d647"
-url = "https://holidayapi.com/v1/holidays?pretty&country=MY&year=2022&key="+api_key
+url = "https://holidayapi.com/v1/holidays?pretty&country="+country+"&year="+year+"&key="+api_key
 r = requests.get(url)
 ```
 

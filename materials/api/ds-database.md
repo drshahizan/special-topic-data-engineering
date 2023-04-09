@@ -11,13 +11,13 @@ Don't forget to hit the :star: if you like this repo.
 
 There are several databases that are commonly used in data science, each with their own strengths and weaknesses. Here are four popular databases used in data science, including SQLAlchemy and MongoDB:
 
-1. **PostgreSQL**: PostgreSQL is a popular open-source relational database management system that is used in many data science applications. It is known for its scalability, reliability, and support for advanced data types like JSON and GIS. PostgreSQL is often used for data warehousing and analytics, and can handle large amounts of data.
+1. **SQLAlchemy**: SQLAlchemy is a Python SQL toolkit and Object-Relational Mapping (ORM) library that provides a set of high-level API for connecting and working with relational databases in Python. SQLAlchemy supports a wide range of databases, including MySQL, PostgreSQL, SQLite, Oracle, and Microsoft SQL Server. It allows data scientists to write SQL queries in Python, and provides a convenient way to work with data from multiple sources.
 
 2. **MySQL**: MySQL is another popular open-source relational database management system that is widely used in web development and data science. It is known for its ease of use, performance, and scalability. MySQL is often used for applications that require fast read and write operations, such as real-time data processing and analytics.
 
-3. **SQLAlchemy**: SQLAlchemy is a Python SQL toolkit and Object-Relational Mapping (ORM) library that provides a set of high-level API for connecting and working with relational databases in Python. SQLAlchemy supports a wide range of databases, including MySQL, PostgreSQL, SQLite, Oracle, and Microsoft SQL Server. It allows data scientists to write SQL queries in Python, and provides a convenient way to work with data from multiple sources.
+3. **MongoDB**: MongoDB is a popular NoSQL document-oriented database that is known for its flexibility, scalability, and ability to handle unstructured data. MongoDB stores data in JSON-like documents, making it easy to work with for data scientists who are comfortable with JSON. MongoDB is often used for real-time analytics, content management, and mobile applications.
 
-4. **MongoDB**: MongoDB is a popular NoSQL document-oriented database that is known for its flexibility, scalability, and ability to handle unstructured data. MongoDB stores data in JSON-like documents, making it easy to work with for data scientists who are comfortable with JSON. MongoDB is often used for real-time analytics, content management, and mobile applications.
+4. **PostgreSQL**: PostgreSQL is a popular open-source relational database management system that is used in many data science applications. It is known for its scalability, reliability, and support for advanced data types like JSON and GIS. PostgreSQL is often used for data warehousing and analytics, and can handle large amounts of data.
 
 In summary, PostgreSQL and MySQL are popular relational databases used in data science, while MongoDB is a popular NoSQL database. SQLAlchemy is a Python library that provides a high-level API for connecting and working with relational databases in Python, and supports a wide range of databases including the ones mentioned above.
 

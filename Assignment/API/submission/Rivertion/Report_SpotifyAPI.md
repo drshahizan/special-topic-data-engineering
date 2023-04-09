@@ -1,12 +1,69 @@
 # Spotify API
+
 ## Part 1: Retrieving the data using the API
+
 ### Step 1: Importing libraries
 First, we `import` the necessary library needed to start retrieving data which in this case is the `requests` library which is used for making HTTP requests. It allows the code to interact with the Spotify API to retrieve information
 
 ```python
 import requests
 ```
-### Step 2: 
+
+### Step 2: Getting access token from Spotify API
+Next, to use the Spotify API, we need to authenticate the requests by providing an access token. This access token is a credential that will be used to access the Spotify API. To get this access token, we need to insert client_id and client_secret which we can get from Spotify web developer into the coding below.
+
+```python
+url = 'https://accounts.spotify.com/api/token'
+data = {
+    'grant_type': 'client_credentials',
+    'client_id': '39d34046ceb846029127453746e14629',
+    'client_secret': 'c263ba986458411fbd24c41fd3b504e3'
+}
+headers = {
+    'Content-Type': 'application/x-www-form-urlencoded'
+}
+
+response = requests.post(url, data=data, headers=headers)
+
+print(response.json())
+```
+
+### Step 3: Getting top track's data from Spotify
+Here, we use Taylor Swift as our artist to get her top track. First, enter 'Taylor Swift' as the artist, then enter access token and token type as its authorization.
+
+```python
+url = 'https://api.spotify.com/v1/search?type=track&q=artist:Taylor Swift'
+headers = {
+    'Authorization': 'Bearer BQCg1QL1zKvt741T7kDn93tECz4IxaIzKqbbFZJg7CByhk9bc8an4mlwDYCdyOKxtUPCLCZFWTluCO3OYSOLVsAB-FanoEFPgf5qsgrHs6PTW4SKUQd5'
+}
+
+response = requests.get(url, headers=headers)
+
+data=response.json()
+
+print(data)
+```
+
+### Step 4: Saving as csv file
+Lastly, with all the data that we got, we need to save it as csv file so that we can upload it into MongoDB. We have narrowed down the data that we want to keep which are name, popularity, album_name and track_url.
+
+```python
+with open('/content/drive/MyDrive/Taylor_Swift.csv', 'w', newline='', encoding='utf-8') as csvfile:
+    writer = csv.writer(csvfile)
+    # Write the header row
+    writer.writerow(['name', 'popularity', 'album', 'track_url'])
+    # Write each track to a new row
+    for track in data['tracks']['items']:
+        name = track['name']
+        popularity = track['popularity']
+        album_name = track['album']['name']
+        track_url = track['external_urls']['spotify']
+        writer.writerow([name, popularity, album_name, track_url])
+
+print('Taylor_Swift.csv')
+```
+
+
 ## Part 2: Uploading .csv file to MongoDB
 ### Step 1: Install database library
 This is the most significant stage since it will provide us with a list of libraries that we will need to link our database. 

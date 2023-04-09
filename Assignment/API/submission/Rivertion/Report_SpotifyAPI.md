@@ -17,7 +17,8 @@ from pymongo import MongoClient
 
 ### Step 2: Create database
 In this stage, we set a new database in MongoDB Compass and name it, followed by the creation of a collection within the database.
-<br>
+<br/>
+
 ![image](https://user-images.githubusercontent.com/95215371/230786607-e1642e27-d9f8-42c0-9773-034642a07efb.png)
 
 

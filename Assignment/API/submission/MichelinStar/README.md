@@ -25,3 +25,16 @@
     <td>A20EC0231</td>
   </tr>
 </table><br>
+
+
+<br>
+</br>
+
+### Fetching Data from API using Request Library
+# Step 1: Importing necessary libraries
+
+<code>
+  import pandas as pd
+import requests
+from google.colab import files
+</code>

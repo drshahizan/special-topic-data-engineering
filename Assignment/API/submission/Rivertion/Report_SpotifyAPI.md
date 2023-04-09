@@ -12,6 +12,9 @@ import requests
 ### Step 2: Getting access token from Spotify API
 Next, to use the Spotify API, we need to authenticate the requests by providing an access token. This access token is a credential that will be used to access the Spotify API. To get this access token, we need to insert client_id and client_secret which we can get from Spotify web developer into the coding below.
 
+![WhatsApp Image 2023-04-10 at 12 25 46 AM](https://user-images.githubusercontent.com/95232008/230788934-320de1b1-4737-42a4-bb7d-42b9e1d80d4a.jpeg)
+
+
 ```python
 url = 'https://accounts.spotify.com/api/token'
 data = {

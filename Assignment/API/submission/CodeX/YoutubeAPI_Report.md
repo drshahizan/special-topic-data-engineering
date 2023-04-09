@@ -38,8 +38,9 @@ for item in search_response['items']:
 ```
 
 ### Step 6: Save in .csv file
+The code section below will save output into [netflix_search_results](https://github.com/drshahizan/special-topic-data-engineering/blob/11957597cbe0d791eefc634dbe4a2b8c3b9506c3/Assignment/API/submission/CodeX/youtube_search_results.csv)
 ```python
-with  open('search_results.csv', mode='w', newline='', encoding='utf-8') as csv_file: 
+with  open('Netflix_results.csv', mode='w', newline='', encoding='utf-8') as csv_file: 
 	fieldnames = ['Title', 'Description', 'Channel Name'] 
 	writer = csv.DictWriter(csv_file, fieldnames=fieldnames) 
 	writer.writeheader() 
@@ -50,7 +51,7 @@ for item in search_response['items']:
 	writer.writerow({'Title': title, 'Description': description, 'Channel Name': channel_name})
 ```
 
-
+## Part 2: Upload .csv file into MongoDB 
 
 
 

@@ -18,16 +18,13 @@ if response.status_code == 200:
     
     # Create a Pandas dataframe from the JSON data
     df = pd.DataFrame(data)
-    
-    # Print the dataframe
-    print(df)
+
 else:
     # Print an error message if the request was unsuccessful
     print(f'Error: {response.status_code} - {response.reason}')
     
-#Convert data into DataFrame and save to csv
+#Save data to csv
 data = data['modifiedData']
-df = pd.DataFrame(data)
 df.to_csv('Malaysia Daily Vaccination Registration.csv')
 
 ```

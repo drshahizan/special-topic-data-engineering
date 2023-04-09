@@ -95,6 +95,13 @@ states = {
 # Define the API endpoint URL
 url = "https://api.openweathermap.org/data/2.5/weather"
 ```
+
+## Load data into CSV file
+```python
+# Print a message indicating that the data has been saved
+print("Weather data has been saved to weather_data.csv")
+```
+
 ## Print the data collected from the API
 
 ```python

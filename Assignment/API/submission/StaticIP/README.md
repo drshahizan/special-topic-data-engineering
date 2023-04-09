@@ -59,3 +59,9 @@ json_file = open("data.json", "w")
 json.dump(value, json_file, indent = 6)  
 json_file.close()
 ```
+
+## Convert to CSV file
+```python
+df = pd.read_json (r'/content/data.json')
+df.to_csv (r'/content/data.csv', index = None)
+```

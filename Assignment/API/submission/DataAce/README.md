@@ -1,7 +1,10 @@
 <h1 align='center'>Malaysia News API</h1>
+<p align="center">
+  <img src="https://blog.clickio.com/wp-content/uploads/2021/10/appearing-on-google-news-faster.png" height= '500px' title="Google News API">
+</p>
 
 <h2 align='center'>Group Members</h2>
-<table>
+<table align='center'>
   <tr>
     <th>Name</th>
     <th>Matric No</th>
@@ -23,8 +26,9 @@
     <td>A20EC0135</td>
   </tr>
 </table>
-
+<hr>
 <strong>Our goal: Extract data from an Application Programming Interface (API) through a client library (SDK). The data will then saved into a CSV file and uploaded into MongoDB database</strong>
+
 
 <h3>Step 1: Get API key</h3>
 We're interested in extracting Malaysia Today's News, hence we make use of the News API. This API extracts the news from Google News and we obtained the API key upon registering to the platform. 

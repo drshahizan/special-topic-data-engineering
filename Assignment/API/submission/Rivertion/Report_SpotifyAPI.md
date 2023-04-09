@@ -45,5 +45,6 @@ declare variable names based on csv table columns
 ```
 
 ### Step 5: Check the data
+Open MongoDB to see if the data has been added. The snapshot below displays a MongoDB Compass screenshot of documents successfully added into a database collection.
 
 ![image](https://user-images.githubusercontent.com/95215371/230786861-33b004fc-a131-43ce-b937-e5cc8f2f27f3.png)

@@ -22,7 +22,7 @@ Don't forget to hit the :star: if you like this repo.
 ## Assignment
 Please follow the instructions below:
 - Collaborate effectively with your group members to complete the task.
-- Choose a different API for each group to use for this task. We strongly suggest that you choose an API from Malaysia.
+- Choose a **different API** for each group to use for this task. We strongly suggest that you choose an API from Malaysia.
 - Record the necessary information of the selected API on the [Google Sheets](https://docs.google.com/spreadsheets/d/16eKnUHr0a1FUC2fl7ja2W5FrzwHZN1us-GK4_jhvZD8/edit?usp=sharing) document provided.
 - Choose a suitable Python library to retrieve the required information using the API.
 - After retrieving the necessary data, save the file in **CSV** format.

@@ -80,7 +80,7 @@ session = Session()
 result = session.query(MyModel).filter(MyModel.field == value).all()
 
 session.close()
-```python
+```
 
 Note that using SQLAlchemy with Django is an advanced topic and may not be suitable for all use cases. It may also require additional configuration and setup, such as defining models using SQLAlchemy syntax instead of Django models.
 

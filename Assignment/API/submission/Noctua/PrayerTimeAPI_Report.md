@@ -29,7 +29,8 @@ city = input("Enter your city: ")
 
   ```
 In google colab:
-<img height='150px' src=''/>
+
+<img src='Figures/City Input.jpg'/>
 
 ### Step 3: Create URL for prayer time API
 
@@ -121,7 +122,7 @@ print(Data_dictionary)
    ```
    
 4) Final product
-  <img height='150px' src=''/>
+  <img height='300px' src='Figures/MongoDb.jpg'/>
   
   
   

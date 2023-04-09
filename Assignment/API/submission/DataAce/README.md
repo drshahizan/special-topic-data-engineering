@@ -43,6 +43,17 @@ Since we have experiences in writing Python, we thought it would be easier to us
 
 <h3>Step 3: Code</h3>
 
+1. Import libraries
+```python
+import requests
+import csv
+from newsapi import NewsApiClient
+```
+2. Install News API package
+```python
+pip install newsapi-python
+```
+
 <h3>Step 4: Import Data to MongoDB</h3>
 
   1. Connect to database.

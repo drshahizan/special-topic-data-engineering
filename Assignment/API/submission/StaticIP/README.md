@@ -46,3 +46,18 @@ api_key = "ce9d976d-726c-4eaa-b304-07cbc741d647"
 url = "https://holidayapi.com/v1/holidays?pretty&country=MY&year=2022&key="+api_key
 r = requests.get(url)
 ```
+
+## Fetch data from holidayapi
+
+After that, we can get data using their api. By changing the data like `year`, `country` and `api_key`, we can get the data we want.
+
+`requests.get(url)` sent a request to the api and return the data we want.
+
+```python
+# fetch data from holidayapi using their api
+year = "2022"
+country = "MY"
+api_key = "ce9d976d-726c-4eaa-b304-07cbc741d647"
+url = "https://holidayapi.com/v1/holidays?pretty&country="+country+"&year="+year+"&key="+api_key
+r = requests.get(url)
+```

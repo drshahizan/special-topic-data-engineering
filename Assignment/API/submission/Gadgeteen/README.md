@@ -1,4 +1,4 @@
-# Open Weather API
+<h1 align="center"> Open Weather API </h1>
 
 <h2 align="center">
   Group Name

@@ -53,6 +53,19 @@ from newsapi import NewsApiClient
 ```python
 pip install newsapi-python
 ```
+3. Fetch data from News API
+```python
+url = ('https://newsapi.org/v2/top-headlines?country=my&apiKey=83bd643d7f9a468dabb080d927f260b3')
+response = requests.get(url)
+```
+4. Save data to csv
+```python
+with open('/content/drive/MyDrive/news.csv', mode='w', newline='', encoding='utf-8') as file:
+    writer = csv.writer(file)
+    writer.writerow(['ID','Name', 'Author', 'Title', 'Description', 'URL', 'URL To Image', 'Published At', 'Content'])
+    for article in data['articles']:
+        writer.writerow([article['source']['id'], article['source']['name'], article['author'], article['title'], article['description'], article['url'], article['urlToImage'], article['publishedAt'], article['content']])
+```
 
 <h3>Step 4: Import Data to MongoDB</h3>
 

@@ -11,10 +11,10 @@ Don't forget to hit the :star: if you like this repo.
 
 ## Content:
 - [API for data science projects](./def-api.md)
-- [Case study: Twitter API]()
-- [Twitter API Data]()
-- [Database in Data Science]()
-- [API and Web Scraping]()
+- [Case study: Twitter API](./twitter-api.md)
+- [Twitter API Data](./twitter-data.md)
+- [Database in Data Science](./ds-database.md)
+- [API and Web Scraping](./api-web-scraping.md)
 
 
 

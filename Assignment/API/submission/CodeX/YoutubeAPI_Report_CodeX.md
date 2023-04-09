@@ -35,34 +35,34 @@ Use the `search().list()` method of the youtube client instance that was created
 
 ```python
 search_response = youtube.search().list( 
-	q='malaysia', 
-	type='video', 
-	part='id,snippet', 
-	maxResults=500 ).execute()
+    q='malaysia', 
+    type='video', 
+    part='id,snippet', 
+    maxResults=500 ).execute()
 ```
 
 ### Step 5: Fetch output title, description, channel name
 This will produce 500 results
 ```python
 for item in search_response['items']: 
-	title = item['snippet']['title'] 
-	description = item['snippet']['description'] 
-	channel_name = item['snippet']['channelTitle'] 
-	print(f'Title: {title}\nDescription: {description}\nChannel Name: {channel_name}\n')
+    title = item['snippet']['title'] 
+    description = item['snippet']['description'] 
+    channel_name = item['snippet']['channelTitle'] 
+    print(f'Title: {title}\nDescription: {description}\nChannel Name: {channel_name}\n')
 ```
 
 ### Step 6: Save in .csv file
 The code section below will save output into [netflix_search_results](https://github.com/drshahizan/special-topic-data-engineering/blob/11957597cbe0d791eefc634dbe4a2b8c3b9506c3/Assignment/API/submission/CodeX/youtube_search_results.csv)
 ```python
 with  open('Netflix_results.csv', mode='w', newline='', encoding='utf-8') as csv_file: 
-	fieldnames = ['Title', 'Description', 'Channel Name'] 
-	writer = csv.DictWriter(csv_file, fieldnames=fieldnames) 
-	writer.writeheader() 
+    fieldnames = ['Title', 'Description', 'Channel Name'] 
+    writer = csv.DictWriter(csv_file, fieldnames=fieldnames) 
+    writer.writeheader() 
 for item in search_response['items']:
-	title = item['snippet']['title'] 
-	description = item['snippet']['description'] 
-	channel_name = item['snippet']['channelTitle'] 
-	writer.writerow({'Title': title, 'Description': description, 'Channel Name': channel_name})
+    title = item['snippet']['title'] 
+    description = item['snippet']['description'] 
+    channel_name = item['snippet']['channelTitle'] 
+    writer.writerow({'Title': title, 'Description': description, 'Channel Name': channel_name})
 ```
 
 ## Part 2: Upload .csv file into MongoDB 

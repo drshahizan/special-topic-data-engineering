@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Application Programming Interface (API)
 
-## Subtopic:
+## Content:
 1. API and Web Scraping
 
 

@@ -69,21 +69,12 @@ df.to_csv (r'/content/data.csv', index = None)
 ```
 
 ## Create Database in MongoDB
+Database is created by entering the name of the database and the name of the collection.
 
-<div align = "center"><img src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Create%20database.png" height = "450"></div>
+<div align = "center"><img width=500 height=350 src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Create%20database.png" height = "450"></div>
 
 
 ## Import to MongoDB
+Data.csv file is selected to store the data in MongoDB.
 
-```mongodb
-show bds
-
-db.StaticIP.insertOne({x:1})
-
-mongoimport — db StaticIP — collection Airport — type csv — headerline — ignoreBlanks — file /content/data.json
-
-db.database.find()
-```
-
-
-<div align = "center"><img src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Database%20in%20MongoDB.png" height = "450"</div>
+<div align = "center"><img width=500 height=350 src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Database%20in%20MongoDB.png" height = "450"</div>

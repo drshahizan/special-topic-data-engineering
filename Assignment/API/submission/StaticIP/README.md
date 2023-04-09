@@ -26,7 +26,8 @@
 </table>
 </div>
 
-## Library used
+## Retrieve data using API and save as .csv file
+### Library used
 
 The library we have used is `requests`, `json` and `pandas`
 
@@ -40,7 +41,7 @@ import json
 import pandas as pd
 ```
 
-## Fetching data from holidayapi using their api
+### Fetching data from holidayapi using their api
 ```python
 year = "2022"
 country = "MY"
@@ -49,32 +50,42 @@ url = "https://holidayapi.com/v1/holidays?pretty&country="+country+"&year="+year
 r = requests.get(url)
 ```
 
-## Getting value in json format
+### Getting value in json format
 ```python
 value = r.json()
 value = value['holidays']
 ```
 
-## Write into file
+### Writing data into file
 ```python
 json_file = open("data.json", "w")
 json.dump(value, json_file, indent = 6)  
 json_file.close()
 ```
 
-## Convert to CSV file
+### Converting data to CSV file
 ```python
 df = pd.read_json (r'/content/data.json')
 df.to_csv (r'/content/data.csv', index = None)
 ```
 
-## Create Database in MongoDB
+---
+There are two alternatives of importing the data to MongoDB:
+
+## Alternative 1:
+### Creating Database in MongoDB
 Database is created by entering the name of the database and the name of the collection.
 
-<div align = "center"><img width=500 height=350 src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Create%20database.png" height = "450"></div>
+<div align = "center"><img width=500 height=350 src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Create%20database.png"></div>
 
 
-## Import to MongoDB
+### Importing data to MongoDB
 Data.csv file is selected to store the data in MongoDB.
 
-<div align = "center"><img width=500 height=350 src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Database%20in%20MongoDB.png" height = "450"</div>
+<div align = "center"><img width=500 height=350 src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Database%20in%20MongoDB.png" ></div>
+
+## Alternative 2:
+
+  
+  
+  

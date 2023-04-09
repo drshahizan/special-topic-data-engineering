@@ -19,6 +19,9 @@ Don't forget to hit the :star: if you like this repo.
 ## Article
 - [How To Extract Data From The Twitter API Using Python](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/api/How%20To%20Extract%20Data%20From%20The%20Twitter%20API%20Using%20Python%20_%20by%20Ahmed%20Besbes%20_%20Towards%20Data%20Science.pdf)
 
+## Assignment
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

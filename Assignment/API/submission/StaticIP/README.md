@@ -25,3 +25,17 @@
   </tr>
 </table>
 </div>
+
+## Library used
+
+The library we have used is `requests`, `json` and `pandas`
+
+- `requests` is used to send a HTTP to server and retrieve data from it,
+- `json` is used to manipulate json file,
+- `pandas` is used to convert json to csv
+
+```python
+import requests
+import json
+import pandas as pd
+```

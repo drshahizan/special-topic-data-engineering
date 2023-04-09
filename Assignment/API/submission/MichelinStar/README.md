@@ -30,7 +30,7 @@
 </table><br>
 
 <h3>Choose API</h3>
-<p> TMDB (The Movie Database) API is an ideal option for developers seeking to integrate movie and TV show information into their applications. It provides a vast database of up-to-date information on cast and crew, ratings, reviews, and other details. Its features include searching by title, keyword, or genre, sorting by popularity or release date, and an easy-to-use API documentation for seamless integration. Overall, if you need a reliable and extensive movie and TV show database, TMDB API is an excellent choice.
+<p> TMDB (The Movie Database) API is an ideal option for developers seeking to integrate movie and TV show information into their applications. It provides a vast database of up-to-date information on cast and crew, ratings, reviews, and other details. Its features include searching by title, keyword, or genre, sorting by popularity or release date, and an easy-to-use API documentation for seamless integration. Overall, if you need a reliable and extensive movie and TV show database TMDB API is an excellent choice.
 </p>
 
 <br>

@@ -18,6 +18,7 @@ Don't forget to hit the :star: if you like this repo.
 
 ## Github
 - [WEB API COVID19 MALAYSIA](https://github.com/afiqharith/api-covid-malaysia)
+- [COVID-19 Nationwide Level Cases](https://covid-19.samsam123.name.my/api.html)
 - [Wikipedia: Malaysia API](https://github.com/JianLoong/malaysia-api)
 - [Waktu Solat PHP API](https://github.com/afzafri/Waktu-Solat-API)
 - [Malaysian Postcode](https://github.com/atqnp/postcode-malaysia)

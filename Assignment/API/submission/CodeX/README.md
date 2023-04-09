@@ -22,5 +22,10 @@
     <td>Nayli Nabihah Binit Jasni</td>
     <td>A20EC0105</td>
   </tr>
+  </tr>
+    <tr>
+    <td>Muhammad Naquib Bin Zakaria</td>
+    <td>A20EC</td>
+  </tr>
 </table>
 <h2>Content</h2>

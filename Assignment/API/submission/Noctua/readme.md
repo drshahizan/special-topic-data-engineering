@@ -31,7 +31,8 @@
 
 ---
 
-<h2>File content:</h2>
-[Report]()
-[Code]()
-[CSV file exported]()
+### 📂Folder content:
+
+* [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/Noctua/PrayerTimeAPI_Report.md)
+* [💻Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/Noctua/Noctua_PrayerTimesAPI.ipynb)
+* [📎CSV file exported](https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/Noctua/Waktu_Solat_Kuala%20Lumpur.csv)

@@ -39,7 +39,7 @@ Please follow the instructions below:
 - Ensure to send the report in **mark down** format and **source code**.
 - Please submit the assignments in the [**submission folder**](https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission). It would be best if you create a folder using your group name.
 
-## [Labs](./lab)
+## Case Study
 
 | No | Group | Title | Files |
 | -----: | ----- | ----- | :------: | 

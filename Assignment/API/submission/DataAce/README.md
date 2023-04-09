@@ -43,6 +43,14 @@ Since we have experiences in writing Python, we thought it would be easier to us
 
 <h3>Step 3: Code</h3>
 
+<h3>Step 4: Import Data to MongoDB</h3>
+
+  1. Connect to database.
+  2. Add data through csv.
+  3. Output shown as below.
+  
+<div align = "center"><img width=600 height=300 src ="https://github.com/drshahizan/special-topic-data-engineering/blob/907c6ec43fc98feb2bb4319979d3ab820538a071/Assignment/API/submission/DataAce/mongodb.png" ></div>
+
 
 
 

@@ -79,3 +79,5 @@ mongoimport — db StaticIP — collection Airport — type csv — headerline �
 
 db.database.find()
 ```
+
+<div><img src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Database%20in%20MongoDB.png" align = "center" height = "450"</div>

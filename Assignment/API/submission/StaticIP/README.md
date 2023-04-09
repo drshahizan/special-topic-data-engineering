@@ -107,10 +107,18 @@ cstring = "mongodb://localhost:27017/"
 client = pymongo.MongoClient(cstring)
 
 # Select the database
-db = client["<database>"]
+db = client["StaticIP"]
 
 # Select the collection
-collection = db["<collection>"]
+collection = db["MalaysiaHolidayAPI"]
 ```  
 
 ### Importing data to MongoDB
+```python
+# Open CSV file and read data
+with open('/content/data.csv', 'r') as csvfile:
+    reader = csv.DictReader(csvfile)
+    # Iterate through each row of the CSV file and insert it into MongoDB
+    for row in reader:
+        collection.insert_one(row)
+```

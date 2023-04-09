@@ -36,25 +36,25 @@ Goals:
 
 1)To learn more about customer opinions and preferences, participating groups can use sentiment analysis to learn about what people think about Menu Rahmah. They may better understand what customers like and dislike, as well as what drives their brand loyalty, by monitoring customer feedback and sentiment.
 
-2)To enhance the client experience: Sentiment analysis can assist companies in enhancing the client experience related to Menu Rahmah. Businesses can improve customer happiness by addressing sources of consumer dissatisfaction by recognising them.
+2)``To enhance the client experience``: Sentiment analysis can assist companies in enhancing the client experience related to Menu Rahmah. Businesses can improve customer happiness by addressing sources of consumer dissatisfaction by recognising them.
 
-3)To monitor brand reputation: Businesses can monitor their brand reputation with the aid of sentiment analysis. Businesses can spot possible reputation concerns and take proactive measures to remedy them by monitoring customer opinion across social media, review sites, and other channels.
+3)``To monitor brand reputation``: Businesses can monitor their brand reputation with the aid of sentiment analysis. Businesses can spot possible reputation concerns and take proactive measures to remedy them by monitoring customer opinion across social media, review sites, and other channels.
 
-4)To inform product development: Businesses can use sentiment analysis to inform product development. Businesses can find ways to enhance their goods and services by looking at client feedback and sentiment.
+4)``To inform product development``: Businesses can use sentiment analysis to inform product development. Businesses can find ways to enhance their goods and services by looking at client feedback and sentiment.
 
-5)To inform marketing campaigns:Businesses can use sentiment analysis to inform marketing initiatives. Businesses can better target their marketing messages and efforts to resonant with their target audience by assessing customer sentiment.
+5)``To inform marketing campaigns``:Businesses can use sentiment analysis to inform marketing initiatives. Businesses can better target their marketing messages and efforts to resonant with their target audience by assessing customer sentiment.
 
 Objectives:
 
-1.Identify key themes and topics: Determine the main themes and subjects (Menu Rahmah) that consumers are talking about in relation to a company, a product, or a service.
+1.``Identify key themes and topics``: Determine the main themes and subjects (Menu Rahmah) that consumers are talking about in relation to a company, a product, or a service.
 
-2.Determine sentiment polarity: Obtain the polarity (positive or negative) of consumer opinion of a company, its goods, or its services.
+2.``Determine sentiment polarity``: Obtain the polarity (positive or negative) of consumer opinion of a company, its goods, or its services.
 
-3.Monitor sentiment over time: Monitor alterations in consumer opinion over time to spot trends and potential problems.
+3.``Monitor sentiment over time``: Monitor alterations in consumer opinion over time to spot trends and potential problems.
 
-4.Identify influencers and detractors: Determine the proponents and opponents who are influencing consumer opinion of a company, its goods, or its services.
+4.``Identify influencers and detractors``: Determine the proponents and opponents who are influencing consumer opinion of a company, its goods, or its services.
 
-5.Inform decision making: Provide information about client sentiment that can help businesspeople make judgements about developing products, providing customer service, running marketing campaigns, and managing their reputations.
+5.``Inform decision making``: Provide information about client sentiment that can help businesspeople make judgements about developing products, providing customer service, running marketing campaigns, and managing their reputations.
 
 
 

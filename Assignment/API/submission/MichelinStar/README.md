@@ -27,3 +27,5 @@
 </table><br>
 
 
+###Fetching Data from API using Request Library
+#Step 1: Importing necessary libraries

@@ -98,7 +98,6 @@ From this step, Database Name and Collection Name will be added according to our
 <p align = 'center'><img src="https://user-images.githubusercontent.com/95403713/230754298-aa7d6c5a-515f-4e87-80aa-a1d8402a30f7.png" alt="My Image"> </p>
 
 <h3>3. Import CSV file to MongoDB</h3>
-<p align = 'center'><img src="https://user-images.githubusercontent.com/95403713/230754314-6d918501-ad53-4e50-88c5-5e765cfca602.png
-" alt="My Image"> </p>
+<p align = 'center'><img src="https://user-images.githubusercontent.com/95403713/230754314-6d918501-ad53-4e50-88c5-5e765cfca602.png" alt="My Image"> </p>
 
 

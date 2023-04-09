@@ -64,7 +64,7 @@ dic = dic['modifiedData']
 df = pd.DataFrame(dic)
 ```
 
-<h3>Step 4: Save the vaccination data to a CSV file</h3>
+<h3>Step 5: Save the vaccination data to a CSV file</h3>
 
 ```python
 df.to_csv('vaccination.csv',index=False)

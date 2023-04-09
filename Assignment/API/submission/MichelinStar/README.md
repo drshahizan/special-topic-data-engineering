@@ -29,7 +29,7 @@
   </tr>
 </table><br>
 
-<h1>Choose API</h1>
+<h3>Choose API</h3>
 <p> TMDB (The Movie Database) API is an ideal option for developers seeking to integrate movie and TV show information into their applications. It provides a vast database of up-to-date information on cast and crew, ratings, reviews, and other details. Its features include searching by title, keyword, or genre, sorting by popularity or release date, and an easy-to-use API documentation for seamless integration. Overall, if you need a reliable and extensive movie and TV show database, TMDB API is an excellent choice.
 </p>
 
@@ -65,12 +65,8 @@ At the end of each iteration, the data from "temp_df" is appended to another Dat
 
 <code>if response.status_code == 200: </code> <br>
 <code>	for i in range(1, 400): </code><br>
-<code>		response = requests.get('https://api.themoviedb.org/3/\ </code><br>
-<code>	movie/top_rated?api_key=aaa7de53dcab3a19afed86880\ </code><br>
-<code>	f364e54&language=en-US&page={}'.format(i)) </code><br>
-<code>		temp_df = pd.DataFrame(response.json()['results'])[['id', </code><br>
-<code>					'title', 'overview', 'release_date', 'popularity', </code><br>
-<code>					'vote_average', 'vote_count']] </code><br>
+<code>		response = requests.get('https://api.themoviedb.org/3/\movie/top_rated?api_key=aaa7de53dcab3a19afed86880\f364e54&language=en-US&page={}'.format(i)) </code><br>
+<code>		temp_df = pd.DataFrame(response.json()['results'])[['id', 'title', 'overview', 'release_date', 'popularity', 'vote_average', 'vote_count']] </code><br>
 <code>		df = df.append(temp_df, ignore_index=True) </code><br>
 <code>else: </code><br>
 <code>	print('Error', response.status_code) </code><br>
@@ -102,6 +98,7 @@ From this step, Database Name and Collection Name will be added according to our
 <p align = 'center'><img src="https://user-images.githubusercontent.com/95403713/230754298-aa7d6c5a-515f-4e87-80aa-a1d8402a30f7.png" alt="My Image"> </p>
 
 <h3>3. Import CSV file to MongoDB</h3>
-<p align = 'center'><img src="https://user-images.githubusercontent.com/95403713/230754314-6d918501-ad53-4e50-88c5-5e765cfca602.png" alt="My Image"> </p>
+<p align = 'center'><img src="https://user-images.githubusercontent.com/95403713/230754314-6d918501-ad53-4e50-88c5-5e765cfca602.png
+" alt="My Image"> </p>
 
 

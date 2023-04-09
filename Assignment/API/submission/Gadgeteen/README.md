@@ -52,3 +52,9 @@ The library we have used is `requests`, `csv` , `datetime` and `json`
 - `json` is used to manipulate csv,
 - `datetime` is used to get the current date and time
 
+```python
+import requests
+import json
+import csv
+from datetime import datetime
+```

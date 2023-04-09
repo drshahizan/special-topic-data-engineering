@@ -26,6 +26,27 @@ else:
     
 #Save data to csv
 data = data['modifiedData']
-df.to_csv('Malaysia Daily Vaccination Registration.csv')
+df = pd.DataFrame(data)
+df.to_csv('vaccination.csv')
+
+# Install MongoDB in VSC and import necessary libraries
+!pip install pymongo
+import csv
+import pymongo
+from pymongo import MongoClient
+
+# Connect to MongoDB
+client = pymongo.MongoClient('mongodb+srv://madihahzabri:<pwd>@newcluster.rh45owl.mongodb.net/test')
+db = client['vaccination']
+collection = db['vaccination']
+
+# Open CSV file and read data
+with open('vaccination.csv', 'r') as csvfile:
+    reader = csv.DictReader(csvfile)
+    # Iterate through each row of the CSV file and insert it into MongoDB
+    for row in reader:
+        collection.insert_one(row)
+        
+print('CSV data uploaded to MongoDB successfully.')
 
 ```

@@ -43,15 +43,15 @@ Please follow the instructions below:
 
 | No | Group | Title | Files |
 | -----: | ----- | ----- | :------: | 
-| 1 | CodeX | Your first HTML Page |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/CodeX" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 2 | DataAce | HTML Text Appearance |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/DataAce" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 3 | DataSphere | Troubleshooting HTML |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/DataSphere" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 4 | Gadgeteen | Troubleshooting HTML |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/Gadgeteen" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 5 | MichelinStar | Troubleshooting HTML |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/MichelinStar" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 6 | Noctua | Troubleshooting HTML | |
-| 7 | Regex | Troubleshooting HTML |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/Regex" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 8 | Rivertion | Troubleshooting HTML |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/Rivertion" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 9 | StaticIP | Troubleshooting HTML |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/StaticIP" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 1 | CodeX | Youtube Search (Malaysia) |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/CodeX" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 2 | DataAce | Malaysia News API |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/DataAce" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 3 | DataSphere | Bank Negara Open Api |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/DataSphere" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 4 | Gadgeteen | Open Weather API |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/Gadgeteen" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 5 | MichelinStar | The Movie Database (TMDB) |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/MichelinStar" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 6 | Noctua | Prayer Times API | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/Regex" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 7 | Regex | MyVaccination API |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/Regex" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 8 | Rivertion | Spotify API |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/Rivertion" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 9 | StaticIP | Malaysia Holiday API |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/StaticIP" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 
 ## Contribution 🛠️

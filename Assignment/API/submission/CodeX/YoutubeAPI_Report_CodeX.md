@@ -2,7 +2,8 @@
 # Youtube API
 ## Part 1: Extract data from API 
 ### Step 1: Import libraries
-The libraries involve are
+We use `Google Colab` platform to execute all codes
+The libraries involved are
 
  - **request**
  - **google-api-python-client**
@@ -28,7 +29,7 @@ youtube = build('youtube', 'v3', developerKey=api_key)
 ```
 
 ### Step 4: Search request on the YouTube Data API 
-Use the search().list() method of the youtube client instance that was created in the previous code. Enter the number of output in maxResults
+Use the `search().list()` method of the youtube client instance that was created in the previous code. Enter the number of output in maxResults
 
 ```python
 search_response = youtube.search().list( 

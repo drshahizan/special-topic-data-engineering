@@ -7,8 +7,19 @@ The libraries involve are
  - **request**
  - **google-api-python-client**
 
-### Step 2: Define the API key
 ```python
+#import and install requests
+pip install requests
+import requests
+
+#install google-api-python-client 
+pip install google-api-python-client
+```
+
+### Step 2: Define the API key
+the API key can be retrieved from the website(insert link)
+```python
+#insert key API
 api_key = *AIzaSyDpQxJ9j8qIE6CeotHF5cyxecV8iIucGJE*
 ```
 ### Step 3: Create YouTube Data API

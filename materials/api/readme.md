@@ -19,6 +19,7 @@ Don't forget to hit the :star: if you like this repo.
 ## Github
 - [Wikipedia: Malaysia API](https://github.com/JianLoong/malaysia-api)
 - [Waktu Solat PHP API](https://github.com/afzafri/Waktu-Solat-API)
+- [Malaysian Postcode](https://github.com/atqnp/postcode-malaysia)
 - [Air Pollution Index (API, wiki) in Malaysia from 2005 to 2017](https://github.com/ynshung/api-malaysia)
 
 ## Article

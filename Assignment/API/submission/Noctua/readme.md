@@ -1,4 +1,4 @@
-<h1><p align='center'>Malaysia Prayer Times API</p></h1>
+<h1><p align='center'>:star_and_crescent:Malaysia Prayer Times API:mosque:</p></h1>
 
 <h3><p align='center'>Group Members</p></h3>
 

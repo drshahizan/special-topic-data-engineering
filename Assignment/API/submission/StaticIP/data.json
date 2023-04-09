@@ -1,0 +1,380 @@
+[
+      {
+            "name": "Chinese New Year's Day",
+            "date": "2022-02-01",
+            "observed": "2022-02-01",
+            "public": true,
+            "country": "MY",
+            "uuid": "538b9264-3590-4cc8-80db-17bca320787b",
+            "weekday": {
+                  "date": {
+                        "name": "Tuesday",
+                        "numeric": "2"
+                  },
+                  "observed": {
+                        "name": "Tuesday",
+                        "numeric": "2"
+                  }
+            }
+      },
+      {
+            "name": "Second Day of the Chinese New Year",
+            "date": "2022-02-02",
+            "observed": "2022-02-02",
+            "public": true,
+            "country": "MY",
+            "uuid": "d68132cd-9412-4068-b8cf-52c45aff1851",
+            "weekday": {
+                  "date": {
+                        "name": "Wednesday",
+                        "numeric": "3"
+                  },
+                  "observed": {
+                        "name": "Wednesday",
+                        "numeric": "3"
+                  }
+            }
+      },
+      {
+            "name": "March Equinox",
+            "date": "2022-03-20",
+            "observed": "2022-03-20",
+            "public": false,
+            "country": "MY",
+            "uuid": "7dfb79c2-f173-4fab-80bc-eb8c7c56b95c",
+            "weekday": {
+                  "date": {
+                        "name": "Sunday",
+                        "numeric": "7"
+                  },
+                  "observed": {
+                        "name": "Sunday",
+                        "numeric": "7"
+                  }
+            }
+      },
+      {
+            "name": "Labor Day",
+            "date": "2022-05-01",
+            "observed": "2022-05-02",
+            "public": true,
+            "country": "MY",
+            "uuid": "4b2b08d4-b375-44d7-81e6-aa55c0730e79",
+            "weekday": {
+                  "date": {
+                        "name": "Sunday",
+                        "numeric": "7"
+                  },
+                  "observed": {
+                        "name": "Monday",
+                        "numeric": "1"
+                  }
+            }
+      },
+      {
+            "name": "Festival of Breaking the Fast",
+            "date": "2022-05-03",
+            "observed": "2022-05-03",
+            "public": true,
+            "country": "MY",
+            "uuid": "84bebdae-8b7a-4e36-b927-f39cc39199b9",
+            "weekday": {
+                  "date": {
+                        "name": "Tuesday",
+                        "numeric": "2"
+                  },
+                  "observed": {
+                        "name": "Tuesday",
+                        "numeric": "2"
+                  }
+            }
+      },
+      {
+            "name": "Second Day of the Festival of Breaking the Fast",
+            "date": "2022-05-04",
+            "observed": "2022-05-04",
+            "public": true,
+            "country": "MY",
+            "uuid": "97c84825-316f-4ec9-a3b7-deedb048b4b8",
+            "weekday": {
+                  "date": {
+                        "name": "Wednesday",
+                        "numeric": "3"
+                  },
+                  "observed": {
+                        "name": "Wednesday",
+                        "numeric": "3"
+                  }
+            }
+      },
+      {
+            "name": "Mother's Day",
+            "date": "2022-05-08",
+            "observed": "2022-05-08",
+            "public": false,
+            "country": "MY",
+            "uuid": "0c152156-869e-417d-993a-c910826e112f",
+            "weekday": {
+                  "date": {
+                        "name": "Sunday",
+                        "numeric": "7"
+                  },
+                  "observed": {
+                        "name": "Sunday",
+                        "numeric": "7"
+                  }
+            }
+      },
+      {
+            "name": "Buddha Day",
+            "date": "2022-05-15",
+            "observed": "2022-05-15",
+            "public": true,
+            "country": "MY",
+            "uuid": "d8a7a975-8469-4c8c-9698-ec214022fb66",
+            "weekday": {
+                  "date": {
+                        "name": "Sunday",
+                        "numeric": "7"
+                  },
+                  "observed": {
+                        "name": "Sunday",
+                        "numeric": "7"
+                  }
+            }
+      },
+      {
+            "name": "Birth of the King",
+            "date": "2022-06-06",
+            "observed": "2022-06-06",
+            "public": true,
+            "country": "MY",
+            "uuid": "26d4e277-7672-4b19-aea9-7a65dcb3661b",
+            "weekday": {
+                  "date": {
+                        "name": "Monday",
+                        "numeric": "1"
+                  },
+                  "observed": {
+                        "name": "Monday",
+                        "numeric": "1"
+                  }
+            }
+      },
+      {
+            "name": "Father's Day",
+            "date": "2022-06-19",
+            "observed": "2022-06-19",
+            "public": false,
+            "country": "MY",
+            "uuid": "2116b029-3044-47ae-b7e0-15cd7cf18d9b",
+            "weekday": {
+                  "date": {
+                        "name": "Sunday",
+                        "numeric": "7"
+                  },
+                  "observed": {
+                        "name": "Sunday",
+                        "numeric": "7"
+                  }
+            }
+      },
+      {
+            "name": "June Solstice",
+            "date": "2022-06-21",
+            "observed": "2022-06-21",
+            "public": false,
+            "country": "MY",
+            "uuid": "c30549e4-1345-4aa8-8c2a-aec29c3ccb34",
+            "weekday": {
+                  "date": {
+                        "name": "Tuesday",
+                        "numeric": "2"
+                  },
+                  "observed": {
+                        "name": "Tuesday",
+                        "numeric": "2"
+                  }
+            }
+      },
+      {
+            "name": "Feast of the Sacrifice",
+            "date": "2022-07-10",
+            "observed": "2022-07-10",
+            "public": true,
+            "country": "MY",
+            "uuid": "919d5b07-0805-4923-b041-adb86fac52e1",
+            "weekday": {
+                  "date": {
+                        "name": "Sunday",
+                        "numeric": "7"
+                  },
+                  "observed": {
+                        "name": "Sunday",
+                        "numeric": "7"
+                  }
+            }
+      },
+      {
+            "name": "Islamic New Year's Day",
+            "date": "2022-07-30",
+            "observed": "2022-07-30",
+            "public": true,
+            "country": "MY",
+            "uuid": "c6437e4b-67b5-48f1-81f5-e0167d1607e2",
+            "weekday": {
+                  "date": {
+                        "name": "Saturday",
+                        "numeric": "6"
+                  },
+                  "observed": {
+                        "name": "Saturday",
+                        "numeric": "6"
+                  }
+            }
+      },
+      {
+            "name": "National Day",
+            "date": "2022-08-31",
+            "observed": "2022-08-31",
+            "public": true,
+            "country": "MY",
+            "uuid": "73e02c80-2bab-40cd-97a8-ccd1e98103d0",
+            "weekday": {
+                  "date": {
+                        "name": "Wednesday",
+                        "numeric": "3"
+                  },
+                  "observed": {
+                        "name": "Wednesday",
+                        "numeric": "3"
+                  }
+            }
+      },
+      {
+            "name": "Malaysia Day",
+            "date": "2022-09-16",
+            "observed": "2022-09-16",
+            "public": true,
+            "country": "MY",
+            "uuid": "fc834292-77ce-45c8-9adc-346820774386",
+            "weekday": {
+                  "date": {
+                        "name": "Friday",
+                        "numeric": "5"
+                  },
+                  "observed": {
+                        "name": "Friday",
+                        "numeric": "5"
+                  }
+            }
+      },
+      {
+            "name": "September Equinox",
+            "date": "2022-09-23",
+            "observed": "2022-09-23",
+            "public": false,
+            "country": "MY",
+            "uuid": "8c1f727e-1ab5-4a62-ae4e-4bb92e8e7038",
+            "weekday": {
+                  "date": {
+                        "name": "Friday",
+                        "numeric": "5"
+                  },
+                  "observed": {
+                        "name": "Friday",
+                        "numeric": "5"
+                  }
+            }
+      },
+      {
+            "name": "Birth of the Prophet",
+            "date": "2022-10-09",
+            "observed": "2022-10-09",
+            "public": true,
+            "country": "MY",
+            "uuid": "99026aac-3cbb-4ee0-8ff3-6f33a412ba6a",
+            "weekday": {
+                  "date": {
+                        "name": "Sunday",
+                        "numeric": "7"
+                  },
+                  "observed": {
+                        "name": "Sunday",
+                        "numeric": "7"
+                  }
+            }
+      },
+      {
+            "name": "Festival of Lights",
+            "date": "2022-10-24",
+            "observed": "2022-10-24",
+            "public": true,
+            "country": "MY",
+            "uuid": "fbb49894-8af5-40a3-b9b2-b104885f51ce",
+            "weekday": {
+                  "date": {
+                        "name": "Monday",
+                        "numeric": "1"
+                  },
+                  "observed": {
+                        "name": "Monday",
+                        "numeric": "1"
+                  }
+            }
+      },
+      {
+            "name": "December Solstice",
+            "date": "2022-12-22",
+            "observed": "2022-12-22",
+            "public": false,
+            "country": "MY",
+            "uuid": "9666b382-9f78-4106-85cb-ade49a8caa06",
+            "weekday": {
+                  "date": {
+                        "name": "Thursday",
+                        "numeric": "4"
+                  },
+                  "observed": {
+                        "name": "Thursday",
+                        "numeric": "4"
+                  }
+            }
+      },
+      {
+            "name": "Christmas Day",
+            "date": "2022-12-25",
+            "observed": "2022-12-26",
+            "public": true,
+            "country": "MY",
+            "uuid": "fd743a08-a451-42f7-9bb7-23b6936ad653",
+            "weekday": {
+                  "date": {
+                        "name": "Sunday",
+                        "numeric": "7"
+                  },
+                  "observed": {
+                        "name": "Monday",
+                        "numeric": "1"
+                  }
+            }
+      },
+      {
+            "name": "New Year's Eve",
+            "date": "2022-12-31",
+            "observed": "2022-12-31",
+            "public": false,
+            "country": "MY",
+            "uuid": "651cf822-3fc7-49a2-81c9-ff924bda4eae",
+            "weekday": {
+                  "date": {
+                        "name": "Saturday",
+                        "numeric": "6"
+                  },
+                  "observed": {
+                        "name": "Saturday",
+                        "numeric": "6"
+                  }
+            }
+      }
+]

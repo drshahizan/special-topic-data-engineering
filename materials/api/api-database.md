@@ -8,6 +8,11 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Twitter API Data
+
+## Introduction
+Twitter API data refers to the structured and unstructured data that can be obtained through the Twitter API (Application Programming Interface). The Twitter API provides access to a vast amount of data about tweets, users, hashtags, mentions, and more. The data includes both metadata (data about the data, such as date and time of the tweet, location, and user information) and content (the actual text, images, and videos in the tweet).
+
+
 Important data that can be accessed through the Twitter API includes:
 
 1. Tweets: The text content of tweets, along with metadata such as timestamp, location, and author information.
@@ -36,6 +41,36 @@ When you retrieve tweets using the Twitter API, the response includes a variety 
 - `lang`: The language of the tweet.
 
 This metadata can be useful when analyzing tweets for various purposes, such as sentiment analysis, geospatial analysis, or network analysis. By incorporating metadata into your analysis, you can gain a more comprehensive understanding of the context and meaning behind each tweet.
+
+how to retrieve tweet data using the Twitter API in Python using the Tweepy library:
+
+```python
+import tweepy
+
+# Authenticate with your Twitter API credentials
+auth = tweepy.OAuthHandler("consumer_key", "consumer_secret")
+auth.set_access_token("access_token", "access_token_secret")
+
+# Initialize the API client
+api = tweepy.API(auth)
+
+# Search for tweets containing a specific keyword
+tweets = api.search(q="data science", count=10)
+
+# Print the tweet text and metadata
+for tweet in tweets:
+    print("Tweet Text: ", tweet.text)
+    print("User Name: ", tweet.user.name)
+    print("User Location: ", tweet.user.location)
+    print("Tweet ID: ", tweet.id_str)
+    print("Tweet Created At: ", tweet.created_at)
+    print("Retweet Count: ", tweet.retweet_count)
+    print("Favorite Count: ", tweet.favorite_count)
+    print("-----------------------------")
+```
+This code snippet retrieves the 10 most recent tweets containing the keyword "data science" and prints their text and metadata, including the user name, location, tweet ID, creation date, retweet count, and favorite count.
+
+Note that you'll need to replace "consumer_key", "consumer_secret", "access_token", and "access_token_secret" with your own Twitter API credentials, which you can obtain from the Twitter Developer Portal.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

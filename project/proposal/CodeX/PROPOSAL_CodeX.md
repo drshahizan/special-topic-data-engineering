@@ -23,7 +23,7 @@
 - [12. Conclusion](#12-conclusion)
 
 ## 1. Executive Summary
-Netflix, YouTube, Spotify and many more streaming platforms have been introduced to the world as the technologies are advancing rapidly nowadays. With this being said, users are prone to use it almost everyday whenever they wanted to watch movies or tv shows and stream any music. In this project, our group will focused on the hybrid recommendation engine, which includes both content-based and collaborative filtering, that is implemented in Netflix. The objective of this project is to create a system (dashboard) that display the best suggestion of tv shows on streaming platform. The system we proposed will be able to keep track on the user behavioral data which will then be processed using machine learning to recognize streaming patterns of each user so that the most relevant suggestion can be presented to the users to increase the users satisfactory.
+Netflix, YouTube, Spotify and many more streaming platforms have been introduced to the world as the technologies are advancing rapidly nowadays. With this being said, users are prone to use it almost everyday whenever they wanted to watch movies or tv shows and stream any music. In this project, our group will focused on the hybrid recommendation engine, which includes both content-based and collaborative filtering, that is implemented in Netflix. The objective of this project is to create a system (dashboard) that display the best suggestion of tv shows on streaming platform. The system we proposed will implement the usage of MongoDB as a database that can keep track on the user behavioral data which will then be processed using machine learning to recognize streaming patterns of each user so that the most relevant suggestion can be presented to the users to increase the users satisfactory.
 
 
 ## 2. Background
@@ -65,7 +65,9 @@ Below is an overview example of how the system will be programmed:
 </p> 
 
 ## 6. System Architecture
-
+<p align="center">
+<img height='400px' src='Recommendation architecture.png'/>
+</p> 
 
 ## 7. Risks and Limitation
 Netflix's show recommendation system has been widely praised for its ability to personalize recommendations to individual users based on their viewing history, ratings, and preferences. However, here are some potential risks and limitations associated with Netflix's recommendation system, along with potential strategies to mitigate them:

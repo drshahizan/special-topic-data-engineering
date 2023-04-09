@@ -67,8 +67,21 @@ for item in search_response['items']:
 
 ## Part 2: Upload .csv file into MongoDB 
 ### Step 1: Open and connect MongoDB compass
+> Install [MongoDB Compass](https://www.mongodb.com/try/download/shell) 
+
+Open MongoDB Compass and create `New Connection`
+
 ### Step 2: Create new database
+Create Database by inserting `Database Name` and `Collection Name` 
+
 ### Step 3: Add .csv file
+In the new database created, click on `ADD DATA` and select `Import JSON or CSV file`.
+
+Choose the file [netflix_search_results](https://github.com/drshahizan/special-topic-data-engineering/blob/11957597cbe0d791eefc634dbe4a2b8c3b9506c3/Assignment/API/submission/CodeX/youtube_search_results.csv) 
+
+Then, click on `Import`
+
+A database based on the csv uploaded will be shown as below picture
 
 
 

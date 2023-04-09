@@ -67,3 +67,15 @@ json_file.close()
 df = pd.read_json (r'/content/data.json')
 df.to_csv (r'/content/data.csv', index = None)
 ```
+
+## Import to MongoDB
+
+```mongodb
+show bds
+
+db.StaticIP.insertOne({x:1})
+
+mongoimport — db StaticIP — collection Airport — type csv — headerline — ignoreBlanks — file /content/data.json
+
+db.database.find()
+```

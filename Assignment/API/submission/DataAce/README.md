@@ -23,4 +23,5 @@
     <td>A20EC0135</td>
   </tr>
 </table>
-<h2>Content</h2>
+<h3>Step 1: Get API key</h3>
+Since we use the [News API](https://newsapi.org/docs/get-started) and it requires us to register. 

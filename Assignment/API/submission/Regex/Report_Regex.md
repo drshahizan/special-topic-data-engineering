@@ -1,5 +1,6 @@
 <h1> Malaysia Daily Vaccination Registration API </h1>
 
+**Step 1: Connection to the Malaysia Daily Vaccination Registration API**
 
 ```ruby
 import requests

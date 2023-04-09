@@ -58,3 +58,32 @@ import json
 import csv
 from datetime import datetime
 ```
+
+## Fetching data using Open Weather API
+
+```python
+# Enter your API key here
+api_key = "d818e156d080744b840822d35e60eefe"
+
+# Define the states and their respective coordinates
+states = {
+    "Johor": {"lat": 1.9344, "lon": 103.3587},
+    "Kedah": {"lat": 6.1254, "lon": 100.3673},
+    "Kelantan": {"lat": 6.1274, "lon": 102.2385},
+    "Kuala Lumpur": {"lat": 3.1390, "lon": 101.6869},
+    "Labuan": {"lat": 5.2767, "lon": 115.2417},
+    "Melaka": {"lat": 2.1896, "lon": 102.2501},
+    "Negeri Sembilan": {"lat": 2.7297, "lon": 101.9381},
+    "Pahang": {"lat": 3.9319, "lon": 103.0044},
+    "Penang": {"lat": 5.4149, "lon": 100.3298},
+    "Perak": {"lat": 4.5908, "lon": 101.0804},
+    "Perlis": {"lat": 6.4553, "lon": 100.4141},
+    "Sabah": {"lat": 5.9804, "lon": 116.0735},
+    "Sarawak": {"lat": 1.5497, "lon": 110.3634},
+    "Selangor": {"lat": 3.0738, "lon": 101.5183},
+    "Terengganu": {"lat": 5.3117, "lon": 103.1324}
+}
+
+# Define the API endpoint URL
+url = "https://api.openweathermap.org/data/2.5/weather"
+```

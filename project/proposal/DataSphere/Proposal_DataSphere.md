@@ -1,6 +1,7 @@
 <div>
-<h1 align = 'center'><b> 🥣 A Sentiment Analysis Study:</b></h1>
-  </div>
+<h1 align = 'center'><b> 🥣 A Sentiment Analysis Study: </b></h1>
+  <h2 align = 'center'> Exploring the Emotional Response of Malaysians towards Menu Rahmah</h2>
+</div>
 
 ## Table of Contents
 * [Executive Summary](#-executive-summary)
@@ -18,7 +19,7 @@
 
 
 ## 📖: Executive Summary 
-To comprehend the feelings, thoughts, and attitudes that individuals have towards a certain subject, good, service, or brand, sentiment analysis is a technique that involves mining and analysing huge volumes of data. It is an effective tool that may be utilised to understand consumer behaviour, forecast trends, and guide corporate decisions. Sentiment analysis is a cutting-edge field that effectively classifies and interprets the sentiment of text, speech, and video data by utilising cutting-edge technology like machine learning and natural language processing.Sentiment analysis is being used by businesses to track consumer feedback, social media trends, brand reputation, and enhance the overall customer experience. Despite its many advantages, sentiment analysis has certain drawbacks, such as the potential for bias, the difficulty of deciphering sarcasm, and the problem of maintaining accuracy across diverse languages and cultures. Sentiment analysis will be a crucial tool for companies looking to stay on the cutting edge of customer knowledge and requirements fulfilment as technology develops.
+To comprehend the feelings, thoughts, and attitudes that individuals have towards a certain subject, good, service, or brand, sentiment analysis is a technique that involves mining and analysing huge volumes of data. It is an effective tool that may be utilised to understand consumer behaviour, forecast trends, and guide corporate decisions. Sentiment analysis is a cutting-edge field that effectively classifies and interprets the sentiment of text, speech, and video data by utilising cutting-edge technology like machine learning and natural language processing. Sentiment analysis is being used by businesses to track consumer feedback, social media trends, brand reputation, and enhance the overall customer experience. Despite its many advantages, sentiment analysis has certain drawbacks, such as the potential for bias, the difficulty of deciphering sarcasm, and the problem of maintaining accuracy across diverse languages and cultures. Sentiment analysis will be a crucial tool for companies looking to stay on the cutting edge of customer knowledge and requirements fulfilment as technology develops.
 
 ## 🖼️: Background
 Menu Rahmah is a government initiative in Malaysia that aims to provide affordable meals to Malaysians, particularly those affected by the COVID-19 pandemic. Participating restaurants and food establishments are incentivized to offer meals priced under RM5 to help alleviate the cost of living for Malaysians. This program is part of the National Economic Recovery Plan (PENJANA) launched in 2020 in response to the economic impact of the COVID-19 pandemic.
@@ -30,11 +31,11 @@ By conducting sentiment analysis on tweets related to Menu Rahmah, we can gain i
 The study will use a combination of natural language processing (NLP) and machine learning techniques to analyze a large dataset of tweets related to Menu Rahmah. The results will be presented in the form of visualizations, highlighting the overall sentiment towards Menu Rahmah and identifying key themes and topics mentioned by users. Overall, this study aims to provide valuable insights into how Malaysians perceive the Menu Rahmah initiative and the emotional response it elicits.
 
 ## 🔎: Goals and Objectives
- The goal of sentiment analysis is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed about a particular topic or entity. The objective of sentiment analysis is to classify the sentiment of the text as positive, negative, or neutral. This information can be used to understand the public opinion towards a specific product, service, brand, or event, and can be helpful in making informed decisions and improving customer satisfaction. It can also be useful in identifying potential issues or areas of improvement for businesses or organizations.
+ The goal of this project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed by Malaysians about the government's latest initiative, Menu Rahmah. The objective of sentiment analysis is to classify the sentiment of the text as positive, negative, or neutral. This information can be used to understand the public opinion towards a specific product, service, brand, or event, and can be helpful in making informed decisions and improving customer satisfaction. It can also be useful in identifying potential issues or areas of improvement for businesses or organizations.
 
 Goals:
 
-1)To learn more about customer opinions and preferences, participating groups can use sentiment analysis to learn about what people think about Menu Rahmah. They may better understand what customers like and dislike, as well as what drives their brand loyalty, by monitoring customer feedback and sentiment.
+1) To learn more about customer opinions and preferences, participating groups can use sentiment analysis to learn about what people think about Menu Rahmah. They may better understand what customers like and dislike, as well as what drives their brand loyalty, by monitoring customer feedback and sentiment.
 
 2)``To enhance the client experience``: Sentiment analysis can assist companies in enhancing the client experience related to Menu Rahmah. Businesses can improve customer happiness by addressing sources of consumer dissatisfaction by recognising them.
 
@@ -119,7 +120,7 @@ The following hardware and software will be required to support the proposed sys
     </tr>
     <tr>
       <td></td>
-      <td>Flask for model deployment</td>
+      <td>Django for model deployment</td>
     </tr>
     <tr>
       <td></td>

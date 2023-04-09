@@ -200,6 +200,7 @@ Even though analyzing rotten fruit images gives a lot of advantages, this proces
 		<li>Software:</li>
 	<ul>
 		<li>Python: required for data processing, modeling, and evaluation.</li>
+		<li>MongoDB: require for storing the data collected</li>
 		<li>Deep learning frameworks such as TensorFlow, PyTorch, or Keras: required for developing deep learning models.</li>
 		<li>Image processing libraries such as OpenCV: required for preprocessing and analyzing images.</li>
 		<li>Version control systems such as Git: required for code management.</li>

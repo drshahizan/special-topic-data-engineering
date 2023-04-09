@@ -3,6 +3,8 @@
 ## Part 1: Extract data from API 
 ### Step 1: Import libraries
 We use `Google Colab` platform to execute all codes
+
+
 The libraries involved are
 
  - **request**

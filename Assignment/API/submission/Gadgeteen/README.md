@@ -96,17 +96,58 @@ states = {
 url = "https://api.openweathermap.org/data/2.5/weather"
 ```
 
-## Load data into CSV file
+## Get the current date and time
 ```python
-# Save the weather data to a CSV file
+current_time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+```
+
+## Create a list to store the weather data for each state
+```python
+weather_data = []
+```
+
+## Loop through each state and retrieve the weather data
+```python
+for state, coords in states.items():
+    # Define the API parameters
+    params = {
+        "lat": coords["lat"],
+        "lon": coords["lon"],
+        "appid": api_key,
+        "units": "metric"
+    }
+    
+    # Send a GET request to the API endpoint
+    response = requests.get(url, params=params)
+
+    # Check for any API errors
+    if response.status_code != 200:
+        print(f"Error: {response.json()['message']}")
+        continue
+
+    # Parse the JSON response
+    data = json.loads(response.content)
+
+    # Retrieve the necessary weather information
+    temperature = data.get("main", {}).get("temp")
+    humidity = data.get("main", {}).get("humidity")
+    wind_speed = data.get("wind", {}).get("speed")
+    description = data.get("weather", [{}])[0].get("description")
+
+    # Add the weather data to the list
+    weather_data.append([state, current_time, temperature, humidity, wind_speed, description])
+```
+
+## Save the weather data to a CSV file
+```python
 with open("weather_data.csv", "w", newline="") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(["State", "Date and Time", "Temperature (C)", "Humidity (%)", "Wind Speed (m/s)", "Description"])
     writer.writerows(weather_data)
-    
+```
+
 # Print a message indicating that the data has been saved
 print("Weather data has been saved to weather_data.csv")
-```
 
 ## Print the data collected from the API
 

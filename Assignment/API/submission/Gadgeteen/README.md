@@ -41,3 +41,16 @@
   </tr>
 </table>
 </p>
+
+
+#Library Used
+
+## Library used
+
+The library we have used is `requests`, `csv` , `datetime` and `json`
+
+- `requests` is used to send a HTTP to server and retrieve data from it,
+- `csv` is used to manipulate csv,
+- `json` is used to manipulate csv,
+- `datetime` is used to get the current date and time
+

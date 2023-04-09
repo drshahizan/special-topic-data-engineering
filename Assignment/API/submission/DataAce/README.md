@@ -69,8 +69,10 @@ with open('/content/drive/MyDrive/news.csv', mode='w', newline='', encoding='utf
 
 <h3>Step 4: Import Data to MongoDB</h3>
 
-  1. Connect to database.
-  2. Add data through csv.
+  1. Connect to database using MongoDB Compass.
+  <div align = "center"><img width="600" alt="image" src="https://user-images.githubusercontent.com/73205963/230782197-8a34f52b-aa10-47ca-9111-245598606798.png"></div>
+
+  3. Add data through csv.
 <div align = "center"><img width="595" alt="image" src="https://user-images.githubusercontent.com/73205963/230782131-a5158ca4-f124-4f20-b40e-da1f35e934fb.png"></div>
 
 

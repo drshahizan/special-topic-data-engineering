@@ -28,3 +28,10 @@
      <td>A20EC0213</td>
    </tr>
 </table>
+
+---
+
+<h2>File content:</h2>
+[Report]()
+[Code]()
+[CSV file exported]()

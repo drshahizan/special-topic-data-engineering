@@ -30,7 +30,7 @@ This assignment requires gathering Malaysia vaccination registration data from t
   </tr>
 </table>
 
-## Contents
-- [Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/Regex/Report_Regex.md)
-- [Code]()
-- [CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/Regex/vaccination.csv)
+## Contents📝
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/Regex/Report_Regex.md)
+- 💻[Code]()
+- 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/Regex/vaccination.csv)

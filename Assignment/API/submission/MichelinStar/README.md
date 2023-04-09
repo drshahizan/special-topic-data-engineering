@@ -25,7 +25,3 @@
     <td>A20EC0231</td>
   </tr>
 </table><br>
-</br>
-
-###Fetching Data from API using Request Library
-#Step 1: Importing necessary libraries

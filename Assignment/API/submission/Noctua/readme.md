@@ -29,3 +29,19 @@
      <td>A20EC0213</td>
    </tr>
 </table>
+
+---
+
+<h1>Report</h1>
+
+<h2>Introduction</h2>
+<div>
+ <p>Welcome to our group dedicated to web/app API search and data scraping from Malaysia! Our team of experts focuses on finding and prioritizing the best APIs that Malaysia has to offer. We use Python in Google Collab to scrape the data, ensuring accurate and comprehensive results. Once we have the data, we import it into mongoDB, making it easily accessible and organized for further analysis. With our specialized skills and dedication to finding the best APIs, we are committed to delivering high-quality results to meet your needs.</p>
+ </div>
+ 
+ <div>
+    <h4>Steps by step of what we done:</h4>
+    <p>
+     </p>
+ 
+  </div>

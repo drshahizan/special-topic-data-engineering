@@ -17,6 +17,7 @@ Don't forget to hit the :star: if you like this repo.
 - [API and Web Scraping](./api-web-scraping.md)
 
 ## Github
+- [WEB API COVID19 MALAYSIA](https://github.com/afiqharith/api-covid-malaysia)
 - [Wikipedia: Malaysia API](https://github.com/JianLoong/malaysia-api)
 - [Waktu Solat PHP API](https://github.com/afzafri/Waktu-Solat-API)
 - [Malaysian Postcode](https://github.com/atqnp/postcode-malaysia)

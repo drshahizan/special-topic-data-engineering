@@ -72,6 +72,25 @@ This code snippet retrieves the 10 most recent tweets containing the keyword "da
 
 Note that you'll need to replace "consumer_key", "consumer_secret", "access_token", and "access_token_secret" with your own Twitter API credentials, which you can obtain from the Twitter Developer Portal.
 
+## Sample data from Twitter API
+10 tweets in CSV format:
+
+```perl
+Copy code
+"tweet_text","user_name","user_location","tweet_id","created_at","retweet_count","favorite_count"
+"RT @elonmusk: Dogecoin is the people’s crypto","Joe Smith","San Francisco, CA","1381645365401705984","2021-04-12 17:52:20",100,200
+"Just tried the new coffee shop on Main St, amazing latte!","Jane Doe","New York, NY","1381632902844738049","2021-04-12 17:02:55",5,10
+"Excited to announce our new product launch next week!","Acme Corp","Los Angeles, CA","1381609371602316802","2021-04-12 15:29:23",50,100
+"Great to see so many people at the rally today! #BLM","John Johnson","Washington, D.C.","1381584639822476801","2021-04-12 13:50:05",20,50
+"Can't believe it's already April, time flies!","Sara Lee","Chicago, IL","1381582737890161153","2021-04-12 13:42:31",2,5
+"Amazing performance by @Beyonce at Coachella last night!","David Kim","Houston, TX","1381568738025341445","2021-04-12 12:47:00",30,60
+"Happy Birthday to my amazing wife! Love you!","Mike Thompson","Miami, FL","1381563491488389634","2021-04-12 12:26:10",10,25
+"Just got my second vaccine shot, feeling relieved!","Emily Chen","Seattle, WA","1381539308136984065","2021-04-12 10:50:00",15,30
+"Congratulations to @SpaceX on the successful launch!","Tom Brown","Denver, CO","1381522180665212420","2021-04-12 09:42:00",40,80
+```
+
+Each line represents a tweet, and the values are separated by commas. The first line contains the headers for each column, which are "tweet_text", "user_name", "user_location", "tweet_id", "created_at", "retweet_count", and "favorite_count". The remaining lines contain the values for each tweet.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

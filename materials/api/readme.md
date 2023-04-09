@@ -10,7 +10,11 @@ Don't forget to hit the :star: if you like this repo.
 # Application Programming Interface (API)
 
 ## Content:
-1. API and Web Scraping
+- API for data science projects
+- Case study: Twitter API
+- Twitter API Data
+- Database in Data Science
+- API and Web Scraping
 
 
 

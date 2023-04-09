@@ -95,3 +95,16 @@ states = {
 # Define the API endpoint URL
 url = "https://api.openweathermap.org/data/2.5/weather"
 ```
+## Print the data collected from the API
+
+```python
+for state, coords in states.items():
+      # Print the weather information for the state
+    print(f"State: {state}")
+    print(f"Date and Time: {current_time}")
+    print(f"Temperature: {temperature}°C")
+    print(f"Humidity: {humidity}%")
+    print(f"Wind speed: {wind_speed} m/s")
+    print(f"Description: {description}")
+    print("="*30)
+```

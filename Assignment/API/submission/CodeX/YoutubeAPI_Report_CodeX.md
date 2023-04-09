@@ -31,7 +31,7 @@ youtube = build('youtube', 'v3', developerKey=api_key)
 ```
 
 ### Step 4: Search request on the YouTube Data API 
-Use the `search().list()` method of the youtube client instance that was created in the previous code. Enter the number of output in maxResults
+Use the `search().list()` method of the youtube client instance that was created in the previous code. The number of output can be entered at `maxResults` and the topic searcher at `q`
 
 ```python
 search_response = youtube.search().list( 

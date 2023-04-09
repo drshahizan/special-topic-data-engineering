@@ -121,3 +121,7 @@ for state, coords in states.items():
     print(f"Description: {description}")
     print("="*30)
 ```
+## Python MongoDB PIP Installation using PyMongo
+```python
+pip install pymongo
+```

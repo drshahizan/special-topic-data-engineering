@@ -7,9 +7,15 @@
 
 Don't forget to hit the :star: if you like this repo.
 # API and Web Scraping
+API and web scraping are two important techniques in data science that are used to collect data from various sources.
 
+API (Application Programming Interface) allows software applications to interact with each other, and it provides a set of rules and protocols that specify how software components should communicate with each other. APIs allow developers to access and use the data and functionality of another application, service or platform in a programmatic way. In data science, APIs are commonly used to access data from web services like Twitter, Facebook, Google, or weather services, among others. With APIs, data scientists can retrieve specific data sets, such as historical weather data, stock prices, or social media metrics, to be used in their analysis.
 
-## What is different between API and web scraping?
+Web scraping is the process of automatically collecting data from websites using software tools or scripts that simulate human browsing behavior. Web scraping allows data scientists to extract large amounts of data from various sources, including websites that do not offer an API or do not provide structured data. In data science, web scraping is used to collect data for analysis or for creating training datasets for machine learning models. With web scraping, data scientists can extract data like prices, product descriptions, reviews, or news articles, among others.
+
+Both API and web scraping are important techniques in data science because they provide a way to access large amounts of data from various sources that can be used for analysis, modeling, and visualization. However, it's important to note that the use of these techniques should always be done within legal and ethical boundaries, respecting the terms of service of the websites and APIs being accessed.
+
+## Different between API and web scraping
 API and web scraping are two different methods of accessing and retrieving data from websites or web services.
 
 API stands for Application Programming Interface, which is a set of protocols, tools, and standards for building software applications. APIs are designed to provide a structured way for developers to access data from external sources. APIs typically provide a set of pre-defined methods or endpoints that allow developers to retrieve data in a specific format. APIs are often provided by the owners of the data, and they are usually designed to be used by developers who have permission to access the data.
@@ -18,7 +24,7 @@ Web scraping, on the other hand, is the process of extracting data from websites
 
 The key difference between API and web scraping is that APIs are a structured way of accessing data that is provided by the owners of the data, while web scraping is a method of extracting data from websites using automated tools. APIs are typically more reliable and efficient than web scraping, as they provide a standardized way of accessing data, while web scraping can be more prone to errors and can require more maintenance over time. However, web scraping can be useful in situations where APIs are not available or when the data is not structured in a way that can be easily accessed using an API.
 
-## Integrate APIs and web scraping
+## Integration between APIs and web scraping
 It is possible to integrate APIs and web scraping together to retrieve data from different sources. This approach can be useful when the required data is not available through an API or when the API does not provide all the data that is required.
 
 Here is an example of how to integrate APIs and web scraping together:
@@ -37,7 +43,7 @@ Here is an example of how to integrate APIs and web scraping together:
 
 It is important to note that when integrating APIs and web scraping, you should ensure that you have the necessary permissions and rights to access the data, and that you comply with any terms and conditions set by the owners of the data.
 
-### Code
+## Code
 Example code in Python that integrates APIs and web scraping together and saves the data in CSV format:
 
 ```python

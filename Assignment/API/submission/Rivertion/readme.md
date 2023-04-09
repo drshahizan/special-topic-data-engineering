@@ -1,5 +1,5 @@
 <h1 align='center'>🎶 Spotify API</h1>
-<P>In this assignment, we scrape and collect data from Spotify such as artist name, album name, likes, dislikes, etc. by using Python libraries such as "requests" as well as using the Spotify API. The data collected will then be saved in a .csv file then will be uploaded to MongoDB with the help of the PyMongo Library</p>	
+<P>In this assignment, we scrape and collect data from Spotify such as song title, song popularity, albums, track's URL. by using Python libraries such as "requests" as well as using the Spotify API. The data collected will then be saved in a .csv file then will be uploaded to MongoDB with the help of the PyMongo Library</p>	
 <h2 align='center'>Group Members </h2>
 <table align='center'>
   <tr>

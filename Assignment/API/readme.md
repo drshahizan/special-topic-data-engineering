@@ -48,7 +48,7 @@ Please follow the instructions below:
 | 3 | DataSphere | Troubleshooting HTML |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/DataSphere" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 4 | Gadgeteen | Troubleshooting HTML |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/Gadgeteen" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 5 | MichelinStar | Troubleshooting HTML |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/MichelinStar" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 6 | Noctua | Troubleshooting HTML |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/Noctua" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 6 | Noctua | Troubleshooting HTML | |
 | 7 | Regex | Troubleshooting HTML |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/Regex" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 8 | Rivertion | Troubleshooting HTML |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/Rivertion" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 9 | StaticIP | Troubleshooting HTML |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/StaticIP" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |

@@ -71,7 +71,7 @@ with open('/content/drive/MyDrive/news.csv', mode='w', newline='', encoding='utf
 
   1. Connect to database.
   2. Add data through csv.
-<img width="595" alt="image" src="https://user-images.githubusercontent.com/73205963/230782131-a5158ca4-f124-4f20-b40e-da1f35e934fb.png">
+<div align = "center"><img width="595" alt="image" src="https://user-images.githubusercontent.com/73205963/230782131-a5158ca4-f124-4f20-b40e-da1f35e934fb.png"></div>
 
 
   4. Output shown as below.

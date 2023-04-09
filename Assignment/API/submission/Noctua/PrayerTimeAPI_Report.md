@@ -21,11 +21,16 @@ import json
 import pandas as pd
 from google.colab import files
   ```
+  
 > We import files from google colab because the API that we used need to receive an input about the City/District prayer times that we need.
+
 ```
 city = input("Enter your city: ")
 
   ```
+In google colab:
+<img height='150px' src=''/>
+
 ### Step 3: Create URL for prayer time API
 
 ```python
@@ -84,15 +89,39 @@ files.download('Waktu_Solat_'+ city + '.csv')
   ```
   
 ### Step 7: Export to MongoDB
-1) Install pymongo
+1) Install & import pymongo
 
 ```python
 ! pip install pymongo
 from pymongo import MongoClient
   ```
   
-2)  
-  
+2) Set collection & database name according to MongoDB 
+
+```python 
+
+client = MongoClient('mongodb+srv://user1:60XRzCr4mubxCPC5@cluster0.evngzba.mongodb.net/test')
+
+db = client["prayer_times_data"]
+collection = db["Penang"]
+
+```
+
+> Collection should be change based on city prayer time.
+
+3) Change data to dictionary
+
+```python 
+
+df.reset_index(inplace = True)
+Data_dictionary=df.to_dict('records')
+
+print(Data_dictionary)
+
+   ```
+   
+4) Final product
+  <img height='150px' src=''/>
   
   
   

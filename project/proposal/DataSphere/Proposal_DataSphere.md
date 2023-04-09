@@ -30,15 +30,33 @@ By conducting sentiment analysis on tweets related to Menu Rahmah, we can gain i
 The study will use a combination of natural language processing (NLP) and machine learning techniques to analyze a large dataset of tweets related to Menu Rahmah. The results will be presented in the form of visualizations, highlighting the overall sentiment towards Menu Rahmah and identifying key themes and topics mentioned by users. Overall, this study aims to provide valuable insights into how Malaysians perceive the Menu Rahmah initiative and the emotional response it elicits.
 
 ## 🔎: Goals and Objectives
-(to be edited) The goal of sentiment analysis is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed about a particular topic or entity. The objective of sentiment analysis is to classify the sentiment of the text as positive, negative, or neutral. This information can be used to understand the public opinion towards a specific product, service, brand, or event, and can be helpful in making informed decisions and improving customer satisfaction. It can also be useful in identifying potential issues or areas of improvement for businesses or organizations.
-In order to enhance marketing and sales strategies, boost customer satisfaction and retention, and ultimately spur business growth, it is important to better understand and target certain groups of customers based on their traits, requirements, and habits.
+ The goal of sentiment analysis is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed about a particular topic or entity. The objective of sentiment analysis is to classify the sentiment of the text as positive, negative, or neutral. This information can be used to understand the public opinion towards a specific product, service, brand, or event, and can be helpful in making informed decisions and improving customer satisfaction. It can also be useful in identifying potential issues or areas of improvement for businesses or organizations.
 
-1. Using data from demographics, psychographics, behaviour, and preferences, identify unique client categories.
-2. Examine client data to comprehend the requirements and buying habits of each category.
-3. Create marketing campaigns and messages that are relevant to each demographic.
-4. Design tailored experiences for each group to increase client happiness and adherence.
-5. Evaluate and assess segmentation strategies' efficacy to continuously enhance and hone strategies.
-6. Understanding and applying MongoDB to develop a recommendation engine 
+Goals:
+
+1)To learn more about customer opinions and preferences, participating groups can use sentiment analysis to learn about what people think about Menu Rahmah. They may better understand what customers like and dislike, as well as what drives their brand loyalty, by monitoring customer feedback and sentiment.
+
+2)To enhance the client experience: Sentiment analysis can assist companies in enhancing the client experience related to Menu Rahmah. Businesses can improve customer happiness by addressing sources of consumer dissatisfaction by recognising them.
+
+3)To monitor brand reputation: Businesses can monitor their brand reputation with the aid of sentiment analysis. Businesses can spot possible reputation concerns and take proactive measures to remedy them by monitoring customer opinion across social media, review sites, and other channels.
+
+4)To inform product development: Businesses can use sentiment analysis to inform product development. Businesses can find ways to enhance their goods and services by looking at client feedback and sentiment.
+
+5)To inform marketing campaigns:Businesses can use sentiment analysis to inform marketing initiatives. Businesses can better target their marketing messages and efforts to resonant with their target audience by assessing customer sentiment.
+
+Objectives:
+
+1.Identify key themes and topics: Determine the main themes and subjects (Menu Rahmah) that consumers are talking about in relation to a company, a product, or a service.
+
+2.Determine sentiment polarity: Obtain the polarity (positive or negative) of consumer opinion of a company, its goods, or its services.
+
+3.Monitor sentiment over time: Monitor alterations in consumer opinion over time to spot trends and potential problems.
+
+4.Identify influencers and detractors: Determine the proponents and opponents who are influencing consumer opinion of a company, its goods, or its services.
+
+5.Inform decision making: Provide information about client sentiment that can help businesspeople make judgements about developing products, providing customer service, running marketing campaigns, and managing their reputations.
+
+
 
 
 ## 🔬: Scope
@@ -301,5 +319,5 @@ For the Sentiment Analysis Study titled "Exploring the Emotional Response of Mal
 
 ## #️⃣: Conclusion
 
-In conclusion, the primary goal of the proposed project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed about a particular topic or entity and in this case, the aim is  to explore the emotional response of Malaysians towards Menu Rahmah through sentiment analysis. The suggested system analyses a dataset of customers and generates predictions using machine learning methods. The team has developed a meticulous schedule and resource plan for the project. As for the project's scope, methodology, and expected results are all well specified. The project's outcomes might enable organisations extract the information from various sources like social medias and provide them insights/ overview to their aimed issues.There are, however some risk and limitations for us in carrying out this project like technical, financial and legal risk. In the end of this project, we hope that this will be beneficial to other policymakers, citizens of Malaysia and organisations participating in this programs to help them predict trends and inform business decisions.
+In conclusion, the primary goal of the proposed project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed about a particular topic or entity and in this case, the aim is  to explore the emotional response of Malaysians towards Menu Rahmah through sentiment analysis. The suggested system analyses a dataset of customers and generates predictions using machine learning methods. The team has developed a meticulous schedule and resource plan for the project. As for the project's scope, methodology, and expected results are all well specified. The project's outcomes might enable organisations to extract the information from various sources like social medias and able to provide them insights/ overview to their products.There are, however some risk and limitations for us in carrying out this project like technical, financial and legal risk. In the end of this project, we hope that this will be beneficial to other policymakers, citizens of Malaysia and organisations participating in this programs to help them predict trends and inform business decisions.
 

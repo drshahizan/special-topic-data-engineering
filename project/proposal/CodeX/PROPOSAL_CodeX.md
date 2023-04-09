@@ -66,7 +66,7 @@ Below is an overview example of how the system will be programmed:
 
 ## 6. System Architecture
 <p align="center">
-<img height='400px' src='Recommendation architecture.png'/>
+<img height='500px' src='Recommendation architecture.png'/>
 </p> 
 
 ## 7. Risks and Limitation

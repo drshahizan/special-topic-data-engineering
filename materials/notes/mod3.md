@@ -22,11 +22,18 @@ Group XXXX
 
 ### Contents:
 #### Notes
+- [Why nowadays NoSQL database is common?](#Why-nowadays-NoSQL-database-is-common?)
 - [Types of Data](#types-of-data)
 - [NoSQL Database](#NoSQL-database)
 - [Types of NoSQL Database](#types-of-NoSQL-database)
 
 ### Others
+## Why nowadays NoSQL database is common?
+- The development using NoSQL database is much faster than SQL database
+- The structure of many different forms of data is more easily handled and evolved with a NoSQL database
+- The amount of data in many applications cannot be served affordably by a SQL database
+- The scale of traffic and need for zero downtime cannot be handled by SQL
+- New application paradigms can be more easily supported
 
 ## Types of Data
 <div align="center"><img src="https://www.bigdataframework.org/wp-content/uploads/2019/01/data-structures-1-1024x349.png"></div>
@@ -107,29 +114,22 @@ Group XXXX
 
 **Advantages of NoSQL Database:**
 
-1)Flexibility
+1)`F`lexibility:` NoSQL database has flexible schema and this makes it easier to add or remove data fields or change the structure of the data
 
-NoSQL database has flexible schema and this makes it easier to add or remove data fields or change the structure of the data
+2)`Scalability:`NoSQL database often use sharding and partitioning to distribute data across multiple servers and nodes
 
-2)Scalability
+3)`Less on-going database maintainance:`easier for maintainance because of automatically partition and replicate information across nodes
 
-NoSQL database often use sharding and partitioning to distribute data across multiple servers and nodes
-
-3)Less on-going database maintainance
-
-easier for maintainance because of automatically partition and replicate information across nodes
-
-4)Cost-effective
-
-NoSQL database runs on commodity hardware and it does not require expensive licenses
+4)`Cost-effective:`NoSQL database runs on commodity hardware and it does not require expensive licenses
 
 
 **Disadvantage of NoSQL**
 
-1)Less flexible query
+1)`Less flexible query:`
 
-2)Less Mature compare to SQL
+2)`Less Mature compare to SQL:`
 
+3)`NoSQL isn't designed to scale by itself:`
 
 ## Types of NoSQL database
 

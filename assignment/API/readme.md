@@ -45,13 +45,13 @@ Please follow the instructions below:
 | -----: | ----- | ----- | :------: | 
 | 1 | CodeX | Your first HTML Page |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab0" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 2 | DataAce | HTML Text Appearance |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 3 | HTML | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 4 | HTML | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 5 | HTML | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 6 | HTML | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 7 | HTML | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 8 | HTML | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 9 | HTML | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 3 | DataSphere | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 4 | Gadgeteen | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 5 | MichelinStar | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 6 | Noctua | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 7 | Regex | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 8 | Rivertion | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 9 | StaticIP | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 
 ## Contribution 🛠️

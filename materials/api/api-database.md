@@ -42,7 +42,8 @@ When you retrieve tweets using the Twitter API, the response includes a variety 
 
 This metadata can be useful when analyzing tweets for various purposes, such as sentiment analysis, geospatial analysis, or network analysis. By incorporating metadata into your analysis, you can gain a more comprehensive understanding of the context and meaning behind each tweet.
 
-how to retrieve tweet data using the Twitter API in Python using the Tweepy library:
+## Code
+How to retrieve tweet data using the Twitter API in Python using the Tweepy library:
 
 ```python
 import tweepy
@@ -71,6 +72,42 @@ for tweet in tweets:
 This code snippet retrieves the 10 most recent tweets containing the keyword "data science" and prints their text and metadata, including the user name, location, tweet ID, creation date, retweet count, and favorite count.
 
 Note that you'll need to replace "consumer_key", "consumer_secret", "access_token", and "access_token_secret" with your own Twitter API credentials, which you can obtain from the Twitter Developer Portal.
+
+Python code to save Twitter API data in a CSV file with the desired format:
+
+```python
+import csv
+import tweepy
+
+# Set up Twitter API credentials
+consumer_key = 'your_consumer_key'
+consumer_secret = 'your_consumer_secret'
+access_token = 'your_access_token'
+access_token_secret = 'your_access_token_secret'
+
+# Authenticate with Twitter API
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+
+# Create API object
+api = tweepy.API(auth)
+
+# Define search query
+query = 'data science'
+
+# Set up CSV file and header row
+with open('tweets.csv', mode='w', encoding='utf-8', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(['Tweet Text', 'User Name', 'User Location', 'Tweet ID', 'Tweet Created At', 'Retweet Count', 'Favorite Count'])
+
+    # Retrieve tweets and write to CSV file
+    for tweet in tweepy.Cursor(api.search_tweets, q=query, lang='en', tweet_mode='extended').items(10):
+        writer.writerow([tweet.full_text, tweet.user.name, tweet.user.location, tweet.id_str, tweet.created_at, tweet.retweet_count, tweet.favorite_count])
+
+print('Data saved to tweets.csv')
+```
+
+This code uses the csv module to create a new CSV file and write each tweet's text, user name, location, ID, created time, retweet count, and favorite count in a row with the corresponding headers. The tweepy.Cursor object is used to retrieve the tweets matching the specified search query and language. Finally, the code prints a message indicating that the data has been saved to the CSV file.
 
 ## Sample data from Twitter API
 10 tweets in CSV format:

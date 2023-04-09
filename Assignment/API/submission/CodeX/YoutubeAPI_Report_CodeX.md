@@ -20,7 +20,7 @@ pip install google-api-python-client
 ```
 
 ### Step 2: Define the API key
-the API key can be retrieved from the website(insert link)
+the API key can be retrieved from the YouTube API website
 ```python
 #insert key API
 api_key = *AIzaSyDpQxJ9j8qIE6CeotHF5cyxecV8iIucGJE*
@@ -69,19 +69,32 @@ for item in search_response['items']:
 ### Step 1: Open and connect MongoDB compass
 > Install [MongoDB Compass](https://www.mongodb.com/try/download/shell) 
 
-Open MongoDB Compass and create `New Connection`
+Open MongoDB Compass and create `New Connection`. Insert the URL of the local host.
+
+<img height='200px' src='https://user-images.githubusercontent.com/96984290/230783928-1fe10a85-dd6e-43b2-8397-a29c0f03658d.jpg'/>
+
 
 ### Step 2: Create new database
 Create Database by inserting `Database Name` and `Collection Name` 
 
+<img height='350px' src='https://user-images.githubusercontent.com/96984290/230783967-e43ebd9a-7e2d-4296-8231-5249137b2dde.jpg'/>
+
 ### Step 3: Add .csv file
 In the new database created, click on `ADD DATA` and select `Import JSON or CSV file`.
+
+<img height='150px' src='https://user-images.githubusercontent.com/96984290/230783986-27fef5d2-81b6-4ce2-8858-4f5fd721b4d1.jpg'/>
+
 
 Choose the file [netflix_search_results](https://github.com/drshahizan/special-topic-data-engineering/blob/11957597cbe0d791eefc634dbe4a2b8c3b9506c3/Assignment/API/submission/CodeX/youtube_search_results.csv) 
 
 Then, click on `Import`
 
+<img height='300px' src='https://user-images.githubusercontent.com/96984290/230784004-63817cab-f6f0-451f-bd8f-7088bb2a6e3f.jpg'/>
+
 A database based on the csv uploaded will be shown as below picture
+
+<img height='300px' src='https://user-images.githubusercontent.com/96984290/230784034-2d26ea95-b369-47c2-8a21-635f9cc0689b.jpg'/>
+
 
 
 

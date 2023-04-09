@@ -146,7 +146,7 @@ with open("weather_data.csv", "w", newline="") as csvfile:
     writer.writerows(weather_data)
 ```
 
-# Print a message indicating that the data has been saved
+## Print a message indicating that the data has been saved
 print("Weather data has been saved to weather_data.csv")
 
 ## Print the data collected from the API
@@ -162,3 +162,47 @@ for state, coords in states.items():
     print(f"Description: {description}")
     print("="*30)
 ```
+
+## Store the collected data in MongoDB database
+
+Install and import pymongo library to interact with the MongoDB database.
+
+```python
+pip install pymongo
+```
+
+```python
+import pymongo
+```
+
+Create a connection to the MongoDB database using the pymongo library and MongoDB database credentials including the Mongo URI, database name and collection name.
+
+```python
+# Create a new MongoDB client
+client = pymongo.MongoClient(mongo_uri)
+
+# Select the database
+db = client["<database>"]
+
+# Select the collection
+collection = db["<collection>"]
+```
+
+After collecting the data from API, arrange the data needed in dictionary format and use `insert_one()` method to insert the document into the collection of the database.
+
+```python
+document = {
+    "state": state,
+    "date_time": current_time,
+    "temperature": temperature,
+    "humidity": humidity,
+    "wind_speed": wind_speed,
+    "description": description
+}
+
+collection.insert_one(document)
+```
+
+The image below shows the MongoDB Compass screenshot of documents successfully inserted into the collection of database.
+
+![MongoDB_Compass_Screenshot](https://user-images.githubusercontent.com/69034742/230757635-17ba0b13-b75d-4661-8750-210cf43c9692.png)

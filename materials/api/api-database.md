@@ -76,7 +76,6 @@ Note that you'll need to replace "consumer_key", "consumer_secret", "access_toke
 10 tweets in CSV format:
 
 ```perl
-Copy code
 "tweet_text","user_name","user_location","tweet_id","created_at","retweet_count","favorite_count"
 "RT @elonmusk: Dogecoin is the people’s crypto","Joe Smith","San Francisco, CA","1381645365401705984","2021-04-12 17:52:20",100,200
 "Just tried the new coffee shop on Main St, amazing latte!","Jane Doe","New York, NY","1381632902844738049","2021-04-12 17:02:55",5,10

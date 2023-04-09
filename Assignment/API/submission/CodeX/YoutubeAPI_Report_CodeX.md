@@ -52,6 +52,9 @@ for item in search_response['items']:
 ```
 
 ## Part 2: Upload .csv file into MongoDB 
+### Step 1: Open and connect MongoDB compass
+### Step 2: Create new database
+### Step 3: Add .csv file
 
 
 

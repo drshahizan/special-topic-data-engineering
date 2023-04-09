@@ -1,6 +1,6 @@
 <h1 align="center"> Open Weather API </h1>
 
-## Library used
+## Objective
 
 The objective of this assignment is to collect weather data from the OpenWeather API using Python, and then save the collected data as an Excel file and also in MongoDB. This can be useful for a variety of purposes, such as analyzing weather trends or building weather forecasting models.
 

@@ -44,14 +44,14 @@ Please follow the instructions below:
 | No | Group | Title | Files |
 | -----: | ----- | ----- | :------: | 
 | 1 | CodeX | Your first HTML Page |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/CodeX" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 2 | DataAce | HTML Text Appearance |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab1" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 3 | DataSphere | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 4 | Gadgeteen | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 5 | MichelinStar | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 6 | Noctua | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 7 | Regex | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 8 | Rivertion | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 9 | StaticIP | Troubleshooting HTML |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 2 | DataAce | HTML Text Appearance |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/DataAce" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 3 | DataSphere | Troubleshooting HTML |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission/DataSphere" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 4 | Gadgeteen | Troubleshooting HTML |<a href="" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 5 | MichelinStar | Troubleshooting HTML |<a href="" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 6 | Noctua | Troubleshooting HTML |<a href="" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 7 | Regex | Troubleshooting HTML |<a href="" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 8 | Rivertion | Troubleshooting HTML |<a href="" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 9 | StaticIP | Troubleshooting HTML |<a href="" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 
 ## Contribution 🛠️

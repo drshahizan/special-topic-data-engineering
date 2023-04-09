@@ -98,6 +98,12 @@ url = "https://api.openweathermap.org/data/2.5/weather"
 
 ## Load data into CSV file
 ```python
+# Save the weather data to a CSV file
+with open("weather_data.csv", "w", newline="") as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(["State", "Date and Time", "Temperature (C)", "Humidity (%)", "Wind Speed (m/s)", "Description"])
+    writer.writerows(weather_data)
+    
 # Print a message indicating that the data has been saved
 print("Weather data has been saved to weather_data.csv")
 ```

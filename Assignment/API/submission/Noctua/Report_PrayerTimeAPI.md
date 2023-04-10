@@ -116,12 +116,16 @@ files.download('Waktu_Solat_'+ city + '.csv')
 ### Step 7: Export to MongoDB
 1) Install & import pymongo
 
+PyMongo is a Python library that provides tools for working with MongoDB databases. It is essential for accessing and manipulating data stored in a MongoDB database using Python. To install PyMongo in Google Colab, we can use the following command:
+
 ```python
 ! pip install pymongo
 from pymongo import MongoClient
   ```
   
-2) Set collection & database name according to MongoDB 
+2) Set collection & database name according to MongoDB
+
+The `MongoClient` class in PyMongo is used to establish a connection to a MongoDB instance or cluster. Once a connection is established, we can use the client object to perform operations on the MongoDB database. In the context of Google Colab, we can use the MongoClient class to connect to a MongoDB instance hosted on a remote server.
 
 ```python 
 

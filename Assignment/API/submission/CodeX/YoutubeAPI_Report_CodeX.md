@@ -3,6 +3,14 @@
  API stands for Application Programming Interface. In the context of APIs, the word Application refers to any software with a distinct function. Interface can be thought of as a contract of service between two applications. This contract defines how the two communicate with each other using requests and responses. 
 
 ## Part 1: Getting API Key
+### Step 1: Go to Youtube Data API websites
+Go to Youtube Data API websites: https://developers.google.com/youtube/v3/
+
+### Step 2: Click on Guides
+![Uploading Screenshot (457).png…]()
+
+### Step 3: Click on "obtain authorization credentials"
+
 
 ## Part 2: Extract data from API 
 ### Step 1: Import libraries

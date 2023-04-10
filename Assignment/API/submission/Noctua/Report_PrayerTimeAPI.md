@@ -2,13 +2,17 @@
 
 
 ## 📖Introduction
-Welcome to our group dedicated to web/app API search and data scraping from Malaysia! Our team of experts focuses on finding and prioritizing the best APIs that Malaysia has to offer. We use Python in Google Collab to scrape the data, ensuring accurate and comprehensive results. Once we have the data, we import it into mongoDB, making it easily accessible and organized for further analysis. With our specialized skills and dedication to finding the best APIs, we are committed to delivering high-quality results to meet your needs.</p>
 
 ---
 
+Welcome to our group dedicated to web/app API search and data scraping from Malaysia! Our team of experts focuses on finding and prioritizing the best APIs that Malaysia has to offer. We use Python in Google Collab to scrape the data, ensuring accurate and comprehensive results. Once we have the data, we import it into mongoDB, making it easily accessible and organized for further analysis. With our specialized skills and dedication to finding the best APIs, we are committed to delivering high-quality results to meet your needs.</p>
+
 ## 📏Steps by step:
+
+---
    
 ### Step 1: Finding API
+
 > Finding a suitable web API prioritize in Malaysia which we manage to find Prayer Time API on [Prayer Time](https://aladhan.com/prayer-times-api#GetCalendar)
 
 The Prayer Time API on GitHub is a RESTful API that provides accurate prayer times for various Malaysian cities. The API is based on the calculation methods of the Islamic University, Karachi, and is updated daily. The API is open-source and available on GitHub, which makes it easy to access and use.

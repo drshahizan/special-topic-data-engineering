@@ -11,6 +11,8 @@ Welcome to our group dedicated to web/app API search and data scraping from Mala
 ### Step 1: Finding API
 > Finding a suitable web API prioritize in Malaysia which we manage to find Prayer Time API on [Prayer Time](https://aladhan.com/prayer-times-api#GetCalendar)
 
+The Prayer Time API on GitHub is a RESTful API that provides accurate prayer times for various Malaysian cities. The API is based on the calculation methods of the Islamic University, Karachi, and is updated daily. The API is open-source and available on GitHub, which makes it easy to access and use.
+
 ### Step 2: Installing libraries 
 
 We used `Google Collab` for all the coding for easier collaboration between team members.

@@ -15,7 +15,7 @@ The Prayer Time API on GitHub is a RESTful API that provides accurate prayer tim
 
 ### Step 2: Installing libraries 
 
-We used `Google Collab` for all the coding for easier collaboration between team members.
+Google Colaboratory (also known as `Google Colab`) is a free online platform provided by Google that allows users to write and execute Python code in a web browser. It is a popular tool for collaborative coding, as multiple users can work on the same code simultaneously and see each other's changes in real-time.
 
 ```python
 import requests

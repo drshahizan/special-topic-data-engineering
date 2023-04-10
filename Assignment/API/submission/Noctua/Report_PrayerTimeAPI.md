@@ -150,8 +150,13 @@ Data_dictionary=df.to_dict('records')
 print(Data_dictionary)
 
    ```
+4) Insert data into collection made in MongoDB.
+
+``` python
+collection.insert_many(data)
+```
    
-4) Final product
+5) Final product
   <img height='300px' src='Figures/MongoDb.jpg'/>
   
   

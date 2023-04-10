@@ -92,7 +92,7 @@ while month_count <= len(data["data"]):
  ```python
  
  row = {'City': city, 'Date': date, 'Islamic Date': islamicdate, 'Subuh': fajr, 'Syuruk': sunrise, 'Zohor': dhuhr, 'Asar': asr, 'Maghrib': maghrib, 'Isya': isha}
-        rows.append(row)
+ rows.append(row)
   ```
   
 ### Step 5: Insert data into dataframe.

@@ -53,24 +53,34 @@ Don't forget to hit the :star: if you like this repo.
 
 
 ### Contents:
+* [Introduction](#-introduction)
+* [Data Integration Architecture](#️-data-integration-architecture)
+* [Data Integration Workflow](#-data-integration-workflow)
+* [Data Integration Workflow Integration Breakpoints](#-data-integration-workflow-integration-breakpoints)
+* [Data Integration Workflow Stages](#️-data-integration-workflow-stages)
+* [Data Integration Requirements](#-data-integration-requirements)
+* [Data Integration Design](#-data-integration-design)
+* [Data Integration Tools and Types](#-data-integration-tools-and-types)
 
-#### Notes
-What is Data Integration?
-- [Abc](#abc)
 
-### Others
-- [xyz](https://utm.my)
-
-
-## ABC
+## Introduction
 Software engineering is an essential field of study that deals with the design, development, and maintenance of software applications. It plays a vital role in the development and success of modern technology. Here are some of the reasons why software engineering is important:
 
 
-## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
+## Data Integration Architecture
 
-You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+## Data Integration Workflow
 
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
+## Data Integration Workflow Integration Breakpoints
+
+## Data Integration Workflow Stages
+
+## Data Integration Requirements
+
+## Data Integration Design
+
+## Data Integration Tools and Types
+
+
 
 

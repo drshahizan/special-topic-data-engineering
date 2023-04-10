@@ -31,6 +31,8 @@ We import some useful libraries including `requests`, `json`, `pandas` and `file
 `files` library
 > The `google.colab` module provides a files module which allows us to interact with local files on the user's computer. The files module provides methods for uploading and downloading files to and from the Colab environment. This library is useful when we want to load data from the user's computer or save data to the user's computer.
 
+By importing these libraries in our Google Colab notebook, we can leverage the functionality provided by these libraries to perform various tasks in our project, such as making HTTP requests to web APIs, parsing JSON data, manipulating and analyzing data using Pandas, and uploading or downloading files using the files library. These libraries can significantly simplify our coding process and allow us to achieve our goals faster and with greater efficiency.
+
 ```python
 import requests
 import json

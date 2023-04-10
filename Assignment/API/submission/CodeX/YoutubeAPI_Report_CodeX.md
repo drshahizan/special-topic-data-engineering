@@ -1,5 +1,7 @@
 
 # Youtube API
+##  API stands for Application Programming Interface. In the context of APIs, the word Application refers to any software with a distinct function. Interface can be thought of as a contract of service between two applications. This contract defines how the two communicate with each other using requests and responses. 
+
 ## Part 1: Extract data from API 
 ### Step 1: Import libraries
 We use `Google Colab` platform to execute all codes
@@ -20,7 +22,7 @@ pip install google-api-python-client
 ```
 
 ### Step 2: Define the API key
-the API key can be retrieved from the YouTube API website
+#### API keys verify the program or application making the API call. They identify the application and ensure it has the access rights required to make the particular API call. The API key can be retrieved from the YouTube API website
 ```python
 #insert key API
 api_key = *AIzaSyDpQxJ9j8qIE6CeotHF5cyxecV8iIucGJE*

@@ -25,7 +25,16 @@ Group Codex
 ## Data Engineering
 `Data Engineer` refers to a person who is responsible for designing, developing, and maintaining the infrastructure that supports the storage, processing, and analysis of large volumes of data. To ensure that data is gathered, saved, and made accessible for use by data scientists and other stakeholders, data engineers employ a variety of technologies, including databases, data pipelines, and data warehouses. Data engineers are professionals in the design and implementation of data systems.
 
+- What do they do?
+  -  collecting, managing, and converting raw data into information that can be interpreted by data scientists and business analysts. Data accessibility is their ultimate goal, which is to enable organizations to utilize data for performance evaluation and optimization.
+
+
+
 `Data Engineering` is a field that includes the process, tools, and techniques used to design, develop and maintain the systems and infrastructure that support the data needs of an organization. In order to make sure that data is available and accessible for analysis and decision-making, data engineering makes use of a variety of technologies, including databases, data pipelines, and data warehouses.
+
+<p align="center">
+<img height='200px' src='https://user-images.githubusercontent.com/96984290/230955953-58bf734c-0030-464b-91a8-c177168f3759.jpg'/>
+</p>
 
 ## Data Science
 `Data Science` is an interdisciplinary field that includes the use of statistical and computational methods, machine learning, and other ways to extract knowledge and insight from data. Data science includes a range of activities, including data collection, cleaning, processing, analysis, and visualization, which aims to find trends, forecast the future, and guide decision-making.

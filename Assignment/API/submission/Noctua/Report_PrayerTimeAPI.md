@@ -19,9 +19,10 @@ Google Colaboratory (also known as `Google Colab`) is a free online platform pro
 
 We import some useful libraries including `requests`, `json`, `pandas` and `files`
 
-- `requests` library:  Python library used for making HTTP requests. The library is useful when we want to interact with web APIs. It allows us to make HTTP requests and receive responses from APIs.
-- `json` is used to manipulate json file,
+- `requests` library:  Python library used for making HTTP requests. The library is useful when we want to interact with web APIs. It allows us to make HTTP requests and receive responses from APIs. 
+- `json` library:  Provides methods to parse JSON data and convert Python objects into JSON data. In Google Colab, the JSON library can be used to parse JSON data received from web APIs and convert it into Python objects such as lists or dictionaries.
 - `pandas` is used to convert json to csv
+
 
 
 ```python

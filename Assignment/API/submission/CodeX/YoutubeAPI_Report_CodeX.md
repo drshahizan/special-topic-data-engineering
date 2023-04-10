@@ -7,9 +7,17 @@
 Go to Youtube Data API websites: https://developers.google.com/youtube/v3/
 
 ### Step 2: Click on Guides
-![Uploading Screenshot (457).png…]()
+![Screenshot (457)](https://user-images.githubusercontent.com/92329710/230888013-273cbf33-201e-4afc-8a9a-85a385f7ec1a.png)
+
 
 ### Step 3: Click on "obtain authorization credentials"
+![Screenshot (458)_LI](https://user-images.githubusercontent.com/92329710/230888059-7cb675cf-09e1-49ec-a18d-05adc943b221.jpg)
+
+### Step 4: Click on "Credentials page"
+![Screenshot (459)_LI](https://user-images.githubusercontent.com/92329710/230888474-45317bcb-3449-481f-9bf2-98bc073e4709.jpg)
+
+### Step 5: Click on "Create Credentials" and select API key
+![Screenshot (463)](https://user-images.githubusercontent.com/92329710/230888723-0e8f9b92-26c4-4ce9-a7f8-93344b5cf2ee.png)
 
 
 ## Part 2: Extract data from API 

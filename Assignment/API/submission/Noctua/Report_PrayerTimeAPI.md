@@ -128,12 +128,14 @@ from pymongo import MongoClient
 The `MongoClient` class in PyMongo is used to establish a connection to a MongoDB instance or cluster. Once a connection is established, we can use the client object to perform operations on the MongoDB database. In the context of Google Colab, we can use the MongoClient class to connect to a MongoDB instance hosted on a remote server.
 
 ```python 
-
+# Create a Mongo DB client
 client = MongoClient('mongodb+srv://user1:60XRzCr4mubxCPC5@cluster0.evngzba.mongodb.net/test')
 
+# Select the existing database to store the csv files
 db = client["prayer_times_data"]
-collection = db["Penang"]
 
+# Select the existing database collection to group the csv files
+collection = db["Penang"]
 ```
 
 > Collection should be change based on city prayer time.

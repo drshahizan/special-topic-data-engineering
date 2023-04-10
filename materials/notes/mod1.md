@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 Group Codex
 1. Adrina Asyiqin Binti Md Adha | A20EC0174
-2. 
+2. Chong Kai Zhe | A20EC0186
 3. XXXX
 4. XXXX
 5. Muhammad Naquib Bin Zakaria | A20BE0161

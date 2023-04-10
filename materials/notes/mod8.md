@@ -36,10 +36,6 @@ Group Regex
 - [AI vs ML vs DL](#ai-vs-ml-vs-dl)
 
 
-### Others
-- [xyz](https://utm.my)
-
-
 ## Artificial Intelligence
 Artificial Intelligence refers to the simulation of human intelligence in machines, allowing them to perform tasks that would typically require human intelligence, such as learning, reasoning, perception, and decision-making. The primary goals of AI are as follows:
 

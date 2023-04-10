@@ -2,7 +2,9 @@
 # Youtube API
  API stands for Application Programming Interface. In the context of APIs, the word Application refers to any software with a distinct function. Interface can be thought of as a contract of service between two applications. This contract defines how the two communicate with each other using requests and responses. 
 
-## Part 1: Extract data from API 
+## Part 1: Getting API Key
+
+## Part 2: Extract data from API 
 ### Step 1: Import libraries
 We use `Google Colab` platform to execute all codes
 
@@ -68,7 +70,7 @@ for item in search_response['items']:
     writer.writerow({'Title': title, 'Description': description, 'Channel Name': channel_name})
 ```
 
-## Part 2: Upload .csv file into MongoDB 
+## Part 3: Upload .csv file into MongoDB 
 ### Step 1: Open and connect MongoDB compass
 > Install [MongoDB Compass](https://www.mongodb.com/try/download/shell) 
 

@@ -157,7 +157,10 @@ collection.insert_many(data)
 ```
    
 5) Final product
-  <img height='300px' src='Figures/MongoDb.jpg'/>
+   > MongoDB Compass
+   <img height='300px src='Figures/MongDBCompass.png'/>
+   > MongoDB Atlas
+   <img height='300px' src='Figures/MongoDb.jpg'/>
   
   
   

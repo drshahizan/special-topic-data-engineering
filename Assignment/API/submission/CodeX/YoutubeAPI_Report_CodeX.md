@@ -22,13 +22,13 @@ pip install google-api-python-client
 ```
 
 ### Step 2: Define the API key
-####### API keys verify the program or application making the API call. They identify the application and ensure it has the access rights required to make the particular API call. The API key can be retrieved from the YouTube API website
+API keys verify the program or application making the API call. They identify the application and ensure it has the access rights required to make the particular API call. The API key can be retrieved from the YouTube API website
 ```python
 #insert key API
 api_key = *AIzaSyDpQxJ9j8qIE6CeotHF5cyxecV8iIucGJE*
 ```
 ### Step 3: Create YouTube Data API
-####### allows us to easily query YouTube’s database of videos like is normally done in the search bar
+ allows us to easily query YouTube’s database of videos like is normally done in the search bar
 ```python
 youtube = build('youtube', 'v3', developerKey=api_key)
 ```

@@ -156,7 +156,9 @@ print(Data_dictionary)
 collection.insert_many(data)
 ```
    
-5) Final product in MongoDB Compass and Atlas
+5) Final product in MongoDB Compass and Atlas.
+
+
    <img height='300px' src='Figures/MongoDBCompass.png'/>
    <img height='300px' src='Figures/MongoDb.jpg'/>
   

@@ -189,7 +189,7 @@ These are just a few examples of the many applications of ML. As the field conti
 ## Deep Learning
 Deep learning is a subset of machine learning that is based on artificial neural networks with multiple layers. It involves training artificial neural networks to recognize patterns in data, by allowing them to automatically learn from and make decisions based on large amounts of labeled data.
 
-This is what a **simple neural network looks** like:
+This is what a **simple neural network** looks like:
 
 <p align="center"><img src='https://github.com/sakinahalizzah/images/blob/431d3d7550756538dadd84fadf1a1082515e409d/input-output.jpg'></p>
 

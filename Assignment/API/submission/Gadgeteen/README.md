@@ -1,4 +1,14 @@
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/95162273/230906680-da7a5fc0-00e4-4a4a-a03d-34c4c2a40598.png" alt = "Open Weather API logo"/>
+</div>
+
 <h1 align="center"> Open Weather API </h1>
+
+<a href="https://openweathermap.org/">Open Weather</a>  is a service that provides weather data through an API (Application Programming Interface). The OpenWeatherMap API allows developers to access current, forecast, and historical weather data for any location on Earth, as well as weather maps, satellite imagery, and other weather-related information.
+
+With the Open Weather API, developers can integrate weather information into their applications, websites, and services. The API provides real-time weather data, hourly and daily forecasts, historical weather data, and more.
+
+The Open Weather API uses a RESTful interface, which means that developers can interact with the API using standard HTTP methods, such as GET and POST, and retrieve data in JSON, XML, or HTML format. The API is available in both free and paid versions, with different levels of access and data limits.
 
 ## Objective
 
@@ -68,6 +78,28 @@ from datetime import datetime
 ```
 
 ## Fetching data using Open Weather API
+
+1. Go to the OpenWeatherMap website at <a href="https://openweathermap.org/">https://openweathermap.org/</a> and click on the "Sign up" button in the top right corner of the page.
+
+2. Fill in your details, including your email address and a password, and then click on the "Create Account" button.
+
+3. Once you have created an account, log in to the OpenWeatherMap website using your email address and password.
+
+4. Click on the "API Keys" tab in the navigation menu at the top of the page.
+
+5. Click on the "Generate new API key" button.
+
+6. Give your API key a name and select the API plan that you want to use.
+
+7. Click on the "Generate" button to create your API key.
+
+8. Your API key will now be displayed on the screen. Make sure to copy it and keep it in a safe place, as you will need it to access the OpenWeatherMap API.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/95162273/230924187-eb187d9b-99f9-453c-90b7-522bb709d24d.png" alt = "Open Weather API logo"/>
+</div>
+
+9. Paste your API Key in the code below.
 
 ```python
 # Enter your API key here
@@ -147,7 +179,9 @@ with open("weather_data.csv", "w", newline="") as csvfile:
 ```
 
 ## Print a message indicating that the data has been saved
+```python
 print("Weather data has been saved to weather_data.csv")
+```
 
 ## Print the data collected from the API
 

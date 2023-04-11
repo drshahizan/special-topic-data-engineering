@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/120556342/231046603-021cdd4a-de06-4c33-b1d2-8ff7a46e2bfd.png"/>
+</div>
+
 <h1 align=center>🏥 Malaysia Daily Vaccination Registration API </h1>
 
 This assignment requires gathering Malaysia vaccination registration data from the MyVaccine API. We are using Python libraries to automate the retrieval and processing of data from the API, and then saving the data to a csv file. After that, use the PyMongo library to save the data to MongoDB.

@@ -1,5 +1,8 @@
 <h1> Malaysia Daily Vaccination Registration API </h1>
 
+- [Part 1: Retrieve Data From API & Save in CSV Format](#part-1:-retrieve-data-from-api-&-save-in-csv-format)
+- [Part 2: Store the CSV file in MongoDB](#part-2:-store-the-csv-file-in-mongodb)
+
 <h2>Part 1: Retrieve Data From API & Save in CSV Format</h2>
 In this part, the vaccination registration data will be collected by using API and it will be saved in csv format. 
 

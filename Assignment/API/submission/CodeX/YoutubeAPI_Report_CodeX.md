@@ -52,18 +52,18 @@ youtube = build('youtube', 'v3', developerKey=api_key)
 ```
 
 ### Step 4: Search request on the YouTube Data API 
-Use the `search().list()` method of the youtube client instance that was created in the previous code. The number of output can be entered at `maxResults` and the topic searcher at `q`
+Use the `search().list()` method of the youtube client instance that was created in the previous code. The topic searcher at `q` and since this project focused on 'Malaysia', we set "q = 'Malaysia'". `maxResults` is used to specified the number of search result per API key. It is ranged from 1 to 50, and since we want to get as much data as possible, we set it as 50.
 
 ```python
 search_response = youtube.search().list( 
     q='malaysia', 
     type='video', 
     part='id,snippet', 
-    maxResults=500 ).execute()
+    maxResults=50 ).execute()
 ```
 
 ### Step 5: Fetch output title, description, channel name
-This will produce 500 results
+This will produce more than 500 results
 ```python
 for item in search_response['items']: 
     title = item['snippet']['title'] 

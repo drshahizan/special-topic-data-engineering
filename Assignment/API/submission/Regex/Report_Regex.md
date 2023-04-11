@@ -1,9 +1,9 @@
 <h1> Malaysia Daily Vaccination Registration API </h1>
 
-- [Part 1: Retrieve Data From API & Save in CSV Format](#part-1:-retrieve-data-from-api-&-save-in-csv-format)
-- [Part 2: Store the CSV file in MongoDB](#part-2:-store-the-csv-file-in-mongodb)
+- [Part 1: Retrieve Data From API & Save in CSV Format](#part-1-retrieve-data-from-api-and-save-in-csv-format)
+- [Part 2: Store the CSV file in MongoDB](#part-2-store-the-csv-file-in-mongodb)
 
-<h2>Part 1: Retrieve Data From API & Save in CSV Format</h2>
+<h2>Part 1 Retrieve Data From API and Save in CSV Format</h2>
 In this part, the vaccination registration data will be collected by using API and it will be saved in csv format. 
 
 <h3>Step 1: Import the libraries</h3>
@@ -56,7 +56,7 @@ The last step is save the vaccination data to a CSV file.
 ```python
 df.to_csv('vaccination.csv',index=False)
 ```
-<h2>Part 2: Store the CSV file in MongoDB</h2>
+<h2>Part 2 Store the CSV file in MongoDB</h2>
 
 <h3>Step 1: Import the libraries</h3>
 Install and import pymongo library to interact with the MongoDB database. csv library is used for import csv file.

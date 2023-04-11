@@ -57,6 +57,7 @@ The last step is save the vaccination data to a CSV file.
 df.to_csv('vaccination.csv',index=False)
 ```
 <h2>Part 2 Store the CSV file in MongoDB</h2>
+In this part, the steps to store CSV file in MongoDB will be shown.
 
 <h3>Step 1: Import the libraries</h3>
 Install and import pymongo library to interact with the MongoDB database. csv library is used for import csv file.
@@ -80,6 +81,7 @@ db = client["<database>"]
 # Select the collection
 collection = db["<collection>"]
 ```
+> How to get mongo URL❓<br><br>1. Go to the MongoDB Atlas dashboard (https://cloud.mongodb.com/).<br>2. Click on the "Database" option in the left-hand menu.<br>3. Find the desired Cluster and click "Connect" button.<br>4. Select "Connect Your Application" in the Connection Methods tab.<br>5. Choose your driver and version.<br>6. Add connection string into application code.
 
 <h3>Step 3: Save the CSV file to MongoDB</h3>
 Open the csv that created in part 1 and convert the csv file to dictionary format then use insert_one() method to insert the document into the collection of the database.

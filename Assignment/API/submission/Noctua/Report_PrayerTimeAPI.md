@@ -15,7 +15,7 @@ Welcome to our group dedicated to web/app API search and data scraping from Mala
 
 > Finding a suitable web API prioritize in Malaysia which we manage to find Prayer Time API on [Prayer Time](https://aladhan.com/prayer-times-api#GetCalendar)
 
-The Prayer Time API on GitHub is a RESTful API that provides accurate prayer times for various Malaysian cities. The API is based on the calculation methods of the Islamic University, Karachi, and is updated daily. The API is open-source and available on GitHub, which makes it easy to access and use.
+The Prayer Time API on GitHub is a RESTful API that provides accurate prayer times for various Malaysian cities. The API is based on the calculation methods of the Islamic University, Karachi, and is updated daily. The API is open-source and available on GitHub, which eases access and usage.
 
 ### Step 2: Installing libraries 
 
@@ -67,7 +67,7 @@ data = response.json()
   ```
   
 ### Step 4: Retrieve/Fetch/Request Data
-> The data that will retrieve are: `City`, `Date`, `Islamic Date`, `Fajr`, `Sunrise`, `Dhuhr`, `Asr`, `Magrib`, and `Isya`.
+> The data that will be retrieved are: `City`, `Date`, `Islamic Date`, `Fajr`, `Sunrise`, `Dhuhr`, `Asr`, `Magrib`, and `Isya`.
 ```python
 
 month_count = 1
@@ -116,7 +116,7 @@ files.download('Waktu_Solat_'+ city + '.csv')
 ### Step 7: Export to MongoDB
 1) Install & import pymongo
 
-PyMongo is a Python library that provides tools for working with MongoDB databases. It is essential for accessing and manipulating data stored in a MongoDB database using Python. To install PyMongo in Google Colab, we can use the following command:
+PyMongo is a Python library that provides tools for working with MongoDB databases. It is essential for accessing and manipulating data stored in a MongoDB database using Python. To install PyMongo in Google Colab, we can simply use the following command:
 
 ```python
 ! pip install pymongo

@@ -1,5 +1,6 @@
 <div>
-<h1 align = 'center'><b>New Government:man_in_tuxedo:: Redditor's View Towards Anwar Ibrahim as Malaysia's 10th Prime Minister.</b></h1>
+<h1 align = 'center'><b>New Government:man_in_tuxedo:
+  : Redditor's View Towards Anwar Ibrahim as Malaysia's 10th Prime Minister.</b></h1>
   </div>
 
 ---

@@ -193,25 +193,7 @@ There are few data security measures that will be implemented in this project in
 - Password policies: Strong password policies can help prevent unauthorized access to data by requiring users to create complex passwords that are changed regularly. 
 - Regular software updates: Regular software updates can patch security vulnerabilities that could be exploited by attackers. Ensuring all software used in this project are up to date.
 
-MongoDB requirements:
-<table border="1" align="center">
-  <tr>
-    <th>Hardware</th>
-    <th>Software</th>
-  </tr>
-  <tr>
-    <td>Multi-core or higher processor with clock speed of 2.6 GHz or higher</td>
-    <td>MongoDB server software</td>
-  </tr>
-   <tr>
-      <td>At least 8 GB of RAM</td>
-      <td>Operating system that compatible with MongoDB such as Windows, Linux, or macOS</td>
-    </tr>
-    <tr>
-      <td>At least 10 GB of free disk space</td>
-      <td>MongoDB agent must be installed only on 64-bit architectures</td>
-    </tr>
-  </table>
+### MongoDB
 
 MongoDB usage steps:
   1. `Design data schema:` Identifying the relationships of data before storing it in MongoDB

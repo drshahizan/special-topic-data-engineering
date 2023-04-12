@@ -249,7 +249,7 @@ MongoDB requirements:
   
   ```mermaid
 gantt
-    title Cafe Satisfactory Timeline
+    title New Government Timeline
     dateFormat  YYYY-MM-DD
     axisFormat %W
   

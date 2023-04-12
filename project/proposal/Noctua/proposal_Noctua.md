@@ -30,7 +30,7 @@ Anwar Ibrahim has been involved in Malaysia's political scene since more than th
 
 ## 🏚️ Background:
 <p align="center">
-<img src="https://sabahmedia.com/wp-content/uploads/2022/11/KNC_0080-scaled.jpg" height="400"></img>
+<img src="https://sabahmedia.com/wp-content/uploads/2022/11/KNC_0080-scaled.jpg" height="600"></img>
 </p>
 Anwar Ibrahim is a prominent political figure in Malaysia who has served as Deputy Prime Minister and Finance Minister in the past. He is currently the leader of the Pakatan Harapan coalition and is seen as a potential candidate for Prime Minister of Malaysia.
 

@@ -63,7 +63,7 @@ In this project, we aim to observe public's opinion on our Prime Minister using 
 The aim of this project is to monitor the public’s perception of Anwar Ibrahim as the tenth Prime Minister in Malaysia. To achieve this, we will collect data from Reddit, which will provide access to a large volume of opinions for his rule. To achieve the result in question, here are the project scope statement that we will be using to our aid.
 
 - 1. `Data Sources` Collect Reddit posts and comments of the public regarding Anwar Ibrahim using API.
-- 2. `Tools and Technologies` Use API to retrieve the public’s opinion and then utilize Natural Language Processing (NLP) techniques to perform sentiment analysis on the posts and comments
+- 2. `Tools and Technologies` Use API and PRAW library to retrieve the public’s opinion and then utilize Natural Language Processing (NLP) techniques to perform sentiment analysis on the posts and comments
 - 3. `Research Objectives` The objective of the research is to monitor public’s opinion through analyzing the sentiment of the Reddit posts and comments, identifying the most commonly mentioned aspects of Anwar Ibrahim’s leadership, and measuring overall public satisfaction.
 - 4. `Sampling` Collect opinions of the public and only include the ones that have been posted within Anwar Ibrahim’s time as Prime Minister 
 - 5. `Data Cleaning and Preparation` Clean the data by removing any irrelevant or duplicate reviews, correcting any spelling or grammar errors, and standardizing the format of the data.

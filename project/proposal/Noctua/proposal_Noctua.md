@@ -1,5 +1,5 @@
 <div>
-<h1 align = 'center'><b>New Government: Redditor's View Towards Anwar Ibrahim as Malaysia's 10th Prime Minister .</b></h1>
+<h1 align = 'center'><b>New Government: Redditor's View Towards Anwar Ibrahim as Malaysia's 10th Prime Minister.</b></h1>
   </div>
 
 ---
@@ -24,7 +24,7 @@ The following are the key components of a data science project proposal:
 
 ## 📑 Executive Summary:
 
-Restaurant reviews from Google are often used to survey places for customers that want to try that place out. We will perform an analysis on the reviews to determine whether it is positive or the opposite. From the analysis, we can conclude if a customer was satisfied with the service that was offered by the restaurant. Users who are searching for restaurants or places to eat will be able to find one not only by the ratings, but also with added criterias and information given or extracted from the review. 
+Anwar Ibrahim has been involved in Malaysia's political scene since more than three decades ago. He also has gone through a lot of challenges during that time. Now that he finally becomes Malaysia's 10th Prime Minister, Malaysians have their says and views towards the newly appointed Prime Minister. In this project, we will perform a sentiment analysis to observe what people on social media, mainly on Reddit thinks about Anwar Ibrahim. Posts and comments from Reddit will be extracted and scrapped as a dataset, so that words thrown can be classified into three sentiments: positive, natural and negative.
 
 ---
 

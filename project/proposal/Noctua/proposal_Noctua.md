@@ -47,13 +47,13 @@ To conduct a sentiment analysis about Anwar Ibrahim as a potential Prime Ministe
 Problem Statement:
 We talked about Anwar Ibrahim, as a politician and Prime Minister. It is not a secret that he has been through a lot of controversies in the past although he finally made his way back into the political scene. People from anywhere in the world, not just Malaysia, talked so much about Anwar Ibrahim whether it is a compliment or otherwise. He is a well known person around the world. His comeback into politics and becoming the Prime Minister has become a talking point and hot debate amongst people on social media, including Reddit. 
 
-The significance of this project lies in its potential to provide valuable insights of Redditor's view towards Anwar Ibrahim. sentiment analysis can provide valuable insights into the prevailing public opinion about Anwar Ibrahim as a potential Prime Minister, which can inform political decision-making and public discourse.
+The significance of this project lies in its potential to provide valuable insights of Redditor's view towards Anwar Ibrahim. sentiment analysis can provide valuable insights into the prevailing public opinion about Anwar Ibrahim as a potential Prime Minister, which can inform political decision-making and public discourse. Below are our goals in conducting this project.
 
-- To determine whether the reviews were positive or negative. 
-- To determine the most ordered and recommended meal from each cafe.
-- To analyze the percentage used word based on the reviews. 
-- To train a model that can successfully identify a positive or negative review
-- To ensure the review made by users is reliable based on our model’s outcome 
+- To determine whether the public has positive or negative sentiment on our Prime Minister. 
+- To determine the talking point regarding Anwar Ibrahim.
+- To analyze the percentage used word based on the words written on social media. 
+- To train a model that can successfully identify a positive or negative comment on Reddit.
+- To make a prediction on whether or not Anwar Ibrahim can sustain his job as a Prime Minister.
 
 In this project, we aim to observe public's opinion on our Prime Minister using Natural Language Processing (NLP).
 

@@ -30,7 +30,7 @@ Anwar Ibrahim has been involved in Malaysia's political scene since more than th
 
 ## 🏚️ Background:
 <p align="center">
-<img src="https://assets.bharian.com.my/images/articles/bhsumpahh2_1669335065.jpg" alt="Anwar" height="250"></img>
+<img src="https://sabahmedia.com/wp-content/uploads/2022/11/KNC_0080-scaled.jpg" height="400"></img>
 </p>
 In today's fast-paced society, people are constantly on the go and looking for convenient places to grab a quick meal or drink. Cafes have become a popular choice for people who want to relax, work, or socialize while enjoying a cup of coffee or a tasty treat. However, with so many cafes to choose from, it can be challenging for customers to find the right one that meets their needs and expectations.
 

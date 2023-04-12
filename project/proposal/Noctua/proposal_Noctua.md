@@ -268,6 +268,12 @@ gantt
   ```
   </div>
   
+  ### Gantt Chart in MIRO:
+  [Gantt Chart](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/Noctua/GanttChartMiro.jpg)
+  
+  ### Deliverables: 
+  
+  
 - Data Collection (`Week 1 - Week 2`)
 
   > Discussing which data source that suit the best for our project objectives and scope. 

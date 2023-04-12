@@ -40,16 +40,14 @@ Sentiment analysis is a computational technique that involves using natural lang
 
 To conduct a sentiment analysis about Anwar Ibrahim as a potential Prime Minister, one would need to gather a large dataset of relevant textual data, such as news articles, social media posts, and online comments. This dataset would then need to be processed using natural language processing techniques to extract meaningful features such as sentiment, emotion, and opinion. Finally, machine learning algorithms such as Naive Bayes, Support Vector Machines, or neural networks could be used to train a sentiment classifier model that could accurately classify sentiment in new textual data.
 
-Overall, sentiment analysis can provide valuable insights into the prevailing public opinion about Anwar Ibrahim as a potential Prime Minister, which can inform political decision-making and public discourse.
-
 ---
 
 ## 🥅 Goals and Objectives
 
 Problem Statement:
-Customer reviews do not always show the true meaning. It can make other customers misunderstand the views of those customers who might want to try the cafe. Newer customers might find some reviews unreliable after trying out themselves. There are also some people who wanted to downgrade the cafe by intentionally giving negative reviews. The cafe owner also might want to improve their services thus, a reliable review might help them. 
+We talked about Anwar Ibrahim, as a politician and Prime Minister. It is not a secret that he has been through a lot of controversies in the past although he finally made his way back into the political scene. People from anywhere in the world, not just Malaysia, talked so much about Anwar Ibrahim whether it is a compliment or otherwise. He is a well known person around the world. His comeback into politics and becoming the Prime Minister has become a talking point and hot debate amongst people on social media, including Reddit. 
 
-The significance of this project lies in its potential to provide valuable insights into the customer satisfaction of cafes in Johor. Cafe owners and managers can use these insights to improve their services and offerings, such as by addressing specific complaints or negative feedback, enhancing the quality of their products, and improving the overall customer experience.
+The significance of this project lies in its potential to provide valuable insights of Redditor's view towards Anwar Ibrahim. sentiment analysis can provide valuable insights into the prevailing public opinion about Anwar Ibrahim as a potential Prime Minister, which can inform political decision-making and public discourse.
 
 - To determine whether the reviews were positive or negative. 
 - To determine the most ordered and recommended meal from each cafe.
@@ -57,7 +55,7 @@ The significance of this project lies in its potential to provide valuable insig
 - To train a model that can successfully identify a positive or negative review
 - To ensure the review made by users is reliable based on our model’s outcome 
 
-In this project, we aim to monitor the Google reviews about customer satisfaction on cafes in Johor using Natural Language Processing (NLP). .
+In this project, we aim to observe public's opinion on our Prime Minister using Natural Language Processing (NLP).
 
 ---
 

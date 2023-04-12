@@ -1,5 +1,5 @@
 <h1><p align='center'>:star_and_crescent:Malaysia Prayer Times API:mosque:</p></h1>
-<p>This assigment is about gathering Malaysia prayer times data based on city in year 2023 from Aladhan.com API. We use python libraries to request the data and save it into csv file. Next, we store the data into MongoDB as our database in JSON format.</p>
+<p>This assigment is about gathering Malaysia prayer times data based on city in the year 2023 from Aladhan.com API. We will be using python libraries to request the data and save it into csv file. Next, we store the data into MongoDB as our database in JSON format.</p>
 
 
 <h3><p align='center'>Group Members</p></h3>

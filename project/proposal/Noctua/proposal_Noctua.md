@@ -104,34 +104,6 @@ Components in system architecture:
   6. `Model deployment:` Process of making a trained machine learning model available in a suitable environment for predictions on new data. Tools that will be used is **Django**. Python's Django is a full-stack web framework with support for RESTful APIs, a built-in admin interface, and database connectivity. It is frequently used to create sophisticated web apps with machine learning models.
   7. `Visualization and reporting:` Process of visualizing insights in a suitable format such as dashboards, reports, or interactive visualizations. Some common tools are Tableau and PowerBI.
 
-MongoDB usage steps:
-  1. `Design data schema:` Identifying the relationships of data before storing it in MongoDB
-  2. `Create databases and collections:` Create databases and collections based on the data scheme design. 
-  3. `Data insertion:` A JSON-like formate of data can be inserted into MongoDB using insert() method or mongoimport.
-  4. `Retrive and data query:` Queried data using find() method, and operators such as filter, sort, etc.
-  5. `Indexing:` Improve data retrieval for fast lookups. The index contains a list of values and pointers to the location of the records
-  6. `Aggregation:` Grouping data based on certain criteria. 
-
-MongoDB requirements:
-<table border="1" align="center">
-  <tr>
-    <th>Hardware</th>
-    <th>Software</th>
-  </tr>
-  <tr>
-    <td>Multi-core or higher processor with clock speed of 2.6 GHz or higher</td>
-    <td>MongoDB server software</td>
-  </tr>
-   <tr>
-      <td>At least 8 GB of RAM</td>
-      <td>Operating system that compatible with MOngoDB such as Windows, Linux, or macOS</td>
-    </tr>
-    <tr>
-      <td>At least 10 GB of free disk space</td>
-      <td>MongoDB agent must be installed only on 64-bit architectures</td>
-    </tr>
-  </table>
-
 ---
 
 ## 🍡 Risks and Limitations:
@@ -240,6 +212,36 @@ MongoDB requirements:
       <td>MongoDB agent must be installed only on 64-bit architectures</td>
     </tr>
   </table>
+
+MongoDB usage steps:
+  1. `Design data schema:` Identifying the relationships of data before storing it in MongoDB
+  2. `Create databases and collections:` Create databases and collections based on the data scheme design. 
+  3. `Data insertion:` A JSON-like formate of data can be inserted into MongoDB using insert() method or mongoimport.
+  4. `Retrive and data query:` Queried data using find() method, and operators such as filter, sort, etc.
+  5. `Indexing:` Improve data retrieval for fast lookups. The index contains a list of values and pointers to the location of the records
+  6. `Aggregation:` Grouping data based on certain criteria. 
+
+MongoDB requirements:
+<table border="1" align="center">
+  <tr>
+    <th>Hardware</th>
+    <th>Software</th>
+  </tr>
+  <tr>
+    <td>Multi-core or higher processor with clock speed of 2.6 GHz or higher</td>
+    <td>MongoDB server software</td>
+  </tr>
+   <tr>
+      <td>At least 8 GB of RAM</td>
+      <td>Operating system that compatible with MOngoDB such as Windows, Linux, or macOS</td>
+    </tr>
+    <tr>
+      <td>At least 10 GB of free disk space</td>
+      <td>MongoDB agent must be installed only on 64-bit architectures</td>
+    </tr>
+  </table>
+
+
 
 ---
 

@@ -124,6 +124,10 @@ Another challenge in sentiment analysis of Anwar Ibrahim's public perception is 
 
 Context is a crucial factor in sentiment analysis, as all utterances are made in some context, such as time, place, and audience. Analyzing sentiment without context can be challenging, as it can lead to incorrect polarity or sentiment analysis results. For example, the same response, such as "Everything about it," can have different sentiment polarity depending on the context of the question asked. Therefore, it is essential to take into account the context of the text to obtain accurate sentiment analysis results.
 
+Changes in polarity can occur due to changes in the context of the text. For instance, a positive sentiment response to a question about liking an event can become a negative sentiment response when the question is changed to disliking the event. This change in polarity can affect the accuracy of sentiment analysis results. Preprocessing or postprocessing techniques may be necessary to account for context and changes in polarity in sentiment analysis.
+
+
+
 - Potential Risks and Limitations:
   1. `Technical risks:` The data collected from Google reviews may not be accurate, complete, or up-to-date. Also, the analysis of such data requires expertise in data analytics and statistical techniques. There may be issues with data privacy, such as sensitive customer information being exposed. Moreover, sometimes words cannot fully predict the actual sentiment of a person towards said cafe. For example, a person may make some complaints about what they do not like about the cafe, however they still rate it highly in the rating section.
   2. `Financial risks:` The cost of collecting, processing, and storing data may be higher than anticipated. There may also be unexpected expenses, such as the need for additional hardware or software. For the time being, only free softwares or tools will be used in this project. There are several options to scrap data easily using paid software but we will not go for that route, as for now.

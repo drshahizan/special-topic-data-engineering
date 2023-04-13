@@ -150,6 +150,15 @@ When it comes to sentiment analysis, emojis can add a lot of value to understand
 
 However, treating emojis in sentiment analysis can be challenging due to the large number of emojis available and the different ways they can be interpreted. As mentioned earlier, there are two types of emojis, Western and Eastern, and they can be encoded differently.
 
+Therefore, in order to effectively analyze sentiment in social media content, it is important to preprocess the text and transform emojis into tokens that can be recognized and analyzed as part of the overall sentiment. Whitelisting them, i.e. always taking them as a feature for classification purposes, can also improve the performance of sentiment analysis.
+
+It is important to note that not all emojis have a clear sentiment attached to them, and their sentiment can depend on the context in which they are used. Therefore, it is crucial to consider the overall context of the text in which an emoji is used when analyzing sentiment.
+
+
+
+
+
+
 
 
 

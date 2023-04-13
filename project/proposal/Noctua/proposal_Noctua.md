@@ -154,7 +154,9 @@ Therefore, in order to effectively analyze sentiment in social media content, it
 
 It is important to note that not all emojis have a clear sentiment attached to them, and their sentiment can depend on the context in which they are used. Therefore, it is crucial to consider the overall context of the text in which an emoji is used when analyzing sentiment.
 
+6. Defining Neutral
 
+When analyzing the sentiment towards Anwar Ibrahim, it is important to define what we mean by neutral in order to perform accurate sentiment analysis. Defining categories like neutral, positive, or negative can significantly impact the performance of sentiment analysis models. One way to identify and define neutral texts is to look at objective texts that do not contain explicit sentiments. Another approach is to consider irrelevant information that has not been preprocessed to filter out noise. However, caution is advised when including such information as it could negatively impact the performance of the classifier. Additionally, texts containing wishes can be tricky to categorize, particularly those that involve comparisons such as "I wish Anwar Ibrahim was more decisive."
 
 
 

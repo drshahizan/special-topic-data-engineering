@@ -142,7 +142,7 @@ Similarly, a statement like "Anwar Ibrahim's policies are better than nothing" c
 
 Therefore, when analyzing sentiment towards Anwar Ibrahim with comparisons, it is important to consider the context and implications of the comparison in order to accurately determine the sentiment.
 
-
+5. Emojis
 
 
 

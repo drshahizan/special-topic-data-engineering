@@ -146,7 +146,7 @@ Therefore, when analyzing sentiment towards Anwar Ibrahim with comparisons, it i
 
 There are two types of emojis according to Guibon et al.. Western emojis (e.g. :D) are encoded in only one or two characters, whereas Eastern emojis (e.g. ¯ \ (ツ) / ¯) are a longer combination of characters of a vertical nature. Emojis play an important role in the sentiment of texts, particularly in tweets.
 
-
+When it comes to sentiment analysis, emojis can add a lot of value to understanding the overall sentiment of a text, particularly in social media platforms such as Twitter. Emojis can often convey emotions and attitudes that are difficult to express through words alone.
 
 
 

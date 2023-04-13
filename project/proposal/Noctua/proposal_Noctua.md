@@ -138,6 +138,7 @@ However, detecting irony and sarcasm in sentiment analysis on Anwar Ibrahim can 
 
 When analyzing sentiment towards Anwar Ibrahim, comparisons can present a challenge in sentiment analysis. For example, a statement like "Anwar Ibrahim is a better politician than his predecessor" may seem positive at first glance, but it can also be dependent on the context of the comparison. If Anwar Ibrahim's predecessor was widely regarded as corrupt, then the comparison would have a positive sentiment. However, if the predecessor was highly respected, the comparison could have a negative sentiment.
 
+Similarly, a statement like "Anwar Ibrahim's policies are better than nothing" could be interpreted as either positive or negative depending on the context. If the alternative was seen as worse or nonexistent, then the sentiment could be positive. However, if there were better alternatives available, the sentiment could be negative.
 
 
 

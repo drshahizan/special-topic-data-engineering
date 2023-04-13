@@ -128,6 +128,8 @@ Changes in polarity can occur due to changes in the context of the text. For ins
 
 Preprocessing or postprocessing techniques can be used to capture context and polarity in sentiment analysis. However, determining which techniques to use can be challenging, as there is no straightforward approach to capturing context and polarity. Domain-specific knowledge and human interpretation may be required to properly preprocess or postprocess data for sentiment analysis.
 
+3. Irony and Sarcasm
+
 - Potential Risks and Limitations:
   1. `Technical risks:` The data collected from Google reviews may not be accurate, complete, or up-to-date. Also, the analysis of such data requires expertise in data analytics and statistical techniques. There may be issues with data privacy, such as sensitive customer information being exposed. Moreover, sometimes words cannot fully predict the actual sentiment of a person towards said cafe. For example, a person may make some complaints about what they do not like about the cafe, however they still rate it highly in the rating section.
   2. `Financial risks:` The cost of collecting, processing, and storing data may be higher than anticipated. There may also be unexpected expenses, such as the need for additional hardware or software. For the time being, only free softwares or tools will be used in this project. There are several options to scrap data easily using paid software but we will not go for that route, as for now.

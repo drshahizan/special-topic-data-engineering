@@ -132,7 +132,7 @@ Preprocessing or postprocessing techniques can be used to capture context and po
 
 When analyzing sentiments expressed towards Anwar Ibrahim, it is important to consider the use of irony and sarcasm, as these devices can greatly affect the polarity of the text. For example, a statement like "Anwar Ibrahim is the most honest politician I've ever seen. NOT!" may seem positive at first, with the use of "most" and "honest," but the "NOT!" at the end suggests a negative sentiment. This type of language can be especially prevalent in political discourse, where individuals may use irony or sarcasm to express negative opinions about a political figure without stating it directly.
 
-
+However, detecting irony and sarcasm in sentiment analysis on Anwar Ibrahim can be challenging due to the complexity of language and the importance of context. An NLP technique like sarcasm and irony detection algorithms may be necessary to identify and analyze these devices, but human analysis and interpretation are still crucial for accurate results. Therefore, it is important to consider both the words used and the context in which they are used to accurately analyze sentiment towards Anwar Ibrahim.
 
 
 

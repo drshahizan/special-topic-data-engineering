@@ -148,7 +148,7 @@ There are two types of emojis according to Guibon et al.. Western emojis (e.g. :
 
 When it comes to sentiment analysis, emojis can add a lot of value to understanding the overall sentiment of a text, particularly in social media platforms such as Twitter. Emojis can often convey emotions and attitudes that are difficult to express through words alone.
 
-
+However, treating emojis in sentiment analysis can be challenging due to the large number of emojis available and the different ways they can be interpreted. As mentioned earlier, there are two types of emojis, Western and Eastern, and they can be encoded differently.
 
 
 

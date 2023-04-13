@@ -162,7 +162,7 @@ When analyzing the sentiment towards Anwar Ibrahim, it is important to define wh
 
 Sentiment analysis is a tremendously difficult task even for humans, including when it comes to analyzing the sentiment towards Anwar Ibrahim. On average, inter-annotator agreement (a measure of how well two (or more) human labelers can make the same annotation decision) is pretty low for Anwar Ibrahim's sentiment analysis. And since machines learn from labeled data, sentiment analysis classifiers might not be as precise for Anwar Ibrahim as they are for other types of classifiers.
 
-
+If you are new to sentiment analysis related to Anwar Ibrahim, then you’ll quickly notice improvements. For typical use cases related to Anwar Ibrahim, such as analyzing public opinion about his political career, monitoring his brand image, and understanding his followers' opinions, you’ll save a lot of time and money on tedious manual tasks by using sentiment analysis tools.
 
 
 

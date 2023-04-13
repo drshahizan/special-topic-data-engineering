@@ -158,7 +158,9 @@ It is important to note that not all emojis have a clear sentiment attached to t
 
 When analyzing the sentiment towards Anwar Ibrahim, it is important to define what we mean by neutral in order to perform accurate sentiment analysis. Defining categories like neutral, positive, or negative can significantly impact the performance of sentiment analysis models. One way to identify and define neutral texts is to look at objective texts that do not contain explicit sentiments. Another approach is to consider irrelevant information that has not been preprocessed to filter out noise. However, caution is advised when including such information as it could negatively impact the performance of the classifier. Additionally, texts containing wishes can be tricky to categorize, particularly those that involve comparisons such as "I wish Anwar Ibrahim was more decisive."
 
+7. Human Annotator Accuracy
 
+Sentiment analysis is a tremendously difficult task even for humans, including when it comes to analyzing the sentiment towards Anwar Ibrahim. On average, inter-annotator agreement (a measure of how well two (or more) human labelers can make the same annotation decision) is pretty low for Anwar Ibrahim's sentiment analysis. And since machines learn from labeled data, sentiment analysis classifiers might not be as precise for Anwar Ibrahim as they are for other types of classifiers.
 
 
 

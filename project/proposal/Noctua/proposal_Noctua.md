@@ -140,7 +140,7 @@ When analyzing sentiment towards Anwar Ibrahim, comparisons can present a challe
 
 Similarly, a statement like "Anwar Ibrahim's policies are better than nothing" could be interpreted as either positive or negative depending on the context. If the alternative was seen as worse or nonexistent, then the sentiment could be positive. However, if there were better alternatives available, the sentiment could be negative.
 
-
+Therefore, when analyzing sentiment towards Anwar Ibrahim with comparisons, it is important to consider the context and implications of the comparison in order to accurately determine the sentiment.
 
 
 

@@ -120,6 +120,8 @@ The subjective nature of language and tone may pose a challenge to accurately an
 
 Another challenge in sentiment analysis of Anwar Ibrahim's public perception is the potential for language ambiguity. Words and phrases may have multiple meanings, which can affect the sentiment analysis. For example, the word "concerned" could be used to express positive or negative sentiment depending on the context. Therefore, it is important to take into account the broader context and use domain-specific knowledge to properly interpret the sentiment of a text.
 
+2. Context and Polarity
+
 - Potential Risks and Limitations:
   1. `Technical risks:` The data collected from Google reviews may not be accurate, complete, or up-to-date. Also, the analysis of such data requires expertise in data analytics and statistical techniques. There may be issues with data privacy, such as sensitive customer information being exposed. Moreover, sometimes words cannot fully predict the actual sentiment of a person towards said cafe. For example, a person may make some complaints about what they do not like about the cafe, however they still rate it highly in the rating section.
   2. `Financial risks:` The cost of collecting, processing, and storing data may be higher than anticipated. There may also be unexpected expenses, such as the need for additional hardware or software. For the time being, only free softwares or tools will be used in this project. There are several options to scrap data easily using paid software but we will not go for that route, as for now.

@@ -126,7 +126,7 @@ Context is a crucial factor in sentiment analysis, as all utterances are made in
 
 Changes in polarity can occur due to changes in the context of the text. For instance, a positive sentiment response to a question about liking an event can become a negative sentiment response when the question is changed to disliking the event. This change in polarity can affect the accuracy of sentiment analysis results. Preprocessing or postprocessing techniques may be necessary to account for context and changes in polarity in sentiment analysis.
 
-
+Preprocessing or postprocessing techniques can be used to capture context and polarity in sentiment analysis. However, determining which techniques to use can be challenging, as there is no straightforward approach to capturing context and polarity. Domain-specific knowledge and human interpretation may be required to properly preprocess or postprocess data for sentiment analysis.
 
 - Potential Risks and Limitations:
   1. `Technical risks:` The data collected from Google reviews may not be accurate, complete, or up-to-date. Also, the analysis of such data requires expertise in data analytics and statistical techniques. There may be issues with data privacy, such as sensitive customer information being exposed. Moreover, sometimes words cannot fully predict the actual sentiment of a person towards said cafe. For example, a person may make some complaints about what they do not like about the cafe, however they still rate it highly in the rating section.

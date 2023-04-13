@@ -164,20 +164,6 @@ Sentiment analysis is a tremendously difficult task even for humans, including w
 
 If you are new to sentiment analysis related to Anwar Ibrahim, then you’ll quickly notice improvements. For typical use cases related to Anwar Ibrahim, such as analyzing public opinion about his political career, monitoring his brand image, and understanding his followers' opinions, you’ll save a lot of time and money on tedious manual tasks by using sentiment analysis tools.
 
-
-
-
-- Potential Risks and Limitations:
-  1. `Technical risks:` The data collected from Google reviews may not be accurate, complete, or up-to-date. Also, the analysis of such data requires expertise in data analytics and statistical techniques. There may be issues with data privacy, such as sensitive customer information being exposed. Moreover, sometimes words cannot fully predict the actual sentiment of a person towards said cafe. For example, a person may make some complaints about what they do not like about the cafe, however they still rate it highly in the rating section.
-  2. `Financial risks:` The cost of collecting, processing, and storing data may be higher than anticipated. There may also be unexpected expenses, such as the need for additional hardware or software. For the time being, only free softwares or tools will be used in this project. There are several options to scrap data easily using paid software but we will not go for that route, as for now.
-  3. `Legal risks:` These actions may be infringing on intellectual property rights or data privacy laws while collecting and using the data. It is essential to ensure that these actions are compliant with local regulations and that you have obtained the necessary permissions.
-
-- Plan for Mitigating Risks and Limitations:
-  1. `Technical:` Mitigate technical risks by ensuring that the data collected is from reliable sources, and validated the data by cross-checking it against other sources. It is best to engage experts in data analytics and statistical techniques to help with the analysis. It would help if you also implemented data privacy measures to protect sensitive customer information.
-  2. `Financial:` Mitigate financial risks by setting a realistic budget and having contingency plans for unexpected expenses. Also, explore open-source tools and resources that can help you reduce costs.
-  3. `Legal:` Mitigate legal risks by ensuring that these works comply with local regulations and obtain the necessary permissions before collecting and using the data. Working with legal experts to understand any potential legal risks and to develop strategies to mitigate them.
-
-
 ---
 
 ## 🪃 Deliverables and Milestones:

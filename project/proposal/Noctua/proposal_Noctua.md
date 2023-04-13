@@ -114,6 +114,7 @@ Components in system architecture:
 
 1. Subjectivity and Tone
 
+The use of NLP techniques for sentiment analysis has limitations when it comes to subjective language and tone. For example, the sentiment of a text may be influenced by the subjective nature of certain predicates, such as adjectives and verbs, which may not be treated equally in sentiment analysis. As a result, the sentiment analysis of Anwar Ibrahim's public perception may not fully capture the nuances of subjective language and tone in media coverage, speeches, and social media posts.
 
 - Potential Risks and Limitations:
   1. `Technical risks:` The data collected from Google reviews may not be accurate, complete, or up-to-date. Also, the analysis of such data requires expertise in data analytics and statistical techniques. There may be issues with data privacy, such as sensitive customer information being exposed. Moreover, sometimes words cannot fully predict the actual sentiment of a person towards said cafe. For example, a person may make some complaints about what they do not like about the cafe, however they still rate it highly in the rating section.

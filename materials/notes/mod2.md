@@ -70,6 +70,11 @@ Software engineering is an essential field of study that deals with the design, 
 ## Data Integration Architecture
 
 ## Data Integration Workflow
+<br>
+ <p align="center">
+  <img src="https://github.com/Terence172/FirstR/blob/main/Pictures/Data%20Integration%20Workflow.png"/>
+ </p>
+<br>
 
 ## Data Integration Workflow Integration Breakpoints
 

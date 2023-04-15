@@ -51,7 +51,15 @@ On the other hand, a `Data Engineer` is responsible for designing, building, and
 In summary, a `Data Scientist` is focused on extracting insights from data, while a `Data Engineer` is focused on building and maintaining the infrastructure that allows data analysis to take place. While there is some overlap in their skill sets, the two roles require different expertise and responsibilities.
 
 ## Relationship Data Engineer & Data Scientist
+Data engineers and data scientists have a collaborative relationship that is critical to the success of data-driven projects.
 
+Data engineers provide the necessary infrastructure for data storage, data retrieval, and data processing. They work on designing and building data pipelines that transform and move data from various sources into data warehouses, data lakes, or other data storage systems. Data engineers also ensure data quality, data security, and data governance to maintain the reliability and integrity of the data.
+
+Data scientists use the data infrastructure created by data engineers to perform advanced analytics, develop predictive models, and derive insights from the data. They work on data preparation, data exploration, and data analysis to gain a deep understanding of the data and to identify patterns, trends, and correlations. Data scientists use statistical and machine learning techniques to build models that can make predictions and solve complex problems.
+
+The collaboration between data engineers and data scientists is essential in many ways. Data engineers need to understand the data requirements of data scientists to ensure that the data infrastructure they create is fit for purpose. Data scientists need to communicate their data requirements to data engineers to ensure that the data they receive is of high quality and meets their needs. Data scientists also rely on data engineers to maintain and update the data infrastructure to ensure that it remains reliable and secure.
+
+In summary, data engineers and data scientists have a symbiotic relationship where they rely on each other's expertise to ensure the success of data-driven projects. Data engineers create and maintain the data infrastructure, while data scientists use it to perform advanced analytics and derive insights from the data.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

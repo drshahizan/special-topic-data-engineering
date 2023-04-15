@@ -138,6 +138,14 @@ from pymongo import MongoClient
 <img height='300px' src='Figures/ServerAndCloud.png'/>
 
 <img height='300px' src='Figures/Region.png'/>
+
+- 3. Rename the new cluster appropriate for the dataset.
+
+- 4. Edit network access by adding IP address of our machines (laptop) so that we can connect to our cluster using the stated IP address.
+
+`Security` > `Network Access` > `IP Access List` > `Add IP Address`
+
+<img height='300px' src='Figures/NetworkAccess.png'/>
  
 2) Set collection & database name according to MongoDB
 

@@ -10,6 +10,8 @@ Don't forget to hit the :star: if you like this repo.
 # Data Scraping
 
 ## Content:
+- [Introduction]()
+
 - [API for data science projects](./def-api.md)
 - [Case study: Twitter API](./twitter-api.md)
 - [Twitter API Data](./twitter-data.md)

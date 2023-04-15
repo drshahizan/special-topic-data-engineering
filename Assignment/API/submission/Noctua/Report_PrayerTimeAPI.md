@@ -159,7 +159,7 @@ from pymongo import MongoClient
 
 <img height='300px' src='Figures/String.png'/>
 
-- 7. Open DB Compass and paste the string copied from MondoDB Atlass to the URI in the `New Connection` section.
+- 7. Open MongoDB Compass and paste the string copied from MongoDB Atlass to the URI in the `New Connection` section.
 
 <img height='300px' src='Figures/ConnectDBCompass.png'/>
 

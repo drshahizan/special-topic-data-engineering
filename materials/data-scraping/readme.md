@@ -41,31 +41,30 @@ https://github.com/atlas-github/malaysiastockbiz_scraper/blob/master/malaysiasto
 - [Video: Cara Scraping Banyak Produk Tokopedia Dengan Tools Gratisan Chrome](https://youtu.be/zGOcGU1BSsc)
 - [Python Web Scraping Tutorial: Step-By-Step](https://oxylabs.io/blog/python-web-scraping)
 - [Web Scraping Python Tutorial – How to Scrape Data From A Website](https://www.freecodecamp.org/news/web-scraping-python-tutorial-how-to-scrape-data-from-a-website/)
-<p align="center">
-<img src="https://github.com/drshahizan/python-web/blob/main/image/libwebscraping.jpg"  height="200" />
-</p>
 
-### Selenium
+## Tools
+
+### 1. Selenium
 - [Web scraping E-commerce sites to compare prices with Python — Part 1](https://medium.com/@zfwong.wilson/web-scraping-e-commerce-sites-to-compare-prices-with-python-part-1-360509ee5c62)
 - [Web scraping E-commerce sites to compare prices with Python — Part 2](https://medium.com/@zfwong.wilson/web-scraping-e-commerce-sites-to-compare-prices-with-python-part-2-367140620cb6)
 - [Web Scraping Election Results of PRU-15 (GE-15) using Python](https://medium.com/@elvinado/web-scraping-election-results-of-pru-15-ge-15-using-python-e9310129bf9e)
 
-### Beautiful Soup
+### 2. Beautiful Soup
 - [Beautiful Soup: Build a Web Scraper With Python](https://realpython.com/beautiful-soup-web-scraper-python/)
 - [Python Web Scraping Tutorial](https://www.freecodecamp.org/news/web-scraping-python-tutorial-how-to-scrape-data-from-a-website/)
 
-### Scrapy
+### 3. Scrapy
 - [Scrapy.org](https://scrapy.org/)
 - [Github: Scrapy](https://github.com/scrapy/scrapy)
 - [Python Scrapy Tutorial for Beginners](https://360digitmg.com/blog/python-scrapy-tutorial-for-beginners)
 - [Spider Web Crawler: Mudah.my](https://gist.github.com/amirulasyraf88/55b5938dd220c5d883e7)
 - [Scrapy: Malaysia House Property](https://github.com/neurotichl/Scrapy-Crawl-IProperty)
 
-### Requests
+### 4. Requests
 - [Requests - Web Scraping using Requests](https://www.tutorialspoint.com/requests/requests_web_scraping_using_requests.htm)
 - [Web Scraping in Python with Beautiful Soup and Requests](https://www.kirenz.com/post/2022-05-02-web-scraping-in-python-with-beautiful-soup-requests-and-pandas/)
 
-### Lxml
+### 5. Lxml
 - [Web Scraping using lxml and Python 2018: Extracting data from Steam](https://youtu.be/5N066ISH8og)
 
 ## Assignment

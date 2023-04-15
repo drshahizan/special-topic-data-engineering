@@ -83,6 +83,20 @@ Software engineering is an essential field of study that deals with the design, 
 ## Data Integration Requirements
 
 ## Data Integration Design
+Data Integration design is the act of merging data from many sources into a unified perspective that can be easily accessed and analysed. The purpose is to provide a complete and accurate perspective of data to aid decision-making and business operations.
+
+<br>
+ <p align="center">
+  <img src="https://github.com/qaisarrra/images/blob/main/Data%20Integration%20Design.png"/>
+ </p>
+<br>
+
+1. ``Gathering of requirements``: This entails comprehending the data sources, their formats, and the business requirements for data integration.
+2. ``Data profiling``: In this step, the data is analysed to determine its structure, quality, and completeness.
+3. ``Data mapping``: During this stage, data from various sources is mapped to a single data model. This entails determining the connections between the data and the attributes that must be incorporated.
+4. ``Data transformation``: During this phase, the data is converted from its original format to a format that can be easily integrated.
+5. ``Data quality validation``: Assessing the quality of the integrated data, including accuracy, completeness, and consistency checks.
+6. ``Deployment``: In this phase, the combined data is deployed to the production environment.
 
 ## Data Integration Tools and Types
 

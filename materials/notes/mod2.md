@@ -124,6 +124,18 @@ Table below explains each phase in the data integration workflow depicted above 
 
 ## Data Integration Requirements
 
+| Data Integration Requirements | Description |
+| --- | --- |
+| Data Quality | Data being integrated should be accurate, complete, and consistent. Data profiling and cleansing can be used to improve data quality. |
+| Data Mapping | The process of creating a connection between the data from different sources by identifying relationships between data elements and mapping them to a common format. |
+| Data Transformation | The process of converting data from one format to another, done manually or automatically using ETL tools. |
+| Data Integration Architecture | The design of the system used to integrate data, including identifying components and how they interact with each other. |
+| Security | Protecting integrated data from unauthorized access as it may contain sensitive information. |
+| Performance | Designing data integration to minimize the time required and ensure timely availability without affecting system performance. |
+| Scalability | Data integration system should be able to handle large amounts of data without compromising performance. |
+| Governance | Data integration should be governed by policies and procedures consistent with the organization's overall data governance strategy. |
+
+
 ## Data Integration Design
 Data Integration design is the act of merging data from many sources into a unified perspective that can be easily accessed and analysed. The purpose is to provide a complete and accurate perspective of data to aid decision-making and business operations.
 

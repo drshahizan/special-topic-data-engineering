@@ -101,7 +101,18 @@ Data Integration design is the act of merging data from many sources into a unif
 ## Data Integration Tools and Types
 
 - ``What are Data Integration Tool``
+    Data integration tools are software applications that help organizations to combine and manage data from different sources. These tools typically provide features such     as data extraction, transformation, and loading (ETL), data cleansing, data mapping, and data synchronization.
+
 - ``Types of Data Integration Tool``
+    1. On-premise Data Integration Tool : On-premise data integration tools are software applications that are installed and run on a company's own servers or hardware            infrastructure. These tools are designed to integrate data from various sources within an organization's own network, rather than relying on cloud-based services or        external systems.
+    2. Cloud-based Data Integration Tool : Cloud-based data integration tools are software applications that are hosted on cloud servers and accessed through the internet. 
+
+    Scalability: Cloud-based to
+    3. Open Source Data Integration tool : Open source data integration tools are software applications that are freely available and can be customized and modified by            users. These tools provide a cost-effective and flexible solution for data integration needs, as they offer access to source code, enabling users to customize and          extend the tool as needed. 
+    4. Propietary Data integration Tool : Proprietary data integration tools are software applications developed and sold by vendors, and they typically offer a range of          features and capabilities for data integration tasks. These tools are often designed to work seamlessly with other proprietary software from the same vendor,                providing a comprehensive data management solution. 
+
+    
+     
 - ``How to Select the best Data Integration Tool``
 - ``Data Integration Tools``
 

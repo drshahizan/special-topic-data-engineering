@@ -125,10 +125,19 @@ from pymongo import MongoClient
  
 2) Connect MongoDB Atlass with MongoDB Compass
 
-- 1. Create a new cluster by navigating from MongoDB ATlass to Deployment > Database > Create
+- 1. Create a new cluster by navigating from MongoDB Atlass by selecting these path
+
+`Deployment` > `Database` > `Create`
 
 <img height='300px' src='Figures/CreateCluster.png'/>
  
+- 2. Select these options to start building a generating a new cluster
+
+`Shared` > `AWS` > `Asia` > Singapore (ap-southeast-1)
+
+<img height='300px' src='Figures/ServerAndCloud.png'/>
+
+<img height='300px' src='Figures/Region.png'/>
  
 2) Set collection & database name according to MongoDB
 

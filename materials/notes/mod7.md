@@ -35,6 +35,19 @@ An API, or application programming interface, is a set of defined rules that ena
 
 The definitions and protocols within an API help businesses connect the many different applications they use in day-to-day operations, which saves employees time and breaks down silos that hinder collaboration and innovation. For developers, API documentation provides the interface for communication between applications, simplifying application integration.
 
+## How do APIs work?
+APIs work by enabling different software applications to communicate and exchange data with each other. APIs act as a layer of communication between applications, allowing them to interact and share resources without needing to understand the underlying code or data structures.
+
+![image](https://user-images.githubusercontent.com/69034742/232193712-50776d91-dbb0-49bf-92fa-9c2ac0cc226e.png)
+
+Here is a general overview of how an API works:
+
+1. The client application makes a request to the API by sending a message using a specific protocol (such as HTTP).
+2. The API receives the request and processes it. This may involve checking the client's credentials or parameters, validating the request, and performing any necessary data manipulation or processing.
+3. The API then sends a response back to the client application, typically in the form of a data object or message.
+4. The client application receives the response and processes it. This may involve displaying the data to the user, storing it for later use, or using it to perform some other action.
+
+APIs are sometimes considered **contracts**, where documentation is an agreement between the parties, *“If party 1 sends a remote request structured a particular way, this is how party 2 software will respond.”*
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

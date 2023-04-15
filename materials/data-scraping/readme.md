@@ -17,16 +17,56 @@ Don't forget to hit the :star: if you like this repo.
 - [API and Web Scraping](./api-web-scraping.md)
 
 ## Github
-- [WEB API COVID19 MALAYSIA](https://github.com/afiqharith/api-covid-malaysia)
-- [COVID-19 Nationwide Level Cases](https://covid-19.samsam123.name.my/api.html)
-- [Wikipedia: Malaysia API](https://github.com/JianLoong/malaysia-api)
-- [Malaysia Post tracking api](https://github.com/clooney/malaysia-post)
-- [Waktu Solat PHP API](https://github.com/afzafri/Waktu-Solat-API)
-- [Malaysian Postcode](https://github.com/atqnp/postcode-malaysia)
-- [Air Pollution Index (API, wiki) in Malaysia from 2005 to 2017](https://github.com/ynshung/api-malaysia)
+- 
 
-## Article
-- [How To Extract Data From The Twitter API Using Python](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/api/How%20To%20Extract%20Data%20From%20The%20Twitter%20API%20Using%20Python%20_%20by%20Ahmed%20Besbes%20_%20Towards%20Data%20Science.pdf)
+## Useful information
+- [Web Scraping with EDA and Visualization Using Python](https://medium.com/analytics-vidhya/web-scraping-with-eda-and-visualization-using-python-a496ddf5f98e)
+- [Python Web Scraping - Quick Guide](https://www.tutorialspoint.com/python_web_scraping/python_web_scraping_quick_guide.htm)
+- [Web Scraping of E-Commerce Website Using BeautifulSoup in Python](https://www.dosm.gov.my/v1/uploads/files/4_Portal%20Content/2_%20Statistics/MyStats/2022/Slaid/Sesi%201a_Web%20Scraping%20of%20E-Commerce%20Website%20Using%20BeautifulSoup%20in%20Python.pdf)
+- [Github: malaysia-election-data-scraping](https://github.com/Thibico/malaysia-election-data-scraping)
+- [Applications and a Guide to Web Scraping](https://www.fstep.org.my/wp-content/uploads/2020/12/FSTEP-The-application-of-Webscraping.pdf)
+- [Github:malaysiastockbiz_scraper](
+https://github.com/atlas-github/malaysiastockbiz_scraper/blob/master/malaysiastock_biz_scraper.ipynb)
+- [An automated web scraping tool for Malaysia tourism](http://eprints.utar.edu.my/3493/1/CS-2019-1505499.pdf)
+- [7 Python Libraries For Web Scraping To Master Data Extraction](https://www.projectpro.io/article/python-libraries-for-web-scraping/625)
+- [Web Scraping Freelancers in Malaysia](https://www.truelancer.com/web-scraping-freelancers-in-malaysia)
+- [Web Scraping, Regular Expressions, and Data Visualization: Doing it all in Python](https://towardsdatascience.com/web-scraping-regular-expressions-and-data-visualization-doing-it-all-in-python-37a1aade7924)
+- [5 Web Scraping Projects with Python](https://amankharwal.medium.com/5-web-scraping-projects-with-python-4bcc25ff039)
+
+### Tutorial
+- [Video: Web Scraping untuk laman web berkaitan Bursa Malaysia](https://youtu.be/bmi_-oj2S9c)
+- [Video: Web Scraping (The Star Malaysia News)](https://youtu.be/6tZAmu17M6g)
+- [Video: Scraping YellowPages.my | Name, Website, Email, Phone | Yellow Pages Malaysia](https://youtu.be/fO9701IUSrY)
+- [Video: Tutorial Web Scraper - Dengan Chrome Web Scraper](https://youtu.be/FcrscxUeEj0)
+- [Video: Cara Scraping Banyak Produk Tokopedia Dengan Tools Gratisan Chrome](https://youtu.be/zGOcGU1BSsc)
+- [Python Web Scraping Tutorial: Step-By-Step](https://oxylabs.io/blog/python-web-scraping)
+- [Web Scraping Python Tutorial – How to Scrape Data From A Website](https://www.freecodecamp.org/news/web-scraping-python-tutorial-how-to-scrape-data-from-a-website/)
+<p align="center">
+<img src="https://github.com/drshahizan/python-web/blob/main/image/libwebscraping.jpg"  height="200" />
+</p>
+
+### Selenium
+- [Web scraping E-commerce sites to compare prices with Python — Part 1](https://medium.com/@zfwong.wilson/web-scraping-e-commerce-sites-to-compare-prices-with-python-part-1-360509ee5c62)
+- [Web scraping E-commerce sites to compare prices with Python — Part 2](https://medium.com/@zfwong.wilson/web-scraping-e-commerce-sites-to-compare-prices-with-python-part-2-367140620cb6)
+- [Web Scraping Election Results of PRU-15 (GE-15) using Python](https://medium.com/@elvinado/web-scraping-election-results-of-pru-15-ge-15-using-python-e9310129bf9e)
+
+### Beautiful Soup
+- [Beautiful Soup: Build a Web Scraper With Python](https://realpython.com/beautiful-soup-web-scraper-python/)
+- [Python Web Scraping Tutorial](https://www.freecodecamp.org/news/web-scraping-python-tutorial-how-to-scrape-data-from-a-website/)
+
+### Scrapy
+- [Scrapy.org](https://scrapy.org/)
+- [Github: Scrapy](https://github.com/scrapy/scrapy)
+- [Python Scrapy Tutorial for Beginners](https://360digitmg.com/blog/python-scrapy-tutorial-for-beginners)
+- [Spider Web Crawler: Mudah.my](https://gist.github.com/amirulasyraf88/55b5938dd220c5d883e7)
+- [Scrapy: Malaysia House Property](https://github.com/neurotichl/Scrapy-Crawl-IProperty)
+
+### Requests
+- [Requests - Web Scraping using Requests](https://www.tutorialspoint.com/requests/requests_web_scraping_using_requests.htm)
+- [Web Scraping in Python with Beautiful Soup and Requests](https://www.kirenz.com/post/2022-05-02-web-scraping-in-python-with-beautiful-soup-requests-and-pandas/)
+
+### Lxml
+- [Web Scraping using lxml and Python 2018: Extracting data from Steam](https://youtu.be/5N066ISH8og)
 
 ## Assignment
 Please follow the instructions below:

@@ -129,7 +129,7 @@ Data Integration design is the act of merging data from many sources into a unif
 
     8. ``Cost``: Consider the cost of the tool, including licensing fees, maintenance fees, and other associated costs. Choose a tool that provides the necessary features            and functionality at a reasonable cost.
     
-- Data Integration Tools
+- Types of Data Integration Tools
 
     1. ``Talend``: Talend is a popular open source data integration tool that provides ETL (extract, transform, load) and data quality features. Talend provides a range of          connectors to various data sources and destinations, making it a versatile tool for data integration tasks.
 

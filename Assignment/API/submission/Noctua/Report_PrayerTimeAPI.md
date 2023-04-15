@@ -146,6 +146,12 @@ from pymongo import MongoClient
 `Security` > `Network Access` > `IP Access List` > `Add IP Address`
 
 <img height='300px' src='Figures/NetworkAccess.png'/>
+
+- 5. Edit Database Access to controo who has the priviledge to access the current database
+
+`Security` > `Database Access` > `Database Users` > `Add New Database User`
+
+<img height='300px' src='Figures/DBAccess.png'/>
  
 2) Set collection & database name according to MongoDB
 

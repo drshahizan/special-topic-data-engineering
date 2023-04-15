@@ -24,7 +24,8 @@ Group Gadgeteen
 
 ### Contents:
 #### Notes
-- [Definition](#What-is-API?)
+- [Definition](#what-is-api)
+- [How it works](#how-do-apis-work)
 
 ### Others
 - [Video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)

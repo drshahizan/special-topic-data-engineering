@@ -152,6 +152,12 @@ from pymongo import MongoClient
 `Security` > `Database Access` > `Database Users` > `Add New Database User`
 
 <img height='300px' src='Figures/DBAccess.png'/>
+
+- 6. Get coonection string from the created cluster
+
+`Deployment` > `Database` > `"Your Cluster Name"` > `Connect` > `Compass` > `I have MongoBD Compass` > `1.12 or later` > `copy`
+
+<img height='300px' src='Figures/ConnectionString.png'/>
  
 2) Set collection & database name according to MongoDB
 

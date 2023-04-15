@@ -71,6 +71,14 @@ Software engineering is an essential field of study that deals with the design, 
 
 ## Data Integration Workflow
 <br>
+**What is Data Integration Workflow?**
+
+The steps of integrating data from several sources, converting it into a common format, and putting it into a final system, like a data warehouse or data lake, is widely referred to as data integration workflow. It is critical to obtaining a unified perspective of an organization's data and is a fundamental part of contemporary data management. Organizations may increase data quality, eliminate mistakes, and optimize their data management procedures with the aid of a well-designed data integration strategy. No matter where or in what format their data is kept, it may also make it easier for them to access and use it. 
+
+In the figure below, we have designed an easy to understand version of the data integration workflow. It is our own take on most high level data integration workflow used as a guideline to integrate data into systems.
+
+
+<br>
  <p align="center">
   <img src="https://github.com/Terence172/FirstR/blob/main/Pictures/Data%20Integration%20Workflow.png"/>
  </p>

@@ -122,7 +122,14 @@ PyMongo is a Python library that provides tools for working with MongoDB databas
 ! pip install pymongo
 from pymongo import MongoClient
   ```
-  
+ 
+2) Connect MongoDB Atlass with MongoDB Compass
+
+- 1. Create a new cluster by navigating from MongoDB ATlass to Deployment > Database > Create
+
+<img height='300px' src='Figures/CreateCluster.png'/>
+ 
+ 
 2) Set collection & database name according to MongoDB
 
 The `MongoClient` class in PyMongo is used to establish a connection to a MongoDB instance or cluster. Once a connection is established, we can use the client object to perform operations on the MongoDB database. In the context of Google Colab, we can use the MongoClient class to connect to a MongoDB instance hosted on a remote server.

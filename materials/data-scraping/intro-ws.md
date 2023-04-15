@@ -13,6 +13,7 @@ Don't forget to hit the :star: if you like this repo.
 - [Introduction]()
 - [API and Web Scraping](../api/api-web-scraping.md)
 
+## Introduction
 Data scraping (also known as web scraping) refers to the automated process of extracting data from websites or other sources on the internet using software or tools. The data can be in various formats, such as text, images, videos, and other multimedia content.
 
 Data scraping is important for a variety of reasons. Firstly, it can help individuals and organizations gather large amounts of data quickly and efficiently, which can be used for various purposes such as research, analysis, and decision-making. For example, businesses can use data scraping to gather pricing information on competitors' products or to extract customer reviews and feedback from e-commerce websites.

@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 ## Content:
 - [Introduction]()
-- [API and Web Scraping](../../api/api-web-scraping.md)
+- [API and Web Scraping](../api/api-web-scraping.md)
 
 Data scraping (also known as web scraping) refers to the automated process of extracting data from websites or other sources on the internet using software or tools. The data can be in various formats, such as text, images, videos, and other multimedia content.
 

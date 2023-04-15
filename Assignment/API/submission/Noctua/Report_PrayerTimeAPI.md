@@ -147,7 +147,7 @@ from pymongo import MongoClient
 
 <img height='300px' src='Figures/NetworkAccess.png'/>
 
-- 5. Edit Database Access to controo who has the priviledge to access the current database
+- 5. Edit Database Access to control who has the priviledge to access the current database
 
 `Security` > `Database Access` > `Database Users` > `Add New Database User`
 
@@ -157,7 +157,17 @@ from pymongo import MongoClient
 
 `Deployment` > `Database` > `"Your Cluster Name"` > `Connect` > `Compass` > `I have MongoBD Compass` > `1.12 or later` > `copy`
 
-<img height='300px' src='Figures/ConnectionString.png'/>
+<img height='300px' src='Figures/String.png'/>
+
+- 7. Open DB Compass and paste the string copied from MondoDB Atlass to the URI in the `New Connection` section.
+
+<img height='300px' src='Figures/ConnectDBCompass.png'/>
+
+- 8. Edit the string pasted in the URI. Replace the password statement with the our user password created from the `Database Access`
+
+```python
+mongodb+srv://admin:<password>@<cluster_name>.<cluster.id>.mongodb.net/test
+```
  
 2) Set collection & database name according to MongoDB
 

@@ -69,6 +69,8 @@ We have established these objectives in order to achieve this goal:
 
 &ensp;&ensp;V.	**PowerBI**: To visualize and explore the data.
 
+&ensp;&ensp;VI.	**Django**: To develop website.
+
 <b>Other Relevant Information:</b>
 
 &ensp;&ensp; To ensure data privacy and security, we will comply with Twitter's API Terms of Service and any applicable laws and regulations related to data privacy and security. We will also use appropriate measures to secure the data, such as encrypting the database and using secure protocols for data transfer.
@@ -101,7 +103,7 @@ The project will follow the Agile methodology, with sprints of 10-12 weeks, and 
 
 4. **Data Visualization**: The project will use data visualization techniques to display the sentiment analysis results in a meaningful and informative way, such as bar charts, pie charts, and word clouds. The visualization will provide an easy-to-understand summary of the sentiment distribution and the most common topics and phrases associated with ChatGpt.
 
-5. **Real-time Analysis**: The project will perform real-time analysis of Twitter data to provide up-to-date insights into public opinion and sentiment about ChatGpt. The real-time analysis will involve continuously collecting and pre-processing Twitter data, performing sentiment analysis, and updating the visualization.
+5. **Real-time Analysis**: The project will perform real-time analysis of Twitter data to provide up-to-date insights into public opinion and sentiment about ChatGpt on the deployed website. The real-time analysis will involve continuously collecting and pre-processing Twitter data, performing sentiment analysis, and updating the visualization.
 
 &ensp;&ensp; All in all, the methodology of the project is to collect and pre-process Twitter data, perform sentiment analysis, and visualize the results in real-time, using natural language processing and machine learning techniques. The methodology will provide valuable insights into public opinion and sentiment about ChatGpt, and help OpenAI to make data-driven decisions and improve its products and services.
 
@@ -109,9 +111,9 @@ The project will follow the Agile methodology, with sprints of 10-12 weeks, and 
 
 ## 🖥️ System Architecture
 
-<img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/Gadgeteen/system%20architecture%20gadgeteen.png" alt="Paris"></img>
+<img src="https://user-images.githubusercontent.com/95162273/232238822-4b097f59-a402-47a3-9414-5648771da66b.png" alt="Paris"></img>
 
-&ensp;&ensp; Our proposed system architecture will be a web application that can monitor and analyze social media data in real-time to understand public opinion and sentiment on ChatGPT in Malaysia. In this system, we will be using **Python** as the main programming language. As for the data collection from social, we will use **Tweepy** to connect to Twitter's API. After collecting the data, **Pandas** library will be used for data manipulation and preprocessing and the preprocessed data will be stored in **MongoDB**. Lastly, **Natural Language Toolkit (NLTK)** will be used to perform sentiment analysis and topic modeling, and present the results through visualizations and dashboards by using **Power BI**.
+&ensp;&ensp; Our proposed system architecture will be a web application that can monitor and analyze social media data in real-time to understand public opinion and sentiment on ChatGPT in Malaysia. In this system, we will be using **Python** as the main programming language. As for the data collection from social, we will use **Tweepy** to connect to Twitter's API. After collecting the data, **Pandas** library will be used for data manipulation and preprocessing and the preprocessed data will be stored in **MongoDB**. Lastly, **Natural Language Toolkit (NLTK)** will be used to perform sentiment analysis and topic modeling, and present the results through visualizations and dashboards by using **Power BI**. All of the results can be accessed on the website deployed by using **Django**.
 
 
 **Data Storage and Management:**
@@ -178,7 +180,7 @@ flowchart TB
     G --> H[Connect Power BI to MongoDB database]
     H --> I[Import data into Power BI Desktop]
     I --> J[Create visualizations using Power BI]	
-    J --> K[Explore data and gain insights.]
+    J --> K[Deploy a website using Django and import data from Power BI.]
     K --> L(Stop)
 	
   

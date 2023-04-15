@@ -100,10 +100,10 @@ Data Integration design is the act of merging data from many sources into a unif
 
 ## Data Integration Tools and Types
 
-- What are Data Integration Tool
-- Types of Data Integration Tool
-- How to Select the best Data Integration Tool
-- Data Integration Tools
+- ``What are Data Integration Tool``
+- ``Types of Data Integration Tool``
+- ``How to Select the best Data Integration Tool``
+- ``Data Integration Tools``
 
 
 

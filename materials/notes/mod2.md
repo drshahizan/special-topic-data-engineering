@@ -89,6 +89,39 @@ In the figure below, we have designed an easy to understand version of the data 
 
 ## Data Integration Workflow Stages
 
+To ensure that the process of integrating data and loading them into a system goes smoothly, we have guidelines that can be referred to. One of which is a Data Integration Workflow, there are several phases and steps in the data integration workflow depicted above. 
+
+Table below explains each phase in the data integration workflow depicted above :
+<br>
+| No. | Phase | What is done during this phase? |
+| ------------- | ------------- | ------------- |
+| 1. | Data Source Identification and Extraction | Identify the relevant data sources and extract the data from them for further processing. |
+| 2. | Data Transformation & Integration | Transform the data from its original format to a format that can be integrated into the target system. The data is then integrated into the target system. |
+| 3. | Enterprise Data Warehouse (EDW) | Create and manage an enterprise data warehouse to store and manage the integrated data. |
+| 4. | Data Analysis and Reporting | Analysis and visualization of data for reporting for decision-making purposes. |
+| 5. | Business Intelligence (BI) | Making use of BI tools to facilitate data analysis and reporting. |
+
+<br>
+Table below explains each phase in the data integration workflow depicted above :
+<br><br>
+
+| Step | What is done during this step? | Phase |
+| ------------- | ------------- | ------------- |
+| Identify data sources | Identifying the different sources of data is to be integrated, such as cloud-based services, databases, flat files, or web services. | Data Source Identification and Extraction |
+| Extract data | Extract the data from each identified data source and store it in a staging area. [ Web Scraping, etc. ] | Data Source Identification and Extraction |
+| Data Transformation | Transforming the extracted data into the desired format. [ Data mapping, cleansing, and formatting to ensure the data is consistent and accurate ] | Data Transformation & Integration |
+| Data Integration | Integrating the transformed data into a data warehouse, which should be able to be accessed by various applications for reporting and analysis purposes. | Data Transformation & Integration |
+| EDW Staging | Here the data is loaded into a staging area of the data warehouse for further processing. | Enterprise Data Warehouse (EDW) |
+| Staged Data | A database environment where staged data is stored ready for processing. | Enterprise Data Warehouse (EDW) |
+| EDW Integration | Here data is integrated into the enterprise data warehouse. This process involves data validation, cleansing, and standardization. | Enterprise Data Warehouse (EDW) |
+| EDW Data Distribution | Here is where integrated data is made available to various applications and departments within the organization. | Enterprise Data Warehouse (EDW) |
+| Data Quality Assessment | Here is where data is assessed for its quality, accuracy, completeness, and consistency to ensure that it is fit for analysis and reporting. | Data Analysis and Reporting |
+| Data Analysis | Data is analyzed here, using various techniques such as descriptive, diagnostic, predictive, and prescriptive analytics. | Data Analysis and Reporting |
+| Data Visualization | Here is where data is presented visually using interactive dashboards, charts, graphs, and maps. This process can be done using various BI Tools | Business Intelligence (BI) |
+| Reporting | Here is where customized reports are generated based on user requirements. This process can be done using various BI Tools | Business Intelligence (BI) |
+| BI Platform | A central platform that can be used to present findings from integrated data. | Business Intelligence (BI) |
+
+
 ## Data Integration Requirements
 
 ## Data Integration Design

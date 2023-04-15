@@ -100,11 +100,11 @@ Data Integration design is the act of merging data from many sources into a unif
 
 ## Data Integration Tools and Types
 
-- ``What are Data Integration Tool``
+- What are Data Integration Tool
     
     Data integration tools are software applications that help organizations to combine and manage data from different sources. These tools typically provide features such     as data extraction, transformation, and loading (ETL), data cleansing, data mapping, and data synchronization.
 
-- ``Types of Data Integration Tool``
+- Types of Data Integration Tool
     1. ``On-premise Data Integration Tool`` : On-premise data integration tools are software applications that are installed and run on a company's own servers or hardware          infrastructure. These tools are designed to integrate data from various sources within an organization's own network, rather than relying on cloud-based services or       external systems.
     2. ``Cloud-based Data Integration Tool`` : Cloud-based data integration tools are software applications that are hosted on cloud servers and accessed through the                internet. 
     3. ``Open Source Data Integration tool`` : Open source data integration tools are software applications that are freely available and can be customized and modified by          users. These tools provide a cost-effective and flexible solution for data integration needs, as they offer access to source code, enabling users to customize              and extend the tool as needed. 
@@ -112,7 +112,7 @@ Data Integration design is the act of merging data from many sources into a unif
 
     
      
-- ``How to Select the best Data Integration Tool``
+- How to Select the best Data Integration Tool
     1. ``Data Sources``: Consider the types and formats of data sources you need to integrate. Make sure the tool you choose can connect to all the necessary data sources            and handle the data formats you work with.
 
     2. ``Data Volume``: Consider the volume of data you need to process and how quickly you need to process it. Choose a tool that can handle the scale of your data and              process it efficiently.
@@ -129,9 +129,20 @@ Data Integration design is the act of merging data from many sources into a unif
 
     8. ``Cost``: Consider the cost of the tool, including licensing fees, maintenance fees, and other associated costs. Choose a tool that provides the necessary features            and functionality at a reasonable cost.
     
-- ``Data Integration Tools``
+- Data Integration Tools
 
+    1. ``Talend``: Talend is a popular open source data integration tool that provides ETL (extract, transform, load) and data quality features. Talend provides a range of          connectors to various data sources and destinations, making it a versatile tool for data integration tasks.
 
+    2. ``Informatica PowerCenter``: Informatica PowerCenter is a proprietary data integration tool that provides a range of features, including ETL, data profiling, data            quality, and metadata management. PowerCenter supports a wide range of data sources and destinations, making it a versatile tool for data integration tasks.
 
+    3. ``Microsoft SQL Server Integration Services (SSIS)``: SSIS is a popular proprietary data integration tool that provides ETL and data quality features. SSIS                    integrates seamlessly with other Microsoft software products, such as Microsoft SQL Server and Microsoft Azure, providing a comprehensive data management solution.
+
+    4. ``Dell Boomi``: Dell Boomi is a cloud-native integration platform that offers a wide range of integration capabilities, including ETL, API management, and workflow            automation. Boomi provides a range of connectors to various data sources and destinations, making it a versatile tool for data integration tasks.
+
+    5. ``Apache NiFi``: Apache NiFi is an open source data integration tool that provides a web-based interface for building and managing data flow pipelines. NiFi offers a          range of processors for data ingestion, transformation, and delivery, making it a powerful tool for real-time data processing.
+   
+    6. ``Oracle Data Integrator``: Oracle Data Integrator is a proprietary ETL tool that provides a range of features, including data profiling, data quality, and metadata          management. Data Integrator can integrate with other Oracle software products, such as Oracle Database and Oracle Business Intelligence, providing a comprehensive          data management solution.
+    7. ``Pentaho Data Integration``: Pentaho Data Integration is an open source ETL tool that provides a range of features, including data profiling, data quality, and              metadata management. Pentaho provides a range of connectors to various data sources and destinations, making it a versatile tool for data integration tasks.
+    8. ``MuleSoft Anypoint Platform``: MuleSoft Anypoint Platform is a cloud-based integration platform that offers a range of integration capabilities, including ETL, API          management, and workflow automation. Anypoint Platform provides a range of connectors to various data sources and destinations, making it a versatile tool for data          integration tasks.
 
 

@@ -169,7 +169,7 @@ from pymongo import MongoClient
 mongodb+srv://admin:<password>@<cluster_name>.<cluster.id>.mongodb.net/test
 ```
  
-2) Set collection & database name according to MongoDB
+3) Set collection & database name according to MongoDB
 
 The `MongoClient` class in PyMongo is used to establish a connection to a MongoDB instance or cluster. Once a connection is established, we can use the client object to perform operations on the MongoDB database. In the context of Google Colab, we can use the MongoClient class to connect to a MongoDB instance hosted on a remote server.
 
@@ -186,7 +186,7 @@ collection = db["Penang"]
 
 > Collection should be change based on city prayer time.
 
-3) Change data to dictionary
+4) Change data to dictionary
 
 ```python 
 
@@ -196,13 +196,13 @@ Data_dictionary=df.to_dict('records')
 print(Data_dictionary)
 
    ```
-4) Insert data into collection made in MongoDB.
+5) Insert data into collection made in MongoDB.
 
 ``` python
 collection.insert_many(Data_dictionary)
 ```
    
-5) Final product in MongoDB Compass and Atlas.
+6) Final product in MongoDB Compass and Atlas.
 
 
    <img height='300px' src='Figures/MongoDBCompass.png'/>

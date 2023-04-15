@@ -24,6 +24,26 @@ Thirdly, data scraping can be used to monitor changes on websites or other sourc
 
 Overall, data scraping has become an essential tool for individuals and organizations seeking to gather and process large amounts of data quickly and efficiently, allowing for more informed decision-making and improved efficiency. However, it's important to note that data scraping can also raise ethical concerns, particularly when it comes to the privacy and security of individuals' data.
 
+## Types of web scraping techniques
+There are several types of web scraping techniques that can be used to extract data from websites. Here are some of the most common types:
+
+### 1. HTML Parsing
+This is the most basic form of web scraping, which involves parsing the HTML code of a website to extract specific data elements. It's usually done using libraries like Beautiful Soup, lxml, or HTML Parser.
+
+### 2. API Scraping
+Many websites provide APIs (Application Programming Interfaces) that allow developers to access data in a structured format. API scraping involves making requests to these APIs to retrieve data.
+
+### 3. DOM Parsing: 
+This technique involves using the Document Object Model (DOM) of a web page to extract data. The DOM is a tree-like structure that represents the HTML code of a web page. JavaScript libraries like jQuery and Cheerio are often used for DOM parsing.
+
+### 4. Automated Web Browsing: 
+This technique involves using a web browser like Chrome or Firefox to navigate through a website and extract data. This is typically done using browser automation tools like Selenium or Puppeteer.
+
+### 5. Machine Learning: 
+Machine learning techniques can be used to train models that can automatically extract data from web pages. This is typically done using techniques like natural language processing (NLP) and computer vision.
+
+Overall, the choice of web scraping technique depends on the nature of the data being extracted and the complexity of the website structure.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

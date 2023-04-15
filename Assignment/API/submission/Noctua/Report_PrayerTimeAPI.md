@@ -153,7 +153,7 @@ print(Data_dictionary)
 4) Insert data into collection made in MongoDB.
 
 ``` python
-collection.insert_many(data)
+collection.insert_many(Data_dictionary)
 ```
    
 5) Final product in MongoDB Compass and Atlas.

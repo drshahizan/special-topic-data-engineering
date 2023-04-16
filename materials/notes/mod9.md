@@ -5,7 +5,7 @@
 <a href="https://github.com/drshahizan/special-topic-data-engineering/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/special-topic-data-engineering?color=2b9348"></a>
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/special-topic-data-engineering)
 
-Don't forget to hit the :star: if you like this repo.
+Don't forget to hit the :star: if you like this repo ok
 
 <!---
 Module X: XXX

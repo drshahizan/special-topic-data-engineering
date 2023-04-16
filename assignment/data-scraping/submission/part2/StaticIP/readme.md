@@ -48,22 +48,20 @@ The data size and file type of the data set may vary depending on the number and
 - A data set obtained from scraping 100 citations of a specific publication from Google Scholar may have a data size of about 1 MB and a file type of XML (Extensible Markup Language) or HTML (Hypertext Markup Language).
 - A data set obtained from scraping 100 author profiles related to "computer science" from Google Scholar may have a data size of about 5 MB and a file type of JSON or XML.
 
-Other relevant information about the data set may include
-
-Source: Conversation with Bing, 4/16/2023
-(1) Google Scholar. https://scholar.google.com/.
-(2) Google Scholar. https://scholar.google.com.my/schhp?hl=id.
-(3) Google Scholar. https://scholar.google.com/scholar_ncr.
-
 
 3. Choosing a Library for Web Scraping
-Compare and contrast the available libraries for web scraping publication content, including Beautiful Soup, Scrapy, and Selenium.
-Explain the criteria used to choose the appropriate library for this project.
-Justify the final choice and explain the advantages of the chosen library.
+> - Compare and contrast the available libraries for web scraping publication content, including Beautiful Soup, Scrapy, and Selenium.
+> - Explain the criteria used to choose the appropriate library for this project.
+> - Justify the final choice and explain the advantages of the chosen library.
+
+
 4. Storing Data in MongoDB
-Discuss the benefits of using MongoDB for storing publication content data.
-Explain the best way to store the data in MongoDB, including the data structure and organization.
-Provide examples of how the data can be queried and analyzed using MongoDB.
+> - Discuss the benefits of using MongoDB for storing publication content data.
+> - Explain the best way to store the data in MongoDB, including the data structure and organization.
+> - Provide examples of how the data can be queried and analyzed using MongoDB.
+
+
+
 5. Conclusion
-Summarize the main points of the assignment and restate the importance of web scraping publication content for data analysis.
-Offer suggestions for future research or analysis using the data set obtained from Google Scholar.
+> - Summarize the main points of the assignment and restate the importance of web scraping publication content for data analysis.
+> - Offer suggestions for future research or analysis using the data set obtained from Google Scholar.

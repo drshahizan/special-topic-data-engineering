@@ -16,28 +16,33 @@ Pillow and OpenCV are both popular libraries used for working with images and ot
 
 When scraping websites for images and other multimedia content, both Pillow and OpenCV can be used to download and process the data. For example, you might use Pillow to resize and save images, or use OpenCV to identify and extract specific objects from a video. These libraries can be particularly useful when working with large amounts of media content, as they can help automate many of the tedious and time-consuming tasks involved in scraping and processing multimedia data.
 
-Pillow
+## Pillow
 Pillow is a Python library that is commonly used for image processing and manipulation, and it can be used for web scraping tasks that involve working with images. Here is a general outline of the steps you would follow to perform web scraping using Pillow:
 
-Install Pillow: You can install Pillow using pip, the Python package manager. Open your terminal or command prompt and type: pip install pillow
+### 1. Install Pillow: 
+You can install Pillow using pip, the Python package manager. Open your terminal or command prompt and type: `pip install pillow`
 
-Identify the URL of the image you want to scrape: Use a web scraping library like BeautifulSoup or Scrapy to navigate to the webpage containing the image you want to scrape, and identify the URL of the image.
+### 2. Identify the URL of the image you want to scrape: 
+Use a web scraping library like BeautifulSoup or Scrapy to navigate to the webpage containing the image you want to scrape, and identify the URL of the image.
 
-Download the image using Pillow: Use the Image module from the Pillow library to open and download the image. Here's an example code snippet:
+### 3. Download the image using Pillow: 
+Use the `Image` module from the Pillow library to open and download the image. Here's an example code snippet:
 
-python
-Copy code
+```python
 from PIL import Image
 import requests
 
 url = "https://example.com/image.jpg"
 response = requests.get(url)
 img = Image.open(BytesIO(response.content))
-In this example, we first import the Image module from Pillow, and the requests library to make HTTP requests. We then define the URL of the image we want to scrape, and use requests.get() to make an HTTP GET request to the URL. We pass the response content to BytesIO to convert it to a binary stream, and then pass the binary stream to Image.open() to open the image.
+```
+In this example, we first import the `Image` module from Pillow, and the `requests` library to make HTTP requests. We then define the URL of the image we want to scrape, and use `requests.get()` to make an HTTP GET request to the URL. We pass the response content to `BytesIO` to convert it to a binary stream, and then pass the binary stream to `Image.open()` to open the image.
 
-Manipulate the image as needed: Once the image is downloaded, you can use Pillow's image processing functions to manipulate the image as needed. For example, you could resize the image using the resize() function, or crop the image using the crop() function.
+### 4. Manipulate the image as needed: 
+Once the image is downloaded, you can use Pillow's image processing functions to manipulate the image as needed. For example, you could resize the image using the resize() function, or crop the image using the crop() function.
 
-Save the manipulated image: Finally, you can use the save() function from the Image module to save the manipulated image to a file. Here's an example code snippet:
+### 5. Save the manipulated image: 
+Finally, you can use the `save()` function from the `Image` module to save the manipulated image to a file. Here's an example code snippet:
 
 ```python
 img_resized = img.resize((500, 500))

@@ -70,6 +70,36 @@ https://github.com/atlas-github/malaysiastockbiz_scraper/blob/master/malaysiasto
 - [Web Scraping using lxml and Python 2018: Extracting data from Steam](https://youtu.be/5N066ISH8og)
 
 ## Assignment
+For this assignment, I would suggest writing about web scraping multimedia content from the website Flickr.com. Flickr is a popular photo-sharing platform that contains a vast collection of images and videos that can be scraped for data analysis purposes. Here is a suggested outline for the assignment:
+
+1. Introduction
+
+Briefly introduce the topic of web scraping multimedia content and the importance of this type of data for research and analysis.
+
+2. Web Scraping Flickr
+
+Explain why Flickr is a good source for multimedia content and provide a brief overview of the site.
+Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
+Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
+Choosing a Library for Web Scraping
+
+3. Compare and contrast the available libraries for web scraping multimedia content, including Pillow and OpenCV.
+Explain the criteria used to choose the appropriate library for this project.
+Justify the final choice and explain the advantages of the chosen library.
+Storing Data in MongoDB
+
+4. Discuss the benefits of using MongoDB for storing multimedia content data.
+Explain the best way to store the data in MongoDB, including the data structure and organization.
+Provide examples of how the data can be queried and analyzed using MongoDB.
+Conclusion
+
+5. Summarize the main points of the assignment and restate the importance of web scraping multimedia content for data analysis.
+Offer suggestions for future research or analysis using the data set obtained from Flickr.
+Overall, this write-up should demonstrate a thorough understanding of the process of web scraping multimedia content, as well as the tools and libraries used for this task. It should also provide a clear and detailed explanation of how the data is stored and organized in MongoDB for efficient querying and analysis.
+
+
+
+
 Please follow the instructions below:
 - Collaborate effectively with your group members to complete the task.
 - Choose a **different API** for each group to use for this task. We strongly suggest that you choose an API from Malaysia.

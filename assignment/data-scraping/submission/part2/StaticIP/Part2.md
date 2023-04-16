@@ -1,11 +1,11 @@
 # Assignment Part 2: Web Scraping Text Content
 
 ## Table of content
-* [Introduction](#-Introduction)
-* [Web Scraping Google Scholar](#-Web-Scraping-Google-Scholar)
-* [Choosing a Library for Web Scraping](#-Choosing-a-Library-for-Web-Scraping)
-* [Storing data in MongoDB](#-Storing-Data-in-MongoDB)
-* [Conclusion](#-Conclusion)
+* [Introduction](#Introduction)
+* [Web Scraping Google Scholar](#Web-Scraping-Google-Scholar)
+* [Choosing a Library for Web Scraping](#Choosing-a-Library-for-Web-Scraping)
+* [Storing data in MongoDB](#Storing-Data-in-MongoDB)
+* [Conclusion](#Conclusion)
 
 ## Introduction
 > Briefly introduce the topic of web scraping publication content and the importance of this type of data for research and analysis.

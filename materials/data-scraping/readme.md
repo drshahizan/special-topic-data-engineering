@@ -66,7 +66,7 @@ https://github.com/atlas-github/malaysiastockbiz_scraper/blob/master/malaysiasto
 This assignment is divided into two parts:
 
 ### Part 1: Web scraping multimedia content
-You must select the appropriate website to do web scraping multimedia content. For example, you can use the Flickr.com website. Flickr is a popular photo-sharing platform that contains a vast collection of images and videos that can be scraped for data analysis purposes. Here is a suggested outline for the assignment:
+You must select the appropriate website to do web scraping multimedia content. For example, you can use the [Flickr.com](flickr.md) website. Flickr is a popular photo-sharing platform that contains a vast collection of images and videos that can be scraped for data analysis purposes. Here is a suggested outline for the assignment:
 
 #### 1. Introduction
 

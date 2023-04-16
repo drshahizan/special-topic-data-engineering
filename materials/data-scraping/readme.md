@@ -130,15 +130,10 @@ You need to find a website relevant to data publication content, such as the Goo
 
 Overall, this write-up should demonstrate a thorough understanding of the process of web scraping publication content, as well as the tools and libraries used for this task. It should also provide a clear and detailed explanation of how the data is stored and organized in MongoDB for efficient querying and analysis.
 
-Please follow the instructions below:
+### Others
 - Collaborate effectively with your group members to complete the task.
-- Choose a **different API** for each group to use for this task. We strongly suggest that you choose an API from Malaysia.
-- Record the necessary information of the selected API on the [Google Sheets](https://docs.google.com/spreadsheets/d/16eKnUHr0a1FUC2fl7ja2W5FrzwHZN1us-GK4_jhvZD8/edit?usp=sharing) document provided.
-- Choose a suitable Python library to retrieve the required information using the API.
-- After retrieving the necessary data, save the file in **CSV** format.
-- Next, enter the data into an appropriate **database**, such as MySQL, PostgreSQL, or MongoDB.
 - Ensure to send the report in **mark down** format and **source code**.
-- Please submit the assignments in the [**submission folder**](https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission). It would be best if you create a folder using your group name.
+- Please submit the assignments in the [**submission folder**](https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/data-scraping/submission). It would be best if you create a folder using your group name.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

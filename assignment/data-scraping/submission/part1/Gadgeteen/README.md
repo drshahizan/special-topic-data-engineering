@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/95162273/230906680-da7a5fc0-00e4-4a4a-a03d-34c4c2a40598.png" alt = "Open Weather API logo"/>
 </div>
 
-<h1 align="center"> Open Weather API </h1>
+<h1 align="center"> Web Scraping </h1>
 
 <a href="https://openweathermap.org/">Open Weather</a>  is a service that provides weather data through an API (Application Programming Interface). The OpenWeatherMap API allows developers to access current, forecast, and historical weather data for any location on Earth, as well as weather maps, satellite imagery, and other weather-related information.
 

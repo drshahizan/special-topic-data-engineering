@@ -28,5 +28,5 @@
 </table>
 
 ## Contents📝
-- 📑[Report]()
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part2/Regex/ReportPart2_Regex.md)
 - 💻[Code]()

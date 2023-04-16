@@ -57,7 +57,7 @@ Note that the accuracy of the logo detection and text extraction can depend on t
 ## Web scraping using OpenCV
 OpenCV is a powerful computer vision library that can be used for various image and video processing tasks, including web scraping. Here's a general outline of the steps you would follow to perform web scraping using OpenCV:
 
-### 1.Install OpenCV
+### 1. Install OpenCV
 You can install OpenCV using pip, the Python package manager. Open your terminal or command prompt and type: `pip install opencv-python`
 
 Identify the URL of the image or video you want to scrape: Use a web scraping library like BeautifulSoup or Scrapy to navigate to the webpage containing the image or video you want to scrape, and identify the URL of the image or video.
@@ -77,10 +77,10 @@ In this example, we first import the `cv2` module from OpenCV, and the `urllib` 
 
 If you want to scrape a video, you can use the VideoCapture() function from OpenCV to capture frames from the video.
 
-### 2.Process the image or video as needed
+### 2. Process the image or video as needed
 Once you have downloaded the image or video, you can use OpenCV's various image and video processing functions to manipulate the data as needed. For example, you could detect and track objects in the image using OpenCV's object detection and tracking algorithms.
 
-### 3.Save the processed image or video
+### 3. Save the processed image or video
 Finally, you can use OpenCV's `imwrite()` function to save the processed image or video to a file. Here's an example code snippet:
 
 ```python
@@ -94,10 +94,10 @@ Note that web scraping can have legal and ethical implications, and it is import
 ## Case Study: Google Scholar
 Extracting data from Google Scholar using OpenCV can be a challenging task since Google Scholar uses dynamic HTML, which means that the page source code changes frequently. However, we can extract data such as article titles and authors from the search results using OpenCV. Here's a general outline of the steps you would follow to extract data from Google Scholar using OpenCV:
 
-### 1.Install OpenCV
+### 1. Install OpenCV
 You can install OpenCV using pip, the Python package manager. Open your terminal or command prompt and type: `pip install opencv-python-headless`
 
-### 2.Use requests and BeautifulSoup to extract the search results HTML
+### 2. Use requests and BeautifulSoup to extract the search results HTML
 Use the `requests` library to make an HTTP GET request to the Google Scholar search results page, passing in your search query as a parameter. You can then use BeautifulSoup to parse the HTML and extract the search results.
 
 ```python

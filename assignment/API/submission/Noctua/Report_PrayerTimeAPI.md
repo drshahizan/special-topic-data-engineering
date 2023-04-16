@@ -1,8 +1,7 @@
 
-<a href="https://github.com/drshahizan/special-topic-data-engineering/assignment/API/submission/Noctua/graphs/contributors" src="https://img.shields.io/github/contributors/drshahizan/special-topic-data-engineering?color=2b9348"></a>
+<a href="https://github.com/drshahizan/special-topic-data-engineering/assignment/API/submission/Noctua/Report_PrayerTimeAPI.md/graphs/contributors" src="https://img.shields.io/github/contributors/drshahizan/special-topic-data-engineering?color=2b9348"></a>
 
 <div align='center'><h1>Report Prayer Time API</h1></div>
-
 
 ## 📖Introduction
 

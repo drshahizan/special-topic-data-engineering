@@ -10,6 +10,35 @@ Don't forget to hit the :star: if you like this repo.
 # Pillow
 **Pillow** is a library that provides support for opening, manipulating, and saving many different image file formats. It is often used for image processing and manipulation in web scraping applications, such as resizing or cropping images that have been scraped from a website. Pillow can be installed using pip, the Python package manager.
 
+Examples of data that can be extracted using Pillow in web scraping:
+1. **Text extraction**: Pillow can be used to extract text from images that contain text. This can be useful in cases where the data is presented as an image rather than text, such as in scanned documents or screenshots. To extract text from an image using Pillow, you can use an OCR (optical character recognition) library like PyTesseract.
+
+2. **Image analysis**: Pillow can be used to perform image analysis tasks such as color detection, edge detection, and image segmentation. This can be useful in cases where the images contain important information that cannot be extracted using traditional web scraping methods.
+
+3. **Image processing**: Pillow can be used to process images by resizing, cropping, and converting them to different formats. This can be useful in cases where the images need to be processed before they can be used in further analysis or visualization.
+
+For example, let's say you are interested in scraping a website that contains images of different products, and you want to extract the product names and prices. However, the product names and prices are not displayed as text on the page, but rather as an image. You can use Pillow to extract the text from the images, and then use traditional web scraping methods to extract the other data.
+
+Here's an example code snippet that uses Pillow and PyTesseract to extract text from an image:
+
+```python
+from PIL import Image
+import pytesseract
+
+# Open the image file
+image = Image.open('product_name.png')
+
+# Extract the text from the image
+text = pytesseract.image_to_string(image)
+
+# Print the extracted text
+print(text)
+``` 
+
+In this example, we open an image file named 'product_name.png' using `Pillow's Image.open()` function. We then use PyTesseract's `image_to_string()` function to extract the text from the image. Finally, we print the extracted text.
+
+Note that the accuracy of the text extraction using OCR libraries like PyTesseract can depend on the quality and clarity of the image. It is also important to consider any legal or ethical implications of web scraping, and to ensure that the scraping is done in compliance with the website's terms of service and any applicable laws and regulations.
+
 ## Web scraping using Pillow
 Pillow is a Python library that is commonly used for image processing and manipulation, and it can be used for web scraping tasks that involve working with images. Here is a general outline of the steps you would follow to perform web scraping using Pillow:
 

@@ -183,6 +183,27 @@ Benefits of using MongoDB for storing publication content data
   </tbody>
 </table>
 
+Examples of how the data can be queried and analyzed using MongoDB
+
+1) Basic Queries
+
+Find all articles that were published in a certain date range using following query
+
+2) Aggregation
+
+Used to group, filter and transofrm data
+
+3) Text search
+
+Used to seach through publication content data
+
+4) Geospatial queries
+
+Used to analyze publication content data that includes location information
+
+
+
+
 
 
 ## Conclusion

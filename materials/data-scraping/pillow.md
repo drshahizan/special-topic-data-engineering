@@ -127,6 +127,85 @@ In this example, we iterate over each search result and extract the URLs of the 
 
 Note that this is a simplified example, and there are many more details and edge cases to consider when extracting data from Google Scholar using Pillow. Additionally, web scraping can have legal and ethical implications, and it is important to make sure you have permission to scrape the website and its content before doing so.
 
+## Storing data using MongoDB
+When it comes to storing data that includes images and videos, MongoDB is a good option as it supports the storage of binary data through its Binary Data subtype. Here are the steps you can follow to store data that includes images and videos after scraping using Pillow in MongoDB:
+
+1. Establish a connection to your MongoDB server and create a new database and collection where you will store the scraped data.
+
+2. After scraping the data using Pillow, you can save the image or video file to a local file path.
+
+3. Open the file and read its binary data using Python's built-in `open` function and `read` method.
+
+4. Convert the binary data into the BSON format, which is the binary representation of JSON data used by MongoDB, using Python's built-in `bson.binary.Binary` method.
+
+5. Create a new document object and insert it into the MongoDB collection using the `insert_one` method of the `pymongo` library. The document object should include the data fields you scraped along with the binary data of the image or video.
+
+Here's a code example that shows how to store image and video data in MongoDB using Pillow and pymongo:
+
+```python
+import pymongo
+import requests
+from PIL import Image
+
+# Connect to MongoDB server and create database and collection
+client = pymongo.MongoClient('mongodb://localhost:27017/')
+db = client['mydatabase']
+col = db['mycollection']
+
+# Scrape data using Pillow
+url = 'https://example.com/image.jpg'
+response = requests.get(url)
+image = Image.open(BytesIO(response.content))
+
+# Save image to local file path
+image.save('image.jpg')
+
+# Read binary data from local file
+with open('image.jpg', 'rb') as f:
+    image_data = f.read()
+
+# Convert binary data to BSON format
+bson_data = pymongo.binary.Binary(image_data)
+
+# Create document object and insert into MongoDB collection
+document = {
+    'title': 'Example Image',
+    'description': 'This is an example image',
+    'image_data': bson_data
+}
+
+col.insert_one(document)
+
+# Scrape video data using Pillow
+url = 'https://example.com/video.mp4'
+response = requests.get(url)
+
+# Save video to local file path
+with open('video.mp4', 'wb') as f:
+    f.write(response.content)
+
+# Read binary data from local file
+with open('video.mp4', 'rb') as f:
+    video_data = f.read()
+
+# Convert binary data to BSON format
+bson_data = pymongo.binary.Binary(video_data)
+
+# Create document object and insert into MongoDB collection
+document = {
+    'title': 'Example Video',
+    'description': 'This is an example video',
+    'video_data': bson_data
+}
+
+col.insert_one(document)
+```
+
+In this example, we first establish a connection to the MongoDB server and create a new database and collection. We then use Pillow to scrape an image and save it to a local file path. We read the binary data from the file using Python's `open` function and `read` method, and then convert it to BSON format using `pymongo.binary.Binary`. We create a new document object with the scraped data fields and the binary image data, and then insert it into the MongoDB collection using `insert_one`.
+
+We follow a similar process to scrape a video, save it to a local file path, read its binary data, convert it to BSON format, and insert it into the MongoDB collection along with the scraped data fields.
+
+Note that storing binary data in a database can result in large file sizes and increased storage requirements, so it's important to consider the trade-offs between storing binary data in a database versus storing it on disk or in a cloud storage service.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

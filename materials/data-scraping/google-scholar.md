@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Flickr
+# Google Scholar
 Google Scholar is a search engine that enables users to search for scholarly literature, including academic journals, conference papers, theses, dissertations, preprints, and technical reports. It is a free online database that provides access to a wide range of academic research from various disciplines, including science, engineering, medicine, social sciences, arts, and humanities.
 
 Google Scholar uses a special algorithm to search for scholarly content, which includes both peer-reviewed and non-peer-reviewed articles. It indexes a wide range of sources, including academic publishers, universities, and other scholarly organizations, and provides users with access to full-text articles, abstracts, and citations.

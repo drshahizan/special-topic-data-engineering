@@ -162,13 +162,24 @@ Benefits of using MongoDB for storing publication content data
   <tbody>
     <tr>
       <td>Define clear and consistent data structures</td>
-      <td></td>
+      <td>To ensure data is organized and easy to query</td>
     </tr>
     <tr>
       <td>Use embedded documents</td>
-      
+      <td>MongoDB supports embedded documents and it can be used to store related data in a single document. This can reduce the need for complex joins</td>
     </tr>
     <tr>
+      <td>Normalize data when appropriate</td>
+      <td>Store data in separate collectiions rathen than embedding them in a single document</td>
+    </tr>
+    <tr>
+      <td>Consider data sharding</td>
+      <td>To distribute data across multiple servers or clusters. This can reduce the risk of downtime due to hardware failures or network outages</td>
+    </tr>
+    <tr>
+      <td>Ensure data consistency</td>
+      <td>MongoDB supports atomic operations which can help ensure data consistency</td>
+    </tr>
   </tbody>
 </table>
 

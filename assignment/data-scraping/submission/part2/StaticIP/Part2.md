@@ -120,6 +120,19 @@ Beautiful Soup, Scrapy, and Selenium are three popular libraries for web scrapin
       <li>Not ideal for large scale scraping tasks</li>
       </td>
     </tr>
+    <tr>
+      <td>Serpapi</td>
+      <td>Paid web scraping APU for accessing structured search engine results data</td>
+      <td>
+      <li>Support for multiple search engines</li>
+      <li>Handle complex scraping tasks</li>
+      <li>Large number of search results</li>
+      </td>
+      <td>
+      <li>Paid service</li>
+      <li>Limited customization</li>
+      </td>
+    </tr>
   </tbody>
 </table>
 

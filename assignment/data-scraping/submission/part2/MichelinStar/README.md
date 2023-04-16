@@ -61,30 +61,51 @@ Overall, Google Scholar is a valuable source for publication content because of 
 
 Here are some of the common publication metadata associated with a document in Google Scholar:
 
-Title: 
+Title: PARTICLE SWARM OPTIMIZATION FOR NEURAL NETWORK LEARNING
+ENHANCEMENT
 <br>
-Authors: 
+Authors: HAZA NUZLY BIN ABDULL HAMED
 <br>
-Publication Date: 
+Publication Date: 2006
 <br>
-Publication Type: 
+Publication Type: Thesis
 <br>
-Name: 
+Journal or Conference Name: Google Scholar
 <br>
-Volume and Issue Number: 
+Volume and Issue Number: -
 <br>
-Pages: 
+Pages: 59
 <br>
-Abstract: 
+Abstract: Backpropagation (BP) algorithm is widely used to solve many real world
+problems by using the concept of Multilayer Perceptron (MLP). However, major
+disadvantages of BP are its convergence rate is relatively slow and always being
+trapped at the local minima. To overcome this problem, Genetic Algorithm (GA) has
+been used to determine optimal value for BP parameters such as learning rate and
+momentum rate and also for weight optimization. In Backpropagation Neural
+Network (BPNN), there are many elements to be considered such as the number of
+input, hidden and output nodes, learning rate, momentum rate, bias, minimum error
+and activation/transfer functions. All these elements will affect the speed of neural
+network learning. Although GA is successfully improved BPNN learning, there are
+still some issues such as longer training time to produce the output and usage of
+complex functions in selection, crossover and mutation calculation. In this study, the
+latest optimization algorithm, Particle Swarm Optimization (PSO) is chosen and
+applied in feedforward neural network to enhance the learning process in terms of
+convergence rate and classification accuracy. Two programs have been developed;
+Particle Swarm Optimization Feedforward Neural Network (PSONN) and Genetic
+Algorithm Backpropagation Neural Network (GANN). The results show that
+PSONN give promising results in term of convergence rate and classification
+compared to GANN.
 <br>
-Keywords: 
+Keywords: Backpropagation (BP)
 <br>
-DOI: 
+DOI: -
 <br>
-URL: 
+URL: http://eprints.utm.my/id/eprint/5381/1/HazaNuzlyAbdullHamedMFSKSM2006.pdf
 <br>
-Citations: 
+Citations: NUZLY , H. A. Z. A. (n.d.). 3 particle swarm optimization for neural network learning Haza NUZLY ... Retrieved April 16, 2023, from http://eprints.utm.my/id/eprint/5381/1/HazaNuzlyAbdullHamedMFSKSM2006.pdf 
 <br>
-Bibliographic Software Export Formats: 
+Bibliographic Software Export Formats: -
 <br>
-Full-text availability: 
+Full-text availability: -
+
+

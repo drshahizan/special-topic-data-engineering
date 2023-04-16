@@ -16,7 +16,7 @@ One of the key features of Google Scholar is that it allows users to search acro
 
 Google Scholar is a valuable resource for researchers, students, and academics who need to find and access scholarly literature. It provides an easy-to-use interface, powerful search capabilities, and access to a wealth of information from a variety of disciplines.
 
-# Metadata
+## Metadata
 Here are some of the common publication metadata associated with a document in Google Scholar:
 
 1. **Title**: The title of the document
@@ -33,6 +33,24 @@ Here are some of the common publication metadata associated with a document in G
 12. **Citations**: The number of times the document has been cited by other scholarly documents
 13. **Bibliographic Software Export Formats**: Standard formats such as BibTeX, EndNote, and RefWorks to facilitate reference management
 14. **Full-text availability**: The availability of the full text of the document, including free and paid options
+
+## Extract Data
+To extract data from Google Scholar for researchers from Universiti Teknologi Malaysia, you can follow these steps:
+
+1. Go to the Google Scholar website: https://scholar.google.com/
+2. In the search bar, enter the search query "Universiti Teknologi Malaysia" and click on the search button.
+3. On the search results page, click on the "Settings" button in the top right corner of the page.
+4. Scroll down to the "Library links" section and search for "Universiti Teknologi Malaysia". Select the checkbox next to the option that appears, then click "Save".
+5. After saving the library link, the search results page will refresh. Click on the "Advanced search" button to the right of the search bar.
+6. In the advanced search form, you can further refine your search by specifying keywords, authors, publication years, etc. For example, to search for publications by a specific researcher from UTM, you can enter their name in the "Author" field.
+7. After specifying your search criteria, click the "Search" button to retrieve the results.
+8. You can then extract the relevant metadata for the publications using web scraping techniques. This can be done using programming languages such as Python and libraries such as BeautifulSoup or Scrapy.
+9. Once you have extracted the data, you can store it in a database such as MongoDB or export it to a CSV file for further analysis.
+
+
+
+
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

@@ -1,5 +1,5 @@
 # Part 2: Web scraping text content
-## Table of Content:
+## Table of Content
 - [Introduction](#introduction)
 - [Web Scraping Google Scholar](#web-scraping-google-scholar)
 - [Choosing a Library for Web Scraping](#choosing-a-library-for-web-scraping)

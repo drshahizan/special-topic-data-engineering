@@ -25,7 +25,7 @@ Data scraping is important for a variety of reasons.
 
 When scraping a website for **text**, the scraper typically uses a web crawler or spider to navigate the site and retrieve the relevant data. The text data can then be parsed and extracted using tools like BeautifulSoup or Scrapy, which can identify and extract specific HTML tags and their contents.
 
-For scraping **images and videos**, the process is similar, but requires additional steps to identify and download the specific media files. The scraper may need to identify the URL of each image or video file and then use a library like [**Pillow** or **OpenCV**](pillow-opencv.md) to download and process the media files.
+For scraping **images and videos**, the process is similar, but requires additional steps to identify and download the specific media files. The scraper may need to identify the URL of each image or video file and then use a library like [**Pillow**](pillow.md) or [**OpenCV**](opencv.md) to download and process the media files.
 
 Overall, data scraping has become an essential tool for individuals and organizations seeking to gather and process large amounts of data quickly and efficiently, allowing for more informed decision-making and improved efficiency. However, it's important to note that data scraping can also raise ethical concerns, particularly when it comes to the privacy and security of individuals' data.
 

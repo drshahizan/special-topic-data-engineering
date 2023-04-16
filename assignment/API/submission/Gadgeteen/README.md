@@ -63,5 +63,5 @@ Overall, this assignment requires knowledge of Python programming, working with 
 ## Contents📝
 - 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/Gadgeteen/Open%20Weather%20API%20Documentation.md)
 - 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/Gadgeteen/API%20assignment.ipynb)
-- 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/Gadgeteen/weather_data.csv)
+- 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/Gadgeteen/weather_data.csv)
 

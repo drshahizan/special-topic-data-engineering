@@ -152,6 +152,26 @@ Benefits of using MongoDB for storing publication content data
 - Geospatial queries
 - Data replication and backup
 
+<table>
+  <thead>
+    <tr>
+      <th>Ways to store data in MongoDB</th>
+      <th>Explanation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Define clear and consistent data structures</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Use embedded documents</td>
+      
+    </tr>
+    <tr>
+  </tbody>
+</table>
+
 
 
 ## Conclusion

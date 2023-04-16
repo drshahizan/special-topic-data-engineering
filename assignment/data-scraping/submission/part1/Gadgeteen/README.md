@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/95162273/230906680-da7a5fc0-00e4-4a4a-a03d-34c4c2a40598.png" alt = "Open Weather API logo"/>
+  <img src="https://user-images.githubusercontent.com/95162273/232305985-a6549da1-bbea-4658-becb-8448ae0db9f9.png" alt = "flickr logo"/>
 </div>
 
 <h1 align="center"> Web Scraping </h1>
@@ -70,7 +70,7 @@ Flickr provides an API (Application Programming Interface) that allows developer
 </p>
 
 ## Contents📝
-- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/Gadgeteen/Open%20Weather%20API%20Documentation.md)
-- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/Gadgeteen/API%20assignment.ipynb)
-- 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/Gadgeteen/weather_data.csv)
+- 📑[Report](#)
+- 💻[Code](#)
+- 📂[CSV](#)
 

@@ -1,3 +1,4 @@
+<h1 align=center>Part 2: Web Scraping Text Content</h2>
 <h2 align=center>Group Members <img width=30px; height=30px src="https://user-images.githubusercontent.com/120556342/215398734-609ba04a-88e5-44b5-9eaa-239ac8edd091.png"></h2>
 <table align=center>
   <tr>
@@ -25,3 +26,7 @@
     <td>A20EC0142</td>
   </tr>
 </table>
+
+## Contents📝
+- 📑[Report]()
+- 💻[Code]()

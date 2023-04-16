@@ -57,7 +57,7 @@ Note that web scraping can have legal and ethical implications, and it is import
 Extracting data from Google Scholar using Pillow can be a challenging task since Google Scholar uses dynamic HTML, which means that the page source code changes frequently. However, we can extract data such as article titles and authors from the search results using Pillow. Here's a general outline of the steps you would follow to extract data from Google Scholar using Pillow:
 
 ### 1. Install Pillow
-You can install Pillow using pip, the Python package manager. Open your terminal or command prompt and type: pip install pillow
+You can install Pillow using pip, the Python package manager. Open your terminal or command prompt and type: `pip install pillow`
 
 ### 2. Use requests and BeautifulSoup to extract the search results HTML
 Use the requests library to make an HTTP GET request to the Google Scholar search results page, passing in your search query as a parameter. You can then use BeautifulSoup to parse the HTML and extract the search results.
@@ -74,7 +74,7 @@ soup = BeautifulSoup(response.text, "html.parser")
 results = soup.find_all("div", {"class": "gs_r gs_or gs_scl"})
 ```
 
-In this example, we define our search query and construct the search results URL by appending the query to the base Google Scholar search URL. We then use requests.get() to make an HTTP GET request to the search results URL, and parse the HTML using BeautifulSoup. We extract the search results by finding all div elements with the class "gs_r gs_or gs_scl".
+In this example, we define our search query and construct the search results URL by appending the query to the base Google Scholar search URL. We then use `requests.get()` to make an HTTP GET request to the search results URL, and parse the HTML using BeautifulSoup. We extract the search results by finding all div elements with the class `gs_r gs_or gs_scl`.
 
 ### 3. Extract the article titles and authors using Pillow
 Use Pillow's image processing functions to extract the article titles and authors from the search results. Since the Google Scholar search results use dynamic HTML, the article titles and authors are rendered as images rather than text. We can use Pillow's Image module to open and process these images.

@@ -100,7 +100,7 @@ Briefly introduce the topic of web scraping multimedia content and the importanc
 
 #### 5. Conclusion
 
--. Summarize the main points of the assignment and restate the importance of web scraping multimedia content for data analysis.
+- Summarize the main points of the assignment and restate the importance of web scraping multimedia content for data analysis.
 - Offer suggestions for future research or analysis using the data set obtained from Flickr.
 
 Overall, this write-up should demonstrate a thorough understanding of the process of web scraping multimedia content, as well as the tools and libraries used for this task. It should also provide a clear and detailed explanation of how the data is stored and organized in MongoDB for efficient querying and analysis.

@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 ## Content:
 - [Introduction](intro-ws.md)
-- [API and Web Scraping](./api-web-scraping.md)
+- [API and Web Scraping](../API/api-web-scraping.md)
 
 ## Useful information
 - [Web Scraping with EDA and Visualization Using Python](https://medium.com/analytics-vidhya/web-scraping-with-eda-and-visualization-using-python-a496ddf5f98e)

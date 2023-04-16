@@ -189,19 +189,36 @@ Examples of how the data can be queried and analyzed using MongoDB
 
 Find all articles that were published in a certain date range using following query
 
+``` python
+db.articles.find({publishedDate: {$gte: ISODate("2022-01-01"), $lte: ISODate("2022-12-31")}})
+```
+
 2) Aggregation
 
 Used to group, filter and transofrm data
+
+``` python
+db.articles.aggregate([
+   {$group: {_id: "$author", count: {$sum: 1}}},
+   {$sort: {count: -1}}
+])
+```
 
 3) Text search
 
 Used to seach through publication content data
 
+``` python
+db.articles.find({$text: {$search: "COVID-19"}})
+```
+
 4) Geospatial queries
 
 Used to analyze publication content data that includes location information
 
-
+``` python
+db.articles.find({location: {$geoWithin: {$centerSphere: [[lng, lat], radius]}}})
+```
 
 
 

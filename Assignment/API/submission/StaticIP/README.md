@@ -25,3 +25,65 @@
   </tr>
 </table>
 </div>
+
+## Library used
+
+The library we have used is `requests`, `json` and `pandas`
+
+- `requests` is used to send a HTTP to server and retrieve data from it,
+- `json` is used to manipulate json file,
+- `pandas` is used to convert json to csv
+
+```python
+import requests
+import json
+import pandas as pd
+```
+
+## Fetching data from holidayapi using their api
+```python
+year = "2022"
+country = "MY"
+api_key = "ce9d976d-726c-4eaa-b304-07cbc741d647"
+url = "https://holidayapi.com/v1/holidays?pretty&country="+country+"&year="+year+"&key="+api_key
+r = requests.get(url)
+```
+
+## Getting value in json format
+```python
+value = r.json()
+value = value['holidays']
+```
+
+## Write into file
+```python
+json_file = open("data.json", "w")
+json.dump(value, json_file, indent = 6)  
+json_file.close()
+```
+
+## Convert to CSV file
+```python
+df = pd.read_json (r'/content/data.json')
+df.to_csv (r'/content/data.csv', index = None)
+```
+
+## Create Database in MongoDB
+
+<div align = "center"><img src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Create%20database.png" height = "450"></div>
+
+
+## Import to MongoDB
+
+```mongodb
+show bds
+
+db.StaticIP.insertOne({x:1})
+
+mongoimport — db StaticIP — collection Airport — type csv — headerline — ignoreBlanks — file /content/data.json
+
+db.database.find()
+```
+
+
+<div align = "center"><img src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Database%20in%20MongoDB.png" height = "450"</div>

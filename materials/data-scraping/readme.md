@@ -96,7 +96,7 @@ Briefly introduce the topic of web scraping multimedia content and the importanc
 - Offer suggestions for future research or analysis using the data set obtained from Flickr.
 
 ### Part 2: Web scraping text content
-You need to find a website relevant to data publication content, such as the Google Scholar website. Google Scholar is a popular search engine for academic publications, making it an excellent source for web scraping data related to the Faculty of Computing at the University of Technology Malaysia. Here is a suggested outline for the assignment:
+You need to find a website relevant to data publication content, such as the [Google Scholar](google-scholar.md) website. Google Scholar is a popular search engine for academic publications, making it an excellent source for web scraping data related to the Faculty of Computing at the University of Technology Malaysia. Here is a suggested outline for the assignment:
 
 #### 1. Introduction
 - Briefly introduce the topic of web scraping publication content and the importance of this type of data for research and analysis.

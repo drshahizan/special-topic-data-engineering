@@ -8,7 +8,23 @@
 Don't forget to hit the :star: if you like this repo.
 
 # HTML Parsing
+HTML parsing is a technique used in web scraping to extract data from the HTML code of a webpage. HTML (Hypertext Markup Language) is the standard markup language used to create web pages, and it consists of a series of tags that define the structure and content of a webpage.
 
+HTML parsing involves analyzing the HTML code of a webpage and identifying specific tags and attributes that contain the data of interest. This is usually done using an HTML parser library, such as Beautiful Soup, lxml, or HTML Parser.
+
+Here's how HTML parsing typically works:
+
+1. Retrieve the HTML code of the webpage using a library like Requests.
+
+2. Parse the HTML code using an HTML parser library, such as Beautiful Soup.
+
+3. Identify the specific tags and attributes that contain the data of interest, such as the class or id attributes.
+
+4. Extract the data from the identified tags and attributes using the parsing library.
+
+5. Save the extracted data in a structured format, such as a CSV or JSON file.
+
+HTML parsing is a useful technique for web scraping because it allows for the extraction of structured data from unstructured HTML code. This data can then be used for a variety of purposes, such as research, analysis, and decision-making.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

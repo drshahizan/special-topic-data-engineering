@@ -2,6 +2,8 @@
 <div align='center'>
 <img width=300 src='https://logos-world.net/wp-content/uploads/2021/03/Flickr-Logo.png'>
 
+<br>
+
 <table>
   <tr>
    <th>Group members</th>

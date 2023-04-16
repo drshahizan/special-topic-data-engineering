@@ -1,8 +1,8 @@
 # Assignment Part 2: Web Scraping Text Content
-1. Introduction
+## Introduction
 > Briefly introduce the topic of web scraping publication content and the importance of this type of data for research and analysis.
 
-2. Web Scraping Google Scholar
+## Web Scraping Google Scholar
 
 > - Explain why Google Scholar is a good source for publication content and provide a brief overview of the site.
 > - Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
@@ -49,19 +49,40 @@ The data size and file type of the data set may vary depending on the number and
 - A data set obtained from scraping 100 author profiles related to "computer science" from Google Scholar may have a data size of about 5 MB and a file type of JSON or XML.
 
 
-3. Choosing a Library for Web Scraping
+## Choosing a Library for Web Scraping
 > - Compare and contrast the available libraries for web scraping publication content, including Beautiful Soup, Scrapy, and Selenium.
 > - Explain the criteria used to choose the appropriate library for this project.
 > - Justify the final choice and explain the advantages of the chosen library.
 
+Beautiful Soup, Scrapy, and Selenium are three popular libraries for web scraping publication content in Python. They have different features and capabilities that make them suitable for different scenarios and tasks. Here is a brief comparison and contrast of the three libraries:
 
-4. Storing Data in MongoDB
+- Beautiful Soup is a library that can parse and extract data from HTML or XML documents. It can handle malformed or irregular HTML code and provide various methods to navigate and manipulate the DOM tree. Beautiful Soup is easy to use and has a large community of users and documentation. However, Beautiful Soup cannot execute JavaScript code or handle dynamic or interactive web pages. It also requires another library such as Requests or urllib to fetch the web pages from the web server.
+- Scrapy is a framework that can crawl and scrape data from web pages and websites. It can handle multiple requests concurrently and asynchronously, follow links, extract data using XPath or CSS selectors, and store or process the data in various formats or pipelines. Scrapy is fast, scalable, and robust. It also has built-in features such as caching, logging, throttling, proxies, etc. However, Scrapy has a steeper learning curve and requires more configuration and coding than Beautiful Soup. It also cannot execute JavaScript code or handle dynamic or interactive web pages natively.
+- Selenium is a library that can automate web browsers such as Chrome or Firefox. It can launch a browser, load a web page, and execute actions on the page such as clicking, typing, scrolling, etc. Selenium can also access and manipulate the DOM elements of the page using JavaScript code. Selenium can handle dynamic or interactive web pages that require JavaScript execution or user interaction. However, Selenium is slower, heavier, and less reliable than Beautiful Soup or Scrapy. It also requires installing a web driver for each browser and may encounter issues such as timeouts or synchronization.
+
+The criteria used to choose the appropriate library for this project depend on the requirements and objectives of the project. Some possible criteria are:
+
+- The type and structure of the publication content to be scraped
+- The complexity and interactivity of the web pages or websites to be scraped
+- The speed and scalability of the web scraping process
+- The ease of use and maintenance of the web scraping code
+- The availability and quality of documentation and support
+
+Based on these criteria, the final choice for this project is Scrapy. The advantages of using Scrapy are:
+
+- Scrapy can crawl and scrape data from multiple web pages or websites efficiently and effectively
+- Scrapy can extract data using XPath or CSS selectors that are more precise and flexible than Beautiful Soup's methods
+- Scrapy can store or process the data in various formats or pipelines that are more convenient and customizable than Selenium's methods
+- Scrapy is fast, scalable, and robust compared to Beautiful Soup or Selenium
+- Scrapy has built-in features such as caching, logging, throttling, proxies, etc. that can enhance the performance and reliability of the web scraping process
+
+## Storing Data in MongoDB
 > - Discuss the benefits of using MongoDB for storing publication content data.
 > - Explain the best way to store the data in MongoDB, including the data structure and organization.
 > - Provide examples of how the data can be queried and analyzed using MongoDB.
 
 
 
-5. Conclusion
+## Conclusion
 > - Summarize the main points of the assignment and restate the importance of web scraping publication content for data analysis.
 > - Offer suggestions for future research or analysis using the data set obtained from Google Scholar.

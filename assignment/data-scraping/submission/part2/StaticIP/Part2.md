@@ -163,6 +163,24 @@ Serpapi is a web service that offers an easy and reliable way to scrape and pars
 
 Based on these benefits, I have decided to use Serpapi for my web scraping project. I think Serpapi is the best tool for my use case, as it saves me time, money, and hassle. I can focus on analyzing and using the data from SERPs, rather than scraping and parsing it myself.
 
+```python
+from serpapi import GoogleSearch
+import pandas as pd
+
+params = {
+  "engine": "google_scholar",
+  "q": ["Faculty of Computing", "University of Technology Malaysia", "University Teknologi Malaysia"],
+  "api_key": "d85f885fa922044364556b1bb9f717a5618e5243b772573cc2ea3b1302ada8cd"
+}
+
+search = GoogleSearch(params)
+results = search.get_dict()
+organic_results = results["organic_results"]
+
+df = pd.DataFrame(organic_results)
+df.to_csv('result.csv') 
+```
+
 ## Storing Data in MongoDB
 > - Discuss the benefits of using MongoDB for storing publication content data.
 > - Explain the best way to store the data in MongoDB, including the data structure and organization.

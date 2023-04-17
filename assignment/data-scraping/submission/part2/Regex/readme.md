@@ -1,4 +1,10 @@
-<h1 align=center>Part 2: Web Scraping Text Content 📋🔍</h2>
+<div align="center">
+  <img width=800px height=400px src="https://user-images.githubusercontent.com/120556342/232354247-1901fa8a-7260-4a40-9c67-beb1b455d597.png"/>
+</div>
+
+<h1 align=center>Part 2: Web Scraping Text Content 🎓🔍</h2>
+This assignment requires going through the process of web scraping publication content of Google Scholar which is a popular search engine for academic publications. We are using Python libraries to automate the retrieval and processing of data. After that, use the PyMongo library to save the data to MongoDB.
+
 <h2 align=center>Group Members <img width=30px; height=30px src="https://user-images.githubusercontent.com/120556342/215398734-609ba04a-88e5-44b5-9eaa-239ac8edd091.png"></h2>
 <table align=center>
   <tr>

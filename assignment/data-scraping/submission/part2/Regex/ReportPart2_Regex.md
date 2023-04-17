@@ -7,7 +7,16 @@
 - [Conclusion](#conclusion)
 
 ## Introduction
-- Briefly introduce the topic of web scraping publication content and the importance of this type of data for research and analysis.
+> Briefly introduce the topic of web scraping publication content and the importance of this type of data for research and analysis.
+> 
+Web scraping text content is the process of extracting text data from websites. It is an automatic approach that uses automated software tools to extract useful raw data from web pages and can be used to obtain large amounts of data. There are many websites that are suitable to perform web scraping and extract the text content such as articles, blogs and academic papers. 
+
+Mostly, the text data is extracted from the website that hosts academic publication. For example, Google Scholar and ResearchGate. Both of them are famous websites for publication content and these data are helpful to use in various purposes such as tracking changes in research trends, analyzing citation patterns, identifying potential research collaborators, or extracting insights for natural language processing models.
+
+This type of data is important for research and analysis because it can provide valuable insight to the researcher after analyzing and investigating the collected data. From here, it is possible to identify new research opportunities and discover emerging trends. Therefore, this will definitely save time and resources since researchers are not required to gather data from multiple sources.
+
+Overall, web scraping text content plays a crucial role and acts as a valuable tool for researchers and data analysts looking to extract meaningful insights from online text data.
+
 
 ## Web Scraping Google Scholar
 - Explain why Google Scholar is a good source for publication content and provide a brief overview of the site.

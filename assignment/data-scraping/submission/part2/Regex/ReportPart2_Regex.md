@@ -19,9 +19,31 @@ Overall, web scraping text content plays a crucial role and acts as a valuable t
 
 
 ## Web Scraping Google Scholar
-- Explain why Google Scholar is a good source for publication content and provide a brief overview of the site.
-- Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
-- Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
+> -Explain why Google Scholar is a good source for publication content and provide a brief overview of the site.<br> -Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.<br> -Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
+
+Google Scholar is a freely accessible and popular search engine for academic publications. It consists of a wide variety of publication contents  such as articles, conference papers, books and theses. It is a good source for publication content because it is fast and easy to access. Researchers and analysts can get the relevant data in seconds for free or through institutional subscriptions. Other than that, Google Scholar provides a "cited by" feature that identifies the number of citations a particular publication has received, making it easy to identify influential articles or authors in a given field. 
+
+Web scraping publication content for Google Scholar and storing it in a database involves a series of processes or steps. Below is an overview of the process in web scraping.
+1. Selecting the URLs: First, we need to go to the Google Scholar website and identify the URL that contains the publication content of interest. In this case, we are finding all the articles that were produced by researchers who are from the Faculty of Computing at the University Technology Malaysia.
+2. Choosing a Web Scraping Library: Then, there are several libraries that are available for web scraping like BeautifulSoup, Scrapy, Selenium and Lxml. From there, we should choose the suitable libraries and apply it to extract the contents from Google Scholar. Some of the libraries that used in this assignment are:
+    - `BeautifulSoup`: Beautiful Soup is built on well-known Python parsers like lxml and html5lib, enabling us to experiment with various parsing techniques or trade off speed for flexibility.
+    - `Selenium`: Selenium is a web driver that is used for automated testing, but it can also be used for web scraping.
+3. Setting Up the Environment: After choosing suitable web scraping libraries, we need to ensure and prepare the environment which includes installing the required libraries and also setting up the data storage system.
+4. Extracting Data: Now, we can start the web scraping process by writing the code to extract publication content from the Google Scholar. It should include extracting the relevant data that we need. 
+5. Storing Data: Lastly, the data will be stored in the database. MongoDB is a good choice to store these scraped data due to its flexibility and scalability.
+
+During the web scraping process, there may be some challenges that need to be overcome in order to get the required data successfully. 
+1. CAPTCHAs: Google Scholar is protected by CAPTCHAs to prevent automated web scraping. The process of solving CAPTCHAs requires human intervention, which can take a considerable amount of time and sometimes it will stop the web scraping process and cause the error. 
+2. Dynamic content: The content on Google Scholar is dynamic, which means that it is subject to frequent changes. As a result, extracting relevant data from the page can be difficult, especially if the content is loaded asynchronously.
+3. IP blocking: Google Scholar can block IP addresses that are attempting to web scrape the site. From here, with the use of blocked IP addresses it becomes impossible to extract data from the site. 
+It is important to handle these challenges appropriately to ensure a successful web scraping operation and make sure all of the extracted data are relevant.
+
+
+The data set obtained from web scraping publication content from Google Scholar will have various sizes and structures depending on the keywords that are searched and retrieved. Commonly, the metadata that can extract from the Google Scholar includes title, author, publication date, publication type, journal or conference name, volume and issue number, pages, abstract, keywords, DOI, URL, citations, bibliographic software export formats and full-text availability. 
+
+In this case, we aim to retrieve the title, author, publication date, journal or conference name and citation from the Google Scholar. The size of the data will depend on the number of articles written by all of the researchers from the Faculty of Computing at the University Technology Malaysia while the file type of the data set will typically be in a structured format such as CSV, JSON, or XML, depending on the format chosen for storing the data. 
+
+
 
 ## Choosing a Library for Web Scraping
 - Compare and contrast the available libraries for web scraping publication content, including Beautiful Soup, Scrapy, and Selenium.

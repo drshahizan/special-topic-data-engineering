@@ -1,5 +1,5 @@
 <div align="center">
-  <img width=800px height=400px src=""/>
+  <img width=800px height=400px src="https://user-images.githubusercontent.com/99240177/232822671-98a60054-f4dc-4f84-a7b8-6ed4473e3038.png"/>
 </div>
 
 <h1 align=center>Part 1: Web scraping multimedia content 📸🔍</h2>

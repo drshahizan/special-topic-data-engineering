@@ -104,6 +104,15 @@ One of the most important steps in performing the web scraping process is select
     </tr>
 </table>
 
+There will be several criteria to choose the appropriate library for this assignment.
+1. Ease of use: The chosen library should be compatible with programmer skills. The simplicity and straightforward solution will definitely help programmers to complete the task in a shorter time since the learning time  can be saved. 
+2. Performance: The library should be efficient and scalable by providing high speed and handling large amounts of data.
+3. Project requirement: The library should meet the goal and objective of the assignment. For example, to support large scale web scraping and also depend on the web page to be scrapped. 
+4. Flexibility: The library should support various types of web page and file format. 
+5. Documentation Quality: The library should have well-structured documentation to provide support when facing problems during the web scraping process.
+
+Based on these criteria, Beautiful Soup and Selenium were chosen for this assignment not only because they are popular libraries that are widely used in the web scraping process but also justify based on their features such as simplicity, ability to work with different types of web page, support dynamic pages and suitability with the scale of the assignment. 
+
 
 
 ## Storing Data in MongoDB

@@ -18,7 +18,7 @@ Flickr offers both free and paid accounts, with the paid accounts offering addit
 
 Flickr remains a popular and influential platform for photographers and photo enthusiasts, offering a robust set of features for sharing and discovering high-quality images.
 
-# Metadata associated with an image in Flickr
+## Metadata associated with an image in Flickr
 1. **Title**: The name or title of the image that is given by the user
 2. **Description**: A brief description of the image that provides context or information about the photo
 3. **Tags**: Keywords or phrases that describe the image and help in searching and organizing photos
@@ -34,6 +34,18 @@ Flickr remains a popular and influential platform for photographers and photo en
 13. **License**: The type of Creative Commons license or copyright status of the image, if specified by the user
 14. **Views**: The number of times the image has been viewed on Flickr
 15. **Favorites**: The number of times the image has been marked as a favorite by other users on Flickr.
+
+## Extract data
+To extract images and metadata related to cats from Flickr, you can follow these steps:
+
+1. Go to the Flickr website: https://www.flickr.com/
+2. In the search bar, enter the keyword "cat" and click on the search button.
+3. On the search results page, click on the "Advanced search" button to the right of the search bar.
+4. In the advanced search form, you can further refine your search by specifying criteria such as the type of media (photos, videos, etc.), date range, license, etc. For example, to search for only photos with a Creative Commons license, you can select "Photos" in the "Media type" field and choose "Creative Commons" in the "License" field.
+5. After specifying your search criteria, click the "Search" button to retrieve the results.
+6. You can then extract the relevant metadata for the images using web scraping techniques. This can be done using programming languages such as Python and libraries such as BeautifulSoup or Scrapy.
+7. Some of the metadata that can be extracted for Flickr images include the image URL, title, description, date uploaded, number of views, and tags. You can also extract the actual image files using the image URLs.
+8. Once you have extracted the data, you can store it in a database such as MongoDB or export it to a CSV file for further analysis.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

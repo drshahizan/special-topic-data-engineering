@@ -1,4 +1,4 @@
-<h1 align="center"> Part 1: Web scraping multimedia content <a href="#" target="_blank" rel="noreferrer">  </a>   <br>
+<h1 align="center"> Part 1: Web scraping multimedia content Flickr <a href="#" target="_blank" rel="noreferrer">  </a>   <br>
 </h1>
 <h2 align="center">
   Group Name

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/95162273/230906680-da7a5fc0-00e4-4a4a-a03d-34c4c2a40598.png" alt = "Open Weather API logo"/>
+  <img src="https://user-images.githubusercontent.com/95162273/232305985-a6549da1-bbea-4658-becb-8448ae0db9f9.png" alt = "flickr logo"/>
 </div>
 
 <h1 align="center"> Web Scraping </h1>
@@ -12,6 +12,19 @@ Web scraping multimedia content can help researchers and analysts gain insights 
 
 
 ## 2. Web Scraping Flickr
+<a href="https://www.flickr.com/">Flickr</a> is a popular photo-sharing website and online community that provides a large collection of user-generated images and videos. 
+
+### Why should we use Flickr?
+
+#### 1. Large collection of images
+Flickr has a vast collection of user-generated images and videos, making it a great source for web scraping.
+
+#### 2. User-friendly search functionality
+Flickr has a powerful search engine that allows users to search for multimedia content based on keywords, tags, dates, and more, making it easy to find relevant content for web scraping.
+
+#### 2. API access
+Flickr provides an API (Application Programming Interface) that allows developers to access and interact with the site's multimedia content.
+
 
 
 <h2 align="center">
@@ -57,7 +70,7 @@ Web scraping multimedia content can help researchers and analysts gain insights 
 </p>
 
 ## Contents📝
-- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/Gadgeteen/Open%20Weather%20API%20Documentation.md)
-- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/Gadgeteen/API%20assignment.ipynb)
-- 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/Gadgeteen/weather_data.csv)
+- 📑[Report](#)
+- 💻[Code](#)
+- 📂[CSV](#)
 

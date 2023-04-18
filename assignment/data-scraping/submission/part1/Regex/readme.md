@@ -1,3 +1,10 @@
+<div align="center">
+  <img width=800px height=400px src=""/>
+</div>
+
+<h1 align=center>Part 1: Web scraping multimedia content 📸🔍</h2>
+This assignment entails web scraping image content from Flickr, a popular photo-sharing platform with a large collection of images and videos. To automate data retrieval and processing, we use Python libraries. Then, save the data to MongoDB using the PyMongo library.
+
 <h2 align=center>Group Members <img width=30px; height=30px src="https://user-images.githubusercontent.com/120556342/215398734-609ba04a-88e5-44b5-9eaa-239ac8edd091.png"></h2>
 <table align=center>
   <tr>
@@ -25,3 +32,7 @@
     <td>A20EC0142</td>
   </tr>
 </table>
+
+## Contents📝
+- 📑[Report]()
+- 💻[Code]()

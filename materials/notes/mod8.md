@@ -36,10 +36,6 @@ Group Regex
 - [AI vs ML vs DL](#ai-vs-ml-vs-dl)
 
 
-### Others
-- [xyz](https://utm.my)
-
-
 ## Artificial Intelligence
 Artificial Intelligence refers to the simulation of human intelligence in machines, allowing them to perform tasks that would typically require human intelligence, such as learning, reasoning, perception, and decision-making. The primary goals of AI are as follows:
 
@@ -192,6 +188,12 @@ These are just a few examples of the many applications of ML. As the field conti
 
 ## Deep Learning
 Deep learning is a subset of machine learning that is based on artificial neural networks with multiple layers. It involves training artificial neural networks to recognize patterns in data, by allowing them to automatically learn from and make decisions based on large amounts of labeled data.
+
+This is what a **simple neural network** looks like:
+
+<p align="center"><img src='https://github.com/sakinahalizzah/images/blob/431d3d7550756538dadd84fadf1a1082515e409d/input-output.jpg'></p>
+
+The network has an input layer that accepts inputs from the data. The hidden layer is used to find any hidden features from the data. The output layer then provides the expected output.
 
 ## Deep Learning Applications
 

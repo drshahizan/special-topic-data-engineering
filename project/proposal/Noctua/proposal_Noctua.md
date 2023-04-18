@@ -1,5 +1,5 @@
 <div>
-<h1 align = 'center'><b>Cafe Satisfactory	☕: <br> Monitor google review about customer satisfaction on cafes in Johor.</b></h1>
+<h1 align = 'center'><b>New Government:man_in_tuxedo::<br> Redditor's View Towards Anwar Ibrahim as Malaysia's 10th Prime Minister.</b></h1>
   </div>
 
 ---
@@ -24,72 +24,68 @@ The following are the key components of a data science project proposal:
 
 ## 📑 Executive Summary:
 
-Restaurant reviews from Google are often used to survey places for customers that want to try that place out. We will perform an analysis on the reviews to determine whether it is positive or the opposite. From the analysis, we can conclude if a customer was satisfied with the service that was offered by the restaurant. Users who are searching for restaurants or places to eat will be able to find one not only by the ratings, but also with added criterias and information given or extracted from the review. 
+Anwar Ibrahim has been involved in Malaysia's political scene since more than three decades ago. He also has gone through a lot of challenges during that time. Now that he finally becomes Malaysia's 10th Prime Minister, Malaysians have their says and views towards the newly appointed Prime Minister. In this project, we will perform a sentiment analysis to observe what people on social media, mainly on Reddit thinks about Anwar Ibrahim. Posts and comments from Reddit will be extracted and scrapped as a dataset, so that words thrown can be classified into three sentiments: positive, natural and negative.
 
 ---
 
 ## 🏚️ Background:
 <p align="center">
-<img src="https://i.pinimg.com/originals/aa/a6/84/aaa684fc7767831dde31a5b7e855565a.jpg" alt="Paris" height="250"></img>
+<img src="https://sabahmedia.com/wp-content/uploads/2022/11/KNC_0080-scaled.jpg" height="600"></img>
 </p>
-In today's fast-paced society, people are constantly on the go and looking for convenient places to grab a quick meal or drink. Cafes have become a popular choice for people who want to relax, work, or socialize while enjoying a cup of coffee or a tasty treat. However, with so many cafes to choose from, it can be challenging for customers to find the right one that meets their needs and expectations.
+Anwar Ibrahim is a prominent political figure in Malaysia who has served as Deputy Prime Minister and Finance Minister in the past. He is currently the leader of the Pakatan Harapan coalition and is seen as a potential candidate for Prime Minister of Malaysia.
 
-Other problem include rating systems that usually do not tell the whole story, sentiment and feeling of reviewer towards the cafe. With this system, we will extract more information to users through text analysis algorithms.
+There are varying opinions about Anwar Ibrahim's suitability as a Prime Minister, with some people supporting him and others expressing concerns about his past controversies. Given the polarizing nature of politics in Malaysia, it is essential to conduct a sentiment analysis to gauge public opinion about Anwar Ibrahim as a potential Prime Minister.
 
-As a result, `customer satisfaction` has become a crucial factor in the success of cafes. In this project, we aim to monitor the Google reviews about customer satisfaction on cafes in Johor using NLP. NLP is a subfield of `artificial intelligence` that deals with the interaction between computers and human language.
+Sentiment analysis is a computational technique that involves using natural language processing and machine learning algorithms to analyze large volumes of textual data and determine the sentiment (positive, negative, or neutral) expressed within the text. In the case of Anwar Ibrahim, sentiment analysis can help to identify the prevailing public opinion about his suitability as a Prime Minister, as well as the key factors influencing people's perceptions of him.
 
-However, existing rating systems that usually do not tell the whole story, sentiment and feeling of reviewer towards the cafe. With this system, we will extract more information to users through text analysis algorithms.
-
-By analyzing the text data from Google reviews, we can `identify the common themes and sentiments` expressed by customers, such as the quality of food and beverages, the level of service, the ambiance, and the value for money. We can also `extract insights` on specific aspects of customer satisfaction, such as the frequency of positive and negative reviews, the average rating, and the most common keywords used.
-
-Overall, this project aims to provide insights into the customer satisfaction of cafes in Johor and help cafe owners and managers make data-driven decisions to `improve their services and offerings`.
+To conduct a sentiment analysis about Anwar Ibrahim as a potential Prime Minister, one would need to gather a large dataset of relevant textual data, such as news articles, social media posts, and online comments. This dataset would then need to be processed using natural language processing techniques to extract meaningful features such as sentiment, emotion, and opinion. Finally, machine learning algorithms such as Naive Bayes, Support Vector Machines, or neural networks could be used to train a sentiment classifier model that could accurately classify sentiment in new textual data.
 
 ---
 
 ## 🥅 Goals and Objectives
 
 Problem Statement:
-Customer reviews do not always show the true meaning. It can make other customers misunderstand the views of those customers who might want to try the cafe. Newer customers might find some reviews unreliable after trying out themselves. There are also some people who wanted to downgrade the cafe by intentionally giving negative reviews. The cafe owner also might want to improve their services thus, a reliable review might help them. 
+We talked about Anwar Ibrahim, as a politician and Prime Minister. It is not a secret that he has been through a lot of controversies in the past although he finally made his way back into the political scene. People from anywhere in the world, not just Malaysia, talked so much about Anwar Ibrahim whether it is a compliment or otherwise. He is a well known person around the world. His comeback into politics and becoming the Prime Minister has become a talking point and hot debate amongst people on social media, including Reddit. 
 
-The significance of this project lies in its potential to provide valuable insights into the customer satisfaction of cafes in Johor. Cafe owners and managers can use these insights to improve their services and offerings, such as by addressing specific complaints or negative feedback, enhancing the quality of their products, and improving the overall customer experience.
+The significance of this project lies in its potential to provide valuable insights of Redditor's view towards Anwar Ibrahim. sentiment analysis can provide valuable insights into the prevailing public opinion about Anwar Ibrahim as a potential Prime Minister, which can inform political decision-making and public discourse. Below are our goals in conducting this project.
 
-- To determine whether the reviews were positive or negative. 
-- To determine the most ordered and recommended meal from each cafe.
-- To analyze the percentage used word based on the reviews. 
-- To train a model that can successfully identify a positive or negative review
-- To ensure the review made by users is reliable based on our model’s outcome 
+- To determine whether the public has positive or negative sentiment on our Prime Minister. 
+- To determine the talking point regarding Anwar Ibrahim.
+- To analyze the percentage used word based on the words written on social media. 
+- To train a model that can successfully identify a positive or negative comment on Reddit.
+- To make a prediction on whether or not Anwar Ibrahim can sustain his job as a Prime Minister.
 
-In this project, we aim to monitor the Google reviews about customer satisfaction on cafes in Johor using Natural Language Processing (NLP). .
+In this project, we aim to observe public's opinion on our Prime Minister using Natural Language Processing (NLP).
 
 ---
 
 ## 🔭 Scope: 
-The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Malaysia to gain insights into customer satisfaction levels and identify common themes in customer feedback. To achieve this, we will collect data from Google My Business, which will provide access to a large volume of reviews for cafes in the Johor Bharu area. To achieve the result in question, here are the project scope statement that we will be using to our aid.
+The aim of this project is to monitor the public’s perception of Anwar Ibrahim as the tenth Prime Minister in Malaysia. To achieve this, we will collect data from Reddit, which will provide access to a large volume of opinions for his rule. To achieve the result in question, here are the project scope statement that we will be using to our aid.
 
-- 1. `Data Sources` Collect Google reviews of cafes in Johor Bharu, Malaysia using the `web scrapping`.
-- 2. `Tools and Technologies` Use web scraping tools like BeautifulSoup or Scrapy to scrape the reviews from `Google My Business`, and then utilize Natural Language Processing (NLP) techniques to perform sentiment analysis on the reviews
-- 3. `Research Objectives` The objective of the research is to monitor customer satisfaction in cafes in Johor Bharu, Malaysia through analyzing the sentiment of the Google reviews, identifying the most commonly mentioned aspects of customers' experiences, and measuring overall customer satisfaction levels for each cafe.
-- 4. `Sampling` Collect reviews of cafes that are located in Johor Bharu, Malaysia, and only include reviews that have been posted within the last `24 hours`.
+- 1. `Data Sources` Collect Reddit posts and comments of the public regarding Anwar Ibrahim using API.
+- 2. `Tools and Technologies` Use API and PRAW library to retrieve the public’s opinion and then utilize Natural Language Processing (NLP) techniques to perform sentiment analysis on the posts and comments
+- 3. `Research Objectives` The objective of the research is to monitor public’s opinion through analyzing the sentiment of the Reddit posts and comments, identifying the most commonly mentioned aspects of Anwar Ibrahim’s leadership, and measuring overall public satisfaction.
+- 4. `Sampling` Collect opinions of the public and only include the ones that have been posted within Anwar Ibrahim’s time as Prime Minister 
 - 5. `Data Cleaning and Preparation` Clean the data by removing any irrelevant or duplicate reviews, correcting any spelling or grammar errors, and standardizing the format of the data.
-- 6. `Analysis methods` Analyze the data using descriptive statistics, topic modeling, and sentiment analysis to identify common themes and patterns in customer feedback and to measure overall customer satisfaction levels.
-- 7. `Reporting` Present the findings of the analysis in a report that includes charts and graphs to visualize the data, as well as a written summary of the key findings and recommendations for improving customer satisfaction in the cafes in Johor Bharu, Malaysia.
+- 6. `Analysis methods` Analyze the data using descriptive statistics, topic modeling, and sentiment analysis to identify common words and patterns in posts and comments and to measure overall satisfaction levels.
+- 7. `Reporting` Present the findings of the analysis in a report that includes charts and graphs to visualize the data, as well as a written summary of the key findings.
+
 
 ---
 
 ## 🍄 Methodology:
 - Methodology and the techniques that will be used
-  1. `Data Collection:` The first step is to collect data on Google reviews about cafes in Johor. This can be done by using web scraping techniques to extract reviews from Google's API. Another option is to manually extract data by browsing Google reviews of cafes in Johor.
-
-  2. `Data Cleaning:` Once the data is collected, it needs to be cleaned to remove any irrelevant or duplicate data. This can be done using data cleaning techniques such as removing punctuation, converting text to lowercase, and removing stop words.
+  1. `Data Collection:` The first step is to collect data on Reddit. This can be done by using the PRAW: The Python Reddit API Wrapper library to extract reviews from Reddit's API.
+  2. `Data Cleaning:` Once the data is collected, it needs to be cleaned to remove any irrelevant or duplicate data. This can be done using data cleaning techniques such as removing punctuation, converting text to lowercase, and removing stop words, including filtering symbols.
   3. `Data Analysis:` After the data is cleaned, the next step is to analyze the data using descriptive statistics and exploratory data analysis techniques. This will help to identify patterns and trends in the data.
-  4. `Machine Learning Algorithms:` Next, machine learning algorithms can be used to predict customer satisfaction based on the data collected. This can be done by building a model using supervised learning techniques such as regression or classification.
-  5. `Data Visualization:` The final step is to present the results of the analysis and machine learning algorithms using data visualization techniques. This can be done using tools such as Tableau or Python libraries such as Matplotlib or Seaborn.
+  4. `Machine Learning Algorithms:` Next, machine learning algorithms can be used to predict the sentiment of Redditors towards Anwar Ibrahim. This can be done by building a model using supervised learning techniques such as regression or classification.
+  5. `Data Visualization:` The final step is to present the results of the analysis and machine learning algorithms using data visualization techniques. This can be done using tools such as Tableau or Python libraries such as Matplotlib or Seaborn. The findings will show words count and if those words are negative or positive.
 
 - `Data Collection and Processing:`
-  For data collection, the project will utilize web scraping techniques to extract reviews from Google's API.  The data will then be cleaned using data cleaning techniques such as removing punctuation, converting text to lowercase, and removing stop words. The cleaned data will then be analyzed and machine learning algorithms will be applied to predict customer satisfaction based on the data collected.
+  For data collection, the project will utilize API techniques to extract reviews from Reddit's API.  The data will then be cleaned using data cleaning techniques such as removing punctuation, converting text to lowercase, and removing stop words. The cleaned data will then be analyzed and machine learning algorithms will be applied to predict Redditors sentiment on Anwar Ibrahim based on the data collected.
   
 - `Software and Hardware Resources:` 
-  The software resources required for this project include Python programming language, web scraping libraries such as Selenium, data analysis libraries such as Pandas, machine learning libraries such as Scikit-learn or  any libraries learnt in the previous semester. Data visualization tools such as Tableau or Python libraries such as Matplotlib or Seaborn can be used to present the results. The hardware resources required for this project include a computer with sufficient processing power and memory to handle the data.
+  The software resources required for this project include Python programming language, Reddit API libraries such as Praw, data analysis libraries such as Pandas, machine learning libraries such as Scikit-learn or  any libraries learnt in the previous semester. Data visualization tools such as Tableau or Python libraries such as Matplotlib or Seaborn can be used to present the results. The hardware resources required for this project include a computer with sufficient processing power and memory to handle the data.
 ---
 
 ## 🧮 System Architecture:
@@ -100,7 +96,7 @@ The aim of this project is to monitor Google reviews of cafes in Johor Bharu, Ma
 
 
 Components in system architecture:
-  1. `Data acquisition:` Collect data using **web scraping** techniques to extract reviews from Google's API or manually extract data by browsing Google reviews of cafes in Johor.
+  1. `Data acquisition:` **API** request from Reddit using visual studio code.
   2. `Data preprocessing:` Process of cleaning and transforming text data using **Pandas and NumPy** such as handling inconsistent data, removing outliers and data normalization. We will be using **VSCode** as the editor.
   3. `Data storage:` The collected data may be structured or unstructured data and the storage should capable on handling a high volume of data. This also will allow a fast retrieval of data. Tools that will be used here is a NoSQL database which is **MongoDB**.
   4. `Data analysis and modeling:` Process of data analysis and model building to extract insights and make predictions. This process may involve machine learning, deep learning, or some other statistical methods. Tools that will be use is **Natural Language Toolkit**.
@@ -108,47 +104,65 @@ Components in system architecture:
   6. `Model deployment:` Process of making a trained machine learning model available in a suitable environment for predictions on new data. Tools that will be used is **Django**. Python's Django is a full-stack web framework with support for RESTful APIs, a built-in admin interface, and database connectivity. It is frequently used to create sophisticated web apps with machine learning models.
   7. `Visualization and reporting:` Process of visualizing insights in a suitable format such as dashboards, reports, or interactive visualizations. Some common tools are Tableau and PowerBI.
 
-MongoDB usage steps:
-  1. `Design data schema:` Identifying the relationships of data before storing it in MongoDB
-  2. `Create databases and collections:` Create databases and collections based on the data scheme design. 
-  3. `Data insertion:` A JSON-like formate of data can be inserted into MongoDB using insert() method or mongoimport.
-  4. `Retrive and data query:` Queried data using find() method, and operators such as filter, sort, etc.
-  5. `Indexing:` Improve data retrieval for fast lookups. The index contains a list of values and pointers to the location of the records
-  6. `Aggregation:` Grouping data based on certain criteria. 
-
-MongoDB requirements:
-<table border="1" align="center">
-  <tr>
-    <th>Hardware</th>
-    <th>Software</th>
-  </tr>
-  <tr>
-    <td>Multi-core or higher processor with clock speed of 2.6 GHz or higher</td>
-    <td>MongoDB server software</td>
-  </tr>
-   <tr>
-      <td>At least 8 GB of RAM</td>
-      <td>Operating system that compatible with MOngoDB such as Windows, Linux, or macOS</td>
-    </tr>
-    <tr>
-      <td>At least 10 GB of free disk space</td>
-      <td>MongoDB agent must be installed only on 64-bit architectures</td>
-    </tr>
-  </table>
-
 ---
 
 ## 🍡 Risks and Limitations:
-- Potential Risks and Limitations:
-  1. `Technical risks:` The data collected from Google reviews may not be accurate, complete, or up-to-date. Also, the analysis of such data requires expertise in data analytics and statistical techniques. There may be issues with data privacy, such as sensitive customer information being exposed. Moreover, sometimes words cannot fully predict the actual sentiment of a person towards said cafe. For example, a person may make some complaints about what they do not like about the cafe, however they still rate it highly in the rating section.
-  2. `Financial risks:` The cost of collecting, processing, and storing data may be higher than anticipated. There may also be unexpected expenses, such as the need for additional hardware or software. For the time being, only free softwares or tools will be used in this project. There are several options to scrap data easily using paid software but we will not go for that route, as for now.
-  3. `Legal risks:` These actions may be infringing on intellectual property rights or data privacy laws while collecting and using the data. It is essential to ensure that these actions are compliant with local regulations and that you have obtained the necessary permissions.
 
-- Plan for Mitigating Risks and Limitations:
-  1. `Technical:` Mitigate technical risks by ensuring that the data collected is from reliable sources, and validated the data by cross-checking it against other sources. It is best to engage experts in data analytics and statistical techniques to help with the analysis. It would help if you also implemented data privacy measures to protect sensitive customer information.
-  2. `Financial:` Mitigate financial risks by setting a realistic budget and having contingency plans for unexpected expenses. Also, explore open-source tools and resources that can help you reduce costs.
-  3. `Legal:` Mitigate legal risks by ensuring that these works comply with local regulations and obtain the necessary permissions before collecting and using the data. Working with legal experts to understand any potential legal risks and to develop strategies to mitigate them.
+<p align="center">
+<img src="SentimentAnalysisLimitation.png" height="400"></img>
+</p>
 
+1. Subjectivity and Tone
+
+The use of NLP techniques for sentiment analysis has limitations when it comes to subjective language and tone. For example, the sentiment of a text may be influenced by the subjective nature of certain predicates, such as adjectives and verbs, which may not be treated equally in sentiment analysis. As a result, the sentiment analysis of Anwar Ibrahim's public perception may not fully capture the nuances of subjective language and tone in media coverage, speeches, and social media posts.
+
+The subjective nature of language and tone may pose a challenge to accurately and objectively measure the sentiment of Anwar Ibrahim's public perception. For instance, the sentiment of a text that uses subjective language, such as "inspiring leader" or "corrupt politician," may vary depending on the individual's personal biases and beliefs. Therefore, NLP techniques used for sentiment analysis should be used with caution and in conjunction with human interpretation to account for the subjectivity and tone of the text.
+
+Another challenge in sentiment analysis of Anwar Ibrahim's public perception is the potential for language ambiguity. Words and phrases may have multiple meanings, which can affect the sentiment analysis. For example, the word "concerned" could be used to express positive or negative sentiment depending on the context. Therefore, it is important to take into account the broader context and use domain-specific knowledge to properly interpret the sentiment of a text.
+
+2. Context and Polarity
+
+Context is a crucial factor in sentiment analysis, as all utterances are made in some context, such as time, place, and audience. Analyzing sentiment without context can be challenging, as it can lead to incorrect polarity or sentiment analysis results. For example, the same response, such as "Everything about it," can have different sentiment polarity depending on the context of the question asked. Therefore, it is essential to take into account the context of the text to obtain accurate sentiment analysis results.
+
+Changes in polarity can occur due to changes in the context of the text. For instance, a positive sentiment response to a question about liking an event can become a negative sentiment response when the question is changed to disliking the event. This change in polarity can affect the accuracy of sentiment analysis results. Preprocessing or postprocessing techniques may be necessary to account for context and changes in polarity in sentiment analysis.
+
+Preprocessing or postprocessing techniques can be used to capture context and polarity in sentiment analysis. However, determining which techniques to use can be challenging, as there is no straightforward approach to capturing context and polarity. Domain-specific knowledge and human interpretation may be required to properly preprocess or postprocess data for sentiment analysis.
+
+3. Irony and Sarcasm
+
+When analyzing sentiments expressed towards Anwar Ibrahim, it is important to consider the use of irony and sarcasm, as these devices can greatly affect the polarity of the text. For example, a statement like "Anwar Ibrahim is the most honest politician I've ever seen. NOT!" may seem positive at first, with the use of "most" and "honest," but the "NOT!" at the end suggests a negative sentiment. This type of language can be especially prevalent in political discourse, where individuals may use irony or sarcasm to express negative opinions about a political figure without stating it directly.
+
+However, detecting irony and sarcasm in sentiment analysis on Anwar Ibrahim can be challenging due to the complexity of language and the importance of context. An NLP technique like sarcasm and irony detection algorithms may be necessary to identify and analyze these devices, but human analysis and interpretation are still crucial for accurate results. Therefore, it is important to consider both the words used and the context in which they are used to accurately analyze sentiment towards Anwar Ibrahim.
+
+4. Comparisons
+
+When analyzing sentiment towards Anwar Ibrahim, comparisons can present a challenge in sentiment analysis. For example, a statement like "Anwar Ibrahim is a better politician than his predecessor" may seem positive at first glance, but it can also be dependent on the context of the comparison. If Anwar Ibrahim's predecessor was widely regarded as corrupt, then the comparison would have a positive sentiment. However, if the predecessor was highly respected, the comparison could have a negative sentiment.
+
+Similarly, a statement like "Anwar Ibrahim's policies are better than nothing" could be interpreted as either positive or negative depending on the context. If the alternative was seen as worse or nonexistent, then the sentiment could be positive. However, if there were better alternatives available, the sentiment could be negative.
+
+Therefore, when analyzing sentiment towards Anwar Ibrahim with comparisons, it is important to consider the context and implications of the comparison in order to accurately determine the sentiment.
+
+5. Emojis
+
+There are two types of emojis according to Guibon et al.. Western emojis (e.g. :D) are encoded in only one or two characters, whereas Eastern emojis (e.g. ¯ \ (ツ) / ¯) are a longer combination of characters of a vertical nature. Emojis play an important role in the sentiment of texts, particularly in tweets.
+
+When it comes to sentiment analysis, emojis can add a lot of value to understanding the overall sentiment of a text, particularly in social media platforms such as Twitter. Emojis can often convey emotions and attitudes that are difficult to express through words alone.
+
+However, treating emojis in sentiment analysis can be challenging due to the large number of emojis available and the different ways they can be interpreted. As mentioned earlier, there are two types of emojis, Western and Eastern, and they can be encoded differently.
+
+Therefore, in order to effectively analyze sentiment in social media content, it is important to preprocess the text and transform emojis into tokens that can be recognized and analyzed as part of the overall sentiment. Whitelisting them, i.e. always taking them as a feature for classification purposes, can also improve the performance of sentiment analysis.
+
+It is important to note that not all emojis have a clear sentiment attached to them, and their sentiment can depend on the context in which they are used. Therefore, it is crucial to consider the overall context of the text in which an emoji is used when analyzing sentiment.
+
+6. Defining Neutral
+
+When analyzing the sentiment towards Anwar Ibrahim, it is important to define what we mean by neutral in order to perform accurate sentiment analysis. Defining categories like neutral, positive, or negative can significantly impact the performance of sentiment analysis models. One way to identify and define neutral texts is to look at objective texts that do not contain explicit sentiments. Another approach is to consider irrelevant information that has not been preprocessed to filter out noise. However, caution is advised when including such information as it could negatively impact the performance of the classifier. Additionally, texts containing wishes can be tricky to categorize, particularly those that involve comparisons such as "I wish Anwar Ibrahim was more decisive."
+
+7. Human Annotator Accuracy
+
+Sentiment analysis is a tremendously difficult task even for humans, including when it comes to analyzing the sentiment towards Anwar Ibrahim. On average, inter-annotator agreement (a measure of how well two (or more) human labelers can make the same annotation decision) is pretty low for Anwar Ibrahim's sentiment analysis. And since machines learn from labeled data, sentiment analysis classifiers might not be as precise for Anwar Ibrahim as they are for other types of classifiers.
+
+If you are new to sentiment analysis related to Anwar Ibrahim, then you’ll quickly notice improvements. For typical use cases related to Anwar Ibrahim, such as analyzing public opinion about his political career, monitoring his brand image, and understanding his followers' opinions, you’ll save a lot of time and money on tedious manual tasks by using sentiment analysis tools.
 
 ---
 
@@ -225,6 +239,16 @@ There are few data security measures that will be implemented in this project in
 - Password policies: Strong password policies can help prevent unauthorized access to data by requiring users to create complex passwords that are changed regularly. 
 - Regular software updates: Regular software updates can patch security vulnerabilities that could be exploited by attackers. Ensuring all software used in this project are up to date.
 
+### MongoDB
+
+MongoDB usage steps:
+  1. `Design data schema:` Identifying the relationships of data before storing it in MongoDB
+  2. `Create databases and collections:` Create databases and collections based on the data scheme design. 
+  3. `Data insertion:` A JSON-like formate of data can be inserted into MongoDB using insert() method or mongoimport.
+  4. `Retrive and data query:` Queried data using find() method, and operators such as filter, sort, etc.
+  5. `Indexing:` Improve data retrieval for fast lookups. The index contains a list of values and pointers to the location of the records
+  6. `Aggregation:` Grouping data based on certain criteria. 
+
 MongoDB requirements:
 <table border="1" align="center">
   <tr>
@@ -237,13 +261,15 @@ MongoDB requirements:
   </tr>
    <tr>
       <td>At least 8 GB of RAM</td>
-      <td>Operating system that compatible with MongoDB such as Windows, Linux, or macOS</td>
+      <td>Operating system that compatible with MOngoDB such as Windows, Linux, or macOS</td>
     </tr>
     <tr>
       <td>At least 10 GB of free disk space</td>
       <td>MongoDB agent must be installed only on 64-bit architectures</td>
     </tr>
   </table>
+
+
 
 ---
 
@@ -252,7 +278,7 @@ MongoDB requirements:
   
   ```mermaid
 gantt
-    title Cafe Satisfactory Timeline
+    title New Government Timeline
     dateFormat  YYYY-MM-DD
     axisFormat %W
   
@@ -288,7 +314,7 @@ gantt
   ```
   </div>
   
-- Data Collection (`Week 1 - Week 2`)
+- Project Planning (`Week 1 - Week 2`)
 
   > Discussing which data source that suit the best for our project objectives and scope. 
   
@@ -319,4 +345,4 @@ gantt
 ---
 
 ## 🎓 Conclusion:
-We believe our data science project is in fact crucial for both business and tourism in Johor. On the business side of things, cafe owners can use our analysis to improve the services if a complaint was made by a customer. It can be done much more efficiently as we could identify an actual helpful review which could be difficult by doing it manually. On the tourism side, tourist can actually recommend the cafes to their friends which could boost tourism even more. However, this can only be done if they actually had an amazing time so a good and reliable review would definitely help. However, we do not expect the project will sailing smoothly as there would be some challenges which we would expect to arise such as the model not working as intended. Fortunately, we could always ask our lecturer for any assistance. 
+We believe our data science project is in fact crucial to analyze the performance of our new prime minister. We can then know whether the citizens of Malaysia are satisfied or not with our new government despite the political instability in our country. Some of the potential limitations that might arise are various issues that come out day-by-day. Public sentiment could be changed according to the issue either positive or negatively. However, we believe that the amount of supporters or haters will remain as it is. Lastly, we do not expect the project will sail smoothly as there would be some challenges which we would expect to arise such as the model not working as intended. Fortunately, we could always ask our lecturer for any assistance.

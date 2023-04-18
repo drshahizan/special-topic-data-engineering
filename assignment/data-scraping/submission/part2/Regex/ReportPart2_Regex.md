@@ -19,7 +19,9 @@ Overall, web scraping text content plays a crucial role and acts as a valuable t
 
 
 ## Web Scraping Google Scholar
-> -Explain why Google Scholar is a good source for publication content and provide a brief overview of the site.<br> -Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.<br> -Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
+> - Explain why Google Scholar is a good source for publication content and provide a brief overview of the site.
+> - Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
+> - Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
 
 ### Google Scholar
 Google Scholar is a freely accessible and popular search engine for academic publications. It consists of a wide variety of publication contents  such as articles, conference papers, books and theses. It is a good source for publication content because it is fast and easy to access. Researchers and analysts can get the relevant data in seconds for free or through institutional subscriptions. Other than that, Google Scholar provides a "cited by" feature that identifies the number of citations a particular publication has received, making it easy to identify influential articles or authors in a given field. 
@@ -49,9 +51,60 @@ In this case, we aim to retrieve the title, author, publication date, journal or
 
 
 ## Choosing a Library for Web Scraping
-- Compare and contrast the available libraries for web scraping publication content, including Beautiful Soup, Scrapy, and Selenium.
-- Explain the criteria used to choose the appropriate library for this project.
-- Justify the final choice and explain the advantages of the chosen library.
+> - Compare and contrast the available libraries for web scraping publication content, including Beautiful Soup, Scrapy, and Selenium.
+> - Explain the criteria used to choose the appropriate library for this project.
+> - Justify the final choice and explain the advantages of the chosen library.
+
+One of the most important steps in performing the web scraping process is selecting the web scraping library. There will be three libraries discussed which are Beautiful Soup, Scrapy, and Selenium. All of them are popular libraries for web scraping for publication content and have their own strengths and weaknesses. 
+
+<table>
+    <tr>
+        <th>Library</th>
+        <th>Advantages</th>
+        <th>Disadvantages</th>
+    </tr>
+    <tr>
+        <td>Beautiful Soup</td>
+        <td>
+            <li>Good for pull data out of HTML and XML files.</li>
+            <li>Simple and easy to learn.</li>
+            <li>Can be used with other libraries, such as Requests and Pandas.</li>
+        </td>
+        <td>
+            <li>Cannot handle dynamic or interactive web pages.</li>
+            <li>Unable to execute JavaScript Code.</li>
+            <li>Not efficient for large-scale web scraping projects.</li>        
+        </td>
+    </tr>
+    <tr>
+        <td>Scrapy</td>
+        <td>
+            <li>Supports middleware, extensions, proxies, and more.</li>
+            <li>Efficient and scalable for large-scale web scraping projects.</li>
+            <li>Faster than other existing scraping libraries</li>          
+        </td>
+        <td>
+            <li>Require longer to learn.</li>
+            <li>Requires more configuration.</li>
+            <li>Doesn’t handle JavaScript by default.</li>          
+        </td>
+    </tr>
+    <tr>
+        <td>Selenium</td>
+        <td>
+            <li>Can handle JavaScript and other dynamic web page elements.</li>
+            <li>Can automate user interactions with a web page.</li>
+            <li>Can easily handle AJAX and PJAX requests.</li>          
+        </td>
+        <td>
+            <li>Require more skills than Beautiful Soup.</li>
+            <li>Slower than Beautiful Soup and Scrapy.</li>
+            <li>Requires installing a web driver.</li>              
+        </td>
+    </tr>
+</table>
+
+
 
 ## Storing Data in MongoDB
 - Discuss the benefits of using MongoDB for storing publication content data.

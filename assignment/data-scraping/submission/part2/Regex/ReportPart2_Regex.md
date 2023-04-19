@@ -116,10 +116,73 @@ Based on these criteria, Beautiful Soup and Selenium were chosen for this assign
 
 
 ## Storing Data in MongoDB
-- Discuss the benefits of using MongoDB for storing publication content data.
-- Explain the best way to store the data in MongoDB, including the data structure and organization.
-- Provide examples of how the data can be queried and analyzed using MongoDB.
+> - Discuss the benefits of using MongoDB for storing publication content data.
+> - Explain the best way to store the data in MongoDB, including the data structure and organization.
+> - Provide examples of how the data can be queried and analyzed using MongoDB.
+
+### Benefits of using MongoDB
+MongoDB is an open-source document-oriented database and leading NoSQL database. There are several benefits of using MongoDB for storing publication content data.
+
+1. Flexibility: MongoDB provides a flexible document-oriented data model to store unstructured and complex data which suit with publication content data that vary highly in terms of structure and format.
+2. Scalability: MongoDB can be scaled to handle large amounts of data and manage high traffic. This makes it a great fit to store large volumes of publication content data.
+3. Querying Ability: MongoDB provides a flexible query language which allows complex queries and data analysis. For example, the data can be grouped, filtered and summarized in various ways by the ability of MongoDB’s aggregation. 
+4. Integration with other tools: MongoDB can integrate with a wide variety of tools and libraries like Python, Flask and Django. 
+5. Automatic sharding: MongoDB automatic distributing or partitioning data across multiple machines. This will improve the performance in terms of storing and querying large datasets efficiently. 
+
+Overall, MongoDB's flexibility, scalability, querying ability, integration with other tools and automatic sharding make it a great choice for storing publication content data.
+
+### Best way to store the data in MongoDB
+The size and type of the data should be considered when storing publication content data in MongoDB in order to ensure the high performance and efficiency. There are some ways to store publication content data in MongoDB.
+
+1. Define a clear data schema: A schema is a JSON object that defines the structure and contents of the data. It is important to define a clear structure for the data to ensure data consistency. 
+2. Use collections to organize the data: MongoDB stores data records as documents (specifically BSON documents) which are gathered together in collections. Each collection should consist of documents that have a similar structure and type of data.
+3. Use nested documents to represent related data: The related data should be stored in nested documents within the same collection in order to reduce the number of queries needed to get the data. 
+4. Use indexing to improve performance: By using indexing, it allows mongoDB to quickly find the desired data and improve the performance. For example, the fields that are frequently queried and sorted should be defined as an index. 
+5. Use appropriate data types: Some of the common data types in MongoDB are String, Integer, Double, Boolean and Array. The data type of each field should be defined accurately to ensure efficiency in data storage and querying. 
+
+In summary, the best way to store publication content data in MongoDB will depend on the specific requirements of the project.
+
+### Examples of how the data can be queried and analyzed using MongoDB
+MongoDB is a powerful tool for querying and analyzing data. There are several examples of how the data can be queried and analyzed using MongoDB.
+
+1. Find all publications that contain a specific keyword
+```python
+db.publications.find({$text: {$search: "machine learning"}})
+```
+
+2. Count the number of publications by a particular author:
+```python
+db.publications.count({author: "M Othman"})
+```
+
+3. Find the publications with the highest number of citations:
+```python
+db.publications.find().sort({"citations": -1}).limit(10)
+```
+
+4. Calculate the average number of citations per publication:
+```python
+db.publications.aggregate([
+    {$group: {_id: null, avg_citations: {$avg: "$citations"}}}
+])
+```
+
+5. Group publications by year and count the number of publications per year:
+```python
+db.publications.aggregate([
+    {$group: {_id: { $year: "$publication_date" }, count: {$sum: 1}}}
+])
+```
+Overall, MongoDB can support powerful and complex data querying and analyzing like aggregation and grouping. 
 
 ## Conclusion
-- Summarize the main points of the assignment and restate the importance of web scraping publication content for data analysis.
-- Offer suggestions for future research or analysis using the data set obtained from Google Scholar.
+> - Summarize the main points of the assignment and restate the importance of web scraping publication content for data analysis.
+> - Offer suggestions for future research or analysis using the data set obtained from Google Scholar.
+
+In conclusion, this assignment aims to perform a web scraping publication content process from Google Scholar and store the extracted data in the database. Web scraping is an important method to obtain the data for analysis and research. This will involve using the tools and libraries such as Beautiful Soup, Selenium and Scapy to extract the desired data from web pages in a shorter time. 
+
+Web scraping also enables researchers to obtain large amounts of data from various sources including academic journals, conference proceedings, and other publications for their research purposes. These data will give variable insight for them to identify new research opportunities and discover emerging trends. 
+
+Other than that, the use of MongoDB to store and analyze publication content data will provide benefits such as flexibility, scalability, and efficiency. This is because MongoDB has the ability to process, organize and analyze a large volume of data. Therefore, the specific data can be retrieved easily. 
+
+Future research or analysis using the data set obtained from Google Scholar could identify the trend in research topics, identifying popular authors or papers and exploring relationships between publications based on shared keywords or authors. 

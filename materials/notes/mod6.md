@@ -35,7 +35,7 @@ Don't forget to hit the :star: if you like this repo.
 </table>
 
 ### Contents:
-#### Notes
+
 - [What is Feature Engineering — Importance, Tools and Techniques for Machine Learning](https://towardsdatascience.com/what-is-feature-engineering-importance-tools-and-techniques-for-machine-learning-2080b0269f10#:~:text=Feature%20engineering%20is%20a%20machine,while%20also%20enhancing%20model%20accuracy.)
 - [Feature Engineering for Machine Learning](https://www.javatpoint.com/feature-engineering-for-machine-learning)
 - [Discover Feature Engineering, How to Engineer Features and How to Get Good at It](https://machinelearningmastery.com/discover-feature-engineering-how-to-engineer-features-and-how-to-get-good-at-it/)
@@ -91,6 +91,14 @@ For categorical data imputation, missing values can be interchanged with the max
 <blockquote>The feature splitting process enables the new features to be clustered and binned, which results in extracting useful information and improving the performance of the data models.</blockquote>
 
 **6. One hot encoding:** One hot encoding is the popular encoding technique in machine learning. It is a technique that converts the categorical data in a form so that they can be easily understood by machine learning algorithms and hence can make a good prediction. It enables group the of categorical data without losing any information.
+
+## Advanced Techniques for Feature Engineering
+
+As the field of data science continues to evolve, feature engineering has emerged as a critical step in the machine learning pipeline. "Advanced Techniques for Feature Engineering" is a topic that covers the more complex and specialized techniques used in feature engineering. While basic techniques such as one-hot encoding and feature scaling are commonly used, there are a number of advanced techniques that can be employed for specific data types and applications. This topic covers advanced techniques for feature engineering in areas such as unstructured data, natural language processing, time-series data, and recommendation systems, as well as novel approaches to feature engineering such as automated feature engineering and unsupervised feature learning. By exploring these advanced techniques, data scientists can improve the performance of their machine learning models and gain a deeper understanding of the feature engineering process.
+
+Proper evaluation of feature engineering techniques is critical to ensure that the selected features are informative and relevant to the machine learning model. In this topic, we will discuss techniques for evaluating feature importance and feature relevance, as well as methods for evaluating machine learning models such as cross-validation and metrics like precision, recall, and F1-score. 
+
+By understanding how to properly evaluate feature engineering techniques and machine learning models, data scientists can improve the accuracy and robustness of their models, leading to better performance and more informed decisions.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

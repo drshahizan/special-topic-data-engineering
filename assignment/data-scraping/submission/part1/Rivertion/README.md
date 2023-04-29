@@ -50,7 +50,7 @@ Pixabay's content is released under a Creative Commons license, which means that
   <li>Install the necessary libraries.</li>
   The libraries that will be used are requests, pymongo and os. These libraries are widely used in web scraping and provide a range of tools for retrieving and analyzing data from websites.
   <li>Insert the API key, search keyword, and the number of images to be retrieved.</li>
-  To retrieve Pixabay API key, we can get it from [Pixabay API documentation] (https://pixabay.com/api/docs/). Then, specify the search keyword or query that will be used to search for specific data on the website. Lastly, specify the number of images to be retrieved.
+  To retrieve Pixabay API key, we can get it from <a href="https://pixabay.com/api/docs/">Pixabay API documentation</a>. Then, specify the search keyword or query that will be used to search for specific data on the website. Lastly, specify the number of images to be retrieved.
   <li>Write the coding to web scrape.</li>
   Write code to request the web page and retrieve its HTML content. Here, we have written all the metadata that we want to retrieve specifically from an image.
   <li>Connect to the MongoDB server.</li>

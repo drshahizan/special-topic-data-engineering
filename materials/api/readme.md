@@ -37,7 +37,9 @@ Please follow the instructions below:
 - After retrieving the necessary data, save the file in **CSV** format.
 - Next, enter the data into an appropriate **database**, such as MySQL, PostgreSQL, or MongoDB.
 - Ensure to send the report in **mark down** format and **source code**.
-- Please submit the assignments in the [**submission folder**](https://github.com/drshahizan/special-topic-data-engineering/tree/main/Assignment/API/submission). It would be best if you create a folder using your group name.
+- Please submit the assignments in the [**submission folder**](https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/API/submission). It would be best if you create a folder using your group name.
+
+https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/API/submission
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

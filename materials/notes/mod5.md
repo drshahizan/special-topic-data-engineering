@@ -85,8 +85,42 @@ The use of data wrangling software has become indispensable in data processing. 
 
 
 ## Steps in Data Wrangling
+Data wrangling is an iterative process, much like other data analytics processes, where data engineers go through several steps to achieve the desired outcomes. The data wrangling process typically consists of six broad steps:
 
+<p align='center'>
+<img src= "https://favtutor.com/resources/images/uploads/mceu_10803305011610341935795.jpg" height=300 width=600/>
+</p>
 
+<table>
+  <tr>
+    <th>Steps</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Discovering</td>
+    <td>In this initial step, the data is analyzed to identify criteria for dividing and categorizing the data. It involves exploring and understanding the data before proceeding with any transformations or imputations.</td>
+  </tr>
+  <tr>
+    <td>Structuring</td>
+    <td>Raw data often lacks a structured format, especially when it comes to user information. In this step, the data is restructured to align with the analytical methods employed. It may involve splitting columns, creating new features, or rearranging rows to facilitate easier analysis. This step is sometimes referred to as feature engineering.</td>
+  </tr>
+  <tr>
+    <td>Cleaning</td>
+    <td>Processed datasets often contain outliers or inconsistencies that can affect the accuracy of analysis. The cleaning step involves thoroughly addressing these issues to ensure high-quality data. It includes handling null values, standardizing formatting, and performing any necessary data cleansing operations.</td>
+  </tr>
+  <tr>
+    <td>Enriching</td>
+    <td>After processing and cleaning the data, there might be a need to enrich it further. This step involves assessing the data and deciding whether to upscale, downsample, or apply data augmentation techniques. Resampling methods can be used to adjust the data distribution, such as downsampling to reduce the data size or upsampling to create synthetic data.</td>
+  </tr>
+  <tr>
+    <td>Validating</td>
+    <td>Validation refers to the iterative process of verifying the consistency and quality of the processed data. It includes checking the accuracy of field values, validating data integrity, and assessing whether the attributes follow a normal distribution or meet predefined criteria. Validation steps ensure that the data is reliable and suitable for analysis.</td>
+  </tr>
+  <tr>
+    <td>Publishing</td>
+    <td>The final step of data wrangling involves making the processed and transformed data available for further use. The wrangled data is published or shared, allowing it to be utilized in downstream applications or analysis. It may involve documenting the entire data wrangling process for easy reference by users and clients.</td>
+  </tr>
+</table>
 
 ## Benefits of Data Wrangling
 

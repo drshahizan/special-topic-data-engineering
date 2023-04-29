@@ -51,6 +51,7 @@ Group XXXX
 #### Notes
 - [What is Data Wrangling?](#What-is-Data-Wrangling?)
 - [Importance of Data Wrangling](#Importance-of-Data-Wrangling)
+- [Steps in Data Wrangling](#Steps-in-Data-Wrangling)
 - [Benefits of Data Wrangling](#Benefits-of-Data-Wrangling)
 - [Data Wrangling Tools](#Data-Wrangling-Tools)
 - [Data Wrangling Examples](#Data-Wrangling-Examples)
@@ -60,6 +61,10 @@ Group XXXX
 
 
 ## What is Data Wrangling?
+<p align='center'>
+<img src= "https://y6h4c7e5.rocketcdn.me/wp-content/uploads/2018/09/What-is-Data-Wrangling-1024x538.jpg" height=200 width=400/>
+</p>
+
   Data wrangling, also referred to as data munging, involves the manipulation, cleaning, and restructuring of raw data to make it more accessible and suitable for analysis. With the ever-expanding volume and diversity of available data sources, the need to store and organize large amounts of data for analysis has become increasingly important.
 
   The process of data wrangling entails tasks such as reorganizing data, transforming its structure, and mapping it from its initial raw form to a more usable and valuable format for various downstream applications, including analytics.
@@ -77,6 +82,11 @@ The use of data wrangling software has become indispensable in data processing. 
 5. ``Cleansing data from noise, errors, or missing elements``: Data wrangling plays a crucial role in preparing the data for the subsequent data mining process, which involves gathering and making sense of the data.
 6. ``Facilitating concrete and timely decision-making for business users.``
 7. ``Following a structured data wrangling process``: Typically, data wrangling software goes through iterative steps of discovery, structuring, cleaning, enriching, validating, and publishing the data before it is deemed ready for analytics.
+
+
+## Steps in Data Wrangling
+
+
 
 ## Benefits of Data Wrangling
 

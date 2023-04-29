@@ -37,8 +37,7 @@ Pixabay is a website that provides a platform for users to access a vast collect
 
 Pixabay's content is released under a Creative Commons license, which means that users can use the multimedia content without paying any licensing fees or attribution. However, there are some restrictions on the use of the content, and users are encouraged to read the site's terms of service before using any of the multimedia content. Overall, Pixabay is a valuable resource for anyone who needs free-to-use multimedia content for their personal or commercial projects.
 
-Here are some reasons why Pixabay is a good source for multimedia content:
-
+### Advantages using Pixabay for multimedia content
 <ul>
     <li>Wide range of multimedia content: Pixabay offers a vast collection of over 2 million high-quality, royalty-free images, videos, and illustrations. This means that you can easily find multimedia content for almost any type of project, whether it's for personal or commercial use.</li>
     <li>Easy to use: Pixabay has a simple and user-friendly interface that allows you to search for multimedia content quickly and easily. You can use keywords to search for specific content, filter results by image or video, and even sort by popular or latest uploads.</li>
@@ -46,9 +45,11 @@ Here are some reasons why Pixabay is a good source for multimedia content:
     <li>Free to use: Pixabay offers all of its multimedia content for free, which is a huge advantage for anyone on a tight budget. You can download and use any multimedia content from the site for personal or commercial use without paying any licensing fees.</li>
 </ul>
 
-Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
-Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
+### Process of web scraping
 
+
+
+### Description of metadata obtained
 <table>
   <tr>
     <th>Field</th>

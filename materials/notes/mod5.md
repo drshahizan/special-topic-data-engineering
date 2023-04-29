@@ -49,14 +49,38 @@ Group XXXX
 
 ### Contents:
 #### Notes
-- [Abc](#abc)
+- [What is Data Wrangling?](#What-is-Data-Wrangling?)
+- [Importance of Data Wrangling](#Importance-of-Data-Wrangling)
+- [Benefits of Data Wrangling](#Benefits-of-Data-Wrangling)
+- [Data Wrangling Tools](#Data-Wrangling-Tools)
+- [Data Wrangling Examples](#Data-Wrangling-Examples)
 
 ### Others
 - [xyz](https://utm.my)
 
 
-## ABC
-Software engineering is an essential field of study that deals with the design, development, and maintenance of software applications. It plays a vital role in the development and success of modern technology. Here are some of the reasons why software engineering is important:
+## What is Data Wrangling?
+  Data wrangling, also referred to as data munging, involves the manipulation, cleaning, and restructuring of raw data to make it more accessible and suitable for analysis. With the ever-expanding volume and diversity of available data sources, the need to store and organize large amounts of data for analysis has become increasingly important.
+
+  The process of data wrangling entails tasks such as reorganizing data, transforming its structure, and mapping it from its initial raw form to a more usable and valuable format for various downstream applications, including analytics.
+
+  In essence, data wrangling can be described as the process of refining and preparing raw data by eliminating errors, organizing it effectively, and converting it into the desired format. This enables analysts to utilize the data efficiently for timely decision-making. Data wrangling, also known as data cleaning or data munging, offers several benefits to businesses, including the ability to handle complex data more efficiently, produce more accurate results, and make better-informed decisions. The specific methods employed in data wrangling may vary depending on the project requirements and the nature of the data involved. Increasingly, organizations are turning to data wrangling tools to streamline the preparation of data for downstream analytics.
+
+
+## Importance of Data Wrangling
+The use of data wrangling software has become indispensable in data processing. The primary importance of employing data wrangling tools can be summarized as follows:
+
+
+## Benefits of Data Wrangling
+
+
+
+## Data Wrangling Tools
+
+
+
+## Data Wrangling Examples
+
 
 
 ## Contribution 🛠️

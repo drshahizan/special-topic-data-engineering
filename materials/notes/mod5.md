@@ -70,6 +70,13 @@ Group XXXX
 ## Importance of Data Wrangling
 The use of data wrangling software has become indispensable in data processing. The primary importance of employing data wrangling tools can be summarized as follows:
 
+1. ``Making raw data usable``: Accurate data wrangling ensures that high-quality data is fed into downstream analysis.
+2. ``Centralizing data from various sources``: Data wrangling facilitates the consolidation of data from different sources into a centralized location for effective utilization.
+3. ``Transforming raw data into the required format``: Data wrangling involves restructuring raw data according to the desired format while considering the business context.
+4. ``Leveraging automated data integration tools``: These tools enable data wrangling techniques that clean and convert source data into a standardized format, allowing for repeated usage based on end requirements. Businesses rely on this standardized data for essential cross-data set analytics.
+5. ``Cleansing data from noise, errors, or missing elements``: Data wrangling plays a crucial role in preparing the data for the subsequent data mining process, which involves gathering and making sense of the data.
+6. ``Facilitating concrete and timely decision-making for business users.``
+7. ``Following a structured data wrangling process``: Typically, data wrangling software goes through iterative steps of discovery, structuring, cleaning, enriching, validating, and publishing the data before it is deemed ready for analytics.
 
 ## Benefits of Data Wrangling
 

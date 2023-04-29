@@ -132,7 +132,38 @@ Data wrangling offers several benefits that can help organizations to derive ins
 
 
 ## Data Wrangling Tools
+Data wrangling typically involves using a variety of tools to transform, clean, and prepare data for analysis. Here are some of the key tools used in data wrangling:
 
+<table>
+  <tr>
+    <th>Tools</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Excel Power Query / Spreadsheets</td>
+    <td>Basic manual structure wrangling tool.</td>
+  </tr>
+  <tr>
+    <td>OpenRefine</td>
+    <td>Contains more sophisticated solutions, requires programming.</td>
+  </tr>
+  <tr>
+    <td>Google DataPrep</td>
+    <td>Suitable for data exploration, cleaning, and feature engineering.</td>
+  </tr>
+  <tr>
+    <td>Tabula</td>
+    <td>Suitable for all kinds of data.</td>
+  </tr>
+  <tr>
+    <td>DataWrangler</td>
+    <td>Suitable for data cleaning and transformation.</td>
+  </tr>
+  <tr>
+    <td>CSVKit</td>
+    <td>Suitable for converting data.</td>
+  </tr>
+</table>
 
 
 ## Data Wrangling Examples

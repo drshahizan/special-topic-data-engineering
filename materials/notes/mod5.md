@@ -57,7 +57,8 @@ Group XXXX
 - [Data Wrangling Examples](#Data-Wrangling-Examples)
 
 ### Others
-- [xyz](https://utm.my)
+- [Let’s Understand All About Data Wrangling!](https://www.analyticsvidhya.com/blog/2021/08/lets-understand-all-about-data-wrangling/)
+- [Mastering the Art of Data Wrangling: A Comprehensive Guide](https://www.projectpro.io/article/data-wrangling/806)
 
 
 ## What is Data Wrangling?

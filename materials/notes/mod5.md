@@ -167,7 +167,27 @@ Data wrangling typically involves using a variety of tools to transform, clean, 
 
 
 ## Data Wrangling Examples
+Data wrangling techniques are used for various use-cases. The most commonly used examples of data wrangling are for:
 
+<ul>
+  <li>Merging several data sources into one data-set for analysis</li>
+  <li>Identifying gaps or empty cells in data and either filling or removing them</li>
+  <li>Deleting irrelevant or unnecessary data</li>
+  <li>Identifying severe outliers in data and either explaining the inconsistencies or deleting them to facilitate analysis</li>
+</ul>
+
+Businesses also use data wrangling tools to:
+
+<ul>
+  <li>Detect corporate fraud</li>
+  <li>Support data security</li>
+  <li>Ensure accurate and recurring data modeling results</li>
+  <li>Ensure business compliance with industry standards</li>
+  <li>Perform Customer Behavior Analysis</li>
+  <li>Reduce time spent on preparing data for analysis</li>
+  <li>Promptly recognize the business value of your data</li>
+  <li>Find out data trends</li>
+</ul>
 
 
 ## Contribution 🛠️

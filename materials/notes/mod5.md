@@ -123,7 +123,12 @@ Data wrangling is an iterative process, much like other data analytics processes
 </table>
 
 ## Benefits of Data Wrangling
+Data wrangling offers several benefits that can help organizations to derive insights and value from their data. Here are some of the key benefits of data wrangling:
 
+1. ``Improve data usability (converts data into a compatible format)``: By performing tasks such as removing duplicates, handling missing data, and converting data types, it helps to ensure that the data is in a format that is compatible with the end system, making it easier to work with and analyze. This can help to improve the accuracy and reliability of any insights or conclusions drawn from the data.
+2. ``Quickly build and automate data-flow process``: Data wrangling tools often come with an intuitive user interface that enables users to quickly build data flows. With an intuitive user interface, users can easily visualize and modify the data flows as needed. Additionally, data wrangling tools often provide the ability to schedule and automate data flows, which can save time and effort.
+3. ``Integrate various types of information and their sources``: Data wrangling handles a variety of data sources, including databases, web services, files, and more. This means that users can easily integrate data from different sources and combine it into a single dataset. For example, a user may want to combine sales data from a database with customer data from a web service. With a data wrangling tool, this can be easily accomplished.
+4. ``Help users to process very large volumes of data``: With data wrangling tools, users can easily handle large datasets and perform complex operations on them. Additionally, data wrangling tools often provide the ability to share data-flow techniques with others, which can help to promote collaboration and knowledge sharing among team members. This can be especially helpful in organizations where multiple people are working with the same data.
 
 
 ## Data Wrangling Tools

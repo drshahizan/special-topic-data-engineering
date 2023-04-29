@@ -145,3 +145,4 @@ MongoDB provides several benefits when it comes to storing multimedia content da
 
 ## 5. Conclusion
 
+In conclusion, this assignment provides us with an excellent opportunity to gain practical experience in web scraping using an API and working with MongoDB to store and retrieve data. By retrieving and storing images based on a user's input keyword, we will become familiar with the process of making API requests, parsing JSON data, and establishing a connection to a database using PyMongo. Additionally, this project provides an opportunity to explore different libraries for displaying images such as Pillow or OpenCV. Overall, this project is an excellent way for us to improve our skills in web scraping and data management, which are valuable in various data-driven industries.

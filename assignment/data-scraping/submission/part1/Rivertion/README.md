@@ -1,4 +1,4 @@
-<h1 align='center'>🎓 Web Scraping Image</h1>
+<h1 align='center'>🎓 Web Scraping Multimedia Content</h1>
 <table align='center'>
   <tr>
     <th>Name</th>

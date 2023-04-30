@@ -6,8 +6,8 @@
 
 <h3> 2. Web Scraping Flickr</h3>
 
-The vast amount of multimedia content available on Flickr has contributed to its popularity among many users. The website has more than 100 million active users, and billions of photos and videos have been shared. Flickr is an excellent source for multimedia content because many of its high-quality images and videos are freely accessible under a Creative Commons licence, making them suitable for research and analysis.
-Flickr also possesses a robust search engine that facilitates the discovery of relevant content via tags, keywords, and other filters. Metadata, which includes information such as the time and location of an image or video's capture and the type of camera used, can be used for research and analysis.
+<p align=justify>The vast amount of multimedia content available on Flickr has contributed to its popularity among many users. The website has more than 100 million active users, and billions of photos and videos have been shared. Flickr is an excellent source for multimedia content because many of its high-quality images and videos are freely accessible under a Creative Commons licence, making them suitable for research and analysis.
+Flickr also possesses a robust search engine that facilitates the discovery of relevant content via tags, keywords, and other filters. Metadata, which includes information such as the time and location of an image or video's capture and the type of camera used, can be used for research and analysis.</p>
 
 <h4> Web Scraping Process </h4>
 

@@ -1,4 +1,4 @@
-<h1 align=center>Tittle: Web scraping using Watermelon image🍉</h1>
+<h1 align=center>Title: Web scraping Flickr Multimedia Using Flickr API</h1>
 
 <h3> 1. Introduction</h3>
 

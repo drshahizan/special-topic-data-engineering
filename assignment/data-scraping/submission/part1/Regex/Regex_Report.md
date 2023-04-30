@@ -2,7 +2,7 @@
 
 <h3> 1. Introduction</h3>
 
-Briefly introduce the topic of web scraping multimedia content and the importance of this type of data for research and analysis.
+<p align=justify>Web scraping multimedia content extracts multimedia data from websites, including images, videos, audio, and animations. This data type can provide valuable insights for research and analysis in various disciplines, such as media studies, marketing, social media analysis, and machine learning. Multimedia data can provide more information than text-based data alone. For instance, insights into consumer preferences, sentiment analysis, and brand recognition can be gained by analyzing images and videos. In machine learning, multimedia data is frequently used to train models for image recognition, speech recognition, and natural language processing. This is significant because it enables researchers and analysts to access and analyze a greater variety of data, which can lead to more accurate and insightful results.</p>
 
 <h3> 2. Web Scraping Flickr</h3>
 
@@ -27,7 +27,11 @@ Briefly introduce the topic of web scraping multimedia content and the importanc
 - Summarize the main points of the assignment and restate the importance of web scraping multimedia content for data analysis.
 - Offer suggestions for future research or analysis using the data set obtained from Flickr.
 
-Code
+<h3> Web Scraping Steps </h3>
+
+1. Import all neccesary libraries
+
+
 ```ruby
 
 import requests
@@ -35,19 +39,25 @@ import json
 import csv
 import cv2
 import numpy as np
+```
 
-# Define the API key and endpoint URLs
+2. Define the API key and endpoint URLs. Note that you need to apply for your own API key through Flickr API Explorer.
+```ruby
 api_key = "your_api_key"
 search_url = "https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key={api_key}&tags=sunset&per_page=100&page=1&format=json&nojsoncallback=1"
 info_url = "https://www.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key={api_key}&photo_id={photo_id}&format=json&nojsoncallback=1"
 exif_url = "https://www.flickr.com/services/rest/?method=flickr.photos.getExif&api_key={api_key}&photo_id={photo_id}&format=json&nojsoncallback=1"
+```
 
-# Make the API call to get the search results
+3. Make the API call to get the search results. This search will only return 100 results. It can be specify in the flickr.photos.search method by setting the per_page parameter to 100 to get 100 results per page, and then loop through the pages to get all the photo IDs.
+```ruby
 response = requests.get(search_url.format(api_key=api_key))
 data = json.loads(response.text)
 total_pages = data["photos"]["page"]
+```
 
-# Loop through all the pages and get the photo metadata
+4. Loop through all the pages and get the photo metadata. Since some of the owner restrict the access to their exif information. The metadata is narrowed down to only collect the title, author, url, camera make and model.
+```ruby
 metadata_list = []
 for page in range(1, total_pages+1):
     response = requests.get(search_url.format(api_key=api_key, page=page))
@@ -80,8 +90,10 @@ for page in range(1, total_pages+1):
 
         # Add the metadata to the list
         metadata_list.append(metadata_dict)
+```
 
-# Write the metadata to the CSV file and download the images
+5. Write the metadata to the CSV file and download the images
+```ruby
 with open("//Users/nursyahirasabrina/Downloads/watermelon/metadata.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=["Title", "Author", "URL", "Make", "Model"])
     writer.writeheader()
@@ -95,3 +107,4 @@ with open("//Users/nursyahirasabrina/Downloads/watermelon/metadata.csv", "w", ne
         writer.writerow(metadata)
         
 ```
+6. Upload the csv file to MongoDB

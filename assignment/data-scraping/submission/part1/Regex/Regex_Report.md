@@ -6,32 +6,12 @@
 
 <h3> 2. Web Scraping Flickr</h3>
 
-- Explain why Flickr is a good source for multimedia content and provide a brief overview of the site.
-- Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
-- Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
+The vast amount of multimedia content available on Flickr has contributed to its popularity among many users. The website has more than 100 million active users, and billions of photos and videos have been shared. Flickr is an excellent source for multimedia content because many of its high-quality images and videos are freely accessible under a Creative Commons licence, making them suitable for research and analysis.
+Flickr also possesses a robust search engine that facilitates the discovery of relevant content via tags, keywords, and other filters. Metadata, which includes information such as the time and location of an image or video's capture and the type of camera used, can be used for research and analysis.
 
-<h3> 3. Choosing a Library for Web Scraping</h3>
-
-- Compare and contrast the available libraries for web scraping multimedia content, including Pillow and OpenCV.
-- Explain the criteria used to choose the appropriate library for this project.
-- Justify the final choice and explain the advantages of the chosen library.
-
-<h3> 4. Storing Data in MongoDB</h3>
-
-- Discuss the benefits of using MongoDB for storing multimedia content data.
-- Explain the best way to store the data in MongoDB, including the data structure and organization.
-- Provide examples of how the data can be queried and analyzed using MongoDB.
-
-<h3> 5. Conclusion</h3>
-
-- Summarize the main points of the assignment and restate the importance of web scraping multimedia content for data analysis.
-- Offer suggestions for future research or analysis using the data set obtained from Flickr.
-
-<h3> Web Scraping Steps </h3>
+<h4> Web Scraping Process </h4>
 
 1. Import all neccesary libraries
-
-
 ```ruby
 
 import requests
@@ -41,7 +21,7 @@ import cv2
 import numpy as np
 ```
 
-2. Define the API key and endpoint URLs. Note that you need to apply for your own API key through Flickr API Explorer.
+2. Define the API key and endpoint URLs. Please note that you must request your own API key via [Flickr App Garden](https://www.flickr.com/services/apps/create/apply/?). The first step is to identify the images or videos that you want to scrape from Flickr. This can be done by searching for specific tags or keywords related to the research topic. The tag 'sunset' is specified in this example. We are also using 3 API urls to search the photo and get the `photo_id`, then get the metadata through info and exif APIs.
 ```ruby
 api_key = "your_api_key"
 search_url = "https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key={api_key}&tags=sunset&per_page=100&page=1&format=json&nojsoncallback=1"
@@ -49,14 +29,14 @@ info_url = "https://www.flickr.com/services/rest/?method=flickr.photos.getInfo&a
 exif_url = "https://www.flickr.com/services/rest/?method=flickr.photos.getExif&api_key={api_key}&photo_id={photo_id}&format=json&nojsoncallback=1"
 ```
 
-3. Make the API call to get the search results. This search will only return 100 results. It can be specify in the flickr.photos.search method by setting the per_page parameter to 100 to get 100 results per page, and then loop through the pages to get all the photo IDs.
+3. Make the API call to get the search results. This search will only return 100 results. It can be specify in the `search_url` flickr.photos.search method by setting the per_page parameter to 100 to get 100 results per page, and then loop through the pages to get all the photo IDs. 
 ```ruby
 response = requests.get(search_url.format(api_key=api_key))
 data = json.loads(response.text)
 total_pages = data["photos"]["page"]
 ```
 
-4. Loop through all the pages and get the photo metadata. Since some of the owner restrict the access to their exif information. The metadata is narrowed down to only collect the title, author, url, camera make and model.
+4. Once the target data is identified, access the Flickr API to retrieve the URLs for each image or video. Loop through all the pages and get the photo metadata. Since some of the owner restrict the access to their exif information. The metadata is narrowed down to only collect the title, author, url, camera make and model. Additionally, Flickr has strict policies on the use of their content, so it's essential to ensure that the data is being used in compliance with their terms of service.
 ```ruby
 metadata_list = []
 for page in range(1, total_pages+1):
@@ -92,9 +72,9 @@ for page in range(1, total_pages+1):
         metadata_list.append(metadata_dict)
 ```
 
-5. Write the metadata to the CSV file and download the images.
+5. Write the metadata to the CSV file and download the images. The data set obtained from web scraping Flickr multimedia content would typically include metadata such as the geolocation data, camera information, and tags. The size of each file can range from a few kilobytes to several megabytes, depending on the quality and length of the multimedia content. The file type used include image formats such as JPEG. The metadata can be analyzed to identify trends in the use of tags or geolocation data, as well as to study the characteristics of the multimedia content itself.
 ```ruby
-with open("metadata.csv", "w", newline="", encoding="utf-8") as f:
+with open("flickr_scraping.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=["Title", "Author", "URL", "Make", "Model"])
     writer.writeheader()
 
@@ -107,4 +87,23 @@ with open("metadata.csv", "w", newline="", encoding="utf-8") as f:
         writer.writerow(metadata)
         
 ```
-6. Upload the csv file to MongoDB
+6.  Store the downloaded multimedia content and associated metadata in an appropriate format for further analysis, such as a CSV file or a database. Upload the data to MongoDB.
+
+<h3> 3. Choosing a Library for Web Scraping</h3>
+
+- Compare and contrast the available libraries for web scraping multimedia content, including Pillow and OpenCV.
+- Explain the criteria used to choose the appropriate library for this project.
+- Justify the final choice and explain the advantages of the chosen library.
+
+<h3> 4. Storing Data in MongoDB</h3>
+
+- Discuss the benefits of using MongoDB for storing multimedia content data.
+- Explain the best way to store the data in MongoDB, including the data structure and organization.
+- Provide examples of how the data can be queried and analyzed using MongoDB.
+
+<h3> 5. Conclusion</h3>
+
+- Summarize the main points of the assignment and restate the importance of web scraping multimedia content for data analysis.
+- Offer suggestions for future research or analysis using the data set obtained from Flickr.
+
+

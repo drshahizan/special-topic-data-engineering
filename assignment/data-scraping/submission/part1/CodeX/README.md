@@ -1,4 +1,4 @@
-<h1 align='center'>Part 1: Web scraping Images From Pixabay</h1>
+<h1 align='center'>Part 1: Web Scraping Images From Pixabay</h1>
 
 <h2 align='center'>Group Members </h2>
 <table align='center'>

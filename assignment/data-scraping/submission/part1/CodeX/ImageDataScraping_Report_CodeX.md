@@ -1,5 +1,7 @@
 # Pixabay Images Data Scraping 
+Image web scraping refers to the process of automatically extracting images and related metadata from websites using software programs, scripts or APIs. This can be done for a variety of reasons, such as building a dataset for machine learning or computer vision, collecting images for marketing purposes, or simply gathering information for personal use.
 
+It's important to note that not all websites allow web scraping, and some may require permission or have restrictions on how the data can be used. It's also important to be respectful of the website's terms of use and to avoid overloading their server with too many requests.
 ## Part 1: Scrap Metadata From Pixabay
 ### Step 1: Go to the Pixabay website
 Go to the Pixabay website: https://pixabay.com/api/docs/ then copy and paste the API code. You will need to sign up first if you have not registered.

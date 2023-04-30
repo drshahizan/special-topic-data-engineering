@@ -28,3 +28,8 @@
   </tr>
 </table>
 
+## Contents📝
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/accd4cc0707ea823667e2bc0299090d351a3b769/assignment/data-scraping/submission/part1/CodeX/ImageDataScraping_Report_CodeX)
+- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/accd4cc0707ea823667e2bc0299090d351a3b769/assignment/data-scraping/submission/part1/CodeX/ImageDataScraping.ipynb)
+- 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/accd4cc0707ea823667e2bc0299090d351a3b769/assignment/data-scraping/submission/part1/CodeX/PixabayImage_Metadata.csv)
+

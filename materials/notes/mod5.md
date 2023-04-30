@@ -48,7 +48,7 @@ Group XXXX
 # Module 5: Data Wrangling
 
 ### Contents:
-- [What is Data Wrangling?](#What-is-Data-Wrangling?)
+- [What is Data Wrangling?](#What is Data Wrangling?
 - [Importance of Data Wrangling](#Importance-of-Data-Wrangling)
 - [Steps in Data Wrangling](#Steps-in-Data-Wrangling)
 - [Benefits of Data Wrangling](#Benefits-of-Data-Wrangling)

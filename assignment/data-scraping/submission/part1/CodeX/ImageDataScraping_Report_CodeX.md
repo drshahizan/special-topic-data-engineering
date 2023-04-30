@@ -136,3 +136,30 @@ else:
 ```
 
 ## Part 2: Load into MongoDB
+### Step 1: Open and connect MongoDB compass
+> Click here to install [MongoDB Compass](https://www.mongodb.com/try/download/shell) 
+
+Open MongoDB Compass and create `New Connection`. Insert the URL of the local host.
+
+<img height='200px' src='https://user-images.githubusercontent.com/96984290/230783928-1fe10a85-dd6e-43b2-8397-a29c0f03658d.jpg'/>
+
+
+### Step 2: Create new database
+Create Database by inserting `Database Name` and `Collection Name` 
+
+<img height='350px' src='https://user-images.githubusercontent.com/96984290/230783967-e43ebd9a-7e2d-4296-8231-5249137b2dde.jpg'/>
+
+### Step 3: Add .csv file
+In the new database created, click on `ADD DATA` and select `Import JSON or CSV file`.
+
+<img height='150px' src='https://user-images.githubusercontent.com/96984290/230783986-27fef5d2-81b6-4ce2-8858-4f5fd721b4d1.jpg'/>
+
+Choose the file name of the saved metadata images [PixabayImage_Metadata.csv](https://github.com/drshahizan/special-topic-data-engineering/blob/accd4cc0707ea823667e2bc0299090d351a3b769/assignment/data-scraping/submission/part1/CodeX/PixabayImage_Metadata.csv) 
+
+Then, click on `Import`
+
+<img height='300px' src='https://user-images.githubusercontent.com/96984290/230784004-63817cab-f6f0-451f-bd8f-7088bb2a6e3f.jpg'/>
+
+A database based on the csv uploaded will be shown as below picture
+<img height='300px' src='https://user-images.githubusercontent.com/96984290/235344710-4eb4dc36-ea5f-424f-9048-80f5c0fca752.jpg'/>
+

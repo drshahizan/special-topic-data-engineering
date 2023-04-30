@@ -92,9 +92,9 @@ for page in range(1, total_pages+1):
         metadata_list.append(metadata_dict)
 ```
 
-5. Write the metadata to the CSV file and download the images
+5. Write the metadata to the CSV file and download the images.
 ```ruby
-with open("//Users/nursyahirasabrina/Downloads/watermelon/metadata.csv", "w", newline="", encoding="utf-8") as f:
+with open("metadata.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=["Title", "Author", "URL", "Make", "Model"])
     writer.writeheader()
 

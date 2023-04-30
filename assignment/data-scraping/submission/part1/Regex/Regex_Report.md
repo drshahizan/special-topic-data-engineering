@@ -19,6 +19,8 @@ import json
 import csv
 import cv2
 import numpy as np
+import pymongo
+from pymongo import MongoClient
 ```
 
 2. Define the API key and endpoint URLs. Please note that you must request your own API key via [Flickr App Garden](https://www.flickr.com/services/apps/create/apply/?). The first step is to identify the images or videos that you want to scrape from Flickr. This can be done by searching for specific tags or keywords related to the research topic. The tag 'sunset' is specified in this example. We are also using 3 API urls to search the photo and get the `photo_id`, then get the metadata through info and exif APIs.
@@ -87,7 +89,19 @@ with open("flickr_scraping.csv", "w", newline="", encoding="utf-8") as f:
         writer.writerow(metadata)
         
 ```
-6.  Store the downloaded multimedia content and associated metadata in an appropriate format for further analysis, such as a CSV file or a database. Upload the data to MongoDB.
+
+6.  Store the downloaded multimedia content and associated metadata in an appropriate format for further analysis, such as a CSV file or a database. The data are uploaded to MongoDB Atlas using a connection string where the username, password, database and collection name need to be specified. To get the connection string, in MongoDB Atlas, create new project and cluster. Connect to the cluster by selecting the correct driver and version to get the corresponding connection string. Then, insert the data.
+```ruby
+#Connection String 
+uri="mongodb://<username>:<password>@ac-lojpzav-shard-00-00.nz2oazc.mongodb.net:27017,ac-lojpzav-shard-00-01.nz2oazc.mongodb.net:27017,ac-lojpzav-shard-00-02.nz2oazc.mongodb.net:27017/?ssl=true&replicaSet=atlas-li4q9r-shard-0&authSource=admin&retryWrites=true&w=majority"
+client = MongoClient(uri)
+
+#Define the database and collection
+db = client['<your_database_name>']
+collection = db['<your_collection_name>']
+
+collection.insert_many(metadata_list)
+```
 
 <h3> 3. Choosing a Library for Web Scraping</h3>
 

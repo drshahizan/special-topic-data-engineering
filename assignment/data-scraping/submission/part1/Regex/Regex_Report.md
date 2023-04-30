@@ -37,7 +37,7 @@ import cv2
 import numpy as np
 
 # Define the API key and endpoint URLs
-api_key = "0a20630c1aa490c02fe8abae8a169f33"
+api_key = "your_api_key"
 search_url = "https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key={api_key}&tags=sunset&per_page=100&page=1&format=json&nojsoncallback=1"
 info_url = "https://www.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key={api_key}&photo_id={photo_id}&format=json&nojsoncallback=1"
 exif_url = "https://www.flickr.com/services/rest/?method=flickr.photos.getExif&api_key={api_key}&photo_id={photo_id}&format=json&nojsoncallback=1"

@@ -38,7 +38,7 @@ data = json.loads(response.text)
 total_pages = data["photos"]["page"]
 ```
 
-4. Once the target data is identified, access the Flickr API to retrieve the URLs for each image or video. Loop through all the pages and get the photo metadata. Since some of the owner restrict the access to their exif information. The metadata is narrowed down to only collect the title, author, url, camera make and model. Additionally, Flickr has strict policies on the use of their content, so it's essential to ensure that the data is being used in compliance with their terms of service.
+4. Once the target data is identified, access the Flickr API to retrieve the URLs for each image or video. Loop through all the pages and get the photo metadata. Since some of the owner restrict the access to their exif information, the metadata is narrowed down to only collect the title, author, url, camera make and model. Additionally, Flickr has strict policies on the use of their content, so it's essential to ensure that the data is being used in compliance with their terms of service.
 ```ruby
 metadata_list = []
 for page in range(1, total_pages+1):
@@ -74,7 +74,7 @@ for page in range(1, total_pages+1):
         metadata_list.append(metadata_dict)
 ```
 
-5. Write the metadata to the CSV file and download the images. The data set obtained from web scraping Flickr multimedia content would typically include metadata such as the geolocation data, camera information, and tags. The size of each file can range from a few kilobytes to several megabytes, depending on the quality and length of the multimedia content. The file type used include image formats such as JPEG. The metadata can be analyzed to identify trends in the use of tags or geolocation data, as well as to study the characteristics of the multimedia content itself.
+5. Write the metadata to the CSV file and download the images. The data set obtained include metadata such as the geolocation data, camera information, and tags. The size of each file can range from a few kilobytes to several megabytes, depending on the quality and length of the multimedia content. The file type used include image formats such as JPEG. The metadata can be analyzed to identify trends in the use of tags or geolocation data, as well as to study the characteristics of the multimedia content itself. To get the csv file of this data, we use OpenCV library to handle the images and metadata.
 ```ruby
 with open("flickr_scraping.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=["Title", "Author", "URL", "Make", "Model"])
@@ -102,6 +102,7 @@ collection = db['<your_collection_name>']
 
 collection.insert_many(metadata_list)
 ```
+<img width='500' src="https://github.com/drshahizan/special-topic-data-engineering/blob/6973121368be8f043f9d6bb662ae3e78617e064b/assignment/data-scraping/submission/part1/Regex/MongoDB.png" alt='Screenshot of database after data is added'>
 
 <h3> 3. Choosing a Library for Web Scraping</h3>
 

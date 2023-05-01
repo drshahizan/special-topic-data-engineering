@@ -35,5 +35,5 @@ This assignment requires going through the process of web scraping publication c
 
 ## Contents📝
 - 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part2/Regex/ReportPart2_Regex.md)
-- 💻[Code]()
-- 📂[CSV]()
+- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part2/Regex/Part2_WebScrapingTextContent.ipynb)
+- 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part2/Regex/GoogleScholar.csv)

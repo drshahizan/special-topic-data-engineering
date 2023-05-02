@@ -7,18 +7,47 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-<!---
-Module X: XXX
 
-Group XXXX
-1. XXXX
-2. XXXX
-3. XXXX
-4. XXXX
+# Module 3: Data Engineer, Data Engineering, Data Science, Data Scientist
 
--->
+<h3><p align='center'>Group Members</p></h3>
 
-# Module X: Data Engineer, Data Engineering, Data Science, Data Scientist
+ <table align='center'>
+   <tr>
+     <th>Name</th>
+     <th>Matrix Number</th>
+   </tr>
+ 
+   <tr>
+     <td>AFIF HAZMIE ARSYAD BIN AGUS</td>
+     <td>A20EC0176</td>
+   </tr>
+ 
+   <tr>
+     <td>AHMAD AIMAN HAFIZI BIN MUHAMMAD</td>
+     <td>A20EC0177</td>
+   </tr>
+ 
+   <tr>
+     <td>LUQMAN ARIFF BIN NOOR AZHAR</td>
+     <td>A20EC0202</td>
+   </tr>
+ 
+   <tr>
+     <td>MADINA SURAYA BINTI ZHARIN</td>
+     <td>A20EC0203</td>
+   </tr>
+ 
+   <tr>
+     <td>MUHAMMAD IMRAN HAKIMI BIN MOHD SHUKRI</td>
+     <td>A20EC0213</td>
+   </tr>
+ 
+</table>
+
+
+
+
 
 ### Contents:
 #### Notes

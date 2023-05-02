@@ -1,11 +1,20 @@
+<div  align="center">
+<img  src="https://www.aib.world/wp-content/uploads/2020/12/ethics-blog-google-scholar-profile-large.jpg">
+</div>
+
 <h1 align='center'>Part 2: Web scraping text in Google Scholar 📷☁️</h1>
-<p>This assigment is about web scraping multimedia content from Flickr website. We will be collecting clouds image using python libraries such as beautiful soup, request, pandas, numpy etc to request the data and save it into csv file. The data that we collect are picture ID, number of viewers, name of the tag, type of camera, camera model, exposure, aperture, exposure program, ISO, metering model, flash, focal length, color space, lens model and the geographical location of the picture. Next, we store the data into MongoDB as our database in JSON format.</p>
+
+<p>Google Scholar is a free search engine that indexes scholarly literature, including articles, conference papers, theses, books, and technical reports, from a wide range of academic publishers, professional societies, online repositories, universities, and other websites. In this assigment, we will be scrape data from google scholar specifically staff's articles and publications from Universiti Teknologi Malaysia. The data that we will be scraping include the article's title, author, Journel or Conference Name and Citation. </p>
+
+* [📄Google Scholar Web](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Universiti+Teknologi+Malaysia&oq=)
+
 <br>
+
 <div align='center'>
 <table>
   <tr>
    <th>The Collaborators</th>
-   <th>Seriel Designation Number</th>
+   <th>Matric Number</th>
   </tr>
   
    <tr>
@@ -38,5 +47,5 @@
 ### 📂Folder content:
 
 * [📖Report]()
-* [💻Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/Noctua/Clouds_image_Noctua_Flickr_WebScraping.ipynb)
-* [📎CSV file exported](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/Noctua/Clouds_Flickr_Merged.csv)
+* [💻Code]()
+* [📎CSV file exported]()

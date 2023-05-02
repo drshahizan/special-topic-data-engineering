@@ -47,5 +47,5 @@
 ### 📂Folder content:
 
 * [📖Report]()
-* [💻Code]()
-* [📎CSV file exported]()
+* [💻Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part2/Noctua/Part2_WebTextScraping.ipynb)
+* [📎CSV file exported](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part2/Noctua/GoogleScholar_Scrape.csv)

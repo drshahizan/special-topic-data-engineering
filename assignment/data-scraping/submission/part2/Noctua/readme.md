@@ -4,7 +4,7 @@
 
 <h1 align='center'>Part 2: Web scraping text in Google Scholar 📷☁️</h1>
 
-<p>Google Scholar is a free search engine that indexes scholarly literature, including articles, conference papers, theses, books, and technical reports, from a wide range of academic publishers, professional societies, online repositories, universities, and other websites. In this assigment, we will be scrape data from google scholar specifically staff's articles and publications from Universiti Teknologi Malaysia. The data that we will be scraping include the article's title, author, Journel or Conference Name and Citation. </p>
+<p>Google Scholar is a free search engine that indexes scholarly literature, including articles, conference papers, theses, books, and technical reports, from a wide range of academic publishers, professional societies, online repositories, universities, and other websites. In this assigment, we will be scrape data from google scholar specifically staff's articles and publications from Faculty of Computing, Universiti Teknologi Malaysia. The data that we will be scraping include the article's title, author, Journal or Conference Name and Citation. </p>
 
 * [📄Google Scholar Web](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Universiti+Teknologi+Malaysia&oq=)
 

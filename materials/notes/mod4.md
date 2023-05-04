@@ -8,7 +8,7 @@
 Don't forget to hit the :star: if you like this repo.
 
 
-# Module 3: Data Engineer, Data Engineering, Data Science, Data Scientist
+# Module 3: Data Scraping
 
 <h3><p align='center'>Group Members</p></h3>
 

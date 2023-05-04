@@ -121,7 +121,12 @@ Overall, data scraping tools can help businesses and researchers to collect and 
     <td>Octoparse is a powerful web scraping tool that is designed to extract data from websites without coding. It is easy to use and can extract data from a wide range of websites, including e-commerce sites, social media platforms, and news sites. Octoparse also provides a range of features, such as the ability to handle complex data structures, schedule and automate scraping tasks, and export data in various formats.</td>
   </tr>
   <tr>
-    <td>Parsehub</td>
+    <td>
+     Parsehub
+      <p align='center'>
+       <img src="https://entrepreneurs.utoronto.ca/wp-content/uploads/2021/08/parsehub.png" height=150>
+      </p>
+    </td>
     <td>Parsehub is a web scraping tool that provides a range of features for data extraction, such as point-and-click UI, scheduled extraction, cloud-based data storage, and automatic IP rotation. Parsehub can handle dynamic websites and can extract data from JavaScript and AJAX-based websites.</td>
   </tr>
   <tr>

@@ -69,6 +69,29 @@ Below is an overview example of how the system will be programmed:
 <img height='500px' src='Recommendation architecture.png'/>
 </p> 
 
+1. Data scraping:
+Use Tiktok Analytics API to scrape raw data such as username, number of likes and comments from Tiktok.
+
+2. Data storage:
+Use MongoDB to store the scraped data in a collection.
+
+3. Data preprocessing and feature engineering:
+Use the MongoDB Aggregation Framework to preprocess and transform the data as needed.
+Perform feature engineering operations such as scaling, normalization, or polynomial expansion.
+
+4. Visualization:
+Use Streamlit to build a Tiktok Trend Dashboard that visualizes the preprocessed and feature-engineered data.
+Use MongoDB as the data source for the dashboard.
+
+
+Overall system architecture:
+
+- Tiktok Analytics API for data scraping
+- MongoDB for data storage and preprocessing
+- Streamlit for data visualization
+- A web server such as Flask or Django to serve the Streamlit dashboard
+<!-- - A scheduler such as Cron or Airflow to automate the scraping and preprocessing tasks on a regular basis. -->
+
 ## 7. Risks and Limitation
 Netflix's show recommendation system has been widely praised for its ability to personalize recommendations to individual users based on their viewing history, ratings, and preferences. However, here are some potential risks and limitations associated with Netflix's recommendation system, along with potential strategies to mitigate them:
 1. Technical Risk

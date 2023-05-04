@@ -84,6 +84,10 @@ Data Scraping provides businesses, researchers, and individuals with a powerful 
 
 5. `Job market analysis` : Data scraping can be used to collect job postings from various sources, such as job boards and company websites. This information can be used to analyze job market trends, identify skill gaps, and provide insights to job seekers.
 
+## Data Scraping Tools
+
+Overall, data scraping tools can help businesses and researchers to collect and analyze data quickly and efficiently. These tools can save time and resources, and provide insights that might not be possible through manual data collection. However, it is important to ensure that data scraping is done in compliance with applicable laws and regulations, and with respect for the privacy of individuals.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

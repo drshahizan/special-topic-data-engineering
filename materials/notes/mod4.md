@@ -88,6 +88,33 @@ Data Scraping provides businesses, researchers, and individuals with a powerful 
 
 Overall, data scraping tools can help businesses and researchers to collect and analyze data quickly and efficiently. These tools can save time and resources, and provide insights that might not be possible through manual data collection. However, it is important to ensure that data scraping is done in compliance with applicable laws and regulations, and with respect for the privacy of individuals.
 
+<table>
+  <tr>
+    <th>Tools</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>BeautifulSoup</td>
+    <td>Beautiful Soup is a Python package that is commonly used for web scraping purposes. It provides an easy-to-use API for parsing HTML and XML documents. Beautiful Soup is capable of handling poorly formatted HTML and can parse nested HTML tags.</td>
+  </tr>
+  <tr>
+    <td>Scrapy</td>
+    <td>Scrapy is a Python-based web crawling framework that provides a high-level API for web scraping. Scrapy is scalable, fast, and easy to use. It can extract data from websites, transform the data into structured formats, and store the data in various data stores such as databases, CSV files, or JSON files.</td>
+  </tr>
+  <tr>
+    <td>Octoparse</td>
+    <td>Octoparse is a powerful web scraping tool that is designed to extract data from websites without coding. It is easy to use and can extract data from a wide range of websites, including e-commerce sites, social media platforms, and news sites. Octoparse also provides a range of features, such as the ability to handle complex data structures, schedule and automate scraping tasks, and export data in various formats.</td>
+  </tr>
+  <tr>
+    <td>Parsehub</td>
+    <td>Parsehub is a web scraping tool that provides a range of features for data extraction, such as point-and-click UI, scheduled extraction, cloud-based data storage, and automatic IP rotation. Parsehub can handle dynamic websites and can extract data from JavaScript and AJAX-based websites.</td>
+  </tr>
+  <tr>
+    <td>WebHarvy</td>
+    <td>WebHarvy is a web scraping software that can extract data from various websites, such as e-commerce sites, job portals, and classifieds sites. It can extract data from multiple pages and supports regular expressions and XPath for advanced data extraction.</td>
+  </tr>
+</table>
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

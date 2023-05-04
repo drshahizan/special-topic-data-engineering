@@ -57,8 +57,8 @@ Don't forget to hit the :star: if you like this repo.
 - [xyz](https://utm.my)
 
 
-## ABC
-Software engineering is an essential field of study that deals with the design, development, and maintenance of software applications. It plays a vital role in the development and success of modern technology. Here are some of the reasons why software engineering is important:
+## What is Data Scraping
+Data scraping, also known as web scraping, is a technique of extracting data from websites using automated software programs. It involves writing code that sends automated requests to a website, parses the HTML or XML content, and extracts the desired information. In simple terms, data scraping is the process of collecting information from the internet and transforming it into structured data that can be used for various purposes such as analysis, research, or business intelligence.
 
 
 ## Contribution 🛠️

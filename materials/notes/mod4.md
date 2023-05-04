@@ -112,7 +112,12 @@ Overall, data scraping tools can help businesses and researchers to collect and 
     <td>Scrapy is a Python-based web crawling framework that provides a high-level API for web scraping. Scrapy is scalable, fast, and easy to use. It can extract data from websites, transform the data into structured formats, and store the data in various data stores such as databases, CSV files, or JSON files.</td>
   </tr>
   <tr>
-    <td>Octoparse</td>
+    <td>
+     Octoparse
+      <p align='center'>
+       <img src="https://www.octoparse.com/images/img_banner_product.png" height=150>
+      </p>
+    </td>
     <td>Octoparse is a powerful web scraping tool that is designed to extract data from websites without coding. It is easy to use and can extract data from a wide range of websites, including e-commerce sites, social media platforms, and news sites. Octoparse also provides a range of features, such as the ability to handle complex data structures, schedule and automate scraping tasks, and export data in various formats.</td>
   </tr>
   <tr>

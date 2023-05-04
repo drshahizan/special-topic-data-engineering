@@ -94,11 +94,21 @@ Overall, data scraping tools can help businesses and researchers to collect and 
     <th>Description</th>
   </tr>
   <tr>
-    <td>BeautifulSoup</td>
+    <td>
+     BeautifulSoup
+     <p align='center'>
+      <img src="https://cdn-images-1.medium.com/max/1000/1*6M0FxnC6CD9L6xGwROl5jQ.png">
+     </p>
+    </td>
     <td>Beautiful Soup is a Python package that is commonly used for web scraping purposes. It provides an easy-to-use API for parsing HTML and XML documents. Beautiful Soup is capable of handling poorly formatted HTML and can parse nested HTML tags.</td>
   </tr>
   <tr>
-    <td>Scrapy</td>
+    <td>
+     Scrapy
+      <p align='center'>
+       <img src="https://steemitimages.com/640x0/https://scrapinghub.files.wordpress.com/2016/08/scrapy.png" height=150>
+      </p>
+    </td>
     <td>Scrapy is a Python-based web crawling framework that provides a high-level API for web scraping. Scrapy is scalable, fast, and easy to use. It can extract data from websites, transform the data into structured formats, and store the data in various data stores such as databases, CSV files, or JSON files.</td>
   </tr>
   <tr>

@@ -50,11 +50,11 @@ Don't forget to hit the :star: if you like this repo.
 
 
 ### Contents:
-#### Notes
-- [Abc](#abc)
-
-### Others
-- [xyz](https://utm.my)
+- [Definition](#what-is-data-scraping)
+- [The Importance](#why-is-data-scraping-important)
+- [Tools](#data-scraping-tools)
+- [Real World Case Studies](#real-world-case-studies-or-examples)
+- [Conclusion](#conclusion)
 
 
 ## What is Data Scraping?
@@ -139,8 +139,110 @@ Overall, data scraping tools can help businesses and researchers to collect and 
 </table>
 
 ## Real World Case Studies or Examples
+There are 5 successful web scraping case studies from different industries and their business outcomes. This will help and inspired us to achieve the maximum value from the technology.
+<table>
+  <tr>
+    <th>Scope</th>
+    <th>Case Study</th>
+    <th>Challenge</th>
+    <th>Solution</th>
+   <th>Impact to Business</th>
+  </tr>
+  <tr>
+    <td>
+     Web data extraction
+    </td>
+    <td>
+     <b>Advantage Solutions</b><br>
+     Advantage Solutions offers sales, marketing, and retailer services to help brands and retailers increase sales in-store and online. Canopy, a brand of Advantage  Solutions, extracts and merges data from various sources to provide customers with a comprehensive view of their data.
+   </td>
+   <td>
+    To prevent malicious activity from accessing their web data, websites use a variety of anti-scraping strategies. Canopy was identified and restricted from web sites after collecting openly accessible web data from numerous sources without changing the IP address. To get around IP restrictions, Canopy started collaborating with a proxy server provider. To reduce the risk of being discovered, companies using proxy servers must constantly change their IP addresses for each new connection request. Canopy eventually exhausted all of the IP addresses provided by the proxy server's IP pool and encountered the same problem.
+   </td>
+   <td>
+    Canopy used Bright Data’s Residential Proxies and Datacenter IPs to collect required data for their customers.
+   </td>
+   <td>
+    Canopy was able to access and collect online customer data across multiple retail portals by using residential and datacenter proxies. This helped the company to provide a one-stop-shop eCommerce data where customers could access all the information they needed.
+   </td>
+  </tr>
+ 
+   <tr>
+    <td>
+     Recruitment
+    </td>
+    <td>
+     <b>Mathison</b><br>
+     Mathison is an all-in-one DEI (diversity, equity, and inclusion) platform that assists businesses with their hiring processes.
+   </td>
+   <td>
+   In order to build a uniform talent pool that aids recruiters in managing their varied hiring efforts, Mathison collects candidate information from several web sources, including social media platforms like LinkedIn, recruitment websites like Glassdoor or Salary.com, and salary.com. The organisation encountered challenges getting beyond website anti-scraping safeguards like IP blockers, CAPTCHA blockers, and honeypots in order to get region-specific data.
+   </td>
+   <td>
+    Mathison used Bright Data’s Data Collector to collect massive amounts of candidate public data from targeted platforms.
+   </td>
+   <td>
+    The company was able to simplify the data collection process, and reduce the time spent manually collecting candidate profile data, automate the building and maintaining datasets processes, match candidates in appropriate positions, and enable data-driven decision-making strategy of hiring.
+   </td>
+  </tr>
+ 
+ <tr>
+    <td>
+     Marketing
+    </td>
+    <td>
+     <b>Reddico</b><br>
+     Reddico is an SEO agency that offers consultancy and SEO technology to their clients in different industries to solve technical challenges and automate labor-intensive tasks.
+   </td>
+   <td>
+    33 percent of all search traffic goes to the first result on a Google search. Businesses use SEO to monitor the effectiveness of their content and improve their Google Search visibility. For varied commercial reasons, such as backlink tracking and providing localised content, SEO tools comb through a variety of enormous volumes of webpages. However, it can be challenging to access and scrape a lot of web data.
+   </td>
+   <td>
+   Reddico leveraged a data collector solution to collect web data on a large scale without geo-restrictions.
+   </td>
+   <td>
+    Reddico was able to collect large-scale web data from any region in the world, get more accurate data from search engines much faster, and get real-time SERP data and provide up-to-date SEO insights to their customers.
+   </td>
+  </tr>
+ 
+ <tr>
+    <td>
+     Sales
+    </td>
+    <td>
+     <b>e.fundamentals</b><br>
+    e.fundamentals is a CommerceIQ company that helps Consumer Packaged Goods (CPG) brands analyze, measure, and optimize their eCommerce performance.
+   </td>
+   <td>
+    The company gathers information from hundreds of merchants and transforms it into useful insights to help businesses improve the effectiveness of their digital shelves and increase sales. Access to open web data on more than 1.5 million products from hundreds of stores was required by e.fundamentals. It was difficult for the business to access and compile the internet information it required.
+   <td>
+  e.fundamentals leveraged Bright Data Residential IPs and Bright Data Web Unlocker to collect necessary public online data from various sources.
+   </td>
+   <td>
+    The company could gather vast amounts of public web data to feed its analytics pipelines, accelerate the data collection process and Bright Data’s data collection products helped e.fundamentals triple in size last year.
+   </td>
+  </tr>
+ 
+ <tr>
+    <td>
+     Travel
+    </td>
+    <td>
+     <b>Railofy</b><br>
+     Railofy is a travel tech start-up that offers passengers solutions such as online food delivery service to train seats, ticket booking, and travel guarantee for the waitlist. 
+   </td>
+   <td>
+    Railofy notifies waitlisted train passengers of available seats and ensures they reach their destinations at the lowest price. However, the company needed help to collect a vast amount of online passenger data to optimize its prices and offer personalized pricing. 
+   <td>
+  Railofy used Bright Data’s Datacenter IPs and Residential IPs to collect required  online travel data such as flight dates, number of seats left, ticket prices, etc. Extracted data enabled the company to offer flight options to waitlisted passengers at a similar railway ticket cost. 
+   </td>
+   <td>
+    The company was able to access public online travel data, adjust ticket prices based on the current market situation, formulate data-driven strategies, and predict India’s railway and airline networks.
+   </td>
+  </tr>
+</table>
 
-## Conclusions
+## Conclusion
 In conclusion, data scraping is a powerful tool for extracting data from websites for research, analysis, or business intelligence purposes. It can save time and effort in data collection and help gain insights that may not be possible through manual methods. However, it is important to use data scraping tools responsibly and ethically, while complying with applicable laws and regulations, and with respect for the privacy of individuals. It is also important to choose the right data scraping tools based on the specific requirements and features needed, and to stay updated with the latest developments in the field. With responsible and ethical data scraping practices, it can be a valuable asset for any organization.
 
 ## Contribution 🛠️

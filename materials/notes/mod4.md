@@ -66,6 +66,9 @@ Data scraping, also known as `web scraping`, is a technique of `extracting data 
 
 Data scraping tools are commonly used for this purpose, as they can automate the process and provide a range of features and capabilities to extract data from different types of web pages, handle complex data structures, and schedule and automate scraping tasks. However, it is important to note that data scraping must be done in compliance with applicable laws and regulations, and with respect for the privacy of individuals. Overall, data scraping is a useful technique that can help businesses and researchers collect and analyze large amounts of data quickly and efficiently.
 
+## Why is Data Scraping important?
+Data Scraping provides businesses, researchers, and individuals with a powerful tool to `collect and analyze large amounts of data` quickly and efficiently. By `automating repetitive tasks`, data scraping can help businesses save time and money, while also providing valuable insights that can improve decision-making.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

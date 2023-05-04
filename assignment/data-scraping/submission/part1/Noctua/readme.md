@@ -1,4 +1,6 @@
-<h1 align='center'>Part 1: Web scraping multimedia content (Flickr) 📷☁️</h1>
+<h1 align='center'>Part 1: Web scraping multimedia content using Flickr 📷☁️
+  <img width=500px height=200px src="https://user-images.githubusercontent.com/99240177/232822671-98a60054-f4dc-4f84-a7b8-6ed4473e3038.png"/>
+</h1>
 <p>This assigment is about web scraping multimedia content from Flickr website. We will be collecting clouds image using python libraries such as beautiful soup, request, pandas, numpy etc to request the data and save it into csv file. The data that we collect are picture ID, number of viewers, name of the tag, type of camera, camera model, exposure, aperture, exposure program, ISO, metering model, flash, focal length, color space, lens model and the geographical location of the picture. Next, we store the data into MongoDB as our database in JSON format.</p>
 <br>
 <div align='center'>

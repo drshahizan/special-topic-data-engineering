@@ -58,6 +58,10 @@ Don't forget to hit the :star: if you like this repo.
 
 
 ## What is Data Scraping?
+<p align='center'>
+<img src="https://img.jagranjosh.com/imported/images/E/GK/data-scraping.jpg" height=350 width=450/>
+</p>
+
 Data scraping, also known as `web scraping`, is a technique of `extracting data from websites` using automated software programs. It involves writing code that sends automated requests to a website, parses the HTML or XML content, and extracts the desired information. In simple terms, data scraping is the process of `collecting information` from the internet and transforming it into structured data that can be used for various purposes such as analysis, research, or business intelligence.
 
 Data scraping tools are commonly used for this purpose, as they can automate the process and provide a range of features and capabilities to extract data from different types of web pages, handle complex data structures, and schedule and automate scraping tasks. However, it is important to note that data scraping must be done in compliance with applicable laws and regulations, and with respect for the privacy of individuals. Overall, data scraping is a useful technique that can help businesses and researchers collect and analyze large amounts of data quickly and efficiently.

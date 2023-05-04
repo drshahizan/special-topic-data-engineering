@@ -37,6 +37,6 @@
 
 ### 📂Folder content:
 
-* [📖Report]()
+* [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/Noctua/Report_Part_1_Noctua.md)
 * [💻Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/Noctua/Clouds_image_Noctua_Flickr_WebScraping.ipynb)
 * [📎CSV file exported](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/Noctua/Clouds_Flickr_Merged.csv)

@@ -89,7 +89,7 @@ collection.insert_many(data)
 ```
 
 ## 5. Conclusion
-In conclusion, we successfully managed to use SerpAPI to web scrape Google Scholar with the search query "faculty of computing, universiti teknologi malaysia" and save the results to MongoDB. 
+In conclusion, we successfully managed to use SerpAPI to web scrape Google Scholar with the search query "Faculty of Computing, Universiti Teknologi Malaysia" and save the results to MongoDB. 
 
 Web scraping publication content is important for data analysis as it provides a way to extract large amounts of data quickly and easily. This data can then be used to identify trends, patterns, and insights that can inform decision-making and research.
 

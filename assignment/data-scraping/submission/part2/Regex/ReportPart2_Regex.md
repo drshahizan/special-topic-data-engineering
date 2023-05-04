@@ -7,8 +7,7 @@
 - [Conclusion](#conclusion)
 
 ## Introduction
-> Briefly introduce the topic of web scraping publication content and the importance of this type of data for research and analysis.
-> 
+
 Web scraping text content is the process of extracting text data from websites. It is an automatic approach that uses automated software tools to extract useful raw data from web pages and can be used to obtain large amounts of data. There are many websites that are suitable to perform web scraping and extract the text content such as articles, blogs and academic papers. 
 
 Mostly, the text data is extracted from the website that hosts academic publication. For example, Google Scholar and ResearchGate. Both of them are famous websites for publication content and these data are helpful to use in various purposes such as tracking changes in research trends, analyzing citation patterns, identifying potential research collaborators, or extracting insights for natural language processing models.
@@ -19,11 +18,7 @@ Overall, web scraping text content plays a crucial role and acts as a valuable t
 
 
 ## Web Scraping Google Scholar
-> - Explain why Google Scholar is a good source for publication content and provide a brief overview of the site.
-> - Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
-> - Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
 
-### Google Scholar
 Google Scholar is a freely accessible and popular search engine for academic publications. It consists of a wide variety of publication contents  such as articles, conference papers, books and theses. It is a good source for publication content because it is fast and easy to access. Researchers and analysts can get the relevant data in seconds for free or through institutional subscriptions. Other than that, Google Scholar provides a "cited by" feature that identifies the number of citations a particular publication has received, making it easy to identify influential articles or authors in a given field. 
 
 ### Web Scraping Process
@@ -34,7 +29,159 @@ Web scraping publication content for Google Scholar and storing it in a database
     - `Selenium`: Selenium is a web driver that is used for automated testing, but it can also be used for web scraping.
 3. Setting Up the Environment: After choosing suitable web scraping libraries, we need to ensure and prepare the environment which includes installing the required libraries and also setting up the data storage system.
 4. Extracting Data: Now, we can start the web scraping process by writing the code to extract publication content from the Google Scholar. It should include extracting the relevant data that we need. 
+    > Step 1: Import all necessary libraries.<br>
+    ```python
+    from bs4 import BeautifulSoup
+    from selenium import webdriver
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    import time
+    import pandas as pd
+    ```
+    > Step 2: Define the URL that needs to be scrapped and enter the keyword “Faculty of Computing, Universiti Teknologi Malaysia” to find all the researchers. Since there are several result pages, we find the next button and retrieve the page details. Then, save the researcher link and name.  <br>
+    ```python
+    # Set up the Selenium webdriver to open a headless Chrome browser
+    options = webdriver.ChromeOptions()
+    options.add_argument('headless')
+    driver = webdriver.Chrome(options=options)
+
+    # Navigate to the Google Scholar search page
+    driver.get('https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=&btnG=')
+
+    # Find the search box and enter the search query
+    search_box = driver.find_element(By.NAME, 'mauthors')
+    search_box.send_keys('Faculty of Computing, "Universiti Teknologi Malaysia"')
+
+    # Submit the search query
+    search_box.submit()
+
+    # Wait for the page to load and get the page source
+    time.sleep(5)
+    html = driver.page_source
+
+    # Parse the HTML data using BeautifulSoup
+    soup = BeautifulSoup(html, 'html.parser')
+
+    names = []
+    profiles = []
+
+    # Find all the search results
+    search_results = soup.find_all('div', {'class': 'gs_ai_t'})
+
+    # get the names and links of the researchers on the first page
+    for result in search_results:
+        name = result.find('h3', {'class': 'gs_ai_name'}).text
+        link = result.find('a')['href']
+        names.append(name)
+        profiles.append(link)
+
+    # navigate to the next page and get the names and links of the researchers      
+    while True:
+        next_button = driver.find_element(By.XPATH, '//button[@aria-label="Next"]')
+        if not next_button.is_enabled():
+            break
+
+        # click on the "Next" button to load the next page of results
+        next_button.click()
+        time.sleep(2)  # wait for the page to load
+
+        # Get the new page source and parse it using BeautifulSoup
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+
+        # Find all the search results
+        search_results = soup.find_all('div', {'class': 'gs_ai_t'})
+
+        # Loop over the search results
+        for result in search_results:
+            name = result.find('h3', {'class': 'gs_ai_name'}).text
+            link = result.find('a')['href']
+
+            names.append(name)
+            profiles.append(link)
+    ```
+    > Step 3: Loop through each researcher link to get the publications that are published by each of them. Save the articles data such as title, authors, publication date, journal name and citations. <br>
+    ```python
+    titles = []
+    authors = []
+    pub_dates = []
+    journal_names = []
+    citations = []
+
+    for profile in profiles:
+        # Construct the URL for the Google Scholar profile
+        url = f"https://scholar.google.com/{profile}"
+
+        # Visit the profile page using Selenium webdriver
+        driver.get(url)
+
+        # Find the "Show more" button and click it repeatedly until it is disabled
+        while True:
+            show_more_button = driver.find_element(By.XPATH, '//button[@id="gsc_bpf_more"]')
+            if not show_more_button.is_enabled():
+                break
+
+            show_more_button.click()
+            time.sleep(2)  # wait for the result to load
+
+        # Extract the page content with BeautifulSoup
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        publications = soup.find_all("tr", {"class": "gsc_a_tr"})
+
+        # Extract metadata from the parsed HTML
+        titles += [title.text for title in soup.find_all('a', class_='gsc_a_at')]
+        pub_dates += [pub_date.text for pub_date in soup.find_all('span', class_='gsc_a_hc')]
+        citations += [citation.text for citation in soup.find_all('a', class_='gsc_a_ac')]
+
+        for pub in publications:
+            author_elem = pub.find_all("div", {"class": "gs_gray"})[0]
+            author = author_elem.text.strip()
+
+            journal_elem = pub.find_all("div", {"class": "gs_gray"})[1]
+            journal = journal_elem.text.strip()
+
+            journal_names.append(journal)
+            authors.append(author)
+
+
+    # Print the extracted metadata
+    print("Title:", titles)
+    print("Authors:", authors)
+    print("Publication Date:", pub_dates)
+    print("Journal or Conference Name:", journal_names)
+    print("Citations:", citations)
+    print("------")
+
+    # Close the Selenium webdriver after scraping is done
+    driver.close()
+    ```
+    
+    > Step 4: Save the data into a dataframe to have a better view and structure. <br>
+    ```python
+    article_dict = {'Title': titles, 'Authors': authors, "Publication Date": pub_dates, 'Journal or Conference Name': journal_names, 'Citations': citations}
+    df = pd.DataFrame(article_dict)
+    ```
+    > Step 5: Export the data into a .csv file. <br>
+    ```python
+    df.to_csv('GoogleScholar.csv',index=False)
+    ```
+
 5. Storing Data: Lastly, the data will be stored in the database. MongoDB is a good choice to store these scraped data due to its flexibility and scalability.
+```python
+import pymongo
+
+# Connect to MongoDB
+client = pymongo.MongoClient('URL')
+db = client['google_scholar']
+collection = db['google_scholar']
+
+data = df.to_dict(orient='records')
+collection.insert_many(data)
+```
+
+Output: 
+
+<img width="662" alt="image" src="https://user-images.githubusercontent.com/120556342/235406334-d5727161-b2e2-43c4-9700-9dbf5897db0e.png">
 
 ### Challenges
 During the web scraping process, there may be some challenges that need to be overcome in order to get the required data successfully. 
@@ -51,9 +198,6 @@ In this case, we aim to retrieve the title, author, publication date, journal or
 
 
 ## Choosing a Library for Web Scraping
-> - Compare and contrast the available libraries for web scraping publication content, including Beautiful Soup, Scrapy, and Selenium.
-> - Explain the criteria used to choose the appropriate library for this project.
-> - Justify the final choice and explain the advantages of the chosen library.
 
 One of the most important steps in performing the web scraping process is selecting the web scraping library. There will be three libraries discussed which are Beautiful Soup, Scrapy, and Selenium. All of them are popular libraries for web scraping for publication content and have their own strengths and weaknesses. 
 
@@ -116,11 +260,7 @@ Based on these criteria, Beautiful Soup and Selenium were chosen for this assign
 
 
 ## Storing Data in MongoDB
-> - Discuss the benefits of using MongoDB for storing publication content data.
-> - Explain the best way to store the data in MongoDB, including the data structure and organization.
-> - Provide examples of how the data can be queried and analyzed using MongoDB.
 
-### Benefits of using MongoDB
 MongoDB is an open-source document-oriented database and leading NoSQL database. There are several benefits of using MongoDB for storing publication content data.
 
 1. Flexibility: MongoDB provides a flexible document-oriented data model to store unstructured and complex data which suit with publication content data that vary highly in terms of structure and format.
@@ -176,8 +316,6 @@ db.publications.aggregate([
 Overall, MongoDB can support powerful and complex data querying and analyzing like aggregation and grouping. 
 
 ## Conclusion
-> - Summarize the main points of the assignment and restate the importance of web scraping publication content for data analysis.
-> - Offer suggestions for future research or analysis using the data set obtained from Google Scholar.
 
 In conclusion, this assignment aims to perform a web scraping publication content process from Google Scholar and store the extracted data in the database. Web scraping is an important method to obtain the data for analysis and research. This will involve using the tools and libraries such as Beautiful Soup, Selenium and Scapy to extract the desired data from web pages in a shorter time. 
 

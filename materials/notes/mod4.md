@@ -59,14 +59,19 @@ Don't forget to hit the :star: if you like this repo.
 
 ## What is Data Scraping?
 <p align='center'>
-<img src="https://www.hirinfotech.com/wp-content/uploads/2019/10/What-is-Web-Scraping-1024x512.png" height=350 width=700/>
+ <img src="https://www.hirinfotech.com/wp-content/uploads/2019/10/What-is-Web-Scraping-1024x512.png" height=350 width=700/>
 </p>
 
 Data scraping, also known as `web scraping`, is a technique of `extracting data from websites` using automated software programs. It involves writing code that sends automated requests to a website, parses the HTML or XML content, and extracts the desired information. In simple terms, data scraping is the process of `collecting information` from the internet and transforming it into structured data that can be used for various purposes such as analysis, research, or business intelligence.
 
 Data scraping tools are commonly used for this purpose, as they can automate the process and provide a range of features and capabilities to extract data from different types of web pages, handle complex data structures, and schedule and automate scraping tasks. However, it is important to note that data scraping must be done in compliance with applicable laws and regulations, and with respect for the privacy of individuals. Overall, data scraping is a useful technique that can help businesses and researchers collect and analyze large amounts of data quickly and efficiently.
 
+
 ## Why is Data Scraping important?
+<p align='center'>
+ <img src='Images/DataScrapingImportance.png'/>
+</p>
+
 Data Scraping provides businesses, researchers, and individuals with a powerful tool to `collect and analyze large amounts of data` quickly and efficiently. By `automating repetitive tasks`, data scraping can help businesses save time and money, while also providing valuable insights that can improve decision-making.
 
 1. `Business intelligence` : Data scraping can help businesses gather valuable information about competitors, customers, and market trends. This information can be used to develop new products and services, optimize marketing strategies, and improve business operations.

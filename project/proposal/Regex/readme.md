@@ -6,8 +6,7 @@
  <h3 align='center'> 
  Analyze Shopee Supermarket sales by Household Supplies Category to gain insights into market trend and optimize sales strategy
  </h3>
- <p align='center'> 
-  E-commerce, short for electronic commerce, refers to the buying and selling of goods or services over the internet. E-commerce platforms enable users to browse, compare and purchase products or services online, and complete transactions through digital payment systems. Examples of e-commerce platforms include Amazon, Alibaba, Shopee, and many others. In this project, we will create a dashboard for the performance of the sales of household supplies at Shopee Supermarket.
+ <p> E-commerce, short for electronic commerce, refers to the buying and selling of goods or services over the internet. E-commerce platforms enable users to browse, compare and purchase products or services online, and complete transactions through digital payment systems. Examples of e-commerce platforms include Amazon, Alibaba, Shopee, and many others. In this project, we will create a dashboard for the performance of the sales of household supplies at Shopee Supermarket. Shopee Supermarket is an online grocery store that is part of the Shopee e-commerce platform. It offers a wide range of products including fresh produce, packaged food, household items, and personal care products. The aim of this project is to develop a comprehensive Shopee Supermarket Sales Performance Dashboard that will analyze houshold supplies sales data, generate actionable insights into market trends and sales performance, and optimize sales strategy.
 </p>
 <br>
 

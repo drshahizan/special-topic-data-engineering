@@ -133,7 +133,10 @@ Overall, data scraping tools can help businesses and researchers to collect and 
     <td>Parsehub is a web scraping tool that provides a range of features for data extraction, such as point-and-click UI, scheduled extraction, cloud-based data storage, and automatic IP rotation. Parsehub can handle dynamic websites and can extract data from JavaScript and AJAX-based websites.</td>
   </tr>
   <tr>
-    <td>WebHarvy</td>
+    <td>WebHarvy
+     <p align='center'>
+       <img src="https://www.webharvy.com/images/logo/logo.webp" height=150>
+   </td>
     <td>WebHarvy is a web scraping software that can extract data from various websites, such as e-commerce sites, job portals, and classifieds sites. It can extract data from multiple pages and supports regular expressions and XPath for advanced data extraction.</td>
   </tr>
 </table>

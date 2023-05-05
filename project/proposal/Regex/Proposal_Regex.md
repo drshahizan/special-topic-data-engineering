@@ -90,30 +90,7 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 
 **Proposed system architecture for the Shopee Supermarket Sales Performance Dashboard:**
 
-```mermaid
-%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#e76f51',
-      'primaryTextColor': '#d9d9d9',
-      'primaryBorderColor': '#e76f51',
-      'lineColor': '#d9d9d9',
-      'secondaryColor': '#284b63',
-      'tertiaryColor': '#d9d9d9'
-    }
-  }
-}%%
 
-flowchart TD;
-    id1[Beautiful Soup Web Scraper]<--Get transactional and inventory data-->id2[Shopee Malaysia]
-    id1[Beautiful Soup Web Scraper] --Store Data--> id3[(MongoDB)]
-    id3[(MongoDB)] --Process and analyse data using Python--> id7[Visual Studio Code]
-    id7[Visual Studio Code] --Store processed data--> id3[(MongoDB)]
-    id3[(MongoDB)] --Visualise data into dashboard, reports and charts--> id4[Power BI]
-    id4[Power BI] --Deploy a platform and user interface to access dashboard--> id5[Django]
-    id5[Django] --> id6[Public Interest]
-```
 
 <table align=center>
   <tr>
@@ -129,8 +106,15 @@ flowchart TD;
     <li>Shopee Supermarket inventory data: product availability, pricing, and promotions.</li></ol>
     </td>
     <td>
-      <li>Beautiful Soup</li>
-      <li>Python</li>  
+      <li>Web Scraper</li>  
+    </td>
+  </tr>
+  <tr>
+  <tr>
+    <td>Data Processing</td>
+    <td>Once the data is collected and stored, it needs to be preprocessed and transformed into a format that can be analyzed. This involves data cleaning, normalization, transformation, etc.</td>
+    <td>
+      <li>Python</li> 
     </td>
   </tr>
   <tr>
@@ -139,8 +123,8 @@ flowchart TD;
     <td><li>MongoDB</li></td>
   </tr>
   <tr>
-    <td>Data Processing and Analysis</td> 
-    <td>Once the data is collected and stored, it needs to be preprocessed and transformed into a format that can be analyzed. This involves data cleaning, normalization, transformation, etc. The data analysis will include the following:
+    <td>Data Analysis</td> 
+    <td>The data analysis will include the following:
       <ol>
       <li>Descriptive analytics: Analyzing historical data to identify trends, patterns, and anomalies in sales performance.</li>     
       <li>Diagnostic analytics: Identifying the factors contributing to sales performance, such as product availability, pricing, and promotions.</li>
@@ -148,12 +132,10 @@ flowchart TD;
       <li>Prescriptive analytics: Recommending actions to optimize sales performance, such as adjusting pricing, promotions, and product availability.</li>
       </ol></td>
     <td>
-          <li>Visual Studio Code</li>    
-          <li>Python</li>
-          <li>Pandas library for data manipulation and cleaning</li>
-          <li>NumPy library for mathematical operations on arrays</li>
-          <li>Matplotlib, Seaborn, or Plotly for data visualization</li>
-          <li>Scikit-learn for machine learning algorithms</li>
+          <li>Python Pandas</li>
+          <li>Python NumPy</li>
+          <li>Matplotlib, Seaborn, or Plotly</li>
+          <li>Scikit-learn</li>
      </td>
   </tr>
   <tr>

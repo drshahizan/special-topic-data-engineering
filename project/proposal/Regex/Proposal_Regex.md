@@ -2,7 +2,7 @@
   Shopee Supermarket Sales Performance Dashboard <img height='50px' width='50px' src='https://user-images.githubusercontent.com/120556342/228145762-83c369fc-a6b8-49da-a2be-fd31b7f280c3.png'>
  </h1>
  <h3 align='center'> 
- Analyze Shopee Supermarket sales to gain insights into market trend and optimize sales strategy
+ Analyze Shopee Supermarket sales by Household Supplies Category to gain insights into market trend and optimize sales strategy
   </h3>
   <br>
 <p align='center'>
@@ -60,7 +60,7 @@ This will be significant for online sellers to track their progress and quickly 
 
 ## 🔭Scope
 
-This project will develop an e-commerce analytics dashboard to analyze the sales performance of Shopee Supermarket in order for businesses to obtain valuable insights and look to optimize their online sales and marketing efforts.
+This project will develop an e-commerce analytics dashboard to analyze the sales performance of household supplies at Shopee Supermarket in order for businesses to obtain valuable insights and look to optimize their online sales and marketing efforts.
 
 - The data that will be used in this project is collected from <a href="https://shopee.com.my/">Shopee</a> Malaysia. It is an e-commerce platform that sells a variety of categories of products like Home & Living, Health & Beauty and Electronics.
  
@@ -75,7 +75,7 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 
 ## 🔍Methodology
 
-1. `Data Collection:` First and foremost is data collection. We will collect data such as price, item sold and profit about products from Shopee Supermarket. All of the data sales can be retrieved by using web scraping method.
+1. `Data Collection:` First and foremost is data collection. We will collect data such as price, item sold and profit about products from Shopee Supermarket by household supplies category. All of the data sales can be retrieved by using web scraping method.
 
 2. `Data Preparation:` This step includes **data cleaning** and **data transforming** process where all retrieved data will be cleaned in order to make sure there are no noisy and dirty data. Hence, the quality of the data increases which later will produce more complete, accurate and consistent result. Then, transform the format of the data if needed.
 

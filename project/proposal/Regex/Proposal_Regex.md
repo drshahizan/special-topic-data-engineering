@@ -90,7 +90,7 @@ This project will develop an e-commerce analytics dashboard to analyze the sales
 
 **Proposed system architecture for the Shopee Supermarket Sales Performance Dashboard:**
 
-
+<p align=center><img src=https://github.com/drshahizan/special-topic-data-engineering/blob/370574982f89f418c400339172e14cf9fc79fc12/project/proposal/Regex/system%20architecture.drawio.png></p>
 
 <table align=center>
   <tr>

@@ -313,7 +313,7 @@ The dashboard for energy consumption analysis requires the following resources:
 </table>
  
 ## ⏲️ Timeline and Deliverables 
-<div align="center"><img height="330px" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-01%20at%2011.02.10%20AM.png"/>
+<div align="center"><img height="330px" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/chart.png"/>
 </div>
 
 * week1 - week3 : Data collection and integration

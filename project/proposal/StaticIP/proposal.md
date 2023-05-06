@@ -67,7 +67,7 @@
 
 • `Visualization and reporting:` Finally, we will visualize the results of the analysis by Power BI so that we can understand the electricity usage patterns and areas of energy savings easily. 
 
-## 🖥️ System Architecture
+## 🖥️ System Architecture 
 
 In our proposed system architecture, it contains the following components:
 
@@ -112,7 +112,7 @@ In our proposed system architecture, it contains the following components:
  </table>
 
 The illustration of our system architecture are as follow:
-<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-02%20at%2011.31.01%20AM.png"></div>
+<div align="center"><img src=""></div>
 
 • `Data source:` Data is collected and scrapped through API from <a href="[https://www.climatiq.io/data/explorer?search=electricity-energy_source_grid_mix&region=MY]">climatiq</a>.
 
@@ -222,7 +222,7 @@ Key deliverables and milestones:
   </tr>
 </table>
 
-## 🗂️ Resources
+## 🗂️ Resources 
 The dashboard for energy consumption analysis requires the following resources:
 
 #### Staff
@@ -312,7 +312,7 @@ The dashboard for energy consumption analysis requires the following resources:
   </tr>
 </table>
  
-## ⏲️ Timeline and Deliverables
+## ⏲️ Timeline and Deliverables 
 <div align="center"><img height="330px" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-01%20at%2011.02.10%20AM.png"/>
 </div>
 

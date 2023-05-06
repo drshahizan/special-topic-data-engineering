@@ -55,7 +55,7 @@ This project will develop an entertainment analytics platform that will leverage
 
 ## 🔍 Methodology
 
-- Data Collection: The first step in the project is to collect relevant healthcare data. This can include electronic health records (EHRs), medical claims data, and other relevant sources. The data will be collected in a secure manner, and all relevant privacy regulations will be adhered to.
+- Data Collection: The first step in the project is to collect relevant to entertainment analytic platform data. The data will be collected in a secure manner, and all relevant privacy regulations will be adhered to.
 
 - Data Cleaning: Once the data is collected, it needs to be cleaned and preprocessed. This involves removing irrelevant data, handling missing data, and resolving any inconsistencies. The data will also be transformed into a format suitable for analysis.
 

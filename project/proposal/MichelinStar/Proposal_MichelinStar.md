@@ -45,12 +45,13 @@ By achieving these objectives, the Entertainment Analytics Platform will establi
 
 ## 🔭 Scope
 
-This project will develop an healthcare analytics platform that will leverage predictive analytics and machine learning to provide actionable insights and identify opportunities for cost savings.
-- The data that will be used in this project is collected from <a href="https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset?resource=download">Kaggle - Framingham heart study dataset</a>.
+This project will develop an entertainment analytics platform that will leverage predictive analytics and machine learning to provide actionable insights and identify opportunities for improving content performance and audience engagement.
 
-- To ensure a comprehensive and reliable data set, we will utilize data collection methods to streamline the process of data collection from numerous online sources, and ultimately yield insights on patient outcomes and healthcare costs.
+- The primary data source for this project will be The Movie Database API (TMDB), which will provide us with real-time access to a comprehensive database of movies, TV shows, and other media content. We will also utilize social media APIs, such as Twitter's streaming API, to collect real-time data on audience sentiment and engagement, using specific keywords and hashtags related to popular entertainment content.
 
-- MongoDB represents the future of data storage in the healthcare industry, and its importance in this project cannot be overstated. By leveraging this cutting-edge platform, we can effectively manage and store complex data sets, and extract meaningful insights to drive better health outcomes and increased cost-efficiency.
+- To ensure a comprehensive and reliable data set, we will employ data collection methods to streamline the process of gathering information from numerous online sources, such as streaming platforms, box office records, and user reviews, ultimately yielding insights on content performance and audience preferences.
+
+- MongoDB represents the future of data storage in the entertainment industry, and its importance in this project cannot be overstated. By leveraging this cutting-edge platform, we can effectively manage and store complex data sets, and extract meaningful insights to drive better content strategies, audience targeting, and increased revenue opportunities.
 
 ## 🔍 Methodology
 

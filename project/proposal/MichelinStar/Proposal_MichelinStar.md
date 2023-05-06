@@ -47,7 +47,7 @@ By achieving these objectives, the Entertainment Analytics Platform will establi
 
 This project will develop an entertainment analytics platform that will leverage predictive analytics and machine learning to provide actionable insights and identify opportunities for improving content performance and audience engagement.
 
-- The primary data source for this project will be The Movie Database API (TMDB), which will provide us with real-time access to a comprehensive database of movies, TV shows, and other media content. We will also utilize social media APIs, such as Twitter's streaming API, to collect real-time data on audience sentiment and engagement, using specific keywords and hashtags related to popular entertainment content.
+- The primary data source for this project will be The Movie Database API (TMDB), which will provide us with real-time access to a comprehensive database of movies, TV shows, and other media content.
 
 - To ensure a comprehensive and reliable data set, we will employ data collection methods to streamline the process of gathering information from numerous online sources, such as streaming platforms, box office records, and user reviews, ultimately yielding insights on content performance and audience preferences.
 
@@ -301,11 +301,11 @@ The resources needs as below:
 <table>
   <tr>
     <td>Data sources</td>
-    <td>Framingham heart disease dataset from Kaggle</td>
+    <td>The Movie Database API</td>
   </tr>
   <tr>
     <td>Data schema</td>
-    <td>Patient data: gender, age, education, cigarette intake, symptoms of the disease, BMI, risk of future coronary heart disease (CHD)</td>
+    <td> Title, 1MDB, Review, Date Release</td>
   </tr>
   <tr>
     <td>Data transformations</td>

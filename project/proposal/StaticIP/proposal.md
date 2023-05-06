@@ -112,7 +112,7 @@ In our proposed system architecture, it contains the following components:
  </table>
 
 The illustration of our system architecture are as follow:
-<div align="center"><img src=""></div>
+<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/diagram.png"></div>
 
 • `Data source:` Data is collected and scrapped through API from <a href="[https://www.climatiq.io/data/explorer?search=electricity-energy_source_grid_mix&region=MY]">climatiq</a>.
 

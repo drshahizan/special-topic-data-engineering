@@ -35,9 +35,9 @@ By combining the power of web programming technologies with advanced machine lea
 
 The primary goal of the Entertainment Analytics Platform is to empower professionals in the entertainment industry with data-driven insights that drive informed decision-making and propel success. To achieve this goal, the project aims to:
 
--Develop a robust and scalable web-based platform that consolidates and analyzes data from various sources, such as streaming services, social media, box office records, and more.
--Create a user-friendly interface that allows users to easily navigate, visualize, and interpret data, enabling them to make well-informed decisions based on the insights provided by the platform.
--Provide customizable dashboards and reporting tools to facilitate efficient communication and presentation of data to stakeholders, allowing for seamless integration into existing workflows and processes.
+-Develop a robust and scalable web-based platform that consolidates and analyzes data from various sources, such as streaming services, social media, box office records, and more. <br>
+-Create a user-friendly interface that allows users to easily navigate, visualize, and interpret data, enabling them to make well-informed decisions based on the insights provided by the platform. <br>
+-Provide customizable dashboards and reporting tools to facilitate efficient communication and presentation of data to stakeholders, allowing for seamless integration into existing workflows and processes. <br>
 -Continuously update and refine the platform's features and capabilities to stay ahead of industry trends and ensure that the Entertainment Analytics Platform remains a valuable resource for users in the long term.
 
 By achieving these objectives, the Entertainment Analytics Platform will establish itself as a comprehensive and indispensable tool for professionals in the entertainment industry, unlocking the full potential of data-driven decision-making and driving innovation in this dynamic market.

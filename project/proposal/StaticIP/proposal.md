@@ -111,7 +111,7 @@ In our proposed system architecture, it contains the following components:
    </tr>
  </table>
 
-To illustrate the system architecture, we have provided a flowchart below:
+The illustration of our system architecture are as follow:
 <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-02%20at%2011.31.01%20AM.png"></div>
 
 • `Data source:` Data is collected and scrapped through API from <a href="[https://www.climatiq.io/data/explorer?search=electricity-energy_source_grid_mix&region=MY]">climatiq</a>.
@@ -313,8 +313,7 @@ The dashboard for energy consumption analysis requires the following resources:
 </table>
  
 ## ⏲️ Timeline and Deliverables
-<div align="center">
-T    <img height="330px" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-01%20at%2011.02.10%20AM.png"/>
+<div align="center"><img height="330px" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-01%20at%2011.02.10%20AM.png"/>
 </div>
 
 * week1 - week3 : Data collection and integration

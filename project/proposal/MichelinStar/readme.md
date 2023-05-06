@@ -1,5 +1,5 @@
 <p align="center">
-<img width=500px; height=500px src="https://user-images.githubusercontent.com/120614501/229297006-4c019f29-4e4a-4bf2-b78f-8363e5d862b2.gif"></p>
+<img width=500px; height=500px src="https://user-images.githubusercontent.com/120614501/236613064-2f38a02d-35d4-407a-ac10-47379ca6c1a9.gif"></p>
 <h1 align="center">Entertainment Analytics Platform</h1>
 The Entertainment Analytics Platform is a comprehensive tool that harnesses the power of advanced analytics to provide users with actionable insights into content performance, audience engagement, and market trends. With a user-friendly interface and a plethora of robust features, our platform is tailored to meet the needs of professionals across the spectrum of the entertainment industry. By leveraging the capabilities of the Entertainment Analytics Platform, industry professionals can unlock the full potential of their data, driving innovation and growth in this dynamic and competitive market.
 

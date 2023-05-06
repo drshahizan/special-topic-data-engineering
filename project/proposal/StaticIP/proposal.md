@@ -213,12 +213,16 @@ Key deliverables and milestones:
     <td>Data visualization design</td>
   </tr>
     <tr>
-    <td>Week 10 - 12</td>
+    <td>Week 10 - 11</td>
     <td>User interface design</td>
   </tr>
   <tr>
-    <td>Week 13 - 14</td>
+    <td>Week 12 - 13</td>
     <td>Testing and deployment</td>
+  </tr>
+   <tr>
+    <td>Week 14</td>
+    <td>Presentation</td>
   </tr>
 </table>
 
@@ -325,11 +329,14 @@ The dashboard for energy consumption analysis requires the following resources:
 * week7 - week9 : Data visualization design
     > Data visualization, which seeks to represent complex data in a simple and straightforward graphic manner, is a crucial part of an Electricity Consumption Analysis Dashboard. Using concise and straightforward representations like charts, graphs, and maps, businesses and organizations can quickly identify areas of high electricity consumption, track changes in energy usage over time, and make decisions to improve electricity efficiency. To create user-friendly images for all users, the process involves transforming numerical data into visual representations, including dynamic components. Companies and organizations can improve energy economy through the use of data visualization, which lowers expenses and encourages a more sustainable future.
 
-* week10 - week12 : User interface design
+* week10 - week11 : User interface design
     > The user interface (UI) design is a crucial element of an Electricity Consumption Analysis Dashboard. Its goal is to create a user-friendly layout that is easy to browse and access vital data. The UI design process includes several steps, such as comprehending the target audience, designing the interface with their needs and preferences in mind, and considering interactive features, colour schemes, and fonts. A well-designed user interface can enhance user experience, enable more efficient decision-making, and boost energy economy for businesses and groups.
 
-* week13 - week14 : Testing and deployment
+* week12 - week13 : Testing and deployment
     > Testing and dissemination are crucial phases in the development process to guarantee that the Electricity Consumption Analysis Dashboard is functional, bug-free, meets the required specifications, and is distributed securely. Making a test plan, conducting test cases, identifying issues and flaws, and fixing them before publication are all part of the testing process. The dashboard is then distributed to the desired platform after testing is complete, keeping security and data safety in mind. The hardware must be built up, and the software must be installed and customised. Ongoing monitoring and maintenance are required to keep the dashboard functioning correctly and satisfying user requirements.
+
+* week14 : Presentation
+    > Presentation is a phase where the project's results and findings will be shown to the stakeholders. This is to allow the stakeholders to have a clear understanding on what the project is about.
 
 ## 🔍 Conclusion
  In order to increase the efficiency of marketing strategies, our proposal concludes by outlining the advantages of implementing a data-driven strategy. We can assist in gaining important insights into consumer behavior, preferences, and needs so they can develop individualised marketing campaigns that successfully reach the target audience. We do this by utilising data analytics, machine learning, and AI technologies.

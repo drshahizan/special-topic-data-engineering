@@ -1,7 +1,7 @@
 <p align="center">
 <img width=500px; height=500px src="https://user-images.githubusercontent.com/120614501/229297006-4c019f29-4e4a-4bf2-b78f-8363e5d862b2.gif"></p>
-<h1 align="center">Healthcare analytics platform</h1>
-Healthcare analytics platform is usually refers to a software or platform that helps doctors and specialist to analyse and simplify about the condition of the patient based on the input datas and reports. This platform also enable health-care profesionals to have better decision making, planning and management by creating a clearer vision on the condition of patient as well as increase productivity by saving time and unnecessary extra cost. A platform like this required vast amount of collected data and machine learning in order to analyse accurately and give useful recommendation and guidance. Other than that, this platform are also expected to have more trasparency as they are able to provide the estimated cost for the particular treatment.
+<h1 align="center">Entertainment analytics platform</h1>
+The Entertainment Analytics Platform is a comprehensive tool that harnesses the power of advanced analytics to provide users with actionable insights into content performance, audience engagement, and market trends. With a user-friendly interface and a plethora of robust features, our platform is tailored to meet the needs of professionals across the spectrum of the entertainment industry.
 
 <h2>Group Members <img width=30px; height=30px src="https://github.com/TanYongSheng728/TanYongSheng728/blob/main/group.png"></h2>
 <table>

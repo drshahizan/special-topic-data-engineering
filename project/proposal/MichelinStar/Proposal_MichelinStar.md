@@ -69,7 +69,7 @@ This project will develop an entertainment analytics platform that will leverage
 ## 🔧 System Architecture
 <b>Flowchart of system architecture:</b><br>
 <p align='center'>
-<img src='https://github.com/drshahizan/special-topic-data-engineering/blob/bdc3350dc8a21d41a13bde0b8a96b30737f10408/project/proposal/MichelinStar/flowchart_ver4.jpg'>
+<img src='https://user-images.githubusercontent.com/120614501/236614264-de171f3d-f792-40ad-a9ed-cd6a46ac108d.png'>
 </p><br>
 
 <b>Overview of system architecture:</b><br>

@@ -44,7 +44,7 @@
 ## 🧿 Scope
  The development of an electricity consumption analysis dashboard enables businesses and organizations to monitor their electricity consumption easily and efficiently as the dashboard will provide real-time data on electricity consumption and prices and offer actionable solutions to boost energy efficiency.
 
-- The electricity data source of Malaysia to be used in this project is scrapped using API through [climatiq]([https://www.climatiq.io/data/explorer?search=electricity-energy_source_grid_mix&region=MY]). Then, scrapped data will also be stored in MongoDB. 
+- The electricity data source of Malaysia to be used in this project is scrapped using API through <a href="[https://www.climatiq.io/data/explorer?search=electricity-energy_source_grid_mix&region=MY]">climatiq</a>. Then, scrapped data will also be stored in MongoDB. 
 
 - MongoDB's aggregation framework will be used as the main tool to extract insights from the data source and execute advanced queries and aggregations which involve pinpointing periods of high energy demand, examining unusual patterns of electricity usage.
 
@@ -55,7 +55,7 @@
 ## 🔖 Methodology
  The Electricity Consumption Analysis Dashboard will be developed using MongoDB to analyze energy consumption patterns and identify opportunities for energy savings.
  
-• `Data collection:` To begin the project, the data relevant to the electricity usage in Malaysia will be scrapped and collected through API from [climatiq]([https://www.climatiq.io/docs#electricity--request]).
+• `Data collection:` To begin the project, the data relevant to the electricity usage in Malaysia will be scrapped and collected through API from <a href="[https://www.climatiq.io/data/explorer?search=electricity-energy_source_grid_mix&region=MY]">climatiq</a>.
 
 • `Data preprocessing:` After the data is collected, the data will undergo pre-processing process before it is analyzed. The tasks in data pre-processing include cleaning, filtering and data transforming. This step is to remove unwanted data and handle all the missing values, outliers and inconsistent data that could affect the result and accuracy of data analysis.
 
@@ -114,7 +114,7 @@ In our proposed system architecture, it contains the following components:
 To illustrate the system architecture, we have provided a flowchart below:
 <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/Screenshot%202023-04-02%20at%2011.31.01%20AM.png"></div>
 
-• `Data source:` Data is collected and scrapped through API from [climatiq]([https://www.climatiq.io/docs#electricity--request]).
+• `Data source:` Data is collected and scrapped through API from <a href="[https://www.climatiq.io/data/explorer?search=electricity-energy_source_grid_mix&region=MY]">climatiq</a>.
 
 • `Data preprocessing:` MongoDB Aggregation Framework is used to clean, filter and transform the data. 
 
@@ -128,7 +128,7 @@ To illustrate the system architecture, we have provided a flowchart below:
 <table align=center>
    <tr>
     <td>Data source</td>
-    <td>[climatiq]([https://www.climatiq.io/docs#electricity--request])</td>
+    <td><a href="[https://www.climatiq.io/data/explorer?search=electricity-energy_source_grid_mix&region=MY]">climatiq</a></td>
    <tr>
    <tr>
     <td>Data preprocessing</td>
@@ -247,7 +247,7 @@ The dashboard for energy consumption analysis requires the following resources:
   <tr>
     <th>Data sources</th>
     <td>
-     Use data from [climatiq data explorer]: [(https://www.climatiq.io/data/explorer?search=electricity-energy_source_grid_mix&region=MY)]
+     Use data from <a href="[https://www.climatiq.io/data/explorer?search=electricity-energy_source_grid_mix&region=MY]">climatiq data explorer</a>
    </td>
   </tr>
   <tr>

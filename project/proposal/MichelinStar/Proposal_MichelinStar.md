@@ -229,16 +229,16 @@ Here are some potential risks and limitations associated with the entertainment 
 - A report on the statistical properties and characteristics of the dataset will be created.
 
 **4. Machine Learning Model Development**
-- A machine learning model that can predict the presence of heart disease.
+- A machine learning model that can predict content performance and analyze audience engagement in the entertainment industry.
 
 **5. Model Evaluation**
-- An evaluation of the performance of the machine learning model.
+- An evaluation of the performance of the machine learning model with respect to its accuracy in predicting content performance and analyzing audience engagement.
 
 **6. Deployment**
-- A web application or API that can take in patient data and provide a heart disease prediction.
+- A web application or API that can take in media content and user data and provide insights into content performance, audience preferences, and market trends.
 
 **7. Maintenance & Monitoring**
-- After the system had been created, we need to maintain and monitor the system to ensure the system can ran smoothly without any error.
+- After the entertainment analytics platform has been created, it is crucial to maintain and monitor the system to ensure it runs smoothly without any errors and stays up-to-date with industry trends and data sources.
 
 
  **Milestones:**

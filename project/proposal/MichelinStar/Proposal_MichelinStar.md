@@ -188,7 +188,9 @@ MongoDB is compatible with:
   
 
 ## 📊 Risks and Limitations
+Here are some potential risks and limitations associated with the entertainment analytics platform project:
 
+**1. Technical Risk**
 `The data collection process cannot ensure the quality of the data as there may be problems with the data's quality. The quality of the outcomes may be impacted by the data's potential for being erroneous, inconsistent, or incomplete.
 
 `Data bias and ethical considerations:`  Entertainment analytics platforms can suffer from bias due to the use of historical data that may reflect past biases or systematic inequalities, which can lead to unfair outcomes and potential harm to users. Ethical considerations must be taken into account to ensure that the use of audience data is transparent, fair, and respectful of users' rights and privacy.

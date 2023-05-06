@@ -1,5 +1,5 @@
 <p align="center">
-<h1 align="center">Entertainment Analytics Platform</h1>
+<h1 align="center">The Movie Database  Analytics Platform</h1>
 <p align='center'>
   <img height='400px' width='400px' src='https://user-images.githubusercontent.com/120614501/236613696-7581817b-016e-42cf-867f-68b599944423.gif'/>
 </p>
@@ -76,7 +76,7 @@ This project will develop an entertainment analytics platform that will leverage
 <table>
 <tr>
   <td><b>1. Data acquisition</b></td>
-  <td>Collect the healthcare data from Kaggle and download them in <b>csv</b> format. </td>
+  <td>Collect the movie data from The Movie Database (TMDB) and download them in <b>csv</b> format. </td>
 </tr>
 <tr>
   <td><b>2. Data storage</b></td>

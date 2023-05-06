@@ -1,7 +1,7 @@
 <p align="center">
 <h1 align="center">Entertainment Analytics Platform</h1>
 <p align='center'>
-  <img height='400px' width='400px' src='https://user-images.githubusercontent.com/120614501/236612906-e00b689a-7265-4f5e-8a8a-a44d68fea301.gif'/>
+  <img height='400px' width='400px' src='https://user-images.githubusercontent.com/120614501/236613696-7581817b-016e-42cf-867f-68b599944423.gif'/>
 </p>
   
 ## 📝 Table of Contents

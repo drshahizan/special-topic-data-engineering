@@ -226,4 +226,36 @@ df_gs
 
 ![image](https://user-images.githubusercontent.com/120614405/236660193-1aba26b3-8437-41aa-adde-e069aa0ac5a6.png)
 
+---
+
+## Export Data into MongoDB.
+
+### Step 1: Install `pymongo` library.
+
+```
+!pip install pymongo
+from pymongo import MongoClient
+
+```
+
+### Step 2: Install `pyngrok` library.
+
+```
+!pip install pyngrok
+```
+
+### Step 3: Importing library and connecting to Database.
+
+```
+import pymongo
+
+client = pymongo.MongoClient("mongodb+srv://afifhazmiearsyad:abc123456789@noctua.bw9bvzx.mongodb.net/test")
+db = client['Noctua']
+collection = db['Google Scholar']
+
+data = df_gs.to_dict(orient='records')
+collection.insert_many(data)
+```
+
+For more complete MongoDB documentations, refer to [our steps of connecting to MongoDB](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/Noctua/Report_PrayerTimeAPI.md/#steps-by-step).
 

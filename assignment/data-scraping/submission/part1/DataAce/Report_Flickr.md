@@ -1,11 +1,13 @@
-Part 1: Web scraping multimedia content
-You must select the appropriate website to do web scraping multimedia content. For example, you can use the Flickr.com website. Flickr is a popular photo-sharing platform that contains a vast collection of images and videos that can be scraped for data analysis purposes. Here is a suggested outline for the assignment:
+<h1 align='center'>Web scraping multimedia content on Flickr.com </h1>
 
-1. Introduction
-Briefly introduce the topic of web scraping multimedia content and the importance of this type of data for research and analysis.
+## 1. Introduction
+Web scraping, also known as data scraping, web harvesting, or web data extraction, is the process of automatically extracting information or data from websites. This involves using a computer program or a script to access web pages, extract relevant data, and then save the data in a structured format such as a spreadsheet or a database. In this project, we will perform web scraping on Flickr.com which is an online photo and video hosting service that allows users to share and store their images and videos. Flickr has millions of multimedia content that are accessible to public and are useful for many purposes. This project mainly focuses on scraping images with its metadata by using Flickr API key and python language then storing the data into MongoDB. It is impotant to know the skills of web it is an efficient and time-saving method compared to manually collecting data. In addition, web scraping is a common tool used in machine learning to train algorithms on large amounts of data. Hence why we need to learn and upskill ourselves in data scraping.
 
-2. Web Scraping Flickr
-Explain why Flickr is a good source for multimedia content and provide a brief overview of the site.
+## 2. Web Scraping Flickr
+
+Flickr is an online photo and video sharing platform that was launched in 2004. It is a popular platform among photographers and other visual content creators who use it to showcase their work, connect with other photographers, and share their content with a wider audience. Flickr is a good source of multimedia content for several reasons. Firstly, it has a large community of users who upload and share their photos and videos on the platform, meaning that there is a wide variety of multimedia content available. Secondly, Flickr has a robust search engine that allows users to search for photos and videos based on keywords, tags, and other parameters, making it easy to find specific types of multimedia content. Additionally, many Flickr users license their photos and videos under Creative Commons licenses, allowing others to use, modify, and share the content under certain conditions. Finally, Flickr allows users to comment on and interact with other users' photos and videos, creating a sense of community and engagement. Overall, these features make Flickr a valuable source of multimedia content for a range of purposes, including marketing, education, and personal use.
+
+## 3. Process of web scraping
 Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
 Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
 3. Choosing a Library for Web Scraping

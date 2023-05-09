@@ -402,6 +402,39 @@ Perhaps the biggest challenge for us was finding out that not all picture shared
 
 ## 3. Choosing a Library for Web Scraping
 - Compare and contrast the available libraries for web scraping multimedia content, including Pillow and OpenCV.
+<div align='center'>
+<table>
+  <tr>
+   <th>Pillow</th>
+   <th>OpenCV</th>
+   <th>Beautiful Soup</th>
+  </tr>
+  
+   <tr>
+     <td>
+         <ul>
+             <li> Used for image manipulation, such as image loading and saving in various file formats, image resizing, cropping, etc.</li>
+             <li> Not design specifically for web scraping </li>
+         </ul>
+     </td>
+     <td>
+         <ul>
+             <li>Used for image and video processing</li>
+             <li>Provides tools for image and video manipulation, feature detection, object recognition, etc.</li>
+             <li>Not design specifically for web scraping.</li>
+         </ul>
+     </td>
+      <td>
+        <ul>
+             <li>Used for web scraping, including the extraction of text and multimedia content from HTML and XML documents.</li>
+             <liDoes not provide tools for image or video manipulation but it can be used to parse HTML documents and extract multimedia content URLs.</li>
+             <li>Documents can be downloaded using other libraries such as OpenCV or Pillow.</li>
+         </ul>
+       </td>
+   </tr>
+   
+</table>
+</div>
 - Explain the criteria used to choose the appropriate library for this project.
 - Justify the final choice and explain the advantages of the chosen library.
 

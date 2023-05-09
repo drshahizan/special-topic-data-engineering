@@ -1,4 +1,4 @@
-# Web scraping multimedia content using Flickr 
+<h1 align='center'>Part 1: Web scraping multimedia content using Flickr 📷☁️</h1>
 ## 1. Introduction
 
 Automated retrieval and aggregation of images, videos, audio, and other multimedia materials from websites is known as web scraping of multimedia content. This category of data can be highly advantageous in several domains, such as computer vision, natural language processing, marketing, and social media analysis, for research and examination purposes.

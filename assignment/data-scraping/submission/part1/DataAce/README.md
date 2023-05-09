@@ -1,6 +1,6 @@
 <h1 align='center'>Flickr Web Scraping</h1>
 <p align="center">
-  <img src="https://www.techspot.com/articles-info/2384/images/2021-12-26-image.png" height= '500px' title="Google News API">
+  <img src="https://www.techspot.com/articles-info/2384/images/2021-12-26-image.png" height= '300px' title="Google News API">
 </p>
 
 <h2 align='center'>Group Members</h2>

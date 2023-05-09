@@ -459,7 +459,41 @@ Discuss the benefits of using MongoDB for storing multimedia content data:
 
 Overall, MongoDB's scalability, flexibility, powerful querying and indexing capabilities, automatic sharding, high availability, rich API support, GridFS feature, and dynamic schema make it an excellent choice for storing multimedia content data.
 
-- Explain the best way to store the data in MongoDB, including the data structure and organization.
+From csv file, we can store the data in MongoDB where the data will be in JSON format. Here are the steps use in this assignment:
+
+1. Install mongo libraries.
+``` 
+!pip install pymongo
+```
+```
+!pip install pyngrok
+```
+
+2. Import pymongo and csv libraries.
+```
+import pymongo
+import csv
+from pymongo import MongoClient
+```
+
+3. Read csv file.
+```
+df = pd.read_csv('/content/sample_data/Clouds_Flickr_Merged.csv')
+```
+
+4. Get the mongodb client, determine the name of database and collection.
+```
+client = pymongo.MongoClient("mongodb+srv://user1:60XRzCr4mubxCPC5@cluster0.evngzba.mongodb.net/test")
+db = client['Flickr']
+collection = db['Clouds Image']
+```
+
+5. Insert the data into database and collection.
+```
+data = df.to_dict(orient='records')
+collection.insert_many(data)
+```
+
 - Provide examples of how the data can be queried and analyzed using MongoDB.
 
 ## 5. Conclusion

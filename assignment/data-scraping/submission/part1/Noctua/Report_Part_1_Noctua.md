@@ -495,8 +495,8 @@ collection.insert_many(data)
 ```
 
 6. Pictures below shows how data stored in MongoDB compass and atlas.
-   <img height='300px' src='Figures/MongoDBCompass.png'/>
-   <img height='300px' src='Figures/MongoDb.jpg'/>
+   <img height='300px' src='MongoDBFlickr.png'/>
+   <img height='300px' src='MongoDBAtlasFlickr.png'/>
    
 - Provide examples of how the data can be queried and analyzed using MongoDB.
 

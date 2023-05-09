@@ -32,6 +32,6 @@ Web scraping, also known as data scraping, web harvesting, or web data extractio
 
 ### 📂Content:
 * [💻Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/DataAce/CImage_scraping.ipynb)
-* [📎CSV file exported](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/DataAce/flickrdata.csv)
-* * [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/DataAce/Report_Flickr.md)
+* [📎CSV file](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/DataAce/flickrdata.csv)
+* [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/DataAce/Report_Flickr.md)
 

@@ -1,4 +1,4 @@
-<h1 align='center'>Part 1: Web scraping multimedia content using Flickr 📷☁️</h1>
+<h1 align='center'>Web scraping multimedia content using Flickr 📷☁️</h1>
 
 ## 1. Introduction
 
@@ -8,12 +8,13 @@ Automated retrieval and aggregation of images, videos, audio, and other multimed
 
 Flickr is a good source for multimedia content because it hosts a vast collection of user-generated images and videos, searchable by tags and keywords. It is an online photo and video sharing platform where users can upload, organize and share their multimedia content with the world. The site also features social networking tools, such as groups, comments, and photo communities, to facilitate interaction among users.
 
-In this assignment, we will extract image from Flickr by firstly identifying the trending picture tags and from the list, choose one tag that we wanted to scrape the data. Aside from Flickr API, we will scrap the data using Beautiful soup library. The main items that will be extract are its ID, information about the camera used, and the geographical area. After extracting all the information needed, it will then be exported into a CSV file with the title being the tag.The web scraping process are as follows:
+In this assignment, we will extract image from Flickr by firstly identifying the trending picture tags and from the list, choose one tag that we wanted to scrape the data. Aside from Flickr API, we will scrap the data using Beautiful soup library. The main items that will be extract are its ID, EXIF info, and the geographical information. After extracting all the information needed, it will then be exported into a CSV file with the title being the tag.The web scraping process are as follows:
 
 1. Install Flickr API.
 ```
 pip install flickrapi
 ```
+
 2. Import suitable libraries.
 ```
 import requests
@@ -24,6 +25,7 @@ import time
 import os
 import numpy as np
 ```
+
 3. Create usable functions.
 ```
 #create folder path
@@ -38,7 +40,8 @@ def mkdir(root,folder):
         pass
     return path
   ```
-4. Find top 10 tags of trending picture in Flickr website.
+  
+4. Find top 10 tags of trending picture in Flickr website. We decide to get the data about from 'Clouds' tag.
 ```
 #get tags
 def get_tags(url_base):
@@ -59,6 +62,7 @@ def get_tags(url_base):
     time.sleep(0.5)
     return tag_lst
 ```
+
 5. Call its API and function above to get a list of tags.
 ```
 url_base = 'https://www.flickr.com'
@@ -68,6 +72,7 @@ root = '/content/sample_data'
 min_date = '2022-01-01'
 tag_lst = get_tags(url_base)
 ```
+
 6. Define functions that will access the photo ID.
 ```
 #Get photo id
@@ -119,6 +124,8 @@ def get_pic(tag,min_date,api_key,api_secret):
     dline(1)
     return
   ```
+  
+7. Call function above to access the list of cloud's photo ID.
   ```
   for tag in tag_lst:
     path = mkdir(root,'IDs_Views')
@@ -137,6 +144,111 @@ def get_pic(tag,min_date,api_key,api_secret):
     
 print('FINISH !!!')
 ```
+
+8. Define function to acces EXIF info.
+```
+#Get Exif info
+def get_exif(df_pic,file_name,api_key,api_secret):
+    st = time.process_time()
+    file_name = file_name.replace('id','exif')
+    df_info = pd.DataFrame(columns=['pic_id','Camera_Make','Camera_Model',
+                                    'Exposure','Aperture','Exposure_Program',
+                                    'ISO','Metering_Mode','Flash','Focal_Length',
+                                    'Color_Space','Lens_Model'])
+    df_info.to_csv(file_name,sep=',',index=None)
+    total = 0
+    amount = 0
+    drop_nan = 0
+        
+    for i in range(len(df_pic.index)):
+            
+        if amount < 100000:
+            try:
+                flickr=flickrapi.FlickrAPI(api_key,api_secret,format='parsed-json')
+                exif = flickr.photos.getExif(photo_id=df_pic['pic_id'].iloc[i])
+                
+                for info in exif['photo']['exif']:
+                    if info['label'] == 'Make':
+                        df_info['Camera_Make'] = pd.Series(info['raw']['_content'])
+                    elif info['label'] == 'Model':
+                        df_info['Camera_Model'] = pd.Series(info['raw']['_content'])
+                    elif info['label'] == 'Exposure':
+                        if '/' in info['raw']['_content']:
+                            operator = info['raw']['_content'].strip().split('/')
+                            df_info['Exposure'] = pd.Series(float(operator[0])/float(operator[1]))
+                        else:
+                            df_info['Exposure'] = pd.Series(float(info['raw']['_content'].strip()))
+                    elif info['label'] == 'Aperture':
+                        df_info['Aperture'] = pd.Series(float(info['raw']['_content'].strip()))
+                    elif info['label'] == 'Exposure Program':
+                        df_info['Exposure_Program'] = pd.Series(info['raw']['_content'])
+                    elif info['label'] == 'ISO Speed':
+                        df_info['ISO'] = pd.Series(float(info['raw']['_content'].strip()))
+                    elif info['label'] == 'Metering Mode':
+                        df_info['Metering_Mode'] = pd.Series(info['raw']['_content'])
+                    elif info['label'] == 'Flash':
+                        df_info['Flash'] = pd.Series(info['raw']['_content'])
+                    elif info['label'] == 'Focal Length':
+                        df_info['Focal_Length'] = pd.Series(float(info['raw']['_content'].replace('mm','').strip()))
+                    elif info['label'] == 'Color Space':
+                        df_info['Color_Space'] = pd.Series(info['raw']['_content'])
+                    elif info['label'] == 'Lens Model':
+                        df_info['Lens_Model'] = pd.Series(info['raw']['_content'])
+                
+                df_info['pic_id'] = df_pic['pic_id'].iloc[i]
+                df_info.to_csv(file_name,sep=',',index=None,header=None,mode='a')
+                amount += 1
+            except Exception as e:
+                drop_nan += 1
+                pass
+            
+        else:
+            break
+        total += 1
+        st_info = round(time.process_time()-st,2)
+        print('\rGETTING INFO: {0} , DROP_NAN: {1} , TOTAL: {2} , TIME CONSUMED: {3}s'.format(amount,drop_nan,total,st_info),end='',flush=True)
+        #time.sleep(1)
+    dline(2)
+    print('FILE: %s SAVED !' %file_name)
+    print('SIZE: %i' %amount)
+    
+    return
+```
+
+9. Access its API and call function above to access EXIF info based on ID.
+```
+api_key = '2b74061345250898719cdc9cf9aae8f0'
+api_secret = '0825a78a0bd5865e'
+root = '/content/sample_data'
+```
+```
+path = mkdir(root,'IDs_Views')
+csv_lst = list(os.walk(path))[0][2]
+path = mkdir(root,'Exif')
+for id_csv in csv_lst:
+    
+    file_path = path + '/' + id_csv.replace('id','exif')
+    exist = os.path.exists(file_path)
+    if exist:
+        print('FILE: %s ALREADY ABSORBED !' %id_csv)
+        pass
+    else:
+        print('CRAWLING ON : %s...' %id_csv)
+        dline(0)
+        
+        mkdir(root,'IDs_Views')
+        df_pic = pd.read_csv(id_csv,sep=',',engine='python')
+        df_pic.columns = ['pic_id','Views','tag']
+        df_pic = df_pic.drop_duplicates().sort_values('Views',ascending=False).reset_index()
+        del df_pic['index']
+        
+        path = mkdir(root,'Exif')
+        get_exif(df_pic,id_csv,api_key,api_secret)
+        dline(1)
+print('FINISH !!!')
+```
+
+10. 
 Perhaps the biggest challenge for us was finding out that not all picture shared all the information we needed as the CSV file contains some null values which we believe could not be avoided as the publisher themselves did not feel obliged to share all the information we needed. The CSV file is 19 KB in size which can be considered small as it only contains 120 rows of data.
 
 ## 3. Choosing a Library for Web Scraping

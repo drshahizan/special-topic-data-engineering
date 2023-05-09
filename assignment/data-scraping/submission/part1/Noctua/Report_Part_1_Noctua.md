@@ -435,8 +435,8 @@ Perhaps the biggest challenge for us was finding out that not all picture shared
    
 </table>
 </div>
-- Explain the criteria used to choose the appropriate library for this project.
-- Justify the final choice and explain the advantages of the chosen library.
+
+We have tried different type of libraries but since we wanted to extract data from Flickr website, we think that Beautiful Soup is the best. Athough we are not able to extract the picture, but we get to extract a detailed pictures information. We believe that Beautiful Soups is the one of the best as it is easy to use, abe to find and extract specific HTML tags and attributes, can handle different types of data formats and it has a large community of users and developers.
 
 ## 4. Storing Data in MongoDB
 

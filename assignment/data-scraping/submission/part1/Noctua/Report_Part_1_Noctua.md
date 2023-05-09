@@ -39,7 +39,7 @@ def mkdir(root,folder):
         os.chdir(path)
         pass
     return path
-  ```
+```
  ```
  def mkdir(root,folder=''):
     path = root+'/'+folder
@@ -51,7 +51,7 @@ def mkdir(root,folder):
         os.chdir(path)
         pass
     return path
-    ```
+```
   
 4. Find top 10 tags of trending picture in Flickr website. We decide to get the data about from 'Clouds' tag.
 ```

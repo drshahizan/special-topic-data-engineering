@@ -13,9 +13,9 @@ Flickr is an online photo and video sharing platform that was launched in 2004. 
 ## Process of web scraping
 Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
 Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
---
 
 Web Scraping Process
+--
  1. Install the required libraries.
 In this project, we uses python and need to install FlickrAPI. The metadata of the images displayed on Flickr are confidential are not included in the inspect. Hence, the process of web scraping require API key from flickr to extract those data.
  2. Get Flickr API key

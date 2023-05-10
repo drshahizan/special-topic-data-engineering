@@ -10,17 +10,17 @@ Web scraping, also known as data scraping, web harvesting, or web data extractio
 
 Flickr is an online photo and video sharing platform that was launched in 2004. It is a popular platform among photographers and other visual content creators who use it to showcase their work, connect with other photographers, and share their content with a wider audience. Flickr is a good source of multimedia content for several reasons. Firstly, it has a large community of users who upload and share their photos and videos on the platform, meaning that there is a wide variety of multimedia content available. Secondly, Flickr has a robust search engine that allows users to search for photos and videos based on keywords, tags, and other parameters, making it easy to find specific types of multimedia content. Additionally, many Flickr users license their photos and videos under Creative Commons licenses, allowing others to use, modify, and share the content under certain conditions. Finally, Flickr allows users to comment on and interact with other users' photos and videos, creating a sense of community and engagement. Overall, these features make Flickr a valuable source of multimedia content for a range of purposes, including marketing, education, and personal use.
 
-## 3. Process of web scraping
+## Process of web scraping
 Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
 Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
 Web Scraping Process
-### i. Install the required libraries.
+## 1. Install the required libraries.
 In this project, we uses python and need to install FlickrAPI. The metadata of the images displayed on Flickr are confidential are not included in the inspect. Hence, the process of web scraping require API key from flickr to extract those data.
-### ii. Get Flickr API key
+## 2. Get Flickr API key
 Firstly, you need to sign up on the Flickr developer portal and navigate to keys section. Then, click on the create App button and provide the details. After that, review and agree to Flickr terms and complete the process. Lastly, Flickr will provide with the API key.
-### iii. Coding
+### 3. Coding
 Coding is the next part where we need to code on how to scrap and retrieve the data. Since most of the metadata are private, API key is used in the coding. We uses python language and code based on our understanding and research made from other web scraping projects. Our sources are from youtube, google, chatGPT and stack overflow. After multiple try and errors, we managed to get the metadata of images but not as much. We get the title, owner, length and witdth of the image, source and URL of the image. Lastly, we export the data into csv file.
-### iv. Upload to MongoDB 
+### 4. Upload to MongoDB 
 Lastly, upload the csv file generated to MongoDB. There are two ways which are using Pymongo library then code on the text editor or open MongoDB and upload csv files. For this project, we chose to upload files directly into MongoDB.
 
 ## 3. Choosing a Library for Web Scraping

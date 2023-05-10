@@ -1,4 +1,9 @@
-<h1 align="center"> Part 1: Web scraping multimedia content Flickr <a href="#" target="_blank" rel="noreferrer">  </a>   <br>
+<div align="center">
+  <img width=500px height=300px src="https://user-images.githubusercontent.com/99240177/232822671-98a60054-f4dc-4f84-a7b8-6ed4473e3038.png"/>
+</div>
+
+<br>
+<h1 align="center"> Part 1: Web Scraping Car Multimedia Content Flickr <a href="#" target="_blank" rel="noreferrer">  </a>   <br> 
 </h1>
 <h2 align="center">
   Group Name

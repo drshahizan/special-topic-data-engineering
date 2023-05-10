@@ -1,4 +1,7 @@
 <h1 align='center'>Web scraping multimedia content on Flickr.com </h1>
+<p align="center">
+  <img src="https://www.techspot.com/articles-info/2384/images/2021-12-26-image.png" height= '300px' title="Google News API">
+</p>
 
 ## 1. Introduction
 Web scraping, also known as data scraping, web harvesting, or web data extraction, is the process of automatically extracting information or data from websites. This involves using a computer program or a script to access web pages, extract relevant data, and then save the data in a structured format such as a spreadsheet or a database. In this project, we will perform web scraping on Flickr.com which is an online photo and video hosting service that allows users to share and store their images and videos. Flickr has millions of multimedia content that are accessible to public and are useful for many purposes. This project mainly focuses on scraping images with its metadata by using Flickr API key and python language then storing the data into MongoDB. It is impotant to know the skills of web it is an efficient and time-saving method compared to manually collecting data. In addition, web scraping is a common tool used in machine learning to train algorithms on large amounts of data. Hence why we need to learn and upskill ourselves in data scraping.

@@ -13,14 +13,16 @@ Flickr is an online photo and video sharing platform that was launched in 2004. 
 ## Process of web scraping
 Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
 Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
+--
+
 Web Scraping Process
-## 1. Install the required libraries.
+ 1. Install the required libraries.
 In this project, we uses python and need to install FlickrAPI. The metadata of the images displayed on Flickr are confidential are not included in the inspect. Hence, the process of web scraping require API key from flickr to extract those data.
-## 2. Get Flickr API key
+ 2. Get Flickr API key
 Firstly, you need to sign up on the Flickr developer portal and navigate to keys section. Then, click on the create App button and provide the details. After that, review and agree to Flickr terms and complete the process. Lastly, Flickr will provide with the API key.
-### 3. Coding
+ 3. Coding
 Coding is the next part where we need to code on how to scrap and retrieve the data. Since most of the metadata are private, API key is used in the coding. We uses python language and code based on our understanding and research made from other web scraping projects. Our sources are from youtube, google, chatGPT and stack overflow. After multiple try and errors, we managed to get the metadata of images but not as much. We get the title, owner, length and witdth of the image, source and URL of the image. Lastly, we export the data into csv file.
-### 4. Upload to MongoDB 
+ 4. Upload to MongoDB 
 Lastly, upload the csv file generated to MongoDB. There are two ways which are using Pymongo library then code on the text editor or open MongoDB and upload csv files. For this project, we chose to upload files directly into MongoDB.
 
 ## 3. Choosing a Library for Web Scraping

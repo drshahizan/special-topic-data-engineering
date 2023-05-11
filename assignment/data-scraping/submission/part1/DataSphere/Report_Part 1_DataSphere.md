@@ -2,9 +2,29 @@
 Web scraping multimedia content relating to cars from Flickr may give a lot of information for study and analysis in sectors such as marketing, advertising, design and automotive engineering. Flickr is a prominent photo-sharing network where users may publish and share their images, and it has a large collection of multimedia information relating to vehicles. Web scraping this data can reveal insights into customer preferences, design trends, and user-generated material connected to cars. This data may also be utilised to train machine learning models for picture identification and classification tasks. As a result, online scraping multimedia material linked to vehicles from Flickr is an important activity for researchers and analysts in various sectors.
 
 ## 2. Web Scraping Flickr
-- Explain why Flickr is a good source for multimedia content and provide a brief overview of the site.
-- Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
-- Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
+
+<h4> Web Scraping Process </h4>
+
+1. Accessing Google Drive from Google Colab
+```ruby
+
+from google.colab import drive
+drive.mount('/content/drive')
+```
+2. Install Flickr API.
+```ruby
+
+!pip install FlickrAPI
+```
+3. Import all neccesary libraries
+```ruby
+
+import requests
+import json
+import csv
+import cv2
+import numpy as np
+```
 
 ## 3. Choosing a Library for Web Scraping
 - Compare and contrast the available libraries for web scraping multimedia content, including Pillow and OpenCV.

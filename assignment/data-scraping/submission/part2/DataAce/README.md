@@ -1,5 +1,8 @@
 
-<h2 align='center'>Web Scraping - Google Scholar Text Context</h2>
+<h2 align='center'>Web Scraping - UTM User Profiles in Google Scholar</h2>
+<p align="center">
+  <img src="https://logowik.com/content/uploads/images/google-scholar4372.jpg" height= '300px' title="Google Scholar">
+</p>
 <h3 align='center'>Group Members</h3>
 <table align='center'>
   <tr>

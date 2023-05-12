@@ -117,12 +117,16 @@ collection.insert_many(metadata_list)
   2. **Scalability**- MongoDB is designed to scale horizontally, which means the data is distribute across multiple servers or clusters. This scalability is critical for handling large amounts of multimedia content, which can quickly grow in size. You can achieve high throughput and handle concurrent read and write operations efficiently by distributing the data across multiple servers.
   3. **Binary data support**- MongoDB has excellent support for binary data storage, which is essential when handling multimedia content like images and videos. You can store binary data directly within a document, eliminating the need for separate storage systems or complex entity relationships.
   4. **High-performance queries**- MongoDB has powerful querying capabilities, including indexing and aggregation support. These features allow for the efficient retrieval and manipulation of multimedia content data based on criteria such as metadata, tags, or content properties. You can optimise query performance for multimedia-specific requirements by using appropriate indexing strategies. 
+  
 - The best way to store the data in MongoDB, including the data structure and organization:
   <p>It is essential to consider the data structure and organisation when storing data in MongoDB in order to optimise performance and facilitate efficient querying. There were several ways of best practices for storing multimedia content in MongoDB:</p>
-  1. **Design schema based on specific needs**- Design your data model by considering the data access patterns, relationships between entities, and query requirements.
+  
+  1. **Use GridFS**- GridFS splits the file into smaller chunks and stores them as individual documents. It includes features that allow for the efficient storage and retrieval of large files. It is recommended for storing large multimedia files that exceed the 16 MB size limit.
   2. **Denormalize and embedded data models**- Data models that have been denormalized allow you to embed related data within a single document. Embedding can improve query performance and make data access easier, particularly for frequently accessed related data.
   3. **Used appropriate indexes**- Create indexes on the fields that are frequently used in queries or that need to be sorted. Indexes can reduce query execution time significantly by allowing MongoDB to quickly locate and retrieve relevant documents. 
-  4. **Sharding data**- Consider sharding your data across multiple MongoDB instances or clusters to enable horizontal scaling and improved performance if you have large datasets or high write/read throughput requirements.
+  4. **Store metadata separately**- Create a separate collection to store metadata related to multimedia content to allow for efficient querying and management of the multimedia files.
+
+  However, when designing data structure and organization is based on specific application requirements, considering factors such as the size of multimedia files, expected access patterns, and performance considerations.
   
 - The examples of how the data can be queried and analyzed using MongoDB.
 

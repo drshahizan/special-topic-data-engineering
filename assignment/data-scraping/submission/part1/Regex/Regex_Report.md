@@ -123,8 +123,7 @@ collection.insert_many(metadata_list)
 - The examples of how the data can be queried and analyzed using MongoDB.
 
 <h3> 5. Conclusion</h3>
+<p align=justify>To summarize, the purpose of this assignment is to scrape image content from Flickr and store the extracted data in a database. Json, OpenCV, and Python are the tools and libraries used in this web scraping. It is possible to scrape a large number of images and their metadata through web scraping. This is due to the fact that web scraping multimedia content can benefit data analysis by storing data in MongoDB. MongoDB is an excellent choice for storing multimedia content data due to its flexibility, scalability, binary data support and high-performance queries. Following that, future research or analysis could identify a trend in frequent camera brand used in photography, model camera used, and popular photographer using the data set obtained from Flickr. </p>
 
-- Summarize the main points of the assignment and restate the importance of web scraping multimedia content for data analysis.
-- Offer suggestions for future research or analysis using the data set obtained from Flickr.
 
 

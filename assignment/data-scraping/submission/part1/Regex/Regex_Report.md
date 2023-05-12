@@ -118,8 +118,12 @@ collection.insert_many(metadata_list)
   3. **Binary data support**- MongoDB has excellent support for binary data storage, which is essential when handling multimedia content like images and videos. You can store binary data directly within a document, eliminating the need for separate storage systems or complex entity relationships.
   4. **High-performance queries**- MongoDB has powerful querying capabilities, including indexing and aggregation support. These features allow for the efficient retrieval and manipulation of multimedia content data based on criteria such as metadata, tags, or content properties. You can optimise query performance for multimedia-specific requirements by using appropriate indexing strategies. 
 - The best way to store the data in MongoDB, including the data structure and organization:
+  <p>It is essential to consider the data structure and organisation when storing data in MongoDB in order to optimise performance and facilitate efficient querying. There were several ways of best practices for storing multimedia content in MongoDB:</p>
+  1. **Design schema based on specific needs**- Design your data model by considering the data access patterns, relationships between entities, and query requirements.
+  2. **Denormalize and embedded data models**- Data models that have been denormalized allow you to embed related data within a single document. Embedding can improve query performance and make data access easier, particularly for frequently accessed related data.
+  3. **Used appropriate indexes**- Create indexes on the fields that are frequently used in queries or that need to be sorted. Indexes can reduce query execution time significantly by allowing MongoDB to quickly locate and retrieve relevant documents. 
+  4. **Sharding data**- Consider sharding your data across multiple MongoDB instances or clusters to enable horizontal scaling and improved performance if you have large datasets or high write/read throughput requirements.
   
-   It is essential to consider the data structure and organisation when storing data in MongoDB in order to optimise performance and facilitate efficient querying.
 - The examples of how the data can be queried and analyzed using MongoDB.
 
 <h3> 5. Conclusion</h3>

@@ -38,7 +38,7 @@
 
 Web scraping has become an increasingly popular technique for extracting useful information from the internet. With the rise of big data and the need for data-driven decision making, web scraping has become an essential tool for many businesses and organizations. One area where web scraping has proven particularly useful is in academic research. Google Scholar is a powerful resource for academics, but the sheer amount of data can make it difficult to extract the information you need.
 
-In this context, web scraping can be used to automatically extract data from Google Scholar and other online sources. Therefore, for this project we will explore the topic of web scraping Google Scholar for Universiti Teknologi Malaysia. 
+In this context, web scraping can be used to automatically extract data from Google Scholar. Therefore, for this project we will explore the topic of web scraping Google Scholar for Universiti Teknologi Malaysia user profiles from search result.
 
 ## Choosing library - BeautifulSoup
 
@@ -49,6 +49,34 @@ Beautiful Soup is a popular web scraping library that can be used to extract dat
 **Simplified parsing:** Beautiful Soup simplifies the process of parsing HTML and XML documents, making it easy to extract the data you need without getting bogged down in the details.
 
 **Robust error handling:** Beautiful Soup can handle poorly formatted HTML and XML documents and can gracefully recover from errors, making it more reliable for web scraping projects.
+
+## Result
+
+The webpage that we scraped is the search result from 'Universiti Teknologi Malaysia' user profiles. 
+
+<img src="webpage.jpg">
+
+The metadata that we successfully scrape are:
+- User Name
+- User Description
+- User Verified Email
+- User's Publication Being Cited Frequency
+- User Expertise
+- User Profile URL
+
+The full result is saved into a CSV file which can be obtained from <b>'ds_gs.csv'</b>
+
+## Potential Analysis
+
+With the scraped data from Google Scholar user profiles, we can perform various analyses to gain insights and understand the academic landscape of our university.
+
+1. Publication Analysis: Analyze the frequency of citations for each user's publication. Identify the most highly cited publications and authors within UTM. This analysis can help identify influential researchers and their areas of expertise.
+
+2. Expertise Mapping: Analyze the user expertise information to identify research areas and domains where UTM has significant contributions. This analysis can provide insights into the strengths and focus areas of UTM's research community.
+
+3. Profile Comparison: Compare user profiles based on various factors such as the number of publications, citations, and expertise. Identify top researchers or rising stars within UTM based on these metrics.
+
+4. Network Analysis: Construct a network of researchers based on co-authorship or common research interests. Analyze the network to identify influential individuals, research clusters, or potential collaboration opportunities within UTM.
 
 ## Conclusion
 

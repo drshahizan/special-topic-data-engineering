@@ -100,6 +100,25 @@ Proper evaluation of feature engineering techniques is critical to ensure that t
 
 By understanding how to properly evaluate feature engineering techniques and machine learning models, data scientists can improve the accuracy and robustness of their models, leading to better performance and more informed decisions.
 
+## Advantages and Disadvantages of Feature Engineering
+
+### Advantages
+
+| Advantage | Description |
+| --- | --- |
+| Improved model performance | Improve the accuracy and performance of machine learning models. By selecting and transforming the most relevant features, the model can better capture patterns in the data, resulting in better predictions. |
+| Better interpretation | Makes the model more interpretable by creating features that are based on domain-specific knowledge. Hence, it is easier to understand how the model is making predictions and identify the most important factors. |
+| More efficient modeling | Help reduce the complexity of the model, making it easier and faster to train. |
+
+### Disadvantages
+
+| Disadvantage | Description |
+| --- | --- |
+| Time-consuming | Requires a lot of trial and error and can be difficult to know which features are most relevant and how to transform them in the most effective way. |
+| Risk of overfitting | Occurs when the model is too closely tuned to the training data and is unable to generalize to new data. |
+| Expertise required | Effective feature engineering often requires domain-specific expertise and knowledge. |
+| Increased complexity | Feature engineering can also increase the complexity of the model in some cases, making it more difficult to interpret and understand. This can be a disadvantage if interpretability is a key consideration. |
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

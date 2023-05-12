@@ -105,10 +105,77 @@ collection.insert_many(metadata_list)
 <img width='500' src="https://github.com/drshahizan/special-topic-data-engineering/blob/6973121368be8f043f9d6bb662ae3e78617e064b/assignment/data-scraping/submission/part1/Regex/MongoDB.png" alt='Screenshot of database after data is added'>
 
 <h3> 3. Choosing a Library for Web Scraping</h3>
+<p align=justify> There are several libraries available for web scraping multimedia content. To make a comparison, three libraries will be discussed which are request, OpenCV, and Pillow.
+ Each  libraries have their advantages and disadvantages in performing multimedia content web scraping. </p>
+ 
+ <table>
+    <tr>
+        <th>Library</th>
+        <th>Purpose</th>
+        <th>Advantages</th>
+        <th>Disadvantages</th>
+    </tr>
+    <tr>
+        <td>Request</td>
+        <td align=justify>
+           A Python HTTP request library that is commonly used to retrieve web content, including multimedia files, from URLs. It makes it easier to send HTTP requests, handle responses,
+            and retrieve multimedia content by directly accessing URLs. It includes methods for downloading files and dealing with various types of data, such as images,
+            videos, and other multimedia formats.
+        </td>
+        <td>
+            <li>Suitable for directly accessing the URLs of web content, including multimedia files.</li>
+            <li>Easy to integrate into web scraping workflows.</li>
+            <li>Simple and intuitive API for making HTTP requests and handling responses.</li>        
+        </td>
+        <td>
+            <li>Requires additional libraries or tools for advanced multimedia operations.</li>
+            <li>Limited support for complex multimedia formats or specialized operations.</li>
+            <li>Not designed specifically for multimedia manipulation or analysis.</li>        
+        </td>
+    </tr>
+    <tr>
+        <td>OpenCV</td>
+        <td align=justify>
+           Provides advanced multimedia processing capabilities, including the ability to load, manipulate, and analyse images and videos, as well as perform tasks such as resizing, cropping, filtering, object detection, and various computer vision algorithms.
+        </td>
+        <td>
+            <li>Supports a wide range of multimedia formats and provides advanced algorithms for image manipulation and analysis.</li>
+            <li>Can be used for both web scraping and subsequent multimedia processing tasks.</li>
+            <li>Efficient and optimized for performance.</li>        
+        </td>
+        <td>
+            <li>Larger library size.</li>
+            <li>Focuses primarily on computer vision tasks, so may have additional functionality beyond what is needed for basic web scraping.</li>
+            <li>Might not be suitable for projects that require lightweight or minimalistic approaches.</li>        
+        </td>
+    </tr>
+    <tr>
+        <td>Pillow</td>
+        <td align=justify>
+            A well-known Python library for image processing and manipulation that provides a user-friendly interface for opening, manipulating, and saving various image file formats. It provides a wide range of image processing features and supports basic image operations such as metadata extraction, colour space conversion, and transparency handling.
+        </td>
+        <td>
+            <li>Supports various image file formats.</li>
+            <li>Easy to integrate into web scraping workflows.</li>
+            <li>Suitable for basic image preprocessing and analysis tasks.</li>        
+        </td>
+        <td>
+            <li>Limited support for complex image operations or specialized tasks.</li>
+            <li>Require additional libraries or tools for advanced image analysis or manipulation.</li>
+            <li>Not specifically designed for web scraping, it lacks built-in features for retrieving and handling web content.</li>        
+        </td>
+    </tr>
+</table>
 
-- Compare and contrast the available libraries for web scraping multimedia content, including Pillow and OpenCV.
-- Explain the criteria used to choose the appropriate library for this project.
-- Justify the final choice and explain the advantages of the chosen library.
+<P>There will be several criteria used to select the most suitable library for this assignment:</P>
+
+1. **Functionality**- Understand the library's capabilities and features to ensure that it supports the specific tasks that must be performed, such as retrieving, processing, and manipulating multimedia content.
+2. **Ease of use**- Select a library that is compatible with the programmer's abilities. The simplicity and straightforward solution will undoubtedly help programmers save time and effort during development.
+3. **Compatibility**- Check whether the library is compatible with the web technologies being used, such as its ability to handle different file formats, work with JavaScript-driven websites, or integrate well with other libraries. 
+4. **Performance**- The chosen library should be efficient, fast, and resource efficient. 
+5. **Flexibility**- The library should be able to support various web page and file format types. 
+
+<p align=justify>Based on these criteria, the libraries that best align with the requirements for web scraping multimedia content assignment are Request and OpenCV. These libraries were chosen for this assignment because their features are suitable where requests are advantageous for simple web content retrieval, whereas OpenCV provides advanced multimedia processing capabilities.</p>  
 
 <h3> 4. Storing Data in MongoDB</h3>
 
@@ -127,11 +194,6 @@ collection.insert_many(metadata_list)
   4. **Store metadata separately**- Create a separate collection to store metadata related to multimedia content to allow for efficient querying and management of the multimedia files.
 
   However, when designing data structure and organization is based on specific application requirements, considering factors such as the size of multimedia files, expected access patterns, and performance considerations.
-  
-- The examples of how the data can be queried and analyzed using MongoDB.
 
 <h3> 5. Conclusion</h3>
-<p align=justify>To summarize, the purpose of this assignment is to scrape image content from Flickr and store the extracted data in a database. Json, OpenCV, and Python are the tools and libraries used in this web scraping. It is possible to scrape a large number of images and their metadata through web scraping. This is due to the fact that web scraping multimedia content can benefit data analysis by storing data in MongoDB. MongoDB is an excellent choice for storing multimedia content data due to its flexibility, scalability, binary data support and high-performance queries. Following that, future research or analysis could identify a trend in frequent camera brand used in photography, model camera used, and popular photographer using the data set obtained from Flickr. </p>
-
-
-
+<p align=justify>To summarize, the purpose of this assignment is to scrape image content from Flickr and store the extracted data in a database. Json, OpenCV, and Python are the tools and libraries used in this web scraping. It is possible to scrape a large number of images and their metadata through web scraping. This is due to the fact that web scraping multimedia content can benefit data analysis by storing data in MongoDB. MongoDB is an excellent choice for storing multimedia content data due to its flexibility, scalability, binary data support and high-performance queries. Furthermore, the best way to design data structure and organisation when storing data is to use GridFS, denormalize and embed data models, use appropriate indexes, and store metadata separately. Its purpose is to ensure high levels of optimised performance and efficient querying. Following that, future research or analysis could identify a trend in frequent camera brand used in photography, model camera used, and popular photographer using the data set obtained from Flickr. </p>

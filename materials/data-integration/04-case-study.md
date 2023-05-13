@@ -7,45 +7,23 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Flickr
-Flickr is a popular online photo-sharing platform and social networking site that allows users to upload, organize, and share their photos and videos. It was created in 2004 by Ludicorp, a Canadian company, and acquired by Yahoo! in 2005. In 2018, Flickr was acquired by SmugMug, a photo-sharing and image hosting service.
+# Case studies of successful data integration
+Case studies of successful data integration in data science refer to the documented examples of organizations or companies that have successfully implemented data integration solutions to address their business needs or challenges. These case studies often highlight the benefits and outcomes achieved from data integration, including improved data quality, better decision-making, increased operational efficiency, and more. They can serve as valuable references and sources of inspiration for other organizations looking to implement data integration solutions. Here are some examples of such case studies:
 
-Flickr allows users to upload and share their photos and videos with others, either publicly or privately. Users can organize their photos into albums, add tags to make them searchable, and explore and discover other users' photos through the platform's social features, including groups and communities.
+| No. | Company | Case Study | Solutions |
+| --- | --- | --- | --- |
+| 1 | Uber | Integration of rider and driver data | Uber integrated rider and driver data from over 450 cities worldwide to provide better ride experiences. The solution involved using Apache Kafka and Apache Cassandra to handle large amounts of data in real-time. |
+| 2 | Airbnb | Integration of booking and user data | Airbnb integrated booking and user data from multiple sources to provide personalized recommendations to users. The solution involved using Apache Hadoop and Apache Spark for data processing and analysis. |
+| 3 | Netflix | Integration of user activity data | Netflix integrated user activity data from multiple sources to improve its recommendation system. The solution involved using Apache Kafka and Apache Flink to handle real-time data streams. |
+| 4 | Amazon | Integration of customer data | Amazon integrated customer data from multiple sources to provide a seamless shopping experience. The solution involved using Amazon Web Services (AWS) for data storage, processing, and analysis. |
+| 5 | Coca-Cola | Integration of supply chain data | Coca-Cola integrated supply chain data from multiple sources to optimize its distribution processes. The solution involved using SAP HANA for data processing and analysis. |
+| 6 | Ford | Integration of manufacturing data | Ford integrated manufacturing data from multiple sources to improve its production processes. The solution involved using Microsoft Azure Data Factory for data integration and Azure Synapse Analytics for data processing and analysis. |
+| 7 | Pfizer | Integration of clinical trial data | Pfizer integrated clinical trial data from multiple sources to accelerate drug development. The solution involved using SAS Data Integration Studio for data integration and SAS Analytics for data processing and analysis. |
+| 8 | IBM | Integration of financial data | IBM integrated financial data from multiple sources to improve its risk management processes. The solution involved using IBM InfoSphere Information Server for data integration and IBM SPSS Modeler for data processing and analysis. |
+| 9 | Procter & Gamble | Integration of sales and marketing data | Procter & Gamble integrated sales and marketing data from multiple sources to improve its product performance. The solution involved using Microsoft Power BI for data visualization and analysis. |
+| 10 | The New York Times | Integration of news data | The New York Times integrated news data from multiple sources to personalize its news recommendations. The solution involved using Apache Kafka and Apache Spark for data processing and analysis. |
 
-One of the key features of Flickr is its Creative Commons licensing, which allows users to share their photos and videos with others while retaining control over how they are used. This has made Flickr a popular resource for bloggers, journalists, and others who need high-quality images for their work.
-
-Flickr offers both free and paid accounts, with the paid accounts offering additional features such as unlimited storage, ad-free browsing, and advanced statistics. The platform has also released mobile apps for iOS and Android devices, allowing users to upload and share photos on the go.
-
-Flickr remains a popular and influential platform for photographers and photo enthusiasts, offering a robust set of features for sharing and discovering high-quality images.
-
-## Metadata associated with an image in Flickr
-1. **Title**: The name or title of the image that is given by the user
-2. **Description**: A brief description of the image that provides context or information about the photo
-3. **Tags**: Keywords or phrases that describe the image and help in searching and organizing photos
-4. **Camera Make**: The brand of the camera used to capture the image
-5. **Camera Model**: The specific model of the camera used to capture the image
-6. **Lens**: The type of lens used to capture the image
-7. **Aperture**: The aperture setting used to capture the image
-8. **Shutter Speed**: The shutter speed setting used to capture the image
-9. **ISO**: The ISO setting used to capture the image
-10. **Focal Length**: The focal length of the lens used to capture the image
-11. **Date Taken**: The date and time when the image was taken
-12. **Location**: The geographic location where the image was taken, if available
-13. **License**: The type of Creative Commons license or copyright status of the image, if specified by the user
-14. **Views**: The number of times the image has been viewed on Flickr
-15. **Favorites**: The number of times the image has been marked as a favorite by other users on Flickr.
-
-## Extract data
-To extract images and metadata related to cats from Flickr, you can follow these steps:
-
-1. Go to the Flickr website: https://www.flickr.com/
-2. In the search bar, enter the keyword "cat" and click on the search button.
-3. On the search results page, click on the "Advanced search" button to the right of the search bar.
-4. In the advanced search form, you can further refine your search by specifying criteria such as the type of media (photos, videos, etc.), date range, license, etc. For example, to search for only photos with a Creative Commons license, you can select "Photos" in the "Media type" field and choose "Creative Commons" in the "License" field.
-5. After specifying your search criteria, click the "Search" button to retrieve the results.
-6. You can then extract the relevant metadata for the images using web scraping techniques. This can be done using programming languages such as Python and libraries such as BeautifulSoup or Scrapy.
-7. Some of the metadata that can be extracted for Flickr images include the image URL, title, description, date uploaded, number of views, and tags. You can also extract the actual image files using the image URLs.
-8. Once you have extracted the data, you can store it in a database such as MongoDB or export it to a CSV file for further analysis.
+In summary, these case studies demonstrate the importance of data integration in achieving business goals and improving customer experiences. By collecting data from various sources and using it to gain insights, organizations can make informed decisions, create personalized experiences, and improve operational efficiency.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

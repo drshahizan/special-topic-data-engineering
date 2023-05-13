@@ -81,16 +81,6 @@ Big companies in data science also use data integration to integrate data from e
 
 In summary, many big companies in data science rely heavily on data integration to make sense of their vast amounts of data. These companies use data integration to bring together data from various sources, perform complex data analyses, and gain insights that enable them to make informed business decisions.
 
-## Data Integration Issues and  Solutions
-Data integration is a critical process in data science that involves combining data from various sources to create a unified view of the data. However, data integration can also pose several challenges, such as data quality issues, data inconsistencies, and data silos. In this section, we will discuss some of the key issues in data integration and the solutions that data scientists can use to address them.
-
-| Data Integration Issue | Solution |
-| --- | --- |
-| Data quality issues | - Use data cleansing techniques such as removing duplicates, filling in missing data, and correcting errors<br>- Use data profiling tools to identify and resolve data quality issues |
-| Data mapping | - Use data mapping tools to automate the process of aligning data from different sources<br>- Use metadata management tools to create a common language for data |
-| Data cleansing | - Use data cleansing tools to automate the process of removing or correcting data<br>- Use data profiling tools to identify data quality issues |
-| Data transformation | - Use data transformation tools to automate the process of converting data from one format to another<br>- Use data integration platforms to automate data transformation and data mapping |
-
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

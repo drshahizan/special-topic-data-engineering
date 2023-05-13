@@ -9,7 +9,6 @@ Don't forget to hit the :star: if you like this repo.
 
 # Assignment: Data Integration in Data Science
 
-## Assignment Description:
 You are tasked with developing a data integration plan for a hypothetical data science project. You will need to identify at least three different data sources, and create a plan for integrating these sources into a unified dataset that can be used for analysis.
 
 ## Instructions:

@@ -59,6 +59,19 @@ Data integration in data science has several benefits, including:
 4. Better decision-making capabilities
 5. Ability to train and build better machine learning models
 
+## How Big Companies in Data Science Use Data Integration to Gain Insights
+Many big companies in data science rely heavily on data integration to gain insights from their vast amounts of data. Here are a few examples of how some of these companies use data integration:
+
+1. Amazon: Amazon is one of the largest companies in the world and uses data integration to bring together data from various sources, such as customer data, transactional data, and social media data. Amazon uses this data to provide personalized recommendations to its customers, improve its supply chain management, and make informed business decisions. Amazon also uses data integration to integrate data from its Amazon Web Services (AWS) platform, which provides a range of cloud-based services to businesses.
+
+2. Google: Google is another large company that relies heavily on data integration to make sense of its vast amounts of data. Google uses data integration to bring together data from various sources, such as search data, advertising data, and customer data. Google uses this data to improve its search algorithms, target its advertising more effectively, and provide better user experiences.
+
+3. IBM: IBM is a technology company that provides a range of data integration tools to its customers. IBM uses data integration to integrate data from various sources, such as social media data, machine data, and transactional data. IBM's data integration tools enable its customers to bring together data from various sources and perform complex data analyses, helping them to gain insights and make informed business decisions.
+
+4. Microsoft: Microsoft is a large technology company that provides a range of data integration tools to its customers. Microsoft uses data integration to integrate data from various sources, such as customer data, financial data, and sales data. Microsoft's data integration tools enable its customers to bring together data from various sources and perform complex data analyses, helping them to gain insights and make informed business decisions.
+
+In summary, many big companies in data science rely heavily on data integration to make sense of their vast amounts of data. These companies use data integration to bring together data from various sources, perform complex data analyses, and gain insights that enable them to make informed business decisions.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

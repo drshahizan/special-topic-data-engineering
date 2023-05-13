@@ -7,24 +7,90 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Automated Web Browsing
-Automated web browsing, also known as web automation or web scraping, refers to the use of software tools or scripts to simulate a web browser and automate the process of browsing websites, extracting data, and performing actions.
+# Data Integration: Introduction
 
-Web automation is typically used to automate repetitive tasks, such as filling out web forms, clicking on links, and downloading files. It can also be used to scrape data from websites, such as product information, customer reviews, or financial data.
+## History
+The history of data integration in data science can be traced back to the early days of computing. As businesses began to adopt computers in the 1950s and 1960s, they quickly realized that their data was stored in multiple incompatible formats and locations, making it difficult to access and analyze.
 
-Web automation can be achieved using a variety of programming languages and tools, such as Selenium, Puppeteer, and Requests-HTML. These tools allow developers to automate web browsing by programmatically interacting with the web browser, simulating user inputs and actions, and extracting data from the resulting web pages.
+The solution to this problem was to develop data integration tools that could bring together data from multiple sources into a single, unified view. The earliest data integration tools were designed to work with mainframe computers and involved copying data from one system to another using tape drives or other physical media.
 
-Here are some common use cases for automated web browsing:
+As computers became more powerful and networked, data integration tools evolved to take advantage of these new capabilities. In the 1980s, for example, the rise of client-server computing led to the development of middleware tools that could help integrate data across different types of systems, including databases, messaging systems, and file systems.
 
-1. Web scraping: Extracting data from websites for analysis or integration with other applications.
+In the 1990s, data integration tools continued to evolve, with the emergence of enterprise application integration (EAI) tools that could integrate data across different types of business applications, such as customer relationship management (CRM) and enterprise resource planning (ERP) systems.
 
-2. Data entry: Automating the process of filling out forms or entering data into web applications.
+The early 2000s saw the emergence of extract, transform, load (ETL) tools, which were designed to extract data from different sources, transform it into a common format, and load it into a target system for analysis. These tools proved to be very popular, particularly in the business intelligence and data warehousing space.
 
-3. Testing: Automating the process of testing web applications to ensure they function correctly.
+As big data emerged as a major trend in the late 2000s, data integration tools evolved again to handle the challenges of processing and analyzing large volumes of data from a wide variety of sources. This led to the development of new tools and platforms, such as Hadoop and Apache Spark, which were designed to handle massive amounts of data and enable complex data integration and analysis.
 
-4. Monitoring: Automating the process of monitoring websites for changes or updates.
+Today, data integration continues to be an important area of focus in data science, as businesses seek to gain insights from the vast amounts of data they collect from various sources. As data continues to grow in volume, variety, and velocity, the need for effective data integration tools and techniques will only continue to grow.
 
-While web automation can be a powerful tool, it's important to use it responsibly and ethically. Some websites may have anti-scraping measures in place, such as IP blocking or CAPTCHAs, to prevent automated access. It's also important to respect the website's terms of service and to ensure that any data collected is used in compliance with applicable laws and regulations.
+|Decade|Overview|
+|---|---|
+|1950s-1960s|Early data integration tools developed to work with mainframe computers.|
+|1980s|Middelware tools developed to integrate data across different types of systems.|
+|1990s|Enterprise application integration (EAI) tools emerge to integrate data across different types of business applications.|
+|Early 2000s|Extract, transform, load (ETL) tools emerge to extract data from different sources, transform it into a common format, and load it into a target system for analysis.|
+|Late 2000s|New tools and platforms, such as Hadoop and Apache Spark, developed to handle massive amounts of data and enable complex data integration and analysis.|
+|Present|Data integration continues to be an important area of focus in data science, as businesses seek to gain insights from the vast amounts of data they collect from various sources.|
+
+## Data integration steps
+Data integration in data science involves several steps, including:
+
+### 1. Data Discovery
+In this step, data scientists identify all the relevant data sources that are required to build a machine learning model. This may include data from internal databases, external APIs, web scraping, and more.
+
+### 2. Data Collection
+Once the data sources have been identified, data is collected from these sources and stored in a central repository, such as a data warehouse or data lake. This step involves cleaning and preprocessing the data to ensure consistency and accuracy.
+
+### 3. Data Transformation
+The collected data may be in different formats and structures. Therefore, it needs to be transformed into a common format that is consistent and compatible with the machine learning model.
+
+### 4. Data Integration
+The transformed data is then combined with other relevant data sources to provide a more comprehensive view of the data. Data integration techniques include ETL (Extract, Transform, Load), ELT (Extract, Load, Transform), and EAI (Enterprise Application Integration).
+
+### 5. Data Quality
+In this step, data scientists ensure that the integrated data is of high quality and accurate. This involves identifying and correcting errors and inconsistencies, and validating the data against business rules and data quality standards.
+
+### 6. Machine Learning
+Once the data is integrated and of high quality, machine learning models can be built and trained using the data. The trained models can then be used to make predictions and gain insights.
+
+Data integration in data science has several benefits, including:
+
+1. Improved data accuracy and consistency
+2. Faster and more efficient data analysis
+3. More comprehensive view of the data
+4. Better decision-making capabilities
+5. Ability to train and build better machine learning models
+
+## How Big Companies in Data Science Use Data Integration to Gain Insights
+Big companies in data science use data integration to bring together data from various sources and make it accessible for analysis. Data integration helps these companies to overcome challenges such as data silos, data quality issues, and data inconsistencies, allowing them to make informed decisions based on a unified and comprehensive view of their data.
+
+One way that big companies in data science use data integration is by implementing enterprise data warehouses (EDWs). EDWs are central repositories that store data from various sources, such as operational databases, transactional systems, and other data stores. The data is extracted, transformed, and loaded into the EDW using ETL tools, making it available for analysis and reporting.
+
+Another way that big companies in data science use data integration is by implementing data lakes. Data lakes are designed to store large volumes of raw, unstructured data from various sources, such as social media, sensor data, and log files. Data lakes use technologies such as Hadoop and Apache Spark to store and process data, enabling data scientists to perform complex analyses and gain new insights.
+
+Big companies in data science also use data integration to integrate data from external sources, such as customer data, social media data, and market research data. This helps companies to gain a 360-degree view of their customers and market trends, enabling them to make informed decisions about product development, marketing campaigns, and customer service. Here are a few examples of how some of these companies use data integration:
+
+1. Amazon: Amazon is one of the largest companies in the world and uses data integration to bring together data from various sources, such as customer data, transactional data, and social media data. Amazon uses this data to provide personalized recommendations to its customers, improve its supply chain management, and make informed business decisions. Amazon also uses data integration to integrate data from its Amazon Web Services (AWS) platform, which provides a range of cloud-based services to businesses.
+
+2. Google: Google is another large company that relies heavily on data integration to make sense of its vast amounts of data. Google uses data integration to bring together data from various sources, such as search data, advertising data, and customer data. Google uses this data to improve its search algorithms, target its advertising more effectively, and provide better user experiences.
+
+3. IBM: IBM is a technology company that provides a range of data integration tools to its customers. IBM uses data integration to integrate data from various sources, such as social media data, machine data, and transactional data. IBM's data integration tools enable its customers to bring together data from various sources and perform complex data analyses, helping them to gain insights and make informed business decisions.
+
+4. Microsoft: Microsoft is a large technology company that provides a range of data integration tools to its customers. Microsoft uses data integration to integrate data from various sources, such as customer data, financial data, and sales data. Microsoft's data integration tools enable its customers to bring together data from various sources and perform complex data analyses, helping them to gain insights and make informed business decisions.
+
+In summary, many big companies in data science rely heavily on data integration to make sense of their vast amounts of data. These companies use data integration to bring together data from various sources, perform complex data analyses, and gain insights that enable them to make informed business decisions.
+
+## Data Integration Issues and  Solutions
+Data integration is a critical process in data science that involves combining data from various sources to create a unified view of the data. However, data integration can also pose several challenges, such as data quality issues, data inconsistencies, and data silos. In this section, we will discuss some of the key issues in data integration and the solutions that data scientists can use to address them.
+
+| Data Integration Issue | Solution |
+| --- | --- |
+| Data quality issues | - Use data cleansing techniques such as removing duplicates, filling in missing data, and correcting errors<br>- Use data profiling tools to identify and resolve data quality issues |
+| Data mapping | - Use data mapping tools to automate the process of aligning data from different sources<br>- Use metadata management tools to create a common language for data |
+| Data cleansing | - Use data cleansing tools to automate the process of removing or correcting data<br>- Use data profiling tools to identify data quality issues |
+| Data transformation | - Use data transformation tools to automate the process of converting data from one format to another<br>- Use data integration platforms to automate data transformation and data mapping |
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

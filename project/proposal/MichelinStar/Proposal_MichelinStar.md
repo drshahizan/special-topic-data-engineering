@@ -1,8 +1,7 @@
-<h1 align='center'> 
-  Heart Disease Prediction Using Machine Learning
- </h1>
+<p align="center">
+<h1 align="center">The Movie Database  Analytics Platform</h1>
 <p align='center'>
-  <img height='400px' width='400px' src='https://github.com/TanYongSheng728/TanYongSheng728/blob/main/medicine.gif'/>
+  <img height='400px' width='400px' src='https://user-images.githubusercontent.com/120614501/236613696-7581817b-016e-42cf-867f-68b599944423.gif'/>
 </p>
   
 ## 📝 Table of Contents
@@ -21,48 +20,42 @@
 
 ## 📄 Executive Summary
 
-From year to year, the more and more disease have been discovered and spread across the world. Some of the diseases are non-communicable causes by bad habits from new generation. The amount of patient suffereing from the disease have been increasing drastically but due to financial status most of them not able to affort expensive healthcare treatment. Early detection and prevention are crucial to reduce the morbidity and mortality associated with the disease.
-
-Therefore, this proposal outlines the development of a heart disease prediction model using machine learning techniques. The model will analyze patient data to predict the likelihood of developing heart disease and will enable healthcare providers to take proactive measures to prevent the disease. By leveraging predictive analytics, healthcare organizations can anticipate patient needs, prevent adverse events, and optimize resource utilization, resulting in better patient outcomes and reduced cost.
+The Entertainment Analytics Platform is a groundbreaking web-based solution designed to revolutionize the way content creators, marketers, and industry professionals analyze and interpret data for informed decision-making. By harnessing the power of advanced analytics, our platform provides users with actionable insights into content performance, audience engagement, and market trends. With a user-friendly interface and a comprehensive suite of features, the Entertainment Analytics Platform is poised to become an essential tool for professionals in the entertainment industry, driving innovation and growth in this competitive market.
 
 
 ## 🌎 Background
 
-Heart disease, also known as cardiovascular disease, refers to a group of conditions that affect the heart and blood vessels. It is a leading cause of death worldwide, accounting for approximately 17.9 million deaths each year. Heart disease is caused by various factors such as smoking, high blood pressure, high cholesterol, obesity, diabetes, and a sedentary lifestyle.
+The entertainment industry has experienced rapid growth and transformation in recent years, with the proliferation of digital platforms, streaming services, and personalized content offerings. In this dynamic landscape, understanding and adapting to audience preferences and market trends is critical for success. Traditional data analysis methods have proven inadequate in addressing the complex and diverse data generated in the industry, creating a need for a more sophisticated and comprehensive analytics tool.
 
-Detecting heart disease early is crucial for improving patient outcomes and reducing the risk of complications such as heart attack and stroke. Traditional risk assessment tools such as the Framingham Risk Score and the ASCVD risk estimator use patient data such as age, gender, blood pressure, cholesterol levels, and smoking status to estimate the risk of developing heart disease. However, these tools have limited accuracy, and many patients with heart disease are not identified until they experience symptoms.
+In recent years, machine learning has emerged as a powerful approach for extracting insights from vast and complex datasets. By applying advanced algorithms that learn and adapt from the data, machine learning techniques can uncover hidden patterns and trends that are difficult to detect using conventional analysis methods. Integrating machine learning into the Entertainment Analytics Platform allows for more accurate and efficient analysis, enabling industry professionals to make better-informed decisions and capitalize on emerging opportunities.
 
-Machine learning techniques offer a promising approach to predicting heart disease risk by analyzing patient data to identify patterns and relationships. By leveraging the power of machine learning algorithms, it is possible to develop predictive models that can accurately identify patients at risk of developing heart disease.
-
-In recent years, there has been a growing interest in using machine learning for heart disease prediction. Researchers have developed various machine learning models to predict heart disease risk using patient data such as electronic health records, medical imaging, and genetic data. These models have shown promising results, outperforming traditional risk assessment tools and improving patient outcomes.
-
-Therefore, the proposed heart disease prediction using machine learning project aims to develop an accurate prediction model that can enable healthcare providers to identify patients at risk of developing heart disease, take proactive measures to prevent the disease, and improve patient outcomes.
+By combining the power of web programming technologies with advanced machine learning techniques, our Entertainment Analytics Platform aims to provide a comprehensive and user-friendly tool that empowers industry professionals to gain a deeper understanding of their target audience, market trends, and content performance.
 
 ## 🎯 Goals and Objectives
 
-The goal of the heart disease prediction platform is to improve patient outcomes, reduce healthcare costs, and optimize resource utilization through predictive analytics. To achieve this goal, the platform will have the following objectives:
+The primary goal of the Entertainment Analytics Platform is to empower professionals in the entertainment industry with data-driven insights that drive informed decision-making and propel success. To achieve this goal, the project aims to:
 
-- To collect and preprocess patient data such as medical history, demographics, lab results, and other relevant variables.
-- Develop predictive models using advanced analytics techniques.
-- To develop a user-friendly web-based interface for healthcare providers to input patient data and obtain heart disease risk predictions.
-- To identify the most important predictors of heart disease risk using feature selection techniques.
-- Monitor and evaluate platform performance to continuously improve outcomes.
+- Develop a robust and scalable web-based platform that consolidates and analyzes data from various sources, such as streaming services, social media, box office records, and more.
+- Create a user-friendly interface that allows users to easily navigate, visualize, and interpret data, enabling them to make well-informed decisions based on the insights provided by the platform.
+- Provide customizable dashboards and reporting tools to facilitate efficient communication and presentation of data to stakeholders, allowing for seamless integration into existing workflows and processes.
+- Continuously update and refine the platform's features and capabilities to stay ahead of industry trends and ensure that the Entertainment Analytics Platform remains a valuable resource for users in the long term.
 
-Overall, the goals and objectives of this proposal are aimed at developing a reliable and accurate machine learning-based heart disease prediction system. The platform will enable healthcare providers to make informed decisions about patient care and resource allocation and will help healthcare organizations to achieve their strategic goals.
+By achieving these objectives, the Entertainment Analytics Platform will establish itself as a comprehensive and indispensable tool for professionals in the entertainment industry, unlocking the full potential of data-driven decision-making and driving innovation in this dynamic market.
   
 
 ## 🔭 Scope
 
-This project will develop an healthcare analytics platform that will leverage predictive analytics and machine learning to provide actionable insights and identify opportunities for cost savings.
-- The data that will be used in this project is collected from <a href="https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset?resource=download">Kaggle - Framingham heart study dataset</a>.
+This project will develop an entertainment analytics platform that will leverage predictive analytics and machine learning to provide actionable insights and identify opportunities for improving content performance and audience engagement.
 
-- To ensure a comprehensive and reliable data set, we will utilize data collection methods to streamline the process of data collection from numerous online sources, and ultimately yield insights on patient outcomes and healthcare costs.
+- The primary data source for this project will be The Movie Database API (TMDB), which will provide us with real-time access to a comprehensive database of movies, TV shows, and other media content.
 
-- MongoDB represents the future of data storage in the healthcare industry, and its importance in this project cannot be overstated. By leveraging this cutting-edge platform, we can effectively manage and store complex data sets, and extract meaningful insights to drive better health outcomes and increased cost-efficiency.
+- To ensure a comprehensive and reliable data set, we will employ data collection methods to streamline the process of gathering information from numerous online sources, such as streaming platforms, box office records, and user reviews, ultimately yielding insights on content performance and audience preferences.
+
+- MongoDB represents the future of data storage in the entertainment industry, and its importance in this project cannot be overstated. By leveraging this cutting-edge platform, we can effectively manage and store complex data sets, and extract meaningful insights to drive better content strategies, audience targeting, and increased revenue opportunities.
 
 ## 🔍 Methodology
 
-- Data Collection: The first step in the project is to collect relevant healthcare data. This can include electronic health records (EHRs), medical claims data, and other relevant sources. The data will be collected in a secure manner, and all relevant privacy regulations will be adhered to.
+- Data Collection: The first step in the project is to collect relevant to entertainment analytic platform data. The data will be collected in a secure manner, and all relevant privacy regulations will be adhered to.
 
 - Data Cleaning: Once the data is collected, it needs to be cleaned and preprocessed. This involves removing irrelevant data, handling missing data, and resolving any inconsistencies. The data will also be transformed into a format suitable for analysis.
 
@@ -76,14 +69,14 @@ This project will develop an healthcare analytics platform that will leverage pr
 ## 🔧 System Architecture
 <b>Flowchart of system architecture:</b><br>
 <p align='center'>
-<img src='https://github.com/drshahizan/special-topic-data-engineering/blob/bdc3350dc8a21d41a13bde0b8a96b30737f10408/project/proposal/MichelinStar/flowchart_ver4.jpg'>
+<img src='https://user-images.githubusercontent.com/120614501/236614264-de171f3d-f792-40ad-a9ed-cd6a46ac108d.png'>
 </p><br>
 
 <b>Overview of system architecture:</b><br>
 <table>
 <tr>
   <td><b>1. Data acquisition</b></td>
-  <td>Collect the healthcare data from Kaggle and download them in <b>csv</b> format. </td>
+  <td>Collect the movie data from The Movie Database (TMDB) and download them in <b>csv</b> format. </td>
 </tr>
 <tr>
   <td><b>2. Data storage</b></td>
@@ -195,34 +188,32 @@ MongoDB is compatible with:
   
 
 ## 📊 Risks and Limitations
-
-Here are some potential risks and limitations associated with heart disease prediction platform project:
+Here are some potential risks and limitations associated with the entertainment analytics platform project:
 
 **1. Technical Risk**
+`The data collection process cannot ensure the quality of the data as there may be problems with the data's quality. The quality of the outcomes may be impacted by the data's potential for being erroneous, inconsistent, or incomplete.
 
-`Data quality and accuracy:` The data collection process cannot ensure the quality of the data as there may be problems with the data's quality. The quality of the outcomes may be impacted by the data's potential for being erroneous, inconsistent, or incomplete.
-
-`Data bias and ethical considerations:` Heart disease prediction platforms can suffer from bias due to the use of historical data that may reflect past biases or systematic inequalities, which can lead to unfair outcomes and potential harm to patients. Ethical considerations must be taken into account to ensure that the use of patient data is transparent, fair, and respectful of patients' rights and privacy.
+`Data bias and ethical considerations:`  Entertainment analytics platforms can suffer from bias due to the use of historical data that may reflect past biases or systematic inequalities, which can lead to unfair outcomes and potential harm to users. Ethical considerations must be taken into account to ensure that the use of audience data is transparent, fair, and respectful of users' rights and privacy.
 
 `Integration and interoperability:` Integration of various data sources, systems, and applications can be complex and challenging, resulting in interoperability issues, data inconsistencies, and difficulty in data analysis and reporting.
 
 **2. Financial Risk**
 
-`Cost:` Heart disease prediction platforms require ongoing maintenance, updates, and support, which can result in significant ongoing costs that must be factored into the project budget and it can require significant upfront investment, including the cost of hardware, software, and personnel resources.
+`Cost:`Entertainment analytics platforms require ongoing maintenance, updates, and support, which can result in significant ongoing costs that must be factored into the project budget and it can require significant upfront investment, including the cost of hardware, software, and personnel resources.
 
-`Regulatory changes and uncertainty:` Healthcare regulations and policies are constantly evolving, which can create uncertainty around the financial viability of healthcare analytics platforms that may be impacted by these changes. Therefore, the return on investment (ROI) for healthcare analytics platforms can be difficult to predict, and there may be uncertainty around the financial benefits that the platform can deliver.
+`Regulatory changes and uncertainty:` Entertainment industry regulations and policies are constantly evolving, which can create uncertainty around the financial viability of analytics platforms that may be impacted by these changes. Therefore, the return on investment (ROI) for entertainment analytics platforms can be difficult to predict, and there may be uncertainty around the financial benefits that the platform can deliver.
 
 **3. Legal Risk**
 
-`Data ownership and licensing:` The ownership and licensing of healthcare data can be complex, which can create financial risks related to the use, access, and storage of this data. Failure to properly manage data ownership and licensing can result in financial penalties and legal issues.
+`Data ownership and licensing:` The ownership and licensing of entertainment data can be complex, which can create financial risks related to the use, access, and storage of this data. Failure to properly manage data ownership and licensing can result in financial penalties and legal issues.
 
-`Regulatory compliance:` Healthcare analytics platforms must comply with various legal and regulatory requirements such as HIPAA, GDPR, and data protection laws, failure to comply with these regulations can result in penalties, fines, and legal actions.
+`Regulatory compliance:`Entertainment analytics platforms must comply with various legal and regulatory requirements such as GDPR and data protection laws. Failure to comply with these regulations can result in penalties, fines, and legal actions.
 
 **4. Other Risk**
 
-`Lack of standardization:` Heart disease data can be fragmented and inconsistent, with different data formats, terminologies, and coding systems used across different healthcare providers and organizations. This lack of standardization can create challenges for healthcare analytics platforms in integrating and analyzing data effectively.
+`Lack of standardization:`  Entertainment data can be fragmented and inconsistent, with different data formats, terminologies, and coding systems used across different sources and platforms. This lack of standardization can create challenges for entertainment analytics platforms in integrating and analyzing data effectively.
 
-`Cultural and organizational challenges:` Cultural and organizational challenges can impact the success of healthcare analytics platforms, including lack of communication, siloed data, and misaligned incentives between different stakeholders. Addressing these challenges can require significant organizational change and buy-in from key stakeholders.
+`Cultural and organizational challenges:`  Cultural and organizational challenges can impact the success of entertainment analytics platforms, including lack of communication, siloed data, and misaligned incentives between different stakeholders. Addressing these challenges can require significant organizational change and buy-in from key stakeholders.
 
 ## 🔑 Deliverables and Milestones
 
@@ -238,16 +229,16 @@ Here are some potential risks and limitations associated with heart disease pred
 - A report on the statistical properties and characteristics of the dataset will be created.
 
 **4. Machine Learning Model Development**
-- A machine learning model that can predict the presence of heart disease.
+- A machine learning model that can predict content performance and analyze audience engagement in the entertainment industry.
 
 **5. Model Evaluation**
-- An evaluation of the performance of the machine learning model.
+- An evaluation of the performance of the machine learning model with respect to its accuracy in predicting content performance and analyzing audience engagement.
 
 **6. Deployment**
-- A web application or API that can take in patient data and provide a heart disease prediction.
+- A web application or API that can take in media content and user data and provide insights into content performance, audience preferences, and market trends.
 
 **7. Maintenance & Monitoring**
-- After the system had been created, we need to maintain and monitor the system to ensure the system can ran smoothly without any error.
+- After the entertainment analytics platform has been created, it is crucial to maintain and monitor the system to ensure it runs smoothly without any errors and stays up-to-date with industry trends and data sources.
 
 
  **Milestones:**
@@ -288,7 +279,6 @@ The resources needs as below:
    - Laptop
 
 - Software
-   - <strong>Kaggle Datasets</strong>: Kaggle Datasets is a collection of public datasets that you can use for machine learning tasks, including heart disease prediction. The datasets are hosted on Kaggle and can be easily downloaded and used in your machine learning models.
 
    - <strong>MongoDB</strong>: MongoDB is a NoSQL database that can be used in machine learning applications in several ways. MongoDB can be used to store and manage large volumes of data for machine learning applications, including heart disease prediction. It is highly scalable and can handle structured, semi-structured, and unstructured data.
 
@@ -311,11 +301,11 @@ The resources needs as below:
 <table>
   <tr>
     <td>Data sources</td>
-    <td>Framingham heart disease dataset from Kaggle</td>
+    <td>The Movie Database API</td>
   </tr>
   <tr>
     <td>Data schema</td>
-    <td>Patient data: gender, age, education, cigarette intake, symptoms of the disease, BMI, risk of future coronary heart disease (CHD)</td>
+    <td> Title, 1MDB, Review, Date Release</td>
   </tr>
   <tr>
     <td>Data transformations</td>
@@ -425,4 +415,4 @@ The resources needs as below:
 
 ## 🎓 Conclusion
 
-Based on this proposed project, the main aims is to develop a system that can accurately predict the likelihood of heart disease. The proposed system utilizes machine learning algorithms to analyze a dataset of patient information and generate predictions. The project's scope, methodology, and expected outcomes are well-defined, and the team has proposed a detailed timeline and resource plan for the project. The proposed system is significantly for practical applications, such as helping doctors and healthcare professionals to diagnose and treat patients with heart disease more effectively. The project's results may contribute to the development of more accurate and efficient medical diagnostic tools, which could potentially save lives and improve public health. However, there are also some risk and limitation about this system such as technical, financial and legal risk. In conclusion, the Heart Disease Prediction Using Machine Learning project is a promising initiative with the potential to make a significant impact on the field of healthcare and data science.
+Based on this proposed project, the main aims are to develop a system that can accurately analyze and predict content performance and audience engagement in the entertainment industry. The proposed system utilizes machine learning algorithms to analyze a dataset of media content and user information to generate insights and predictions. The project's scope, methodology, and expected outcomes are well-defined, and the team has proposed a detailed timeline and resource plan for the project. The proposed system is significant for practical applications, such as helping content creators, marketers, and industry professionals to develop, promote, and distribute entertainment content more effectively. The project's results may contribute to the development of more accurate and efficient data-driven decision-making tools, which could potentially enhance audience satisfaction and improve the entertainment industry's overall performance. However, there are also some risks and limitations associated with this system, such as technical, financial, and legal risks. In conclusion, the Entertainment Analytics Platform using Machine Learning project is a promising initiative with the potential to make a significant impact on the field of entertainment and data science.

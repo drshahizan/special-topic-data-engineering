@@ -1,10 +1,30 @@
 ## 1. Introduction
-- Briefly introduce the topic of web scraping multimedia content and the importance of this type of data for research and analysis.
+Web scraping multimedia content relating to cars from Flickr may give a lot of information for study and analysis in sectors such as marketing, advertising, design and automotive engineering. Flickr is a prominent photo-sharing network where users may publish and share their images, and it has a large collection of multimedia information relating to vehicles. Web scraping this data can reveal insights into customer preferences, design trends, and user-generated material connected to cars. This data may also be utilised to train machine learning models for picture identification and classification tasks. As a result, online scraping multimedia material linked to vehicles from Flickr is an important activity for researchers and analysts in various sectors.
 
 ## 2. Web Scraping Flickr
-- Explain why Flickr is a good source for multimedia content and provide a brief overview of the site.
-- Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
-- Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
+
+<h4> Web Scraping Process </h4>
+
+1. Accessing Google Drive from Google Colab
+```ruby
+
+from google.colab import drive
+drive.mount('/content/drive')
+```
+2. Install Flickr API.
+```ruby
+
+!pip install FlickrAPI
+```
+3. Import all neccesary libraries
+```ruby
+
+import requests
+import json
+import csv
+import cv2
+import numpy as np
+```
 
 ## 3. Choosing a Library for Web Scraping
 - Compare and contrast the available libraries for web scraping multimedia content, including Pillow and OpenCV.
@@ -13,7 +33,7 @@
 
 ## 4. Storing Data in MongoDB
 
-Discuss the benefits of using MongoDB for storing multimedia content data:
+The benefits of using MongoDB for storing multimedia content data:
 1. Scalability: MongoDB is designed to scale horizontally, which means it can handle large volumes of multimedia content data without sacrificing performance.
 
 2. Flexibility: MongoDB's document-based structure allows for flexible data modeling and the ability to store multimedia content data in a wide variety of formats.
@@ -26,14 +46,59 @@ Discuss the benefits of using MongoDB for storing multimedia content data:
 
 7. Rich API Support: MongoDB has a rich API with support for a wide variety of programming languages, making it easy to integrate multimedia content data into applications.
 
-8. GridFS: MongoDB's GridFS feature allows for efficient storage and retrieval of large multimedia content data files, such as videos or high-resolution images.
+MongoDB is a well-known NoSQL database that employs a document-based paradigm. You must first decide the structure and organisation of your data before storing it in MongoDB. Here's how to format and organise automobile image data for flickr multimedia:
 
-9. Dynamic Schema: MongoDB's dynamic schema allows for changes in data structure or format over time, making it easy to adapt to evolving needs for storing multimedia content data.
+1. Choose the fields you wish to save for each automobile photograph. This might contain information such as the vehicle's make, model, year, colour, number of doors, gearbox type, and any other pertinent details.
 
-Overall, MongoDB's scalability, flexibility, powerful querying and indexing capabilities, automatic sharding, high availability, rich API support, GridFS feature, and dynamic schema make it an excellent choice for storing multimedia content data.
+2. To store your data, create a new MongoDB database and collection.
 
-- Explain the best way to store the data in MongoDB, including the data structure and organization.
-- Provide examples of how the data can be queried and analyzed using MongoDB.
+3. Create a new document in your collection for each automobile image that has all of the fields you defined in step 1.
+
+4. If you have your data in a CSV file, you may import it into your collection using the MongoDB import tool. CSV files are supported by the import tool, and data may be imported straight from them.
+
+5. If you prefer Python, you may connect to your MongoDB database using the PyMongo package and then put documents into your collection using Python. Here's an example of code:
+```
+import pymongo
+import csv
+
+# Connect to MongoDB
+client = pymongo.MongoClient('mongodb://localhost:27017/')
+db = client['mydatabase']
+collection = db['cars']
+
+# Open the CSV file
+with open('cars.csv', 'r') as file:
+    reader = csv.DictReader(file)
+    
+    # Insert each row as a document in MongoDB
+    for row in reader:
+        collection.insert_one(row)
+```
+
+Examples of how the data can be queried and analyzed using MongoDB:
+
+1. Querying by keywords: Using the '$text' operator, you may search for multimedia material associated with specified keywords in MongoDB. For example, you can use the following command to search for all photographs relating to "sports cars":
+
+```
+db.photos.find({ $text: { $search: "sports cars" } })
+```
+
+2. Aggregating by tags: Flickr users may use tags to describe the content of their images. You can use MongoDB's aggregation architecture to group photographs by tags and count the number of photos in each category. For example, you can use the following command to count the number of photographs with the tag "Ferrari":
+
+```
+db.photos.aggregate([
+  { $unwind: "$tags" },
+  { $match: { tags: "Ferrari" } },
+  { $group: { _id: "$tags", count: { $sum: 1 } } }
+])
+```
+
+3. Analyzing user-generated content: Flickr allows users to post their own images as well as comment on and rate the photos of other users. You may use MongoDB to analyse user-generated material to learn about user behaviour and preferences. For example, you can use the following command to get the most popular photographs based on the number of views:
+
+```
+db.photos.find().sort({ views: -1 }).limit(10)
+```
+
 
 ## 5. Conclusion
 - Summarize the main points of the assignment and restate the importance of web scraping multimedia content for data analysis.

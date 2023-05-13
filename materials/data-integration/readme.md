@@ -7,94 +7,57 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Data Integration in Data Science
+# Data Integration
 
-Data integration is the process of combining data from multiple sources into a unified view for analysis. This can be a complex and challenging task, but it is essential for organizations that want to make the most of their data.
+Data integration is the process of combining data from multiple sources into a unified view, enabling organizations to analyze and gain insights from their data more effectively. Data integration in data science refers to the process of integrating data from various sources to build and train machine learning models, gain insights, and make data-driven decisions.
 
-There are many different tools and techniques that can be used for data integration. Some of the most common include:
+## Data integration steps
+Data integration in data science involves several steps, including:
 
-* **ETL (Extract, Transform, Load)**: ETL tools extract data from source systems, transform it to make it consistent and compatible, and then load it into a target system.
-* **ELT (Extract, Load, Transform)**: ELT tools extract data from source systems, load it into a target system, and then transform it as needed.
-* **EAI (Enterprise Application Integration)**: EAI tools integrate data from different applications within an organization.
+### 1. Data Discovery
+In this step, data scientists identify all the relevant data sources that are required to build a machine learning model. This may include data from internal databases, external APIs, web scraping, and more.
 
-The type of data integration tool that is best for an organization will depend on the specific needs of the organization. For example, an organization that needs to integrate data from a variety of sources may choose to use an ETL tool, while an organization that needs to integrate data from a few applications may choose to use an EAI tool.
+### 2. Data Collection
+Once the data sources have been identified, data is collected from these sources and stored in a central repository, such as a data warehouse or data lake. This step involves cleaning and preprocessing the data to ensure consistency and accuracy.
 
-Data integration is an essential part of data science. By integrating data from multiple sources, organizations can gain a deeper understanding of their data and make better decisions.
+### 3. Data Transformation
+The collected data may be in different formats and structures. Therefore, it needs to be transformed into a common format that is consistent and compatible with the machine learning model.
+
+### 4. Data Integration
+The transformed data is then combined with other relevant data sources to provide a more comprehensive view of the data. Data integration techniques include ETL (Extract, Transform, Load), ELT (Extract, Load, Transform), and EAI (Enterprise Application Integration).
+
+### 5. Data Quality
+In this step, data scientists ensure that the integrated data is of high quality and accurate. This involves identifying and correcting errors and inconsistencies, and validating the data against business rules and data quality standards.
+
+### 6. Machine Learning
+Once the data is integrated and of high quality, machine learning models can be built and trained using the data. The trained models can then be used to make predictions and gain insights.
+
+Data integration in data science has several benefits, including:
+
+1. Improved data accuracy and consistency
+2. Faster and more efficient data analysis
+3. More comprehensive view of the data
+4. Better decision-making capabilities
+5. Ability to train and build better machine learning models
+
+## Topic
+
+| No. | Topic  | Description |
+| --- | ----------- | ----------- |
+| 1. | [Best practices for data integration in data science](01-best-practice.md) | This topic covers the best practices to follow while integrating different data sources, including data quality, data mapping, data cleansing, and data transformation. |
+| 2. | Tools and technologies for data integration in data science | This topic provides an overview of the popular data integration platforms such as Apache Kafka, Apache Nifi, Microsoft Azure Data Factory, and Talend, among others, used for data integration in data science. |
+| 3. | Challenges and solutions in data integration for data science | This topic covers the challenges faced in data integration, including data silos, data security, data privacy, and data governance, and explores solutions to overcome these challenges. |
+| 4. | Case studies of successful data integration in data science | This topic features examples of companies that have effectively integrated their data to achieve better business insights and outcomes. |
+| 5. | Data integration and machine learning | This topic explores how data integration plays a crucial role in training machine learning models and providing accurate predictions. |
+
 
 ## Table of Data Integration Tools
 
 | Tool Type | Description |
-|---|---|
-| ETL | Extracts data from source systems, transforms it to make it consistent and compatible, and then loads it into a target system. |
-| ELT | Extracts data from source systems, loads it into a target system, and then transforms it as needed. |
-| EAI | Integrates data from different applications within an organization. |
-
-
-## Assignment
-
-This assignment is divided into two parts:
-
-### Part 1: Web scraping multimedia content
-You must select the appropriate website to do web scraping multimedia content. For example, you can use the [Flickr.com](flickr.md) website. Flickr is a popular photo-sharing platform that contains a vast collection of images and videos that can be scraped for data analysis purposes. Here is a suggested outline for the assignment:
-
-#### 1. Introduction
-
-Briefly introduce the topic of web scraping multimedia content and the importance of this type of data for research and analysis.
-
-#### 2. Web Scraping Flickr
-
-- Explain why Flickr is a good source for multimedia content and provide a brief overview of the site.
-- Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
-- Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
-
-#### 3. Choosing a Library for Web Scraping
-
-- Compare and contrast the available libraries for web scraping multimedia content, including Pillow and OpenCV.
-- Explain the criteria used to choose the appropriate library for this project.
-- Justify the final choice and explain the advantages of the chosen library.
-
-#### 4. Storing Data in MongoDB
-
-- Discuss the benefits of using MongoDB for storing multimedia content data.
-- Explain the best way to store the data in MongoDB, including the data structure and organization.
-- Provide examples of how the data can be queried and analyzed using MongoDB.
-
-#### 5. Conclusion
-
-- Summarize the main points of the assignment and restate the importance of web scraping multimedia content for data analysis.
-- Offer suggestions for future research or analysis using the data set obtained from Flickr.
-
-### Part 2: Web scraping text content
-You need to find a website relevant to data publication content, such as the [Google Scholar](google-scholar.md) website. Google Scholar is a popular search engine for academic publications, making it an excellent source for web scraping data related to the Faculty of Computing at the University of Technology Malaysia. Here is a suggested outline for the assignment:
-
-#### 1. Introduction
-- Briefly introduce the topic of web scraping publication content and the importance of this type of data for research and analysis.
-
-#### 2. Web Scraping Google Scholar
-- Explain why Google Scholar is a good source for publication content and provide a brief overview of the site.
-- Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
-- Discuss the data set obtained, including metadata such as data size, file type, and other relevant information.
-
-#### 3. Choosing a Library for Web Scraping
-- Compare and contrast the available libraries for web scraping publication content, including Beautiful Soup, Scrapy, and Selenium.
-- Explain the criteria used to choose the appropriate library for this project.
-- Justify the final choice and explain the advantages of the chosen library.
-
-#### 4. Storing Data in MongoDB
-- Discuss the benefits of using MongoDB for storing publication content data.
-- Explain the best way to store the data in MongoDB, including the data structure and organization.
-- Provide examples of how the data can be queried and analyzed using MongoDB.
-
-#### 5. Conclusion
-- Summarize the main points of the assignment and restate the importance of web scraping publication content for data analysis.
-- Offer suggestions for future research or analysis using the data set obtained from Google Scholar.
-
-Overall, this write-up should demonstrate a thorough understanding of the process of web scraping publication content, as well as the tools and libraries used for this task. It should also provide a clear and detailed explanation of how the data is stored and organized in MongoDB for efficient querying and analysis.
-
-### Others
-- Collaborate effectively with your group members to complete the task.
-- Ensure to send the report in **mark down** format and **source code**.
-- Please submit the assignments in the submission [**Part 1**](https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1) and [**Part 2**](https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2) folder. It would be best if you create a folder using your group name.
+| --------- | ----------- |
+| ETL       | Extracts data from one or more sources, transforms it to fit a specific format or structure, and loads it into a target system. ETL is commonly used for batch processing and data warehousing. |
+| ELT       | Extracts data from one or more sources and loads it into a target system, where it is then transformed as needed. ELT is commonly used for real-time or near-real-time processing, and is often associated with cloud-based data integration. |
+| EAI       | Integrates data from multiple enterprise applications, such as CRM, ERP, and SCM systems, to provide a unified view of business processes. EAI is commonly used in large organizations to streamline operations and improve data accuracy. |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

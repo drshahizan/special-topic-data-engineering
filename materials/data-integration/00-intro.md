@@ -7,24 +7,34 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Automated Web Browsing
-Automated web browsing, also known as web automation or web scraping, refers to the use of software tools or scripts to simulate a web browser and automate the process of browsing websites, extracting data, and performing actions.
+## Data integration steps
+Data integration in data science involves several steps, including:
 
-Web automation is typically used to automate repetitive tasks, such as filling out web forms, clicking on links, and downloading files. It can also be used to scrape data from websites, such as product information, customer reviews, or financial data.
+### 1. Data Discovery
+In this step, data scientists identify all the relevant data sources that are required to build a machine learning model. This may include data from internal databases, external APIs, web scraping, and more.
 
-Web automation can be achieved using a variety of programming languages and tools, such as Selenium, Puppeteer, and Requests-HTML. These tools allow developers to automate web browsing by programmatically interacting with the web browser, simulating user inputs and actions, and extracting data from the resulting web pages.
+### 2. Data Collection
+Once the data sources have been identified, data is collected from these sources and stored in a central repository, such as a data warehouse or data lake. This step involves cleaning and preprocessing the data to ensure consistency and accuracy.
 
-Here are some common use cases for automated web browsing:
+### 3. Data Transformation
+The collected data may be in different formats and structures. Therefore, it needs to be transformed into a common format that is consistent and compatible with the machine learning model.
 
-1. Web scraping: Extracting data from websites for analysis or integration with other applications.
+### 4. Data Integration
+The transformed data is then combined with other relevant data sources to provide a more comprehensive view of the data. Data integration techniques include ETL (Extract, Transform, Load), ELT (Extract, Load, Transform), and EAI (Enterprise Application Integration).
 
-2. Data entry: Automating the process of filling out forms or entering data into web applications.
+### 5. Data Quality
+In this step, data scientists ensure that the integrated data is of high quality and accurate. This involves identifying and correcting errors and inconsistencies, and validating the data against business rules and data quality standards.
 
-3. Testing: Automating the process of testing web applications to ensure they function correctly.
+### 6. Machine Learning
+Once the data is integrated and of high quality, machine learning models can be built and trained using the data. The trained models can then be used to make predictions and gain insights.
 
-4. Monitoring: Automating the process of monitoring websites for changes or updates.
+Data integration in data science has several benefits, including:
 
-While web automation can be a powerful tool, it's important to use it responsibly and ethically. Some websites may have anti-scraping measures in place, such as IP blocking or CAPTCHAs, to prevent automated access. It's also important to respect the website's terms of service and to ensure that any data collected is used in compliance with applicable laws and regulations.
+1. Improved data accuracy and consistency
+2. Faster and more efficient data analysis
+3. More comprehensive view of the data
+4. Better decision-making capabilities
+5. Ability to train and build better machine learning models
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

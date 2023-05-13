@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Data Integration Issues and Solutions
+# Challenges and solutions in data integration
 Data integration is a critical process in data science that involves combining data from various sources to create a unified view of the data. However, data integration can also pose several challenges, such as data quality issues, data inconsistencies, and data silos. In this section, we will discuss some of the key issues in data integration and the solutions that data scientists can use to address them.
 
 | Data Integration Issue | Solution |
@@ -19,6 +19,27 @@ Data integration is a critical process in data science that involves combining d
 
 Overall, data integration can be a complex task, but with the right tools and processes in place, it is possible to ensure that data is consistent, accurate, and secure. By addressing data quality, data mapping, data cleansing, data transformation, and data security, organizations can ensure that they are able to leverage the full potential of their data and achieve their business goals.
 
+
+## Managing Complex Tasks in Data Integration: Challenges and Solutions in Data Science with Healthcare Data Example
+Data integration can be a complex task when dealing with multiple sources of data that have different structures, formats, and quality. Let's take an example of a healthcare organization that wants to integrate patient data from different sources such as electronic medical records, lab reports, and imaging systems.
+
+The electronic medical records may contain patient information such as demographics, diagnoses, and treatments, while the lab reports may contain information about lab results and tests performed. The imaging systems may contain medical images such as X-rays, MRI scans, and CT scans.
+
+Integrating these different sources of data can be a complex task due to the following challenges:
+
+1. Data mapping: The data elements in the different sources may have different names, formats, and structures. For example, the diagnosis codes used in the electronic medical records may be different from the ones used in the lab reports.
+
+2. Data cleansing: The data in the different sources may have different levels of quality and completeness. For example, the lab reports may have missing values or errors.
+
+3. Data transformation: The data in the different sources may need to be transformed to fit into a common data model or schema. For example, the imaging systems may store medical images in different formats that need to be converted to a common format.
+
+4. Data security: The patient data is sensitive and needs to be protected to ensure privacy and compliance with regulations.
+
+To overcome these challenges, the healthcare organization can use data integration tools such as Talend or Microsoft Azure Data Factory. These tools provide a platform for integrating data from different sources, mapping data elements, cleansing data, transforming data, and ensuring data security.
+
+For example, Talend provides a graphical interface for mapping data elements between different sources, transforming data using built-in functions or custom code, and cleansing data using data profiling and cleansing tools. Talend also provides connectors for different data sources such as electronic medical records, lab reports, and imaging systems, as well as connectors for cloud services such as Amazon S3 or Microsoft Azure Blob Storage.
+
+In summary, integrating patient data from different sources can be a complex task due to data mapping, data cleansing, data transformation, and data security challenges. Data integration tools such as Talend or Microsoft Azure Data Factory can provide a platform for addressing these challenges and integrating data from different sources into a unified view for analysis.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

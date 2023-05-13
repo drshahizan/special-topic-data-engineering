@@ -7,59 +7,28 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Data Scraping
+# Data Integration in Data Science
 
-## Content:
-- [Introduction](intro-ws.md)
-- [API and Web Scraping](../api/api-web-scraping.md)
+Data integration is the process of combining data from multiple sources into a unified view for analysis. This can be a complex and challenging task, but it is essential for organizations that want to make the most of their data.
 
-## Useful information
-- [Web Scraping with EDA and Visualization Using Python](https://medium.com/analytics-vidhya/web-scraping-with-eda-and-visualization-using-python-a496ddf5f98e)
-- [Python Web Scraping - Quick Guide](https://www.tutorialspoint.com/python_web_scraping/python_web_scraping_quick_guide.htm)
-- [Web Scraping of E-Commerce Website Using BeautifulSoup in Python](https://www.dosm.gov.my/v1/uploads/files/4_Portal%20Content/2_%20Statistics/MyStats/2022/Slaid/Sesi%201a_Web%20Scraping%20of%20E-Commerce%20Website%20Using%20BeautifulSoup%20in%20Python.pdf)
-- [Github: malaysia-election-data-scraping](https://github.com/Thibico/malaysia-election-data-scraping)
-- [Applications and a Guide to Web Scraping](https://www.fstep.org.my/wp-content/uploads/2020/12/FSTEP-The-application-of-Webscraping.pdf)
-- [Github:malaysiastockbiz_scraper](
-https://github.com/atlas-github/malaysiastockbiz_scraper/blob/master/malaysiastock_biz_scraper.ipynb)
-- [An automated web scraping tool for Malaysia tourism](http://eprints.utar.edu.my/3493/1/CS-2019-1505499.pdf)
-- [7 Python Libraries For Web Scraping To Master Data Extraction](https://www.projectpro.io/article/python-libraries-for-web-scraping/625)
-- [Web Scraping Freelancers in Malaysia](https://www.truelancer.com/web-scraping-freelancers-in-malaysia)
-- [Web Scraping, Regular Expressions, and Data Visualization: Doing it all in Python](https://towardsdatascience.com/web-scraping-regular-expressions-and-data-visualization-doing-it-all-in-python-37a1aade7924)
-- [5 Web Scraping Projects with Python](https://amankharwal.medium.com/5-web-scraping-projects-with-python-4bcc25ff039)
+There are many different tools and techniques that can be used for data integration. Some of the most common include:
 
-### Tutorial
-- [Video: Web Scraping untuk laman web berkaitan Bursa Malaysia](https://youtu.be/bmi_-oj2S9c)
-- [Video: Web Scraping (The Star Malaysia News)](https://youtu.be/6tZAmu17M6g)
-- [Video: Scraping YellowPages.my | Name, Website, Email, Phone | Yellow Pages Malaysia](https://youtu.be/fO9701IUSrY)
-- [Video: Tutorial Web Scraper - Dengan Chrome Web Scraper](https://youtu.be/FcrscxUeEj0)
-- [Video: Cara Scraping Banyak Produk Tokopedia Dengan Tools Gratisan Chrome](https://youtu.be/zGOcGU1BSsc)
-- [Python Web Scraping Tutorial: Step-By-Step](https://oxylabs.io/blog/python-web-scraping)
-- [Web Scraping Python Tutorial – How to Scrape Data From A Website](https://www.freecodecamp.org/news/web-scraping-python-tutorial-how-to-scrape-data-from-a-website/)
+* **ETL (Extract, Transform, Load)**: ETL tools extract data from source systems, transform it to make it consistent and compatible, and then load it into a target system.
+* **ELT (Extract, Load, Transform)**: ELT tools extract data from source systems, load it into a target system, and then transform it as needed.
+* **EAI (Enterprise Application Integration)**: EAI tools integrate data from different applications within an organization.
 
-## Tools
+The type of data integration tool that is best for an organization will depend on the specific needs of the organization. For example, an organization that needs to integrate data from a variety of sources may choose to use an ETL tool, while an organization that needs to integrate data from a few applications may choose to use an EAI tool.
 
-### 1. Selenium
-- [Web scraping E-commerce sites to compare prices with Python — Part 1](https://medium.com/@zfwong.wilson/web-scraping-e-commerce-sites-to-compare-prices-with-python-part-1-360509ee5c62)
-- [Web scraping E-commerce sites to compare prices with Python — Part 2](https://medium.com/@zfwong.wilson/web-scraping-e-commerce-sites-to-compare-prices-with-python-part-2-367140620cb6)
-- [Web Scraping Election Results of PRU-15 (GE-15) using Python](https://medium.com/@elvinado/web-scraping-election-results-of-pru-15-ge-15-using-python-e9310129bf9e)
+Data integration is an essential part of data science. By integrating data from multiple sources, organizations can gain a deeper understanding of their data and make better decisions.
 
-### 2. Beautiful Soup
-- [Beautiful Soup: Build a Web Scraper With Python](https://realpython.com/beautiful-soup-web-scraper-python/)
-- [Python Web Scraping Tutorial](https://www.freecodecamp.org/news/web-scraping-python-tutorial-how-to-scrape-data-from-a-website/)
+## Table of Data Integration Tools
 
-### 3. Scrapy
-- [Scrapy.org](https://scrapy.org/)
-- [Github: Scrapy](https://github.com/scrapy/scrapy)
-- [Python Scrapy Tutorial for Beginners](https://360digitmg.com/blog/python-scrapy-tutorial-for-beginners)
-- [Spider Web Crawler: Mudah.my](https://gist.github.com/amirulasyraf88/55b5938dd220c5d883e7)
-- [Scrapy: Malaysia House Property](https://github.com/neurotichl/Scrapy-Crawl-IProperty)
+| Tool Type | Description |
+|---|---|
+| ETL | Extracts data from source systems, transforms it to make it consistent and compatible, and then loads it into a target system. |
+| ELT | Extracts data from source systems, loads it into a target system, and then transforms it as needed. |
+| EAI | Integrates data from different applications within an organization. |
 
-### 4. Requests
-- [Requests - Web Scraping using Requests](https://www.tutorialspoint.com/requests/requests_web_scraping_using_requests.htm)
-- [Web Scraping in Python with Beautiful Soup and Requests](https://www.kirenz.com/post/2022-05-02-web-scraping-in-python-with-beautiful-soup-requests-and-pandas/)
-
-### 5. Lxml
-- [Web Scraping using lxml and Python 2018: Extracting data from Steam](https://youtu.be/5N066ISH8og)
 
 ## Assignment
 

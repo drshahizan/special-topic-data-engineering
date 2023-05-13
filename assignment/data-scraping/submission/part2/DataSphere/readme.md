@@ -1,3 +1,7 @@
+<div  align="center">
+  <img  width=600px height=300px src="https://www.aib.world/wp-content/uploads/2020/12/ethics-blog-google-scholar-profile-large.jpg">
+</div>
+
 <h1 align="center"> Part 2: Web scraping text content <a href="#" target="_blank" rel="noreferrer">  </a>   <br>
 </h1>
 <h2 align="center">

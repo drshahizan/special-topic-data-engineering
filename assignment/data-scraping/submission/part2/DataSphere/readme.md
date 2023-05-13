@@ -58,6 +58,6 @@ Once the text content has been extracted, it will be stored in a database and an
 
 
 * [Web Scrapping Report](https://github.com/drshahizan/special-topic-data-engineering/blob/6ad13a3ca37ff1f345082b56fdd26569fc6ad03d/assignment/data-scraping/submission/part2/DataSphere/Report_Web%20Scrapping.md)
-* [souce Code](https://github.com/drshahizan/special-topic-data-engineering/blob/6ad13a3ca37ff1f345082b56fdd26569fc6ad03d/assignment/data-scraping/submission/part2/DataSphere/FinishedProduct.ipynb)
+* [Souce Code](https://github.com/drshahizan/special-topic-data-engineering/blob/6ad13a3ca37ff1f345082b56fdd26569fc6ad03d/assignment/data-scraping/submission/part2/DataSphere/FinishedProduct.ipynb)
 * [CSV file output](https://github.com/drshahizan/special-topic-data-engineering/blob/6ad13a3ca37ff1f345082b56fdd26569fc6ad03d/assignment/data-scraping/submission/part2/DataSphere/computingFacultyLect_Articles.csv)
 

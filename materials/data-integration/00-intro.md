@@ -6,6 +6,29 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/special-topic-data-engineering)
 
 Don't forget to hit the :star: if you like this repo.
+## History
+The history of data integration in data science can be traced back to the early days of computing. As businesses began to adopt computers in the 1950s and 1960s, they quickly realized that their data was stored in multiple incompatible formats and locations, making it difficult to access and analyze.
+
+The solution to this problem was to develop data integration tools that could bring together data from multiple sources into a single, unified view. The earliest data integration tools were designed to work with mainframe computers and involved copying data from one system to another using tape drives or other physical media.
+
+As computers became more powerful and networked, data integration tools evolved to take advantage of these new capabilities. In the 1980s, for example, the rise of client-server computing led to the development of middleware tools that could help integrate data across different types of systems, including databases, messaging systems, and file systems.
+
+In the 1990s, data integration tools continued to evolve, with the emergence of enterprise application integration (EAI) tools that could integrate data across different types of business applications, such as customer relationship management (CRM) and enterprise resource planning (ERP) systems.
+
+The early 2000s saw the emergence of extract, transform, load (ETL) tools, which were designed to extract data from different sources, transform it into a common format, and load it into a target system for analysis. These tools proved to be very popular, particularly in the business intelligence and data warehousing space.
+
+As big data emerged as a major trend in the late 2000s, data integration tools evolved again to handle the challenges of processing and analyzing large volumes of data from a wide variety of sources. This led to the development of new tools and platforms, such as Hadoop and Apache Spark, which were designed to handle massive amounts of data and enable complex data integration and analysis.
+
+Today, data integration continues to be an important area of focus in data science, as businesses seek to gain insights from the vast amounts of data they collect from various sources. As data continues to grow in volume, variety, and velocity, the need for effective data integration tools and techniques will only continue to grow.
+
+|Decade|Overview|
+|---|---|
+|1950s-1960s|Early data integration tools developed to work with mainframe computers.|
+|1980s|Middelware tools developed to integrate data across different types of systems.|
+|1990s|Enterprise application integration (EAI) tools emerge to integrate data across different types of business applications.|
+|Early 2000s|Extract, transform, load (ETL) tools emerge to extract data from different sources, transform it into a common format, and load it into a target system for analysis.|
+|Late 2000s|New tools and platforms, such as Hadoop and Apache Spark, developed to handle massive amounts of data and enable complex data integration and analysis.|
+|Present|Data integration continues to be an important area of focus in data science, as businesses seek to gain insights from the vast amounts of data they collect from various sources.|
 
 ## Data integration steps
 Data integration in data science involves several steps, including:

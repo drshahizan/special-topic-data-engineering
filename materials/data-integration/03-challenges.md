@@ -17,9 +17,7 @@ Data integration is a critical process in data science that involves combining d
 | Data cleansing | - Use data cleansing tools to automate the process of removing or correcting data<br>- Use data profiling tools to identify data quality issues |
 | Data transformation | - Use data transformation tools to automate the process of converting data from one format to another<br>- Use data integration platforms to automate data transformation and data mapping |
 
-
-
-
+Overall, data integration can be a complex task, but with the right tools and processes in place, it is possible to ensure that data is consistent, accurate, and secure. By addressing data quality, data mapping, data cleansing, data transformation, and data security, organizations can ensure that they are able to leverage the full potential of their data and achieve their business goals.
 
 
 ## Contribution 🛠️

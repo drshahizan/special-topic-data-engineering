@@ -7,47 +7,46 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Data Scraping
+# Assignment: Data Integration in Data Science
 
-## Content:
-- [Introduction]()
-- [API and Web Scraping](../api/api-web-scraping.md)
+You are tasked with developing a data integration plan for a hypothetical data science project. You will need to identify at least three different data sources, and create a plan for integrating these sources into a unified dataset that can be used for analysis.
 
-## Introduction
-Data scraping (also known as web scraping) refers to the automated process of extracting data from websites or other sources on the internet using software or tools. The data can be in various formats, such as text, images, videos, and other multimedia content.
+## Instructions:
 
-Data scraping is important for a variety of reasons. 
-1. It can help individuals and organizations gather large amounts of data quickly and efficiently, which can be used for various purposes such as research, analysis, and decision-making. For example, businesses can use data scraping to gather pricing information on competitors' products or to extract customer reviews and feedback from e-commerce websites.
+### 1. Identify three different data sources
+Identify three different data sources that are relevant to your data science project. These could be CSV files, SQL databases, APIs, or any other type of data source that can be accessed programmatically. For each data source, provide a brief description of the data it contains, and explain why it is relevant to your project.
 
-2. Data scraping can help to automate repetitive tasks, such as manual data entry, saving time and resources. This can be particularly useful for organizations that need to process large amounts of data on a regular basis.
+**Example:**<br>
+Data source 1: CSV file containing information on customer transactions. This data includes customer IDs, purchase amounts, and dates of transactions. This data is relevant because we want to analyze customer purchasing behavior over time.
 
-3. Data scraping can be used to monitor changes on websites or other sources in real-time, which can be useful for tracking news or social media trends, or for monitoring competitors' activities.
+### 2. Develop a plan for integrating data sources
+Develop a plan for integrating these data sources into a unified dataset. This plan should include details on how you will map the data from each source onto a common schema, how you will handle missing or incomplete data, and any other data cleaning or transformation steps that will be necessary.
 
-When scraping a website for **text**, the scraper typically uses a web crawler or spider to navigate the site and retrieve the relevant data. The text data can then be parsed and extracted using tools like BeautifulSoup or Scrapy, which can identify and extract specific HTML tags and their contents.
+**Example:**<br>
+To integrate the customer transaction data with our other data sources, we will need to map the customer IDs to a common format, and combine the purchase amounts and dates into a single table. We will also need to handle cases where a customer ID is missing from one or more data sources, or where a purchase amount or date is missing. To do this, we will use data imputation techniques to fill in missing values where possible, and exclude records where missing data cannot be imputed.
 
-For scraping **images and videos**, the process is similar, but requires additional steps to identify and download the specific media files. The scraper may need to identify the URL of each image or video file and then use a library like [**Pillow**](pillow.md) or [**OpenCV**](opencv.md) to download and process the media files.
+> Use an ETL tool such as Talend or Apache Nifi to extract, transform, and load the data into a single data warehouse.
 
-Overall, data scraping has become an essential tool for individuals and organizations seeking to gather and process large amounts of data quickly and efficiently, allowing for more informed decision-making and improved efficiency. However, it's important to note that data scraping can also raise ethical concerns, particularly when it comes to the privacy and security of individuals' data.
 
-## Types of web scraping techniques
-There are several types of web scraping techniques that can be used to extract data from websites. Here are some of the most common types:
+### 3. Implement your data integration plan
+Implement your data integration plan using Python or another programming language of your choice. Your implementation should include code for loading data from each data source, mapping the data onto a common schema, and cleaning and transforming the data as needed.
 
-### 1. [HTML Parsing](html-parsing.md)
-This is the most basic form of web scraping, which involves parsing the HTML code of a website to extract specific data elements. It's usually done using libraries like Beautiful Soup, lxml, or HTML Parser.
+**Example:**<br>
+We will use Python to implement our data integration plan. We will load the customer transaction data from a CSV file using the Pandas library, and map it onto a common schema using a combination of Pandas data manipulation functions and custom code. We will also use the Scikit-learn library to perform data imputation, and the Seaborn library to visualize the integrated dataset.
 
-### 2. [API Scraping](api-scraping.md)
-Many websites provide APIs (Application Programming Interfaces) that allow developers to access data in a structured format. API scraping involves making requests to these APIs to retrieve data.
+### 4. Evaluate the success of your data integration plan. 
+This should include a qualitative assessment of the quality and completeness of the integrated dataset, as well as any quantitative metrics that are relevant to your project.
 
-### 3. [DOM Parsing](dom-parsing.md)
-This technique involves using the Document Object Model (DOM) of a web page to extract data. The DOM is a tree-like structure that represents the HTML code of a web page. JavaScript libraries like jQuery and Cheerio are often used for DOM parsing.
+**Example:**<br>
+We will evaluate the success of our data integration plan by comparing the integrated dataset to our original data sources, and by analyzing the quality of the data using standard metrics such as mean, median, and standard deviation. We will also assess the completeness of the integrated dataset by comparing it to our expected schema, and by identifying any missing or incomplete data that was not addressed by our data cleaning and transformation steps.
 
-### 4. [Automated Web Browsing](auto-web-browsing.md)
-This technique involves using a web browser like Chrome or Firefox to navigate through a website and extract data. This is typically done using browser automation tools like Selenium or Puppeteer.
+### 5. Write a report summarizing your data integration plan and your results. 
+This report should include a description of your data sources, a detailed explanation of your data integration plan, and an analysis of the success of your plan.
 
-### 5. [Machine Learning](machine-learning.md)
-Machine learning techniques can be used to train models that can automatically extract data from web pages. This is typically done using techniques like natural language processing (NLP) and computer vision.
+**Example:**<br>
+Our report summarizes our data integration plan for integrating customer transaction data with other data sources for a data science project analyzing customer behavior over time. We identified three different data sources, and developed a plan for mapping the data onto a common schema, handling missing or incomplete data, and cleaning and transforming the data as needed. We implemented our plan using Python, and evaluated the success of our plan by comparing the integrated dataset to our original data sources and assessing the quality and completeness of the integrated dataset. Our analysis shows that our data integration plan was successful, and that the integrated dataset is suitable for use in our data science project.
 
-The choice of web scraping technique depends on the nature of the data being extracted and the complexity of the website structure.
+By using a real-world example and providing step-by-step instructions, this assignment can help students understand the importance of data integration in data science and how it can be applied in practical scenarios. It also provides an opportunity for students to practice using data integration tools and applying machine learning techniques to gain insights from the data.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

@@ -20,7 +20,7 @@ Apache Kafka is a distributed messaging system that can be used for real-time da
 
 5. Configure Kafka Connect: Kafka Connect is a framework for building and running connectors that can move data from external systems into Kafka and vice versa. You can use Kafka Connect to connect to external systems and pull data into Kafka or push data from Kafka to external systems.
 
-Here is an example of using Apache Kafka for data integration with three different data sources:
+## Using Apache Kafka for data integration with three different data sources
 
 Suppose you have an e-commerce website that generates data from three sources: web logs, order data, and customer data. You want to integrate this data in real-time to analyze customer behavior, product trends, and sales performance. You can use Apache Kafka for this purpose.
 
@@ -34,7 +34,7 @@ Suppose you have an e-commerce website that generates data from three sources: w
 
 5. Configure Kafka Connect to connect to the database and push data from the customer_behavior topic to the database.
 
-Case study using data science project:
+## Case study using data science project
 
 Suppose you have a data science project in which you need to integrate data from multiple sources, including social media, weather data, and customer feedback. You want to use Apache Kafka to integrate this data in real-time.
 

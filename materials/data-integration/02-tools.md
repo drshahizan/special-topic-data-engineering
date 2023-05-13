@@ -7,22 +7,23 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# DOM Parsing
-DOM (Document Object Model) parsing is a technique used in web scraping to extract data from the HTML code of a webpage. The DOM is a hierarchical representation of the webpage's HTML code, where each element in the HTML code is represented as a node in the DOM tree.
+# Data Integration: Tools and technologies
 
-DOM parsing typically involves traversing the DOM tree using a parsing library like BeautifulSoup, lxml or html5lib, and extracting the data of interest from specific nodes or elements. Here's how DOM parsing typically works:
+Data integration involves the process of combining data from various sources and transforming it into a unified view that can be analyzed for insights. In order to achieve this, data scientists need to use various tools and technologies to extract, transform, and load the data. In this section, we will discuss some of the key tools and technologies used for data integration in data science.
 
-1. Obtain the HTML code of the webpage using a library like Requests.
+1. ETL Tools: ETL (Extract, Transform, Load) tools are used to extract data from different sources, transform it into a common format, and load it into a target system. These tools are used to automate the data integration process and can handle large volumes of data. Some popular ETL tools include Talend, Informatica, and Microsoft SQL Server Integration Services.
 
-2. Parse the HTML code into a DOM tree using a parsing library like BeautifulSoup, lxml, or html5lib.
+2. ELT Tools: ELT (Extract, Load, Transform) tools are similar to ETL tools, but they load the data into a target system before transforming it. This approach is useful when dealing with large amounts of data that cannot be transformed in real-time. Some popular ELT tools include Amazon Redshift, Snowflake, and Google BigQuery.
 
-3. Traverse the DOM tree to locate the elements containing the data of interest, using selectors like CSS selectors or XPath.
+3. Data Integration Platforms: Data integration platforms are designed to provide a unified view of data across multiple sources. These platforms typically include a range of features such as data mapping, data profiling, and data quality tools. Some popular data integration platforms include IBM InfoSphere, Talend, and Microsoft Azure Data Factory.
 
-4. Extract the data of interest from the selected elements, using the appropriate methods of the parsing library, such as .text or .get.
+4. Data Warehouses: Data warehouses are designed to store and manage large volumes of data from various sources. These systems are used to support business intelligence and analytics applications. Popular data warehouses include Amazon Redshift, Snowflake, and Google BigQuery.
 
-5. Save the extracted data in a structured format, such as a CSV or JSON file.
+5. API Integration Tools: API (Application Programming Interface) integration tools are used to integrate data from various web services and cloud-based applications. These tools provide a standard interface for accessing data across different platforms. Some popular API integration tools include MuleSoft, Apigee, and Microsoft Azure API Management.
 
-DOM parsing is a powerful technique for web scraping because it allows for the extraction of specific data elements from the HTML code, without having to extract all of the HTML code. However, it's important to note that the structure of the DOM tree can vary greatly depending on the complexity of the webpage being scraped, which can make DOM parsing a more complex technique than other scraping techniques like API scraping. Additionally, DOM parsing can be slower than other techniques, especially on large webpages with a lot of HTML code.
+6. Data Virtualization: Data virtualization is a technique that allows data to be accessed and integrated in real-time, without the need for data replication. This approach is useful when dealing with large volumes of data that are constantly changing. Popular data virtualization tools include Denodo, Cisco Data Virtualization, and SAP HANA.
+
+In conclusion, data integration is a critical process in data science, and various tools and technologies are available to automate and streamline the process. ETL and ELT tools are used to extract and transform data, data integration platforms provide a unified view of data, data warehouses store and manage large volumes of data, API integration tools integrate data from various web services and cloud-based applications, and data virtualization enables real-time data integration without data replication. Data scientists need to carefully evaluate these tools and technologies and choose the ones that best fit their specific requirements and use cases.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

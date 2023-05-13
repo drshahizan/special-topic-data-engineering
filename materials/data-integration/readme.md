@@ -18,7 +18,7 @@ Data integration is the process of combining data from multiple sources into a u
 | 1. | [Best practices for data integration in data science](01-best-practice.md) | This topic covers the best practices to follow while integrating different data sources, including data quality, data mapping, data cleansing, and data transformation. |
 | 2. | [Tools and technologies for data integration in data science](02-tools.md) | This topic provides an overview of the popular data integration platforms such as Apache Kafka, Apache Nifi, Microsoft Azure Data Factory, and Talend, among others, used for data integration in data science. |
 | 3. | [Challenges and solutions in data integration for data science](03-challenges.md) | This topic covers the challenges faced in data integration, including data silos, data security, data privacy, and data governance, and explores solutions to overcome these challenges. |
-| 4. | Case studies of successful data integration in data science | This topic features examples of companies that have effectively integrated their data to achieve better business insights and outcomes. |
+| 4. | [Case studies of successful data integration in data science](04-case-study.md) | This topic features examples of companies that have effectively integrated their data to achieve better business insights and outcomes. |
 | 5. | Data integration and machine learning | This topic explores how data integration plays a crucial role in training machine learning models and providing accurate predictions. |
 
 

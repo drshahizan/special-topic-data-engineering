@@ -19,7 +19,7 @@ Data integration is the process of combining data from multiple sources into a u
 | 2. | [Tools and technologies for data integration in data science](02-tools.md) | This topic provides an overview of the popular data integration platforms such as Apache Kafka, Apache Nifi, Microsoft Azure Data Factory, and Talend, among others, used for data integration in data science. |
 | 3. | [Challenges and solutions in data integration for data science](03-challenges.md) | This topic covers the challenges faced in data integration, including data silos, data security, data privacy, and data governance, and explores solutions to overcome these challenges. |
 | 4. | [Case studies of successful data integration in data science](04-case-study.md) | This topic features examples of companies that have effectively integrated their data to achieve better business insights and outcomes. |
-| 5. | Data integration and machine learning | This topic explores how data integration plays a crucial role in training machine learning models and providing accurate predictions. |
+| 5. | [Data integration and machine learning](05-di-ml.md) | This topic explores how data integration plays a crucial role in training machine learning models and providing accurate predictions. |
 
 
 ## Table of Data Integration Tools
@@ -29,6 +29,8 @@ Data integration is the process of combining data from multiple sources into a u
 | ETL       | Extracts data from one or more sources, transforms it to fit a specific format or structure, and loads it into a target system. ETL is commonly used for batch processing and data warehousing. |
 | ELT       | Extracts data from one or more sources and loads it into a target system, where it is then transformed as needed. ELT is commonly used for real-time or near-real-time processing, and is often associated with cloud-based data integration. |
 | EAI       | Integrates data from multiple enterprise applications, such as CRM, ERP, and SCM systems, to provide a unified view of business processes. EAI is commonly used in large organizations to streamline operations and improve data accuracy. |
+
+## [Assignment](assignment.md)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

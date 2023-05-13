@@ -6,6 +6,9 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/special-topic-data-engineering)
 
 Don't forget to hit the :star: if you like this repo.
+
+# Data Integration: Introduction
+
 ## History
 The history of data integration in data science can be traced back to the early days of computing. As businesses began to adopt computers in the 1950s and 1960s, they quickly realized that their data was stored in multiple incompatible formats and locations, making it difficult to access and analyze.
 
@@ -60,7 +63,13 @@ Data integration in data science has several benefits, including:
 5. Ability to train and build better machine learning models
 
 ## How Big Companies in Data Science Use Data Integration to Gain Insights
-Many big companies in data science rely heavily on data integration to gain insights from their vast amounts of data. Here are a few examples of how some of these companies use data integration:
+Big companies in data science use data integration to bring together data from various sources and make it accessible for analysis. Data integration helps these companies to overcome challenges such as data silos, data quality issues, and data inconsistencies, allowing them to make informed decisions based on a unified and comprehensive view of their data.
+
+One way that big companies in data science use data integration is by implementing enterprise data warehouses (EDWs). EDWs are central repositories that store data from various sources, such as operational databases, transactional systems, and other data stores. The data is extracted, transformed, and loaded into the EDW using ETL tools, making it available for analysis and reporting.
+
+Another way that big companies in data science use data integration is by implementing data lakes. Data lakes are designed to store large volumes of raw, unstructured data from various sources, such as social media, sensor data, and log files. Data lakes use technologies such as Hadoop and Apache Spark to store and process data, enabling data scientists to perform complex analyses and gain new insights.
+
+Big companies in data science also use data integration to integrate data from external sources, such as customer data, social media data, and market research data. This helps companies to gain a 360-degree view of their customers and market trends, enabling them to make informed decisions about product development, marketing campaigns, and customer service. Here are a few examples of how some of these companies use data integration:
 
 1. Amazon: Amazon is one of the largest companies in the world and uses data integration to bring together data from various sources, such as customer data, transactional data, and social media data. Amazon uses this data to provide personalized recommendations to its customers, improve its supply chain management, and make informed business decisions. Amazon also uses data integration to integrate data from its Amazon Web Services (AWS) platform, which provides a range of cloud-based services to businesses.
 
@@ -71,6 +80,17 @@ Many big companies in data science rely heavily on data integration to gain insi
 4. Microsoft: Microsoft is a large technology company that provides a range of data integration tools to its customers. Microsoft uses data integration to integrate data from various sources, such as customer data, financial data, and sales data. Microsoft's data integration tools enable its customers to bring together data from various sources and perform complex data analyses, helping them to gain insights and make informed business decisions.
 
 In summary, many big companies in data science rely heavily on data integration to make sense of their vast amounts of data. These companies use data integration to bring together data from various sources, perform complex data analyses, and gain insights that enable them to make informed business decisions.
+
+## Data Integration Issues and  Solutions
+Data integration is a critical process in data science that involves combining data from various sources to create a unified view of the data. However, data integration can also pose several challenges, such as data quality issues, data inconsistencies, and data silos. In this section, we will discuss some of the key issues in data integration and the solutions that data scientists can use to address them.
+
+| Data Integration Issue | Solution |
+| --- | --- |
+| Data quality issues | - Use data cleansing techniques such as removing duplicates, filling in missing data, and correcting errors<br>- Use data profiling tools to identify and resolve data quality issues |
+| Data mapping | - Use data mapping tools to automate the process of aligning data from different sources<br>- Use metadata management tools to create a common language for data |
+| Data cleansing | - Use data cleansing tools to automate the process of removing or correcting data<br>- Use data profiling tools to identify data quality issues |
+| Data transformation | - Use data transformation tools to automate the process of converting data from one format to another<br>- Use data integration platforms to automate data transformation and data mapping |
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

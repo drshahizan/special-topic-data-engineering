@@ -26,12 +26,76 @@ import cv2
 import numpy as np
 ```
 
-## 3. Choosing a Library for Web Scraping
-- Compare and contrast the available libraries for web scraping multimedia content, including Pillow and OpenCV.
-- Explain the criteria used to choose the appropriate library for this project.
-- Justify the final choice and explain the advantages of the chosen library.
+4. Establish the endpoint URLs and API key. Initially, finding the Flickr photographs or videos that you want to scrape is the first step. This might be achieved by looking for particular tags or keywords associated with the study topic. In this example, the tag 'bridge' is mentioned. Additionally, we are utilising three API urls to search for the photo and obtain the "photo_id" before obtaining the metadata using the info and exif APIs.
+```ruby
+api_key = "44ea8d9eef59bddae531535b21df31f8"
+search_url = "https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key={api_key}&tags=bridge&per_page=100&page=1&format=json&nojsoncallback=1"
+info_url = "https://www.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key={api_key}&photo_id={photo_id}&format=json&nojsoncallback=1"
+exif_url = "https://www.flickr.com/services/rest/?method=flickr.photos.getExif&api_key={api_key}&photo_id={photo_id}&format=json&nojsoncallback=1"
+```
+> **API Keys** - To monitor API usage, we must have an application key in order to utilise the Flickr API. The API can only currently be used commercially with prior authorization. Staff members examine requests for API keys intended for commercial use. Please keep in mind that you must obtain your own API key through [this link](https://www.flickr.com/services/api/) > API Keys. Do fill in necessary information requested by Flickr then kindly wait for the team to respond.
 
-## 4. Storing Data in MongoDB
+5. To obtain the search results, make an API call. This search will yield just 100 results. It is possible to provide it in the 'search_url' flickr.photos.search method by setting the per_page parameter to 100 to get 100 results per page and then looping through the pages to get all the photo IDs.
+```ruby
+response = requests.get(search_url.format(api_key=api_key))
+data = json.loads(response.text)
+total_pages = data["photos"]["page"]
+```
+
+6. After identifying the desired data, use the Flickr API to retrieve the URLs for each image or video. Get the photo metadata by iterating through all of the pages. Because some owners restrict access to their exif data, the metadata is limited to merely collecting the title, author, url, camera make and model. Furthermore, Flickr has stringent policies about the usage of their information, so it's critical to guarantee that the data is used in accordance with their terms of service.
+```ruby
+# Get the photo metadata by iterating through all of the pages.
+metadata_list = []
+for page in range(1, total_pages+1):
+    response = requests.get(search_url.format(api_key=api_key, page=page))
+    data = json.loads(response.text)
+    for photo in data["photos"]["photo"]:
+        # Retrieve the photo information
+        response = requests.get(info_url.format(api_key=api_key, photo_id=photo["id"]))
+        data = json.loads(response.text)
+        metadata = data["photo"]
+
+        # Retrieve the camera settings
+        response = requests.get(exif_url.format(api_key=api_key, photo_id=photo["id"]))
+        data_exif = json.loads(response.text)
+
+        # Make a dictionary of the metadata and camera settings.
+        metadata_dict = {
+            "Title": metadata["title"].get("_content", "Untitled"),
+            "Author": metadata["owner"]["username"],
+            "URL": f'https://live.staticflickr.com/{metadata["server"]}/{metadata["id"]}_{metadata["secret"]}.jpg',
+        }
+
+        if data_exif['stat'] == 'fail':
+            exif_data ="Owner denied access"
+        else:
+            exif_data = data_exif["photo"]["exif"]
+
+            for exif in exif_data:
+                if exif["label"] in ["Make", "Model"]:
+                    metadata_dict[exif["label"]] = exif["raw"]["_content"]
+
+                # Add the metadata to the list
+        metadata_list.append(metadata_dict)
+```
+
+
+7. Download the photos and save the metadata to a CSV file. Metadata such as geolocation data, camera information, and tags are included in the data set acquired. Depending on the quality and duration of the multimedia material, the size of each file might range from a few kilobytes to several megabytes. Image formats such as JPEG are utilised as file types. The metadata can be used to determine trends in the use of tags or geolocation data, as well as to investigate the properties of the multimedia material itself. We utilise the OpenCV package to handle the photos and information in order to generate the csv file for this data.
+```ruby
+with open("Flickr Image Scraping_DataSphere.csv", "w", newline="", encoding="utf-8") as f:
+    writer = csv.DictWriter(f, fieldnames=["Title", "Author", "URL", "Make", "Model"])
+    writer.writeheader()
+
+    for metadata in metadata_list:
+        # Download the image
+        response = requests.get(metadata["URL"])
+        image = cv2.imdecode(np.frombuffer(response.content, np.uint8), cv2.IMREAD_COLOR)
+
+        # Write the metadata to the CSV file
+        writer.writerow(metadata)
+```
+
+## 3. Storing Data in MongoDB
 
 The benefits of using MongoDB for storing multimedia content data:
 1. Scalability: MongoDB is designed to scale horizontally, which means it can handle large volumes of multimedia content data without sacrificing performance.
@@ -100,7 +164,7 @@ db.photos.find().sort({ views: -1 }).limit(10)
 ```
 
 
-## 5. Conclusion
+## 4. Conclusion
 
 The following are the primary takeaways from the online scraping of Flickr's automotive-related multimedia content:
 

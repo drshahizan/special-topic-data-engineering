@@ -7,90 +7,105 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Apache NiFi
+# Microsoft Azure Data Factory (ADF)
 
-Apache NiFi is an open-source data integration platform used for collecting, processing, and distributing data from various sources. NiFi was initially developed by the United States National Security Agency (NSA) and later became an open-source project under the Apache Software Foundation in 2014.
+Microsoft Azure Data Factory (ADF) is a cloud-based data integration service that enables users to create, schedule, and manage data pipelines that move and transform data from various sources.
 
-## Introduction
-NiFi is designed to handle a wide variety of data formats and protocols, including structured and unstructured data, as well as streaming and batch data. It has a drag-and-drop interface that allows users to create data flows and transformations, making it easy to manage complex data integration pipelines.
+## History
+Microsoft Azure Data Factory was first released in 2015 and has since undergone multiple updates and enhancements. The service is part of Microsoft's Azure cloud platform and integrates with other Azure services such as Azure SQL Database, Azure HDInsight, and Azure Machine Learning.
 
-NiFi is commonly used in data integration scenarios where there is a need to collect and process data from multiple sources, transform it into a common format, and distribute it to various systems and applications. NiFi also supports real-time data processing and streaming, making it an ideal tool for building data pipelines for IoT devices and other real-time data sources.
+## Features
+Azure Data Factory provides a range of features that enable users to integrate, transform, and process data from various sources. These include:
 
-In terms of the companies using NiFi, it has gained significant popularity in recent years and is now used by many large enterprises, including Adobe, Capital One, Cisco, NASA, and the US Department of Defense, among others. These companies use NiFi for a variety of use cases, including data integration, data migration, log collection, and real-time analytics.
+1. Integration with various data sources: ADF supports integration with a wide range of data sources including structured and unstructured data, on-premises and cloud-based data, and relational and non-relational data sources.
 
-In summary, Apache NiFi is a powerful tool for data integration and data processing. It has a rich history, starting with its development by the NSA and subsequent adoption as an open-source project. Today, NiFi is widely used by many large enterprises for a variety of use cases, and its popularity is only expected to grow as more companies seek to leverage the power of data integration and real-time data processing.
+2. Data transformation: ADF provides a range of data transformation tools such as mapping, data conversion, and data aggregation to help users transform data as it is moved between sources.
 
-## 10 companies that are using Apache Nifi for data integration
+3. ETL and ELT processes: ADF enables users to create extract, transform, and load (ETL) and extract, load, and transform (ELT) processes that can be used to build data pipelines.
 
-| Company | Industry | Use case | Reason for using NiFi |
-| --- | --- | --- | --- |
-| Adobe | Technology | Data integration | NiFi is used to collect, process, and transform data from various sources to power Adobe's analytics platform. |
-| Capital One | Finance | Data migration | NiFi is used to migrate data between various systems and platforms as part of Capital One's digital transformation efforts. |
-| Cisco | Technology | IoT data processing | NiFi is used to process and analyze data from IoT devices to power Cisco's networking and security solutions. |
-| NASA | Aerospace | Data processing | NiFi is used to process and analyze data from various scientific instruments and spacecraft to power NASA's research efforts. |
-| US Department of Defense | Government | Data integration | NiFi is used to collect, process, and distribute data from various sources to support the Department of Defense's operations and missions. |
-| Yelp | Technology | Log collection | NiFi is used to collect and process log data from Yelp's various systems and applications to power its analytics and monitoring tools. |
-| Amgen | Biotechnology | Data processing | NiFi is used to process and analyze data from various scientific experiments to power Amgen's research efforts. |
-| BlackRock | Finance | Data integration | NiFi is used to collect, process, and distribute financial data from various sources to power BlackRock's investment management platform. |
-| Verizon | Telecommunications | Data integration | NiFi is used to collect, process, and transform data from various sources to power Verizon's analytics and business intelligence tools. |
-| Symantec | Technology | Data integration | NiFi is used to collect, process, and distribute data from various sources to support Symantec's cybersecurity operations and products. |
+4. Visual interface: ADF provides an intuitive drag-and-drop interface that enables users to easily build and manage data pipelines.
 
-These companies use NiFi for a variety of use cases, including data integration, data migration, log collection, and real-time data processing. NiFi's ability to handle complex data integration scenarios with ease, its drag-and-drop interface for building data flows, and its support for real-time data processing make it an ideal tool for these types of use cases.
+5. Integration with Azure services: ADF integrates with other Azure services such as Azure SQL Database, Azure HDInsight, and Azure Machine Learning to enable users to process and analyze data in real-time.
 
-## High-level overview of how to use Apache Nifi
-Apache NiFi is a data integration platform that allows users to collect, process, and distribute data from various sources. Here is a high-level overview of how to use NiFi:
+## 10 companies that are using ADF for data integration
 
-1. Install NiFi: NiFi can be installed on a server or a local machine. Once installed, it can be accessed through a web-based user interface.
+| Company | Industry | Use Case |
+| --- | --- | --- |
+| 3M | Manufacturing | Used ADF to integrate data from various sources including SAP and Oracle and provide real-time analytics for improved decision-making. |
+| Chevron | Oil and Gas | Used ADF to integrate data from its various operational systems and provide real-time analytics for improved production efficiency and cost savings. |
+| ABB | Industrial Automation | Used ADF to move and process data from its various production systems, enabling real-time monitoring and analysis for improved quality control and operational efficiency. |
+| Cargill | Agriculture | Used ADF to integrate data from various sources including sensor data and weather forecasts to optimize crop yield and improve overall business operations. |
+| GE Aviation | Aerospace | Used ADF to integrate data from various systems including flight data, maintenance records, and weather forecasts to improve aircraft safety, maintenance, and overall performance. |
+| Schneider Electric | Energy Management | Used ADF to integrate data from various sources including IoT devices and operational systems to improve energy management and reduce costs. |
+| LG Electronics | Consumer Electronics | Used ADF to integrate data from various sources including customer feedback and sales data to improve product development and marketing strategies. |
+| Rockwell Automation | Industrial Automation | Used ADF to integrate data from various operational systems and enable real-time monitoring and analysis for improved maintenance and operational efficiency. |
+| Carnival Corporation | Travel and Hospitality | Used ADF to integrate data from various systems including passenger information and ship operations to optimize guest experience and improve overall operations. |
+| Swisscom | Telecommunications | Used ADF to integrate data from various sources including customer data and network data to improve network management and customer experience. |
 
-2. Build a data flow: NiFi's user interface allows users to build data flows by dragging and dropping processors onto a canvas. Processors are the building blocks of a data flow, and they can be used to collect, process, and distribute data.
+These are just a few examples of companies across various industries that have used Microsoft Azure Data Factory for their data integration needs. ADF's ability to integrate with various data sources and provide real-time analytics makes it a popular choice for companies looking to streamline their data processes and gain insights from their data.
 
-3. Configure processors: Each processor has its own set of configuration options that determine how it operates on data. For example, a processor used to collect data might need to be configured with a URL or a file path.
+## High-level overview of how to use ADF
+Microsoft Azure Data Factory (ADF) is a cloud-based data integration service that enables users to create, schedule, and orchestrate data workflows. ADF allows users to integrate data from various sources, such as on-premises and cloud-based data sources, and transform and load that data into various target destinations such as data lakes, data warehouses, and databases.
 
-4. Connect processors: Processors can be connected to form a data flow. Connections between processors determine the order in which data flows through the data flow.
+Here is a high-level overview of how to use Microsoft Azure Data Factory:
 
-5. Monitor the data flow: NiFi's user interface provides real-time feedback on the status of the data flow. Users can view metrics, logs, and alerts to monitor the performance of the data flow.
+1. Create a data factory: To get started with ADF, you need to create a data factory. A data factory is a logical container that holds your data integration pipelines, datasets, and linked services.
 
-6. Modify the data flow: As data sources or use cases change, users can modify the data flow by adding or removing processors or changing the configuration of existing processors.
+2. Define your data sources and sinks: ADF supports a wide range of data sources and sinks, including Azure services such as Azure Blob Storage, Azure Data Lake Storage, Azure SQL Database, and many others, as well as on-premises data sources such as SQL Server, Oracle, and SAP.
 
-NiFi's drag-and-drop interface and configurable processors make it easy to build and modify data flows, while its real-time feedback and monitoring capabilities provide users with valuable insights into the performance of their data integration pipelines.
+3. Create pipelines: Pipelines are the core component of ADF. A pipeline is a workflow that defines the movement and transformation of data from source to destination. You can create pipelines using the visual pipeline designer in the ADF portal or by using code.
 
-## Using Apache Kafka for data integration with three different data sources
+4. Configure activities: Activities are the building blocks of pipelines. They define the individual steps or tasks that are performed in a pipeline. ADF provides a variety of pre-built activities for data transformation, movement, and processing, such as copy data, execute stored procedure, and web activity.
 
-Using Apache NiFi for data integration with three different data sources is a common use case. Here is a high-level overview of how to do this:
+5. Monitor and manage pipelines: ADF provides monitoring and management tools to help you keep track of your pipelines and ensure that they are running smoothly. You can use the ADF portal to monitor the status of your pipelines, set up alerts for pipeline failures, and view logs to troubleshoot issues.
 
-1. Identify data sources: The first step is to identify the data sources you want to integrate. In this example, let's say you have three different data sources: a MySQL database, a REST API, and a CSV file.
+6. Schedule pipelines: ADF allows you to schedule pipelines to run at specific times or intervals. You can create trigger-based schedules or time-based schedules.
 
-2. Build a data flow: Using NiFi's drag-and-drop interface, you can build a data flow that collects data from these three sources and integrates them into a single data stream. Start by dragging processors onto the canvas that correspond to each data source. For example, you can use the "GetMySQL" processor to connect to the MySQL database and retrieve data, the "InvokeHTTP" processor to connect to the REST API and retrieve data, and the "GetFile" processor to read data from the CSV file.
+Overall, Microsoft Azure Data Factory is a powerful and flexible data integration service that allows users to integrate data from various sources and transform and load that data into various target destinations. With its visual pipeline designer, pre-built activities, and monitoring and management tools, ADF makes it easy for users to create and manage data integration workflows in the cloud.
 
-3. Configure processors: Each processor needs to be configured with the appropriate connection details and credentials. For example, you need to configure the "GetMySQL" processor with the hostname, port, database name, and credentials required to connect to the MySQL database.
+## Using ADF for data integration with three different data sources
 
-4. Connect processors: Once the processors are configured, connect them in the appropriate order to create a data flow. For example, you might use a "MergeContent" processor to merge the data streams from the three sources into a single flow.
+An example of how to use ADF for data integration with three different data sources:
 
-5. Process data: The data flow can now be started to process data from the three sources. The data can be transformed, enriched, or filtered as required using processors like "SplitText", "ReplaceText", and "FilterRows".
+1. Set up your data sources: In this example, we will be integrating data from three different sources - a CSV file stored in Azure Blob Storage, a SQL Server database, and a REST API. First, you will need to set up your data sources and create linked services in ADF to connect to each of them.
 
-6. Send data to a destination: Finally, the integrated data can be sent to a destination using a processor like "PutKafka" or "PutFile". For example, you might send the data to a Kafka topic for further processing or store it in a file for analysis.
+2. Define your datasets: Once you have set up your data sources, the next step is to define your datasets. A dataset is a named reference to a data source that defines the format and schema of the data.
 
-Using NiFi to integrate data from multiple sources is a powerful capability that can be accomplished with minimal coding using its intuitive drag-and-drop interface and pre-built processors.
+For the CSV file, you can create a dataset that points to the file location in Azure Blob Storage and specifies the format and schema of the data. For the SQL Server database, you can create a dataset that points to the database and specifies the tables or views to be used in the integration process. For the REST API, you can create a dataset that defines the API endpoint and the format of the data.
 
-## Case Study: Analyzing Social Media Sentiment
+3. Create pipelines: Once you have defined your datasets, the next step is to create pipelines that define the integration process. In ADF, you can create pipelines using the visual pipeline designer or by using code.
 
-Suppose you are working on a data science project to analyze social media sentiment using Twitter data. Your goal is to collect tweets related to a particular topic, clean and preprocess the data, and analyze the sentiment of the tweets.
+> For our example, you can create a pipeline that uses the Copy Data activity to copy data from the CSV file to a staging table in the SQL Server database. You can then create another pipeline that uses the Lookup and Web activities to retrieve data from the REST API and join it with data in the staging table. Finally, you can create a third pipeline that uses the Stored Procedure activity to insert the joined data into a final destination table in the SQL Server database.
 
-1. Collect data using NiFi: You can use NiFi to collect tweets from the Twitter API using the "GetTwitter" processor. This processor can be configured with the appropriate API keys and access tokens required to access the Twitter API. You can also configure the processor to filter tweets by a particular topic or hashtag.
+4. Schedule pipelines: Once you have created your pipelines, the final step is to schedule them to run at specific times or intervals. In ADF, you can create trigger-based schedules or time-based schedules.
 
-2. Clean and preprocess data: Once you have collected the tweets, you can use NiFi to clean and preprocess the data. You can use processors like "ReplaceText" and "ExtractText" to remove unwanted characters and extract relevant information from the tweets. You can also use the "SplitText" processor to split the tweets into individual words and the "ToLowercase" processor to convert all words to lowercase.
+> For example, you can set up a trigger-based schedule to run the first pipeline to copy data from the CSV file to the SQL Server database every time a new file is added to the Azure Blob Storage container. You can set up a time-based schedule to run the second pipeline to retrieve data from the REST API every day at a specific time. And you can set up a trigger-based schedule to run the third pipeline to insert the joined data into the final destination table every time the staging table is updated.
 
-3. Analyze sentiment: With the cleaned and preprocessed data, you can now analyze the sentiment of the tweets. You can use a pre-built sentiment analysis model or build your own using a machine learning framework like TensorFlow or PyTorch. You can use a "ExecuteScript" processor to run the sentiment analysis model and assign a sentiment score to each tweet.
+Microsoft Azure Data Factory is a powerful and flexible data integration service that allows users to integrate data from various sources and transform and load that data into various target destinations. With its visual pipeline designer, pre-built activities, and monitoring and management tools, ADF makes it easy for users to create and manage complex data integration workflows in the cloud.
 
-4. Store the results: Finally, you can use NiFi to store the results of the sentiment analysis. You can use a "PutFile" processor to store the results in a file or a "PutKafka" processor to send the results to a Kafka topic for further processing.
+## Case Study
 
-Overall, using NiFi in this data science project allows you to seamlessly collect, clean, preprocess, and analyze social media data in real-time. The pre-built processors and intuitive drag-and-drop interface of NiFi make it easy to build and modify data flows as your project evolves.
+How Microsoft Azure Data Factory (ADF) works for data integration in a data science project:
+
+Let's say we are working on a project that involves analyzing data from multiple sources - a CSV file containing customer data, a database with product information, and a REST API that provides real-time sales data. We want to bring all of this data together into a single location so we can perform analysis and generate insights.
+
+1. Set up the data sources: In this case, we will set up Azure Blob Storage to store the CSV file, Azure SQL Database to store the product information, and the REST API to access real-time sales data. We will create linked services in ADF to connect to each of these data sources.
+
+2. Define the datasets: We will create three datasets in ADF to represent our data sources - one for the CSV file, one for the SQL database, and one for the REST API. Each dataset will specify the format and schema of the data.
+
+3. Create the pipeline: We will create a pipeline in ADF that defines the integration process. The pipeline will use the Copy Data activity to copy data from the CSV file to a staging table in the SQL database, the Lookup activity to retrieve data from the product database, and the Web activity to retrieve data from the REST API. We will then use the Join activity to merge the data together based on a common identifier.
+
+4. Schedule the pipeline: We will schedule the pipeline to run daily at a specific time to retrieve the most recent sales data. We can also set up alerts in ADF to notify us if the pipeline fails or if any unexpected issues arise.
+
+5. Monitor the pipeline: We can use the ADF monitoring and management tools to monitor the pipeline and track its progress. We can view the status of each activity, check for errors or warnings, and view performance metrics to ensure that the pipeline is running efficiently.
+
+Once the data has been integrated, we can use tools like Power BI or Azure Machine Learning to analyze the data and generate insights. By using ADF to bring together data from multiple sources, we can gain a more comprehensive understanding of our customers, products, and sales performance, and make better-informed business decisions.
 
 
 ## Useful links
-- [Apache NiFi Introduction](https://youtu.be/-T9xuBMfI50)
-- [Apache NiFi - The Complete Guide for Beginners](https://www.youtube.com/watch?v=VVnFt54jUQ8&list=PL55symSEWBbMBSnNW_Aboh2TpYkNIFMgb)
-- [How to install Apache NIFI | How to install Apache NIFI on Windows](https://youtu.be/orDt2C5WDfk)
+- [How to Use Azure Data Factory](https://youtu.be/FpeuSQlzyB0)
+- [Azure Data Factory - Beginner to Advanced](https://www.youtube.com/playlist?list=PL7ZG6NdDdT8N8sfWViyEdReWoR_JjBSu_)
+- [Azure Data Factory Tutorial](https://www.youtube.com/watch?v=JIJEL7M7Pv0&list=PLWf6TEjiiuICyhzYAnSshwQQy3hrH3eGw)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

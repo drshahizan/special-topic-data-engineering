@@ -52,6 +52,12 @@ In this example, the machine learning model analyzes customer sentiment by proce
 
 By using Apache Kafka for data integration, you can process and analyze data in real-time, allowing for more timely and accurate insights. It also enables you to easily scale your data integration pipeline as your data sources and consumers grow.
 
+## Useful links
+- [Apache Kafka in 5 minutes](https://youtu.be/PzPXRmVHMxI)
+- [Apache Kafka in 6 minutes](https://youtu.be/Ch5VhJzaoaI)
+- [What is Kafka?](https://youtu.be/aj9CDZm0Glc)
+- [Install Apache Kafka on Windows PC | Kafka Installation Step-By-Step Guide](https://youtu.be/BwYFuhVhshI)
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

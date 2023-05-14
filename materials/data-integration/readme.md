@@ -26,9 +26,9 @@ Data integration is the process of combining data from multiple sources into a u
 
 | Tool Type | Description |
 | --------- | ----------- |
-| ETL       | Extracts data from one or more sources, transforms it to fit a specific format or structure, and loads it into a target system. ETL is commonly used for batch processing and data warehousing. |
-| ELT       | Extracts data from one or more sources and loads it into a target system, where it is then transformed as needed. ELT is commonly used for real-time or near-real-time processing, and is often associated with cloud-based data integration. |
-| EAI       | Integrates data from multiple enterprise applications, such as CRM, ERP, and SCM systems, to provide a unified view of business processes. EAI is commonly used in large organizations to streamline operations and improve data accuracy. |
+| [ETL](06-1-etl.md)| Extracts data from one or more sources, transforms it to fit a specific format or structure, and loads it into a target system. ETL is commonly used for batch processing and data warehousing. |
+| [ELT](06-2-elt.md)| Extracts data from one or more sources and loads it into a target system, where it is then transformed as needed. ELT is commonly used for real-time or near-real-time processing, and is often associated with cloud-based data integration. |
+| [EAI](06-3-eai.md)| Integrates data from multiple enterprise applications, such as CRM, ERP, and SCM systems, to provide a unified view of business processes. EAI is commonly used in large organizations to streamline operations and improve data accuracy. |
 
 ## [Assignment](assignment.md)
 

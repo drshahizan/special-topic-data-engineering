@@ -8,6 +8,36 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Apache Kafka
+
+Apache Kafka is an open-source distributed event streaming platform used for building real-time data pipelines and streaming applications. It was initially developed at LinkedIn in 2011 and later became an open-source project under the Apache Software Foundation in 2012. Kafka is designed to handle high volumes of real-time data, with low latency and high reliability.
+
+## Introduction
+Kafka is commonly used in data integration scenarios, where it serves as a high-throughput, fault-tolerant messaging system that enables real-time data integration between different systems and applications. Kafka can be used to stream data from a variety of sources, including databases, message queues, log files, and IoT devices, to name a few.
+
+One of the key features of Kafka is its ability to handle both real-time and batch data processing. Kafka's data streams can be processed in real-time using Apache Flink, Apache Spark, or other stream processing frameworks. Kafka can also store data for batch processing using Hadoop or other batch processing frameworks.
+
+In terms of the companies using Kafka, it has gained significant popularity in recent years and is now used by many large enterprises, including Airbnb, Netflix, Uber, LinkedIn, PayPal, and Walmart, among others. These companies use Kafka for a variety of use cases, including data integration, real-time analytics, log aggregation, and event-driven architectures.
+
+Apache Kafka is a powerful tool for data integration and real-time data streaming. It has a rich history, starting with its development at LinkedIn and subsequent adoption as an open-source project. Today, Kafka is widely used by many large enterprises for a variety of use cases, and its popularity is only expected to grow as more companies seek to leverage the power of real-time data processing and streaming.
+
+## 10 companies that are using Apache Kafka for data integration
+
+| Company | Industry | Use case | Reason for using Kafka |
+| --- | --- | --- | --- |
+| Airbnb | Travel | Real-time data processing | Kafka enables real-time data processing and analytics to power Airbnb's search and booking platform. |
+| LinkedIn | Social Media | Log aggregation and processing | Kafka is used to collect, process, and analyze log data from LinkedIn's many servers and applications. |
+| Netflix | Media | Real-time data streaming | Kafka enables Netflix to stream real-time data from various sources to power its recommendation engine and other applications. |
+| Uber | Transportation | Real-time data processing | Kafka enables real-time processing and analytics of Uber's ride and location data, as well as its mobile app events. |
+| PayPal | Finance | Event-driven architecture | Kafka is used as a messaging system in PayPal's event-driven architecture, enabling real-time processing of financial transactions and other events. |
+| Walmart | Retail | Real-time inventory management | Kafka enables real-time data streaming and processing to power Walmart's inventory management system and supply chain. |
+| Goldman Sachs | Finance | Real-time trading analytics | Kafka enables real-time processing and analysis of market data and trading events, powering Goldman Sachs' trading platform. |
+| Cisco | Networking | IoT data processing | Kafka enables real-time processing and analysis of IoT data, enabling Cisco to build intelligent networking solutions. |
+| The New York Times | Media | Real-time data streaming | Kafka is used to stream real-time data from various sources, enabling The New York Times to provide up-to-date news and insights. |
+| Zillow | Real Estate | Real-time data processing | Kafka enables real-time processing and analysis of real estate data, powering Zillow's home value estimates and other features. |
+
+These companies use Kafka for a variety of use cases, including real-time data processing, real-time analytics, event-driven architectures, and IoT data processing. Kafka's ability to handle high volumes of real-time data with low latency and high reliability makes it an ideal tool for these types of use cases.
+
+## High-level overview of how to use Apache Kafka
 Apache Kafka is a distributed messaging system that can be used for real-time data streaming and data integration. Here is a high-level overview of how to use Apache Kafka for data integration:
 
 1. Install and configure Apache Kafka cluster: You will need to install and configure an Apache Kafka cluster to use it for data integration. The cluster should consist of one or more Kafka brokers, which act as message brokers and handle the incoming and outgoing messages.

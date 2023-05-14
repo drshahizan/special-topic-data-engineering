@@ -48,6 +48,11 @@ Our report summarizes our data integration plan for integrating customer transac
 
 By using a real-world example and providing step-by-step instructions, this assignment can help students understand the importance of data integration in data science and how it can be applied in practical scenarios. It also provides an opportunity for students to practice using data integration tools and applying machine learning techniques to gain insights from the data.
 
+### Others
+- Collaborate effectively with your group members to complete the task.
+- Ensure to send the report in **mark down** format and **source code**.
+- Please submit the assignments in the submission [**Data integration submission**](https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-integration/submission/) folder. It would be best if you create a folder using your group name.
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

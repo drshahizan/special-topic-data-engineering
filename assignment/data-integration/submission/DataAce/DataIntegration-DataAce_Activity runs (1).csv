@@ -1,0 +1,4 @@
+"Pipeline name","Status","Error","Activity type","Run start","Duration","Log","Integration runtime","User properties","Run ID"
+"Copy data1","Succeeded","","Copy","5/16/2023, 9:31:59 PM","00:01:23","","AutoResolveIntegrationRuntime (East US)","{}","d0573f3e-c0c2-4007-8227-f298b3a28582"
+"Copy data2","Succeeded","","Copy","5/16/2023, 9:31:59 PM","00:01:58","","AutoResolveIntegrationRuntime (East US)","{}","137723bb-83be-40b1-9dbf-d3e90e0146e7"
+"Copy data3","Succeeded","","Copy","5/16/2023, 9:31:59 PM","00:00:52","","AutoResolveIntegrationRuntime (East US)","{}","46df84c1-84db-401b-9de8-ad945320c015"

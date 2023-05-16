@@ -503,5 +503,6 @@ collection.insert_many(data)
 ## 5. Conclusion
 
 In conclusion, the project involved extracting metadata of images from Flickr using the Beautiful Soup Python library and storing the data in a MongoDB database. Web scraping, particularly with tools like Beautiful Soup, proved to be a powerful method for collecting specific HTML tags and attributes, enabling the team to retrieve detailed information about the pictures. While the extraction of actual pictures was not achieved, the focus on metadata extraction showcased the versatility and usability of Beautiful Soup for data scraping purposes.
-- Offer suggestions for future research or analysis using the data set obtained from Flickr.
+
+Looking ahead, future research or analysis using the data set obtained from Flickr could involve various avenues. One suggestion is to perform sentiment analysis on the image descriptions to gauge the emotions or sentiments associated with different types of images. This could provide valuable insights into user preferences, trends, or patterns within the image collection. Additionally, conducting clustering or categorization analysis on the extracted metadata could help identify groups or themes within the image dataset, enabling further exploration and understanding of visual content.
 

@@ -29,7 +29,7 @@
 </table>
 
 ### 1. Identify three different data sources
-Identify three different data sources that are relevant to your data science project. These could be CSV files, SQL databases, APIs, or any other type of data source that can be accessed programmatically. For each data source, provide a brief description of the data it contains, and explain why it is relevant to your project.
+
 
 ### 2. Develop a plan for integrating data sources
 Develop a plan for integrating these data sources into a unified dataset. This plan should include details on how you will map the data from each source onto a common schema, how you will handle missing or incomplete data, and any other data cleaning or transformation steps that will be necessary.
@@ -42,6 +42,3 @@ This should include a qualitative assessment of the quality and completeness of 
 
 ### 5. Write a report summarizing your data integration plan and your results. 
 This report should include a description of your data sources, a detailed explanation of your data integration plan, and an analysis of the success of your plan.
-
-## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

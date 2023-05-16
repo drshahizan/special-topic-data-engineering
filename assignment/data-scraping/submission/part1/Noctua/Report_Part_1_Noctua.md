@@ -501,6 +501,7 @@ collection.insert_many(data)
 - Provide examples of how the data can be queried and analyzed using MongoDB.
 
 ## 5. Conclusion
-- Summarize the main points of the assignment and restate the importance of web scraping multimedia content for data analysis.
+
+In conclusion, the project involved extracting metadata of images from Flickr using the Beautiful Soup Python library and storing the data in a MongoDB database. Web scraping, particularly with tools like Beautiful Soup, proved to be a powerful method for collecting specific HTML tags and attributes, enabling the team to retrieve detailed information about the pictures. While the extraction of actual pictures was not achieved, the focus on metadata extraction showcased the versatility and usability of Beautiful Soup for data scraping purposes.
 - Offer suggestions for future research or analysis using the data set obtained from Flickr.
 

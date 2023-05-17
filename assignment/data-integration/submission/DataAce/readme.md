@@ -36,7 +36,7 @@
 </p>
 
 ### 📂Content:
-* [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/DataAce/Report.md))
+* [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/DataAce/Report.md)
 
 
 

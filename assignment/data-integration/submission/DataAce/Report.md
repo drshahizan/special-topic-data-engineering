@@ -63,3 +63,246 @@ Since our destination is the Azure SQL Database, we can observe the final result
 <p align="center">
   <img src="images/result.jpg" height= '300px'>
 </p>
+
+### Issues Faced
+
+We implemented our integration plan by using 3 copy data activity in our pipeline. Each copy data activity represented 3 different source of data on the Airport data. Every data source has one common column which is RunwayID and this is how all data sources are integrated. By using one common column, the source can map to its destination based on it. Next, the write behaviour need to be configure into upsert. This is because we faced an issue on our first run of the pipeline.
+
+Issues faced :
+* The data only merged on the last copy data activity which is data3.
+* The data overwrite other copy data activity before it.
+* The final result do not display all data from the 3 sources.
+* Data integration : failed.
+ 
+Due to the issues, we configure the write behaviour on all the copy data activity to upsert. Upsert allow appending all the data from sources and destination instead of overwriting it. All the data type need to be set correctly to prevent any error and to ensure data inserted into database in correct format. After we made some changes, we finally managed to integrate our data from 3 different sources. Below are the source code on each copy data activity in our pipeline labelled as ; data1, data2 and data 3.
+
+* Activity 1 -Copy Data(data1)
+```
+{
+    "name": "Copy data1",
+    "type": "Copy",
+    "dependsOn": [],
+    "policy": {
+        "timeout": "0.12:00:00",
+        "retry": 0,
+        "retryIntervalInSeconds": 30,
+        "secureOutput": false,
+        "secureInput": false
+    },
+    "userProperties": [],
+    "typeProperties": {
+        "source": {
+            "type": "ExcelSource",
+            "storeSettings": {
+                "type": "AzureBlobStorageReadSettings",
+                "recursive": true,
+                "enablePartitionDiscovery": false
+            }
+        },
+        "sink": {
+            "type": "AzureSqlSink",
+            "writeBehavior": "insert",
+            "sqlWriterUseTableLock": false
+        },
+        "enableStaging": false,
+        "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+                {
+                    "source": {
+                        "name": "RunwayID",
+                        "type": "String",
+                        "physicalType": "String"
+                    },
+                    "sink": {
+                        "name": "RunwayID",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "Airport ID",
+                        "type": "String",
+                        "physicalType": "String"
+                    },
+                    "sink": {
+                        "name": "AirportID",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+                "allowDataTruncation": true,
+                "treatBooleanAsNumber": false
+            }
+        }
+    },
+    "inputs": [
+        {
+            "referenceName": "data1",
+            "type": "DatasetReference"
+        }
+    ],
+    "outputs": [
+        {
+            "referenceName": "AzureSqlTable1",
+            "type": "DatasetReference"
+        }
+    ]
+}
+
+
+```
+* Activity 2 -Copy Data(data2)
+```
+{
+    "name": "Copy data2",
+    "type": "Copy",
+    "dependsOn": [],
+    "policy": {
+        "timeout": "0.12:00:00",
+        "retry": 0,
+        "retryIntervalInSeconds": 30,
+        "secureOutput": false,
+        "secureInput": false
+    },
+    "userProperties": [],
+    "typeProperties": {
+        "source": {
+            "type": "ExcelSource",
+            "storeSettings": {
+                "type": "AzureBlobStorageReadSettings",
+                "recursive": true,
+                "enablePartitionDiscovery": false
+            }
+        },
+        "sink": {
+            "type": "AzureSqlSink",
+            "writeBehavior": "insert",
+            "sqlWriterUseTableLock": false
+        },
+        "enableStaging": false,
+        "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+                {
+                    "source": {
+                        "name": "RunwayID",
+                        "type": "String",
+                        "physicalType": "String"
+                    },
+                    "sink": {
+                        "name": "RunwayID",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "Length ft",
+                        "type": "String",
+                        "physicalType": "String"
+                    },
+                    "sink": {
+                        "name": "Lengthft",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "Width ft",
+                        "type": "String",
+                        "physicalType": "String"
+                    },
+                    "sink": {
+                        "name": "Widthft",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+                "allowDataTruncation": true,
+                "treatBooleanAsNumber": false
+            }
+        }
+    },
+    "inputs": [
+        {
+            "referenceName": "data2",
+            "type": "DatasetReference"
+        }
+    ],
+    "outputs": [
+        {
+            "referenceName": "AzureSqlTable1",
+            "type": "DatasetReference"
+        }
+    ]
+}
+
+```
+* Activity 2 -Copy Data(data2)
+```
+{
+    "name": "Copy data3",
+    "type": "Copy",
+    "dependsOn": [],
+    "policy": {
+        "timeout": "0.12:00:00",
+        "retry": 0,
+        "retryIntervalInSeconds": 30,
+        "secureOutput": false,
+        "secureInput": false
+    },
+    "userProperties": [],
+    "typeProperties": {
+        "source": {
+            "type": "ExcelSource",
+            "storeSettings": {
+                "type": "AzureBlobStorageReadSettings",
+                "recursive": true,
+                "enablePartitionDiscovery": false
+            }
+        },
+        "sink": {
+            "type": "AzureSqlSink",
+            "writeBehavior": "insert",
+            "sqlWriterUseTableLock": false
+        },
+        "enableStaging": false,
+        "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+                {
+                    "source": {
+                        "name": "RunwayID",
+                        "type": "String",
+                        "physicalType": "String"
+                    },
+                    "sink": {
+                        "name": "RunwayID",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "Surface",
+                        "type": "String",
+                        "physicalType": "String"
+                    },
+                    "sink": {
+                        "name": "Surface",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+
+```

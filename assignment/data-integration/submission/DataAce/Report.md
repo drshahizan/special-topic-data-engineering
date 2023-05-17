@@ -21,6 +21,236 @@ To integrate the customer transaction data with our other data sources, we will 
 
 ### 3. Implement your data integration plan
 Implement your data integration plan using Python or another programming language of your choice. Your implementation should include code for loading data from each data source, mapping the data onto a common schema, and cleaning and transforming the data as needed.
+* Activity 1 -Copy Data(data1)
+```
+{
+    "name": "Copy data1",
+    "type": "Copy",
+    "dependsOn": [],
+    "policy": {
+        "timeout": "0.12:00:00",
+        "retry": 0,
+        "retryIntervalInSeconds": 30,
+        "secureOutput": false,
+        "secureInput": false
+    },
+    "userProperties": [],
+    "typeProperties": {
+        "source": {
+            "type": "ExcelSource",
+            "storeSettings": {
+                "type": "AzureBlobStorageReadSettings",
+                "recursive": true,
+                "enablePartitionDiscovery": false
+            }
+        },
+        "sink": {
+            "type": "AzureSqlSink",
+            "writeBehavior": "insert",
+            "sqlWriterUseTableLock": false
+        },
+        "enableStaging": false,
+        "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+                {
+                    "source": {
+                        "name": "RunwayID",
+                        "type": "String",
+                        "physicalType": "String"
+                    },
+                    "sink": {
+                        "name": "RunwayID",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "Airport ID",
+                        "type": "String",
+                        "physicalType": "String"
+                    },
+                    "sink": {
+                        "name": "AirportID",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+                "allowDataTruncation": true,
+                "treatBooleanAsNumber": false
+            }
+        }
+    },
+    "inputs": [
+        {
+            "referenceName": "data1",
+            "type": "DatasetReference"
+        }
+    ],
+    "outputs": [
+        {
+            "referenceName": "AzureSqlTable1",
+            "type": "DatasetReference"
+        }
+    ]
+}
+
+
+```
+* Activity 2 -Copy Data(data2)
+```
+{
+    "name": "Copy data2",
+    "type": "Copy",
+    "dependsOn": [],
+    "policy": {
+        "timeout": "0.12:00:00",
+        "retry": 0,
+        "retryIntervalInSeconds": 30,
+        "secureOutput": false,
+        "secureInput": false
+    },
+    "userProperties": [],
+    "typeProperties": {
+        "source": {
+            "type": "ExcelSource",
+            "storeSettings": {
+                "type": "AzureBlobStorageReadSettings",
+                "recursive": true,
+                "enablePartitionDiscovery": false
+            }
+        },
+        "sink": {
+            "type": "AzureSqlSink",
+            "writeBehavior": "insert",
+            "sqlWriterUseTableLock": false
+        },
+        "enableStaging": false,
+        "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+                {
+                    "source": {
+                        "name": "RunwayID",
+                        "type": "String",
+                        "physicalType": "String"
+                    },
+                    "sink": {
+                        "name": "RunwayID",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "Length ft",
+                        "type": "String",
+                        "physicalType": "String"
+                    },
+                    "sink": {
+                        "name": "Lengthft",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "Width ft",
+                        "type": "String",
+                        "physicalType": "String"
+                    },
+                    "sink": {
+                        "name": "Widthft",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+                "allowDataTruncation": true,
+                "treatBooleanAsNumber": false
+            }
+        }
+    },
+    "inputs": [
+        {
+            "referenceName": "data2",
+            "type": "DatasetReference"
+        }
+    ],
+    "outputs": [
+        {
+            "referenceName": "AzureSqlTable1",
+            "type": "DatasetReference"
+        }
+    ]
+}
+
+```
+* Activity 2 -Copy Data(data2)
+```
+{
+    "name": "Copy data3",
+    "type": "Copy",
+    "dependsOn": [],
+    "policy": {
+        "timeout": "0.12:00:00",
+        "retry": 0,
+        "retryIntervalInSeconds": 30,
+        "secureOutput": false,
+        "secureInput": false
+    },
+    "userProperties": [],
+    "typeProperties": {
+        "source": {
+            "type": "ExcelSource",
+            "storeSettings": {
+                "type": "AzureBlobStorageReadSettings",
+                "recursive": true,
+                "enablePartitionDiscovery": false
+            }
+        },
+        "sink": {
+            "type": "AzureSqlSink",
+            "writeBehavior": "insert",
+            "sqlWriterUseTableLock": false
+        },
+        "enableStaging": false,
+        "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+                {
+                    "source": {
+                        "name": "RunwayID",
+                        "type": "String",
+                        "physicalType": "String"
+                    },
+                    "sink": {
+                        "name": "RunwayID",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "Surface",
+                        "type": "String",
+                        "physicalType": "String"
+                    },
+                    "sink": {
+                        "name": "Surface",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+
+```
 
 **Example:**<br>
 We will use Python to implement our data integration plan. We will load the customer transaction data from a CSV file using the Pandas library, and map it onto a common schema using a combination of Pandas data manipulation functions and custom code. We will also use the Scikit-learn library to perform data imputation, and the Seaborn library to visualize the integrated dataset.

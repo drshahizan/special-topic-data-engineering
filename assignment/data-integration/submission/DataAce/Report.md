@@ -261,9 +261,6 @@ Due to the issues, we configure the write behaviour on all the copy data activit
 
 ```
 
-**Example:**<br>
-We will use Python to implement our data integration plan. We will load the customer transaction data from a CSV file using the Pandas library, and map it onto a common schema using a combination of Pandas data manipulation functions and custom code. We will also use the Scikit-learn library to perform data imputation, and the Seaborn library to visualize the integrated dataset.
-
 ### 4. Evaluate the success of your data integration plan. 
 This should include a qualitative assessment of the quality and completeness of the integrated dataset, as well as any quantitative metrics that are relevant to your project.
 

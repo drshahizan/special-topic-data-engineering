@@ -20,7 +20,16 @@ To integrate the customer transaction data with our other data sources, we will 
 
 
 ### 3. Implement your data integration plan
-Implement your data integration plan using Python or another programming language of your choice. Your implementation should include code for loading data from each data source, mapping the data onto a common schema, and cleaning and transforming the data as needed.
+Using Python, we implemented our integration plan by using 3 copy data activity in our pipeline. Each copy data activity represented 3 different source of data on the Airport data. Every data source has one common column which is RunwayID and this is how all data sources are integrated. By using one common column, the source can map to its destination based on it. Next, the write behaviour need to be configure into upsert. This is because we faced an issue on our first run of the pipeline.
+
+#Issue faced :
+* The data only merged on the last copy data activity which is data3.
+* The data overwrite other copy data activity before it.
+* The final result do not display all data from the 3 sources.
+* Data integration : failed.
+ 
+Due to the issues, we configure the write behaviour on all the copy data activity to upsert. Upsert allow appending all the data from sources and destination instead of overwriting it. All the data type need to be set correctly to prevent any error and to ensure data inserted into database in correct format. After we made some changes, we finally managed to integrate our data from 3 different sources. Below are the source code on each copy data activity in our pipeline labelled as ; data1, data2 and data 3.
+
 * Activity 1 -Copy Data(data1)
 ```
 {

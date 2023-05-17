@@ -32,7 +32,7 @@
 <h3 align='center'>Data Factory Pipeline</h3>
 
 <p align="center">
-  <img src="flow.jpg" height= '300px' title="ADF">
+  <img src="images/flow.jpg" height= '300px' title="ADF">
 </p>
 
 ### 📂Content:

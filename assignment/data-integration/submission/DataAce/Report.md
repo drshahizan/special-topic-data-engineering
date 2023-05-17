@@ -5,7 +5,10 @@ This report will describe how our group performs data integration using Azure Da
 ## Steps:
 
 ### 1. Identify 3 different data sources
-For this assignment, we would like to integrate and combine 3 data sources related to Airport Runway. These data sources share one common attribute which are RunwayID. This way, it allows us to establish relationships and link related data points across different datasets. With a common attribute, we can easily merge or join data from multiple sources based on this shared attribute.
+For this assignment, we would like to integrate and combine 3 data sources related to Airport Runway. These data sources share one common attribute which are RunwayID. This way, it allows us to establish relationships and link related data points across different datasets. With a common attribute, we can easily merge or join data from multiple sources based on this shared attribute. The data sources are:-
+- data1.csv
+- data2.csv
+- data3.csv
 
 ### 2. Set up the Azure Data Factory
 Purpose: Create an instance of Azure Data Factory, which will serve as the orchestrator for our data integration processes.
@@ -66,7 +69,7 @@ Since our destination is the Azure SQL Database, we can observe the final result
 
 ### Issues Faced
 
-We implemented our integration plan by using 3 copy data activity in our pipeline. Each copy data activity represented 3 different source of data on the Airport data. Every data source has one common column which is RunwayID and this is how all data sources are integrated. By using one common column, the source can map to its destination based on it. Next, the write behaviour need to be configure into upsert. This is because we faced an issue on our first run of the pipeline.
+This is because we faced an issue on our first run of the pipeline.
 
 Issues faced :
 * The data only merged on the last copy data activity which is data3.

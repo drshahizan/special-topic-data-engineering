@@ -34,10 +34,6 @@
 <p align="center">
   <img src="flow.jpg" height= '300px' title="ADF">
 </p>
-### 📂Content:
-* [💻Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/DataAce/Image_scraping.ipynb)
-* [📎CSV file](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/DataAce/flickrdata.csv)
-* [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/DataAce/Report_Flickr.md)
 
 
 

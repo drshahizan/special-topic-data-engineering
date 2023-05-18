@@ -1,4 +1,4 @@
-# Report: Data Integration Using Azure Data Factory 🏭
+# Report: Data Integration Using Azure Data Factory
 
 This report will describe how our group performs data integration using Azure Data Factory step-by-step. We were guided by the general ADF pipeline which described in readme.md. For this task, we are required to integrate 3 different data sources into a single table in Azure SQL Databases. 
 

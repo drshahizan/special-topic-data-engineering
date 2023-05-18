@@ -18,7 +18,7 @@ This course is designed for introductory level learners who are either new to no
 ### 2. [Introduction to Modern Databases with MongoDB](https://www.mongodb.com/academia/courses/introduction-to-modern-databases-with-mongodb)
 This course is designed to cover a broad spectrum of topics on MongoDB and non-relational databases geared towards learners from beginner to advanced levels. The course includes lessons on comparing and contrasting relational and non-relational databases, outlining the architecture of MongoDB, and detailing how to model data in a document-oriented database.
 
-### 3.[Querying in Non-Relational Databases](https://www.mongodb.com/academia/courses/querying-nonrelational-databases)
+### 3. [Querying in Non-Relational Databases](https://www.mongodb.com/academia/courses/querying-nonrelational-databases)
 This course takes a deep dive into querying in MongoDB using the MongoDB Query Language (MQL). The course covers common commands used for CRUD operations, querying complex data with operators and compound conditions, and an overview of querying in non-relational vs. relational databases. The content is geared towards learners who have some familiarity with querying in a relational database and would like to know more about how to do so with simple and complex data in a document model database. The course includes hands-on exercises through the MongoDB Web Shell.
 
 ## 4. [MongoDB Aggregation Framework](https://www.mongodb.com/academia/courses/mongodb-aggregation-framework)

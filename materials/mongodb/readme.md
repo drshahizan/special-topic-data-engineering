@@ -8,6 +8,19 @@
 Don't forget to hit the :star: if you like this repo.
 
 # MongoDB
+
+## Curriculum Resources
+Explore free resources for educators crafted by MongoDB experts to prepare learners with in-demand database skills and knowledge
+
+### [MongoDB 101: Non-Relational Databases for Beginners](https://www.mongodb.com/academia/courses/mongodb-101-nonrelational-for-beginners)
+This course is designed for introductory level learners who are either new to non-relational databases and/or to databases in general. The course covers the differences between relational and non-relational, the four main types of non-relational models, structure of the document model, and an introduction to data modeling and schema design within the document model. The course does not give a deep dive on any one topic, but instead gives the foundational knowledge on multiple topics needed to start using non-relational databases.
+
+
+### [Introduction to Modern Databases with MongoDB](https://www.mongodb.com/academia/courses/introduction-to-modern-databases-with-mongodb)
+This course is designed to cover a broad spectrum of topics on MongoDB and non-relational databases geared towards learners from beginner to advanced levels. The course includes lessons on comparing and contrasting relational and non-relational databases, outlining the architecture of MongoDB, and detailing how to model data in a document-oriented database.
+
+
+## Useful links
 - [Learn MongoDB](./materials/learn-mongodb.md)
 - [Wikipedia: MongoDB](https://en.wikipedia.org/wiki/MongoDB)
 - [Web Application using Mongodb](./web-mongodb.md)

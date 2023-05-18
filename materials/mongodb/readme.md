@@ -48,6 +48,26 @@ This learning path contains a series of courses to teach you MongoDB skills. In 
 1. [Getting Set Up to Run PHP with MongoDB](https://www.mongodb.com/developer/languages/php/php-setup)
 2. [Creating, Reading, Updating, and Deleting MongoDB Documents with PHP](https://www.mongodb.com/developer/languages/php/php-crud/)
 
+## Student Demo Applications
+
+| No | Title | Description  |
+|----|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | A Spotify Song and Playlist Recommendation Engine | Python code example application for Spotify playlist and song recommendations using Spark and TensorFlow                                                                                                                                                             |
+| 2  | Application for Dog Care Providers (DCP) | My project explores how to use MongoDB Shell, MongoDB Atlas, and MongoDB Compass. This project aimed to develop a database for dog care providers and demonstrate how this data can be manipulated in MongoDB. The Dog Welfare Federation (DWF) is concerned that some providers who provide short/medium term care for dogs when the owner is unable to – e.g., when away on holidays, may not be delivering the service they promise. |
+| 3  | GroupUs                         | A web app that automates group formation for projects/presentations/assignments etc. It saves you the inconvenience of asking tens of people simply to form a group. Also letting an algorithm do the matching ensures that the groups formed are more optimal and fair.                                                         |
+| 4  | Magazine Management             | A system to manage students' posts for school or an organization                                                                                                                                                                                                            |
+| 5  | Trends analyser                 | Analyze how hashtags on Twitter change over time                                                                                                                                                                                                                            |
+| 6  | myLeG                           | The project shows the substitutions of my school in a more readable way and also sorted, so the users only see the entries that are relevant to them. It can also send out push notifications for new or changed substitutions and has some information about the current COVID regulations                                                       |
+| 7  | MergeURL - Python Example App   | Shorten multiple URLs instantly while overcoming the barriers of user registration                                                                                                                                                                                          |
+| 8  | Hostels Kenya Example App       | Find hostels and student apartments all over Kenya                                                                                                                                                                                                                         |
+| 9  | Go-FIFA                         | GoFifa - A comprehensive soccer stats tracker. (PHP)                                                                                                                                                                                                                      |
+| 10 | Anonytexts                      | A web application to help users message and be messaged completely anonymously                                                                                                                                                                                              |
+| 11 | Chember                         | With Chember, you can find streetball communities near you. Create your streetball profile, discover the Chember map, see live court densities, and find or create games. We designed Chember for basketball lovers who want to connect with streetball communities around them.                                                          |
+| 12 | EnSat                           | EnSat (Originally, the project was started with the name "PicoSat," and changed later to "EnSat") is a miniature version of an Environmental Satellite which helps to record and analyze the environmental parameters such as altitude, pressure, temperature, humidity, and pollution level. Access this project on Github                            |
+| 13 | Blogue                          | Blogue is a writing platform where all the writers or non-writers are welcome. We believe in sharing knowledge in the form of words. The page has a 'newshub' for articles, a project hub where you can share projects among other things. Posts can be categorized by health, technology, business, science, and more. It's also possible to select the source (CNN/Wired) etc. |
+| 14 | Final Space API                 | The Final Space API is based on the television show Final Space by Olan Rogers from TBS. From talking cats to evil aliens, the animated show tells the intergalactic adventures of Gary Goodspeed and his alien friend Mooncake as they unravel the mystery of "Final Space". The show can be viewed, amongst other places, on TBS, AdultSwim, and Netflix.                |
+| 15 | EHRS-Peru                       | This is a theoretical Electronic Health Record system (EHR-S)
+
 ## Additional Educator Resources
 
 ### [The Little Book of MongoDB](https://mongodb-devhub-cms.s3.us-west-1.amazonaws.com/The_Little_Book_of_Mongo_DB_97dbc9a8fe.pdf)
@@ -61,8 +81,6 @@ A reference guide, complete with examples, of commonly used commands in the mong
 
 ### [Using MongoDB with Python](https://github.com/mongodb/academia-mongodb-lab-python)
 A hands-on exercise to practice using MongoDB with Python, using the PyMongo driver.
-
-
 
 ## Useful links
 - [Learn MongoDB](./materials/learn-mongodb.md)

@@ -7,7 +7,7 @@ This report will describe how our group performs data integration using Azure Da
 ## Steps:
 
 ### 1. Identifying the Data Sources:
-   For this assignment, our focus was on integrating and consolidating data from three different sources pertaining to Airport Runways. These data sources share a common attribute, which is the RunwayID. Having this shared attribute enables us to establish relationships and link relevant data points across the various datasets. With the common attribute, we can easily merge or join data from multiple sources based on this common identifier. The three data sources we used were: 
+   For this assignment, we would like to integrate3 types of data sources. The data sources are:- 
 
    - [Source 1]: Cars.csv
    Description: 

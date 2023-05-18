@@ -34,6 +34,12 @@ The Introduction to MongoDB course guides you through the foundational skills an
 ### 2. [Using MongoDB with Python](https://learn.mongodb.com/learning-paths/using-mongodb-with-python)
 This course guides you through everything you need to utilize MongoDB as your backing database for Python applications. This includes an overview of pymongo, the official driver for the Python programming language, how to connect, basic CRUD operations, troubleshooting, and building aggregations.
 
+### 3. [MongoDB for SQL Experts](https://learn.mongodb.com/courses/mongodb-for-sql-experts)
+Learn how to use your SQL skills in MongoDB. We’ll learn about how JOINs, SELECT, INSERT and other SQL commands work with MongoDB.
+
+### 4. [MongoDB CRUD Operations in Python](https://learn.mongodb.com/courses/mongodb-crud-operations-in-python)
+In this unit, you’ll learn how to perform basic CRUD operations with the MongoDB Python driver.
+
 ### 1. [MongoDB Python Developer Path](https://learn.mongodb.com/learning-paths/mongodb-python-developer-path)
 This learning path contains a series of courses to teach you MongoDB skills. In this path, you’ll learn the basics of building modern applications with Python, using MongoDB as your database.
 

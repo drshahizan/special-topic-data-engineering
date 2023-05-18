@@ -15,15 +15,28 @@ Explore free resources for educators crafted by MongoDB experts to prepare learn
 ### 1. [MongoDB 101: Non-Relational Databases for Beginners](https://www.mongodb.com/academia/courses/mongodb-101-nonrelational-for-beginners)
 This course is designed for introductory level learners who are either new to non-relational databases and/or to databases in general. The course covers the differences between relational and non-relational, the four main types of non-relational models, structure of the document model, and an introduction to data modeling and schema design within the document model. The course does not give a deep dive on any one topic, but instead gives the foundational knowledge on multiple topics needed to start using non-relational databases.
 
-
 ### 2. [Introduction to Modern Databases with MongoDB](https://www.mongodb.com/academia/courses/introduction-to-modern-databases-with-mongodb)
 This course is designed to cover a broad spectrum of topics on MongoDB and non-relational databases geared towards learners from beginner to advanced levels. The course includes lessons on comparing and contrasting relational and non-relational databases, outlining the architecture of MongoDB, and detailing how to model data in a document-oriented database.
 
 ### 3.[Querying in Non-Relational Databases](https://www.mongodb.com/academia/courses/querying-nonrelational-databases)
 This course takes a deep dive into querying in MongoDB using the MongoDB Query Language (MQL). The course covers common commands used for CRUD operations, querying complex data with operators and compound conditions, and an overview of querying in non-relational vs. relational databases. The content is geared towards learners who have some familiarity with querying in a relational database and would like to know more about how to do so with simple and complex data in a document model database. The course includes hands-on exercises through the MongoDB Web Shell.
 
-## 4. (MongoDB Aggregation Framework)[https://www.mongodb.com/academia/courses/mongodb-aggregation-framework]
+## 4. [MongoDB Aggregation Framework](https://www.mongodb.com/academia/courses/mongodb-aggregation-framework)
 The robust MongoDB aggregation framework allows for high functionality of a data store and more efficient queries. This course outlines the main stages of the framework, how to clean up queries using the framework, and the expressions it employs. The course works through examples and hands-on activities using the MongoDB Web Shell.
+
+## 5. [MongoDB: A Developer Data Platform](https://www.mongodb.com/academia/courses/mongodb-a-developer-data-platform)
+If you are beginning your journey into MongoDB whether as a learner and/or educator, this course is a perfect launching off point. Covering what it means to be a general purpose database and how MongoDB is built as more than a database but a data platform, the course is well suited for those who want to know more about MongoDB’s functionality. Divided into three lessons, learners will get an overview of general purpose databases, a deep dive into the layered offerings MongoDB’s data platform provides, and a close look at the popular cloud product, MongoDB Atlas. The course will explain with examples key concepts such as horizontal scaling, sharding, workload isolation, and data federation.
+
+## MongoDB Training
+### 1. [Introduction to MongoDB](https://learn.mongodb.com/learning-paths/introduction-to-mongodb)
+The Introduction to MongoDB course guides you through the foundational skills and knowledge you need to get started with MongoDB. This includes connecting to a MongoDB database, how to conduct simple CRUD operations, and key topics such as aggregation, indexing, data modeling, and transactions.
+
+### 2. [Using MongoDB with Python](https://learn.mongodb.com/learning-paths/using-mongodb-with-python)
+This course guides you through everything you need to utilize MongoDB as your backing database for Python applications. This includes an overview of pymongo, the official driver for the Python programming language, how to connect, basic CRUD operations, troubleshooting, and building aggregations.
+
+### 1. [MongoDB Python Developer Path](https://learn.mongodb.com/learning-paths/mongodb-python-developer-path)
+This learning path contains a series of courses to teach you MongoDB skills. In this path, you’ll learn the basics of building modern applications with Python, using MongoDB as your database.
+
 
 ## Useful links
 - [Learn MongoDB](./materials/learn-mongodb.md)

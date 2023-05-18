@@ -77,5 +77,5 @@ Key Features and Services of Microsoft Azure:
 
 ### 📂Folder content:
 
-* [📖Report]()
-* [💻Code]()
+* [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/Noctua/report.md)
+* [💻Output File]()

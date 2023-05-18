@@ -8,14 +8,26 @@
 
 ## 📏Steps by step:
 
-### 1. Identify 3 different data sources.
+### 1. Identify 3 different data sources
 In this assignment we will use three different csv data sources which are about 'clouds' image data in Flickr. In these data sources, there will be a common column which is **pic_id**. We aim to integrate or merged these files into one and store it into sql database in azure data factory. The datasets are as follows:
 - clouds_id.csv (contains picture id and its total views)
 - clouds_exif.csv (contains picture id and image description about camera used)
 - clouds_geo.csv (contains picture id and its geographical information)
 
-### 2. Setup Azure data factory.
-Search 'Data Factories' in azure services, click create, insert resources group, data factory name, choose region, etc. Upon created the data factory will appear as shown
+### 2. Setup Azure data factory
+Search 'Data Factories' in azure services, click create, insert resource group, data factory name, choose region, etc. Upon created, the data factory will appear as shown:
 <p align="center">
   <img src="image/DataFactory.png" height= '300px'>
+</p>
+
+### 3. Setup SQL Database
+Search 'SQL Database' in azure services, click create, insert resource group, database name, create server, etc. Upon created, the database will display with its server name as below:
+<p align="center">
+  <img src="image/SQLDB.png" height= '300px'>
+</p>
+
+### 4. Setup storage account
+Search 'Storage Account' in azure services, click create, insert storage account name, region, etc. Upon created, the storage will be recorded as below:
+<p align="center">
+  <img src="image/StorageAcc.png" height= '300px'>
 </p>

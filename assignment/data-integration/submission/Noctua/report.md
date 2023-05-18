@@ -108,3 +108,6 @@ We will then export the data in either csv, json or xml file. We choose to expor
 <p align="center">
   <img src="image/outputcsv.png" height= '300px'>
 </p>
+
+## Conclusion
+We can conclude that our data integration plan is a **success** as we can finally merged three different data sources into one. There are actually some missing data in exif.csv and geo.csv but since we merged it according to pic_id in id.csv, we can finally remove the null.

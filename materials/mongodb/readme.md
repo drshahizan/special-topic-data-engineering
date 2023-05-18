@@ -40,7 +40,7 @@ Learn how to use your SQL skills in MongoDB. We’ll learn about how JOINs, SELE
 ### 4. [MongoDB CRUD Operations in Python](https://learn.mongodb.com/courses/mongodb-crud-operations-in-python)
 In this unit, you’ll learn how to perform basic CRUD operations with the MongoDB Python driver.
 
-### 1. [MongoDB Python Developer Path](https://learn.mongodb.com/learning-paths/mongodb-python-developer-path)
+### 5. [MongoDB Python Developer Path](https://learn.mongodb.com/learning-paths/mongodb-python-developer-path)
 This learning path contains a series of courses to teach you MongoDB skills. In this path, you’ll learn the basics of building modern applications with Python, using MongoDB as your database.
 
 

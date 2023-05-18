@@ -58,8 +58,14 @@ Open sql database that has been created, choose 'Query editor (preview)', login 
 </p>
 
 ### 7. Launch Azure Data Factory Studio and link services
-Open all resources and clink 'Launch Studio'. A new tab will be open and from here, we will build flows and pipeline but firstly we need to choose 'Manage' to link services which are 'blob storage' and 'sql database'.
+Open all resources and click 'Launch Studio'. A new tab will be open and from here, we will build flows and pipeline but firstly we need to choose 'Manage' to link services which are 'blob storage' from input container and 'sql database' table created before.
 <p align="center">
   <img src="image/launchdf.png" height= '300px'><br><br>
   <img src="image/linkservices.png" height= '300px'>
+</p>
+
+### 8. Insert datasets into factory resources
+Above 'Manage' button, there is a button with a pencil icon named 'author'. Choose it and we will be accessing 'Factory Resources'. Right-click 'Datasets' and choose 'New dataset' to insert data from blob storage and sql database. Below is the datasets inserted. The above three are the csv files while the last one is sql database.
+<p align="center">
+  <img src="image/dfdatasets.png" height= '300px'>
 </p>

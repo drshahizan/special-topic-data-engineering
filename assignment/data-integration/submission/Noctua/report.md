@@ -69,3 +69,20 @@ Above 'Manage' button, there is a button with a pencil icon named 'author'. Choo
 <p align="center">
   <img src="image/dfdatasets.png" height= '300px'>
 </p>
+
+### 9. Create data flows
+Our aim is to merged the csv datasets into one output table of sql database. There are two ways on doing this, either mapping directly in pipeline by copying data, or make a flow and add it into a pipeline to run it. We choose to firstly make a data flows, then run it in a pipeline.
+<p align="center">
+  <img src="image/dataflows.png" height= '300px'>
+</p>
+
+Inside the data flows, these are the steps:
+1. **Add** csv sources from 'Datasets' (ID, Exif and Geo).
+2. **Join** ID with Exif. Make sure to set the 'Join Conditions' (pic_id@ID == pic_id@Exif).
+3. **Select** only columns needed. Delete pic_id from ID or Exif.
+4. **Join** with geo. Make sure to set the 'Join Conditions' (pic_id@select1 == pic_id@geo).
+5. **Select** only columns needed. Delete pic_id from select1 or geo.
+6. **Sink** or make an output into sql database. Check mapping to make sure the joined datasets are compatible with the created table in sql database.
+<p align="center">
+  <img src="image/mapping.png" height= '300px'>
+</p>

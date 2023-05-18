@@ -56,3 +56,10 @@ Open sql database that has been created, choose 'Query editor (preview)', login 
 <p align="center">
   <img src="image/createtableoutputdb.png" height= '300px'>
 </p>
+
+### 7. Launch Azure Data Factory Studio and link services
+Open all resources and clink 'Launch Studio'. A new tab will be open and from here, we will build flows and pipeline but firstly we need to choose 'Manage' to link services which are 'blob storage' and 'sql database'.
+<p align="center">
+  <img src="image/launchdf.png" height= '300px'><br><br>
+  <img src="image/linkservices.png" height= '300px'>
+</p>

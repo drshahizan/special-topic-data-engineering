@@ -43,6 +43,21 @@ In this unit, you’ll learn how to perform basic CRUD operations with the Mongo
 ### 5. [MongoDB Python Developer Path](https://learn.mongodb.com/learning-paths/mongodb-python-developer-path)
 This learning path contains a series of courses to teach you MongoDB skills. In this path, you’ll learn the basics of building modern applications with Python, using MongoDB as your database.
 
+## Additional Educator Resources
+
+### [The Little Book of MongoDB](https://mongodb-devhub-cms.s3.us-west-1.amazonaws.com/The_Little_Book_of_Mongo_DB_97dbc9a8fe.pdf)
+A booklet about MongoDB with code examples, perfect for those looking to quickly ramp up.
+
+### [Recommended Reading List](https://mongodb-devhub-cms.s3.us-west-1.amazonaws.com/Recommended_Reading_41846a1c4f.pdf)
+A list of books suggested by MongoDB engineers for learning about document databases and distributed systems.
+
+### [MongoDB Shell Cheat Sheet](https://mongodb-devhub-cms.s3.us-west-1.amazonaws.com/Mongo_DB_Shell_Cheat_Sheet_1a0e3aa962.pdf)
+A reference guide, complete with examples, of commonly used commands in the mongo Shell.
+
+### [Using MongoDB with Python](https://github.com/mongodb/academia-mongodb-lab-python)
+A hands-on exercise to practice using MongoDB with Python, using the PyMongo driver.
+
+
 
 ## Useful links
 - [Learn MongoDB](./materials/learn-mongodb.md)

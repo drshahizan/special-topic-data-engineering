@@ -31,3 +31,15 @@ Search 'Storage Account' in azure services, click create, insert storage account
 <p align="center">
   <img src="image/StorageAcc.png" height= '300px'>
 </p>
+
+### 5. Insert data sources into blob storage
+To insert the data sources, firstly we need to open storage account that has been created. Choose 'blob services and add container name 'input'.
+<p align="center">
+  <img src="image/Blobservice1.png" height= '300px'>
+  <img src="image/blob2.png" height= '300px'>
+</p>
+
+Next, inside input container, click 'Upload' to upload the data sources.
+<p align="center">
+  <img src="image/blob3.png" height= '300px'>
+</p>

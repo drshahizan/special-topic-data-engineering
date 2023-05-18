@@ -50,3 +50,9 @@ The data sources contains data as follows:
   <img src="image/exifcsv.png" height= '300px'><br><br>
   <img src="image/geocsv.png" height= '300px'><br><br>
 </p>
+
+### 6. Create output table in sql database 
+Open sql database that has been created, choose 'Query editor (preview)', login to sql server authentication and create new query for creating output table. Upon creating sql query, the name and columns of the table will be listed as follows.
+<p align="center">
+  <img src="image/createtableoutputdb.png" height= '300px'>
+</p>

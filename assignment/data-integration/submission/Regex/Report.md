@@ -7,7 +7,7 @@ This report will describe how our group performs data integration using Azure Da
 ## Steps:
 
 ### 1. Identifying the Data Sources:
-   For this assignment, we would like to integrate3 types of data sources. The data sources are:- 
+   For this assignment, we would like to integrate 3 types of data sources. The data sources are:- 
 
    - All Car and Motorbike Products.csv
    - Motorbike Accessories and Parts.csv

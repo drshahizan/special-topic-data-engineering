@@ -97,3 +97,14 @@ If no error, output will display the status to 'Succeeded', as follows.
 <p align="center">
   <img src="image/succeeded.png" height= '300px'>
 </p>
+
+### 11. Check the success of data integration plan
+We can check if our data integration plan are success by viewing the data table created as an output in sql database. We need to insert query and view it at 'Result' panel.
+<p align="center">
+  <img src="image/outputsuccessdb.png" height= '300px'>
+</p>
+
+We will then export the data in either csv, json or xml file. We choose to export in csv file. 
+<p align="center">
+  <img src="image/outputcsv.png" height= '300px'>
+</p>

@@ -12,13 +12,18 @@ Don't forget to hit the :star: if you like this repo.
 ## Curriculum Resources
 Explore free resources for educators crafted by MongoDB experts to prepare learners with in-demand database skills and knowledge
 
-### [MongoDB 101: Non-Relational Databases for Beginners](https://www.mongodb.com/academia/courses/mongodb-101-nonrelational-for-beginners)
+### 1. [MongoDB 101: Non-Relational Databases for Beginners](https://www.mongodb.com/academia/courses/mongodb-101-nonrelational-for-beginners)
 This course is designed for introductory level learners who are either new to non-relational databases and/or to databases in general. The course covers the differences between relational and non-relational, the four main types of non-relational models, structure of the document model, and an introduction to data modeling and schema design within the document model. The course does not give a deep dive on any one topic, but instead gives the foundational knowledge on multiple topics needed to start using non-relational databases.
 
 
-### [Introduction to Modern Databases with MongoDB](https://www.mongodb.com/academia/courses/introduction-to-modern-databases-with-mongodb)
+### 2. [Introduction to Modern Databases with MongoDB](https://www.mongodb.com/academia/courses/introduction-to-modern-databases-with-mongodb)
 This course is designed to cover a broad spectrum of topics on MongoDB and non-relational databases geared towards learners from beginner to advanced levels. The course includes lessons on comparing and contrasting relational and non-relational databases, outlining the architecture of MongoDB, and detailing how to model data in a document-oriented database.
 
+### 3.[Querying in Non-Relational Databases](https://www.mongodb.com/academia/courses/querying-nonrelational-databases)
+This course takes a deep dive into querying in MongoDB using the MongoDB Query Language (MQL). The course covers common commands used for CRUD operations, querying complex data with operators and compound conditions, and an overview of querying in non-relational vs. relational databases. The content is geared towards learners who have some familiarity with querying in a relational database and would like to know more about how to do so with simple and complex data in a document model database. The course includes hands-on exercises through the MongoDB Web Shell.
+
+## 4. (MongoDB Aggregation Framework)[https://www.mongodb.com/academia/courses/mongodb-aggregation-framework]
+The robust MongoDB aggregation framework allows for high functionality of a data store and more efficient queries. This course outlines the main stages of the framework, how to clean up queries using the framework, and the expressions it employs. The course works through examples and hands-on activities using the MongoDB Web Shell.
 
 ## Useful links
 - [Learn MongoDB](./materials/learn-mongodb.md)

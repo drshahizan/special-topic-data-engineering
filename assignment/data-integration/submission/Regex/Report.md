@@ -22,33 +22,6 @@ Create a new Azure Data Factory resource in Azure Portal. Provide a name, select
 </p>
 
 
-   Once the data sources were identified, we proceeded with extracting the required data from each source. We applied necessary transformations to ensure the data was in a compatible format for integration. This step involved cleaning and standardizing the data, handling any inconsistencies or discrepancies, and performing data quality checks.
-
-### 3. Data Integration and Consolidation:
-   Using Azure Data Factory, we designed a pipeline to integrate the extracted and transformed data from the three sources. The pipeline incorporated appropriate data integration techniques, such as merging, joining, or appending datasets based on the common RunwayID attribute. This process allowed us to consolidate the data from the three sources into a single table within Azure SQL Databases.
-
-### 4. Validation and Quality Assurance:
-   After the integration process, we performed thorough validation and quality assurance checks to ensure the accuracy and completeness of the integrated data. We verified that the relationships between the datasets were properly established and that the data aligned correctly based on the common attribute.
-
-### 5. Loading the Integrated Data:
-   Finally, we loaded the integrated data into the designated table within Azure SQL Databases. This step involved executing the pipeline and monitoring the data loading process to ensure its successful completion.
-
-By following these steps, we were able to successfully perform data integration using Azure Data Factory, consolidating data from three different sources into a single table. This integrated dataset provides a comprehensive view of Airport Runway-related information, enabling us to derive meaningful insights and make informed decisions.
-
-Please let me know if you need any further information or if there's anything else I can assist you with!
-
-
-
-
-
-
-
-### 1. Identify 3 different data sources
-For this assignment, we would like to integrate and combine 3 data sources related to Airport Runway. These data sources share one common attribute which are RunwayID. This way, it allows us to establish relationships and link related data points across different datasets. With a common attribute, we can easily merge or join data from multiple sources based on this shared attribute. The data sources are:-
-- data1.csv
-- data2.csv
-- data3.csv
-
 ### 2. Set up the Azure Data Factory
 Purpose: Create an instance of Azure Data Factory, which will serve as the orchestrator for our data integration processes.
 

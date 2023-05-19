@@ -41,13 +41,45 @@ Select Blob Storage to store files.
 <img width="708" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/d140340a-a21f-4424-988b-5a3115d1fcaa">
 
 
-Create new container, add files into the container.
+Create new container
 
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/75046f15-ba68-4b7d-afc8-daf06124bb32">
 
 
+Add files
+
+
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/d4355727-09b2-49cc-b1b6-2f6a4c3d7bb3">
+
+
+
+Select edit to check the content of the file.
+
+
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/c2c197d5-761d-4046-9559-7e0d27c035f5">
+
+
+### 5. Create New Table (Azure SQL Database)
+
+
 
 ### 5. Create Linked Service
+
+
+
+
+### 5. Create Linked Service
+
+
+
+
+### 5. Create Linked Service
+
+
+
+### 5. Create Linked Service
+
+
 
 
 ### 6. Create Datasets

@@ -14,6 +14,8 @@ This report will describe how our group performs data integration using Azure Da
    - nafld2.csv
    
 ### 2. Create and Setup Data Factory
+Purpose: Create an instance of Azure Data Factory, which will serve as the orchestrator for our data integration processes.
+
 Create a new Azure Data Factory resource in Azure Portal. Provide a name, select the subscription, resource group, and region for our Data Factory. Click on the "Create" button to create the Azure Data Factory.
 <p align="center">
   <img src="images/datafactory.jpg" height= '300px'>

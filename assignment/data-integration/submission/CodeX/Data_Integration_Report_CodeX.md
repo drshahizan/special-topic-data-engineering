@@ -82,9 +82,15 @@ Create new pipeline, name it `blob to sql`. Click on the created pipeline, then 
 ![5b5a728f99df63879e583f1673d38155122f2be8](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/00a287b3-94f7-4abe-a63a-b8a65dc40b80)
 
 ### The Result
+In the database, run the following code to retrieve the transfered data. The Results woll show that the database had been set up properly and had been integrated.
+
+```sql
+select * from [dbo].[beer]
+```
+Results:
+![last](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/fbf264b1-6a4f-4e22-a82a-a6b83ff451f4)
 
 
-### Issues Faced
 
 
 

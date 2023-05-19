@@ -31,9 +31,20 @@
 
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/5759bcc8-1818-4664-a4e0-77d24a649429">
 
-
-
 ### 4. Create and Setup Storage Account
+
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/8c654790-7b6f-4c9a-93b5-bd5c5ac001f3">
+
+Select Blob Storage to store files.
+
+
+<img width="708" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/d140340a-a21f-4424-988b-5a3115d1fcaa">
+
+
+Create new container, add files into the container.
+
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/75046f15-ba68-4b7d-afc8-daf06124bb32">
+
 
 
 ### 5. Create Linked Service

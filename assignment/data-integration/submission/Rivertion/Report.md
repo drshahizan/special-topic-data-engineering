@@ -5,7 +5,7 @@
 
 <h2>Steps</h2>
 
-<h5>1.Get 3 data source</h5>
+<h3>1.Get 3 data source</h5>
 
 <ul>
   <li>1. <a href="spotify.csv">spotify.csv</a></li>
@@ -15,4 +15,4 @@
 
 <p>In the data integration process using Microsoft Azure Data Factory, we work with three file formats: spotify.csv (CSV), spotify.json (JSON), and spotify.xlsx (Excel). These files contain Spotify-related data such as song details, playlists, user preferences, and engagement metrics. By leveraging Azure Data Factory, these files are seamlessly integrated, transformed, and processed for efficient data integration workflows.</p>
 
-<h5>2.Setup Azure environment</h5>
+<h3>2.Setup Azure environment</h5>

@@ -6,14 +6,14 @@ This report will describe how our group performs data integration using Azure Da
 
 ## Steps:
 
-### 1. Identifying the Data Sources:
+### 1. Identifying the Data Sources
    For this assignment, we would like to integrate 3 types of data sources. The data sources are:- 
 
    - nwtco.csv
    - nafld1.csv
    - nafld2.csv
    
-### 2. Data Extraction and Transformation:
+### 2. Create and Setup Data Factory
    Once the data sources were identified, we proceeded with extracting the required data from each source. We applied necessary transformations to ensure the data was in a compatible format for integration. This step involved cleaning and standardizing the data, handling any inconsistencies or discrepancies, and performing data quality checks.
 
 ### 3. Data Integration and Consolidation:

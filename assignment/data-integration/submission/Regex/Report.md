@@ -2,6 +2,12 @@
    <h1>Report: Data Integration Using Azure Data Factory</h1>
 </div>
 
+
+
+## Data Factory Pipeline
+
+<img width="800" alt="image" align=Justify src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/01348dcb-e749-42c8-8c12-6e7989fb6cac">
+
 ## Steps:
 
 ### 1. Identifying the Data Sources

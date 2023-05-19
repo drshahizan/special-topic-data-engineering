@@ -21,14 +21,19 @@
 
 <img width="960" alt="createdatafactory" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/1eecf9dc-79ad-437c-ad7b-e0c622182b5a">
 
+<img width="960" alt="createddatafactory" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/bd280f78-beb2-453d-9f55-1be49f1d54f7">
 
-### 2. Set up the Azure Data Factory
+### 3. Create and Setup Azure SQL Database
+
+<img width="959" alt="createsqldb" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/87bd9b25-8b67-4761-8e32-0d286f9e2481">
+
+<img width="960" alt="createddb" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/67a4a67c-1740-478e-8f5b-895489385fad">
+
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/5759bcc8-1818-4664-a4e0-77d24a649429">
 
 
-### 3. Create A Storage Account
 
-
-### 4. Create an Azure SQL Database
+### 4. Create and Setup Storage Account
 
 
 ### 5. Create Linked Service

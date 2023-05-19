@@ -10,7 +10,7 @@
 <ul>
   <li>1. <a href="spotify.csv">spotify.csv</a></li>
   <li>2. <a href="spotify.json">spotify.json</a></li>
-  <li>3. <a href="spotify.xlxs">spotify.xlxs</a></li>
+  <li>3. <a href="spotify.xlsx">spotify.xlsx</a></li>
 </ul>
 
 <p>In the data integration process using Microsoft Azure Data Factory, we work with three file formats: spotify.csv (CSV), spotify.json (JSON), and spotify.xlsx (Excel). These files contain Spotify-related data such as song details, playlists, user preferences, and engagement metrics. By leveraging Azure Data Factory, these files are seamlessly integrated, transformed, and processed for efficient data integration workflows.</p>
@@ -35,8 +35,18 @@
 
 <img src="ss/WhatsApp Image 2023-05-19 at 16.25.41.jpeg" alt="">
 
-<h3>5.Insert data into blob storage</h3>
-<p>To add the data sources, begin by accessing the previously created spotify1. Open the storage account and select 'blob services'. Then, add the container named 'input'.</p>
+<h3>6.Create table in SQL Database</h3>
+<p>Click ‘Query editor (preview)’ which allows user to query database without need any external tools. Then, login to the SQL Database Query Editor. Create an SQL table statement in query 1 and run it. If the query is succeeded built, then the output will be as below.</p>
 
+<h3>7.Creating a link service</h3>
+<p>To create a link service, launch studio first and click ‘connections’ on the bottom left and there is a tab named ‘Linked Services’. Click ‘New’ and choose ‘Azure Blob Storage’ and head continue. Name the linked service and connect the string to the storage account name and click ‘Finish’. </p>
 
+<h3>8.Insert datasets into Factory Resources</h3>
+<p>In the Factory Resources, right click ‘Datasets’ and click ‘New dataset’ to insert both datasets from blob storage and SQL database.</p>
+
+<h3>9.Create Data Flow</h3>
+<p>First, add all three sources which are spotify.csv, spotify.json and spotify.xlsx. Then, join all the sources together. User can select any columns that they wanted to use by dragging the select activities. Lastly, display the output. </p>
+
+<h3>10.Run Data Flow in Pipeline</h3>
+<p>Create new pipeline from Activities and drag the data flow. Then, click ‘Debug’.</p>
 

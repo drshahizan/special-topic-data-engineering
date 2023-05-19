@@ -38,17 +38,65 @@ The pipeline is made up of several components that are linked together. The foll
 
 <img width="960" alt="createdatafactory" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/1eecf9dc-79ad-437c-ad7b-e0c622182b5a">
 
+<img width="960" alt="createddatafactory" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/bd280f78-beb2-453d-9f55-1be49f1d54f7">
 
-### 2. Set up the Azure Data Factory
+### 3. Create and Setup Azure SQL Database
+
+<img width="959" alt="createsqldb" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/87bd9b25-8b67-4761-8e32-0d286f9e2481">
+
+<img width="960" alt="createddb" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/67a4a67c-1740-478e-8f5b-895489385fad">
+
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/5759bcc8-1818-4664-a4e0-77d24a649429">
+
+### 4. Create and Setup Storage Account
+
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/8c654790-7b6f-4c9a-93b5-bd5c5ac001f3">
+
+Select Blob Storage to store files.
 
 
-### 3. Create A Storage Account
+<img width="708" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/d140340a-a21f-4424-988b-5a3115d1fcaa">
 
 
-### 4. Create an Azure SQL Database
+Create new container
+
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/75046f15-ba68-4b7d-afc8-daf06124bb32">
+
+
+Add files
+
+
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/d4355727-09b2-49cc-b1b6-2f6a4c3d7bb3">
+
+
+
+Select edit to check the content of the file.
+
+
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/c2c197d5-761d-4046-9559-7e0d27c035f5">
+
+
+### 5. Create New Table (Azure SQL Database)
+
 
 
 ### 5. Create Linked Service
+
+
+
+
+### 5. Create Linked Service
+
+
+
+
+### 5. Create Linked Service
+
+
+
+### 5. Create Linked Service
+
+
 
 
 ### 6. Create Datasets

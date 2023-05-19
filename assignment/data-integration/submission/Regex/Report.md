@@ -18,7 +18,7 @@ Purpose: Create an instance of Azure Data Factory, which will serve as the orche
 
 Create a new Azure Data Factory resource in Azure Portal. Provide a name, select the subscription, resource group, and region for our Data Factory. Click on the "Create" button to create the Azure Data Factory.
 <p align="center">
-  <img src="images/datafactory.jpg" height= '300px'>
+  <img src="images/createdatafactory.png" height= '300px'>
 </p>
 
 

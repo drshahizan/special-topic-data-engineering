@@ -48,6 +48,8 @@
 <h3>8.Insert datasets into Factory Resources</h3>
 <p>In the Factory Resources, right click ‘Datasets’ and click ‘New dataset’ to insert both datasets from blob storage and SQL database.</p>
 
+<img align="center" src="ss/Screenshot_159.png" alt="">
+
 <h3>9.Create Data Flow</h3>
 <p>First, add all three sources which are spotify.csv, spotify.json and spotify.xlsx. Then, join all the sources together. User can select any columns that they wanted to use by dragging the select activities. Lastly, display the output. </p>
 

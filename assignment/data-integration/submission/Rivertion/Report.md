@@ -23,12 +23,20 @@
 <h3>3.Setup SQL Database</h3>
 <p>To locate 'SQL Database' in Azure services, initiate a search and select the 'Create' option. Proceed to enter the required information, including the resource group, database name, and server creation. After the database has been successfully created, it will be displayed along with its corresponding server name, as demonstrated below.</p>
 
-<img src="ss/WhatsApp Image 2023-05-19 at 16.25.41" alt="">
+<img src="ss/WhatsApp Image 2023-05-19 at 16.26.11.jpeg" alt="">
 
 <h3>4.Setup Storage</h3>
-<p>Search for 'Storage Account' in Azure services, click 'Create', provide storage account name, region, etc. Once created, the storage will be recorded as shown.</p>
+<p>Search for 'Spotify1' in Azure services, click 'Create', provide storage account name, region, etc. Once created, the storage will be recorded as shown.</p>
 
 <img src="ss/WhatsApp Image 2023-05-19 at 16.25.41.jpeg" alt="">
+
+<h3>5.Insert data into blob storage</h3>
+<p>To add the data sources, begin by accessing the previously created spotify1. Open the storage account and select 'blob services'. Then, add the container named 'input'.</p>
+
+<img src="ss/WhatsApp Image 2023-05-19 at 16.25.41.jpeg" alt="">
+
+<h3>5.Insert data into blob storage</h3>
+<p>To add the data sources, begin by accessing the previously created spotify1. Open the storage account and select 'blob services'. Then, add the container named 'input'.</p>
 
 
 

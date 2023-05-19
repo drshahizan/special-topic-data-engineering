@@ -76,7 +76,7 @@ Navigate to author page. Under `Datasets` create new dataset (type: Azure Blob S
 ![8752655e9cb62741c5492dd017059c28e42a40cb](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/5b77eb58-3e0b-4b0a-af0b-0ee9970820b1)
 
 ### 5. Create Pipeline Canvas
-Create new pipeline, name it `blob to sql`. Click on the created pipeline, then a canvas will appear. In the activities column, go to 'Move & Transform' and drag `copy data` into the canvas. The source dataset should be `beerCSV` dataset and the sink source shall be `beerTable`. Debug the canvas until success. 
+Create new pipeline, name it `blob to sql`. Click on the created pipeline, then a canvas will appear. In the activities column, go to 'Move & Transform' and drag `copy data` into the canvas. The source dataset should be `beerCSV` dataset and the sink source shall be `beerTable`. Debug the canvas until success. After all elements had success in debugging, click on Publish.
 
 ![a6df591cb9a1c8f4a83a5d196937ffc4bcfa2935](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/bca1a36c-0139-498f-8f77-4b05ddcf3489)
 ![5b5a728f99df63879e583f1673d38155122f2be8](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/00a287b3-94f7-4abe-a63a-b8a65dc40b80)

@@ -14,6 +14,12 @@ This report will describe how our group performs data integration using Azure Da
    - nafld2.csv
    
 ### 2. Create and Setup Data Factory
+Create a new Azure Data Factory resource in Azure Portal. Provide a name, select the subscription, resource group, and region for our Data Factory. Click on the "Create" button to create the Azure Data Factory.
+<p align="center">
+  <img src="images/datafactory.jpg" height= '300px'>
+</p>
+
+
    Once the data sources were identified, we proceeded with extracting the required data from each source. We applied necessary transformations to ensure the data was in a compatible format for integration. This step involved cleaning and standardizing the data, handling any inconsistencies or discrepancies, and performing data quality checks.
 
 ### 3. Data Integration and Consolidation:

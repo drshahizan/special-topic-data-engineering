@@ -38,8 +38,12 @@
 <h3>6.Create table in SQL Database</h3>
 <p>Click ‘Query editor (preview)’ which allows user to query database without need any external tools. Then, login to the SQL Database Query Editor. Create an SQL table statement in query 1 and run it. If the query is succeeded built, then the output will be as below.</p>
 
+<img src="ss/WhatsApp Image 2023-05-19 at 5.57.04 PM.jpeg" alt="">
+
 <h3>7.Creating a link service</h3>
 <p>To create a link service, launch studio first and click ‘connections’ on the bottom left and there is a tab named ‘Linked Services’. Click ‘New’ and choose ‘Azure Blob Storage’ and head continue. Name the linked service and connect the string to the storage account name and click ‘Finish’. </p>
+
+<img src="ss/WhatsApp Image 2023-05-19 at 6.02.55 PM.jpeg" alt="">
 
 <h3>8.Insert datasets into Factory Resources</h3>
 <p>In the Factory Resources, right click ‘Datasets’ and click ‘New dataset’ to insert both datasets from blob storage and SQL database.</p>

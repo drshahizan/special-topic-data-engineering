@@ -58,3 +58,6 @@
 <h3>10.Run Data Flow in Pipeline</h3>
 <p>Create new pipeline from Activities and drag the data flow. Then, click ‘Debug’.</p>
 
+<img src="ss/Screenshot_161.png" alt="">
+<img src="ss/Screenshot_162.png" alt="">
+

@@ -1,0 +1,1277 @@
+album,year,US_peak_chart_post,danceability,energy,keys,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature,liked,title,artist,top genre,year release,bpm,nrgy,dnce,dB,live,val,dur,acous,spch,pop,top year,artist type,added
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,"BIG BANK (feat. 2 Chainz, Big Sean, Nicki Minaj)",YG,cali rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Classic Man (feat. Roman GianArthur),Jidenna,ghanaian hip hop,,,,,,,,,,,,,Solo,2020-08-11
+,,,,,,,,,,,,,,,,,Gucci Gang,Lil Pump,emo rap,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,More Than You Know,Axwell /\ Ingrosso,dance pop,,,,,,,,,,,,,Duo,2021-01-28
+,,,,,,,,,,,,,,,,,Sure Be Cool If You Did,Blake Shelton,contemporary country,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Don't Wanna Know (feat. Kendrick Lamar),Maroon 5,pop,,,,,,,,,,,,,Band/Group,2021-01-28
+,,,,,,,,,,,,,,,,,"Homemade Dynamite (Feat. Khalid, Post Malone & SZA) - REMIX",Lorde,art pop,,,,,,,,,,,,,Solo,2021-06-25
+,,,,,,,,,,,,,,,,,Timber (feat. Ke$ha),Pitbull,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Trap Queen,Fetty Wap,new jersey rap,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Back To December,Taylor Swift,pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,No Promises (feat. Demi Lovato),Cheat Codes,dance pop,,,,,,,,,,,,,Trio,2021-01-28
+,,,,,,,,,,,,,,,,,Suit & Tie (feat. Jay-Z),Justin Timberlake,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Sunset Lover,Petit Biscuit,new french touch,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,We Don't Talk Anymore (feat. Selena Gomez),Charlie Puth,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,When You Love Someone,James TW,neo mellow,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Déjala Que Vuelva (feat. Manuel Turizo),Piso 21,colombian pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Five More Hours,Deorro,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,For the First Time,The Script,celtic rock,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,Good Life,OneRepublic,dance pop,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Hey Daddy (Daddy's Home),Usher,atl hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,High Hopes,Kodaline,irish pop,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,High Hopes,Panic! At The Disco,modern rock,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Lost Boy,Ruth B.,alt z,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,This Is How We Do,Katy Perry,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,7 rings,Ariana Grande,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Harlem Shake,Baauer,bass trap,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Jumpman,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Sexy And I Know It,LMFAO,dance pop,,,,,,,,,,,,,Duo,2020-06-16
+,,,,,,,,,,,,,,,,,Sexy And I Know It,LMFAO,dance pop,,,,,,,,,,,,,Duo,2020-06-22
+,,,,,,,,,,,,,,,,,Starboy,The Weeknd,canadian contemporary r&b,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Suge,DaBaby,north carolina hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Waiting All Night (feat. Ella Eyre),Rudimental,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Donald Trump,Mac Miller,hip hop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Grace,Lewis Capaldi,pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,I Need A Doctor,Dr. Dre,g funk,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Mercy,Kanye West,chicago rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Mo Bamba,Sheck Wes,rap,,,,,,,,,,,,,Solo,2020-08-11
+,,,,,,,,,,,,,,,,,Ready For Your Love,Gorgon City,deep groove house,,,,,,,,,,,,,Duo,2020-06-10
+,,,,,,,,,,,,,,,,,Roses,The Chainsmokers,dance pop,,,,,,,,,,,,,Duo,2020-06-08
+,,,,,,,,,,,,,,,,,Bounce Back,Big Sean,detroit hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Counting Stars,OneRepublic,dance pop,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,Ghost Town,Adam Lambert,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,La La La,Naughty Boy,tropical house,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Paradise,Coldplay,permanent wave,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Paradise,Coldplay,permanent wave,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Paradise,George Ezra,folk-pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Today Was A Fairytale,Taylor Swift,pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Going Bad (feat. Drake),Meek Mill,hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,One More Night,Maroon 5,pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,"Sucker for Pain (with Wiz Khalifa, Imagine Dragons, Logic & Ty Dolla $ign feat. X Ambassadors)",Lil Wayne,hip hop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Super Bass,Nicki Minaj,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Who Says,Selena Gomez & The Scene,dance pop,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,0.6363636363636364,Beyoncé,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Bad Blood,Taylor Swift,pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Bad Blood,Taylor Swift,pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Blame (feat. John Newman),Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Answerphone (feat. Yxng Bane),Banx & Ranx,basshall,,,,,,,,,,,,,Duo,2020-06-22
+,,,,,,,,,,,,,,,,,Hotline Bling,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Please Me,Cardi B,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Set Fire to the Rain,Adele,british soul,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Spirits,The Strumbellas,canadian indie,,,,,,,,,,,,,Band/Group,2021-08-09
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,My Songs Know What You Did In The Dark (Light Em Up),Fall Out Boy,emo,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,Slide (feat. Frank Ocean & Migos),Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,How Long,Charlie Puth,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Jocelyn Flores,XXXTENTACION,emo rap,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,"Work Hard, Play Hard",Wiz Khalifa,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,YOUTH,Troye Sivan,australian pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Centuries,Fall Out Boy,emo,,,,,,,,,,,,,Band/Group,2020-06-19
+,,,,,,,,,,,,,,,,,Latch,Disclosure,edm,,,,,,,,,,,,,Duo,2020-06-22
+,,,,,,,,,,,,,,,,,Latch,Disclosure,edm,,,,,,,,,,,,,Duo,2020-06-10
+,,,,,,,,,,,,,,,,,Levels - Radio Edit,Avicii,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Nothing Breaks Like a Heart (feat. Miley Cyrus),Mark Ronson,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Believe,Mumford & Sons,modern folk rock,,,,,,,,,,,,,Band/Group,2020-06-19
+,,,,,,,,,,,,,,,,,Hands on the Wheel (feat. Asap Rocky),ScHoolboy Q,gangster rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Magic,Coldplay,permanent wave,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,My Way,Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Slide Away,Miley Cyrus,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Take It Off,Kesha,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,The Other Side,Jason Derulo,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,What's My Name?,Rihanna,barbadian pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,What's My Name?,Rihanna,barbadian pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Born To Die,Lana Del Rey,art pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Breezeblocks,alt-J,indie rock,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Locked out of Heaven,Bruno Mars,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Locked out of Heaven,Bruno Mars,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Old Town Road - Remix,Lil Nas X,lgbtq+ hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Scream & Shout,will.i.am,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Thinking About You (feat. Ayah Marar),Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,"Flex (Ooh, Ooh, Ooh)",Rich Homie Quan,atl hip hop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Lighters,Bad Meets Evil,detroit hip hop,,,,,,,,,,,,,Duo,2020-06-16
+,,,,,,,,,,,,,,,,,Lost in the Fire (feat. The Weeknd),Gesaffelstein,dark clubbing,,,,,,,,,,,,,Solo,2021-10-28
+,,,,,,,,,,,,,,,,,Lucid Dreams,Juice WRLD,chicago rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,MotorSport,Migos,atl hip hop,,,,,,,,,,,,,Trio,2020-08-11
+,,,,,,,,,,,,,,,,,Ridin' Solo,Jason Derulo,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Stay (feat. Maty Noyes),Kygo,edm,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Superheroes,The Script,celtic rock,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,The London (feat. J. Cole & Travis Scott),Young Thug,atl hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,When We Were Young,Adele,british soul,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Lay It All on Me (feat. Ed Sheeran),Rudimental,dance pop,,,,,,,,,,,,,Band/Group,2020-06-19
+,,,,,,,,,,,,,,,,,Look Back at It,A Boogie Wit da Hoodie,melodic rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Alarm,Anne-Marie,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Grenade,Bruno Mars,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Home,Phillip Phillips,folk-pop,,,,,,,,,,,,,Solo,2021-08-09
+,,,,,,,,,,,,,,,,,Home,Phillip Phillips,folk-pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,I Took A Pill In Ibiza - Seeb Remix,Mike Posner,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Miami 2 Ibiza - Swedish House Mafia vs. Tinie Tempah,Swedish House Mafia,dance pop,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,Rolling in the Deep,Adele,british soul,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Spotlight,Marshmello,brostep,,,,,,,,,,,,,Solo,2021-08-17
+,,,,,,,,,,,,,,,,,Cruel Summer,Taylor Swift,pop,,,,,,,,,,,,,Solo,2021-08-17
+,,,,,,,,,,,,,,,,,Die A Happy Man,Thomas Rhett,contemporary country,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,ELEMENT.,Kendrick Lamar,conscious hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Easier,5 Seconds of Summer,boy band,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Corazón (feat. Nego do Borel),Maluma,latin,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Don't Start Now,Dua Lipa,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,E.T.,Katy Perry,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,STARSTRUKK (feat. Katy Perry),3OH!3,dance pop,,,,,,,,,,,,,Duo,2022-02-17
+,,,,,,,,,,,,,,,,,Strike a Pose (feat. Aitch),Young T & Bugsey,afroswing,,,,,,,,,,,,,Duo,2020-08-20
+,,,,,,,,,,,,,,,,,oui,Jeremih,chicago rap,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,It's a Beautiful Day,Michael Bublé,adult standards,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,"Sit Still, Look Pretty",Daya,alt z,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Bad (feat. Rihanna) - Remix,Wale,gangster rap,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Losin Control,Russ,hawaiian hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,You & Me,Marc E. Bassy,pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Pass Out,Tinie Tempah,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Teenage Dream,Katy Perry,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Bored,Billie Eilish,art pop,,,,,,,,,,,,,Solo,2021-09-20
+,,,,,,,,,,,,,,,,,Gecko (Overdrive) - Radio Edit,Oliver Heldens,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Glad You Came,The Wanted,boy band,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Ho Hey,The Lumineers,folk-pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Ho Hey,The Lumineers,folk-pop,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,"Just Like Fire (From the Original Motion Picture ""Alice Through The Looking Glass"")",P!nk,dance pop,,,,,,,,,,,,,Solo,2020-06-29
+,,,,,,,,,,,,,,,,,Make Me Feel,Janelle Monáe,afrofuturism,,,,,,,,,,,,,Solo,2021-06-15
+,,,,,,,,,,,,,,,,,Roll Up,Wiz Khalifa,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,We Are Young (feat. Janelle Monáe),fun.,baroque pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,All Night,The Vamps,boy band,,,,,,,,,,,,,Duo,2021-01-28
+,,,,,,,,,,,,,,,,,High By The Beach,Lana Del Rey,art pop,,,,,,,,,,,,,Solo,2021-08-09
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Can't Hold Us (feat. Ray Dalton),Macklemore & Ryan Lewis,dance pop,,,,,,,,,,,,,Duo,2020-06-11
+,,,,,,,,,,,,,,,,,Don’t Feel Like Crying,Sigrid,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Good Time,Owl City,indietronica,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Same Love (feat. Mary Lambert),Macklemore & Ryan Lewis,dance pop,,,,,,,,,,,,,Duo,2020-06-11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Secreto,Anuel AA,latin,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Animal,Neon Trees,modern alternative rock,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,CoCo,O.T. Genasis,pop rap,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,This One's for You (feat. Zara Larsson) (Official Song UEFA EURO 2016),David Guetta,big room,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Beautiful People,Chris Brown,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Broccoli,Shelley FKA DRAM,alternative r&b,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Liability,Lorde,art pop,,,,,,,,,,,,,Solo,2021-06-25
+,,,,,,,,,,,,,,,,,Boasty (feat. Idris Elba),Wiley,grime,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Earthquake (feat. Tinie Tempah),Labrinth,indie poptimism,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,How to Be a Heartbreaker,MARINA,art pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Needed Me,Rihanna,barbadian pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Rack City,Tyga,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Wasted,Tiësto,big room,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Problem,Ariana Grande,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Call Out My Name,The Weeknd,canadian contemporary r&b,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Headlines,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,King,Years & Years,dance pop,,,,,,,,,,,,,Band/Group,2020-06-19
+,,,,,,,,,,,,,,,,,One Day / Reckoning Song (Wankelmut Remix) - Radio Edit,Asaf Avidan,israeli pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Ophelia,The Lumineers,folk-pop,,,,,,,,,,,,,Band/Group,2020-06-08
+,,,,,,,,,,,,,,,,,Seek Bromance (Avicii Vocal Edit),Tim Berg,edm,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Telephone,Lady Gaga,art pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Electric Love,BØRNS,modern rock,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Somebody That I Used To Know,Gotye,australian pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Thotiana,Blueface,cali rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Am I Wrong,Nico & Vinz,pop rap,,,,,,,,,,,,,Duo,2020-06-10
+,,,,,,,,,,,,,,,,,Bad and Boujee (feat. Lil Uzi Vert),Migos,atl hip hop,,,,,,,,,,,,,Trio,2021-01-28
+,,,,,,,,,,,,,,,,,It's Not Living (If It's Not With You),The 1975,modern alternative rock,,,,,,,,,,,,,Band/Group,2021-06-15
+,,,,,,,,,,,,,,,,,I Feel It Coming,The Weeknd,canadian contemporary r&b,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Juicy,Doja Cat,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Look Alive (feat. Drake),BlocBoy JB,memphis hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Middle Of The Night,The Vamps,boy band,,,,,,,,,,,,,Duo,2021-01-28
+,,,,,,,,,,,,,,,,,Dangerously,Charlie Puth,dance pop,,,,,,,,,,,,,Solo,2021-08-17
+,,,,,,,,,,,,,,,,,HUMBLE.,Kendrick Lamar,conscious hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,How Deep Is Your Love,Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,The Git Up,Blanco Brown,black americana,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Me And My Broken Heart,Rixton,pop,,,,,,,,,,,,,Duo,2020-06-10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,California Gurls,Katy Perry,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Imma Be,Black Eyed Peas,dance pop,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,Sorry,Beyoncé,dance pop,,,,,,,,,,,,,Solo,2020-08-11
+,,,,,,,,,,,,,,,,,Sorry,Justin Bieber,canadian pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Sorry,Joel Corry,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,The Edge Of Glory,Lady Gaga,art pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,What Makes You Beautiful,One Direction,boy band,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,22,Taylor Swift,pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,"All I Do Is Win (feat. T-Pain, Ludacris, Snoop Dogg & Rick Ross)",DJ Khaled,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Circles,Post Malone,dfw rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,FEFE,6ix9ine,emo rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,No Brainer,DJ Khaled,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,She Said,Plan B,grime,,,,,,,,,,,,,Duo,2022-02-17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Thinkin Bout You,Frank Ocean,alternative r&b,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,DJ Got Us Fallin' In Love (feat. Pitbull),Usher,atl hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,No Lie,Sean Paul,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,R U Mine?,Arctic Monkeys,garage rock,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Cooler Than Me - Single Mix,Mike Posner,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,DNA.,Kendrick Lamar,conscious hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Just the Way You Are,Bruno Mars,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Silhouettes - Original Radio Edit,Avicii,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Can't Feel My Face,The Weeknd,canadian contemporary r&b,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,High (feat. Nicole Millar),Peking Duk,aussietronica,,,,,,,,,,,,,Band/Group,2020-06-29
+,,,,,,,,,,,,,,,,,Royals,Lorde,art pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Silence,Marshmello,brostep,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Skinny Love,Birdy,pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,"i hate u, i love u (feat. olivia o'brien)",Garrett Nash,electropop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Come & Get It,Selena Gomez,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,King Kunta,Kendrick Lamar,conscious hip hop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Rolex,Ayo & Teo,social media pop,,,,,,,,,,,,,Duo,2021-01-28
+,,,,,,,,,,,,,,,,,"Gone, Gone, Gone",Phillip Phillips,folk-pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Hotter Than Hell,Dua Lipa,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Robbery,Juice WRLD,chicago rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Animals - Radio Edit,Martin Garrix,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Final Song,MØ,art pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Intoxicated - Radio Edit,Martin Solveig,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Marry You,Bruno Mars,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Tonight Tonight,Hot Chelle Rae,dance pop,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,True Love (feat. Lily Allen),P!nk,dance pop,,,,,,,,,,,,,Solo,2021-10-19
+,,,,,,,,,,,,,,,,,when the party's over,Billie Eilish,art pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Amnesia,5 Seconds of Summer,boy band,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,Antisocial (with Travis Scott),Ed Sheeran,pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,C'Mon,Kesha,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Can't Be Tamed,Miley Cyrus,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Malibu,Miley Cyrus,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Stuck Like Glue,Sugarland,contemporary country,,,,,,,,,,,,,Duo,2022-02-17
+Under Great White Northern Lights,2010,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Under Great White Northern Lights,2010,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Under Great White Northern Lights,2010,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Under Great White Northern Lights,2010,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Under Great White Northern Lights,2010,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Hot Right Now - Edit,DJ Fresh,dancefloor dnb,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Ladbroke Grove,AJ Tracey,grime,,,,,,,,,,,,,Solo,2020-08-20
+,,,,,,,,,,,,,,,,,XO Tour Llif3,Lil Uzi Vert,melodic rap,,,,,,,,,,,,,Solo,2021-01-28
+Under Great White Northern Lights,2010,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Under Great White Northern Lights,2010,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Under Great White Northern Lights,2010,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Get Behind Me Satan,2005,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Get Behind Me Satan,2005,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Get Behind Me Satan,2005,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Get Behind Me Satan,2005,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Get Behind Me Satan,2005,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Get Behind Me Satan,2005,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Get Behind Me Satan,2005,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Get Behind Me Satan,2005,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+White Blood Cells,2001,61,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+White Blood Cells,2001,61,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+White Blood Cells,2001,61,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+White Blood Cells,2001,61,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+White Blood Cells,2001,61,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+White Blood Cells,2001,61,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+White Blood Cells,2001,61,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+White Blood Cells,2001,61,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Elephant,2003,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Elephant,2003,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Elephant,2003,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Elephant,2003,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Elephant,2003,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Elephant,2003,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Elephant,2003,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Elephant,2003,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+The White Stripes,1999,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+De Stijl,2000,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live in Mississippi,2011,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live at the Gold Dollar,2012,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nine Miles from the White City,2013,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+The White Stripes,1999,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+De Stijl,2000,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live in Mississippi,2011,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live at the Gold Dollar,2012,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nine Miles from the White City,2013,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+The White Stripes,1999,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+De Stijl,2000,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live in Mississippi,2011,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live at the Gold Dollar,2012,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nine Miles from the White City,2013,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+The White Stripes,1999,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+De Stijl,2000,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live in Mississippi,2011,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live at the Gold Dollar,2012,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nine Miles from the White City,2013,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+The White Stripes,1999,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+De Stijl,2000,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live in Mississippi,2011,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live at the Gold Dollar,2012,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nine Miles from the White City,2013,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+The White Stripes,1999,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+De Stijl,2000,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live in Mississippi,2011,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live at the Gold Dollar,2012,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nine Miles from the White City,2013,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+The White Stripes,1999,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+De Stijl,2000,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live in Mississippi,2011,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live at the Gold Dollar,2012,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nine Miles from the White City,2013,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+The White Stripes,1999,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+De Stijl,2000,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live in Mississippi,2011,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Live at the Gold Dollar,2012,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nine Miles from the White City,2013,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Icky Thump,2007,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Icky Thump,2007,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Icky Thump,2007,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Icky Thump,2007,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Icky Thump,2007,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Icky Thump,2007,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Icky Thump,2007,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Icky Thump,2007,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Cruise,Florida Georgia Line,contemporary country,,,,,,,,,,,,,Duo,2020-06-11
+,,,,,,,,,,,,,,,,,DUELE EL CORAZON (feat. Wisin),Enrique Iglesias,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,GDFR (feat. Sage the Gemini & Lookas),Flo Rida,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,S&M,Rihanna,barbadian pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,The Time (Dirty Bit),Black Eyed Peas,dance pop,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Easy Love,Sigala,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Middle,DJ Snake,dance pop,,,,,,,,,,,,,Solo,2020-06-25
+,,,,,,,,,,,,,,,,,The Greatest Show,Hugh Jackman,hollywood,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,"thank u, next",Ariana Grande,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Bounce (feat. Kelis) - Radio Edit,Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,"CAN'T STOP THE FEELING! (from DreamWorks Animation's ""TROLLS"")",Justin Timberlake,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Feel It Still,Portugal. The Man,indie rock,,,,,,,,,,,,,Band/Group,2021-01-28
+,,,,,,,,,,,,,,,,,Party Rock Anthem,LMFAO,dance pop,,,,,,,,,,,,,Duo,2020-06-16
+,,,,,,,,,,,,,,,,,Take Me Back to London (feat. Stormzy),Ed Sheeran,pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Work,Rihanna,barbadian pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Cheap Thrills (feat. Sean Paul),Sia,australian dance,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Post to Be (feat. Chris Brown & Jhene Aiko),Omarion,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Post to Be (feat. Chris Brown & Jhene Aiko),Omarion,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,The Hills,The Weeknd,canadian contemporary r&b,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Find Your Love,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Good Feeling,Flo Rida,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,In The Night,The Weeknd,canadian contemporary r&b,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Little Dark Age,MGMT,alternative dance,,,,,,,,,,,,,Band/Group,2022-03-08
+,,,,,,,,,,,,,,,,,On A Roll,Ashley O,pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Shape of You,Ed Sheeran,pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Style,Taylor Swift,pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Style,Taylor Swift,pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,This Town,Niall Horan,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Treat You Better,Shawn Mendes,canadian pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Last Friday Night (T.G.I.F.),Katy Perry,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,One Thing Right,Marshmello,brostep,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Slow Motion,Trey Songz,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,The Way I Am,Charlie Puth,dance pop,,,,,,,,,,,,,Solo,2021-08-17
+,,,,,,,,,,,,,,,,,On My Mind,Ellie Goulding,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Pop Out (feat. Lil Tjay),Polo G,chicago rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Starving,Hailee Steinfeld,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,iSpy (feat. Lil Yachty),KYLE,pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,24K Magic,Bruno Mars,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Baby,Justin Bieber,canadian pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,MIA (feat. Drake),Bad Bunny,latin,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,That's What I Like,Bruno Mars,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Young Forever,JAY-Z,east coast hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Let's Fall in Love for the Night,FINNEAS,alt z,,,,,,,,,,,,,Solo,2021-06-15
+,,,,,,,,,,,,,,,,,Of The Night,Bastille,metropopolis,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,Shout Out to My Ex,Little Mix,dance pop,,,,,,,,,,,,,Band/Group,2020-06-08
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Kill This Love,BLACKPINK,k-pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Plain Jane,A$AP Ferg,gangster rap,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Drowning (feat. Kodak Black),A Boogie Wit da Hoodie,melodic rap,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Habits (Stay High),Tove Lo,art pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Tequila,Dan + Shay,contemporary country,,,,,,,,,,,,,Duo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,All Of The Lights,Kanye West,chicago rap,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Plug Walk,Rich The Kid,atl hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Whatever It Takes,Imagine Dragons,modern rock,,,,,,,,,,,,,Band/Group,2021-01-28
+,,,,,,,,,,,,,,,,,Dancing On My Own - Radio Edit,Robyn,art pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Jealous,Labrinth,indie poptimism,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Memories (feat. Kid Cudi),David Guetta,big room,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,#SELFIE,The Chainsmokers,dance pop,,,,,,,,,,,,,Duo,2020-06-10
+,,,,,,,,,,,,,,,,,China,Anuel AA,latin,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Hot N*gga,Bobby Shmurda,nyc rap,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,"Moves Like Jagger - Studio Recording From ""The Voice"" Performance",Maroon 5,pop,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Deuces (feat. Tyga & Kevin McCall),Chris Brown,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,I Cry,Flo Rida,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,LOVE. FEAT. ZACARI.,Kendrick Lamar,conscious hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,LOVE. FEAT. ZACARI.,Kendrick Lamar,conscious hip hop,,,,,,,,,,,,,Solo,2020-08-11
+,,,,,,,,,,,,,,,,,Raise Your Glass,P!nk,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Stole the Show,Kygo,edm,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Stole the Show,Kygo,edm,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,bury a friend,Billie Eilish,art pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,17,MK,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Every Teardrop Is a Waterfall,Coldplay,permanent wave,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Heart Attack,Trey Songz,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Heart Attack,Demi Lovato,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Oblivion,Grimes,art pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Too Good At Goodbyes,Sam Smith,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Him & I (with Halsey),G-Eazy,indie pop rap,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Him & I (with Halsey),G-Eazy,indie pop rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,In The Dark,DEV,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,PILLOWTALK,ZAYN,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,We Own It (Fast & Furious),2 Chainz,atl hip hop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Bad Vibe,M.O,afroswing,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Blind Faith,Chase & Status,dancefloor dnb,,,,,,,,,,,,,Duo,2020-06-16
+,,,,,,,,,,,,,,,,,Rather Be (feat. Jess Glynne),Clean Bandit,dance pop,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Down With The Trumpets,Rizzle Kicks,uk hip hop,,,,,,,,,,,,,Duo,2020-06-16
+,,,,,,,,,,,,,,,,,Read All About It,Professor Green,grime,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Renegades,X Ambassadors,modern alternative rock,,,,,,,,,,,,,Band/Group,2020-06-19
+,,,,,,,,,,,,,,,,,Renegades,X Ambassadors,modern alternative rock,,,,,,,,,,,,,Band/Group,2021-05-06
+,,,,,,,,,,,,,,,,,The Motto,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Want U Back,Cher Lloyd,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Where Them Girls At (feat. Nicki Minaj & Flo Rida),David Guetta,big room,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Black Beatles,Rae Sremmurd,hip hop,,,,,,,,,,,,,Duo,2021-01-28
+,,,,,,,,,,,,,,,,,Carry Out (Featuring Justin Timberlake),Timbaland,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Geronimo,Sheppard,australian indie,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,Geronimo,Sheppard,australian indie,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,How Low,Ludacris,atl hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Tears (feat. Louisa Johnson),Clean Bandit,dance pop,,,,,,,,,,,,,Band/Group,2020-06-08
+,,,,,,,,,,,,,,,,,The Monster,Eminem,detroit hip hop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,One - Radio Edit,Swedish House Mafia,dance pop,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,Video Games,Lana Del Rey,art pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Blah Blah Blah (feat. 3OH!3),Kesha,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Blurred Lines,Robin Thicke,contemporary r&b,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Eenie Meenie,Sean Kingston,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Faded,Tyga,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Faded,ZHU,edm,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Only Love Can Hurt Like This,Paloma Faith,british soul,,,,,,,,,,,,,Solo,2020-08-20
+,,,,,,,,,,,,,,,,,Papaoutai,Stromae,belgian pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Part Of Me,Katy Perry,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,The Man,Aloe Blacc,pop soul,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Body,Loud Luxury,dance pop,,,,,,,,,,,,,Duo,2020-06-22
+,,,,,,,,,,,,,,,,,Soltera - Remix,Lunay,latin,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Sweet Nothing (feat. Florence Welch),Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,The Middle,Zedd,complextro,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,rockstar (feat. 21 Savage),Post Malone,dfw rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Blank Space,Taylor Swift,pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,First,Cold War Kids,alternative rock,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,It's Time,Imagine Dragons,modern rock,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Look What You Made Me Do,Taylor Swift,pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Never Forget You,Zara Larsson,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,OMG (feat. will.i.am),Usher,atl hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Stay With Me,Sam Smith,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Turn Down for What,DJ Snake,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Your Love Is My Drug,Kesha,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Lost,Frank Ocean,alternative r&b,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Moonlight,XXXTENTACION,emo rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Paris,The Chainsmokers,dance pop,,,,,,,,,,,,,Duo,2021-01-28
+,,,,,,,,,,,,,,,,,Psycho (feat. Ty Dolla $ign),Post Malone,dfw rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Battle Scars (with Guy Sebastian),Lupe Fiasco,chicago rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Don't Stop the Party (feat. TJR),Pitbull,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Lover,Taylor Swift,pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Pink + White,Frank Ocean,alternative r&b,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Ride It,Regard,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Adventure of a Lifetime,Coldplay,permanent wave,,,,,,,,,,,,,Band/Group,2020-06-08
+,,,,,,,,,,,,,,,,,All In My Head (Flex) (feat. Fetty Wap),Fifth Harmony,dance pop,,,,,,,,,,,,,Band/Group,2020-06-08
+,,,,,,,,,,,,,,,,,Hideaway,Kiesza,electropop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Strangers,Sigrid,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Talk Dirty (feat. 2 Chainz),Jason Derulo,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Talk Dirty (feat. 2 Chainz),Jason Derulo,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Team,Lorde,art pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Chocolate,The 1975,modern alternative rock,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,I Follow Rivers - The Magician Remix,Lykke Li,art pop,,,,,,,,,,,,,Solo,2020-06-25
+,,,,,,,,,,,,,,,,,Same Old Love,Selena Gomez,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Same Old Love,Selena Gomez,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Sing,Ed Sheeran,pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,We Are Never Ever Getting Back Together,Taylor Swift,pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Fake Love,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,No Money,Galantis,dance pop,,,,,,,,,,,,,Duo,2020-06-08
+,,,,,,,,,,,,,,,,,Save That Shit,Lil Peep,emo rap,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Young Dumb & Broke,Khalid,pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,All About That Bass,Meghan Trainor,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,I Need A Dollar,Aloe Blacc,pop soul,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Right Above It,Lil Wayne,hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Somewhere Only We Know,Lily Allen,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Team,Lorde,art pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Wavin' Flag,K'NAAN,reggae fusion,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Break Your Heart,Taio Cruz,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Money,Cardi B,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Summer,Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,The A Team,Ed Sheeran,pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,This Feeling,The Chainsmokers,dance pop,,,,,,,,,,,,,Duo,2022-01-24
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Blame It on Me,George Ezra,folk-pop,,,,,,,,,,,,,Solo,2021-08-09
+,,,,,,,,,,,,,,,,,"Give Me Everything (feat. Ne-Yo, Afrojack & Nayer)",Pitbull,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Love Runs Out,OneRepublic,dance pop,,,,,,,,,,,,,Band/Group,2020-06-19
+,,,,,,,,,,,,,,,,,Nights Like This (feat. Ty Dolla $ign),Kehlani,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,The Fox (What Does the Fox Say?),Ylvis,comic,,,,,,,,,,,,,Duo,2020-06-11
+,,,,,,,,,,,,,,,,,Under Control (feat. Hurts),Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,You Make Me Feel... (feat. Sabi),Cobra Starship,dance pop,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Callaita,Bad Bunny,latin,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Nights With You,MØ,art pop,,,,,,,,,,,,,Solo,2021-06-25
+,,,,,,,,,,,,,,,,,i'm so tired...,Lauv,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Fast Car,Jonas Blue,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,I Want You To Know,Zedd,complextro,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Love Me Now,John Legend,neo soul,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,My Love (feat. Jess Glynne),Route 94,deep groove house,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Pray For Me (with Kendrick Lamar),The Weeknd,canadian contemporary r&b,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Rise,Jonas Blue,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,That's How You Know (feat. Kid Ink & Bebe Rexha),Nico & Vinz,pop rap,,,,,,,,,,,,,Duo,2020-06-22
+,,,,,,,,,,,,,,,,,The Adventures of Rain Dance Maggie,Red Hot Chili Peppers,alternative rock,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Wake Me Up,Avicii,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Be Careful,Cardi B,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,I Need Your Love (feat. Ellie Goulding),Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Bangarang (feat. Sirah),Skrillex,brostep,,,,,,,,,,,,,Solo,2020-06-29
+,,,,,,,,,,,,,,,,,Collard Greens,ScHoolboy Q,gangster rap,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Demons,Imagine Dragons,modern rock,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,Like I Can,Sam Smith,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Love Lies (with Normani),Khalid,pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Call Me Maybe,Carly Rae Jepsen,canadian pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Don't Let Me Down,The Chainsmokers,dance pop,,,,,,,,,,,,,Duo,2020-06-08
+,,,,,,,,,,,,,,,,,FourFiveSeconds,Rihanna,barbadian pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Good Grief,Bastille,metropopolis,,,,,,,,,,,,,Band/Group,2021-08-09
+,,,,,,,,,,,,,,,,,If We Ever Meet Again (Featuring Katy Perry),Timbaland,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,I Could Be The One (Avicii Vs. Nicky Romero) - Radio Edit,Avicii,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,In the Name of Love,Martin Garrix,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Louder,DJ Fresh,dancefloor dnb,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Slippery (feat. Gucci Mane),Migos,atl hip hop,,,,,,,,,,,,,Trio,2021-01-28
+,,,,,,,,,,,,,,,,,Swervin (feat. 6ix9ine),A Boogie Wit da Hoodie,melodic rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Cross Me (feat. Chance the Rapper & PnB Rock),Ed Sheeran,pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Pretty Girl Rock,Keri Hilson,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Redbone,Childish Gambino,atl hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Rude,MAGIC!,reggae fusion,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,Shut Up and Dance,WALK THE MOON,dance pop,,,,,,,,,,,,,Band/Group,2020-06-19
+,,,,,,,,,,,,,,,,,Unforgettable,French Montana,gangster rap,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Work Bitch,Britney Spears,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Ass Back Home (feat. Neon Hitch),Gym Class Heroes,dance pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Best Song Ever,One Direction,boy band,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,Boo'd Up,Ella Mai,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Old Town Road,Lil Nas X,lgbtq+ hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Princess of China,Coldplay,permanent wave,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Rockabye (feat. Sean Paul & Anne-Marie),Clean Bandit,dance pop,,,,,,,,,,,,,Band/Group,2021-01-28
+,,,,,,,,,,,,,,,,,The Greatest (feat. Kendrick Lamar),Sia,australian dance,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Glorious (feat. Skylar Grey),Macklemore,pop rap,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Half of My Heart,John Mayer,neo mellow,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,She Looks So Perfect,5 Seconds of Summer,boy band,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,TiK ToK,Kesha,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,You Make It Easy,Jason Aldean,contemporary country,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Adorn,Miguel,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Alaska,Maggie Rogers,indie pop,,,,,,,,,,,,,Solo,2021-08-09
+,,,,,,,,,,,,,,,,,All The Stars (with SZA),Kendrick Lamar,conscious hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Barcelona,George Ezra,folk-pop,,,,,,,,,,,,,Solo,2021-08-09
+,,,,,,,,,,,,,,,,,Don't You Worry Child - Radio Edit,Swedish House Mafia,dance pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Forget You,CeeLo Green,atl hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,My Chick Bad,Ludacris,atl hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Pound The Alarm,Nicki Minaj,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,SICKO MODE,Travis Scott,hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,SICKO MODE,Travis Scott,hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Black Widow,Iggy Azalea,australian hip hop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Delicate,Taylor Swift,pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,I Got U,Duke Dumont,destroy techno,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,"Love Me Like You Do - From ""Fifty Shades Of Grey""",Ellie Goulding,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Omen - Radio Edit,Disclosure,edm,,,,,,,,,,,,,Duo,2020-06-19
+,,,,,,,,,,,,,,,,,One Call Away,Charlie Puth,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Power Trip (feat. Miguel),J. Cole,conscious hip hop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Slow Hands,Niall Horan,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Clout (feat. Cardi B),Offset,atl hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Hands To Myself,Selena Gomez,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Hands To Myself,Selena Gomez,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,we fell in love in october,girl in red,bedroom pop,,,,,,,,,,,,,Solo,2021-03-02
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,On Top Of The World,Imagine Dragons,modern rock,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Ready or Not,Bridgit Mendler,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Troublemaker (feat. Flo Rida),Olly Murs,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Ugly Heart,G.R.L.,dance pop,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Chandelier,Sia,australian dance,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Die Young,Kesha,dance pop,,,,,,,,,,,,,Solo,2020-06-25
+,,,,,,,,,,,,,,,,,I Know What You Did Last Summer,Shawn Mendes,canadian pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,The Sound,The 1975,modern alternative rock,,,,,,,,,,,,,Band/Group,2021-08-09
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,I Like It,Enrique Iglesias,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,I Like It,Cardi B,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,It's A Vibe,2 Chainz,atl hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Stereo Hearts (feat. Adam Levine),Gym Class Heroes,dance pop,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Wish You Were Mine - Radio Edit,Philip George,deep groove house,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Yes Indeed,Lil Baby,atl hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Bad Things (with Camila Cabello),Machine Gun Kelly,ohio hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Do It Like A Dude,Jessie J,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Good For You,Selena Gomez,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Jumanji,B Young,afroswing,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Love On Top,Beyoncé,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Only Human,Jonas Brothers,boy band,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Good as You,Kane Brown,black americana,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Heart Skips a Beat (feat. Rizzle Kicks),Olly Murs,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,I'm Upset,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Payphone,Maroon 5,pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Sugar (feat. Francesco Yates),Robin Schulz,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Unsteady,X Ambassadors,modern alternative rock,,,,,,,,,,,,,Band/Group,2020-06-19
+,,,,,,,,,,,,,,,,,Unsteady,X Ambassadors,modern alternative rock,,,,,,,,,,,,,Band/Group,2020-06-08
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Fine China,Chris Brown,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Heroes (we could be),Alesso,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Hurt Me,Låpsley,electropop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Te Boté - Remix,Nio Garcia,latin,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Wild Thoughts (feat. Rihanna & Bryson Tiller),DJ Khaled,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Panini,Lil Nas X,lgbtq+ hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Dangerous Woman,Ariana Grande,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Holocene,Bon Iver,eau claire indie,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,It Will Rain,Bruno Mars,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Let Me Love You,DJ Snake,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Little Talks,Of Monsters and Men,folk-pop,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,"Me, Myself & I",G-Eazy,indie pop rap,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,More - RedOne Jimmy Joker Remix,Usher,atl hip hop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Motivation,Kelly Rowland,atl hip hop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Motivation,Normani,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Teach Me How to Dougie,Cali Swag District,pop rap,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,Time of Our Lives,Pitbull,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,We Can't Stop,Miley Cyrus,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Chill Bill (feat. J. Davi$ & Spooks),Rob $tone,san diego rap,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Chill Bill (feat. J. Davi$ & Spooks),Rob $tone,san diego rap,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Fireflies,Owl City,indietronica,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,Rocketeer,Far East Movement,asian american hip hop,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Simple,Florida Georgia Line,contemporary country,,,,,,,,,,,,,Duo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Cold (feat. Future),Maroon 5,pop,,,,,,,,,,,,,Band/Group,2021-01-28
+,,,,,,,,,,,,,,,,,How To Love,Lil Wayne,hip hop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,I Wanna Go,Britney Spears,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Keisha & Becky - Remix,Russ Millions,uk drill,,,,,,,,,,,,,Solo,2020-08-20
+,,,,,,,,,,,,,,,,,The Lazy Song,Bruno Mars,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Trip,Ella Mai,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Believer,Imagine Dragons,modern rock,,,,,,,,,,,,,Band/Group,2021-01-28
+,,,,,,,,,,,,,,,,,R.I.P. (feat. Tinie Tempah),Rita Ora,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Radioactive,Imagine Dragons,modern rock,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,Ric Flair Drip (with Metro Boomin),Offset,atl hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Do You Remember,Jay Sean,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Hello,Adele,british soul,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,History,Olivia Holt,alt z,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,History,One Direction,boy band,,,,,,,,,,,,,Band/Group,2020-06-08
+,,,,,,,,,,,,,,,,,Not Afraid,Eminem,detroit hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Perfect Strangers,Jonas Blue,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Boy With Luv (feat. Halsey),BTS,k-pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Green Light,Lorde,art pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Otro Trago,Sech,latin,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Sail,AWOLNATION,la indie,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,When We Stand Together,Nickelback,alternative metal,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Clarity,Zedd,complextro,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Hey Brother,Avicii,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,I Love It (feat. Charli XCX),Icona Pop,candy pop,,,,,,,,,,,,,Duo,2020-06-22
+,,,,,,,,,,,,,,,,,I Love It (feat. Charli XCX),Icona Pop,candy pop,,,,,,,,,,,,,Duo,2020-06-11
+,,,,,,,,,,,,,,,,,Jubel - Radio Edit,Klingande,deep house,,,,,,,,,,,,,Duo,2020-06-29
+,,,,,,,,,,,,,,,,,gone girl,iann dior,melodic rap,,,,,,,,,,,,,Solo,2021-08-17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,6 Foot 7 Foot,Lil Wayne,hip hop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Done for Me (feat. Kehlani),Charlie Puth,dance pop,,,,,,,,,,,,,Solo,2021-08-17
+,,,,,,,,,,,,,,,,,Drinking from the Bottle (feat. Tinie Tempah),Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Midnight City,M83,french shoegaze,,,,,,,,,,,,,Duo,2020-06-16
+,,,,,,,,,,,,,,,,,My House,Flo Rida,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,My House,Flo Rida,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Options,NSG,afro dancehall,,,,,,,,,,,,,Band/Group,2020-08-20
+,,,,,,,,,,,,,,,,,No Limit,G-Eazy,indie pop rap,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,You Need To Calm Down,Taylor Swift,pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Live While We're Young,One Direction,boy band,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Look At Me Now (feat. Lil' Wayne & Busta Rhymes),Chris Brown,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Love Me,Lil Wayne,hip hop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Sweat - Remix,Snoop Dogg,g funk,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Tonight (I'm Fuckin' You),Enrique Iglesias,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Born This Way,Lady Gaga,art pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Congratulations,Post Malone,dfw rap,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Drag Me Down,One Direction,boy band,,,,,,,,,,,,,Band/Group,2020-06-19
+,,,,,,,,,,,,,,,,,"Earned It (Fifty Shades Of Grey) - From The ""Fifty Shades Of Grey"" Soundtrack",The Weeknd,canadian contemporary r&b,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,No Hands (feat. Roscoe Dash & Wale),Waka Flocka Flame,atl hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,No Hands (feat. Roscoe Dash & Wale),Waka Flocka Flame,atl hip hop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Red Lights,Tiësto,big room,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,So Good,B.o.B,atl hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,The Less I Know The Better,Tame Impala,australian psych,,,,,,,,,,,,,Band/Group,2020-06-19
+,,,,,,,,,,,,,,,,,Cool for the Summer,Demi Lovato,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,"Feels (feat. Pharrell Williams, Katy Perry & Big Sean)",Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Na Na,Trey Songz,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Na Na,Trey Songz,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Piece Of Your Heart,MEDUZA,edm,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Steal My Girl,One Direction,boy band,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,broken,lovelytheband,indie poptimism,,,,,,,,,,,,,Band/Group,2021-06-25
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Commander,Kelly Rowland,atl hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Hurts So Good,Astrid S,alt z,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,I'm On One,DJ Khaled,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Million Voices - Radio Edit,Otto Knows,edm,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,We No Speak Americano (Edit),Yolanda Be Cool,australian dance,,,,,,,,,,,,,Duo,2022-02-17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Anna Sun,WALK THE MOON,dance pop,,,,,,,,,,,,,Band/Group,2021-08-09
+,,,,,,,,,,,,,,,,,Chameleon,PNAU,alternative dance,,,,,,,,,,,,,Trio,2021-01-28
+,,,,,,,,,,,,,,,,,I Fall Apart,Post Malone,dfw rap,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Let You Down,NF,hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Post Malone (feat. RANI),Sam Feldt,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Love Me Again,John Newman,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Say It (feat. Tove Lo),Flume,australian dance,,,,,,,,,,,,,Solo,2020-06-29
+,,,,,,,,,,,,,,,,,Spectrum (Say My Name) - Calvin Harris Remix,Florence + The Machine,baroque pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Thunder,Imagine Dragons,modern rock,,,,,,,,,,,,,Band/Group,2021-01-28
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Loca People - Radio Edit,Sak Noel,electro house,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Outside (feat. Ellie Goulding),Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Primadonna,MARINA,art pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,All Eyes on You (feat. Chris Brown & Nicki Minaj),Meek Mill,hip hop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Everyday,Logic,conscious hip hop,,,,,,,,,,,,,Solo,2021-08-17
+,,,,,,,,,,,,,,,,,Reload - Radio Edit,Sebastian Ingrosso,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Wrapped Up,Olly Murs,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Chasing The Sun,The Wanted,boy band,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,IDGAF,Dua Lipa,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Light On,Maggie Rogers,indie pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Man Of The Year,ScHoolboy Q,gangster rap,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Somebody Else,The 1975,modern alternative rock,,,,,,,,,,,,,Band/Group,2020-06-08
+,,,,,,,,,,,,,,,,,Work from Home (feat. Ty Dolla $ign),Fifth Harmony,dance pop,,,,,,,,,,,,,Band/Group,2020-06-08
+,,,,,,,,,,,,,,,,,Ayo,Chris Brown,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Bottoms Up (feat. Nicki Minaj),Trey Songz,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Hard,Rihanna,barbadian pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Lovers on the Sun (feat. Sam Martin),David Guetta,big room,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Over,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,What the Hell,Avril Lavigne,canadian pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,When I Was Your Man,Bruno Mars,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,A Sky Full of Stars,Coldplay,permanent wave,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,Don't Leave,Snakehips,edm,,,,,,,,,,,,,Duo,2021-01-28
+,,,,,,,,,,,,,,,,,"Hey, Soul Sister",Train,dance pop,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,It Girl,Jason Derulo,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Love You Like A Love Song,Selena Gomez & The Scene,dance pop,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Strip That Down (feat. Quavo),Liam Payne,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Too Good,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Turn Me On (feat. Nicki Minaj),David Guetta,big room,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Yeah 3x,Chris Brown,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,lovely (with Khalid),Billie Eilish,art pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,lovely (with Khalid),Billie Eilish,art pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,#thatPOWER,will.i.am,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,1950,King Princess,alt z,,,,,,,,,,,,,Solo,2021-06-10
+,,,,,,,,,,,,,,,,,Alone,Marshmello,brostep,,,,,,,,,,,,,Solo,2021-08-17
+,,,,,,,,,,,,,,,,,Riptide,Vance Joy,folk-pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Heartbreak Warfare,John Mayer,neo mellow,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Hot Girl Summer (feat. Nicki Minaj & Ty Dolla $ign),Megan Thee Stallion,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Just Can’t Get Enough,Black Eyed Peas,dance pop,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Live Like We're Dying,Kris Allen,idol,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Tongue Tied,Grouplove,indie pop,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Treasure,Bruno Mars,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,ZEZE (feat. Travis Scott & Offset),Kodak Black,florida rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,"Let Me Go (with Alesso, Florida Georgia Line & watt)",Hailee Steinfeld,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,The Nights,Avicii,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,The One That Got Away,Katy Perry,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,White Noise,Disclosure,edm,,,,,,,,,,,,,Duo,2020-06-11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Black Skinhead,Kanye West,chicago rap,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Brokenhearted,Karmin,dance pop,,,,,,,,,,,,,Duo,2020-06-22
+,,,,,,,,,,,,,,,,,Happier,Marshmello,brostep,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Lot to Learn,Luke Christopher,indie pop rap,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Side To Side,Ariana Grande,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Jackie Chan,Tiësto,big room,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Mask Off,Future,atl hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Pompeii,Bastille,metropopolis,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,The Ocean (feat. Shy Martin),Mike Perry,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Better,Khalid,pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Candy,Robbie Williams,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,"F**kin' Problems (feat. Drake, 2 Chainz & Kendrick Lamar)",A$AP Rocky,east coast hip hop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,I Will Wait,Mumford & Sons,modern folk rock,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,My First Kiss (feat. Ke$ha),3OH!3,dance pop,,,,,,,,,,,,,Duo,2022-02-17
+,,,,,,,,,,,,,,,,,Skyfall,Adele,british soul,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Without Me,Halsey,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Years,Alesso,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,BURN IT DOWN,Linkin Park,alternative metal,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Bad At Love,Halsey,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Daylight,Maroon 5,pop,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,I Like Me Better,Lauv,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,SAD!,XXXTENTACION,emo rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Summertime Sadness (Lana Del Rey Vs. Cedric Gervais) - Cedric Gervais Remix,Lana Del Rey,art pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,All Day And Night,Jax Jones,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Drive,Oh Wonder,electropop,,,,,,,,,,,,,Duo,2021-08-09
+,,,,,,,,,,,,,,,,,Fetish (feat. Gucci Mane),Selena Gomez,dance pop,,,,,,,,,,,,,Solo,2021-08-17
+,,,,,,,,,,,,,,,,,Honey Bee,Blake Shelton,contemporary country,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,I Would Like,Zara Larsson,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Misery,Maroon 5,pop,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,Sonnentanz - Sun Don't Shine,Klangkarussell,austrian pop,,,,,,,,,,,,,Duo,2020-06-11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Beauty And A Beat,Justin Bieber,canadian pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Eastside (with Halsey & Khalid),benny blanco,electropop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Ransom,Lil Tecca,melodic rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Rude Boy,Rihanna,barbadian pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Gangnam Style (?????),PSY,k-pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Havana (feat. Young Thug),Camila Cabello,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,If I Can't Have You,Shawn Mendes,canadian pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,T-Shirt,Migos,atl hip hop,,,,,,,,,,,,,Trio,2021-01-28
+,,,,,,,,,,,,,,,,,Don't Tell 'Em,Jeremih,chicago rap,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Love Galore (feat. Travis Scott),SZA,pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,One Kiss (with Dua Lipa),Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,This Ain't a Love Song,Scouting For Girls,dance pop,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,Waiting For Love,Avicii,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Wherever I Go,OneRepublic,dance pop,,,,,,,,,,,,,Band/Group,2021-11-25
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,EARFQUAKE,"Tyler, The Creator",hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Most Girls,Hailee Steinfeld,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Stir Fry,Migos,atl hip hop,,,,,,,,,,,,,Trio,2020-06-22
+,,,,,,,,,,,,,,,,,Talking to the Moon,Bruno Mars,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Cool Girl,Tove Lo,art pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Dancing On My Own,Calum Scott,neo mellow,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Pure Water (with Migos),Mustard,cali rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Rumour Has It,Adele,british soul,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Way down We Go,KALEO,icelandic indie,,,,,,,,,,,,,Band/Group,2021-08-09
+,,,,,,,,,,,,,,,,,We Found Love,Rihanna,barbadian pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,We Found Love,Rihanna,barbadian pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Dark Horse,Katy Perry,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Higher,Taio Cruz,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Just A Kiss,Lady A,contemporary country,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Play Hard (feat. Ne-Yo & Akon),David Guetta,big room,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,goosebumps,Travis Scott,hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Location,Khalid,pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,My Type,Saweetie,cali rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Till the World Ends,Britney Spears,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Break Free,Ariana Grande,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Dirt Road Anthem,Jason Aldean,contemporary country,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Mirrors,Justin Timberlake,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,m.A.A.d city,Kendrick Lamar,conscious hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Animals,Maroon 5,pop,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,Can I Be Him,James Arthur,pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit,Daft Punk,electro,,,,,,,,,,,,,Duo,2020-06-11
+,,,,,,,,,,,,,,,,,No Type,Rae Sremmurd,hip hop,,,,,,,,,,,,,Duo,2020-06-19
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Feel This Moment (feat. Christina Aguilera),Pitbull,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Talking Body,Tove Lo,art pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Talking Body,Tove Lo,art pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,All Time Low,The Wanted,boy band,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,In My Head,Jason Derulo,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Nothin' on You (feat. Bruno Mars),B.o.B,atl hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Passionfruit,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Runaway (U & I),Galantis,dance pop,,,,,,,,,,,,,Duo,2020-06-19
+,,,,,,,,,,,,,,,,,Uptown Funk (feat. Bruno Mars),Mark Ronson,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Closer,Lemaitre,alternative dance,,,,,,,,,,,,,Duo,2021-08-09
+,,,,,,,,,,,,,,,,,Closer,The Chainsmokers,dance pop,,,,,,,,,,,,,Duo,2020-06-08
+,,,,,,,,,,,,,,,,,Feel the Love (feat. John Newman),Rudimental,dance pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Talk (feat. Disclosure),Khalid,pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Gold,Kiiara,alt z,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Love Me Harder,Ariana Grande,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Love Me Harder,Ariana Grande,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,All of Me,John Legend,neo soul,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Bang Bang,Jessie J,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Confident,Demi Lovato,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,If I Die Young,The Band Perry,contemporary country,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,If I Die Young,The Band Perry,contemporary country,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Low Life (feat. The Weeknd),Future,atl hip hop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Vossi Bop,Stormzy,grime,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,"Young, Wild & Free (feat. Bruno Mars)",Snoop Dogg,g funk,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Airplanes (feat. Hayley Williams of Paramore),B.o.B,atl hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Send My Love (To Your New Lover),Adele,british soul,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Señorita,Shawn Mendes,canadian pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Back To Sleep,Chris Brown,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Ride,Lana Del Rey,art pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Springsteen,Eric Church,contemporary country,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Stressed Out,Twenty One Pilots,modern rock,,,,,,,,,,,,,Duo,2020-06-19
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,7 Years,Lukas Graham,danish pop,,,,,,,,,,,,,Band/Group,2020-06-08
+,,,,,,,,,,,,,,,,,BUTTERFLY EFFECT,Travis Scott,hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Berzerk,Eminem,detroit hip hop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,You Don't Own Me (feat. G-Eazy),SAYGRACE,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,You Don't Own Me (feat. G-Eazy),SAYGRACE,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Cool Kids,Echosmith,dance pop,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,Lean On,Major Lazer,dance pop,,,,,,,,,,,,,Trio,2020-06-19
+,,,,,,,,,,,,,,,,,Saturday Sun,Vance Joy,folk-pop,,,,,,,,,,,,,Solo,2021-06-15
+,,,,,,,,,,,,,,,,,Save The World,Swedish House Mafia,dance pop,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Here With Me,Marshmello,brostep,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Let's Go (feat. Ne-Yo),Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Sucker,Jonas Brothers,boy band,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Walk It Talk It,Migos,atl hip hop,,,,,,,,,,,,,Trio,2020-06-22
+,,,,,,,,,,,,,,,,,Nothing Left (feat. Will Heard),Kygo,edm,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Powerglide (feat. Juicy J) - From SR3MM,Rae Sremmurd,hip hop,,,,,,,,,,,,,Duo,2020-06-22
+,,,,,,,,,,,,,,,,,Riverside,Sidney Samson,dutch house,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Antidote,Travis Scott,hip hop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Hymn for the Weekend,Coldplay,permanent wave,,,,,,,,,,,,,Band/Group,2020-06-08
+,,,,,,,,,,,,,,,,,679 (feat. Remy Boyz),Fetty Wap,new jersey rap,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Another Love,Tom Odell,chill pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Boyfriend,Justin Bieber,canadian pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Mine,Taylor Swift,pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Mine,Bazzi,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,My Way (feat. Monty),Fetty Wap,new jersey rap,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,3005,Childish Gambino,atl hip hop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Bodak Yellow,Cardi B,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Bodak Yellow,Cardi B,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Blown Away,Carrie Underwood,contemporary country,,,,,,,,,,,,,Solo,2022-03-22
+,,,,,,,,,,,,,,,,,Climax,Usher,atl hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,GUMMO,6ix9ine,emo rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Good as Hell,Lizzo,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Lust For Life (with The Weeknd),Lana Del Rey,art pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Man's Not Hot,Big Shaq,london rap,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Shotgun,George Ezra,folk-pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,What About Us,The Saturdays,bubblegum dance,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,2 On (feat. ScHoolboy Q),Tinashe,alternative r&b,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,212,Azealia Banks,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Somebody,Natalie La Rose,chicago rap,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Somebody,Natalie La Rose,chicago rap,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Boom Clap,Charli XCX,art pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Drunk in Love (feat. Jay-Z),Beyoncé,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Started From the Bottom,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Swang,Rae Sremmurd,hip hop,,,,,,,,,,,,,Duo,2021-01-28
+,,,,,,,,,,,,,,,,,Truth Hurts,Lizzo,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Maps,Maroon 5,pop,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,Perfect,One Direction,boy band,,,,,,,,,,,,,Band/Group,2020-06-19
+,,,,,,,,,,,,,,,,,Perfect,Ed Sheeran,pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Starships,Nicki Minaj,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,emotions,iann dior,melodic rap,,,,,,,,,,,,,Solo,2021-08-17
+,,,,,,,,,,,,,,,,,Here,Alessia Cara,canadian contemporary r&b,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Here,Alessia Cara,canadian contemporary r&b,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Lights - Single Version,Ellie Goulding,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Ni**as In Paris,JAY-Z,east coast hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Not Nice,PARTYNEXTDOOR,pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Hide Away,Daya,alt z,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Hot - Malibu Breeze Radio Edit,INNA,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,"King's Dead (with Kendrick Lamar, Future & James Blake)",Jay Rock,conscious hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Loyal (feat. Lil Wayne & Tyga),Chris Brown,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Now Or Never,Halsey,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Sit Next to Me,Foster The People,indietronica,,,,,,,,,,,,,Band/Group,2021-06-25
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Ain't It Fun,Paramore,candy pop,,,,,,,,,,,,,Band/Group,2020-06-25
+,,,,,,,,,,,,,,,,,Ain't It Fun,Paramore,candy pop,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,Dirty Paws,Of Monsters and Men,folk-pop,,,,,,,,,,,,,Band/Group,2021-08-09
+,,,,,,,,,,,,,,,,,Firework,Katy Perry,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Hey Baby (Drop It to the Floor) (feat. T-Pain),Pitbull,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Kickstarts,Example,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Sorry Not Sorry,Demi Lovato,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Where Are Ü Now (with Justin Bieber),Jack Ü,edm,,,,,,,,,,,,,Duo,2020-06-19
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,All I Want,Kodaline,irish pop,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,Don't Wanna Go Home,Jason Derulo,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Magic (feat. Rivers Cuomo),B.o.B,atl hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Prayer in C - Robin Schulz Radio Edit,Lilly Wood and The Prick,french indie pop,,,,,,,,,,,,,Duo,2020-06-10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,50 Ways to Say Goodbye,Train,dance pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,"Home (with Machine Gun Kelly, X Ambassadors & Bebe Rexha)",Machine Gun Kelly,ohio hip hop,,,,,,,,,,,,,Solo,2021-05-06
+,,,,,,,,,,,,,,,,,See You Again (feat. Charlie Puth),Wiz Khalifa,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Bitch Better Have My Money,Rihanna,barbadian pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Finesse - Remix; feat. Cardi B,Bruno Mars,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Gettin' Over You (feat. Fergie & LMFAO),David Guetta,big room,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Goodbyes (feat. Young Thug),Post Malone,dfw rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Pumped Up Kicks,Foster The People,indietronica,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Sweater Weather,The Neighbourhood,modern alternative rock,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,changes,XXXTENTACION,emo rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Fancy,Iggy Azalea,australian hip hop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,God is a woman,Ariana Grande,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Holy Grail,JAY-Z,east coast hip hop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Money In The Grave (Drake ft. Rick Ross),Drake,canadian hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Rake It Up (feat. Nicki Minaj),Yo Gotti,dirty south rap,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Sick Boy,The Chainsmokers,dance pop,,,,,,,,,,,,,Duo,2022-01-24
+,,,,,,,,,,,,,,,,,We R Who We R,Kesha,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Alors on danse - Radio Edit,Stromae,belgian pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,God's Plan,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,"Honey, I'm Good.",Andy Grammer,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Light It Up - Remix,Major Lazer,dance pop,,,,,,,,,,,,,Trio,2020-06-19
+,,,,,,,,,,,,,,,,,Wait,Maroon 5,pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Where Have You Been,Rihanna,barbadian pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Cake By The Ocean,DNCE,dance pop,,,,,,,,,,,,,Band/Group,2020-06-08
+,,,,,,,,,,,,,,,,,Despacito,Luis Fonsi,latin,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Dynamite,Taio Cruz,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Girls Like (feat. Zara Larsson),Tinie Tempah,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,In My Feelings,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Man Down,Rihanna,barbadian pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Sugar,Maroon 5,pop,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Into You,Ariana Grande,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,NUMB,Hayden James,aussietronica,,,,,,,,,,,,,Solo,2021-06-25
+,,,,,,,,,,,,,,,,,Nice For What,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Sky Walker (feat. Travis Scott),Miguel,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,The Mother We Share,CHVRCHES,electropop,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Body Party,Ciara,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,This Is What You Came For (feat. Rihanna),Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Wiggle (feat. Snoop Dogg),Jason Derulo,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,I Knew You Were Trouble.,Taylor Swift,pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,I Knew You Were Trouble.,Taylor Swift,pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,L.I.F.E.G.O.E.S.O.N.,Noah And The Whale,indie folk,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,Shake It Off,Taylor Swift,pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Stereo Love - Radio Edit,Edward Maya,romanian house,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Stereo Love - Radio Edit,Edward Maya,romanian house,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,The Show Goes On,Lupe Fiasco,chicago rap,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,...Ready For It?,Taylor Swift,pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Barbra Streisand (Radio Edit),Duck Sauce,disco house,,,,,,,,,,,,,Duo,2022-02-17
+,,,,,,,,,,,,,,,,,Changed the Way You Kiss Me - Radio Edit,Example,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Location (feat. Burna Boy),Dave,uk hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Miss You (with Major Lazer & Tory Lanez),Cashmere Cat,dance pop,,,,,,,,,,,,,Solo,2021-06-15
+,,,,,,,,,,,,,,,,,Once In a While,Timeflies,dance pop,,,,,,,,,,,,,Duo,2020-06-25
+,,,,,,,,,,,,,,,,,do re mi,blackbear,electropop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,"Happy - From ""Despicable Me 2""",Pharrell Williams,pop rap,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,NO,Meghan Trainor,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Nevermind,Dennis Lloyd,israeli pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,River (feat. Ed Sheeran),Eminem,detroit hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Some Nights,fun.,baroque pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Close,Nick Jonas,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Elastic Heart,Sia,australian dance,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,German,EO,afroswing,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Hey Porsche,Nelly,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Love The Way You Lie,Eminem,detroit hip hop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Stay The Night - Featuring Hayley Williams Of Paramore,Zedd,complextro,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,The Flood,Take That,boy band,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Best Day Of My Life,American Authors,indie poptimism,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,Don't,Ed Sheeran,pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Don't,Bryson Tiller,kentucky hip hop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Better Now,Post Malone,dfw rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Better Now,Post Malone,dfw rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Take Care,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Youngblood,5 Seconds of Summer,boy band,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,a lot,21 Savage,atl hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Blow,Kesha,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,"I'm the One (feat. Justin Bieber, Quavo, Chance the Rapper & Lil Wayne)",DJ Khaled,dance pop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Night Changes,One Direction,boy band,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,Only Girl (In The World),Rihanna,barbadian pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Say Aah (feat. Fabolous),Trey Songz,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Stay,Zedd,complextro,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Sweet Lovin' - Radio Edit,Sigala,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Take Me to Church,Hozier,irish singer-songwriter,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Trumpets,Jason Derulo,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Wow.,Post Malone,dfw rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Blow Me (One Last Kiss),P!nk,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Lose Yourself to Dance (feat. Pharrell Williams),Daft Punk,electro,,,,,,,,,,,,,Duo,2020-06-11
+,,,,,,,,,,,,,,,,,Mountain at My Gates,Foals,indie rock,,,,,,,,,,,,,Band/Group,2021-08-09
+,,,,,,,,,,,,,,,,,Don't,Bryson Tiller,kentucky hip hop,,,,,,,,,,,,,Solo,2020-08-11
+,,,,,,,,,,,,,,,,,All My Friends (feat. Tinashe & Chance the Rapper),Snakehips,edm,,,,,,,,,,,,,Duo,2020-06-22
+,,,,,,,,,,,,,,,,,All My Friends (feat. Tinashe & Chance the Rapper),Snakehips,edm,,,,,,,,,,,,,Duo,2020-06-08
+,,,,,,,,,,,,,,,,,Budapest,George Ezra,folk-pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Get Up (Rattle),Bingo Players,big room,,,,,,,,,,,,,Duo,2020-06-11
+,,,,,,,,,,,,,,,,,Shower,Becky G,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Weak,AJR,modern rock,,,,,,,,,,,,,Trio,2021-01-28
+,,,,,,,,,,,,,,,,,Angels,The xx,downtempo,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Best Thing I Never Had,Beyoncé,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Jealous - Remix,Nick Jonas,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Shotta Flow (feat. Blueface) [Remix],NLE Choppa,memphis hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Touch (feat. Kid Ink),Little Mix,dance pop,,,,,,,,,,,,,Band/Group,2021-01-28
+,,,,,,,,,,,,,,,,,King of Anything,Sara Bareilles,acoustic pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Madness,Muse,modern rock,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Money On My Mind,Sam Smith,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Not a Bad Thing,Justin Timberlake,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Turn Up the Music,Chris Brown,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Caroline,Aminé,hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Mama Do The Hump,Rizzle Kicks,uk hip hop,,,,,,,,,,,,,Duo,2020-06-22
+,,,,,,,,,,,,,,,,,Adan y Eva,Paulo Londra,argentine hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Bad (feat. Vassy) - Radio Edit,David Guetta,big room,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Do I Wanna Know?,Arctic Monkeys,garage rock,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,I Don't Mind (feat. Juicy J),Usher,atl hip hop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Like A G6,Far East Movement,asian american hip hop,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,Take a Walk,Passion Pit,alternative dance,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Vaina Loca,Ozuna,latin,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Alejandro,Lady Gaga,art pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Buzzin Remix,Mann,pop rap,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Jar of Hearts,Christina Perri,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Need U (100%) (feat. A*M*E) - Radio Edit,Duke Dumont,destroy techno,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Show Me (feat. Chris Brown),Kid Ink,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,boyfriend (with Social House),Ariana Grande,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,"break up with your girlfriend, i'm bored",Ariana Grande,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Club Can't Handle Me (feat. David Guetta),Flo Rida,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,FRIENDS,Marshmello,brostep,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,"Hold On, We're Going Home",Drake,canadian hip hop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Never Be the Same,Camila Cabello,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Nonstop,Drake,canadian hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Stolen Dance,Milky Chance,german pop,,,,,,,,,,,,,Band/Group,2020-06-10
+,,,,,,,,,,,,,,,,,Thrift Shop (feat. Wanz),Macklemore & Ryan Lewis,dance pop,,,,,,,,,,,,,Duo,2020-06-11
+,,,,,,,,,,,,,,,,,Too Close,Alex Clare,modern alternative rock,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Written in the Stars (feat. Eric Turner),Tinie Tempah,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,You Know You Like It,DJ Snake,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,You Know You Like It,DJ Snake,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,1-800-273-8255,Logic,conscious hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Bad Romance,Lady Gaga,art pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Coming Home,Diddy - Dirty Money,hip pop,,,,,,,,,,,,,Duo,2020-06-16
+,,,,,,,,,,,,,,,,,Down,Jay Sean,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,In My Mind,Dynoro,edm,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Someone You Loved,Lewis Capaldi,pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,no tears left to cry,Ariana Grande,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,3 Nights,Dominic Fike,alternative pop rock,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,If You're Over Me,Years & Years,dance pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Pack Up,Eliza Doolittle,lilith,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Shallow,Lady Gaga,art pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Still into You,Paramore,candy pop,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Bohemian Rhapsody - Remastered 2011,Queen,classic rock,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Drive By,Train,dance pop,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Magnolia,Playboi Carti,atl hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Sure Thing,Miguel,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Who's That Chick? (feat. Rihanna),David Guetta,big room,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Wildest Dreams,Taylor Swift,pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Anaconda,Nicki Minaj,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Feel So Close - Radio Edit,Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Love Myself,Hailee Steinfeld,dance pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Natural,Imagine Dragons,modern rock,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,bad guy,Billie Eilish,art pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,BedRock,Young Money,dance pop,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,Champion (feat. Chris Brown),Chip,grime,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Doin' Time,Lana Del Rey,art pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Exchange,Bryson Tiller,kentucky hip hop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,I Don't Fuck With You,Big Sean,detroit hip hop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,On The Floor,Jennifer Lopez,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Something Just Like This,The Chainsmokers,dance pop,,,,,,,,,,,,,Duo,2021-01-28
+,,,,,,,,,,,,,,,,,Sunflower - Spider-Man: Into the Spider-Verse,Post Malone,dfw rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Whatcha Say,Jason Derulo,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Black and Yellow,Wiz Khalifa,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Classic,MKTO,dance pop,,,,,,,,,,,,,Duo,2020-06-10
+,,,,,,,,,,,,,,,,,Cold Water,Major Lazer,dance pop,,,,,,,,,,,,,Trio,2020-06-08
+,,,,,,,,,,,,,,,,,Down On Me,Jeremih,chicago rap,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Everything Has Changed,Taylor Swift,pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,New Flame (feat. Usher & Rick Ross),Chris Brown,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Safe And Sound,Capital Cities,metropopolis,,,,,,,,,,,,,Duo,2020-06-11
+,,,,,,,,,,,,,,,,,Shake It Out,Florence + The Machine,baroque pop,,,,,,,,,,,,,Band/Group,2020-06-16
+,,,,,,,,,,,,,,,,,We'll Be Coming Back (feat. Example),Calvin Harris,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,When We Collide,Matt Cardle,talent show,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Why'd You Only Call Me When You're High?,Arctic Monkeys,garage rock,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Bank Account,21 Savage,atl hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Juju on That Beat (TZ Anthem),Zay Hilfigerrr,hip hop,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,Look Right Through - MK Vocal Edit,Storm Queen,deep disco house,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,MIDDLE CHILD,J. Cole,conscious hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Mr. Saxobeat,Alexandra Stan,dance pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Tunnel Vision,Kodak Black,florida rap,,,,,,,,,,,,,Solo,2021-01-28
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Here's to Never Growing Up,Avril Lavigne,canadian pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,Love Yourself,Justin Bieber,canadian pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Sex,Cheat Codes,dance pop,,,,,,,,,,,,,Trio,2020-06-08
+,,,,,,,,,,,,,,,,,The Way,Ariana Grande,dance pop,,,,,,,,,,,,,Solo,2020-06-11
+,,,,,,,,,,,,,,,,,What You Know,Two Door Cinema Club,indie rock,,,,,,,,,,,,,Band/Group,2022-02-17
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,Just Hold On,Steve Aoki,dance pop,,,,,,,,,,,,,Solo,2020-06-08
+,,,,,,,,,,,,,,,,,Replay,Iyaz,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Taste (feat. Offset),Tyga,dance pop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Thinking out Loud,Ed Sheeran,pop,,,,,,,,,,,,,Solo,2020-06-19
+,,,,,,,,,,,,,,,,,Waves - Robin Schulz Radio Edit,Mr. Probz,dutch hip hop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,Everybody Talks,Neon Trees,modern alternative rock,,,,,,,,,,,,,Band/Group,2020-06-22
+,,,,,,,,,,,,,,,,,Freaky Friday (feat. Chris Brown),Lil Dicky,comedy rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Leave Me Alone,Flipp Dinero,melodic rap,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Lego House,Ed Sheeran,pop,,,,,,,,,,,,,Solo,2020-06-16
+,,,,,,,,,,,,,,,,,Swimming Pools (Drank) - Extended Version,Kendrick Lamar,conscious hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,Billionaire (feat. Bruno Mars),Travie McCoy,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,Nobody To Love,Sigma,dance pop,,,,,,,,,,,,,Solo,2020-06-10
+,,,,,,,,,,,,,,,,,One Way or Another (Teenage Kicks),One Direction,boy band,,,,,,,,,,,,,Band/Group,2020-06-11
+,,,,,,,,,,,,,,,,,Starry Eyed,Ellie Goulding,dance pop,,,,,,,,,,,,,Solo,2022-02-17
+,,,,,,,,,,,,,,,,,This Is America,Childish Gambino,atl hip hop,,,,,,,,,,,,,Solo,2020-06-22
+,,,,,,,,,,,,,,,,,What Do You Mean?,Justin Bieber,canadian pop,,,,,,,,,,,,,Solo,2020-06-19

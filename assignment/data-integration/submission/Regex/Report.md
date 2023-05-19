@@ -82,25 +82,58 @@ Select edit to check the content of the file.
 ### 5. Create New Table (Azure SQL Database)
 
 
-
-### 5. Create Linked Service
-
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/63b88988-8b9a-4f84-8323-995a48b78e05">
 
 
+create table for respective files
 
-### 5. Create Linked Service
-
+<img width="958" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/f3580f2c-779b-4923-ab40-b1c9c135eab5">
 
 
 
-### 5. Create Linked Service
+### 6. Create and Setup Linked Service
+
+launch data factory
+
+
+<img width="958" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/d42f1cb5-32ab-45c2-9778-e79923cdd180">
+
+
+select author and create new pipeline
+
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/e045c1c6-e479-418b-bb37-67b49aaeb6e5">
+
+manage > linked service > New > Azure Blob Storage - for input
+
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/a4774bb9-046c-4b3f-98db-0c49a662bd49">
+
+new > Azure SQL Database -  for output file
+
+<img width="959" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/5c77cfa7-97ef-4338-81fd-7517d2f1a9fa">
 
 
 
-### 5. Create Linked Service
+### 7. Create Datasets
+
+create dataset for respective files
+
+ dataset > new dataset > Azure Blob > DelimitedText
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/1d79fd2b-28bd-4328-adda-46a1a3731c47">
 
 
 
+### 8. Create Pipeline
 
-### 6. Create Datasets
+create pipeline > drag copy data
+
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/c9ffa685-cf49-456d-a1e4-9d7992db6933">
+
+insert source dataset > sink dataset > mapping (import schemas)
+
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/6be2dc05-11bb-48a0-b9e2-aef3bb46eb04">
+
+Debug and select ppublish
+
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/e384834e-17bc-4172-8622-a81f6f5af470">
+
 

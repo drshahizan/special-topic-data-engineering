@@ -35,8 +35,11 @@ The pipeline is made up of several components that are linked together. The foll
    
     Kaggle Url: https://www.kaggle.com/datasets/utkarshx27/non-alcohol-fatty-liver-disease?
 ### 2. Create and Setup Data Factory
+<p align="Justify">First and foremost, build a data factory through searching "data factory" in the search bar and click on "Data Factory". Then click the "Create" button. Fill out the required information in the "Create Data Factory" blade, such as resource group, instance name, and region. Then press the "Review+Create" button.</p>
 
 <img width="960" alt="createdatafactory" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/1eecf9dc-79ad-437c-ad7b-e0c622182b5a">
+
+<p align="Justify">The data factories that have been created will be available in the table shown in the figure below. It means that the data factory was built successfully.</p>
 
 <img width="960" alt="createddatafactory" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/bd280f78-beb2-453d-9f55-1be49f1d54f7">
 

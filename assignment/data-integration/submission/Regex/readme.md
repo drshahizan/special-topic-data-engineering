@@ -1,5 +1,6 @@
 <h1 align=center>Data Integration in Data Science</h1>
-
+<p align=Justify>Data integration is the process of combining data from multiple sources into a single, unified data set. This is critical in data science because data scientists require access to large amounts of data in order to train machine learning models and make predictions. Microsoft Azure offers a variety of tools and services for data integration, including Azure Data Factory, Azure Data Lake Storage, and Azure Synapse Analytics. These tools and services can be used to build data pipelines that automate the data integration process, saving data scientists time and effort.
+</p>
 <h2 align=center>Group Members <img width=30px; height=30px src="https://user-images.githubusercontent.com/120556342/215398734-609ba04a-88e5-44b5-9eaa-239ac8edd091.png"></h2>
 <table align=center>
   <tr>

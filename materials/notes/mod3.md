@@ -7,18 +7,13 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-<!---
-Module X: XXX
-
-Group XXXX
-1. XXXX
-2. XXXX
-3. XXXX
-4. XXXX
-
--->
-
 # Module 3: Types of Data & NoSQL Database
+
+Group StaticIP
+1. Chloe Racquelmae Kennedy
+2. Kong Jia Rou
+3. Lee Cai Xuan
+4. Singthai Srisoi
 
 ### Contents:
 #### Notes
@@ -26,6 +21,7 @@ Group XXXX
 - [Types of Data](#types-of-data)
 - [NoSQL Database](#NoSQL-database)
 - [Types of NoSQL Database](#types-of-NoSQL-database)
+- [MongoDB](#MongoDB)
 
 ### Others
 ## Why nowadays NoSQL database is common?
@@ -191,7 +187,27 @@ Official website: https://www.mongodb.com/
 Download and installation link: https://www.mongodb.com/docs/manual/installation/
 
 
-                                                                     
+## MongoDB Step by Step Tutorial
+                                                                    
+Step 1: Go to the "Databases" page. To create a database, click the button "Create database".
+
+<div align="center"><img src="https://abcloudz.com/wp-content/uploads/2021/01/NoSQL.png?x87761" height="250"></div>
+                         
+Step 2: Enter the database name and the collection name. Then, click "Create Database".
+
+<div align="center"><img src="https://abcloudz.com/wp-content/uploads/2021/01/NoSQL.png?x87761" height="250"></div>
+
+Step 3: Now, you need to import data to your database. Click on the "ADD DATA" button, select which type of file you are going to import. In this example, we will be importing a CSV file named data.csv.
+
+<div align="center"><img src="https://abcloudz.com/wp-content/uploads/2021/01/NoSQL.png?x87761" height="250"></div>
+
+Step 4: You can modify your data by changing the delimiter, specifying fields to import and changing data types. After the modification of the data, click "Import". Your data is then imported into the database successfully.
+
+<div align="center"><img src="https://abcloudz.com/wp-content/uploads/2021/01/NoSQL.png?x87761" height="250"></div>
+
+Step 5: If you would like to drop the database, simply cick on the bin logo located beside the collection name. Then type the collection name to drop the database.
+
+<div align="center"><img src="https://abcloudz.com/wp-content/uploads/2021/01/NoSQL.png?x87761" height="250"></div>
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

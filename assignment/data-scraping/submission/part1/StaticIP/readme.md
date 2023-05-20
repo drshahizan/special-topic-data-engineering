@@ -27,7 +27,10 @@
 </table>
 </div>
 
+## Introduction📚
+Flickr is an online platform for sharing, storing, and organizing photos and videos where users can upload, tag, and organize their images, interact with others through comments and favorites. This assignment is about scraping images along with its metadata from Flickr. The type of images scraped are tulip and the metadata collected are title, author, url, make and model. A total of 100 images were scraped and the information of all images were saved in the csv file and stored in MongoDB. 
+
 ## Contents📝
-- 📑[Report]
-- 💻[Code]
-- 📂[CSV]
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/Report.md)
+- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/Flickr_Scrape.ipynb)
+- 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/flickr_image_metadata.csv)

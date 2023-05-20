@@ -44,12 +44,18 @@ The pipeline is made up of several components that are linked together. The foll
 <img width="960" alt="createddatafactory" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/bd280f78-beb2-453d-9f55-1be49f1d54f7">
 
 ### 3. Create and Setup Azure SQL Database
+Then, search "sql databases" in the search bar and click on "SQL Databases". There will be a ”Create” button and click on that button. Fill in the required information and click the “Review + Create” button then click “Create” button.
 
 <img width="959" alt="createsqldb" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/87bd9b25-8b67-4761-8e32-0d286f9e2481">
 
-<img width="960" alt="createddb" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/67a4a67c-1740-478e-8f5b-895489385fad">
+If you do not have the server, you can click the “Create new” button and fill in all the details. Next, click “OK”.
 
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/5759bcc8-1818-4664-a4e0-77d24a649429">
+
+After finishing these steps, wait for the deployment and the figure below shows the SQL Database that was created successfully.
+
+<img width="960" alt="createddb" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/67a4a67c-1740-478e-8f5b-895489385fad">
+
 
 ### 4. Create and Setup Storage Account
 

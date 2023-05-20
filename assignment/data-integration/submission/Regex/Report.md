@@ -88,7 +88,7 @@ Select edit to check the content of the file.
 
 
 ### 5. Create New Table (Azure SQL Database)
-
+Then, go to the "Query editor" in SQL Databases.
 
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/63b88988-8b9a-4f84-8323-995a48b78e05">
 

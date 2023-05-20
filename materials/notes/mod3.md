@@ -191,23 +191,35 @@ Download and installation link: https://www.mongodb.com/docs/manual/installation
                                                                     
 Step 1: Go to the "Databases" page. To create a database, click the button "Create database".
 
-<div align="center"><img src="https://abcloudz.com/wp-content/uploads/2021/01/NoSQL.png?x87761" height="250"></div>
-                         
+<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/Images/mod3_images/mod3_step1.png" height="400"></div><br>
+ 
 Step 2: Enter the database name and the collection name. Then, click "Create Database".
 
-<div align="center"><img src="https://abcloudz.com/wp-content/uploads/2021/01/NoSQL.png?x87761" height="250"></div>
+<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/Images/mod3_images/mod3_step2.png" height="400"></div><br>
 
 Step 3: Now, you need to import data to your database. Click on the "ADD DATA" button, select which type of file you are going to import. In this example, we will be importing a CSV file named data.csv.
 
-<div align="center"><img src="https://abcloudz.com/wp-content/uploads/2021/01/NoSQL.png?x87761" height="250"></div>
+<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/Images/mod3_images/mod3_step3.png" height="400"></div>
+
+<br>
+
+<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/Images/mod3_images/mod3_step3.1.png" height="400"></div><br>
 
 Step 4: You can modify your data by changing the delimiter, specifying fields to import and changing data types. After the modification of the data, click "Import". Your data is then imported into the database successfully.
 
-<div align="center"><img src="https://abcloudz.com/wp-content/uploads/2021/01/NoSQL.png?x87761" height="250"></div>
+<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/Images/mod3_images/mod3_step4.png" height="400"></div>
 
-Step 5: If you would like to drop the database, simply cick on the bin logo located beside the collection name. Then type the collection name to drop the database.
+<br>
 
-<div align="center"><img src="https://abcloudz.com/wp-content/uploads/2021/01/NoSQL.png?x87761" height="250"></div>
+<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/Images/mod3_images/mod3_step4.1.png" height="400"></div><br>
+
+Step 5: You can see the data that you imported in the "exampleDB" collection.
+
+<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/Images/mod3_images/mod3_step5.png" height="400"></div><br>
+
+Step 6: If you would like to drop the database, simply cick on the bin logo located beside the collection name. Then type the collection name to drop the database.
+
+<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/notes/Images/mod3_images/mod3_step6.png" height="400"></div><br>
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

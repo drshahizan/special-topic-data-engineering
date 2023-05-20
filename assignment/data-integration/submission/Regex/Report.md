@@ -59,6 +59,8 @@ After finishing these steps, wait for the deployment and the figure below shows 
 
 ### 4. Create and Setup Storage Account
 
+For creating a storage account, we can search "storage accounts" in the search bar and click on "Storage Accounts". There will be a ”Create” button and click on that button. Fill in the required information and click the “Review” button then click “Create” button.
+
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/8c654790-7b6f-4c9a-93b5-bd5c5ac001f3">
 
 Select Blob Storage to store files.
@@ -99,13 +101,13 @@ create table for respective files
 
 ### 6. Create and Setup Linked Service
 
-launch data factory
+Launch data factory
 
 
 <img width="958" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/d42f1cb5-32ab-45c2-9778-e79923cdd180">
 
 
-select author and create new pipeline
+Select author and create new pipeline
 
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/e045c1c6-e479-418b-bb37-67b49aaeb6e5">
 
@@ -138,7 +140,7 @@ insert source dataset > sink dataset > mapping (import schemas)
 
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/6be2dc05-11bb-48a0-b9e2-aef3bb46eb04">
 
-Debug and select ppublish
+Debug and select publish
 
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/e384834e-17bc-4172-8622-a81f6f5af470">
 

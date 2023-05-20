@@ -30,6 +30,9 @@
   </tr>
 </table>
 
+<h3>Azure Data Factory vs Apache NiFi</h3>
+We chose Azure Data Factory (ADF) over Apache NiFi for our data integration project due to its seamless integration with the Azure ecosystem and robust scalability. ADF provides effortless integration with various Azure services, including Azure Data Lake Storage, Azure SQL Database, and Azure Databricks, enabling us to leverage the full power of the Azure platform for data processing and analysis. Additionally, ADF offers a scalable architecture that can handle large data volumes and accommodate future growth requirements, ensuring smooth and efficient data integration operations.
+
 <h3>Prerequisites</h3>
 Before getting started, make sure to have the following:
 

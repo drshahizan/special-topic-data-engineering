@@ -2,7 +2,9 @@
    <h1>Report: Data Integration Using Azure Data Factory 🏭</h1>
 </div>
 
-
+- [Introduction](#data-factory-pipeline)
+- [Implementation Steps](#steps)
+- [Conclusion](#conclusion)
 
 ## Data Factory Pipeline
 <p align="Justify">The Azure Data Factory pipeline is a logical grouping of activities that perform data integration tasks together, as shown in the figure below. A pipeline can be used to copy data from one data store to another, transform data, or perform a complex set of operations on data.</p>
@@ -145,3 +147,5 @@ Debug and select publish
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/e384834e-17bc-4172-8622-a81f6f5af470">
 
 
+## Conclusion
+In conclusion, this data integration project aimed to develop a unified dataset by integrating three different data sources for a data science project. We have identified three datasets and integrated them by using Microsoft Azure Data Factory. Overall, this project showcases the significance of data integration in data science and highlights the practical steps involved in the process. By following a systematic approach and leveraging appropriate tools and techniques, data integration enables data scientists to unlock valuable insights and make informed decisions based on a comprehensive dataset.

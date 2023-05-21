@@ -11,17 +11,17 @@ Don't forget to hit the :star: if you like this repo.
 
 Data can be classified into three main types: structured, semi-structured, and unstructured data.
 
-1. Structured Data:
+## 1. [Structured Data](01-structured.md)
    - Structured data is highly organized and follows a predefined format.
    - It is typically stored in relational databases with a fixed schema.
    - Examples include data in tables with rows and columns, such as financial transactions or customer information.
 
-2. Semi-Structured Data:
+## 2. [Semi-Structured Data](02-semi-structured.md)
    - Semi-structured data does not have a rigid schema but contains some organizational elements.
    - It may have tags, labels, or attributes that provide some level of organization.
    - Examples include JSON or XML documents, log files, or social media posts.
 
-3. Unstructured Data:
+## 3. [Unstructured Data](03-unstructured.md)
    - Unstructured data has no predefined structure or organization.
    - It does not fit into traditional relational databases easily.
    - Examples include text documents, emails, images, videos, or sensor data.

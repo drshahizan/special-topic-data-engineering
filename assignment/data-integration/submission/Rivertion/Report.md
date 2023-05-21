@@ -61,3 +61,9 @@
 <img src="ss/Screenshot_161.png" alt="">
 <img src="ss/Screenshot_162.png" alt="">
 
+<h3>11. Check the integrated data from all three files.</h3>
+ <p> Check the final data whether the data intergration process was successfull or not. We insert a new to view the results.
+  
+<img src="ss/Screenshot_163.png" alt="">
+<img src="ss/Screenshot_164.png" alt="">
+

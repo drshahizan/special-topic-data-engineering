@@ -100,6 +100,7 @@ A hands-on exercise to practice using MongoDB with Python, using the PyMongo dri
 - [Data science project using MongoDB](mongodb-ds.md)
 - [How to Install MongoDB && Compass | MacOS](https://youtu.be/AMy4WY3_KQo)
 - [MongoDB Sample Dataset](https://github.com/neelabalan/mongodb-sample-dataset)
+- [PHP + MongoDB EP 01 CRUD Connect, Update, Delete, Select, Insert](https://youtu.be/zogIgFz3NWg)
 
 
 ## Contribution 🛠️

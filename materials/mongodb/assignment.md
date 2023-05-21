@@ -9,10 +9,10 @@ Don't forget to hit the :star: if you like this repo.
 
 # Assignment : Developing a Data Science System with CRUD Operations
 
-Task:
+## Task:
 Your assignment is to develop a data science system using MongoDB, MySQL, and PHP, incorporating CRUD (Create, Read, Update, Delete) operations. You are required to create a report detailing the steps involved in building the system and the key considerations for its implementation.
 
-Instructions:
+## Instructions:
 1. Choose a Data Science System:
    - Select a specific data science system that you would like to develop using MongoDB, MySQL, and PHP. For example, you can choose a sentiment analysis system, recommendation engine, or predictive analytics system. Define the purpose and objectives of the system.
 
@@ -63,13 +63,11 @@ Instructions:
      - **Web Interface**: Discuss the design and functionality of the web interface, including screenshots if possible.
      - **Testing and Validation**: Present the testing methodology, results, and evaluation of the system's performance.
      - **Conclusion**: Summarize the key findings, challenges faced, and potential improvements for the system.
-     - **References**: Include a list of sources used in your
+     - **References**: Include a list of sources used in your research and development.
 
- research and development.
+> **Note**: You are encouraged to provide additional enhancements and features to the system beyond the core requirements. Creativity, attention to detail, and effective communication in the report will be considered in the evaluation process.
 
-Note: You are encouraged to provide additional enhancements and features to the system beyond the core requirements. Creativity, attention to detail, and effective communication in the report will be considered in the evaluation process.
-
-Submission Guidelines:
+## Submission Guidelines:
 - Submit your PHP scripts, MongoDB and MySQL database configurations, and any additional files required to run the system.
 - Submit the `report.md` file documenting the steps taken to develop the data science system.
 

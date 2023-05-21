@@ -9,6 +9,8 @@ Don't forget to hit the :star: if you like this repo.
 
 # MongoDB
 
+## [Assignment](assignment.md)
+
 ## Curriculum Resources
 Explore free resources for educators crafted by MongoDB experts to prepare learners with in-demand database skills and knowledge
 

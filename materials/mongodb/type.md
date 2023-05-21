@@ -56,3 +56,10 @@ Types of NoSQL databases include:
    - Optimize for graph-based queries and traversals, making them suitable for social networks, recommendation systems, and fraud detection.
 
 For example, MongoDB is a document-based NoSQL database. It allows storing and retrieving data in flexible JSON-like documents. With MongoDB, you can easily handle unstructured or semi-structured data, such as product catalogs, user profiles, or sensor data, while providing scalability and performance.
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)

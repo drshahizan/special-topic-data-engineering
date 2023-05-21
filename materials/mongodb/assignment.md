@@ -68,10 +68,11 @@ Your assignment is to develop a data science system using MongoDB, MySQL, and PH
 >**Note**: You are encouraged to provide additional enhancements and features to the system beyond the core requirements. Creativity, attention to detail, and effective communication in the report will be considered in the evaluation process.
 
 ## Submission Guidelines:
+- Collaborate effectively with your group members to complete the task.
+- Ensure to send the report in **mark down** format and **source code**.
 - Submit your PHP scripts, MongoDB and MySQL database configurations, and any additional files required to run the system.
 - Submit the `readme.md` file documenting the steps taken to develop the data science system.
-
-Remember to adhere to good coding practices, proper documentation, and clear explanations in your report. Ensure that your system is functional and well-tested before submission.
+- Please submit the assignments in the [**submission**](./submission/) folder. It would be best if you create a folder using your group name.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

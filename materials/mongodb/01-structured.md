@@ -23,7 +23,7 @@ Structured data refers to data that is organized and follows a predefined format
 
 Structured data and the relational databases that manage it are widely used in various industries and applications due to their ability to ensure data consistency, integrity, and reliability.
 
-## Structured Data and Data Science Projects**
+## Structured Data and Data Science Projects
 
 Structured data plays a crucial role in data science projects as it provides a well-defined and organized format for analysis and modeling. Here are more details about the relationship between structured data and data science projects:
 
@@ -42,6 +42,33 @@ Structured data plays a crucial role in data science projects as it provides a w
 - **Database Integration**: In data science projects, structured data is often stored and managed in databases, enabling efficient storage, retrieval, and update operations. Integration with databases allows for seamless access and analysis of structured data for ongoing projects.
 
 Structured data offers the advantage of a predefined schema, which facilitates the data analysis and modeling process in data science projects. Its organization and consistency enable data scientists to apply a wide range of techniques and algorithms effectively.
+
+## 20 data science projects that use structured data
+
+| No  | Project Title              | Description                                                  | Data Source                    | Techniques/Algorithms Used    |
+| --- | -------------------------- | ------------------------------------------------------------ | ------------------------------ | ----------------------------- |
+| 1   | Customer Segmentation      | Segment customers based on behavior and demographics          | Customer data                  | Clustering (K-means, DBSCAN)  |
+| 2   | Sales Forecasting          | Predict future sales for a retail company                     | Sales data                     | Time Series Analysis, Regression |
+| 3   | Fraud Detection            | Identify fraudulent transactions in financial data            | Transaction logs               | Anomaly Detection, Random Forest |
+| 4   | Churn Prediction           | Predict customer churn for a telecommunications company       | Customer data                  | Logistic Regression, Random Forest |
+| 5   | Credit Scoring             | Assess creditworthiness of loan applicants                    | Credit data                    | Decision Trees, Gradient Boosting |
+| 6   | Product Recommendation     | Recommend products to customers based on their preferences    | Purchase history               | Collaborative Filtering, Content-based Filtering |
+| 7   | Demand Forecasting         | Forecast demand for a supply chain management system          | Inventory and sales data       | ARIMA, Exponential Smoothing  |
+| 8   | Insurance Claim Analysis   | Analyze insurance claims to detect patterns and fraud          | Claim records                  | Classification (Naive Bayes, Random Forest) |
+| 9   | Stock Market Prediction    | Predict stock prices and trends                               | Stock market data              | LSTM, Random Forest          |
+| 10  | Employee Attrition Analysis| Analyze factors leading to employee attrition                  | HR data                        | Logistic Regression, Decision Trees |
+| 11  | Customer Lifetime Value    | Predict the future value of customers over their lifecycle     | Sales and customer data         | Regression, Survival Analysis |
+| 12  | Network Intrusion Detection| Detect and prevent network intrusions                          | Network logs                   | Machine Learning (SVM, Random Forest) |
+| 13  | Product Quality Analysis   | Analyze product quality based on manufacturing data            | Quality control records        | Statistical Process Control, Six Sigma |
+| 14  | Patient Readmission Prediction| Predict the likelihood of patient readmission               | Electronic health records (EHR) | Logistic Regression, Random Forest |
+| 15  | Loan Default Prediction    | Predict the likelihood of loan default                         | Loan and credit history data    | Logistic Regression, Random Forest |
+| 16  | Website Traffic Analysis   | Analyze website traffic patterns and user behavior             | Web server logs                | Clickstream Analysis, Clustering |
+| 17  | Marketing Campaign Analysis| Analyze the effectiveness of marketing campaigns               | Campaign data                  | A/B Testing, Regression       |
+| 18  | Customer Satisfaction Analysis| Analyze customer satisfaction based on survey responses       | Survey data                    | Sentiment Analysis, Regression |
+| 19  | Supply Chain Optimization  | Optimize supply chain operations for cost and efficiency       | Supply chain data              | Linear Programming, Optimization Algorithms |
+| 20  | Flight Delay Prediction    | Predict flight delays and optimize flight scheduling           | Flight data                    | Regression, Time Series Analysis |
+
+Please note that the techniques and algorithms mentioned above are examples and can vary depending on the specific project requirements and data characteristics.
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

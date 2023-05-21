@@ -25,7 +25,7 @@ Unstructured data refers to data that does not have a predefined data model or o
 
 Unstructured data presents both challenges and opportunities in the field of data science. Advanced techniques like text mining, sentiment analysis, image recognition, and deep learning can be employed to extract insights and patterns from unstructured data. By harnessing the power of unstructured data, organizations can uncover valuable information, improve decision-making, enhance customer experiences, and drive innovation.
 
-## Unstructured Data and Data Science Projects**
+## Unstructured Data and Data Science Projects
 
 Unstructured data plays a crucial role in data science projects as it encompasses diverse and complex data sources. Here are more details about the relationship between unstructured data and data science projects:
 
@@ -47,7 +47,7 @@ Unstructured data plays a crucial role in data science projects as it encompasse
 
 Unstructured data poses challenges but also offers tremendous potential for data science projects. It allows for a more comprehensive understanding of complex phenomena, enhances decision-making processes, and drives innovation across various domains. By leveraging advanced techniques and tools, data scientists can extract valuable information from unstructured data and derive actionable insights to solve real-world problems.
 
-Here's a table listing 20 data science projects that utilize unstructured data, including the project title, description, data source, and techniques/algorithms used:
+## 20 data science projects that utilize unstructured data
 
 | No  | Project Title              | Description                                                  | Data Source                           | Techniques/Algorithms Used                |
 | --- | -------------------------- | ------------------------------------------------------------ | ------------------------------------- | ----------------------------------------- |

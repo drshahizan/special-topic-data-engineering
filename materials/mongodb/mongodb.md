@@ -43,10 +43,11 @@ In this unit, you’ll learn how to perform basic CRUD operations with the Mongo
 ### 5. [MongoDB Python Developer Path](https://learn.mongodb.com/learning-paths/mongodb-python-developer-path)
 This learning path contains a series of courses to teach you MongoDB skills. In this path, you’ll learn the basics of building modern applications with Python, using MongoDB as your database.
 
-## Quickstarts
+## Quickstarts: MongoDB and PHP
 
-1. [Getting Set Up to Run PHP with MongoDB](https://www.mongodb.com/developer/languages/php/php-setup)
-2. [Creating, Reading, Updating, and Deleting MongoDB Documents with PHP](https://www.mongodb.com/developer/languages/php/php-crud/)
+1. [MongoDB and PHP](mongophp.md)
+2. [Getting Set Up to Run PHP with MongoDB](https://www.mongodb.com/developer/languages/php/php-setup)
+3. [Creating, Reading, Updating, and Deleting MongoDB Documents with PHP](https://www.mongodb.com/developer/languages/php/php-crud/)
 
 ## Student Demo Applications
 

@@ -7,71 +7,22 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Assignment : Developing a Data Science System with CRUD Operations
+# Structured Data
 
-## Task:
-Your assignment is to develop a data science system using MongoDB, MySQL, and PHP, incorporating CRUD (Create, Read, Update, Delete) operations. You are required to create a report detailing the steps involved in building the system and the key considerations for its implementation.
+Structured data refers to data that is organized and follows a predefined format or schema. It is typically stored in relational databases, where data is organized into tables with rows and columns. Key details about structured data:
 
-## Instructions:
-1. Choose a Data Science System:
-   - Select a specific data science system that you would like to develop using MongoDB, MySQL, and PHP. For example, you can choose a sentiment analysis system, recommendation engine, or predictive analytics system. Define the purpose and objectives of the system.
+- **Characteristics**: Structured data has a well-defined structure, fixed data types, and clear relationships between data elements. It is highly organized, making it easy to search, retrieve, and manipulate.
 
-2. Design the System:
-   - Create a system design plan that outlines the overall structure and components of your data science system.
-   - Define the data requirements, including the types of data to be collected, stored, and processed. Specify how the data will be structured in MongoDB and MySQL.
-   - Determine the functionalities of the system, such as data ingestion, preprocessing, analysis, and visualization.
+- **Storage**: Structured data is stored in relational databases that enforce a fixed schema. The schema defines the structure of the data, including tables, columns, data types, constraints, and relationships.
 
-3. Set up the Development Environment:
-   - Install and configure MongoDB and MySQL on your local machine or server.
-   - Install the necessary PHP extensions or libraries to interact with MongoDB and MySQL.
+- **Querying**: Structured data can be queried using Structured Query Language (SQL). SQL allows for precise retrieval and manipulation of data based on specific criteria, such as filtering, sorting, joining, and aggregating.
 
-4. Implement CRUD Operations with MongoDB:
-   - Develop PHP scripts to perform CRUD operations on the MongoDB database:
-     - Create: Implement functionality to insert new data records into MongoDB.
-     - Read: Retrieve and display data from MongoDB.
-     - Update: Allow for updating existing data records in MongoDB.
-     - Delete: Provide the ability to remove unwanted data entries from MongoDB.
+- **Examples**: Common examples of structured data include financial records, customer information, inventory management data, transactional data, and employee records.
 
-5. Implement CRUD Operations with MySQL:
-   - Develop PHP scripts to perform CRUD operations on the MySQL database:
-     - Create: Implement functionality to insert new data records into MySQL.
-     - Read: Retrieve and display data from MySQL.
-     - Update: Allow for updating existing data records in MySQL.
-     - Delete: Provide the ability to remove unwanted data entries from MySQL.
+- **Database Example**: An example of a database management system (DBMS) that handles structured data is MySQL. MySQL is an open-source relational database that provides robust features for managing structured data efficiently. It supports SQL queries, transactions, indexing, and data integrity constraints.
 
-6. Data Preprocessing and Analysis:
-   - Write PHP scripts to preprocess and analyze the data stored in MongoDB and MySQL:
-     - Perform data cleaning, transformation, and feature engineering as required.
-     - Apply appropriate data science techniques, such as statistical analysis, machine learning, or natural language processing, depending on the chosen system.
+Structured data and the relational databases that manage it are widely used in various industries and applications due to their ability to ensure data consistency, integrity, and reliability.
 
-7. Develop a Web Interface:
-   - Utilize PHP to create a web interface for your data science system:
-     - Design an intuitive user interface for interacting with the system.
-     - Implement functionality to display data, perform searches, and visualize results.
-     - Ensure that the web interface integrates with both MongoDB and MySQL and supports CRUD operations for both databases.
-
-8. Testing and Validation:
-   - Test the functionality and performance of your data science system.
-   - Validate the results obtained from the system against known benchmarks or ground truth, if applicable.
-
-9. Report:
-   - Create a markdown file (e.g., `report.md`) documenting the process of developing the data science system using MongoDB, MySQL, and PHP.
-   - Include the following sections in your report:
-     - **Introduction**: Provide an overview of the chosen data science system and its objectives.
-     - **System Design**: Describe the system architecture, data requirements, and functionalities.
-     - **Implementation**: Explain the step-by-step process of developing the system, including the CRUD operations, data preprocessing, and analysis.
-     - **Web Interface**: Discuss the design and functionality of the web interface, including screenshots if possible.
-     - **Testing and Validation**: Present the testing methodology, results, and evaluation of the system's performance.
-     - **Conclusion**: Summarize the key findings, challenges faced, and potential improvements for the system.
-     - **References**: Include a list of sources used in your research and development.
-
->**Note**: You are encouraged to provide additional enhancements and features to the system beyond the core requirements. Creativity, attention to detail, and effective communication in the report will be considered in the evaluation process.
-
-## Submission Guidelines:
-- Submit your PHP scripts, MongoDB and MySQL database configurations, and any additional files required to run the system.
-- Submit the `readme.md` file documenting the steps taken to develop the data science system.
-
-Remember to adhere to good coding practices, proper documentation, and clear explanations in your report. Ensure that your system is functional and well-tested before submission.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

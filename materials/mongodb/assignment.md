@@ -65,7 +65,7 @@ Your assignment is to develop a data science system using MongoDB, MySQL, and PH
      - **Conclusion**: Summarize the key findings, challenges faced, and potential improvements for the system.
      - **References**: Include a list of sources used in your research and development.
 
-> **Note**: You are encouraged to provide additional enhancements and features to the system beyond the core requirements. Creativity, attention to detail, and effective communication in the report will be considered in the evaluation process.
+**Note**: You are encouraged to provide additional enhancements and features to the system beyond the core requirements. Creativity, attention to detail, and effective communication in the report will be considered in the evaluation process.
 
 ## Submission Guidelines:
 - Submit your PHP scripts, MongoDB and MySQL database configurations, and any additional files required to run the system.

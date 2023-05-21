@@ -74,3 +74,10 @@ Submission Guidelines:
 - Submit the `report.md` file documenting the steps taken to develop the data science system.
 
 Remember to adhere to good coding practices, proper documentation, and clear explanations in your report. Ensure that your system is functional and well-tested before submission.
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)

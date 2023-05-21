@@ -7,9 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-**Assignment Instructions**
-
-# Topic: MongoDB + MySQL and PHP - Developing a Data Science System with CRUD Operations
+**Assignment : Developing a Data Science System with CRUD Operations
 
 Task:
 Your assignment is to develop a data science system using MongoDB, MySQL, and PHP, incorporating CRUD (Create, Read, Update, Delete) operations. You are required to create a report detailing the steps involved in building the system and the key considerations for its implementation.

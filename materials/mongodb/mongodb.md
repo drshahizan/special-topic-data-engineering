@@ -83,6 +83,7 @@ A reference guide, complete with examples, of commonly used commands in the mong
 A hands-on exercise to practice using MongoDB with Python, using the PyMongo driver.
 
 ## Useful links
+- [Installing MongoDB PHP Driver for XAMPP Server on Windows - Step-by-Step Tutorial](https://youtu.be/KJV8iZ_9gYg)
 - [Learn MongoDB](./materials/learn-mongodb.md)
 - [Wikipedia: MongoDB](https://en.wikipedia.org/wiki/MongoDB)
 - [Web Application using Mongodb](web-mongodb.md)

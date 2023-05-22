@@ -1,5 +1,9 @@
 <div align="center">
+<<<<<<< HEAD
   <img width = 600px height = 300px src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/9497e737-97f7-4d64-9974-9b26ce1a7e7f">
+=======
+  <img width = 500px height = 200px src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/9497e737-97f7-4d64-9974-9b26ce1a7e7f">
+>>>>>>> baf9c49fe6e5155ad854363f1009c6e48719ce53
 </div>
 
 <h1 align=center>Part 1: Web scraping Malaysia Photo Collection</h1>
@@ -36,4 +40,8 @@ Our project aims to utilize the Flickr API and Python programming to curate a va
 ## Contents📝
 - 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/MichelinStar/MichelinStar_Scraping_Report.md)
 - 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/MichelinStar/MichelinStar_Scraping.py)
+<<<<<<< HEAD
 - 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/MichelinStar/photos_metadata.csv)
+=======
+- 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/MichelinStar/photos_metadata.csv)
+>>>>>>> baf9c49fe6e5155ad854363f1009c6e48719ce53

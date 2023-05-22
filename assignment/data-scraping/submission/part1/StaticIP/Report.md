@@ -1,0 +1,171 @@
+## Introduction
+Web scraping multimedia is a process where images, videos, audio and other types of non-textual content from websites are extracted. It is widely used for research and business purposes as this type of data provides valuable insights into trends, consumer behavior, and user preferences. The data is extracted to train machine learning models, detect and monitor visual content, create interactive user interfaces, and improve search engine optimization. Many social media companies use web scraping to analyze user-generated images and videos to understand user behavior, preferences, and sentiment. Some academic researchers also use the data to analyze multimedia content such as historical images and videos for cultural and social studies audio data for linguistics and music research, and scientific images and videos for medical and environmental research.
+
+## Web Scraping Flickr
+Flickr is a photo-sharing platform which is launched in 2004. Users can upload and share their images and videos through Flickr. They can also manage their photos by creating albums or collections on Flickr. Users can customize the privacy settings of their accounts by choosing who can view and access their media.
+
+It is a good source for multimedia content due to its large and diverse community of photographers and content creators. This helps Flickr to provide its users with abundant sources of high-quality visual content. Users from all around the world can share their work, allowing for a wide range of subjects, styles, and perspectives to be explored.
+
+Web scraping process
+
+Step 1: Install the libraries that will be used.
+```ruby
+!pip install FlickrAPI
+!pip install opencv-python
+```
+
+Step 2: Import the libraries.
+```ruby
+import requests
+import json
+import csv
+import cv2
+import numpy as np
+```
+
+Step 3: To start web scraping from Flickr, we need to get an API key. The API key must be requested through Flickr App Garden. Specify the tags of the image or videos that you want to scrap. In this assignment, we will be scraping images related to tulips. 
+
+```ruby
+api_key = "c4f4b6d66b68b51b2cf8980452b317aa"
+search_url = "https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key={api_key}&tags=tulip&per_page=100&page=1&format=json&nojsoncallback=1"
+info_url = "https://www.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key={api_key}&photo_id={photo_id}&format=json&nojsoncallback=1"
+exif_url = "https://www.flickr.com/services/rest/?method=flickr.photos.getExif&api_key={api_key}&photo_id={photo_id}&format=json&nojsoncallback=1"
+```
+
+Step 4: Make the API call to get the search results. It will only return a maximum of 100 results. The`search_url` method is used to get 100 results per page. 
+
+```ruby
+response = requests.get(search_url.format(api_key=api_key))
+data = json.loads(response.text)
+total_pages = data["photos"]["page"]
+```
+
+Step 5: After that, access the Flickr API to retrieve the URLs for each image or video. Loop through all the pages and get the photo metadata and camera settings. Then, store them in a dictionary. After that, add the metadata to the list.
+
+```ruby
+metadata_list = []
+for page in range(1, total_pages+1):
+    response = requests.get(search_url.format(api_key=api_key, page=page))
+    data = json.loads(response.text)
+    for photo in data["photos"]["photo"]:
+        response = requests.get(info_url.format(api_key=api_key, photo_id=photo["id"]))
+        data = json.loads(response.text)
+        metadata = data["photo"]
+
+        response = requests.get(exif_url.format(api_key=api_key, photo_id=photo["id"]))
+        data_exif = json.loads(response.text)
+
+        metadata_dict = {
+            "Title": metadata["title"].get("_content", "Untitled"),
+            "Author": metadata["owner"]["username"],
+            "URL": f'https://live.staticflickr.com/{metadata["server"]}/{metadata["id"]}_{metadata["secret"]}.jpg',
+        }
+
+        if data_exif['stat'] == 'fail':
+            exif_data ="Owner denied access"
+        else:
+            exif_data = data_exif["photo"]["exif"]
+
+            for exif in exif_data:
+                if exif["label"] in ["Make", "Model"]:
+                    metadata_dict[exif["label"]] = exif["raw"]["_content"]
+
+        metadata_list.append(metadata_dict)
+```
+
+Step 6: Write the metadata to the CSV file and download the images. OpenCV library is used to get the CSV file of the data. 
+
+The dataset contains metadata such as:
+- Geolocation
+- Camera model
+- Camera settings
+- Lenses model
+- Tags
+
+The size of the multimedia files varies depending on the quality and length of the multimedia content. It can be around kB-MB.
+
+```ruby
+with open("flickr_image_metadata.csv", "w", newline="", encoding="utf-8") as f:
+    writer = csv.DictWriter(f, fieldnames=["Title", "Author", "URL", "Make", "Model"])
+    writer.writeheader()
+
+    for metadata in metadata_list:
+        response = requests.get(metadata["URL"])
+        image = cv2.imdecode(np.frombuffer(response.content, np.uint8), cv2.IMREAD_COLOR)
+
+        writer.writerow(metadata)
+```
+
+Step 7: Lastly, to store the multimedia content and the metadata in a database, define the connection string, database name and collection name. The connection string can be obtained by following these steps:
+- Navigate to your Atlas Clusters view.
+
+- Click Connect for your desired cluster.
+
+- Click Connect with MongoDB Compass.
+
+- Copy the provided connection string.
+```ruby
+#Connection String 
+uri="mongodb://<username>:<password>@ac-lojpzav-shard-00-00.nz2oazc.mongodb.net:27017,ac-lojpzav-shard-00-01.nz2oazc.mongodb.net:27017,ac-lojpzav-shard-00-02.nz2oazc.mongodb.net:27017/?ssl=true&replicaSet=atlas-li4q9r-shard-0&authSource=admin&retryWrites=true&w=majority"
+client = MongoClient(uri)
+
+#Define the database and collection
+db = client['<your_database_name>']
+collection = db['<your_collection_name>']
+
+collection.insert_many(metadata_list)
+```
+
+<div align="center">
+  <img width="700" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/dbview_mongodb.png" alt='View of database after importing to MongoDB'>
+</div>
+
+While doing the web scraping, there are some challenges occur. One of the challenges is the restriction of accessing the data. For example, some authors restrict access to their EXIF information. This causes the metadata collected in the end to only includes title, author name, URL, camera make and model. Besides that, Flickr has its own policies on the use of its content. Therefore, we need to be very careful while doing web scraping to avoid violations of the policies.
+
+## Choosing a Library for Web Scraping
+<table>
+    <tr>
+        <th>Library</th>
+        <th>Advantages</th>
+        <th>Disadvantages</th>
+    </tr>
+    <tr>
+        <td>Request<br>Python HTTP query library used for retrieving Web content, including media files from URLs.</td>
+        <td align=justify>
+            <li>Transparent integration into web scraper workflows.</li>
+            <li>Can be used to access web content URLs and multimedia files directly</li>
+            <li>User-friendly API for effortless HTTP requests and response handling.</li>        
+        </td>
+        <td>
+            <li>Not designed specifically for multimedia manipulation or analysis.</li>  
+            <li>Only provide support for some complex multimedia formats or operations.</li>          
+            <li>Cannot work by itself for advanced multimedia operations, may need additional libraries or tools</li>
+        </td>
+    </tr>
+    <tr>
+        <td>OpenCV<br>A Python library that can perform image processing and computer vision tasks such as object detection, face recognition and tracking.</td>
+        <td align=justify>
+            <li>Provide high-performance efficiency and optimization.</li>  
+            <li>Provide solutions for web scraping as well as subsequent multimedia processing tasks.</li> 
+            <li>Provide support for some complex multimedia formats and operations for image manipulation and analysis.</li>     
+        </td>
+        <td align=justify>
+            <li>Not recommended for projects seeking lightweight or minimalistic approaches.</li>        
+            <li>Library size is big.</li>
+            <li>The function of this library mostly focuses on computer vision tasks only</li>
+        </td>
+    </tr>
+    <tr>
+        <td>Pillow<br>A Python library that provides basic image processing functionality including image resizing, rotation and transformation.</td>
+        <td align=justify>
+            <li>Support multiple image file formats.</li>
+            <li>Transparent integration into web scraper workflows.</li>
+            <li>Suitable for pre-processing and analyzing basic images.</li>        
+        </td>
+        <td align=justify>
+            <li>Only provides support for some complex multimedia formats or operations.</li>
+            <li>Lack of integrated features for web content retrieving and management.</li>        
+            <li>Cannot work by itself for advanced multimedia analysis, may need additional libraries or tools.</li>
+        </td>
+    </tr>
+</table>

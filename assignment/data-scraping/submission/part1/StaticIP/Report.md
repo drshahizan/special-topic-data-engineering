@@ -6,7 +6,7 @@ Flickr is a photo-sharing platform which is launched in 2004. Users can upload a
 
 It is a good source for multimedia content due to its large and diverse community of photographers and content creators. This helps Flickr to provide its users with abundant sources of high-quality visual content. Users from all around the world can share their work, allowing for a wide range of subjects, styles, and perspectives to be explored.
 
-Web scraping process
+### Web scraping process
 
 Step 1: Install the libraries that will be used.
 ```ruby
@@ -115,10 +115,13 @@ collection = db['<your_collection_name>']
 
 collection.insert_many(metadata_list)
 ```
+<br>
 
 <div align="center">
   <img width="700" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/dbview_mongodb.png" alt='View of database after importing to MongoDB'>
 </div>
+
+<br>
 
 While doing the web scraping, there are some challenges occur. One of the challenges is the restriction of accessing the data. For example, some authors restrict access to their EXIF information. This causes the metadata collected in the end to only includes title, author name, URL, camera make and model. Besides that, Flickr has its own policies on the use of its content. Therefore, we need to be very careful while doing web scraping to avoid violations of the policies.
 

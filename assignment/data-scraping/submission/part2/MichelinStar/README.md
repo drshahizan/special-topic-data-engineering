@@ -1,5 +1,5 @@
 <div align="center">
-  <img width = 500px height = 200px src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/7c15f7c2-32f9-4a74-b1cd-024f0a5d2059">
+  <img height = 300px src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/7c15f7c2-32f9-4a74-b1cd-024f0a5d2059">
 </div>
 
 <h1 align=center>Part 2: Web scraping Text Content From Google Scholar</h1>

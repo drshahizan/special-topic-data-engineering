@@ -6,7 +6,8 @@
 In this assignment, we have identified 3 different data sources about ChatGPT. The data sources are:-
 
 1. chatgpt_malaysia_facebook.csv
-The dataset contains ``` 'post_url', 'text','time','likes_count','shares_count','comments_count','full_comments' ```. This dataset is scraped using facebook_scraper<br> with the following code:
+
+The dataset contains ``` 'post_url', 'text', 'time', 'likes_count', 'shares_count', 'comments_count', 'full_comments' ```. This dataset is scraped using <br>facebook_scraper</br> with the following code:
 
 ```python 
 # call Class from library
@@ -51,9 +52,11 @@ df.to_csv('chatgpt_malaysia_facebook.csv')
 ```
 
 2. chatgpt-reddit-comments.csv
+
 This dataset is downloaded from kaggle uploaded by ARMITA RAZAVI at https://www.kaggle.com/datasets/armitaraz/chatgpt-reddit. This dataset contains  50K comments on Reddit website regarding ChatGPT. This data includes ``` comment_id, comment_parent_id, comment_body and subreddit ```
 
 3. chatgpt_twitter.csv
+
 This dataset is downloaded from kaggle uploaded by MUHAMMAD TARIQ at https://www.kaggle.com/datasets/tariqsays/chatgpt-twitter-dataset. This dataset contains a collection of tweets with the hashtag #chatgpt. This data includes ``` Tweet text, User information (username, user ID, location, etc.), Tweet timestamp, Retweet and favorite count, Hashtags used in the tweet, and URLs ```
 
 These datasets are relevant because we want to analyze sentiment of ChatGPT users.

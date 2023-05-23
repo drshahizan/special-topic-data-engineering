@@ -10,11 +10,34 @@ The folder contains
 2. beer_profile_and_ratings
 3. beer_reviews
 
-### 2. Set up the Azure Data Factory
+
+### 2. Clean the datasets
+Before adding the datasets we had found to the data factory, we decided to clean the datasets first since there are some minor issues on the datasets.
+
+Things we had done to clean the datasets are:
+1. Change the datatype of the attributes to the most suitable.
+2. Make sure the rating scores are consistent in terms of decimal places to make it easier to read.
+3. Remove any rows that contained null value(s).
+
+All of these cleaning procedure is done in Alteryx Designer. Alteryx Designer is a tool used in data analytics and workflow automation which can perform data preparation, data cleaning, data blending and many more. 
+
+Below is the image of the workflow created in the tool mentioned above:
+
+![data_clean_1](https://github.com/nellyexey/image/blob/main/Screenshot_3.png)
+
+To briefly summarizing the workflow above, the steps are listed below based on the tool flow:
+1. Input data tool - Used to get the dataset from the device
+2. Select tool - Used to change the datatype and set the suitable decimal places for the ratings
+3. Filter tool - Filter the not null data to be true
+4. Output data tool - Used to export the data to the local device according to the desired file type. In this case, we exported it as CSV file.
+
+
+### 3. Set up the Azure Data Factory
 To step up the Azure Data Factory, we first need to set up `storage`, `database` , `server`.
 Simply follow this [Youtube Tutorial](https://youtu.be/EpDkxTHAhOs) to finish setting up.
 
 The finished set up will appear in the home page under resources.
+
 ![integration 1](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/759831d6-cdfa-4421-a97d-6aab51985d38)
 
 #### a. Storage Account
@@ -61,21 +84,22 @@ number_reviews int
 )
 ```
 Continue to create 2 other tables based on file `beer_data_set` and `beer_reviews`
+
 ![07205f0b69c4b206d21487a9e8012df5e24fdc19](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/cabba126-8b79-4929-b75f-ccf5430021e0)
 
-### 3. Create Linked Service
+### 4. Create Linked Service
 Open Data Factory, click on the Manage page from the navigation bar. Then, under connections, go to linked services. Create 2 new linked services named `inputblob` (Type: Azure Blob Storage) and `outputSQL` (Type: Azure SQL Database).
 
 ![f033204219262fe860067eecbb9d830849569cfe](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/74a93832-5cef-4f87-a85d-96fc3adf018c)
 
 ![34a582413e61af150a988bc52f362428e431a7d9](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/50f00834-799b-4f04-8287-8463e473aa85)
 
-### 4. Create Datasets
+### 5. Create Datasets
 Navigate to author page. Under `Datasets` create new dataset (type: Azure Blob Storage), name it `beerCSV` and select format of the file u want to connect. Create another dataset (type: Azure SQL Database) and named it  `beerTable`.
 
 ![8752655e9cb62741c5492dd017059c28e42a40cb](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/5b77eb58-3e0b-4b0a-af0b-0ee9970820b1)
 
-### 5. Create Pipeline Canvas
+### 6. Create Pipeline Canvas
 Create new pipeline, name it `blob to sql`. Click on the created pipeline, then a canvas will appear. In the activities column, go to 'Move & Transform' and drag `copy data` into the canvas. The source dataset should be `beerCSV` dataset and the sink source shall be `beerTable`. Debug the canvas until success. After all elements had success in debugging, click on Publish.
 
 ![a6df591cb9a1c8f4a83a5d196937ffc4bcfa2935](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/bca1a36c-0139-498f-8f77-4b05ddcf3489)

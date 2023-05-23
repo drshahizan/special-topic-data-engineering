@@ -1,4 +1,4 @@
-<h1 align='center'>DATA INTEGRATIONt</h1>
+<h1 align='center'>DATA INTEGRATION</h1>
 
 <h2 align='center'>Group Members </h2>
 <table align='center'>

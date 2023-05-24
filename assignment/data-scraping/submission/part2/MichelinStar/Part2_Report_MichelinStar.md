@@ -2,7 +2,23 @@
 
 ## 1. Introduction
 
-<p align=justify></p>
+<p align=justify>
+Web scraping is a automated data extraction process from websites using various kind of tools, libraries and softwares. Publication content is defined as the published information through mediums like academic journals, books, newspapers, websites, blogs, and etc. Thus, web scraping publication content indicates the process of extracting data from online publication sources using suitable tools. In this assignment, we will be performing web scraping publication content on Google Scholar by extracting the related data to Faculty of Computing at University of Technology Malaysia. 
+
+The importance of web scraping publication content can be discussed from a few perpectives, including research insights, literature reviews, data-driven analysis, text mining and natural language processing, and to keep updated with latest information. 
+</p>
+<table>
+<tr>
+<td>
+<b>Research insights</b>
+</td>
+<td>
+Researchers can obtain information such as title, abstracts, keywords, authors, publication dates, and citation counts through web scraping which is significant in observing trends of emerging topics, and performing robust analysis. 
+</td>
+</tr>
+
+</table>
+
 
 ## 2. Web Scraping Search Results from Google Scholar
 

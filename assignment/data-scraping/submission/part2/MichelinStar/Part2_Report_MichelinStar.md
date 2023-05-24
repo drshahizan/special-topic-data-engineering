@@ -1,4 +1,4 @@
-<h1 align=center>Web scraping Malaysia Photo Collection</h1>
+<h1 align=center>Web scraping Google Scholar Content</h1>
 
 ## 1. Introduction
 

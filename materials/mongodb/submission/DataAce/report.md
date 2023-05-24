@@ -102,5 +102,16 @@ Now, we have successfully created and connect to both databases.
 
 ## Web Interface
 ## Testing and Validation
+1. Create
+2. Read
+3. Update
+4. Delete
+
+Now, we want to try to delete student named 'Betty'. 
+
+![Delete](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/delete-user.png)
+
+![DeleteResult](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/delete-result.png)
+
 ## Conclusion
 ## References

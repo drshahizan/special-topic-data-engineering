@@ -1,4 +1,7 @@
-# Title
+<h1 align='center'>Student Management System</h1>
+
+## Table of Contents
+
 - [Introduction](#introduction)
 - [System Design](#system-design)
 - [Implementation](#implementation)
@@ -10,23 +13,25 @@
 ## Introduction
 
 In this project, our goal is to create a comprehensive Student Management System that simplifies the process of managing student records for administrators and educators. The system will be designed to leverage the combined power of PHP, MySQL, and MongoDB, enabling efficient CRUD operations on student data. By implementing efficient CRUD operations, the system aims to enhance productivity and accuracy, leading to improved organization and management within educational institutions. The user-friendly interface will streamline administrative processes, saving time and effort for administrators and educators. Overall, our goal is to provide a practical solution that optimizes student data management, benefiting educational institutions in their day-to-day operations.
+
 ## System Design
-### System Architecture
 
 ### Data Requirements
 
 The system's data requirements include storing and managing student information. The essential data fields may include:
 
-**Student ID:** A unique identifier for each student.
+<div align="center">
 
-**Name:** The student's full name.
+| Field               | Description                                                  |
+|---------------------|--------------------------------------------------------------|
+| Student ID          | A unique identifier for each student.                         |
+| Name                | The student's full name.                                      |
+| Age                 | The age or date of birth of the student.                      |
+| Grade               | The academic grade or class the student is enrolled in.        |
+| Contact Information | Phone number                                                    |
 
-**Age:** The age or date of birth of the student.
-
-**Grade:** The academic grade or class the student is enrolled in.
-
-**Contact Information:** Phone number, email address, or other contact details of the student or their parents/guardians.
-
+</div>
+ 
 ### Functionalities
 
 The Student Management System offers the following key functionalities:
@@ -101,17 +106,67 @@ Now, we have successfully created and connect to both databases.
 ![MongoDB-dbcreated](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/mongodb-created.png)
 
 ## Web Interface
-## Testing and Validation
-1. Create
-2. Read
-3. Update
-4. Delete
 
-Now, we want to try to delete student named 'Betty'. 
+![Login](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/login-user.png)
+
+![Register](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/register-user.png)
+
+![Form](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/student-form.png)
+
+![Table](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/student-table.png)
+
+
+## Testing and Validation
+
+**1. Create**
+
+To add a new student, access the navigation bar and select the "Add Student" option. This action will navigate to a student details form.
+
+![Add](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/add-user.png)
+
+![Addr](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/add-user-result.png)
+
+
+In MongoDB, the process of adding student information was completed successfully, with the data being successfully inserted into the database. 
+
+![Mongo](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/mongodb-add-result.png)
+
+Similarly, in MySQL, all student records were successfully added without any issues or errors.
+
+![MySQL](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/mysql-add-result.png)
+
+**2. Read**
+
+![Addr](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/add-user-result.png)
+
+**3. Update**
+
+Next, perform a CRUD operation to modify the emergency contact number for the user named Harry.
+
+![Edit](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/edit-user.png)
+
+![Edit-result](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/edit-user-result.png)
+
+**4. Delete**
+
+Next, let's roceed with the deletion of the student named 'Betty' by performing the required CRUD operation.
 
 ![Delete](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/delete-user.png)
 
 ![DeleteResult](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/delete-result.png)
 
 ## Conclusion
+
+
+Throughout the development of the student CRUD management system using MySQL, MongoDB, and PHP, several key findings have emerged. Firstly, the integration of MongoDB and MySQL proved to be advantageous for managing student data. MongoDB's document-oriented model allowed for flexible and dynamic storage of student records, accommodating varying data structures. MySQL, on the other hand, provided a structured and relational approach, ensuring data consistency and enabling complex querying capabilities. This combination allowed for efficient and effective handling of student information.
+
+One of the challenges faced during the project was establishing a connection between MongoDB and PHP. When attempting to connect PHP with MongoDB, the system encountered difficulties due to missing or incompatible dependencies. To address these challenges, the project team researched and followed the documentation provided by MongoDB and PHP communities. They identified the appropriate version of the MongoDB PHP driver and ensured compatibility with the PHP version being used. The necessary dependencies were installed, and the MongoDB PHP driver was configured properly.
+
+Lastly, there are potential improvements that can be made to enhance the system. One improvement could be implementing a more robust data synchronization mechanism between MongoDB and MySQL to ensure real-time consistency. This could involve exploring tools or frameworks specifically designed for data replication and synchronization between different databases. Additionally, optimizing the performance of database queries and implementing caching mechanisms can improve the system's response time, especially when dealing with a large volume of student records.
+
+Overall, the student CRUD management system successfully leverages the strengths of MongoDB, MySQL, and PHP to provide a comprehensive solution for managing student data. By addressing the challenges faced and implementing potential improvements, the system can further enhance its functionality, performance, and data consistency, providing a reliable and efficient platform for administrators and educators in educational institutions.
+
 ## References
+
+- [How to use MongoDB with PHP](https://www.youtube.com/watch?v=WFrZB1Zr6lo)
+- [HTML Form with MySQL Database using PHP](https://www.youtube.com/watch?v=2HVKizgcfjo)

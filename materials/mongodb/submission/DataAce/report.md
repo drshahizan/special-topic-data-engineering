@@ -11,6 +11,34 @@
 
 In this project, our goal is to create a comprehensive Student Management System that simplifies the process of managing student records for administrators and educators. The system will be designed to leverage the combined power of PHP, MySQL, and MongoDB, enabling efficient CRUD operations on student data. By implementing efficient CRUD operations, the system aims to enhance productivity and accuracy, leading to improved organization and management within educational institutions. The user-friendly interface will streamline administrative processes, saving time and effort for administrators and educators. Overall, our goal is to provide a practical solution that optimizes student data management, benefiting educational institutions in their day-to-day operations.
 ## System Design
+### System Architecture
+
+### Data Requirements
+
+The system's data requirements include storing and managing student information. The essential data fields may include:
+
+**Student ID:** A unique identifier for each student.
+
+**Name:** The student's full name.
+
+**Age:** The age or date of birth of the student.
+
+**Grade:** The academic grade or class the student is enrolled in.
+
+**Contact Information:** Phone number, email address, or other contact details of the student or their parents/guardians.
+
+### Functionalities
+
+The Student Management System offers the following key functionalities:
+
+**1. Create Student Record:** Administrators and educators can enter and save student information, including their ID, name, age, grade, and contact details.
+
+**2. Read/Retrieve Student Record:** The system allows users to search for and retrieve student records based on various criteria, such as student ID, name, or grade. It provides a listing or detailed view of student information.
+
+**3. Update Student Record:** Users can modify student details, such as updating their name, age, grade, or contact information. The system ensures the integrity of the data and performs appropriate validations.
+
+**4. Delete Student Record:** Administrators and educators can remove student records from the system if necessary. The system will handle the deletion and maintain data consistency.
+
 ## Implementation
 
 ### Required Software
@@ -67,6 +95,11 @@ var_dump($result1);
 
 ?>
 ```
+
+Now, we have successfully created and connect to both databases. 
+
+![MongoDB-dbcreated](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/mongodb-created.png)
+
 ## Web Interface
 ## Testing and Validation
 ## Conclusion

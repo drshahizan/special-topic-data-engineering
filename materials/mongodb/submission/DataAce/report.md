@@ -61,7 +61,8 @@ To establish a connection to the **MySQL** database using PHP:
 - Create a new file called "dbconnect.php" nd save it with a ".php" extension.
 - Open the file in a text editor and paste the following code:
 
- ```<?php
+ ```
+ <?php
  //Set db parameters
  $servername = "localhost";
  $username = "root";
@@ -90,7 +91,8 @@ Next, to connect to **MongoDB** and create a collection using PHP:
 - Create a new file called "mongodb1.php" nd save it with a ".php" extension.
 - Open the file in a text editor and paste the following code:
 
- ```<?php
+ ```
+<?php
 require_once 'C:\xampp1\vendor\autoload.php'; 
 $client = new MongoDB\Client("mongodb://localhost:27017");
 

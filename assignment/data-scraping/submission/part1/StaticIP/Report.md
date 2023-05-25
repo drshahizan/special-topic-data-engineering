@@ -215,16 +215,15 @@ There are many alternatives to storing data in MongoDB. However, one should alwa
 
 Below shows a simple example of how the data can be queried and analyzed using MongoDB.
 
-This screenshot shows that only the records that contain the author name "Konstantin Filatov" will be displayed.
-
 <div align="center">
 <img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/agg1.png" alt='View of database after importing to MongoDB'>
 </div>
-
-This screenshot shows that only the records that do not contain the author name "Konstantin Filatov" will be displayed.
+This screenshot shows that only the records that contain the author name "Konstantin Filatov" will be displayed.
 
 <div align="center">
 <img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/agg2.png" alt='View of database after importing to MongoDB'>
 </div>
+This screenshot shows that only the records that do not contain the author name "Konstantin Filatov" will be displayed.
 
 ## Conclusion
+In conclusion, the assignment provides a detailed discussion on how to use the API key obtained from Flickr to carry out web scraping multimedia. It cannot be denied that web scraping multimedia has grown significantly in these few years. It not only can train machine learning models and create interactive user interfaces, but it also can detect and monitor visual content and improve search engine optimization. By processing the extracted multimedia data,  we can gain valuable insights into trends, consumer behavior, and user preferences. Besides, Flickr is a good platform to perform web scraping due to its large and diverse community of photographers and content creators as mentioned earlier. It is highly recommended for future research such as image and video recognition, social media analysis and content recommendation systems.

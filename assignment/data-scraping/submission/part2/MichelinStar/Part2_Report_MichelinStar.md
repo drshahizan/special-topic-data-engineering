@@ -58,7 +58,21 @@ The researchers can always stay updated with the latest research information suc
 
 ## 2. Web Scraping Search Results from Google Scholar
 
-<p align=justify></p>
+<p align=justify>
+Google Scholar is a web search engine specifically designed to index the collection of research resources including articles, journals, and etc. which is published by the academic publications. Many researchers, students, and users usually uses Google Scholar to conduct research since there are many free academic references and resources on it. 
+</p><br>
+<b>Why Google Scholar is a good source for publication content?</b><br>
+<ul>
+<li>
+Google Scholar has <b>comprehensive coverage</b> that includes variety of academic resources in all kinds of disciplines. 
+</li>
+<li>
+Google Scholar provides <b>citation tracking</b> feature which enable researchers to track the amount of their publications' citations by other researchers. 
+</li>
+<li>
+In order to narrow down the search result into a precise area, Google Scholar provides <b>advanced search options</b> which enables users to filter their search results according to authors, citations, date range and etc. 
+</li>
+</ul>
 
 <h4> Web Scraping Process </h4>
 

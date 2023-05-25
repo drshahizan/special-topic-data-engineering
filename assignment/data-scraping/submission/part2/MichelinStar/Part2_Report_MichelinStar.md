@@ -17,6 +17,42 @@ Researchers can obtain information such as title, abstracts, keywords, authors, 
 </td>
 </tr>
 
+<tr>
+<td>
+<b>Literature reviews</b>
+</td>
+<td>
+Through web scraping, the researcher can conduct analysis on large number of papers efficiently to identify the common themes, future trends, research gaps and etc. This process is significant for the researcher in order to make a stronger conclusion. 
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Data-driven analysis</b>
+</td>
+<td>
+By performing quantitative analysis on the scraped information, the researcher can identify the relationship between variable, correlations, and also carry out statistical analysis to find useful and meaningful insights. 
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Text mining and natural language processing</b>
+</td>
+<td>
+The researcher can use natural language processing algorithm during the web scraping process to extract information of the specific topic of interest by romiving noise. They can also carry out sentiment analysis, entity recognization, text summary and etc. towards the scraped information. 
+</td>
+</tr>
+
+<tr>
+<td>
+<b>Keep updated with latest information</b>
+</td>
+<td>
+The researchers can always stay updated with the latest research information such as latest published articles, journals and papers via web scraping. This enables them to identify emerging research areas, and explore potential oppurtunities. 
+</td>
+</tr>
+
 </table>
 
 

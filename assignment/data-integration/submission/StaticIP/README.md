@@ -30,6 +30,6 @@
 ## Introduction📚
 
 ## Contents📝
-- 📑[Report]()
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Report.md)
 - 📂[Datasets](https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-integration/submission/StaticIP/Datasets)
 

@@ -4,6 +4,20 @@
 
 <h1 align=center>Part 2: Web scraping Text Content From Google Scholar</h1>
 Web scraping allows us to extract text content from Google Scholar, a popular platform for academic literature. By using Python's web scraping libraries and MongoDB for data storage, we can automate the process of gathering valuable scholarly information, making it easier to analyze and utilize in research endeavors.
+<br><br>
+
+<h3>Introduction:</h3>
+Google Scholar is a popular platform for accessing scholarly articles, research papers, and academic publications. It provides a vast collection of valuable information across various fields of study. However, manually extracting data from Google Scholar can be time-consuming and tedious. Web scraping offers a solution by automating the extraction process, allowing you to gather relevant information more efficiently.
+<br><br>
+
+<h3>Objectives:</h3>
+
+<strong>Extracting article details:</strong> Retrieve information such as article titles, authors, publication dates, and abstracts from search results.
+
+<strong>Gathering citation information:</strong> Collect data on citation counts, citation sources, and related publications for individual articles.
+
+<strong>Analyzing research trends:</strong> Capture data on keywords, topics, and the frequency of publications to gain insights into specific research areas.
+<h1></h1>
 
 <h2 align = 'center'>Group Members </h2>
 <table align = 'center'>

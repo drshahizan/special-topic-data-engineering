@@ -34,6 +34,6 @@ Web scraping allows us to extract text content from Google Scholar, a popular pl
 </table><br>
 
 ## Contents📝
-- 📑[Report]()
-- 💻[Code]()
-- 📂[CSV]()
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part2/MichelinStar/Part2_Report_MichelinStar.md)
+- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part2/MichelinStar/Web_Scraping_GS_MichelinStar.ipynb)
+- 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part2/MichelinStar/google_scholar.csv)

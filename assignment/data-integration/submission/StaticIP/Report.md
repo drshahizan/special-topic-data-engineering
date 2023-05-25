@@ -63,6 +63,7 @@ The three different data sources chosen for this assignment are related to the t
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Images/merge%20dataset.jpg">
 
 ### 17. Result 
-<img width="960" alt="image" src="">
+The [Movies.csv](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Datasets/Movies.csv) file is the result of the merged datasets pipeline. 
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Images/result.jpg">
 
 ## Conclusion

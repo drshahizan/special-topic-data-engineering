@@ -1,3 +1,14 @@
+<div align="center">
+   <h1>Data Integration Using Azure Data Factory</h1>
+</div>
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Web Scraping Flickr](#web-scraping-flickr)
+- [Choosing a Library for Web Scraping](#choosing-a-library-for-web-scraping)
+- [Storing Data in MongoDB](#storing-data-in-mongoDB)
+- [Conclusion](#conclusion)
+
 ## Introduction
 Web scraping multimedia is a process where images, videos, audio and other types of non-textual content from websites are extracted. It is widely used for research and business purposes as this type of data provides valuable insights into trends, consumer behavior, and user preferences. The data is extracted to train machine learning models, detect and monitor visual content, create interactive user interfaces, and improve search engine optimization. Many social media companies use web scraping to analyze user-generated images and videos to understand user behavior, preferences, and sentiment. Some academic researchers also use the data to analyze multimedia content such as historical images and videos for cultural and social studies audio data for linguistics and music research, and scientific images and videos for medical and environmental research.
 
@@ -172,3 +183,22 @@ While doing the web scraping, there are some challenges occur. One of the challe
         </td>
     </tr>
 </table>
+There are some criteria that one should consider while choosing an appropriate library for a project:
+
+1. Performance and Scalability
+The library's performance and scalability such as speed and memory usage is an important aspects that needed to be considered especially if you are dealing with a large amount of data.
+
+2. Ease of Use
+Always choose a library that is easy to understand and work with. It may be troublesome if you could not understand the library. Make sure the library has clear and user-friendly documentation and examples that you can use as references.
+
+3. Language Compatibility
+Find a library that aligns with your language preferences. Different libraries may be available for languages like Python, JavaScript, Ruby, or others.
+
+4. Legal and Ethical Considerations
+While doing web scraping, one should always be careful of the legal and ethical implications of web scraping. Some libraries can provide the functionality to manage robots.txt files, comply with website policies, or allow you to strangle your requests to avoid overloading the target website.
+
+In our assignment, we choose to use Request and OpenCV due to their ease of use for simple web scraping multimedia. Besides, OpenCV provides high-performance efficiency and optimization while performing web scraping multimedia.
+
+## Storing Data in MongoDB
+
+## Conclusion

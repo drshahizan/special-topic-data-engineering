@@ -200,5 +200,31 @@ While doing web scraping, one should always be careful of the legal and ethical 
 In our assignment, we choose to use Request and OpenCV due to their ease of use for simple web scraping multimedia. Besides, OpenCV provides high-performance efficiency and optimization while performing web scraping multimedia.
 
 ## Storing Data in MongoDB
+MongoDB is a document database developed by MongoDB Inc. and licensed under the Server Side Public License. One of the highlighted features of MongoDB is storing data in a type of JSON format called BSON. There are many benefits of using MongoDB for storing multimedia content data:
+
+1. File Metadata and Search
+MongoDB can store metadata together with multimedia content, such as file format, resolution, duration, author, and description. It allows users to search and filter the metadata by typing the queries so that the user can discover their data deeper based on different criteria.
+
+2. Replication and Availability
+MongoDB has replica sets that replicate multimedia content data across multiple nodes. This can help to ensure data redundancy and high availability, preventing hardware failures that may cause data loss or service interruptions.
+
+3. High Performance
+MongoDB also has great indexing capabilities and efficient data access mechanisms of MongoDB. It can leverage indexes on specific indexes such as tags, categories and timestamps. This increases the performance of queries while retrieving multimedia content.
+
+There are many alternatives to storing data in MongoDB. However, one should always keep in mind that the metadata should be created in a separate collection to maximize the efficiency of querying and management of the files. It is also advised that one should make use of GridFS to split the file into smaller chunks before storing them into individual documents. This can ease the retrieval and storage management of large files that are bigger than 16MB. 
+
+Below shows a simple example of how the data can be queried and analyzed using MongoDB.
+
+This screenshot shows that only the records that contain the author name "Konstantin Filatov" will be displayed.
+
+<div align="center">
+<img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/agg1.png" alt='View of database after importing to MongoDB'>
+</div>
+
+This screenshot shows that only the records that do not contain the author name "Konstantin Filatov" will be displayed.
+
+<div align="center">
+<img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/agg2.png" alt='View of database after importing to MongoDB'>
+</div>
 
 ## Conclusion

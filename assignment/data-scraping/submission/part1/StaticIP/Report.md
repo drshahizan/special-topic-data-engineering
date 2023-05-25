@@ -213,16 +213,38 @@ MongoDB also has great indexing capabilities and efficient data access mechanism
 
 There are many alternatives to storing data in MongoDB. However, one should always keep in mind that the metadata should be created in a separate collection to maximize the efficiency of querying and management of the files. It is also advised that one should make use of GridFS to split the file into smaller chunks before storing them into individual documents. This can ease the retrieval and storage management of large files that are bigger than 16MB. 
 
-Below shows a simple example of how the data can be queried and analyzed using MongoDB.
-
+An alternative way to store data in MongoDB:
+<div align="center">
+<img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/Img/connect.jpg" alt='create database'>
+</div>
+Open MongoDBCompass and connect to a MongoDB deployment by clicking the connect button.
+<br><br>
+<div align="center">
+<img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/Img/create%20database.jpg" alt='create database'>
+</div>
+After the connection is done, create a database as shown in the figure above. 
+<br><br>
+<div align="center">
+<img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/Img/import%20data.jpg" alt='create database'>
+</div>
+Once the database is created, import the dataset by adding the CSV file.
+<br><br>
+<div align="center">
+<img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/Img/result.jpg" alt='create database'>
+</div>
+The dataset is then successfully imported as shown in the figure above. 
+<br><br>
+Below shows a simple example of how the data can be queried and analyzed using MongoDB:
+<br><br>
 <div align="center">
 <img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/agg1.png" alt='View of database after importing to MongoDB'>
 </div>
 This screenshot shows that only the records that contain the author name "Konstantin Filatov" will be displayed.
-
+<br><br>
 <div align="center">
 <img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/agg2.png" alt='View of database after importing to MongoDB'>
 </div>
+
 This screenshot shows that only the records that do not contain the author name "Konstantin Filatov" will be displayed.
 
 ## Conclusion

@@ -171,6 +171,6 @@ Potential Improvements:
 Overall, the Customer Analysis System has proven to be a valuable tool for businesses seeking to understand their customers better. The system's functionality, performance, and accuracy provide a solid foundation for making data-driven decisions and enhancing customer satisfaction. By addressing the identified challenges and implementing potential improvements, the system can continue to evolve and meet the growing needs of businesses in the dynamic field of customer analysis.
 
 ## References
-[MongoDB and PHP](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/mongophp.md) <br>
-[Creating, Reading, Updating, and Deleting MongoDB Documents with PHP](https://www.mongodb.com/developer/languages/php/php-crud/) <br>
-[Installing MongoDB PHP Driver for XAMPP Server on Windows - Step-by-Step Tutorial](https://www.youtube.com/watch?v=KJV8iZ_9gYg)
+1. [MongoDB and PHP](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/mongophp.md) <br>
+2. [Creating, Reading, Updating, and Deleting MongoDB Documents with PHP](https://www.mongodb.com/developer/languages/php/php-crud/) <br>
+3. [Installing MongoDB PHP Driver for XAMPP Server on Windows - Step-by-Step Tutorial](https://www.youtube.com/watch?v=KJV8iZ_9gYg)

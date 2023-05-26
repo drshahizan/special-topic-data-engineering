@@ -79,34 +79,34 @@ In order to narrow down the search result into a precise area, Google Scholar pr
 1. Import all neccesary libraries
 
 <div align="center">
-  <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/f5e361c7-fa79-4c35-ba07-46c37cf3600c">
+  <img src="https://user-images.githubusercontent.com/120614477/241145412-6cd7a895-d987-4770-9150-408afaee0093.png">
 </div></br>
 
-2. Set up the Flickr API key and secret
+2. Set up the Proxies API key and auth key. In order to obtain Proxies API, first need to create an account in <a href="https://www.proxiesapi.com">Proxies API</a>. It will generate an api for free to use.
 
 <div align="center">
-  <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/8b8bd541-8f78-4f28-ad0c-48db1520a207">
+  <img src="https://user-images.githubusercontent.com/120614477/241145558-63a35b6f-e6f8-43a7-835e-47d8ae56fa63.png">
 </div></br>
 
-The following explanation discusses our group's interaction with the Flickr API. It involves two key components - the API key and secret. It's crucial to note that our group had to obtain our unique API key and secret from Flickr's App Garden. With the two lines of code, we're authenticating our group's identity with the Flickr API by defining our shared 'api_key' and 'api_secret'. These are unique to each user and serve as our credentials for accessing Flickr's data.
+The following explanation discusses our group's interaction with the Proxies API. It involves two key components - the API key and auth key. It's crucial to note that our group had to obtain our unique API key and auth key  from Proxies API. With the two lines of code, we're authenticating our group's identity with the Proxies API by defining our shared 'URL' and 'auth_key'. These are unique to each user and serve as our credentials for accessing Google Scholar.
 
-3. Establish the Flickr API client
+3. Establish the Proxies API client
 
 <div align="center">
-  <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/8f2ab77b-d7d6-4775-94d4-1ddf4824293e">
+  <img src="https://user-images.githubusercontent.com/120614477/241145837-450f70ee-558e-4250-bcb1-7b7a168c2d08.png">
 </div></br>
 
-This line of code sets up the Flickr API client with our group's provided credentials (api_key and api_secret) and also sets the response format. Here, 'parsed-json' signifies that the data we receive from the Flickr API will be in a parsed JSON format, converted into a Python dictionary. This makes the returned data easier for us to manipulate and analyze within our Python environment.
+Now we define a fuction named "get_data" which recieve a page number to scrap more data from other pages. After that, we assign url to the Google Scholar website contain search parameter which is <strong>Faculty of Computing University Technology Malaysia</strong> Next, defining a params dict for the parameters to be sent to the API. By using the request fuction to save the parameter into response object. Here, 'html.parser' signifies that the data we receive from the Google Scholar will be in a html format, converted into a Python dictionary.
 
 4. Set up Search Parameter
 
 <div align="center">
-  <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/139449a4-a0fc-4b13-86ec-4bb12ca12b15">
+  <img src="https://github.com/TanYongSheng728/TanYongSheng728/blob/main/image_2023-05-26_160431744.png">
 </div></br>
 
  We sets up specific search parameters to guide our interaction with the Flickr API, refining the data we aim to gather.In the above snippet of code, we're specifying the criteria to guide our data extraction from the Flickr API. We're seeking photos related to 'Malaysia', restricting the media type to 'photos', and limiting the search to the 100 most relevant results. Moreover, we're requesting additional metadata including the original URL, description, tags, date taken, owner's name, view count, number of favorites, and count of comments.
 
-5. Conduct the search and download the photos
+1. Conduct the search and download the photos
 
 <div align="center">
   <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/40c7e3e7-2ae8-491c-ac21-f3e93e2835b0">

@@ -132,8 +132,8 @@ In our web scraping project, we have chosen to utilize the following libraries:
     <th>Purpose</th>
   </tr>
   <tr>
-    <td>flickrapi</td>
-    <td>Interact with the Flickr API, search for photos, retrieve metadata, and more</td>
+    <td>BeautifulSoup</td>
+    <td>Navigate, search, and modify a parse tree in HTML, XML files</td>
   </tr>
   <tr>
     <td>urllib.request</td>
@@ -145,7 +145,7 @@ In our web scraping project, we have chosen to utilize the following libraries:
   </tr>
 </table>
 
-These libraries play critical roles in our web scraping project, facilitating key functionalities such as establishing connections to the Google Scholar API, retrieving relevant URLs, downloading articles and research papers, and effectively managing data in CSV format.
+These libraries play critical roles in our web scraping project, facilitating key functionalities such as establishing connections to the BeautifulSoup, retrieving relevant URLs, downloading articles and research papers, and effectively managing data in CSV format.
 
 ## 4.  Storing Data in MongoDB
 
@@ -153,6 +153,6 @@ In our web scraping project, we chose MongoDB as the optimal data storage soluti
 
 ## 5.  Conclusion
 
-In conclusion, our web scraping project utilizing the Google Scholar API and MongoDB as the data storage solution has been a remarkable journey that yielded invaluable insights and presented us with invaluable learning opportunities. Through the process of web scraping, we skillfully extracted and meticulously analyzed a vast collection of research resources, comprising articles, journals, and metadata, sourced directly from Google Scholar. This endeavor granted us a profound understanding of various research areas, spanning disciplines such as studies and article analysis, thereby broadening our horizons and enriching our knowledge base.
+In conclusion, our web scraping project utilizing the BeautifulSoup and MongoDB as the data storage solution has been a remarkable journey that yielded invaluable insights and presented us with invaluable learning opportunities. Through the process of web scraping, we skillfully extracted and meticulously analyzed a vast collection of research resources, comprising articles, journals, and metadata, sourced directly from Google Scholar. This endeavor granted us a profound understanding of various research areas, spanning disciplines such as studies and article analysis, thereby broadening our horizons and enriching our knowledge base.
 
 By harnessing the power of MongoDB, a flexible and scalable NoSQL database, we not only stored the scraped data efficiently but also harnessed its innate strengths for seamless querying and analysis. The versatility and agility of MongoDB allowed us to adapt and evolve with ease as our project progressed, accommodating any changes in data structure or volume effortlessly. This experience highlighted the significance of employing the right technology to effectively manage and derive insights from the vast sea of information that our web scraping efforts uncovered.

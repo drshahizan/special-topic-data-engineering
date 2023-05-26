@@ -1,0 +1,6 @@
+selected resource name:		Blob To SQL
+selected resource type:		pipeline
+factory name:			Trc-DF-Demo
+factory location:		eastasia
+subscription id:		7e003bd1-8211-4171-9923-2f19451fd4c5
+time of download (UTC):		Fri, 26 May 2023 14:23:34 GMT

@@ -98,29 +98,45 @@ The following explanation discusses our group's interaction with the Proxies API
 
 Now we define a fuction named "get_data" which recieve a page number to scrap more data from other pages. After that, we assign url to the Google Scholar website contain search parameter which is <strong>Faculty of Computing University Technology Malaysia</strong> Next, defining a params dict for the parameters to be sent to the API. By using the request fuction to save the parameter into response object. Here, 'html.parser' signifies that the data we receive from the Google Scholar will be in a html format, converted into a Python dictionary.
 
-4. Set up Search Parameter
+4. Set up BeautifulSoup to find each data by assigning class. 
 
 <div align="center">
-  <img src="https://github.com/TanYongSheng728/TanYongSheng728/blob/main/image_2023-05-26_160431744.png">
+  <img src="https://user-images.githubusercontent.com/120614477/241161933-c75f7519-bdeb-4962-b5e6-c16cf41dc2aa.png">
 </div></br>
 
- We sets up specific search parameters to guide our interaction with the Flickr API, refining the data we aim to gather.In the above snippet of code, we're specifying the criteria to guide our data extraction from the Flickr API. We're seeking photos related to 'Malaysia', restricting the media type to 'photos', and limiting the search to the 100 most relevant results. Moreover, we're requesting additional metadata including the original URL, description, tags, date taken, owner's name, view count, number of favorites, and count of comments.
+Here, our group executes the search operation with our defined parameters and retrieves the information matching our criteria. The search results are stored in the variables stated above for subsequent analysis and processing.
 
-1. Conduct the search and download the photos
+5. Scrap with Regex
 
 <div align="center">
-  <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/40c7e3e7-2ae8-491c-ac21-f3e93e2835b0">
+  <img src="https://user-images.githubusercontent.com/120614477/241162263-6beebbd4-64ef-4263-b017-53fc96f4affc.png">
 </div></br>
 
-Here, our group executes the search operation with our defined parameters and retrieves the photos matching our criteria. The search results are stored in the 'photos' variable for subsequent analysis and processing.
+From the Google Scholar we notice that the author is always before the first "-". Therefore by using Regex we are able to strip it using the regex formula <strong>'^(.*?)\s*-'</strong>. Other information such as journal, publication date, conference name and cited by are also using the same library but different formula to extract it. 
 
-6. Save the CSV file
+6. Extract URL from a tag
 
 <div align="center">
-  <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/5a041e4e-68c7-4e63-9010-a106e3344f40">
+  <img src="https://user-images.githubusercontent.com/120614477/241162471-8ca81205-9b3e-45c1-96a7-ab01e624e425.png">
 </div></br>
 
-Then, we write the writes the metadata of the downloaded photos, including <b> photo ID, title, description, tags, date taken, owner name, views, favorite count, and comment count</b>, to a CSV file named 'photos_metadata.csv'.
+Firstly, from the h3 tag which assign to "url" we need to find the "a" tag which contain the link by setting the "href=True". If the request able to find the content in within the "h3" tag then it will be append to the list named "all1".
+
+7. Pass data into dataframe and Save
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/120614477/241162827-88093f9d-5794-4224-95df-8e20a0403923.png">
+</div></br>
+
+Next, by using the for loop we are able to change the "no_pages" to scrap more data and store it inside the "result" list. After that we pass it all into the dataframe by using pandas function "DatFrame" and assign suitable title for each column. "to_csv" function is used to save the dataframe value into csv file.
+
+1. Read the CSV file
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/120614477/241163074-f7e55b44-4f55-46aa-a38b-f79a297ea73a.png">
+</div></br>
+
+Lastly, we use "read_csv" to observe the data in the dataframe before downlaoding into local storage. The top 10 results will be displayed in the output. 
 
 ## 3.  Choosing a Library for Web Scraping
 
@@ -136,12 +152,20 @@ In our web scraping project, we have chosen to utilize the following libraries:
     <td>Navigate, search, and modify a parse tree in HTML, XML files</td>
   </tr>
   <tr>
-    <td>urllib.request</td>
-    <td>Handle downloading of images from URLs</td>
+    <td>requests</td>
+    <td>Make a request to a web page, and print the response text</td>
   </tr>
   <tr>
     <td>csv</td>
     <td>Manage CSV files, write metadata to CSV format</td>
+  </tr>
+    <tr>
+    <td>regex</td>
+    <td>Used to check if a string contains the specified search pattern</td>
+  </tr>
+    <tr>
+    <td>pandas</td>
+    <td>Library used for working with data sets. It has functions for analyzing, cleaning, exploring, and manipulating data.</td>
   </tr>
 </table>
 

@@ -1,4 +1,7 @@
 <h1 align='center'>Student Management System</h1>
+<p align="center">
+  <img src="https://static.javatpoint.com/blog/images/student-management-system.png" height= '300px' title="PHPMONGODB">
+  </p>
 
 ## Table of Contents
 

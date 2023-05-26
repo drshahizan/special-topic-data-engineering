@@ -11,7 +11,9 @@
 The Customer Analysis System is a data science system designed to analyze customer data and provide valuable insights into customer behavior, preferences, and patterns. By utilizing MongoDB, MySQL, and PHP, this system aims to enable businesses to better understand their customers, make data-driven decisions, and enhance customer satisfaction.
 
 ## System Design
-
+- System Architecture
+- Data Requirements
+- Functionalities
 
 ## Implementation
 ### Step 1: Set Up Development Environment

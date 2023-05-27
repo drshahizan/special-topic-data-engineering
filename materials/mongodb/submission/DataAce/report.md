@@ -1,4 +1,7 @@
 <h1 align='center'>Student Management System</h1>
+<p align="center">
+  <img src="https://static.javatpoint.com/blog/images/student-management-system.png" height= '300px' title="PHPMONGODB">
+  </p>
 
 ## Table of Contents
 
@@ -108,13 +111,16 @@ Now, we have successfully created and connect to both databases.
 ![MongoDB-dbcreated](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/mongodb-created.png)
 
 ## Web Interface
-
+1. This is the login page where admin can login and manage student credentials in the system.
 ![Login](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/login-user.png)
 
+2. User can also register their credentials to use the Student Management System
 ![Register](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/register-user.png)
 
+3. To fill in or create a new student, admin can fill in the Student Information Form and submit their credentials.
 ![Form](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/student-form.png)
 
+4. To view the list of students, admin is able to view them in a form of table which is compact and straight-forward.
 ![Table](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/student-table.png)
 
 

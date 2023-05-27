@@ -1,0 +1,23 @@
+{
+    "now": "2023-05-26T14:23:34.543Z",
+    "perfNow": 2540330.200000018,
+    "diagnosticCorrelation": "eb56e7cc-7175-4eb5-a3df-7e52fb6949f1",
+    "source": "DownloadSupportFiles",
+    "environment": {
+        "productName": "adf",
+        "buildVersion": "1.0.052223.20",
+        "environmentType": 3,
+        "resourceName": "Trc-DF-Demo",
+        "resourceRegion": "eastasia",
+        "resourceGroup": "Trc-Resource",
+        "subscriptionId": "7e003bd1-8211-4171-9923-2f19451fd4c5",
+        "sessionId": "s+flKrjZwnLErCSFI1XpkG",
+        "operationId": "",
+        "gitType": "live",
+        "loggingKey": "3a6309b0-56b7-451e-90cb-4aa0a1185de8"
+    },
+    "additionalInfo": {
+        "selectedResource": "Blob To SQL",
+        "selectedResourceType": "pipeline"
+    }
+}

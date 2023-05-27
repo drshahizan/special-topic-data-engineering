@@ -11,7 +11,46 @@
 The Customer Analysis System is a data science system designed to analyze customer data and provide valuable insights into customer behavior, preferences, and patterns. By utilizing MongoDB, MySQL, and PHP, this system aims to enable businesses to better understand their customers, make data-driven decisions, and enhance customer satisfaction.
 
 ## System Design
+### System Architecture
+### Data Requirements
 
+  The data requirements for the systems are as follows:
+  <table>
+  <tr>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>ID</td>
+    <td>A unique identifier for each customer</td>
+  </tr>
+  <tr>
+    <td>Gender</td>
+    <td>The customer's gender either male or female</td>
+  </tr>
+    <tr>
+    <td>Age</td>
+    <td>The customer's age</td>
+  </tr>
+    <tr>
+    <td>Annual Income</td>
+    <td>The total amount of money the customer's earn in one year</td>
+  </tr>
+  <tr>
+    <td>Spending Score</td>
+    <td>The score (out of 100) given to a customer, based on the money spent and the behavior of the customer</td>
+  </tr>
+    <tr>
+    <td>Profession</td>
+    <td>The customer's occupation</td>
+  </tr>
+    <tr>
+    <td>Work Experience</td>
+    <td>The total of work customer's has done before</td>
+  </tr>
+</table>
+
+### Functionalities
 
 ## Implementation
 ### Step 1: Set Up Development Environment
@@ -24,9 +63,9 @@ The Customer Analysis System is a data science system designed to analyze custom
    composer require mongodb/mongodb
    ```
 ### Step 2: Create Database Schemas in MySQL
-We need to create a database and table in mysql to store customer data. 
+1. Create a database and table in mysql to store customer data. 
 
-<img width="426" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/cb28dfe3-5b9a-47b1-965b-acf383399730">
+<img width="500" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/cb28dfe3-5b9a-47b1-965b-acf383399730">
 
 ### Step 3: Connect to Database
 1. ```Mysql```: Create a new PHP file to connect to Mysql.
@@ -171,6 +210,6 @@ Potential Improvements:
 Overall, the Customer Analysis System has proven to be a valuable tool for businesses seeking to understand their customers better. The system's functionality, performance, and accuracy provide a solid foundation for making data-driven decisions and enhancing customer satisfaction. By addressing the identified challenges and implementing potential improvements, the system can continue to evolve and meet the growing needs of businesses in the dynamic field of customer analysis.
 
 ## References
-[MongoDB and PHP](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/mongophp.md) <br>
-[Creating, Reading, Updating, and Deleting MongoDB Documents with PHP](https://www.mongodb.com/developer/languages/php/php-crud/) <br>
-[Installing MongoDB PHP Driver for XAMPP Server on Windows - Step-by-Step Tutorial](https://www.youtube.com/watch?v=KJV8iZ_9gYg)
+1. [MongoDB and PHP](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/mongophp.md) <br>
+2. [Creating, Reading, Updating, and Deleting MongoDB Documents with PHP](https://www.mongodb.com/developer/languages/php/php-crud/) <br>
+3. [Installing MongoDB PHP Driver for XAMPP Server on Windows - Step-by-Step Tutorial](https://www.youtube.com/watch?v=KJV8iZ_9gYg)

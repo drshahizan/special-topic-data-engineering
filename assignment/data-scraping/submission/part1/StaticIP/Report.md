@@ -1,3 +1,14 @@
+<div align="center">
+   <h1>Data Integration Using Azure Data Factory</h1>
+</div>
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Web Scraping Flickr](#web-scraping-flickr)
+- [Choosing a Library for Web Scraping](#choosing-a-library-for-web-scraping)
+- [Storing Data in MongoDB](#storing-data-in-mongoDB)
+- [Conclusion](#conclusion)
+
 ## Introduction
 Web scraping multimedia is a process where images, videos, audio and other types of non-textual content from websites are extracted. It is widely used for research and business purposes as this type of data provides valuable insights into trends, consumer behavior, and user preferences. The data is extracted to train machine learning models, detect and monitor visual content, create interactive user interfaces, and improve search engine optimization. Many social media companies use web scraping to analyze user-generated images and videos to understand user behavior, preferences, and sentiment. Some academic researchers also use the data to analyze multimedia content such as historical images and videos for cultural and social studies audio data for linguistics and music research, and scientific images and videos for medical and environmental research.
 
@@ -172,3 +183,69 @@ While doing the web scraping, there are some challenges occur. One of the challe
         </td>
     </tr>
 </table>
+There are some criteria that one should consider while choosing an appropriate library for a project:
+
+1. Performance and Scalability
+The library's performance and scalability such as speed and memory usage is an important aspects that needed to be considered especially if you are dealing with a large amount of data.
+
+2. Ease of Use
+Always choose a library that is easy to understand and work with. It may be troublesome if you could not understand the library. Make sure the library has clear and user-friendly documentation and examples that you can use as references.
+
+3. Language Compatibility
+Find a library that aligns with your language preferences. Different libraries may be available for languages like Python, JavaScript, Ruby, or others.
+
+4. Legal and Ethical Considerations
+While doing web scraping, one should always be careful of the legal and ethical implications of web scraping. Some libraries can provide the functionality to manage robots.txt files, comply with website policies, or allow you to strangle your requests to avoid overloading the target website.
+
+In our assignment, we choose to use Request and OpenCV due to their ease of use for simple web scraping multimedia. Besides, OpenCV provides high-performance efficiency and optimization while performing web scraping multimedia.
+
+## Storing Data in MongoDB
+MongoDB is a document database developed by MongoDB Inc. and licensed under the Server Side Public License. One of the highlighted features of MongoDB is storing data in a type of JSON format called BSON. There are many benefits of using MongoDB for storing multimedia content data:
+
+1. File Metadata and Search
+MongoDB can store metadata together with multimedia content, such as file format, resolution, duration, author, and description. It allows users to search and filter the metadata by typing the queries so that the user can discover their data deeper based on different criteria.
+
+2. Replication and Availability
+MongoDB has replica sets that replicate multimedia content data across multiple nodes. This can help to ensure data redundancy and high availability, preventing hardware failures that may cause data loss or service interruptions.
+
+3. High Performance
+MongoDB also has great indexing capabilities and efficient data access mechanisms of MongoDB. It can leverage indexes on specific indexes such as tags, categories and timestamps. This increases the performance of queries while retrieving multimedia content.
+
+There are many alternatives to storing data in MongoDB. However, one should always keep in mind that the metadata should be created in a separate collection to maximize the efficiency of querying and management of the files. It is also advised that one should make use of GridFS to split the file into smaller chunks before storing them into individual documents. This can ease the retrieval and storage management of large files that are bigger than 16MB. 
+
+An alternative way to store data in MongoDB:
+<div align="center">
+<img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/Img/connect.jpg" alt='create database'>
+</div>
+Open MongoDBCompass and connect to a MongoDB deployment by clicking the connect button.
+<br><br>
+<div align="center">
+<img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/Img/create%20database.jpg" alt='create database'>
+</div>
+After the connection is done, create a database as shown in the figure above. 
+<br><br>
+<div align="center">
+<img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/Img/import%20data.jpg" alt='create database'>
+</div>
+Once the database is created, import the dataset by adding the CSV file.
+<br><br>
+<div align="center">
+<img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/Img/result.jpg" alt='create database'>
+</div>
+The dataset is then successfully imported as shown in the figure above. 
+<br><br>
+Below shows a simple example of how the data can be queried and analyzed using MongoDB:
+<br><br>
+<div align="center">
+<img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/agg1.png" alt='View of database after importing to MongoDB'>
+</div>
+This screenshot shows that only the records that contain the author name "Konstantin Filatov" will be displayed.
+<br><br>
+<div align="center">
+<img width='700' src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/StaticIP/agg2.png" alt='View of database after importing to MongoDB'>
+</div>
+
+This screenshot shows that only the records that do not contain the author name "Konstantin Filatov" will be displayed.
+
+## Conclusion
+In conclusion, the assignment provides a detailed discussion on how to use the API key obtained from Flickr to carry out web scraping multimedia. It cannot be denied that web scraping multimedia has grown significantly in these few years. It not only can train machine learning models and create interactive user interfaces, but it also can detect and monitor visual content and improve search engine optimization. By processing the extracted multimedia data,  we can gain valuable insights into trends, consumer behavior, and user preferences. Besides, Flickr is a good platform to perform web scraping due to its large and diverse community of photographers and content creators as mentioned earlier. It is highly recommended for future research such as image and video recognition, social media analysis and content recommendation systems.

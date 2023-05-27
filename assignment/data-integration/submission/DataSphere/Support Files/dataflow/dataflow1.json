@@ -1,0 +1,80 @@
+{
+    "name": "dataflow1",
+    "properties": {
+        "type": "MappingDataFlow",
+        "typeProperties": {
+            "sources": [
+                {
+                    "dataset": {
+                        "referenceName": "User1_csv",
+                        "type": "DatasetReference"
+                    },
+                    "name": "source1"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "User2_xlsx",
+                        "type": "DatasetReference"
+                    },
+                    "name": "source2"
+                },
+                {
+                    "dataset": {
+                        "referenceName": "User3_xlsx",
+                        "type": "DatasetReference"
+                    },
+                    "name": "source3"
+                }
+            ],
+            "sinks": [
+                {
+                    "name": "Output"
+                }
+            ],
+            "transformations": [
+                {
+                    "name": "union1"
+                }
+            ],
+            "scriptLines": [
+                "source(output(",
+                "          ID as string,",
+                "          Password as string,",
+                "          Name as string,",
+                "          State as string,",
+                "          Email as string",
+                "     ),",
+                "     allowSchemaDrift: false,",
+                "     validateSchema: true,",
+                "     ignoreNoFilesFound: false) ~> source1",
+                "source(output(",
+                "          ID as string,",
+                "          Password as string,",
+                "          Name as string,",
+                "          State as string,",
+                "          Email as string",
+                "     ),",
+                "     allowSchemaDrift: false,",
+                "     validateSchema: true,",
+                "     ignoreNoFilesFound: false) ~> source2",
+                "source(output(",
+                "          ID as string,",
+                "          Password as string,",
+                "          Name as string,",
+                "          State as string,",
+                "          Email as string",
+                "     ),",
+                "     allowSchemaDrift: false,",
+                "     validateSchema: true,",
+                "     ignoreNoFilesFound: false) ~> source3",
+                "source1, source2, source3 union(byName: true)~> union1",
+                "union1 sink(allowSchemaDrift: true,",
+                "     validateSchema: false,",
+                "     skipDuplicateMapInputs: true,",
+                "     skipDuplicateMapOutputs: true,",
+                "     saveOrder: 1,",
+                "     format: 'table') ~> Output"
+            ]
+        }
+    }
+}

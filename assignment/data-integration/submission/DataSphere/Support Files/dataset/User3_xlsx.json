@@ -1,0 +1,43 @@
+{
+    "name": "User3_xlsx",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "InputBlobStorage",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Excel",
+        "typeProperties": {
+            "sheetName": "Sheet1",
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "fileName": "User 3.xlsx",
+                "container": "input"
+            },
+            "firstRowAsHeader": true
+        },
+        "schema": [
+            {
+                "name": "ID",
+                "type": "String"
+            },
+            {
+                "name": "Password",
+                "type": "String"
+            },
+            {
+                "name": "Name",
+                "type": "String"
+            },
+            {
+                "name": "State",
+                "type": "String"
+            },
+            {
+                "name": "Email",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

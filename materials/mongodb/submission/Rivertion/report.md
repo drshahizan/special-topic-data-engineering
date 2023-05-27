@@ -81,7 +81,7 @@ The user interface of the movie recommendation system allows users to add movies
 </div>
 3. Create new database (add tables and attributes for each table).
 <div align="center">
-  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/database.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/msrps_db.png">
 </div>
 
 ### Step 3: Connect to Database
@@ -169,8 +169,7 @@ It has been found that all of the data does not consist of any missing value and
 
 <div align="center">
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/homepage.png">
-  <img width="500" src="materials/mongodb/submission/Rivertion/img/login.png">
-  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/msrps_db.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/login.png">
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/movie.png">
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/movie2.png">
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/add.png">

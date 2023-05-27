@@ -52,12 +52,14 @@ The uploaded csv files can be viewed by clicking the file name.
 
 
 ### 4. Create Tables in Azure SQL Database
+In order to store the data from the csv files into the SQL database, we have to create tables in the database first. Open the "SQL databases" service, select the database to be stored, then select "Query editor" to insert queries to the database. Login to the query editor by entering the username and password we created at the previous steps. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/2a35fbb3-ae7a-499d-847a-d090f9cda11b" alt="login to query editor">
-
+Use "CREATE TABLE" queries to create the tables. The created tables are shown as below. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/e005ac64-0ec1-4731-b42a-0cf057e0b1b3" alt="create table">
 
 
 ### 5. Create Linked Services in Data Factories
+
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/5ca533d7-c507-425d-a0e6-55198433a542" alt="launch data factories">
 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/0736e2c8-5e9b-4373-8aaa-ab98ea838023" alt="link storage">

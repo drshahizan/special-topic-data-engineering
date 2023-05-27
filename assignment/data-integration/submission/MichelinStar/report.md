@@ -2,6 +2,8 @@
 
 
 
+<a href="https://www.kaggle.com/datasets/benroshan/ecommerce-data?resource=download&select=List+of+Orders.csv">kaggle dataset</a>
+
 ## Data Integration Steps using Azure Data Factories:
 
 ### 1. Create Data Factory
@@ -14,6 +16,8 @@
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/97a0ecca-5d5c-4edb-9ffc-d02c37fc8205" alt="create database">
 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/706e84c8-5709-4568-bcea-f85860af5079" alt="add server">
+
+<a href="https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal">microsoft link</a>
 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/152eae05-f07f-4eea-bb68-00cd9863d5f2" alt="output of create database">       
 

@@ -76,7 +76,13 @@ The user interface of the movie recommendation system allows users to add movies
 ### Step 2: Create Database Schemas in MySQL
 1. Open Xampp and click 'Start' for both Apache and MySQL.
 2. Click 'Admin' beside MySQL.
-3. Create new database (add tables and attributes for each table).
+3. <div align="center">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/xampp.png">
+</div>
+4. Create new database (add tables and attributes for each table).
+5. <div align="center">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/database.png">
+</div>
 
 ### Step 3: Connect to Database
 1. ```Mysql```: Create a new PHP file to connect to Mysql.
@@ -161,6 +167,12 @@ It has been found that all of the data does not consist of any missing value and
 
 ## Web Interface
 
+<div align="center">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/homepage.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/login.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/dashboard.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/movie.png">
+</div>
 
 ## Testing and Validation
 

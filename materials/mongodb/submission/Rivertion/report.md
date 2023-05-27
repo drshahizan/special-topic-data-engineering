@@ -170,12 +170,25 @@ It has been found that all of the data does not consist of any missing value and
 <div align="center">
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/homepage.png">
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/login.png">
-  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/dashboard.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/msrps_db.png">
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/movie.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/movie2.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/add.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/edit.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/movie.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/movie2.png">
 </div>
 
 ## Testing and Validation
 
+<div align="center">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/edit.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/view2.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/view3.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/view4.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/edit.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/delete.png">
+</div>
 
 ## Conclusion
 

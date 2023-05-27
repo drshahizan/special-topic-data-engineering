@@ -1,0 +1,38 @@
+{
+    "name": "bdelespierre/php-kmeans",
+    "type": "library",
+    "description": "K-Means algorithm for PHP",
+    "keywords": [
+        "php",
+        "kmeans",
+        "clustering"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Delespierre",
+            "email": "benjamin.delespierre@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "KMeans": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    }
+}

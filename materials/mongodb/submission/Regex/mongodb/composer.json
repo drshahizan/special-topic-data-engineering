@@ -1,0 +1,7 @@
+{
+    "require": {
+        "mongodb/mongodb": "^1.12",
+        "php-ai/php-ml": "^0.10.0",
+        "bdelespierre/php-kmeans": "^2.2"
+    }
+}

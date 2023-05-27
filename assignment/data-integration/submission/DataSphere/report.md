@@ -44,7 +44,7 @@ A SQL Database can be created with windows authentication as the authentication 
 Then, a simple SQL query can be written to create a Table. The following code block shows the sql query written to create the table.
 <br>
 
-```bash
+```mysql
 Create Table Output(
 	ID varchar(50), 
 	Password varchar(100),
@@ -64,7 +64,15 @@ Create Table Output(
 
 To launch the Azure Data Factory Studio, you would have to first successfully deploy your very own data factory. Once that is done, we can launch the data factory from the overview page. This will redirect the user to a new page, in which everything data factory can be found. 
 
-The image above, shows linked services that were set up for our data factory. Linked Services are crucial in Azure Data Factory as they establish connections and provide the necessary information to access external data sources or services. They enable seamless integration between Azure Data Factory and other systems, such as in our case Blob Storage and Azure SQL Database.
+<p align="center">
+<img width="800" alt="image" align=Justify src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/DataSphere/images/DataFactoryStudio.jpg">
+</p>
+
+The image below, shows linked services that were set up for our data factory. Linked Services are crucial in Azure Data Factory as they establish connections and provide the necessary information to access external data sources or services. They enable seamless integration between Azure Data Factory and other systems, such as in our case Blob Storage and Azure SQL Database.
+
+<p align="center">
+<img width="800" alt="image" align=Justify src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/DataSphere/images/DataFactoryStudioLinkedService.jpg">
+</p>
 
 
 ## Insert datasets
@@ -74,6 +82,7 @@ Before we can define our dataflow and pipeline we have to import the datasets fr
 By Inserting these datasets we can soon define our dataflow and eventually our pipeline.
 
 <p align="center">
+<img width="800" alt="image" align=Justify src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/DataSphere/images/DataFactoryStudioDatasets.jpg">
 </p>
 
 ## Create Dataflow

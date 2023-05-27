@@ -1,5 +1,7 @@
-<h1><p align='center'>:star_and_crescent:Malaysia Prayer Times API:mosque:</p></h1>
-<p>This assigment is about gathering Malaysia prayer times data based on city in the year 2023 from Aladhan.com API. We will be using python libraries to request the data and save it into csv file. Next, we store the data into MongoDB as our database in JSON format.</p>
+<h1><p align='center'>📋 Job Portal System with CRUD</p></h1>
+<img src="https://jsginc.com/wp-content/uploads/2018/10/bigstock-170353778.jpg">
+
+<p>A job board or job portal is an online platform that serves as a marketplace connecting job seekers and employers. It provides a space where employers can post job openings, and job seekers can search for and apply to those openings. Job boards typically offer features such as resume posting, job alerts, advanced search filters, and communication channels between job seekers and employers. Our group is excited to collaborate on this assignment, leveraging the power of MongoDB-PHP integration in Visual Studio Code to build a dynamic and feature-rich job portal. By incorporating cutting-edge technologies and focusing on user experience, we aim to deliver a robust platform that simplifies the job search process, connects job seekers with opportunities, and helps employers find top talent. </p>
 
 
 <h3><p align='center'>Group Members</p></h3>

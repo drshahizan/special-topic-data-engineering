@@ -1,4 +1,4 @@
-<h1 align='center'>Youtube Reccomendation System</h1>
+<h1 align='center'>Youtube Recommendation System</h1>
 <h2 align='center'>Group Members</h2>
 <table align='center'>
   <tr>

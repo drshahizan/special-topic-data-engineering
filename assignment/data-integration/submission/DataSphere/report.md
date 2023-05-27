@@ -13,6 +13,9 @@
 
 ## Identify 3 different sources
 In this project, we will use three different sources which we created. One dataset is in csv format while the rest are in excel. The sources about user information which separate in three different files which contain user ID, password, name, state and email. Our objective in this project is to union all the files and convert it into one table in a database. 
+- User 1.csv
+- User 2.xlsx
+- User 3.xlsx
 
 ## Create Azure Data Factory
 In the search bar, type Azure Data Factory and select it. Create a new Azure Data Factory and fill in all the details. 
@@ -78,15 +81,24 @@ By Inserting these datasets we can soon define our dataflow and eventually our p
 Now a Dataflow has to be created in Azure Data Factory to transform and integrate the data from source to destination according to the requirements. In the Data Factory authoring UI, select New Dataflow to start creating a new Dataflow. Choose the datasets that represent that were defined in the previous step. Now the destination dataset has to be specified where the transformed data is to be loaded. In our case it's a new linked service that is connecting to our table in the SQL Database. A crucial step is to save the Dataflow and publish it to make it available for execution.
 
 <p align="center">
+	<img width="800" alt="image" align=Justify src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/DataSphere/images/DataFactoryStudioDataflow.jpg">
 </p>
 
 ## Create Pipeline
 Finally, create the pipeline. Drag Data Flow in the Move & Transform. Make sure all the information has been selected correctly before pressing the debug button. The status will display Succeed if the pipeline is successfully deployed. If not successful, we need to check all the previous processes so that they are correct. 
 
-We can check in SQL Query whether the result is correct or not by typing **Select * From [dbo].[User1];**. Below is the image of the result of integration using union:  
-
 <p align="center">
+	<img width="800" alt="image" align=Justify src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/DataSphere/images/DataFactoryStudioPipeline.jpg">
 </p>
+
+We can check in SQL Query whether the result is correct or not by typing **Select * From [dbo].[User1];**. 
+<p align="center">
+	<img width="800" alt="image" align=Justify src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/DataSphere/images/SelectAllQuery.jpg">
+</p>
+
+Below is the image of the result of integration using union:  
+
+
 
 
 

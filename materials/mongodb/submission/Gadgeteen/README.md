@@ -2,12 +2,11 @@
   <img src="" alt = "" width="300px"/>
 </div>
 
-<h1 align="center"> Developing a Data Science System with CRUD Operations </h1>
+<h1 align="center"> Sales Analysis System with CRUD Operations </h1>
 
+Sales Analysis System is one of the common data science system, which is designed to provide valuable insights into sales performance, customer behavior, and revenue generation within an organization. This system aims to leverage data analytics techniques and tools to analyze sales data, identify trends, and make informed business decisions to drive revenue growth and optimize sales strategies.
 
-
-## Objective
-
+The system utilizes a combination of MongoDB and MySQL to store the data. PHP serves as the programming language to develop the system's interfaces, implement business logic, and integrate with the databases.
 
 <h2 align="center">
   Group Name

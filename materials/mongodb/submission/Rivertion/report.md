@@ -168,24 +168,34 @@ It has been found that all of the data does not consist of any missing value and
 ## Web Interface
 
 <div align="center">
+  Homepage
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/homepage.png">
+  Login
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/login.png">
+  Dashboard
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/dashboard.png">
+  Movie List
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/movie.png">
+  Movie List (after click Action)
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/movie2.png">
+  Add Movie
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/add.png">
+  Edit Movie
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/edit.png">
-  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/movie.png">
-  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/movie2.png">
 </div>
 
 ## Testing and Validation
 
 <div align="center">
+  Add New Movie
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/edit.png">
+  View Added Movie
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/view2.png">
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/view3.png">
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/view4.png">
+  Edit Added Movie
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/edit.png">
+  Delete Added Movie
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/delete.png">
 </div>
 

@@ -30,3 +30,9 @@
   </tr>
 </table>
 
+## Contents📝
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Regex/report.md)
+- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Regex/mongodb)
+- 🛠️[MongoDB Database Configuration](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Regex/mongodb/mongodbconnect.php)
+- ⚙️[Mysql Database Configuration](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Regex/mongodb/dbconnect.php)
+- 📰[Initial Dataset](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Regex/Customers.csv)

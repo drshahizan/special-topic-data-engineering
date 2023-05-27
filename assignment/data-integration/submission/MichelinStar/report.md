@@ -59,9 +59,9 @@ Use "CREATE TABLE" queries to create the tables. The created tables are shown as
 
 
 ### 5. Create Linked Services in Data Factories
-
+Now, go to the Data Factories, and launch the data factory by clicking "Launch studio".
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/5ca533d7-c507-425d-a0e6-55198433a542" alt="launch data factories">
-
+Link the storage with the data factory by selecting the "manage" button, follow by "Linked services" button under Connection section, and click "New" button. Select "Azure Blob Storage" and proceed to choose the desired storage by clicking "Continue" button. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/0736e2c8-5e9b-4373-8aaa-ab98ea838023" alt="link storage">
 
 

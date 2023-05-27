@@ -91,12 +91,11 @@ Finally, create the pipeline. Drag Data Flow in the Move & Transform. Make sure 
 	<img width="800" alt="image" align=Justify src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/DataSphere/images/DataFactoryStudioPipeline.jpg">
 </p>
 
-We can check in SQL Query whether the result is correct or not by typing **Select * From [dbo].[User1];**. 
+We can check in SQL Query whether the result is correct or not by typing **Select * From [dbo].[User1].** Below is the image of the result of integration using union: 
 <p align="center">
 	<img width="800" alt="image" align=Justify src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/DataSphere/images/SelectAllQuery.jpg">
 </p>
-
-Below is the image of the result of integration using union:  
+ 
 
 
 

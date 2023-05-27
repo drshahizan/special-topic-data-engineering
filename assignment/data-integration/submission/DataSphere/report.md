@@ -22,6 +22,9 @@ In the search bar, type Azure Data Factory and select it. Create a new Azure Dat
 
 
 ## Insert sources into blob storage (container)
+After the storage account has been deployed, choose and create a new container named input which we will store all the three datasets. In the input container, upload all the  data sources. 
+
+![data integration pic 1](https://github.com/drshahizan/special-topic-data-engineering/assets/120614334/44c82554-6dc6-4c31-8fe4-2f608e34a6a6)
 
 ## Create SQL Database
 Now, we have to create a SQL Database and a table to go with it. In this database and table we would store our future output. One of the prerequisites to this step is setting up an Azure SQL Server. 

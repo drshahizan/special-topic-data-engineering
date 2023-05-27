@@ -1,8 +1,24 @@
 <h1 align="center">Report: Data Integration Using Azure Data Factory</h1>
 
-
-
-<a href="https://www.kaggle.com/datasets/benroshan/ecommerce-data?resource=download&select=List+of+Orders.csv">kaggle dataset</a>
+In this assignment, we will perform data integration towards the <b>e-commerce data</b> found at <a href="https://www.kaggle.com/datasets/benroshan/ecommerce-data?resource=download&select=List+of+Orders.csv">kaggle website</a> which consists of 3 datasets. The details of each datasets are listed as below:
+<table>
+  <tr>
+    <th>Dataset</th>
+    <th>Details</th>
+  </tr>  
+  <tr>
+    <td>List of Orders</td>
+    <td>Consists of purchase information (order id, order date) and customer information (name, state and city). </td>
+  </tr>
+  <tr>
+    <td>Order details</td>
+    <td>Consists of order id, order price, order quantity, profit, category and subcategory of the products. </td>
+  </tr>  
+  <tr>
+    <td>Sales target</td>
+    <td>Consists of sales target amount, month of order date, and category of the product.</td>
+  </tr>  
+</table>
 
 ## Data Integration Steps using Azure Data Factories:
 

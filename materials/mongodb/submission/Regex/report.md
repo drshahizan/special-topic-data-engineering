@@ -26,7 +26,7 @@ The Customer Analysis System is a data science system designed to analyze custom
    composer require mongodb/mongodb
    ```
 ### Step 2: Create Database Schemas in MySQL
-We need to create a database and table in mysql to store customer data. 
+1. Create a database and table in mysql to store customer data. 
 
 <img width="500" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/cb28dfe3-5b9a-47b1-965b-acf383399730">
 

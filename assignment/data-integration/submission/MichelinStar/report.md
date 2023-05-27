@@ -80,6 +80,6 @@ Finally, we create pipeline to copy the data from csv file to the SQL database. 
 Select "Copy data" under the Move & transform section which can be found in the list of Activities. For each Copy data activity, fill in the details of the Source, Sink and Mapping section. Lastly, debug and publish all after everything is done. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/d0250613-7d70-4f5f-b8b8-686bcc3f0740" alt="copy data">
 The output can be viewed in the SQL database by selecting the first 1000 rows of the table. 
-<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/1fd7608d-676e-451e-a72c-41f250a029e6" alt="output">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/f3a1bc17-1862-4b98-8e0b-6aade26e7352" alt="output">
 
 ## Conclusion

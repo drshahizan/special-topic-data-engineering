@@ -14,7 +14,7 @@ Don't forget to hit the :star: if you like this repo.
 | 1 | Social media monitoring tool | Gadgeteen | |
 | 2 | E-commerce analytics dashboard | Regex | |
 | 3 | Customer segmentation tool | DataSphere | |
-| 4 | Fraud detection dashboard | DataAce | |
+| 4 | TikTok Analysis dashboard | DataAce | |
 | 5 | Predictive maintenance tool |  | |
 | 6 | Healthcare analytics platform | MichelinStar | |
 | 7 | Energy consumption analysis dashboard | StaticIP | |

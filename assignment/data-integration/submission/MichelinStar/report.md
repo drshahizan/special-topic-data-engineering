@@ -63,7 +63,8 @@ Now, go to the Data Factories, and launch the data factory by clicking "Launch s
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/5ca533d7-c507-425d-a0e6-55198433a542" alt="launch data factories">
 Link the storage with the data factory by selecting the "manage" button, follow by "Linked services" button under Connections section, and click "New" button. Select "Azure Blob Storage" and proceed to choose the desired storage by clicking "Continue" button. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/0736e2c8-5e9b-4373-8aaa-ab98ea838023" alt="link storage">
-
+Next, link the SQL database to the data factory which will store the output of the pipeline. 
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/c70b2354-5bc7-4d9d-9862-94ba8a5e70bb" alt="link sql database">
 
 
 ### 6. Create Datasets in Data Factories

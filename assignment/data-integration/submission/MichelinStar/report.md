@@ -30,12 +30,11 @@ The created data factory is shown as below.
 
 
 ### 2. Create Azure SQL Database
+To create an Azure SQL database, we first search for "sql database" at the search bar, select "SQL databases" under the Services section. Click "Create" to create a database. Select the resource group (the one we created in previous step), give a name to the database and create a new server. Click "Review + create" to create the database once the related details have been filled in. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/97a0ecca-5d5c-4edb-9ffc-d02c37fc8205" alt="create database">
-
+The SQL database server is created by giving it a name, and filling in the authentication details whereby SQL authentication is used in this case. The details is filled in according to the guideline of <a href="https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal">microsoft website</a>. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/706e84c8-5709-4568-bcea-f85860af5079" alt="add server">
-
-<a href="https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal">microsoft link</a>
-
+The created database is shown as below.
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/152eae05-f07f-4eea-bb68-00cd9863d5f2" alt="output of create database">       
 
 ### 3. Create Storage

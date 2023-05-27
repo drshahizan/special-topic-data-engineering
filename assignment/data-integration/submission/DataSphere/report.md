@@ -24,6 +24,28 @@ In the search bar, type Azure Data Factory and select it. Create a new Azure Dat
 ## Insert sources into blob storage (container)
 
 ## Create SQL Database
+Now, we have to create a SQL Database and a table to go with it. In this database and table we would store our future output. One of the prerequisites to this step is setting up an Azure SQL Server. 
+<br><br>
+<img width="800" alt="image" align=Justify src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/DataSphere/images/SQLServerDefault.jpg">
+<br><br>
+A SQL Database can be created with windows authentication as the authentication method as it is the most straightforward. Once deployed, you can test the resource by logging into the query editor using the authentication credentials used before. <br><br>
+Then, a simple SQL query can be written to create a Table. The following code block shows the sql query written to create the table.
+<br>
+```mysql
+Create Table Output(
+	ID varchar(50), 
+	Password varchar(100),
+	Name varchar(100),
+	State varchar(100),
+	Email varchar(100)
+)
+```
+
+<p float: left>
+   <img height="200" width="450" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/DataSphere/images/SQLDatabaseQueryEditor.jpg">
+   &nbsp;&nbsp;
+   <img height="250" width="450" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/DataSphere/images/SQLDatabaseQueryEditorCreateTable.jpg">
+</p>
 
 ## Launch Azure Data Factory Studio and link services
 

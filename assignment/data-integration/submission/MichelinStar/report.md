@@ -14,6 +14,10 @@
 <img src="">       
 
 ### 3. Create Storage
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/ff04c311-eb05-4123-aae3-16a531087cc0" alt="create storage account">
+
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/696638b2-3d45-4deb-923a-4565a8ad982a" alt="output of creating storage">
+
 
 
 ### 4. Create Tables in Azure SQL Database

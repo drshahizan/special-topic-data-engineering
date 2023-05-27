@@ -167,7 +167,6 @@ It has been found that all of the data does not consist of any missing value and
 
 ## Web Interface
 
-<div align="center">
   Homepage
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/homepage.png">
   Login
@@ -182,11 +181,9 @@ It has been found that all of the data does not consist of any missing value and
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/add.png">
   Edit Movie
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/edit.png">
-</div>
 
 ## Testing and Validation
 
-<div align="center">
   Add New Movie
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/edit.png">
   View Added Movie
@@ -197,7 +194,6 @@ It has been found that all of the data does not consist of any missing value and
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/edit.png">
   Delete Added Movie
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/delete.png">
-</div>
 
 ## Conclusion
 

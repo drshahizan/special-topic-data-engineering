@@ -168,8 +168,8 @@ It has been found that all of the data does not consist of any missing value and
 ## Web Interface
 
 <div align="center">
-  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/homepage.png">
-  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/login.png">
+  <img width="500" src="materials/mongodb/submission/Rivertion/img/homepage.png">
+  <img width="500" src="materials/mongodb/submission/Rivertion/img/login.png">
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/msrps_db.png">
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/movie.png">
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/movie2.png">

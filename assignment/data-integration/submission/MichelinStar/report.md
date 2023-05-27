@@ -37,12 +37,21 @@
 
 
 ### 5. Create Linked Services in Data Factories
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/5ca533d7-c507-425d-a0e6-55198433a542" alt="launch data factories">
+
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/0736e2c8-5e9b-4373-8aaa-ab98ea838023" alt="link storage">
 
 
 ### 6. Create Datasets in Data Factories
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/fbf44e34-3ad7-4002-8bd5-586bb2cc26e6" alt="select storage">
 
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/319c0a78-bc57-4507-a755-dada6e45f258" alt="select dataset">
 
 ### 7. Create Pipelines
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/50d9b828-9485-430b-bdb2-9ee8e0e0fefe" alt="create pipeline">
 
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/d0250613-7d70-4f5f-b8b8-686bcc3f0740" alt="copy data">
+
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/1fd7608d-676e-451e-a72c-41f250a029e6" alt="output">
 
 ## Conclusion

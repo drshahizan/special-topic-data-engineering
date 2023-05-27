@@ -65,6 +65,7 @@ Link the storage with the data factory by selecting the "manage" button, follow 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/0736e2c8-5e9b-4373-8aaa-ab98ea838023" alt="link storage">
 
 
+
 ### 6. Create Datasets in Data Factories
 After linking with the storage, we now can proceed to add the datasets into the data factory. Under author section, click "Datasets" to add new dataset. Since we are storing the dataset in Azure Blob Storage, we select the "Azure Blob Storage" option and proceed to the next step by clicking "Continue" button.
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/fbf44e34-3ad7-4002-8bd5-586bb2cc26e6" alt="select storage">
@@ -73,11 +74,11 @@ Then, select "Delimited Text" as the format since the dataset is in csv format. 
 Repeat step 6 to add all datasets into the data factory. 
 
 ### 7. Create Pipelines
-
+Finally, we create pipeline to copy the data from csv file to the SQL database. Under the author section, click "Pipelines" to add new pipeline.
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/50d9b828-9485-430b-bdb2-9ee8e0e0fefe" alt="create pipeline">
-
+Select "Copy data" under the Move & transform section which can be found in the list of Activities. For each Copy data activity, fill in the details of the Source, Sink and Mapping section. Lastly, debug and publish all after everything is done. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/d0250613-7d70-4f5f-b8b8-686bcc3f0740" alt="copy data">
-
+The output can be viewed in the SQL database by selecting the first 1000 rows of the table. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/1fd7608d-676e-451e-a72c-41f250a029e6" alt="output">
 
 ## Conclusion

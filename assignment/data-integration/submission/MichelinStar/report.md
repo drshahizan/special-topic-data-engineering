@@ -61,16 +61,19 @@ Use "CREATE TABLE" queries to create the tables. The created tables are shown as
 ### 5. Create Linked Services in Data Factories
 Now, go to the Data Factories, and launch the data factory by clicking "Launch studio".
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/5ca533d7-c507-425d-a0e6-55198433a542" alt="launch data factories">
-Link the storage with the data factory by selecting the "manage" button, follow by "Linked services" button under Connection section, and click "New" button. Select "Azure Blob Storage" and proceed to choose the desired storage by clicking "Continue" button. 
+Link the storage with the data factory by selecting the "manage" button, follow by "Linked services" button under Connections section, and click "New" button. Select "Azure Blob Storage" and proceed to choose the desired storage by clicking "Continue" button. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/0736e2c8-5e9b-4373-8aaa-ab98ea838023" alt="link storage">
 
 
 ### 6. Create Datasets in Data Factories
+After linking with the storage, we now can proceed to add the datasets into the data factory. Under author section, click "Datasets" to add new dataset. Since we are storing the dataset in Azure Blob Storage, we select the "Azure Blob Storage" option and proceed to the next step by clicking "Continue" button.
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/fbf44e34-3ad7-4002-8bd5-586bb2cc26e6" alt="select storage">
-
+Then, select "Delimited Text" as the format since the dataset is in csv format. Then click "Continue" button and proceed to select the csv file. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/319c0a78-bc57-4507-a755-dada6e45f258" alt="select dataset">
+Repeat step 6 to add all datasets into the data factory. 
 
 ### 7. Create Pipelines
+
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/50d9b828-9485-430b-bdb2-9ee8e0e0fefe" alt="create pipeline">
 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/d0250613-7d70-4f5f-b8b8-686bcc3f0740" alt="copy data">

@@ -23,8 +23,9 @@ In this assignment, we will perform data integration towards the <b>e-commerce d
 ## Data Integration Steps using Azure Data Factories:
 
 ### 1. Create Data Factory
+First, login to Microsoft Azure, search for "data factory" at the search bar, select "Data Factory" under the Marketplace section which will lead to the page of Create Data Factory as shown in the figure below. Fill in the required details and click "Review + create" button to create a new data factory.
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/f870a4db-3207-4fbd-8068-860dceb02ebe" alt="create data factory">
-
+The created data factory is shown as below. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/4583ad17-141b-4a2a-af4f-b2d2f435027b" alt="output of create data factory">
 
 

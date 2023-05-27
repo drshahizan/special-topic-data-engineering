@@ -77,7 +77,7 @@ The user interface of the movie recommendation system allows users to add movies
 1. Open Xampp and click 'Start' for both Apache and MySQL.
 2. Click 'Admin' beside MySQL.
 <div align="center">
-  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/materials/mongodb/submission/Rivertion/img/xampp.png">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/xampp.png">
 </div>
 3. Create new database (add tables and attributes for each table).
 <div align="center">

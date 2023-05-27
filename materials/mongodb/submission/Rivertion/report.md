@@ -1,4 +1,4 @@
-# Sales Analysis System
+# Movie Recommendation System
 - [Introduction](#introduction)
 - [System Design](#system-design)
 - [Implementation](#implementation)

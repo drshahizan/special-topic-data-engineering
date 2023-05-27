@@ -24,7 +24,7 @@ In the search bar, type Azure Data Factory and select it. Create a new Azure Dat
 </p>
 
 ## Setup Storage Account
-
+Create a new Storage Account name (trcstrgacc) and fill in all the required information. Let the setting to default then click review&create, After that, wait until it is finished and display the image below.
 
 ## Insert sources into blob storage (container)
 After the storage account has been deployed, choose and create a new container named input which we will store all the three datasets. In the input container, upload all the  data sources. 

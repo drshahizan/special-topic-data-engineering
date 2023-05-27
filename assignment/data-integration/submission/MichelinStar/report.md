@@ -38,14 +38,15 @@ The created database is shown as below.
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/152eae05-f07f-4eea-bb68-00cd9863d5f2" alt="output of create database">       
 
 ### 3. Create Storage
+Next, we create a storage account to store our data by searching "storage account" at the search bar and select "Storage account" under the Marketplace section. Then, fill in the basic details, including project details and instance details, and click "Review" button to proceed with the process of creating a storage account. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/ff04c311-eb05-4123-aae3-16a531087cc0" alt="create storage account">
-
+The created storage account is shown as below. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/696638b2-3d45-4deb-923a-4565a8ad982a" alt="output of creating storage">
-
+After that, we need to create a container which hold our data. Select "Containers" under the Data storage section and create a container. The created container is shown as below.
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/17231397-00f5-4b03-a4d1-f247af16c187" alt="add container">
-
+Select the created container, then click the "Upload" button to upload the csv files. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/72926bd6-e3a6-452e-b4f0-5d5d302cf2e6" alt="upload csv file">
-
+The uploaded csv files can be viewed by clicking the file name. 
 <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614391/3cd1e7b4-e022-4331-b71a-150f4bdf3e5a" alt="view csv file">
 
 

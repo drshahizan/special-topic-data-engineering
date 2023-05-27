@@ -162,7 +162,7 @@ Develop PHP scripts to perform CRUD operations on the MongoDB database:
 - Sales Table
 ![table](https://github.com/drshahizan/special-topic-data-engineering/assets/95162273/c846f9ea-92bc-4102-a42b-7d049dd5e8d7)
 
--Search Sales
+- Search Sales
 ![Search](https://github.com/drshahizan/special-topic-data-engineering/assets/95162273/1080733e-a2d6-432f-90bf-dae30c901aab)
 
 - Create Sales
@@ -182,32 +182,10 @@ Develop PHP scripts to perform CRUD operations on the MongoDB database:
 
 
 ## Conclusion
-The development of the Customer Analysis System using MongoDB, MySQL, and PHP has provided valuable insights into customer behavior, preferences, and patterns. The system successfully achieved its objectives of collecting and storing customer data, performing CRUD operations, data preprocessing, analysis, and visualization.
 
-Key Findings:
-
-- The system effectively collected and stored customer data from various sources, allowing for comprehensive analysis.
-- CRUD operations were successfully implemented for both MongoDB and MySQL, enabling efficient data management.
-- The web interface facilitated user interaction, data visualization, and supported seamless integration with both MongoDB and MySQL databases.
-- The average age of customer is 48.96 and most of the customer data come from females. The majority of customers are artists. 
-
-Challenges Faced:
-
-- Implementing the appropriate data science techniques and algorithms for analysis required careful consideration and expertise.
-- Ensuring efficient synchronization and data consistency between MongoDB and MySQL databases posed a challenge during integration testing.
-- Performance optimization was necessary to handle large volumes of data and ensure responsiveness.
-
-Potential Improvements:
-
-- Enhance performance: Further optimization of data processing and analysis algorithms can improve system performance and scalability.
-- Advanced analysis techniques: Consider integrating advanced data science techniques like machine learning algorithms to gain deeper insights and improve accuracy.
-- Real-time data ingestion: Implement real-time data ingestion capabilities to enable timely analysis and decision-making.
-- Enhanced visualization: Expand the range of visualization options to provide more interactive and intuitive data representation for users.
-- Security measures: Strengthen data security measures, including encryption and access controls, to ensure the privacy and protection of customer data.
-
-Overall, the Sales Analysis System has proven to be a valuable tool for businesses seeking to understand their customers better. The system's functionality, performance, and accuracy provide a solid foundation for making data-driven decisions and enhancing customer satisfaction. By addressing the identified challenges and implementing potential improvements, the system can continue to evolve and meet the growing needs of businesses in the dynamic field of customer analysis.
 
 ## References
-1. [MongoDB and PHP](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/mongophp.md) <br>
-2. [Creating, Reading, Updating, and Deleting MongoDB Documents with PHP](https://www.mongodb.com/developer/languages/php/php-crud/) <br>
-3. [Installing MongoDB PHP Driver for XAMPP Server on Windows - Step-by-Step Tutorial](https://www.youtube.com/watch?v=KJV8iZ_9gYg)
+
+1. [CRUD Operation using PHP & Mongodb](https://www.javatpoint.com/crud-operation-using-php-and-mongodb)
+
+2. [Installing MongoDB PHP Driver for XAMPP Server on Windows - Step-by-Step Tutorial](https://www.youtube.com/watch?v=KJV8iZ_9gYg)

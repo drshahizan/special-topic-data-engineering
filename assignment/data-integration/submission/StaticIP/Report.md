@@ -8,6 +8,10 @@
 - [Conclusion](#conclusion)
 
 ## Introduction
+Azure Data Factory is a platform that provides cloud-based ETL and data integration services which helps to create data-driven workflows for orchestrating data movement and transforming data at scale. The data-driven workflows which is also called pipelines helps to ingest data from disparate data stores. Azure Data factory allows their users to build complex ETL processes either using the data flows or using compute services such as Azure HDInsight Hadoop, Azure Databricks, and Azure SQL Database. After the data is processed and transformed, the data can be published to data stores by using Azure Synapese Analytics for business intelligence purposes. 
+
+In this assignment, we aimed to produce a complete dataset combined from different data sources obtained from real-world example. We identified three data sources related to the top 250 Movies on IMDB from Kaggle and provided step-by-step instructions to show how data integration is applied in pratical scenarios using Azure Data Factory. This includes identifying data sources, mapping the data onto a common schema, handling missing or incomplete data, and cleaning and transforming data.
+
 ## Steps
 ### 1. Identifying the Data Sources
 The three different data sources chosen for this assignment are related to the top 250 Movies on IMDB which are obtain from [Kaggle](https://www.kaggle.com/datasets/ashishjangra27/imdb-top-250-movies): 
@@ -67,3 +71,4 @@ The [Movies.csv](https://github.com/drshahizan/special-topic-data-engineering/bl
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Images/result.jpg">
 
 ## Conclusion
+In conclusion, our assignment shows that the data integration plan was successful. The three data sources is merged successfully into a dataset called Movie.csv. It cannot be denied that Azure Data Factory did help a lot in processing and managing raw data into meaningful data which can be used for further analysis to make better business decisions.

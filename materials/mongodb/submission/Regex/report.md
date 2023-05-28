@@ -52,6 +52,15 @@ The Customer Analysis System is a data science system designed to analyze custom
 
 ### Functionalities
 
+The Customer Analysis System provide the following functionalities:
+- Data Analysis: The system employs data science techniques like statistical analysis to analyze customer data and extract valuable insights.
+
+- Data Visualization: The system provide visual representations of the analyzed data to facilitate interpretation and decision-making. Charts, graphs, and dashboards can be used to display key metrics, trends, and patterns.
+
+- CRUD Operations: The system allows for Create, Read, Update, and Delete operations to manage customer data efficiently. This includes inserting new customer records, retrieving and displaying customer information, updating customer details, and deleting unwanted data entries.
+
+- Search Functionality: The system support search capabilities to enable users to find specific customer.
+
 ## Implementation
 ### Step 1: Set Up Development Environment
 1. Before starting to implement the system, make sure to install all required software.

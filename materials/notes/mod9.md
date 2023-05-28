@@ -28,8 +28,8 @@ RData visualization is the process of representing data graphically to help peop
 ### Contents:
 #### Notes
 - [Significance of Data Visualization](#Significance-of-Data-Visualization)
-- [Categories of Data Visualization] (#Categories-of-Data-Visualization)
-- [Importance of Data Visualization] (#Importance-of-Data-Visualization)
+- [Categories of Data Visualization](#Categories-of-Data-Visualization)
+- [Importance of Data Visualization](#Importance-of-Data-Visualization)
 
 ### Others
 - [xyz](https://utm.my)

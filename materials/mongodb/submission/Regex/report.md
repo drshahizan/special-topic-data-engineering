@@ -1,4 +1,4 @@
-# Customer Analysis System
+# Customer Analysis System 
 - [Introduction](#introduction)
 - [System Design](#system-design)
 - [Implementation](#implementation)
@@ -66,6 +66,7 @@ The Customer Analysis System provide the following functionalities:
 1. Before starting to implement the system, make sure to install all required software.
   - [XAMPP](https://www.apachefriends.org/download.html)
   - [MongoDB](https://www.mongodb.com/try/download/community)
+  - [Composer](https://getcomposer.org/download/)
 2. Configure MongoDB on your server or local machine. Make sure the MongoDB server is running and accessible.
 3. Direct to your project directory and running the following command to install MongoDB PHP driver.
    ```

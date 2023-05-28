@@ -216,9 +216,9 @@ It has been found that all of the data does not consist of any missing value and
   
   -MongoDB result
   
-  <div align="center"><img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/Mongo1.png"></div>
+  <div align="center"><img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/Mongo1.jpeg"></div>
   
-  <div align="center"><img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/Mongo2.png"></div>
+  <div align="center"><img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Rivertion/img/Mongo2.jpeg"></div>
 
 
 ## Conclusion

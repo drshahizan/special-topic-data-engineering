@@ -31,7 +31,7 @@ RData visualization is the process of representing data graphically to help peop
 - [Significance of Data Visualization](#Significance-of-Data-Visualization)
 - [Categories of Data Visualization](#Categories-of-Data-Visualization)
 - [Importance of Data Visualization](#Importance-of-Data-Visualization)  
-- [Top Data Visualization Tools](#Top-Data-Visualization-Tools) Conclusion
+- [Top Data Visualization Tools](#Top-Data-Visualization-Tools)
 - [Benefits of Data Visualization](#Benefits-of-Data-Visualization)
 - [Conclusion](#Conclusion)
 

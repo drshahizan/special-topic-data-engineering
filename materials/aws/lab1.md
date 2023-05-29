@@ -235,84 +235,28 @@ Perform a load test on the application to monitor scaling.
 
 - Use Script-2 from the AWS Cloud9 Scripts file (cloud9-scripts.yml) to perform the load test. Recall that you used scripts from this file in previous tasks.
 
-**Notes:
+**Notes:**
 
-**
-- Use the load balancer endpoint to access the application.
-- Use the provided example URL for the script.
-
-**Reference:**
-- [Locust](https://locust.io/)
-
-## Phase 5: Optimizing the Solution
-
-In this phase, you will optimize the solution and implement security measures.
-
-**Task 1: Configuring Amazon CloudFront**
-
-Configure Amazon CloudFront to serve the application from a global edge location.
-
-- Use the load balancer as the origin for CloudFront.
+- Access the web application from the browser by using the load balancer URL.
+- Use AWS Cloud9 to run the load testing scripts against the load balancer.
 
 **Reference:**
-- [AWS Academy Cloud Architecting – Lab: Creating a Scalable Web Application with Amazon CloudFront](https://awsacademy.instructure.com/courses/168/pages/lab-creating-a-scalable-web-application-with-amazon-cloudfront)
 
-**Task 2: Setting Up Amazon Route 53**
+- [loadtest Tool Repository on GitHub](https://github.com/your-repository-link)
 
-Set up Amazon Route 53 to provide domain name resolution for the application.
+---
 
-- **Tip:** Use a registered domain or a new one provided by your educator.
+## Ending your session
 
-**Reference:**
-- [AWS Academy Cloud Architecting – Lab: Creating a Highly Available Environment](https://awsacademy.instructure.com/courses/168/pages/lab-creating-a-highly-available-environment)
+Reminder: This is a long-lived lab environment. Data is retained until you either use the allocated budget or the course end date is reached (whichever occurs first).
 
-**Task 3: Configuring Security Groups**
+To preserve your budget when you are finished for the day, or when you are finished actively working on the assignment for the time being, do the following:
 
-Update the security group rules for the virtual network components to restrict access as per the requirements.
+1. At the top of this page, choose "End Lab," and then choose "Yes" to confirm that you want to end the lab.
+2. A message panel indicates that the lab is terminating.
+   - Note: Choosing "End lab" in this lab environment will not delete the resources you have created. They will still be there the next time you choose "Start lab" (for example, on another day).
+3. To close the panel, choose "Close" in the upper-right corner.
 
-**Task 4: Adding Security to the Web Application**
+---
 
-Secure the web application by implementing the following measures:
-
-- Use AWS Systems Manager Parameter Store to store the database credentials instead of hardcoding them in the application code.
-
-**Reference:**
-- [AWS Academy Cloud Foundations – Lab: Build Your DB Server and Interact With Your DB Using an App](https://awsacademy.instructure.com/courses/112/pages/lab-build-your-db-server-and-interact-with-your-db-using-an-app)
-
-**Task 5: Testing the Final Solution**
-
-Access the application and perform a few tasks to test it. For example, view, add, delete, and modify student records.
-
-## Phase 6: Review and Deployment
-
-In this phase, you will review the solution and prepare for deployment.
-
-**Task 1: Review the Architecture**
-
-Review the architecture diagram and verify that it meets the solution requirements.
-
-**Task 2: Finalize the Cost Estimate**
-
-Review the cost estimate and ensure that it aligns with the solution design.
-
-**Task 3: Prepare for Deployment**
-
-Create deployment documentation that includes the following:
-
-- Architecture diagram
-- Cost estimate
-- Detailed deployment steps
-
-**Task 4: Present the Solution**
-
-Prepare a presentation to showcase the solution. Include the architectural diagram, cost estimate, and any other relevant information.
-
-**Task 5: Deploy the Solution**
-
-Deploy the solution in the production environment based on the deployment documentation.
-
-**Note:** The deployment method will depend on the environment and tools available to you.
-
-## Conclusion
-
-This solution provides a scalable, highly available, and secure web application to manage student records. By following the phased approach outlined in this solution, you can build and deploy the application on the AWS Cloud while meeting the specified requirements.
+© 2023, Amazon Web Services, Inc. or its affiliates. All rights reserved.

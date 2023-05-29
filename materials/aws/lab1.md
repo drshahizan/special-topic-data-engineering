@@ -31,7 +31,7 @@ You are a cloud engineer. Your manager has asked you to create a proof of concep
 
 Your challenge is to plan, design, build, and deploy the web application to the AWS Cloud in a way that is consistent with best practices of the AWS Well-Architected Framework. During the peak admissions period, the application must support thousands of users and be highly available, scalable, load balanced, secure, and high performing.
 
-![Student Records Web Application](https://labs.vocareum.com/web/2586785/1828360.0/ASNLIB/public/docs/lang/en-us/images/SampleSite.png)
+![Student Records Web Application](SampleSite.png)
 
 ## Solution requirements
 The solution must meet the following requirements:

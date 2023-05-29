@@ -97,9 +97,7 @@ If required by your instructor, add your architectural diagram and cost estimate
 - [What Is AWS Pricing Calculator?](https://aws.amazon.com/aws-cost-management/aws-roi-calculator/)
 - PowerPoint presentation template
 
-## Phase 2: Creating a
-
- Basic Functional Web Application
+## Phase 2: Creating a Basic Functional Web Application
 
 In this phase, you will start to build the solution. The objective of this phase is to have a functional web application that works on a single virtual machine in a virtual network that you create. By the end of this phase, you will have a POC to demonstrate hosting the application on the AWS Cloud. You can then build upon your work in later phases.
 

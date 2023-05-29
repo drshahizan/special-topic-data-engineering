@@ -35,4 +35,284 @@ Your challenge is to plan, design, build, and deploy the web application to the 
 
 ## Solution requirements
 The solution must meet the following requirements:
-- **Functional**: The solution meets the functional requirements, such as the
+
+**Functional**: The solution meets the functional requirements, such as the ability to view, add, delete, or modify the student records, without any perceivable delay.
+
+**Load Balanced**: The solution can properly balance user traffic to avoid overloaded or underutilized resources.
+
+**Scalable**: The solution is designed to scale to meet the demands that are placed on the application.
+
+**Highly Available**: The solution is designed to have limited downtime when a web server becomes unavailable.
+
+**Secure**:
+- The database is secured and can’t be accessed directly from public networks.
+- The web servers and database can be accessed only over the appropriate ports.
+- The web application is accessible over the internet.
+- The database credentials aren’t hardcoded into the web application.
+
+**Cost Optimized**: The solution is designed to keep costs low.
+
+**High Performing**: The routine operations (viewing, adding, deleting, or modifying records) are performed without a perceivable delay under normal, variable, and peak loads.
+
+## Assumptions
+
+This project will be built in a controlled lab environment that has restrictions on services, features, and budget. Consider the following assumptions for the project:
+
+- The application is deployed in one AWS Region (the solution does not need to be multi-Regional).
+- The website does not need to be available over HTTPS or a custom domain.
+- The solution is deployed on Ubuntu machines by using the JavaScript code that is provided.
+- Use the JavaScript code as written unless the instructions specifically direct you to change the code.
+- The solution uses services and features within the restrictions of the lab environment.
+- The database is hosted only in a single Availability Zone.
+- The website is publicly accessible without authentication.
+- Estimation of cost is approximate.
+
+**Disclaimer**: A security best practice is to allow access to the website through the university network and authentication. However, because you are building this application as a POC, those features are beyond the scope of this project. You are encouraged to implement this additional functionality.
+
+## Approach
+
+**Recommendation**: Develop your project solution in phases. This will help you ensure that basic functionality is working before the architecture becomes more complex. After the application is working, you are encouraged to enhance the solution with additional requirements.
+
+## Phase 1: Planning the Design and Estimating Cost
+
+In this phase, you will plan the design of your architecture. First, you will create an architecture diagram.
+
+Next, you will estimate the cost of the proposed solution and present the estimate to your educator. An important first step for any solution is to plan the design and estimate the cost. As necessary, review the various components in the architecture to adjust the estimated cost. Cost is an important factor when building a solution because cost can help determine the components and architecture pattern to use.
+
+**Task 1: Creating an Architectural Diagram**
+
+Create an architectural diagram to illustrate what you plan to build. Consider how you will accomplish each requirement in the solution.
+
+**References:**
+- [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/)
+- [AWS Reference Architecture Diagrams](https://aws.amazon.com/architecture/)
+
+**Task 2: Developing a Cost Estimate**
+
+Develop a cost estimate that shows the cost to run the solution in the `us-east-1` Region for 12 months. Use the AWS Pricing Calculator for this estimate.
+
+If required by your instructor, add your architectural diagram and cost estimate to presentation slides. Your educator might want to evaluate this information as part of assessing your work on this project. A presentation template is provided.
+
+**References:**
+- [What Is AWS Pricing Calculator?](https://aws.amazon.com/aws-cost-management/aws-roi-calculator/)
+- PowerPoint presentation template
+
+## Phase 2: Creating a
+
+ Basic Functional Web Application
+
+In this phase, you will start to build the solution. The objective of this phase is to have a functional web application that works on a single virtual machine in a virtual network that you create. By the end of this phase, you will have a POC to demonstrate hosting the application on the AWS Cloud. You can then build upon your work in later phases.
+
+**Task 1: Creating a Virtual Network**
+
+Create a virtual network to host the web application.
+
+- **Tip:** Create networking resources such as a virtual private cloud (VPC) and subnets.
+
+**Reference:**
+- [AWS Academy Cloud Architecting – Lab: Creating a Virtual Private Cloud](https://awsacademy.instructure.com/courses/168/pages/lab-creating-a-virtual-private-cloud)
+
+**Task 2: Creating a Virtual Machine**
+
+Create a virtual machine in the cloud to host the web application.
+
+- To install the required web application and database on the virtual machine, use the JavaScript code from the following link: [SolutionCodePOC](https://example.com/solutioncodepoc)
+
+**Tips:**
+- Use a compute service such as Amazon Elastic Compute Cloud (Amazon EC2).
+- Use the latest Ubuntu Amazon Machine Image (AMI).
+
+**Task 3: Testing the Deployment**
+
+Test the deployment of the web application to ensure it is accessible from the internet and functional. Perform a few tasks, such as viewing, adding, deleting, or modifying records.
+
+- **Tip:** To access the web application, use the IPv4 address of the virtual machine.
+
+## Phase 3: Decoupling the Application Components
+
+In this phase, you will continue building. The objective is to separate the database and the web server infrastructure so that they run independently. The web application should run on a separate virtual machine, and the database should run on the managed service infrastructure.
+
+**Task 1: Changing the VPC Configuration**
+
+Update or re-create the virtual network components that are necessary to support hosting the database separately from the application.
+
+- **Note:** You need private subnets in a minimum of two Availability Zones.
+
+**Reference:**
+- [AWS Academy Cloud Architecting – Lab: Creating a Virtual Private Cloud](https://awsacademy.instructure.com/courses/168/pages/lab-creating-a-virtual-private-cloud)
+
+**Task 2: Creating and Configuring the Amazon RDS Database**
+
+Create an Amazon Relational Database Service (Amazon RDS) database that runs a MySQL engine. You can choose to create a provisioned instance or run it serverlessly.
+
+- **Notes:**
+  - Allow only the web application to access the database.
+  - Don't enable enhanced monitoring.
+
+**Reference:**
+- [AWS Academy Cloud Foundations – Lab: Build Your DB Server and Interact With Your DB Using an App](https://awsacademy.instructure.com/courses/112/pages/lab-build-your-db-server-and-interact-with-your-db-using-an-app)
+
+**Task 3: Configuring the Development Environment**
+
+Provision an AWS Cloud9 environment to run AWS Command Line Interface (AWS CLI) commands in later tasks.
+
+- **Notes:**
+  - Use a t3.micro instance for the AWS Cloud9 environment.
+  - Use Secure Shell (SSH) to connect to the environment.
+
+**Reference:**
+- [Creating Cloud9 Environment](https://aws.amazon.com/cloud9/getting-started/)
+
+**Task 4: Provisioning Secrets Manager**
+
+Use AWS Secrets Manager to create a secret to store the database credentials and configure the web application to use Secrets Manager.
+
+- Use Script-1 from the following link to create a secret in Secrets Manager using the AWS CLI: [AWS Cloud9 Scripts](https://example.com/awscloud9scripts)
+
+**Reference:**
+- [create-secret in
+
+ the AWS CLI Command Reference for AWS Secrets Manager](https://docs.aws.amazon.com/cli/latest/reference/secretsmanager/create-secret.html)
+
+**Task 5: Provisioning a New Instance for the Web Server**
+
+Create a new virtual machine to host the web application.
+
+- To install the required web application on the virtual machine, use the JavaScript code from the following link: [Solution Code for the App Server](https://example.com/solutioncodeappserver)
+
+- For the AWS Identity and Access Management (IAM) profile on the EC2 instance, attach the existing LabInstanceProfile profile. This profile attaches an IAM role called LabRole to the instance so that it can fetch the secret securely.
+
+**Reference:**
+- [AWS Academy Cloud Foundations – Lab: Build Your DB Server and Interact With Your DB Using an App](https://awsacademy.instructure.com/courses/112/pages/lab-build-your-db-server-and-interact-with-your-db-using-an-app)
+
+**Task 6: Migrating the Database**
+
+Migrate the data from the original database, which is on an EC2 instance, to the new Amazon RDS database.
+
+- Use Script-3 from the AWS Cloud9 Scripts file (cloud9-scripts.yml) to migrate the original data into the Amazon RDS database. Recall that you used a script from this file earlier to create the secret in Secrets Manager.
+
+**Reference:**
+- [AWS Academy Cloud Architecting – Lab: Migrating a Database to Amazon RDS](https://awsacademy.instructure.com/courses/168/pages/lab-migrating-a-database-to-amazon-rds)
+
+**Task 7: Testing the Application**
+
+Access the application and perform a few tasks to test it. For example, view, add, delete, and modify student records.
+
+## Phase 4: Implementing High Availability and Scalability
+
+In this phase, you will complete the design and fulfill the remaining solution requirements. The objective is to use the key components that you created in earlier phases to build a scalable and highly available architecture.
+
+**Task 1: Creating an Application Load Balancer**
+
+Launch a load balancer. The endpoint will be used to access your web application.
+
+- **Tip:** Use a minimum of two Availability Zones.
+
+**Reference:**
+- [AWS Academy Cloud Architecting – Lab: Creating a Highly Available Environment](https://awsacademy.instructure.com/courses/168/pages/lab-creating-a-highly-available-environment)
+
+**Task 2: Implementing Amazon EC2 Auto Scaling**
+
+Create a new launch template and use an Auto Scaling group to launch the EC2 instances that host the web application.
+
+- To accomplish this, you can create an AMI from the running instance or create a new AMI and install the necessary packages and application code. Then, configure an Auto Scaling group to use the load balancer.
+
+**Tips:**
+- Use a Target tracking policy.
+- Set the Auto Scaling group size according to your estimated requirements.
+- You can use the default values (e.g., for group size and CPU utilization) initially and then adjust them later as needed.
+
+**Reference:**
+- [AWS Academy Cloud Architecting – Lab: Creating a Highly Available Environment](https://awsacademy.instructure.com/courses/168/pages/lab-creating-a-highly-available-environment)
+
+**Task 3: Accessing the Application**
+
+Access the application and perform a few tasks to test it. For example, view, add, delete, and modify student records.
+
+**Task 4: Load Testing the Application**
+
+Perform a load test on the application to monitor scaling.
+
+- Use Script-2 from the AWS Cloud9 Scripts file (cloud9-scripts.yml) to perform the load test. Recall that you used scripts from this file in previous tasks.
+
+**Notes:
+
+**
+- Use the load balancer endpoint to access the application.
+- Use the provided example URL for the script.
+
+**Reference:**
+- [Locust](https://locust.io/)
+
+## Phase 5: Optimizing the Solution
+
+In this phase, you will optimize the solution and implement security measures.
+
+**Task 1: Configuring Amazon CloudFront**
+
+Configure Amazon CloudFront to serve the application from a global edge location.
+
+- Use the load balancer as the origin for CloudFront.
+
+**Reference:**
+- [AWS Academy Cloud Architecting – Lab: Creating a Scalable Web Application with Amazon CloudFront](https://awsacademy.instructure.com/courses/168/pages/lab-creating-a-scalable-web-application-with-amazon-cloudfront)
+
+**Task 2: Setting Up Amazon Route 53**
+
+Set up Amazon Route 53 to provide domain name resolution for the application.
+
+- **Tip:** Use a registered domain or a new one provided by your educator.
+
+**Reference:**
+- [AWS Academy Cloud Architecting – Lab: Creating a Highly Available Environment](https://awsacademy.instructure.com/courses/168/pages/lab-creating-a-highly-available-environment)
+
+**Task 3: Configuring Security Groups**
+
+Update the security group rules for the virtual network components to restrict access as per the requirements.
+
+**Task 4: Adding Security to the Web Application**
+
+Secure the web application by implementing the following measures:
+
+- Use AWS Systems Manager Parameter Store to store the database credentials instead of hardcoding them in the application code.
+
+**Reference:**
+- [AWS Academy Cloud Foundations – Lab: Build Your DB Server and Interact With Your DB Using an App](https://awsacademy.instructure.com/courses/112/pages/lab-build-your-db-server-and-interact-with-your-db-using-an-app)
+
+**Task 5: Testing the Final Solution**
+
+Access the application and perform a few tasks to test it. For example, view, add, delete, and modify student records.
+
+## Phase 6: Review and Deployment
+
+In this phase, you will review the solution and prepare for deployment.
+
+**Task 1: Review the Architecture**
+
+Review the architecture diagram and verify that it meets the solution requirements.
+
+**Task 2: Finalize the Cost Estimate**
+
+Review the cost estimate and ensure that it aligns with the solution design.
+
+**Task 3: Prepare for Deployment**
+
+Create deployment documentation that includes the following:
+
+- Architecture diagram
+- Cost estimate
+- Detailed deployment steps
+
+**Task 4: Present the Solution**
+
+Prepare a presentation to showcase the solution. Include the architectural diagram, cost estimate, and any other relevant information.
+
+**Task 5: Deploy the Solution**
+
+Deploy the solution in the production environment based on the deployment documentation.
+
+**Note:** The deployment method will depend on the environment and tools available to you.
+
+## Conclusion
+
+This solution provides a scalable, highly available, and secure web application to manage student records. By following the phased approach outlined in this solution, you can build and deploy the application on the AWS Cloud while meeting the specified requirements.

@@ -1,4 +1,4 @@
-# Lab: Building a Highly Available, Scalable Web Application**
+# Lab: Building a Highly Available, Scalable Web Application
 
 ## Overview and objectives
 Throughout various AWS Academy courses, you have completed hands-on labs. You have used different AWS services and features to create compute instances, install operating systems (OSs) and software, deploy code, and secure resources. You practiced how to enable load balancing and automatic scaling, and how to architect for high availability to build simple, lab-specific applications.

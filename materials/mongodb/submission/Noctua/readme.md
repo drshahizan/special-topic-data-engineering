@@ -1,7 +1,9 @@
 <h1><p align='center'>📖 Book Rating System</p></h1>
-<img align='center' src="images/books.png">
+<p align="center">
+  <img src="images/books.png" alt="Centered Image">
+</p>
 
-<p>A job board or job portal is an online platform that serves as a marketplace connecting job seekers and employers. It provides a space where employers can post job openings, and job seekers can search for and apply to those openings. Job boards typically offer features such as resume posting, job alerts, advanced search filters, and communication channels between job seekers and employers. Our group is excited to collaborate on this assignment, leveraging the power of MongoDB-PHP integration in Visual Studio Code to build a dynamic and feature-rich job portal. By incorporating cutting-edge technologies and focusing on user experience, we aim to deliver a robust platform that simplifies the job search process, connects job seekers with opportunities, and helps employers find top talent. </p>
+<p>Book rating systems are used to evaluate and express the quality or popularity of books. These systems help readers make informed decisions about which books to read and provide feedback to authors and publishers. Our group is excited to collaborate on this assignment, leveraging the power of MongoDB-PHP integration in Visual Studio Code to build a dynamic and feature-rich job portal. By incorporating cutting-edge technologies and focusing on user experience, we aim to deliver a robust platform that simplifies the book rating process, helps people to get an overview of the books before buying it, and helps authors assesing their on works by feedbacks from the readers. </p>
 
 
 <h3><p align='center'>Group Members</p></h3>
@@ -43,9 +45,7 @@
 
 ### 📂Folder content:
 
-* [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/Noctua/Report_PrayerTimeAPI.md)
-* [💻Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/Noctua/Noctua_PrayerTimesAPI.ipynb)
-* [📎CSV file exported](https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/Noctua/Waktu_Solat_Kuala%20Lumpur.csv)
+* [📖Report]()
 
 
 

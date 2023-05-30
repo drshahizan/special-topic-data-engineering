@@ -58,6 +58,17 @@ Some of the software that need to be install are as follows:
 ```
 extension=php_mongodb.dll
 ```
+3. Open directory in command prompt or powershell, then install the PHP Library with Composer.
+```
+composer require mongodb/mongodb
+```
+4. Open local host and phpmyadmin (SQL) to create a database with table user, posts and reviews.
+<p align="center">
+  <img src="images/tb_user.png" alt="Centered Image">
+  <img src="images/tb_posts.png" alt="Centered Image">
+  <img src="images/tb_reviews.png" alt="Centered Image">
+</p>
+
 
 ## Web Interface: 
 Discuss the design and functionality of the web interface, including screenshots if possible.

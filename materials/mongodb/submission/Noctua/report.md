@@ -10,7 +10,7 @@ In today's digital age, book rating system can play a role in shaping readers' c
 The primary objective of our assignment is to provide a standardized and accessible way for readers to evaluate and compare books. By integrating MongoDB as the database and PHP for backend development, we will leverage the flexibility, scalability, and real-time data handling capabilities of these technologies. Our goal is to create a reliable and efficient platform that collect books rating with different reader's perspective and empowers authors to provide better ideas and improve their writing skills.
 
 ## System Design: 
-Describe the system architecture, data requirements, and functionalities.
+*Describe the system architecture, data requirements, and functionalities.*
 
 ### Data Requirements
 
@@ -42,7 +42,22 @@ The key functionalities of the system are as follows:
 4. **Delete reviews**: Users can delete their reviews.
 
 ## Implementation: 
-Explain the step-by-step process of developing the system, including the CRUD operations, data preprocessing, and analysis.
+*Explain the step-by-step process of developing the system, including the CRUD operations, data preprocessing, and analysis.*
+
+### Required Software
+Some of the software that need to be install are as follows:
+
+1. [XAMPP](https://www.apachefriends.org/download.html): Open localhost and SQL database.<br>
+2. [MongoDB](https://www.mongodb.com/try/download/community): Store data locally. <br>
+3. [MongoDB PHP Driver](https://pecl.php.net/package/mongodb): Connect with mongodb database. Download driver that are compatible with your php version. <br>
+4. [Composer](https://getcomposer.org/download/): Dependency management in PHP.
+
+### Steps
+1.  Open downloaded mongodb php driver and copy 'php_mongodb.dll' file into *C:\xampp\php\ext* folder.
+2.  Add the following line in *C:\xampp\php\php.ini*
+```
+extension=php_mongodb.dll
+```
 
 ## Web Interface: 
 Discuss the design and functionality of the web interface, including screenshots if possible.

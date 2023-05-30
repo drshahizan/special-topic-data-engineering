@@ -1,16 +1,37 @@
-<h1 align='center'>Job Portal System</h1>
+<h1 align='center'>Book Rating System</h1>
 <div align="center"><img src="https://programmerblog.net/wp-content/uploads/2017/02/php-mongodb-tutorial.png" height="450"></div>
 
 <br />
 
 ## Introduction: 
 
-In today's digital age, job portals have become a crucial part of the recruitment process, facilitating connections between job seekers and employers. Our group is excited to embark on a collaborative assignment to develop a job portal using MongoDB as the database and PHP as the backend scripting language. Leveraging the powerful capabilities of Visual Studio Code, we aim to create a robust and user-friendly platform that streamlines the job search and hiring process.
+In today's digital age, book rating system can play a role in shaping readers' choices, influencing book sales, and contributing to the overall book ecosystem. Our group is excited to embark on a collaborative assignment to develop a book rating system using MongoDB as the database and PHP as the backend scripting language. Leveraging the powerful capabilities of Visual Studio Code, we aim to create a robust and user-friendly platform that streamlines the book rating with readers satisfaction.
 
-The primary objective of our assignment is to design and implement a feature-rich job portal that provides a seamless experience for both job seekers and employers. By integrating MongoDB as the database and PHP for backend development, we will leverage the flexibility, scalability, and real-time data handling capabilities of these technologies. Our goal is to create a reliable and efficient platform that matches job seekers with relevant opportunities and empowers employers to find the best talent for their organizations.
+The primary objective of our assignment is to provide a standardized and accessible way for readers to evaluate and compare books. By integrating MongoDB as the database and PHP for backend development, we will leverage the flexibility, scalability, and real-time data handling capabilities of these technologies. Our goal is to create a reliable and efficient platform that collect books rating with different reader's perspective and empowers authors to provide better ideas and improve their writing skills.
 
 ## System Design: 
 Describe the system architecture, data requirements, and functionalities.
+
+### Data Requirements
+
+The data requirements include storing and managing books data. Some of the essential data fields are as follows:
+
+<div align="center">
+  
+| Field               | Description                                                  |
+|---------------------|--------------------------------------------------------------|
+| User ID             | A unique identifier for each user.                           |
+| Name                | The user's name.                                             |
+| Email               | The user's email address.                                    |
+| Image               | The user's image (optional).                                 |
+| Post ID             | A unique identifier for each book posted                     |
+| Book Title          | The book's title.                                            |
+| Book Image          | The book's image.                                            | 
+| Review ID           | A unique identifier for each review.                         | 
+| Rating              | User rating with at most 5 stars.                            | 
+| Date                | Timestamp the review added.                                  | 
+  
+</div>
 
 ## Implementation: 
 Explain the step-by-step process of developing the system, including the CRUD operations, data preprocessing, and analysis.

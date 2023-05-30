@@ -33,6 +33,14 @@ The data requirements include storing and managing books data. Some of the essen
   
 </div>
 
+### Functionalities
+
+The key functionalities of the system are as follows:
+1. **Create user, book and reviews**: Users can register and login into the system, admin add books into the system and users add book reviews with ratings.
+2. **Read book reviews**: Users can read the reviews added for specific books.
+3. **Update reviews**: Users can update their particular reviews added.
+4. **Delete reviews**: Users can delete their reviews.
+
 ## Implementation: 
 Explain the step-by-step process of developing the system, including the CRUD operations, data preprocessing, and analysis.
 

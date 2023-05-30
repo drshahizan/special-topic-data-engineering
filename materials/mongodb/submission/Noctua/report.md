@@ -54,21 +54,82 @@ Some of the software that need to be install are as follows:
 
 ### Steps
 1.  Open downloaded mongodb php driver and copy 'php_mongodb.dll' file into *C:\xampp\php\ext* folder.
+
 2.  Add the following line in *C:\xampp\php\php.ini*
 ```
 extension=php_mongodb.dll
 ```
+
 3. Open directory in command prompt or powershell, then install the PHP Library with Composer.
 ```
 composer require mongodb/mongodb
 ```
-4. Open local host and phpmyadmin (SQL) to create a database with table user, posts and reviews.
+
+4. Open local host and phpmyadmin (MySQL) to create a database with table user, posts and reviews.
 <p align="center">
   <img src="images/tb_user.png" alt="Centered Image">
   <img src="images/tb_posts.png" alt="Centered Image">
   <img src="images/tb_reviews.png" alt="Centered Image">
 </p>
 
+5. Create database and collection in mongodb compass of localhost: 27017.
+<p align="center">
+  <img src="images/mongodb1.png" alt="Centered Image">
+</p>
+
+6. Run MongoDB server by running the code below in command prompt run as administrator.
+```
+net start MongoDB
+```
+
+7. Create new file in your directory to connect to **MySQL**.
+```
+<?php 
+
+   $db_name = 'mysql:host=localhost;dbname=reviews_db';
+   $db_user_name = 'root';
+   $db_user_pass = '';
+
+   $conn = new PDO($db_name, $db_user_name, $db_user_pass);
+
+   function create_unique_id(){
+      $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+      $characters_lenght = strlen($characters);
+      $random_string = '';
+      for($i = 0; $i < 20; $i++){
+         $random_string .= $characters[mt_rand(0, $characters_lenght - 1)];
+      }
+      return $random_string;
+   }
+
+   if(isset($_COOKIE['user_id'])){
+      $user_id = $_COOKIE['user_id'];
+   }else{
+      $user_id = '';
+   }
+
+?>
+```
+
+8. Create new file in your directory to connect to **MongoDB**.
+```
+<?php
+      require 'vendor/autoload.php'; // Include the MongoDB PHP driver
+
+      // Connect to MongoDB
+      $mongoClient = new MongoDB\Client("mongodb://localhost:27017");
+
+      // Select a database
+      $database = $mongoClient->selectDatabase('db_book');
+      $collection = $database->selectCollection('books');
+  ?>
+```
+
+### CRUD operations
+1. **Create user, posts and reviews**: tb_user need id, name, email, password and image (optional).tb_posts need id, title and image, tb_reviews need id, post id, user id, rating, title, description and date (timestamp).
+2. **Read posts and reviews**: Any type of user can see both posts and reviews.
+3. **Update posts and reviews**: Admin can update posts, all user can update reviews.
+4. **Delete posts and reviews**: Admin can delete posts, all user can delete reviews.
 
 ## Web Interface: 
 Discuss the design and functionality of the web interface, including screenshots if possible.

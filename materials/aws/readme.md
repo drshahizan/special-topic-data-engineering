@@ -30,27 +30,16 @@ Now there are 10 training courses with badge assessments. Here's how to enroll:
 
 There is not a single page that summarizes how to enroll in different AWS badges, so here you go (all up-to-date) including the latest addition, Cloud Essentials:
 
-- Cloud Essentials: [Link](https://bit.ly/awscloudess)
-- Media & Entertainment: [Link](https://bit.ly/awsmebadge)
-- Architecting: [Link](https://bit.ly/architect23)
-- AWS for Games: [Link](https://go.aws/3l6fYf7)
-- Serverless: [Link](https://go.aws/3UZpFs0)
-- Object Storage: [Link](https://go.aws/3JVneTS)
-- Block Storage: [Link](https://go.aws/3JVneTS)
-- File Storage: [Link](https://go.aws/3JVneTS)
-- Storage Data Migration: [Link](https://go.aws/3JVneTS)
-- Data Protection & Disaster Recovery: [Link](https://go.aws/3JVneTS)
-
 | No | Training Course | Link |
 | -- | -------------------------------------- | :------------------: |
 | 1  | Cloud Essentials | <a href="https://bit.ly/awscloudess" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>|
-| 2  | Media & Entertainment | [Link](https://bit.ly/awsmebadge) |
-| 3  | Architecting | [Link](https://bit.ly/architect23) |
-| 4  | AWS for Games | [Link](https://go.aws/3l6fYf7) |
-| 5  | Serverless | [Link](https://go.aws/3UZpFs0) |
-| 6  | Object Storage | [Link](https://go.aws/3JVneTS) |
-| 7  | Block Storage | [Link](https://go.aws/3JVneTS) |
-| 8  | File Storage | [Link](https://go.aws/3JVneTS) |
-| 9  | Storage Data Migration | [Link](https://go.aws/3JVneTS)|
-| 10 | Data Protection & Disaster Recovery | [Link](https://go.aws/3JVneTS)|
+| 2  | Media & Entertainment | <a href="https://bit.ly/awsmebadge" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>|
+| 3  | Architecting | <a href="https://bit.ly/architect23" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>|
+| 4  | AWS for Games | <a href="https://go.aws/3l6fYf7" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>|
+| 5  | Serverless | <a href="https://go.aws/3UZpFs0" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>|
+| 6  | Object Storage | <a href="https://go.aws/3JVneTS" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>|
+| 7  | Block Storage | <a href="https://go.aws/3JVneTS" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>|
+| 8  | File Storage | <a href="https://go.aws/3JVneTS" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>|
+| 9  | Storage Data Migration | <a href="https://go.aws/3JVneTS" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>|
+| 10 | Data Protection & Disaster Recovery | <a href="https://go.aws/3JVneTS" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>|
 

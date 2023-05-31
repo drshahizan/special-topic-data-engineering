@@ -41,21 +41,16 @@ There is not a single page that summarizes how to enroll in different AWS badges
 - Storage Data Migration: [Link](https://go.aws/3JVneTS)
 - Data Protection & Disaster Recovery: [Link](https://go.aws/3JVneTS)
 
-| No | Training Course                        | Link                                    |
-| -- | -------------------------------------- | --------------------------------------- |
-| 1  | Cloud Essentials                       | <a href="https://bit.ly/awscloudess" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>|
-| 2  | Media & Entertainment                  | [Link](https://bit.ly/awsmebadge)       |
-| 3  | Architecting                           | [Link](https://bit.ly/architect23)      |
-| 4  | AWS for Games                          | [Link](https://go.aws/3l6fYf7)          |
-| 5  | Serverless                             | [Link](https://go.aws/3UZpFs0)          |
-| 6  | Object Storage                         | [Link](https://go.aws/3JVneTS)          |
-| 7  | Block Storage                          | [Link](https://go.aws/3JVneTS)          |
-| 8  | File Storage                           | [Link](https://go.aws/3JVneTS)          |
-| 9  | Storage Data Migration                 | [Link](https://go.aws/3JVneTS)          |
-| 10 | Data Protection & Disaster Recovery    | [Link](https://go.aws/3JVneTS)          |
-
-
-This design uses a table format to present the training courses and their corresponding links in a structured and organized manner. The first column represents the training course name, while the second column contains the link associated with each course.
-
-⚡️ Feel free to share it with friends and help others upskill!
+| No | Training Course | Link |
+| -- | -------------------------------------- | :------------------: |
+| 1  | Cloud Essentials | <a href="https://bit.ly/awscloudess" ><img src="../../images/aws.svg" width="24px" height="24px" ></a>|
+| 2  | Media & Entertainment | [Link](https://bit.ly/awsmebadge) |
+| 3  | Architecting | [Link](https://bit.ly/architect23) |
+| 4  | AWS for Games | [Link](https://go.aws/3l6fYf7) |
+| 5  | Serverless | [Link](https://go.aws/3UZpFs0) |
+| 6  | Object Storage | [Link](https://go.aws/3JVneTS) |
+| 7  | Block Storage | [Link](https://go.aws/3JVneTS) |
+| 8  | File Storage | [Link](https://go.aws/3JVneTS) |
+| 9  | Storage Data Migration | [Link](https://go.aws/3JVneTS)|
+| 10 | Data Protection & Disaster Recovery | [Link](https://go.aws/3JVneTS)|
 

@@ -22,7 +22,7 @@ AWS Academy Lab Project - Cloud Data Pipeline Builder provides students with a p
 ### Lab Project - Cloud Web Application Builder
 AWS Academy Lab Project - Cloud Web Application Builder provides students with a project-based learning experience that reinforces technical skills taught in AWS Academy courses. AWS Academy Lab Projects offer students an opportunity to demonstrate critical thinking, problem-solving, an understanding of software development lifecycle, and communication skills. Each AWS Academy Lab Projects include a real-life scenario, an instructor guide, a student guide, a rubric, and a template with guidance for students to create a presentation of their project solution.
 
-# 😍 New Free Training Courses & Free Badges!
+## New Free Training Courses & Free Badges!
 
 Now there are 10 training courses with badge assessments. Here's how to enroll:
 

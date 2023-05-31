@@ -41,5 +41,24 @@ There is not a single page that summarizes how to enroll in different AWS badges
 - Storage Data Migration: [Link](https://go.aws/3JVneTS)
 - Data Protection & Disaster Recovery: [Link](https://go.aws/3JVneTS)
 
+Here's the suggested markdown file design using a table:
+
+```markdown
+| Training Course                            | Link                                    |
+| ------------------------------------------| --------------------------------------- |
+| Cloud Essentials                           | [Link](https://bit.ly/awscloudess)      |
+| Media & Entertainment                      | [Link](https://bit.ly/awsmebadge)       |
+| Architecting                               | [Link](https://bit.ly/architect23)      |
+| AWS for Games                              | [Link](https://go.aws/3l6fYf7)          |
+| Serverless                                 | [Link](https://go.aws/3UZpFs0)          |
+| Object Storage                             | [Link](https://go.aws/3JVneTS)          |
+| Block Storage                              | [Link](https://go.aws/3JVneTS)          |
+| File Storage                               | [Link](https://go.aws/3JVneTS)          |
+| Storage Data Migration                     | [Link](https://go.aws/3JVneTS)          |
+| Data Protection & Disaster Recovery        | [Link](https://go.aws/3JVneTS)          |
+```
+
+This design uses a table format to present the training courses and their corresponding links in a structured and organized manner. The first column represents the training course name, while the second column contains the link associated with each course.
+
 ⚡️ Feel free to share it with friends and help others upskill!
 

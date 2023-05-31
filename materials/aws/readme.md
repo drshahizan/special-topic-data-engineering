@@ -3,7 +3,7 @@ AWS Academy is a global program that offers educational institutions a comprehen
 
 ## Course AWS Academy
 
-| No | Course |  File |
+| No | Course | Link |
 | :-----: |  ------ | :-----: | 
 | 1 | [Machine Learning for Natural Language Processing](#machine-learning-for-natural-language-processing) |  <a href="https://awsacademy.instructure.com/courses/48679" ><img src="../../images/aws.svg" width="24px" height="24px" ></a> | 
 | 2 | [Data Engineering](#data-engineering) |  <a href="https://awsacademy.instructure.com/courses/48680" ><img src="../../images/aws.svg" width="24px" height="24px" ></a> | 

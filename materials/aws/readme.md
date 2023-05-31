@@ -20,6 +20,6 @@ AWS Academy Data Engineering is designed to help students learn about and get ha
 AWS Academy Lab Project - Cloud Data Pipeline Builder provides students with a project-based learning experience that reinforces technical skills taught in AWS Academy courses. AWS Academy Lab Projects offer students an opportunity to demonstrate critical thinking, problem-solving, an understanding of software development lifecycle, and communication skills. Each AWS Academy Lab Projects include a real-life scenario, an instructor guide, a student guide, a rubric, and a template with guidance for students to create a presentation of their project solution.
 
 
-## Lab Project - Cloud Web Application Builder
+### Lab Project - Cloud Web Application Builder
 AWS Academy Lab Project - Cloud Web Application Builder provides students with a project-based learning experience that reinforces technical skills taught in AWS Academy courses. AWS Academy Lab Projects offer students an opportunity to demonstrate critical thinking, problem-solving, an understanding of software development lifecycle, and communication skills. Each AWS Academy Lab Projects include a real-life scenario, an instructor guide, a student guide, a rubric, and a template with guidance for students to create a presentation of their project solution.
 

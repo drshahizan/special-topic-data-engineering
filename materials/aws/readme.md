@@ -54,6 +54,7 @@ There is not a single page that summarizes how to enroll in different AWS badges
 
 ## Submission
 
+[Muhaimin](https://www.linkedin.com/feed/update/urn:li:activity:7068515580013641728?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7068515580013641728%29)
 Sure, here's the updated table with the `<a href=""><img src="../../images/certificate.svg" width="24px" height="24px">` added to all empty columns:
 
 | No | Name | Github | ML | DE | CL | CW |

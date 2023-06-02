@@ -142,4 +142,10 @@ Sure, here's the updated table with the `<a href=""><img src="../../images/certi
 | 42 | VINCENT BOO EE KHAI | [:octocat:](https://github.com/Vincboo) |  |  |  |  |
 | 43 | YONG ZHI YAN | [:octocat:](https://github.com/yongzy328) |  |  |  |  |
 
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://komarev.com/ghpvc/?username=drshahizan&label=Views&color=0e75b6&style=flat)
+![](https://hit.yhype.me/github/profile?user_id=81284918)

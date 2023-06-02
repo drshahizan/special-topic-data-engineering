@@ -102,54 +102,6 @@ Sure, here's the updated table with the `<a href=""><img src="../../images/certi
 | 42 | VINCENT BOO EE KHAI | [:octocat:](https://github.com/Vincboo) | <a href=""><img src="../../images/certificate.svg" width="24px" height="24px"></a> | <a href=""><img src="../../images/certificate.svg" width="24px" height="24px"></a> | <a href=""><img src="../../images/certificate.svg" width="24px" height="24px"></a> | <a href=""><img src="../../images/certificate.svg" width="24px" height="24px"></a> |
 | 43 | YONG ZHI YAN | [:octocat:](https://github.com/yongzy328) | <a href=""><img src="../../images/certificate.svg" width="24px" height="24px"></a> | <a href=""><img src="../../images/certificate.svg" width="24px" height="24px"></a> | <a href=""><img src="../../images/certificate.svg" width="24px" height="24px"></a> | <a href=""><img src="../../images/certificate.svg" width="24px" height="24px"></a> |
 
-
-
-| No | Name | Github | ML | DE | CL | CW |
-| --- | --- | :---: | --- | --- | --- | --- |
-| 1 | ADAM WAFII BIN AZUAR | [:octocat:](https://github.com/Jokeryde) | <a href="" ><img src="../../images/certificate.svg" width="24px" height="24px" ></a> |  |  |  |
-| 2 | ADRINA ASYIQIN BINTI MD ADHA | [:octocat:](https://github.com/adrinaasyiqin) |  |  |  |  |
-| 3 | AFIF HAZMIE ARSYAD BIN AGUS | [:octocat:](https://github.com/AfifHazmie) |  |  |  |  |
-| 4 | AHMAD AIMAN HAFIZI BIN MUHAMMAD | [:octocat:](https://github.com/AimanHafizi619) |  |  |  |  |
-| 5 | AHMAD MUHAIMIN BIN AHMAD HAMBALI | [:octocat:](https://github.com/Mincridible) |  |  |  |  |
-| 6 | AMIRAH RAIHANAH BINTI ABDUL RAHIM | [:octocat:](https://github.com/raihanarahim) |  |  |  |  |
-| 7 | CHLOE RACQUELMAE KENNEDY | [:octocat:](https://github.com/Racquelmae) |  |  |  |  |
-| 8 | CHONG KAI ZHE | [:octocat:](https://github.com/Chongkz29) |  |  |  |  |
-| 9 | EDDIE WONG CHUNG PHENG | [:octocat:](https://github.com/Prowong01) |  |  |  |  |
-| 10 | FARAH IRDINA BINTI AHMAD BAHARUDIN | [:octocat:](https://github.com/arasayooo) |  |  |  |  |
-| 11 | GOO YE JUI | [:octocat:](https://github.com/yejui626) |  |  |  |  |
-| 12 | HONG PEI GEOK | [:octocat:](https://github.com/peiyu00) |  |  |  |  |
-| 13 | KELVIN EE | [:octocat:](https://github.com/Kelvinnn-2) |  |  |  |  |
-| 14 | KONG JIA ROU | [:octocat:](https://github.com/jrkong2001utm) |  |  |  |  |
-| 15 | LEE CAI XUAN | [:octocat:](https://github.com/leecaixuan) |  |  |  |  |
-| 16 | LEE JIA XIAN | [:octocat:](https://github.com/Leejxx) |  |  |  |  |
-| 17 | LEE MING QI | [:octocat:](https://github.com/MQiLEE) |  |  |  |  |
-| 18 | LOW JUNYI | [:octocat:](https://github.com/LowJunyi2001) |  |  |  |  |
-| 19 | LUQMAN ARIFF BIN NOOR AZHAR | [:octocat:](https://github.com/samsamsambal) |  |  |  |  |
-| 20 | MADIHAH BINTI CHE ZABRI | [:octocat:](https://github.com/Madihah04) |  |  |  |  |
-| 21 | MADINA SURAYA BINTI ZHARIN | [:octocat:](https://github.com/madinasuraya) |  |  |  |  |
-| 22 | MAIZATUL AFRINA SAFIAH BINTI SAIFUL AZWAN | [:octocat:](https://github.com/maizatulafrina) |  |  |  |  |
-| 23 | MIKHEL ADAM BIN MUHAMMAD EZRIN | [:octocat:](https://github.com/HUNK12) |  |  |  |  |
-| 24 | MUHAMMAD DINIE HAZIM BIN AZALI | [:octocat:](https://github.com/DinieHazim) |  |  |  |  |
-| 25 | MUHAMMAD IMRAN HAKIMI BIN MOHD SHUKRI | [:octocat:](https://github.com/muhdimranh) |  |  |  |  |
-| 26 | MUHAMMAD NAQUIB BIN ZAKARIA | [:octocat:](https://github.com/nqbzkr01) |  |  |  |  |
-| 27 | MYZA NAZIFA BINTI NAZRY | [:octocat:](https://github.com/myzanazifah) |  |  |  |  |
-| 28 | NAYLI NABIHAH BINTI JASNI | [:octocat:](https://github.com/nellyexey) |  |  |  |  |
-| 29 | NUR IRDINA ALIAH BINTI ABDUL WAHAB | [:octocat:](https://github.com/Deelia99) |  |  |  |  |
-| 30 | NUR IZZAH MARDHIAH BINTI RASHIDI | [:octocat:](https://github.com/izzahmardhiah) |  |  |  |  |
-| 31 | NUR SYAMALIA FAIQAH BINTI MOHD KAMAL | [:octocat:](https://github.com/nursyamalia) |  |  |  |  |
-| 32 | NURARISSA DAYANA BINTI MOHD SUKRI | [:octocat:](https://github.com/yanakunn) |  |  |  |  |
-| 33 | NURFARRAHIN BINTI CHE ALIAS | [:octocat:](https://github.com/FarrahinUtm) |  |  |  |  |
-| 34 | ONG HAN WAH | [:octocat:](https://github.com/ongwah) |  |  |  |  |
-| 35 | QAISARA BINTI ROHZAN | [:octocat:](https://github.com/qaisarrra) |  |  |  |  |
-| 36 | RADIN DAFINA BINTI RADIN ZULKAR NAIN | [:octocat:](https://github.com/radindafina) |  |  |  |  |
-| 37 | RISHMA FATHIMA BINTI BASHER | [:octocat:](https://github.com/rishmafathima) |  |  |  |  |
-| 38 | SAKINAH AL'IZZAH BINTI MOHD ASRI | [:octocat:](https://github.com/sakinahalizzah) |  |  |  |  |
-| 39 | SINGTHAI SRISOI | [:octocat:](https://github.com/singthai-srisoi) |  |  |  |  |
-| 40 | TAN YONG SHENG | [:octocat:](https://github.com/TanYongSheng728) |  |  |  |  |
-| 41 | TERENCE A/L LOORTHANATHAN | [:octocat:](https://github.com/Terence172) |  |  |  |  |
-| 42 | VINCENT BOO EE KHAI | [:octocat:](https://github.com/Vincboo) |  |  |  |  |
-| 43 | YONG ZHI YAN | [:octocat:](https://github.com/yongzy328) |  |  |  |  |
-
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

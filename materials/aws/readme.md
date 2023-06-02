@@ -48,7 +48,7 @@ Sure! Here's the updated table with the "ID" column removed:
 
 | No | Name | Github | ML | DE | CL | CW |
 | --- | --- | :---: | --- | --- | --- | --- |
-| 1 | ADAM WAFII BIN AZUAR | [:octocat:](https://github.com/Jokeryde) |  |  |  |  |
+| 1 | ADAM WAFII BIN AZUAR | [:octocat:](https://github.com/Jokeryde) | <a href="" ><img src="../../images/certificate.svg" width="24px" height="24px" ></a> |  |  |  |
 | 2 | ADRINA ASYIQIN BINTI MD ADHA | [:octocat:](https://github.com/adrinaasyiqin) |  |  |  |  |
 | 3 | AFIF HAZMIE ARSYAD BIN AGUS | [:octocat:](https://github.com/AfifHazmie) |  |  |  |  |
 | 4 | AHMAD AIMAN HAFIZI BIN MUHAMMAD | [:octocat:](https://github.com/AimanHafizi619) |  |  |  |  |

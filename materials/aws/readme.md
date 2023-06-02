@@ -1,3 +1,12 @@
+<a href="https://github.com/drshahizan/special-topic-data-engineering/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/special-topic-data-engineering" alt="Stars Badge"/></a>
+<a href="https://github.com/drshahizan/special-topic-data-engineering/network/members"><img src="https://img.shields.io/github/forks/drshahizan/special-topic-data-engineering" alt="Forks Badge"/></a>
+<a href="https://github.com/drshahizan/special-topic-data-engineering/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/special-topic-data-engineering" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/drshahizan/special-topic-data-engineering/issues"><img src="https://img.shields.io/github/issues/drshahizan/special-topic-data-engineering" alt="Issues Badge"/></a>
+<a href="https://github.com/drshahizan/special-topic-data-engineering/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/special-topic-data-engineering?color=2b9348"></a>
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/special-topic-data-engineering)
+
+Don't forget to hit the :star: if you like this repo.
+
 # AWS Academy
 AWS Academy is a global program that offers educational institutions a comprehensive curriculum focused on cloud computing using Amazon Web Services (AWS). The program provides institutions with access to up-to-date learning materials, hands-on labs, and assessments to teach students about various cloud computing topics. By participating in AWS Academy, students gain practical skills and knowledge in using AWS services, preparing them for careers in cloud computing and related fields. The program also offers opportunities for students to earn industry-recognized AWS Certifications, enhancing their employability in the growing cloud computing industry. Overall, AWS Academy serves as a valuable bridge between academia and industry, equipping students with in-demand cloud computing skills.
 

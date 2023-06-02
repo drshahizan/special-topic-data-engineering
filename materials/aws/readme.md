@@ -47,7 +47,7 @@ There is not a single page that summarizes how to enroll in different AWS badges
 Sure! Here's the updated table with the "ID" column removed:
 
 | No | Name | Github | ML | DE | CL | CW |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | :---: | --- | --- | --- | --- |
 | 1 | ADAM WAFII BIN AZUAR | [:octocat:](https://github.com/Jokeryde) |  |  |  |  |
 | 2 | ADRINA ASYIQIN BINTI MD ADHA | [:octocat:](https://github.com/adrinaasyiqin) |  |  |  |  |
 | 3 | AFIF HAZMIE ARSYAD BIN AGUS | [:octocat:](https://github.com/AfifHazmie) |  |  |  |  |

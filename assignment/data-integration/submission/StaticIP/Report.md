@@ -91,6 +91,7 @@ Launch data factory.
 <br>
 
 ### 12. Output of Data Sources to SQL
+In the Azure Data Factory Portal, select SQL database and click "Query Editor (Preview)". Type "select * from basic_movie_info" in the query to get the output of the data source.
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Images/output.jpg">
 
 <br>

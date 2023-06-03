@@ -92,16 +92,21 @@ Launch data factory.
 
 ### 12. Output of Data Sources to SQL
 In the Azure Data Factory Portal, select SQL database and click "Query Editor (Preview)". Type "select * from basic_movie_info" in the query to get the output of the data source.
+
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Images/output.jpg">
 
 <br>
 
 ### 13. Create Data Flow 
+To create data flow, select a dataset such as a CSV, TXT or JSON file in the Azure Data Factory Portal. Then, click on the "+" icon to add different functions such as join, select, removeDuplicateRows and output to perform different tasks.
+
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Images/dataflow.jpg">
 
 <br>
 
 ### 14. Create Merge Datasets Pipeline 
+
+
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Images/merge%20dataset.jpg">
 
 <br>

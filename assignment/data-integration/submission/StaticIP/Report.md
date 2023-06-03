@@ -105,7 +105,7 @@ To create data flow, select a dataset such as a CSV, TXT or JSON file in the Azu
 <br>
 
 ### 14. Create Merge Datasets Pipeline 
-
+Then, click "Pipeline" to create merge datasets pipeline. Drag the data flow created just now and click "debug" to debug it. The status will show succeeded when the pipeline is executed successfully.
 
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Images/merge%20dataset.jpg">
 

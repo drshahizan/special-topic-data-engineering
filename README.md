@@ -24,6 +24,8 @@ data engineering, database systems and technologies. Various topics of interests
 - [Project and group names](./materials/project-group.md)
 - [Guideline for Data Science Proposal](./materials/project-guidelines.md)
 - [Classification and visualization of twitter sentiment analysis towards online food delivery services in Malaysia](./images/shahirah.pdf)
+- [Railway ticket analytics for business insights](./images/asyikin.pdf)
+- [Finance performance analytics for business insights](./images/nurfatihah.pdf)
 
 
 ## Notes

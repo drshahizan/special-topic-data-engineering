@@ -20,7 +20,7 @@ data engineering, database systems and technologies. Various topics of interests
 3. [Task 1: Additional Notes](./materials/task1.md)
 
 ### Project
-- [Description of the project's topic](./materials/mongodb-ds.md)
+- [Description of the project's topic](./materials/mongodb/mongodb-ds.md)
 - [Project and group names](./materials/project-group.md)
 - [Guideline for Data Science Proposal](./materials/project-guidelines.md)
 - [Classification and visualization of twitter sentiment analysis towards online food delivery services in Malaysia](./images/shahirah.pdf)

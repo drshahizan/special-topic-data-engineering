@@ -68,7 +68,7 @@ data engineering, database systems and technologies. Various topics of interests
 
 | Project | Topic | Files |
 | :-----: | ----- | :------: | 
-| 1| Final project |<a href="./project/project/readme.md" ><img src="./images/meeting.png" width="36px" height="36px" ></a> |
+| 1| Final project |<a href="./project/readme.md" ><img src="./images/meeting.png" width="36px" height="36px" ></a> |
 
 
 ## Tools

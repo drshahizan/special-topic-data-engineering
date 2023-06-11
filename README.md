@@ -64,6 +64,13 @@ data engineering, database systems and technologies. Various topics of interests
 - [GitHub Desktop](https://desktop.github.com/)
 - [Udemy: Beginner VS Code](https://www.udemy.com/course/beginner-vs-code/)
 
+## Project
+
+| Project | Topic | Files |
+| :-----: | ----- | :------: | 
+| 1| Final project |<a href="./project/project/readme.md" ><img src="./images/folder.png" width="36px" height="36px" ></a> |
+
+
 ## Tools
 Diagrams are visual representations of information or data that help convey complex concepts, processes or systems in a clear and concise manner. Flowcharts are diagrams that use shapes and arrows to illustrate the steps in a process or algorithm [**[More info...]**](https://github.com/drshahizan/software-engineering/blob/main/materials/tools.md).
 

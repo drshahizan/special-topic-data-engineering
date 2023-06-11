@@ -10,6 +10,33 @@ Don't forget to hit the :star: if you like this repo.
 
 # Project: Data Science
 
+Your group will develop a data science project focusing on data analysis, utilizing MongoDB as the database management system. The project will also involve integration with external APIs and data scraping from relevant sources. The following are the key components and requirements for the project:
+
+1. Data Collection and Storage:
+   - Implement data scraping techniques to extract relevant data from external websites or online sources related to the project's domain.
+   - Store the collected data in a MongoDB database for further analysis and processing.
+
+2. Data Preprocessing and Cleaning:
+   - Perform necessary preprocessing steps on the collected data, including data cleaning, transformation, and normalization to ensure data quality and consistency.
+
+3. Data Analysis and Visualization:
+   - Apply appropriate data analysis techniques, such as statistical analysis, machine learning algorithms, or data mining, to gain insights and extract meaningful patterns from the collected data.
+   - Utilize suitable data visualization tools and libraries to present the analyzed data in an understandable and visually appealing manner.
+
+4. MongoDB Integration:
+   - Design the database schema in MongoDB to efficiently store and retrieve the project's data.
+   - Utilize MongoDB's features and functionalities, such as indexes and aggregation pipelines, to optimize data querying and processing.
+
+5. Integration with External APIs:
+   - Identify relevant external APIs that can enhance the functionality or provide additional data for the project.
+   - Implement API integration to retrieve data from external sources, perform actions based on API responses, or provide data to external applications through APIs.
+
+6. Project Presentation:
+   - Prepare a comprehensive presentation showcasing the project's objectives, methodology, data analysis techniques, visualizations, and insights gained.
+   - Highlight the utilization of MongoDB, integration with external APIs, and the data scraping process employed.
+
+Throughout the project, make sure to follow best practices for data science projects, including proper documentation, code organization, and version control. Test and validate the results of your data analysis to ensure accuracy and reliability.
+
 ## 📚 Project and group names
 
 | No | Topic | Group |  Project | 
@@ -26,42 +53,12 @@ Don't forget to hit the :star: if you like this repo.
 | 10 | Time-series analytics dashboard|||
 | 11 | Recommendation engine | CodeX| 11 |
 
-
-## Project Theme
-The theme for your project is web responsiveness with a focus on Malaysian culture. This means that your group will develop a functional data-centric online system that is both responsive and able to adapt to different devices and screen sizes, as well as incorporate elements of Malaysian culture.
-
-To achieve this theme, your group may incorporate various design elements such as colors, graphics, and images that represent Malaysian culture. These elements can be used to create a unique and visually appealing website that showcases the beauty and diversity of Malaysian culture.
-
-Furthermore, your group may also consider incorporating responsive design techniques such as fluid grids, flexible images, and media queries to ensure that the website is optimized for viewing on different devices, including desktops, laptops, tablets, and smartphones.
-
-By combining web responsiveness and Malaysian culture, your group can create an innovative and engaging online system that reflects the values and traditions of Malaysia while also providing a seamless user experience across different devices.
-
-## Example: A responsive website about Malaysian culture
-
-### Homepage
-- The homepage features a banner image of a cultural landmark or festival in Malaysia, such as the Petronas Twin Towers or the Thaipusam Festival.
-- The homepage also includes a navigation menu that is optimized for both desktop and mobile devices, allowing users to easily access different sections of the website.
-- The homepage could also feature a "Featured Article" section, highlighting a piece of Malaysian culture, such as a traditional dish or a local legend.
-
-### Culture Section
-- The Culture section could include articles on various aspects of Malaysian culture, such as food, clothing, music, and dance.
-- Each article would feature images and descriptions of different cultural practices, as well as embedded videos that showcase traditional performances and festivals.
-- The Culture section would also be optimized for both desktop and mobile devices, with a responsive design that ensures a seamless user experience.
-
-### Events Section
-- The Events section could highlight upcoming cultural events and festivals in Malaysia, such as the Hari Raya Aidilfitri or the Georgetown Festival.
-- The section would include a calendar view that is optimized for both desktop and mobile devices, allowing users to easily browse and filter through different events.
-- Each event listing would include details on the location, time, and description of the event, as well as images and videos from past iterations of the festival.
-
-Overall, the website would be optimized for both desktop and mobile devices, with a responsive design that ensures a seamless user experience. It would showcase the diversity and beauty of Malaysian culture through rich multimedia content, while also providing users with up-to-date information on cultural events and practices in the country.
-
-## Project Description
-
-For the final project, your group will develop a functional data-centric online system using PHP. The minimum requirements for the implemented system are as follows:
+## Project Requirements
+The minimum requirements for the implemented system are as follows:
 
 1. The developed system must be functional and operated online.
 2. The developed system must be data-centric and connected to a database.
-3. The developed system must be implemented using the programming languages taught in this class, including HTML, CSS, JavaScript, PHP, and MySQL.
+3. The developed system must be implemented using the programming languages taught in this class, including HTML, CSS, JavaScript, Python, and a choice between MySQL and MongoDB as the database management system.
 4. The system should not be developed through any open-source-based systems.
 5. The database must consist of at least five tables.
 6. The developed system must incorporate the following capabilities:
@@ -70,9 +67,22 @@ For the final project, your group will develop a functional data-centric online 
    - User Verification capabilities
    - Varied User Access/Level capabilities
 7. You may also incorporate:
-   - Cookie
-   - Any added functions, such as input validation using JavaScript (highlight during presentation)
+   - Cookies for session management and user tracking
+   - Any additional functions, such as input validation using JavaScript (highlight during presentation)
+   - Data scraping from external sources using web scraping techniques
+   - Integration with external APIs for data retrieval or other functionalities
    - A clean, consistent, and attractive presentation using HTML and CSS.
+
+Please note that you have the option to choose either MySQL and MongoDB as the database management system for your project. Ensure that your system design and implementation are compatible with the chosen database system.
+
+Throughout the development process, make sure to follow best practices for web application development and adhere to security standards. Test your system thoroughly to ensure its functionality, reliability, and usability.
+
+If you decide to incorporate data scraping, you should implement the necessary techniques to extract data from external websites and integrate it into your system. Ensure that you comply with legal and ethical considerations when scraping data.
+
+Additionally, if you choose to integrate external APIs, you should identify relevant APIs that can enhance the functionality of your system. This may involve retrieving data from external sources, performing actions based on API responses, or providing data to external applications through APIs.
+
+During the project presentation, highlight the features and functionalities you have implemented, showcase the database structure, demonstrate the data scraping techniques used, and explain the integration with external APIs if applicable.
+
 
 ## Codebase structure
 An example of what the codebase structure for a Malaysian culture system could look like, including the different folders and files that would be included:

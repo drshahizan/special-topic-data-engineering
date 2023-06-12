@@ -186,5 +186,7 @@ We are committed to implementing best practices, ensuring data security, and opt
 Overall, our project has successfully addressed the challenges of building a dynamic book review portal by leveraging the strength of MongoDB and PHP integration. By creating a user-friendly platform that connects readers with authors, we have made a significant impact on the book market, improving the overall efficiency of the book search and reviewing process. We are proud of our achievement and look forward to further enhancing the book review system based on user feedback and evolving market needs.
 
 ## References: 
-Include a list of sources used in your research and development.
+1. [How to use MongoDB with PHP](https://www.youtube.com/watch?v=WFrZB1Zr6lo)
+
+2. [CRUD MongoDB with PHP](https://www.youtube.com/watch?v=zogIgFz3NWg&t=277s)
 

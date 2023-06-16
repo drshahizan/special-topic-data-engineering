@@ -24,17 +24,6 @@ Don't forget to hit the :star: if you like this repo.
 | 10 | Time-series analytics dashboard|||
 | 11 | Recommendation engine | CodeX| 11 |
 
-### Contents:
-- [Course Outline](#course-outline)
-- [Introduction to Web Programming](#introduction-to-web-programming)
-- [Visual Studio Code](#visual-studio-code)
-   - [Video](#-video)
-   - [Useful Links](#useful-links)
-- [Code Quality Guide](#code-quality-guide)
-- [HTML](#html)
-   - [Useful Links](#useful-links-1)
-   - [E-book](#e-book)
-
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

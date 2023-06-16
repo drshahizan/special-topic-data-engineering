@@ -3,7 +3,7 @@
   <img src="images/books.png" alt="Centered Image">
 </p>
 
-<p>Book rating systems are used to evaluate and express the quality or popularity of books. These systems help readers make informed decisions about which books to read and provide feedback to authors and publishers. Our group is excited to collaborate on this assignment, leveraging the power of MongoDB-PHP integration in Visual Studio Code to build a dynamic and feature-rich job portal. By incorporating cutting-edge technologies and focusing on user experience, we aim to deliver a robust platform that simplifies the book rating process, helps people to get an overview of the books before buying it, and helps authors assesing their on works by feedbacks from the readers. </p>
+<p>Book rating systems are used to evaluate and express the quality or popularity of books. These systems help readers make informed decisions about which books to read and provide feedback to authors and publishers. Our group is excited to collaborate on this assignment, leveraging the power of MongoDB-PHP integration in Visual Studio Code to build a dynamic and feature-rich book review portal. By incorporating cutting-edge technologies and focusing on user experience, we aim to deliver a robust platform that simplifies the book rating process, helps people to get an overview of the books before buying it, and helps authors assesing their on works by feedbacks from the readers. </p>
 
 
 <h3><p align='center'>Group Members</p></h3>
@@ -45,7 +45,7 @@
 
 ### 📂Folder content:
 
-* [📖Report]()
+* [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Noctua/report.md)
 
 
 

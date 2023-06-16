@@ -20,9 +20,13 @@ data engineering, database systems and technologies. Various topics of interests
 3. [Task 1: Additional Notes](./materials/task1.md)
 
 ### Project
-- [Description of the project's topic](./materials/mongodb-ds.md)
+- [Description of the project's topic](./materials/mongodb/mongodb-ds.md)
 - [Project and group names](./materials/project-group.md)
 - [Guideline for Data Science Proposal](./materials/project-guidelines.md)
+- [Classification and visualization of twitter sentiment analysis towards online food delivery services in Malaysia](./images/shahirah.pdf)
+- [Railway ticket analytics for business insights](./images/asyikin.pdf)
+- [Finance performance analytics for business insights](./images/nurfatihah.pdf)
+
 
 ## Notes
 | No | Module | Description | Notes |
@@ -59,6 +63,13 @@ data engineering, database systems and technologies. Various topics of interests
 - [VS Code Live SHARE | How to use LiveShare in VS code for live online collaboration [ Quick Guide ]](https://www.youtube.com/watch?v=wog5xNQegY0)
 - [GitHub Desktop](https://desktop.github.com/)
 - [Udemy: Beginner VS Code](https://www.udemy.com/course/beginner-vs-code/)
+
+## Project
+
+| Project | Topic | Files |
+| :-----: | ----- | :------: | 
+| 1| Final project |<a href="./project/readme.md" ><img src="./images/meeting.png" width="36px" height="36px" ></a> |
+
 
 ## Tools
 Diagrams are visual representations of information or data that help convey complex concepts, processes or systems in a clear and concise manner. Flowcharts are diagrams that use shapes and arrows to illustrate the steps in a process or algorithm [**[More info...]**](https://github.com/drshahizan/software-engineering/blob/main/materials/tools.md).

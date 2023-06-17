@@ -9,6 +9,7 @@
 * [Methodology](#️-methodology)
 * [Data Analysis](#️-data-analysis)
 * [Visualization](#️-visualization)
+* [Insight](#️-insight)
 * [Conclusion](#️-conclusion)
 
 ## Introduction

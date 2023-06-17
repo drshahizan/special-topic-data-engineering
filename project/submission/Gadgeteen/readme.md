@@ -16,7 +16,7 @@ git clone https://github.com/drshahizan/learn-django.git](https://github.com/drs
 Once you have cloned this repository, locate to this project folder:
 
 ```python
-cd C:\Users\user\learn-django\materials\assignment\submission\Gadgeteen\online_edu_platform\gadgeteen
+cd C:\Users\user\Desktop\GitHub\special-topic-data-engineering\project\submission\Gadgeteen\chatgpt_sentiment
 ```
 
 ### 3. Create a virtual environment

@@ -70,13 +70,13 @@ The data for this project was collected using web scraping techniques, specifica
 
 
 ## Data Analysis
-1.``Data Scraping ``: Data Scraping was made using snscrape
+1.``Data Scraping ``: Data Scraping was made using snscrape. To scrape data from Twitter, access to the Twitter API (Application Programming Interface) was required. The API provides developers with access to Twitter's data, allowing them to retrieve tweets based on specific criteria, such as keywords, hashtags, or user profiles. We also determined the search parameters for collecting tweets related to mental health. This includes identifying relevant keywords, hashtags, or user profiles associated with mental health topics. For example, keywords like "mental health was used to retrieve tweets related to mental health discussions.
 
-2.``Data Cleaning and Preprosessing``: Data Cleaning and Preprosessing such as  text cleaning, tokenization, stopword, lemmatization - nltk
+2.``Data Cleaning and Preprosessing``: Data Cleaning and Preprosessing such as  text cleaning, tokenization, stopword, lemmatization. Removed the irrelevant information from the collected tweets, such as URLs, mentions, hashtags, special characters, or emojis. These elements do not contribute to sentiment analysis and can introduce noise into the data. Tokenize the tweet text by breaking it down into individual words or tokens. Tokenization is a crucial step in natural language processing (NLP) that enables further analysis at the word level.
 
-3.``Exploratory Data Analysis (EDA) and Visualization``: Exploratory Data Analysis (EDA) and Visualization using pandas, plotly
+3.``Exploratory Data Analysis (EDA) and Visualization``: Exploratory Data Analysis (EDA) and Visualization using pandas, plotly. Analyzed the distribution of sentiments in the dataset. Generate visualizations, such as bar charts or pie charts, to display the proportions of positive, negative, and neutral sentiments. This provides an overview of the sentiment landscape surrounding mental health discussions on Twitter. Conduct word frequency analysis to identify the most frequently used words or terms in the dataset. Generate word clouds or bar charts displaying the top words to understand the prevalent topics and themes associated with mental health. This analysis can highlight common concerns, keywords, or hashtags that resonate with Twitter users.
 
-4.``Sentiment Analysis``:Extracted the relevant features from the preprocessed tweets.
+4.``Sentiment Analysis``:Extracted the relevant features from the preprocessed tweets. Once the text is preprocessed, sentiment classification models are used to assign sentiment labels to each tweet. The sentiment labels typically include positive, negative, or neutral, indicating the sentiment expressed in the tweet. After the sentiment classification model is applied to the tweets, sentiment scores can be assigned to quantify the intensity or polarity of the sentiment expressed in each tweet. Sentiment scores can range from -1 (most negative) to 1 (most positive). These scores provide a more nuanced understanding of sentiment variations within the dataset.
 
 
 ## Visualization

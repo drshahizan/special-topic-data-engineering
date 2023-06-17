@@ -55,6 +55,7 @@ The data for this project was collected using web scraping techniques, specifica
 
 ## Methodology
 1.``Data Collection``: assemble a dataset of tweets about mental health. This was accomplished by using the Twitter API to gather tweets with pertinent mental health hashtags or keywords. There are enough different tweets in the dataset to guarantee a representative sample.
+
 2.``Data Preprocessing``: Clean the collected tweets to remove noise and irrelevant information. This involves removing URLs, mentions, special characters, and emojis. Additionally, perform text normalization techniques like lowercase conversion, removing stopwords, and handling abbreviations or slang to standardize the text.
 
 3.``Sentiment Labeling``: Apply the trained model to classify the sentiment of each tweet in the dataset. The model assigns a sentiment label (positive, negative, or neutral) to each tweet based on its learned patterns and the extracted features.

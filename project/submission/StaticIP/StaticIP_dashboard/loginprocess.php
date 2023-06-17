@@ -23,15 +23,7 @@ if(isset($_POST['submit'])){
 			//set session 
 			$_SESSION['u_ic'] = session_id();
 			$_SESSION['uic'] = $fic;
-
-			if($row['u_type'] == 1) //admin
-			{
-				header ('Location: a_vehicle.php');
-			}
-			else //customer 
-			{
-				header ('Location: customer.php');
-			}
+			header ('Location: index.php');
 		}
 		
 		else

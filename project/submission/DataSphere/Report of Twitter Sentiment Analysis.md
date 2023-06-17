@@ -68,9 +68,15 @@ The data for this project was collected using web scraping techniques, specifica
 
 
 
-
-
 ## Data Analysis
+1.``Data Scraping ``: Data Scraping was made using snscrape
+
+2.``Data Cleaning and Preprosessing``: Data Cleaning and Preprosessing such as  text cleaning, tokenization, stopword, lemmatization - nltk
+
+3.``Exploratory Data Analysis (EDA) and Visualization``: Exploratory Data Analysis (EDA) and Visualization using pandas, plotly
+
+4.``Sentiment Analysis``:Extracted the relevant features from the preprocessed tweets.
+
 
 ## Visualization
 

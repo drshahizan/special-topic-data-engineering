@@ -9,7 +9,7 @@ Steps to start the project:
 Open your terminal or command prompt and run the following command:
 
 ```python
-git clone https://github.com/drshahizan/learn-django.git
+git clone https://github.com/drshahizan/learn-django.git](https://github.com/drshahizan/special-topic-data-engineering.git
 ```
 
 ### 2. CD to this project folder

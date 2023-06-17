@@ -1,0 +1,101 @@
+.bs() {
+	.box-sizing(border-box);
+}
+
+.rounded(@radius: @border_radius) {
+	.border-radius(@radius);
+}
+
+.transall(@time: 300ms) {
+	.transition(~"all @{time} ease-in-out");
+}
+
+.transnone() {
+	.transition(~"none");
+}
+
+.input-reset() {
+	background: none;
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+}
+
+.placeholder-color(@color) {
+	
+	::-webkit-input-placeholder {
+		color:@color;
+	}
+	
+	:-moz-placeholder {
+		color:@color;
+	}
+	
+	::-moz-placeholder {
+		color:@color;
+	}
+	
+	:-ms-input-placeholder {
+		color: @color;
+	}
+}
+
+
+// Combinations
+.default() {
+	background-color: @default;
+	color: @default_text;
+}
+
+.primary() {
+	background-color: @primary;
+	color: @primary_text;
+}
+
+.secondary() {
+	background-color: @secondary;
+	color: @secondary_text;
+}
+
+.success() {
+	background-color: @success;
+	color: @success_text;
+}
+
+.info() {
+	background-color: @info;
+	color: @info_text;
+}
+
+.warning() {
+	background-color: @warning;
+	color: @warning_text;
+}
+
+.danger() {
+	background-color: @danger;
+	color: @danger_text;
+}
+
+
+
+
+// Scrollbar Styling
+.custom-scrollbar() {
+    // http://css-tricks.com/custom-scrollbars-in-webkit/
+    &::-webkit-scrollbar {
+            width: 5px;
+    }
+    &::-webkit-scrollbar-track {
+            width: 5px;
+            background-color: @hover_bg;
+    }
+    &::-webkit-scrollbar-thumb {
+            background-color: darken(@default, 10%);
+    }
+    //&::-webkit-scrollbar-button {}
+    //&::-webkit-scrollbar-track-piece {}
+    //&::-webkit-scrollbar-corner {}
+    //&::-webkit-resizer {}
+}

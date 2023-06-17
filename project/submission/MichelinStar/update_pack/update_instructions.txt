@@ -1,0 +1,10 @@
+Please follow the instructions carefully.
+
+PLEASE MAKE SURE THAT YOU ARE RUNNING THE 2.3 VERSION BEFORE UPDATING TO 2.4
+IF YOU ARE ALREADY RUNNING THE 2.4 VERSION THERE IS NO NEED TO UPDATE… Thank You
+
+- Go to website settings from settings menu in admin panel
+- Move to the section 'Update Product' on that page
+- Upload the file 'update_2.4.zip' which is located at "update_pack" folder inside your copy of Neoflex app downloaded from Codecanyon
+- Hit the button 'install update'
+- That's it

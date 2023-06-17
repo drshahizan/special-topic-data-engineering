@@ -1,0 +1,104 @@
+/*------------------------------------
+  Dropzone
+------------------------------------*/
+
+.u-dropzone {
+  width: 100%;
+  background-color: $dropzone-bg-color;
+  border: $dropzone-border-width $dropzone-border-style $dropzone-border-color;
+  border-radius: $dropzone-border-radius;
+  cursor: pointer;
+  padding: $dropzone-padding;
+  display: flex;
+  flex-wrap: wrap;
+
+  .dz-message {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dz-details {
+    margin-bottom: 1rem;
+  }
+
+  .dz-file-preview {
+    background-color: $dropzone-filepreview-bg-color;
+    @include border-radius($dropzone-filepreview-border-radius);
+    padding: $dropzone-filepreview-padding;
+    box-shadow: $dropzone-filepreview-shadow;
+  }
+
+  .dz-file-wrapper {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .dz-filename {
+    margin-bottom: .25rem;
+  }
+
+  .dz-img {
+    max-width: $dropzone-img-max-width;
+    border: $dropzone-img-border-width $dropzone-img-border-style $dropzone-img-border-color;
+    @include border-radius($dropzone-img-border-radius);
+    padding: $dropzone-img-padding;
+    margin-right: .75rem;
+  }
+
+  .dz-close-icon,
+  .dz-size {
+    color: $dropzone-size-color;
+  }
+
+  .dz-title {
+    font-size: $dropzone-title-font-size;
+    font-weight: $dropzone-title-font-weight;
+  }
+
+  .dz-size {
+    font-size: $dropzone-size-font-size;
+  }
+
+  .dz-file-abbr {
+    display: inline-block;
+    width: $dropzone-abbr-width;
+    height: $dropzone-abbr-height;
+    line-height: $dropzone-abbr-line-height;
+    font-weight: $dropzone-abbr-font-weight;
+    font-size: $dropzone-abbr-font-size;
+    color: $dropzone-abbr-color;
+    text-align: center;
+    background-color: $dropzone-abbr-bg-color;
+    border-radius: $dropzone-abbr-border-radius;
+    margin-right: .75rem;
+  }
+
+  [data-dz-thumbnail]:not([src]) {
+    display: none;
+    margin-bottom: 0;
+  }
+
+  .dz-progress {
+    margin-bottom: 1rem;
+  }
+
+  &.dz-started .u-dropzone__message,
+  .dz-processing .dz-error-mark,
+  .dz-processing .dz-success-mark {
+    display: none;
+  }
+
+  .dz-processing.dz-error .dz-error-mark,
+  .dz-processing.dz-success .dz-success-mark {
+    display: block;
+  }
+
+  .dz-processing .dz-error-mark {
+    color: $dropzone-error-color;
+  }
+
+  .dz-processing .dz-success-mark {
+    color: $dropzone-success-color;
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "name": "google/recaptcha",
+    "description": "Client library for reCAPTCHA, a free service that protects websites from spam and abuse.",
+    "type": "library",
+    "keywords": ["recaptcha", "captcha", "spam", "abuse"],
+    "homepage": "https://www.google.com/recaptcha/",
+    "license": "BSD-3-Clause",
+    "support": {
+        "forum": "https://groups.google.com/forum/#!forum/recaptcha",
+        "source": "https://github.com/google/recaptcha"
+    },
+    "require": {
+        "php": ">=8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10",
+        "friendsofphp/php-cs-fixer": "^3.14",
+        "php-coveralls/php-coveralls": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ReCaptcha\\": "src/ReCaptcha"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.3.x-dev"
+        }
+    },
+    "scripts": {
+        "lint": "PHP_CS_FIXER_IGNORE_ENV=1 vendor/bin/php-cs-fixer -vvv fix --using-cache=no --dry-run .",
+        "lint-fix": "PHP_CS_FIXER_IGNORE_ENV=1 vendor/bin/php-cs-fixer -vvv fix --using-cache=no .",
+        "test": "XDEBUG_MODE=coverage vendor/bin/phpunit",
+        "serve-examples": "@php -S localhost:8080 -t examples"
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}

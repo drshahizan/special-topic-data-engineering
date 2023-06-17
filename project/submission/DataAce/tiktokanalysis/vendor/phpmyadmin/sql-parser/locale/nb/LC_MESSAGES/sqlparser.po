@@ -1,0 +1,280 @@
+# Automatically generated <>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: SQL parser 5\n"
+"Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
+"POT-Creation-Date: 2021-12-29 16:13-0300\n"
+"PO-Revision-Date: 2020-06-24 17:41+0000\n"
+"Last-Translator: Sebastian <sebastian@sgundersen.com>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
+"phpmyadmin/sql-parser/nb_NO/>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.2-dev\n"
+
+#: src/Component.php:42 src/Component.php:62
+msgid "Not implemented yet."
+msgstr "Ikke implementert ennå."
+
+#: src/Components/AlterOperation.php:346 src/Statement.php:352
+msgid ""
+"A new statement was found, but no delimiter between it and the previous one."
+msgstr ""
+"En ny uttalelse ble funnet, men ingen skilletegn mellom det og den forrige."
+
+#: src/Components/AlterOperation.php:358
+msgid "Missing comma before start of a new alter operation."
+msgstr "Mangler komma før starten av ny endringsoperasjon."
+
+#: src/Components/AlterOperation.php:368
+msgid "Unrecognized alter operation."
+msgstr "Ukjent endringsoperasjon."
+
+#: src/Components/Array2d.php:91
+#, php-format
+msgid "%1$d values were expected, but found %2$d."
+msgstr "%1$d verdier var forventet, men fant %2$d."
+
+#: src/Components/Array2d.php:111
+msgid "An opening bracket followed by a set of values was expected."
+msgstr "Åpningsklamme etterfulgt av et sett verdier forventet."
+
+#: src/Components/ArrayObj.php:109 src/Components/CreateDefinition.php:232
+msgid "An opening bracket was expected."
+msgstr "Åpningsklamme forventet."
+
+#: src/Components/CaseExpression.php:136 src/Components/CaseExpression.php:164
+#: src/Components/CaseExpression.php:175 src/Components/CaseExpression.php:187
+#: src/Components/IndexHint.php:137 src/Components/IndexHint.php:167
+#: src/Components/LockExpression.php:176 src/Components/LockExpression.php:183
+#: src/Components/LockExpression.php:191 src/Statements/DeleteStatement.php:250
+#: src/Statements/DeleteStatement.php:269
+#: src/Statements/DeleteStatement.php:309
+#: src/Statements/DeleteStatement.php:321
+#: src/Statements/DeleteStatement.php:347
+#: src/Statements/DeleteStatement.php:354
+#: src/Statements/InsertStatement.php:191
+#: src/Statements/InsertStatement.php:222 src/Statements/LoadStatement.php:265
+#: src/Statements/LockStatement.php:88 src/Statements/ReplaceStatement.php:151
+#: src/Statements/ReplaceStatement.php:180
+msgid "Unexpected keyword."
+msgstr "Uventede karakterer på linje %sd."
+
+#: src/Components/CaseExpression.php:195
+msgid "Unexpected end of CASE expression"
+msgstr "Uventet slutt av CASE-uttrykket"
+
+#: src/Components/CaseExpression.php:215
+msgid "Potential duplicate alias of CASE expression."
+msgstr "Mulig duplisert alias av CASE-uttrykk."
+
+#: src/Components/CaseExpression.php:228
+msgid "An alias expected after AS but got "
+msgstr "Forventet et alias etter AS, men ble gitt "
+
+#: src/Components/CaseExpression.php:241 src/Components/Expression.php:353
+#: src/Components/Expression.php:373 src/Components/Expression.php:408
+msgid "An alias was previously found."
+msgstr "Et alias ble tidligere funnet."
+
+#: src/Components/CaseExpression.php:255
+msgid "An alias was expected after AS."
+msgstr "Et alias var forventet etter AS."
+
+#: src/Components/CreateDefinition.php:254
+msgid ""
+"A symbol name was expected! A reserved keyword can not be used as a column "
+"name without backquotes."
+msgstr ""
+"Forventet et symbolnavn! Reserverte nøkkelord kan bare bli brukt som "
+"kolonnenavn ved å sette gravistegn (`) før og etter navnet."
+
+#: src/Components/CreateDefinition.php:267
+msgid "A symbol name was expected!"
+msgstr "Forventet et symbolnavn!"
+
+#: src/Components/CreateDefinition.php:299
+msgid "A comma or a closing bracket was expected."
+msgstr "Forventet et komma eller en lukkingsklamme."
+
+#: src/Components/CreateDefinition.php:312 src/Statements/WithStatement.php:333
+msgid "A closing bracket was expected."
+msgstr "Forventet en lukkingsklamme."
+
+#: src/Components/DataType.php:132
+msgid "Unrecognized data type."
+msgstr "Ukjent datatype."
+
+#: src/Components/ExpressionArray.php:108 src/Statements/WithStatement.php:202
+msgid "An expression was expected."
+msgstr "Uttrykk forventet."
+
+#: src/Components/Expression.php:258 src/Components/Expression.php:419
+msgid "An alias was expected."
+msgstr "Alias forventet."
+
+#: src/Components/Expression.php:387
+msgid "Unexpected dot."
+msgstr "Uventet dott."
+
+#: src/Components/IndexHint.php:143 src/Components/IndexHint.php:173
+#: src/Components/Key.php:260 src/Components/LockExpression.php:164
+#: src/Components/SetOperation.php:141 src/Statement.php:249
+#: src/Statements/DeleteStatement.php:264
+#: src/Statements/DeleteStatement.php:316
+#: src/Statements/InsertStatement.php:205
+#: src/Statements/InsertStatement.php:242 src/Statements/LoadStatement.php:270
+#: src/Statements/LoadStatement.php:291 src/Statements/LoadStatement.php:310
+#: src/Statements/LockStatement.php:96 src/Statements/LockStatement.php:103
+#: src/Statements/PurgeStatement.php:109 src/Statements/PurgeStatement.php:122
+#: src/Statements/PurgeStatement.php:143
+#: src/Statements/ReplaceStatement.php:165 src/Statements/WithStatement.php:133
+msgid "Unexpected token."
+msgstr "Uventet tegn."
+
+#: src/Components/Limit.php:81 src/Components/Limit.php:108
+msgid "An offset was expected."
+msgstr "En forskyvning var forventet."
+
+#: src/Components/LockExpression.php:94
+msgid "Unexpected end of LOCK expression."
+msgstr "Uventet slutt av LOCK-uttrykket."
+
+#: src/Components/LockExpression.php:204
+msgid "Unexpected end of Lock expression."
+msgstr "Uventet slutt av LOCK-uttrykket."
+
+#: src/Components/OptionsArray.php:151
+#, php-format
+msgid "This option conflicts with \"%1$s\"."
+msgstr "Denne operasjonen konflikter med \"%1$s\"."
+
+#: src/Components/RenameOperation.php:106
+msgid "The old name of the table was expected."
+msgstr "Forventet gammelt tabellnavn."
+
+#: src/Components/RenameOperation.php:112
+msgid "Keyword \"TO\" was expected."
+msgstr "Søkeordet \"TIL\" var forventet."
+
+#: src/Components/RenameOperation.php:127
+msgid "The new name of the table was expected."
+msgstr "Forventet nytt tabellnavn."
+
+#: src/Components/RenameOperation.php:143
+msgid "A rename operation was expected."
+msgstr "En navneenringsoperasjon var forventet."
+
+#: src/Components/SetOperation.php:124
+msgid "Missing expression."
+msgstr "Manglende uttrykk."
+
+#: src/Lexer.php:251
+msgid "Unexpected character."
+msgstr "Uventet tegn."
+
+#: src/Lexer.php:290
+msgid "Expected whitespace(s) before delimiter."
+msgstr "Forventet blanktegn før skilletegn."
+
+#: src/Lexer.php:306 src/Lexer.php:325
+msgid "Expected delimiter."
+msgstr "Forventet avgrensning."
+
+#: src/Lexer.php:937
+#, php-format
+msgid "Ending quote %1$s was expected."
+msgstr "Sluttsitat %1$s forventet."
+
+#: src/Lexer.php:989
+msgid "Variable name was expected."
+msgstr "Variabelnavn forventet."
+
+#: src/Parser.php:453
+msgid "Unexpected beginning of statement."
+msgstr "Uventet begynnelse på uttykket."
+
+#: src/Parser.php:476
+msgid "Unrecognized statement type."
+msgstr "Ukjent setningstype."
+
+#: src/Parser.php:563
+msgid "No transaction was previously started."
+msgstr "Ingen transaksjon ble tidligere startet."
+
+#: src/Statement.php:320
+msgid "This type of clause was previously parsed."
+msgstr "Denne typen klausul ble tidligere analysert."
+
+#: src/Statement.php:387
+msgid "Unrecognized keyword."
+msgstr "Ukjent nøkkelord."
+
+#: src/Statement.php:398
+msgid "Keyword at end of statement."
+msgstr "Nøkkelord ved slutten av uttalelsen."
+
+#: src/Statement.php:543
+msgid "Unexpected ordering of clauses."
+msgstr "Uventet klausulrekkefølge."
+
+#: src/Statements/CreateStatement.php:552
+msgid "The name of the entity was expected."
+msgstr "Enhetsnavn forventet."
+
+#: src/Statements/CreateStatement.php:601
+msgid "A table name was expected."
+msgstr "Tabellnavn forventet."
+
+#: src/Statements/CreateStatement.php:606
+msgid "At least one column definition was expected."
+msgstr "Minst én kolonnedefinisjon forventet."
+
+#: src/Statements/CreateStatement.php:710
+msgid "A \"RETURNS\" keyword was expected."
+msgstr "Et \"RETURNS\" søkeord ble forventet."
+
+#: src/Statements/DeleteStatement.php:330
+msgid "This type of clause is not valid in Multi-table queries."
+msgstr "Denne typen klausul er ikke gyldig i Multi-tabell-spørringer."
+
+#: src/Statements/LockStatement.php:123
+msgid "Unexpected end of LOCK statement."
+msgstr "Uventet slutt på LOCK-uttrykket."
+
+#: src/Statements/PurgeStatement.php:141
+msgid "Unexpected keyword"
+msgstr "Uventet nøkkelord"
+
+#: src/Statements/WithStatement.php:119
+#, fuzzy
+#| msgid "The name of the entity was expected."
+msgid "The name of the CTE was expected."
+msgstr "Enhetsnavn forventet."
+
+#: src/Statements/WithStatement.php:138
+#, fuzzy
+#| msgid "A \"RETURNS\" keyword was expected."
+msgid "AS keyword was expected."
+msgstr "Et \"RETURNS\" søkeord ble forventet."
+
+#: src/Statements/WithStatement.php:154
+#, fuzzy
+#| msgid "The name of the entity was expected."
+msgid "Subquery of the CTE was expected."
+msgstr "Enhetsnavn forventet."
+
+#: src/Statements/WithStatement.php:271
+#, fuzzy
+#| msgid "Unexpected end of LOCK statement."
+msgid "Unexpected end of the WITH CTE."
+msgstr "Uventet slutt på LOCK-uttrykket."
+
+#~ msgid "error #1"
+#~ msgstr "feil #1"
+
+#~ msgid "strict error"
+#~ msgstr "streng feil"

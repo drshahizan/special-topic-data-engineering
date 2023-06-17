@@ -1,7 +1,7 @@
 
 <h1 align='center'>Movie Engine Reccomendation</h1>
 
-<h2 align='center'>Group Members </h2>
+<h2 align='center'>THE PROJECT IS ONLY MADE BY 2 GROUP MEMBERS </h2>
 <table align='center'>
   <tr>
     <th>Name</th>

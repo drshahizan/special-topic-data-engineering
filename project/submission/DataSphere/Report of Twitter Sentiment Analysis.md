@@ -81,6 +81,13 @@ The data for this project was collected using web scraping techniques, specifica
 
 ## Visualization
 ## Insight
+1.``Stigma and Discrimination``:
+2.``Awareness and acceptance``:
+3.``Emotional support``:
+4.``Treatment Options``:
+5.``Stressed work environments``:
+
+
 
 ## Conclusion
 

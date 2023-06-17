@@ -16,7 +16,7 @@ New Government🤵‍♂:<br>
 <br>
 <div align='justify'>
   Anwar Ibrahim, a prominent figure in Malaysia's political landscape for more than three decades, has assumed the role of Malaysia's 10th Prime Minister. This significant transition has sparked widespread interest and discussion among Malaysians, prompting the need to explore public sentiment towards Anwar Ibrahim using Natural Language Processing (NLP) techniques. 
-  <strong>In this project, we aim to perform sentiment analysis on social media, particularly on Reddit, to gain insights into how people perceive and react to Anwar Ibrahim's appointment. By leveraging NLP, we will extract and analyze posts and comments from Reddit, enabling us to classify the expressed sentiments into positive, neutral, or negative categories.</strong>
+  <strong>In this project, we aim to perform sentiment analysis on social media, particularly on Reddit, to gain insights into how people perceive and react to Anwar Ibrahim's appointment.</strong> By leveraging NLP, we will extract and analyze posts and comments from Reddit, enabling us to classify the expressed sentiments into positive, neutral, or negative categories.
   By combining the power of NLP and social media data, we can uncover valuable insights into public opinions and sentiments, contributing to a better understanding of Anwar Ibrahim's public perception during this pivotal time.
 </div>
 

@@ -26,6 +26,6 @@ The project consists of a PHP-based Spotify recommendation engine that offers in
 
 ## Contents📝
 - 📑[Report]()
-- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/tree/738321155c0827c687aed33d6e1b1d4e1a74d415/project/submission/CodeX/Final_Project)
-- 📂[Dataset](https://github.com/drshahizan/special-topic-data-engineering/tree/738321155c0827c687aed33d6e1b1d4e1a74d415/project/submission/CodeX/Dataset)
+- 💻[Code]()
+- 📂[Dataset]()
 

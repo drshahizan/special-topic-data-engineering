@@ -7,7 +7,7 @@
  </h1>
  <h3 align='center'> 
 New Government🤵‍♂:<br> 
-   Redditor's View Towards Anwar Ibrahim as Malaysia's 10th Prime Minister
+   Redditor's View Towards Dato' Seri Anwar Ibrahim as Malaysia's 10th Prime Minister
  </h3>
 
 <div align="center">

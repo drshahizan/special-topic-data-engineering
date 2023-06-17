@@ -44,7 +44,7 @@ Throughout the project, make sure to follow best practices for data science proj
 | 1 | Social media monitoring tool | Gadgeteen | |
 | 2 | E-commerce analytics dashboard | Regex | |
 | 3 | Customer segmentation tool | DataSphere | |
-| 4 | Fraud detection dashboard | DataAce | |
+| 4 | Tiktok Analytics Dashboard | DataAce | |
 | 5 | Predictive maintenance tool |  | |
 | 6 | Healthcare analytics platform | MichelinStar | |
 | 7 | Energy consumption analysis dashboard | StaticIP | |

@@ -3,11 +3,11 @@
 </p>
 
 <h1 align='center'> 
-  Reddit Sentiment Analysis: Exploring Redditor's Opinions with NLP Techniques
+  Reddit Sentiment Analysis: <br>Exploring Redditor's Opinions with NLP Techniques
  </h1>
  <h3 align='center'> 
 New Government🤵‍♂:<br> 
-   Redditor's View Towards Anwar Ibrahim as Malaysia's 10th Prime Minister
+   Redditor's View Towards Dato' Seri Anwar Ibrahim as Malaysia's 10th Prime Minister
  </h3>
 
 <div align="center">
@@ -50,6 +50,11 @@ New Government🤵‍♂:<br>
    </tr>
 </table>
 
+### 📂Folder content:
+
+* [📖Report]()
+* [💻Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/Noctua/Clouds_image_Noctua_Flickr_WebScraping.ipynb)
+* [📎CSV file exported](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Noctua/Dataset)
 
 
 

@@ -41,7 +41,7 @@
                                         <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                                     </div>
 
-                                    <form class="form-horizontal" method="POST" action="loginprocess.php">
+                                    <form class="form-horizontal" method="POST" action="index.html">
                                     <fieldset>
                                         <div class="form-group">
                                         <label for="InputIC"class="form-label mt-4">IC Number</label>

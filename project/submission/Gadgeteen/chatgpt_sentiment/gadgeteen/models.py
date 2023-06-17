@@ -1,25 +1,15 @@
-from django.contrib.auth.models import AbstractUser
 from django.db import models
 from django.utils import timezone
-
-class CustomUser(AbstractUser):
-    ROLE_CHOICES = (
-        ('public', 'Public User'),
-        ('admin', 'Admin'),
-    )
-    role = models.CharField(max_length=10, choices=ROLE_CHOICES, default='public')
-
-    class Meta:
-        verbose_name = 'User'
-        verbose_name_plural = 'Users'
-
-    def __str__(self):
-        return self.username
+from django.db import models
+from django.utils import timezone
+from django.contrib.auth.models import User
 
 
 class Post(models.Model):
+    owner = models.ForeignKey(User,
+                              related_name='post_scraped',
+                              on_delete=models.CASCADE)
     content = models.TextField()
-    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
     timestamp = models.DateTimeField(default=timezone.now)
 
     class Meta:
@@ -31,6 +21,9 @@ class Post(models.Model):
 
 
 class Hashtag(models.Model):
+    Post = models.ForeignKey(Post,
+                               related_name='hashtags',
+                               on_delete=models.CASCADE)
     name = models.CharField(max_length=100, unique=True)
 
     class Meta:
@@ -54,8 +47,9 @@ class PostHashtag(models.Model):
 
 
 class Comment(models.Model):
-    post = models.ForeignKey(Post, on_delete=models.CASCADE)
-    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
+    Post = models.ForeignKey(Post,
+                               related_name='comments',
+                               on_delete=models.CASCADE)
     content = models.TextField()
     timestamp = models.DateTimeField(default=timezone.now)
 

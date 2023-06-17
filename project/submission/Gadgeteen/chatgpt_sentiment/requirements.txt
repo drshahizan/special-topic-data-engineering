@@ -1,7 +1,7 @@
 asgiref==3.5.2
-Django~=4.1.0
+django==2.2.8
 Pillow==9.2.0
-sqlparse==0.4.2
+sqlparse==0.2.4
 django-braces==1.15.0
 django-embed-video==1.4.4
 pymemcache==3.5.2
@@ -13,4 +13,7 @@ numpy
 fontawesomefree
 attr
 attrs
-djongo
+djongo==1.2.31
+django-bootstrap-v5
+pytz
+pymongo==3.12.3

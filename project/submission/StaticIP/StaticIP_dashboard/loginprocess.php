@@ -23,7 +23,12 @@ if(isset($_POST['submit'])){
 			//set session 
 			$_SESSION['u_ic'] = session_id();
 			$_SESSION['uic'] = $fic;
+<<<<<<< Updated upstream
 			header ('Location: index.php');
+=======
+
+			header ('Location: index.html');
+>>>>>>> Stashed changes
 		}
 		
 		else

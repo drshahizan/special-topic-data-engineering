@@ -1,3 +1,16 @@
+<?php 
+include ('dbconnect.php');
+
+if(isset($_GET['id']))
+{
+    $pid=$_GET['id'];
+}
+
+$sql="SELECT * FROM tb_product WHERE p_id='$pid'";
+$result=mysqli_query($con,$sql);
+$row=mysqli_fetch_array($result);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,23 +22,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php
-        include "global/cdn.php";
-    ?>  
+    <title>STATICIP</title>
 
-    <title>StaticIP</title>
-
-    <!-- Custom fonts for this template-->
+    <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
-    <!-- Custom styles for this template-->
+    <!-- Custom styles for this template -->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this page -->
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 </head>
 
@@ -49,7 +58,7 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
@@ -114,6 +123,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
 
+                    <!-- Topbar title -->
                     <div style="text-align: center;">
                         <span> Malaysia Energy Consumption Analysis </span>
                     </div>
@@ -137,7 +147,7 @@
                                     Profile
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="login.php" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
@@ -153,20 +163,62 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-                    </div>
+                    <h1 class="h3 mb-2 text-gray-800">Monthly Data</h1>
 
-                    <div class="container pt-3">
-                    <div class="row">
-                        <?php
-                            include "global/nav_bar.php";
-                        ?>
-                        <div class="col-md-9 pt-5">
-                            <!-- Content container -->
-                            <iframe title="dashboard" width="1024" height="1060" src="https://app.powerbi.com/view?r=eyJrIjoiZjJhNTdhYWQtMjZlMi00YTZkLWE3ZmEtNjcxOWFkZWJkZmIyIiwidCI6IjBlMGRiMmFkLWM0MTYtNDdjNy04OGVjLWNlYWM0ZWU3Njc2NyIsImMiOjEwfQ%3D%3D" frameborder="1" allowFullScreen="true"></iframe>
+                    <!-- DataTales Example -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Add</h6>
                         </div>
-                    </div>       
+                        <div class="card-body">
+
+                        <div class="form-group col-lg-12">
+                        <form action="m_addprocess.php" method="POST" enctype="multipart/form-data">
+
+                            <div class="form-group">
+								<label for="inputmid" class="form-label">ID</label>
+								<input class="form-control" type="int" name="mid" id="inputmid" required>
+							</div>
+
+                            <div class="form-group">
+								<label for="inputmperiod" class="form-label">Period</label>
+								<input class="form-control" type="text" name="mperiod" id="inputmperiod" required>
+							</div>
+
+                            <div class="form-group">
+                                <label for="inputmperiod" class="form-label mt-4">Select Product</label>
+                                <div><?php echo $row['p_name'];?></div>
+                            </div>
+
+                            <div class="form-group">
+								<label for="inputaname" class="form-label">Activity</label>
+								<?php
+                                echo '<input class="form-control" type="text" name="aname" id="inputaname" value="'.$row['a_name'].'" readonly>'; 
+                                ?>
+							</div>
+
+                            <div class="form-group">
+								<label for="inputmvalue" class="form-label">Value</label>
+								<input class="form-control" type="decimal" name="mvalue" id="inputmvalue" required>
+							</div>
+
+                            <div class="form-group">
+								<label for="inputtdesc" class="form-label">Unit</label>
+								<?php
+                                echo '<input class="form-control" type="text" name="tdesc" id="inputtdesc" value="'.$row['t_desc'].'" readonly>'; 
+                                ?>
+							</div>
+
+                            <div class="col-md-12">
+                                <div class="form-group"><br>
+                                    <button class="btn btn-primary" name="submit" type="submit">Edit</button>&nbsp&nbsp&nbsp
+                                    <button class="btn btn-danger" href="month.php">Cancel</button>
+								</div>
+							</div>
+                        </form>
+                        </div>
+
+                        </div>
                     </div>
 
                 </div>
@@ -227,11 +279,12 @@
     <script src="js/sb-admin-2.min.js"></script>
 
     <!-- Page level plugins -->
-    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
     <!-- Page level custom scripts -->
-    <script src="js/demo/chart-area-demo.js"></script>
-    <script src="js/demo/chart-pie-demo.js"></script>
+    <script src="js/demo/datatables-demo.js"></script>
 
 </body>
+
 </html>

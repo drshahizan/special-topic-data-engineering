@@ -1,0 +1,92 @@
+html{
+  overflow-x: hidden;
+  padding-left: 0px; 
+}
+@media screen and (max-width: 765px) {
+  .mobile_responsive {
+    margin-top: 75px;
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .mobile_responsive_text_bold{
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .mobile_responsive_sort_description{
+    line-height: 25px;
+    font-weight: 500;
+    padding: 5px;
+  }
+}
+@media screen and (min-width: 766px) {
+  .mobile_responsive {
+    margin-left: 70px;
+    padding-top: 200px;
+    height: 775px;
+  }
+  .mobile_responsive_text_bold{
+    font-weight: 900;
+    font-weight: bold;
+    font-size: 80px !important;
+  }
+  .mobile_responsive_sort_description{
+    line-height: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+
+/* SELECT DROPDOWN */
+/* Reset Select */
+.custom-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #2c3e50;
+  background-image: none;
+}
+/* Remove IE arrow */
+.custom-select::-ms-expand {
+  display: none;
+}
+/* Custom Select */
+.select {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
+}
+.custom-select {
+  flex: 1;
+  padding: 0 .5em;
+  color: #fff;
+  cursor: pointer;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #34495e;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+/* Transition */
+.select:hover::after {
+  color: #e50914;
+}

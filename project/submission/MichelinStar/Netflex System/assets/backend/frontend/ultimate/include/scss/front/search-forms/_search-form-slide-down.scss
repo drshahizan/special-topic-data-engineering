@@ -1,0 +1,53 @@
+/*------------------------------------
+  Search Form - Slide Down
+------------------------------------*/
+
+.u-search-slide-down {
+  position: absolute;
+  z-index: 1003;
+  top: 5rem;
+  left: calc(50% - 18rem) !important;
+  width: 36rem;
+
+  &-trigger {
+    &.active {
+      .u-search-slide-down-trigger__icon {
+        &::before {
+          content: "\f00d";
+        }
+      }
+    }
+  }
+
+  &-bg-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1002;
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  .u-search-slide-down__input {
+    opacity: 0;
+    transform: translateY(-2rem);
+    transition: transform $transition-timing cubic-bezier(.37,.41,.55,.98), opacity $transition-timing-sm;
+  }
+
+  .u-search-slide-down__suggestions {
+    opacity: 0;
+    transform: translateY(-3rem);
+    transition: transform $transition-timing-md cubic-bezier(.37,.41,.55,.98), opacity $transition-timing-sm;
+  }
+
+  &.active .u-search-slide-down__input,
+  &.active .u-search-slide-down__suggestions {
+    opacity: 1;
+    transform: none;
+  }
+
+  &.active .u-search-slide-down__suggestions {
+    transition-delay: $transition-timing-sm;
+  }
+}

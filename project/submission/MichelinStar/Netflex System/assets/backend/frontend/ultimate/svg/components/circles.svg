@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 847" style="enable-background:new 0 0 1920 847;" xml:space="preserve">
+<style type="text/css">
+	.circles-0{fill:#1818EF;}
+	.circles-1{fill:#1919CC;}
+	.circles-2{fill:#A612DD;}
+</style>
+<g>
+	<defs>
+		<polygon id="CirclesSVGID1" points="0,0 0,847 1920,509 1920,0"/>
+	</defs>
+	<clipPath id="CirclesSVGID2">
+		<use xlink:href="#CirclesSVGID1"  style="overflow:visible;"/>
+	</clipPath>
+	<circle class="circles-0" opacity=".1" clip-path="url(#CirclesSVGID2)" cx="1585.5" cy="773.5" r="859"/>
+	<circle class="circles-2" opacity=".1" clip-path="url(#CirclesSVGID2)" cx="1430.5" cy="862.5" r="700"/>
+	<circle class="circles-0" opacity=".1" clip-path="url(#CirclesSVGID2)" cx="436.5" cy="761.5" r="915"/>
+	<circle class="circles-1" opacity=".1" clip-path="url(#CirclesSVGID2)" cx="408.7" cy="981.5" r="821"/>
+</g>
+</svg>

@@ -1,0 +1,10 @@
+@page {
+	size: auto;
+	margin: 0mm;
+	size: A4;
+	margin-left:.8cm;
+	margin-right:.8cm;
+}
+body {
+    -webkit-print-color-adjust: exact;
+}

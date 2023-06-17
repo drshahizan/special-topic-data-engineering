@@ -1,0 +1,29 @@
+/*------------------------------------
+  Checkbox Switch
+------------------------------------*/
+
+.custom-switch {
+  padding-left: $custom-switch-width + $custom-control-gutter + .25rem;
+
+  .custom-control-label {
+    &::before {
+      left: -($custom-switch-width + $custom-control-gutter + .25rem);
+      height: $custom-switch-height;
+      border: none;
+      background-color: $custom-switch-bg;
+      @include border-radius($custom-switch-border-radius);
+    }
+
+    &::after {
+      top: calc(#{($custom-switch-height / 2) - .125rem});
+      left: calc(#{-($custom-switch-width + $custom-control-gutter) + .125rem});
+      background-color: $custom-switch-indicator-bg-color;
+    }
+  }
+
+  .custom-control-input:checked ~ .custom-control-label {
+    &::after {
+      transform: translateX($custom-switch-width - $custom-control-indicator-size - .5rem);
+    }
+  }
+}

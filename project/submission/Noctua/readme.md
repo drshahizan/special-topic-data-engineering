@@ -3,7 +3,7 @@
 </p>
 
 <h1 align='center'> 
-  Reddit Sentiment Analysis: Exploring Redditor's Opinions with NLP Techniques
+  Reddit Sentiment Analysis: <br>Exploring Redditor's Opinions with NLP Techniques
  </h1>
  <h3 align='center'> 
 New Government🤵‍♂:<br> 

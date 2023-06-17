@@ -49,11 +49,26 @@ The data for this project was collected using web scraping techniques, specifica
 
 3.``Monitoring Public Discourse``: Sentiment analysis can track the sentiment and attitudes of the general public towards mental health topics. It helps understand societal perceptions, opinions, and discussions around mental health issues, such as depression, anxiety, or therapy.
 
-4.``Early Detection and Intervention``:Twitter sentiment analysis can potentially assist in early detection and intervention for mental health issues. By identifying tweets with negative sentiments indicative of distress or crisis, it may be possible to reach out to individuals with appropriate resources or support..
+4.``Early Detection and Intervention``:Twitter sentiment analysis can potentially assist in early detection and intervention for mental health issues. By identifying tweets with negative sentiments indicative of distress or crisis, it may be possible to reach out to individuals with appropriate resources or support.
 
 
 
 ## Methodology
+1.``Data Collection``: Obtain a dataset of tweets related to mental health topics. This was done by utilizing the Twitter API to collect tweets containing relevant hashtags or keywords of mentalhealth. The dataset includes a sufficient number of diverse tweets to ensure a representative sample.
+
+2.``Data Preprocessing``: Clean the collected tweets to remove noise and irrelevant information. This involves removing URLs, mentions, special characters, and emojis. Additionally, perform text normalization techniques like lowercase conversion, removing stopwords, and handling abbreviations or slang to standardize the text.
+
+3.``Sentiment Labeling``: Apply the trained model to classify the sentiment of each tweet in the dataset. The model assigns a sentiment label (positive, negative, or neutral) to each tweet based on its learned patterns and the extracted features.
+
+4.``Sentiment Analysis``:Extracted the relevant features from the preprocessed tweets.
+
+5.``Visualization and Analysis``:Analyzed the sentiment distribution and patterns in the dataset. Generate visualizations using Power BI sofware to produce related intrepretation. 
+
+6.``Interpretation and Insights``:Interpreted the results to extract meaningful insights from the sentiment analysis. Also, identifies prevalent sentiment patterns, explore the relationship between sentiment and specific mental health issues, and detect influential voices or communities. This information can provide valuable insights for mental health organizations, policymakers, and individuals seeking support.
+
+
+
+
 
 ## Data Analysis
 

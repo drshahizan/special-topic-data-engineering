@@ -12,6 +12,18 @@
 * [Conclusion](#️-conclusion)
 
 ## Introduction
+<p align="justify">
+In recent years, social media platforms like Twitter have become a rich source of data for understanding public sentiment and opinions on various topics. When it comes to mental health, Twitter sentiment analysis holds immense potential to uncover the prevailing attitudes, emotions, and experiences shared by users in this digital space. By harnessing the power of natural language processing (NLP) techniques and machine learning algorithms, sentiment analysis on Twitter can provide valuable insights into the sentiment distribution surrounding mental health discussions.
+</p>
+
+<p align="justify">
+The importance of understanding public sentiment towards mental health cannot be overstated. Mental health is a topic that affects millions of individuals worldwide, and reducing stigma and improving support networks are critical for promoting well-being and enabling individuals to seek help when needed. By examining the sentiment expressed in tweets about mental health, we can gain valuable insights into public opinion, awareness levels, and societal perceptions.
+</p>
+
+<p align="justify">
+Through this analysis, we aim to address key questions such as: What are the prevalent sentiments associated with mental health discussions on Twitter? Are there specific mental health issues or topics that elicit more positive or negative sentiments? How does sentiment evolve over time in response to various events or initiatives related to mental health? By answering these questions, we can identify patterns, trends, and potential areas for intervention and improvement.
+</p>
+
 
 ## Background
 <p align="justify">

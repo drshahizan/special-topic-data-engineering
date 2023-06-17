@@ -1,4 +1,4 @@
-<h1>Online Education Platform</h1>
+<h1>ChatGPT Sentiment Analysis</h1>
 
 
 ## Quick Start to the application	

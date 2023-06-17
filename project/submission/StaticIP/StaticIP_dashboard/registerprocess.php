@@ -27,7 +27,7 @@ if (isset($_POST['submit'])) {
         // Registration successful
         $_SESSION['u_ic'] = session_id();
         $_SESSION['uic'] = $fic;
-        header('Location: customer.php');
+        header('Location: index.php');
     } else {
         // Registration failed
         include 'register.php';

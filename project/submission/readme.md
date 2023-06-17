@@ -12,4 +12,4 @@
 | 8 | Natural language processing tool | Noctua| |
 | 9 | Image and video analysis platform | Rivertion | |
 | 10 | Time-series analytics dashboard|||
-| 11 | Recommendation engine | CodeX| 11 |
+| 11 | Recommendation engine | CodeX|  |

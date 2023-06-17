@@ -51,7 +51,7 @@ Throughout the project, make sure to follow best practices for data science proj
 | 8 | Natural language processing tool | Noctua| |
 | 9 | Image and video analysis platform | Rivertion | |
 | 10 | Time-series analytics dashboard|||
-| 11 | Recommendation engine | CodeX| 11 |
+| 11 | Movie Recommendation engine | CodeX|  |
 
 ## Project Requirements
 The minimum requirements for the implemented system are as follows:

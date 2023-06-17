@@ -78,6 +78,6 @@ For DataSphere Project, the folder structure is as follows:
 ├── 📁reporting
 │   ├── 📄report.md
 └── 📁database
-│   ├── 📄db_stde.sql
+    ├── 📄db_stde.sql
 
 ```

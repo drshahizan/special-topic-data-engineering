@@ -4,6 +4,8 @@
 
 # Table of Content
 
+## Introduction
+
 ## Background
 <p align="justify">
 The sentiment analysis project focused on analyzing mental health-related discussions and sentiments expressed on Twitter. Twitter serves as a valuable platform for individuals to share their thoughts, experiences, and emotions related to mental health. By scraping and analyzing tweets from Twitter, this project aimed to gain insights into the sentiment and attitudes surrounding mental health topics on the platform.
@@ -20,5 +22,16 @@ By leveraging sentiment analysis techniques, this project sought to uncover impo
 <p align="justify">
 The data for this project was collected using web scraping techniques, specifically utilizing tools such as Snscrape to retrieve tweets based on mental health-related keywords or hashtags. The collected tweets were then preprocessed, removing irrelevant information and normalizing the text, before being subjected to sentiment analysis algorithms.
 </p>
+
+## Objective
+
+## Methodology
+
+## Data Analysis
+
+## Visualization
+
+## Conclusion
+
 
 

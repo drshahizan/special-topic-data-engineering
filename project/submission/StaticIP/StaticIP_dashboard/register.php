@@ -37,20 +37,20 @@
                             </div>
                             <form class="user">
                                 <div class="form-group">
-                                    <input type="email" class="form-control form-control-user" id="exampleInputEmail"
-                                        placeholder="Email Address">
+                                <input type="text" name="fic" class="form-control" id="InputIC"
+                                                    placeholder="Enter your IC number without dash (-)" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control form-control-user" id="exampleInputPassword"
-                                        placeholder="Password">
+                                <input type="password" name="fwpd" class="form-control" id="InputPassword"
+                                                    placeholder="Enter your password" required>
                                 </div>
-                                <a href="login.html" class="btn btn-primary btn-user btn-block">
+                                <a href="login.php" class="btn btn-primary btn-user btn-block">
                                     Register Account
                                 </a>
                                 <hr>
                             </form>
                             <div class="text-center">
-                                <a class="small" href="login.html">Already have an account? Login!</a>
+                                <a class="small" href="login.php">Already have an account? Login!</a>
                             </div>
                         </div>
                     </div>

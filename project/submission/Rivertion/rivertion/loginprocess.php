@@ -16,12 +16,12 @@ mysqli_stmt_execute($stmt);
 $result = mysqli_stmt_get_result($stmt);
 $row = mysqli_fetch_array($result);
 
-// $hashpass = $row['u_pwd'];
+$hashpass = $row['u_pwd'];
 
-// $verify = password_verify($fpword, $hashpass);
+$verify = password_verify($fpword, $hashpass);
 
 //Check login 
-if($fpword == $row['u_pwd']) //User found
+if($verify) //User found
 {
 	//Set session
 	$_SESSION['u_email'] = session_id();
@@ -29,21 +29,19 @@ if($fpword == $row['u_pwd']) //User found
 	$_SESSION['u_name'] = $row['u_name'];
 	$_SESSION['uemail'] = $femail;
 
-	// if ($row['u_type'] == 1 ) //Admin
-	// {
-	// 	header('Location: admin/');
-	// }
-	// else //Customer
-	// {
-	// 	header('Location: customer.php');
-	// }
-
-	header('Location: home.php');
+	if ($row['u_type'] == 1 ) //Admin
+	{
+		header('Location: admin/home.php');
+	}
+	else //Customer
+	{
+		header('Location: home.php');
+	}
 }
 else //User not found
 {
 	$_SESSION['nouser'] = "Sorry, no user with those credentials found. Please try again or register a new account.";
-	header('Location: index.php');
+	header('Location: login.php');
 }
 
 //Close connection

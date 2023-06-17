@@ -15,9 +15,10 @@
 <header class="site-navbar site-navbar-target" role="banner">
   <nav class="navbar bg-black navbar-expand-lg bg-body-black" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand mb-0 h1" href="#">RIVERTION</a>
+      <a class="navbar-brand mb-0 h1" href="index.php">RIVERTION</a>
         <div class="d-flex">
           <a class="btn btn-outline-white" href="login.php">Login</a>
+          <a class="btn btn-outline-white" href="register.php">Register</a>
         </div>
       </div>
     </div>

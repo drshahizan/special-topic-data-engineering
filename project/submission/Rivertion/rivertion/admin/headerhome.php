@@ -1,6 +1,6 @@
 <?php 
-  include 'dbconnect.php';
-  include 'session.php';
+  include '../dbconnect.php';
+  include '../session.php';
 ?>
 
 <!-- favicon -->
@@ -25,10 +25,11 @@
 
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+            <a class="nav-link <?php echo (basename($_SERVER['PHP_SELF'])== 'home.php') ? 'active' : ''; ?>" aria-current="page" href="home.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link <?php echo (basename($_SERVER['PHP_SELF'])== 'upload.php') ? 'active' : ''; ?>" aria-current="page" href="upload.php">Upload</a>
           </li>
         </ul>
 
@@ -36,7 +37,7 @@
             <?php 
               echo '<p style="color:white; margin: auto;">Welcome, '.$_SESSION['u_name'].'!</p>';
             ?>
-            <a class="btn btn-outline-white" href="logout.php">Logout</a>
+            <a class="btn btn-outline-white" href="../logout.php">Logout</a>
         </div>
 
       </div>

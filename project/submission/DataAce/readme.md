@@ -1,6 +1,11 @@
 <h1 align='center'> 
   Tiktok Analytics Dashboard
  </h1>
+
+<div align="center">
+  <img src="https://academy.fanpagekarma.com/wp-content/uploads/2021/07/TikTok-Blog-Header-1-768x432.png" alt="TikTok Image">
+</div>
+
  <p align='justify'></strong>
 </p>
 <br>

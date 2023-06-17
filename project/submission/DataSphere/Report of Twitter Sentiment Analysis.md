@@ -3,6 +3,13 @@
 <img src='https://monkeylearn.com/static/6700dcab9bcc691104dd0d794f6e7ef4/Sentiment-analysis-of-Twitter-Social.png'/>
 
 # Table of Content
+* [Introduction](#-introduction)
+* [Background](#️-background)
+* [Objectives](#-objectives)
+* [Methodology](#️-methodology)
+* [Data Analysis](#️-data-analysis)
+* [Visualization](#️-visualization)
+* [Conclusion](#️-conclusion)
 
 ## Introduction
 

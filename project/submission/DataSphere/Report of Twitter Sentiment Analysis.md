@@ -81,11 +81,11 @@ The data for this project was collected using web scraping techniques, specifica
 
 ## Visualization
 ## Insight
-1.``Stigma and Discrimination``:
-2.``Awareness and acceptance``:
-3.``Emotional support``:
-4.``Treatment Options``:
-5.``Stressed work environments``:
+1.``Stigma and Discrimination``: The sentiment analysis reveals that there is still a sizable level of discrimination and stigma surrounding mental health. Social exclusion and discrimination are common experiences for people with mental health issues, which can hinder their recovery and development.
+2.``Awareness and acceptance``: Positively, there has been a rise in understanding and acceptance of mental health issues in recent years. People are seeking professional assistance and are more open about their experiences with mental illness. As a result, attitudes in favour of mental health have elevated.
+3.``Emotional support``: People who seek mental health therapy benefit greatly from the emotional support of their communities. The atmosphere surrounding mental health is changing as friends and family become more conscious of the value of assistance when it comes to mental health.
+4.``Treatment Options``: More people are becoming aware of the various ways to manage mental health issues. People are more inclined to seek professional assistance than to self-medicate, which has increased public support for mental health care.
+5.``Stressed work environments``: The workplace is one place where there has been a rise in unfavourable attitudes. Long working hours and high levels of pressure have become increasingly common, which has increased the prevalence of mental health issues. As a result, there is now more disapproval of concerns with workplace mental health.
 
 
 

@@ -1,4 +1,4 @@
-<h1>Online Education Platform</h1>
+<h1>ChatGPT Sentiment Analysis</h1>
 
 
 ## Quick Start to the application	
@@ -9,14 +9,14 @@ Steps to start the project:
 Open your terminal or command prompt and run the following command:
 
 ```python
-git clone https://github.com/drshahizan/learn-django.git
+git clone https://github.com/drshahizan/learn-django.git](https://github.com/drshahizan/special-topic-data-engineering.git
 ```
 
 ### 2. CD to this project folder
 Once you have cloned this repository, locate to this project folder:
 
 ```python
-cd C:\Users\user\learn-django\materials\assignment\submission\Gadgeteen\online_edu_platform\gadgeteen
+cd C:\Users\user\Desktop\GitHub\special-topic-data-engineering\project\submission\Gadgeteen\chatgpt_sentiment
 ```
 
 ### 3. Create a virtual environment

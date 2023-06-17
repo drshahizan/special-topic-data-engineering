@@ -91,6 +91,7 @@ The data for this project was collected using web scraping techniques, specifica
 
 5.``Stressed Work Environments``: The workplace is one place where there has been a rise in unfavourable attitudes. Long working hours and high levels of pressure have become increasingly common, which has increased the prevalence of mental health issues. As a result, there is now more disapproval of concerns with workplace mental health.
 
+6.``Peer Pressure```: Based on the sentiment analysis, a huge number of individuals feel pressured to fit in with others or conform to social norms.The pressure to interact and blend in with the society has been increasing and this led to the increasing negative comments and tweets about their mental health.
 
 
 ## Conclusion

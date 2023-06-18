@@ -4,6 +4,7 @@
 
 
 <h1 align='center'>Streaming Platform Recommendation Engine Dashboard🔍</h1>
+<h2 align='center'>Group: CodeX </h2>
 <h2 align='center'>Group Members </h2>
 <table align='center'>
   <tr>

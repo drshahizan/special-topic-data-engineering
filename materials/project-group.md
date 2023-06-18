@@ -22,6 +22,7 @@ Don't forget to hit the :star: if you like this repo.
 | 9 | Image and video analysis platform | Rivertion | |
 | 10 | Time-series analytics dashboard|||
 | 11 | Recommendation engine | CodeX| |
+| 12 | Recommendation engine | ZytrexDB | |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

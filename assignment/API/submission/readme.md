@@ -8,12 +8,14 @@
 
 Don't forget to hit the :star: if you like this repo.
 
+# Assignment: Application Programming Interface (API)
+
 ## 📚 Project and group names
 
 | No | Topic | Group | File | 
 | ----- | ----- | ------ | :------: | 
-| 1 | Social media monitoring tool | Gadgeteen | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 2 | E-commerce analytics dashboard | Regex | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 1 |  | Gadgeteen | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 2 |  | Regex | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 3 | Customer segmentation tool | DataSphere | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 4 | Fraud detection dashboard | DataAce | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 5 | Predictive maintenance tool |  | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |

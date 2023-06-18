@@ -1,4 +1,4 @@
-<h1 align='center'>Recommendation Engine: Netflix Shows/Movie Reccomendation 🔍</h1>
+<h1 align='center'>Recommendation Engine: Movie Recomendation 🔍</h1>
 
 <p align="center">
 <img height='200px' src='logo.jpg'/>
@@ -23,7 +23,7 @@
 - [12. Conclusion](#12-conclusion)
 
 ## 1. Executive Summary
-Netflix, YouTube, Spotify and many more streaming platforms have been introduced to the world as the technologies are advancing rapidly nowadays. With this being said, users are prone to use it almost everyday whenever they wanted to watch movies or tv shows and stream any music. In this project, our group will focused on the collaborative filtering recommendation engine, which is implemented by Netflix. The objective of this project is to create a system (dashboard) that display the best suggestion of tv shows on streaming platform. The system we proposed will use a database that can keep track on the user behavioral data which will then be processed using machine learning to recognize streaming patterns of each user so that the most relevant suggestion can be presented to the users to increase the users satisfactory.
+Netflix, YouTube, Spotify and many more streaming platforms have been introduced to the world as the technologies are advancing rapidly nowadays. With this being said, users are prone to use it almost everyday whenever they wanted to watch movies or tv shows and stream any music. In this project, our group will focused on the collaborative filtering recommendation engine, which is implemented by the website that we used. The objective of this project is to create a system (dashboard) that display the best suggestion of movies on based on the users preference. The system we proposed will use a database that can keep track on the user behavioral data which will then be processed using prediction to recognize streaming patterns of each user so that the most relevant suggestion can be presented to the users to increase the users satisfactory.
 
 
 ## 2. Background

@@ -26,3 +26,7 @@
     <td>A20EC0237</td>
   </tr>
 </table>
+
+🧠<b>Project Proposal</b><br>
+| Open In GitHub | [:octocat:](dfghjklfghjklghjkl;vbnjkl) |
+| -------------- | _--------------------------------------|

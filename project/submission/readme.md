@@ -13,7 +13,7 @@ Don't forget to hit the :star: if you like this repo.
 
 | No | Topic | Group |  Project | 
 | ----- | ----- | ------ | :------: | 
-| 1 | Social media monitoring tool | Gadgeteen | |
+| 1 | Social media monitoring tool | Gadgeteen | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 2 | E-commerce analytics dashboard | Regex | |
 | 3 | Customer segmentation tool | DataSphere | |
 | 4 | TikTok Analytics Dashboard | DataAce | |

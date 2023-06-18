@@ -47,6 +47,9 @@
 
 * [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Noctua/report.md)
 * [📄Source Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Noctua/Book-Rating-System)
+* [📃SQL](https://github.com/drshahizan/special-topic-data-engineering/tree/main/materials/mongodb/submission/Noctua)
+
+
 
 
 

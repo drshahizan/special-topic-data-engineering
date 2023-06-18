@@ -20,7 +20,7 @@ Don't forget to hit the :star: if you like this repo.
 | 4 | Food Influencer Tiktok Analysis Dashboard | DataAce | <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/DataAce/proposal.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 5 | Entertainment analytics platform | MichelinStar | <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/MichelinStar/Proposal_MichelinStar.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 6 | Malaysia energy consumption analysis dashboard | StaticIP | <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/readme.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 7 | Natural language processing tool | Noctua| <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/Noctua/proposal_Noctua.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 7 | Redditor's View Towards Anwar Ibrahim as Malaysia's 10th Prime Minister. | Noctua| <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/Noctua/proposal_Noctua.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 8 | Image and video analysis platform | Rivertion | <a href="Rivertion" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 9 | Recommendation engine | CodeX| <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 

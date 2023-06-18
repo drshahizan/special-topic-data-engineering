@@ -42,7 +42,7 @@ Throughout the project, make sure to follow best practices for data science proj
 | No | Topic | Group |  Project | 
 | ----- | ----- | ------ | :------: | 
 | 1 | Social media monitoring tool | Gadgeteen | |
-| 2 | E-commerce analytics dashboard | Regex | |
+| 2 | Sales Analysis Dashboard of Shopee Supermarket by Households Supplies Category | Regex | |
 | 3 | Customer segmentation tool | DataSphere | |
 | 4 | Tiktok Analytics Dashboard | DataAce | |
 | 5 | Predictive maintenance tool |  | |

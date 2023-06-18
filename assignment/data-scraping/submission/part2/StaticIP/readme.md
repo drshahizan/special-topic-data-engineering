@@ -1,6 +1,5 @@
 # Assignment Part 2: Web Scraping Text Content
-## Introduction
-> Briefly introduce the topic of web scraping publication content and the importance of this type of data for research and analysis.
+
 
 <table>
   <tr>
@@ -25,6 +24,11 @@
   </tr>
 </table>
 
+
+
+
+## Introduction
+> Briefly introduce the topic of web scraping publication content and the importance of this type of data for research and analysis.
 
 ## Web Scraping Google Scholar
 

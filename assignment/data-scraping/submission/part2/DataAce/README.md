@@ -29,9 +29,12 @@
 <hr>
 
 ## Table of Content
+- [Source Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part2/DataAce/DS_GoogleScholar.ipynb)
+- [Result CSV ](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part2/DataAce/DS_GoogleScholar.ipynb)
+
+
 - [Introduction](#introduction)
 - [Choosing library - BeautifulSoup](#choosing-library---beautifulsoup)
-- [Storing Data in MongoDB](#storing-data-in-mongodb)
 - [Conclusion](#conclusion)
 
 ## Introduction 

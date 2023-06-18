@@ -108,6 +108,7 @@ However, modern technology can help to solve this problem effectively. Therefore
 
 ## Folder Structure
 
+
 ## Interface
 1. Login Page
 2. Register Page
@@ -118,7 +119,13 @@ However, modern technology can help to solve this problem effectively. Therefore
 ## Insight
 
 ## Conclusion
+In conclusion, the Sales Analysis Dashboard of Shopee Supermarket by Household Supplies Category project has successfully achieved its objectives of analyzing sales data and providing valuable insights within the household supplies category. By focusing on this specific product scope, we were able to gather relevant data from the Shopee Supermarket website using a web scraping tool, perform data cleaning and preprocessing using Python, and store the cleaned data in both MongoDB and SQL databases.
 
+Through statistical analysis, we uncovered valuable patterns, trends, and correlations within the household supplies category, which can be used to make data-driven decisions and optimize sales strategies. Additionally, data visualization techniques were employed to present the analyzed data in a visually appealing and easily understandable manner, facilitating effective communication of the findings to stakeholders.
+
+The project showcased the application of various technologies and methodologies, including web scraping, Python for data cleaning, MongoDB and SQL for data storage, and statistical analysis techniques. The use of a Sales Analysis Dashboard provided a user-friendly interface for accessing and interacting with the analyzed data, enhancing the overall usability of the project.
+
+Overall, the Sales Analysis Dashboard of Shopee Supermarket by Household Supplies Category project has provided valuable insights into sales patterns, trends, and correlations, empowering businesses to make informed decisions and drive growth within the household supplies market segment.
 
 ## Quick Start
 [How To Run This Project](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Regex/regex/README.md)

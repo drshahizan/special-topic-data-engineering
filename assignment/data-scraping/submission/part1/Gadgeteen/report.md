@@ -46,9 +46,16 @@ data = json.loads(response.text)
 total_pages = data["photos"]["page"]
 
 ```
+After defining the search_url variable in the previous code block, this code uses the requests library to send a GET request to the Flickr API endpoint specified by search_url. The api_key variable is inserted into the URL using Python's string formatting syntax and the .format() method, so that the API key is included in the request.
+
+The response from the API is then converted from JSON format to a Python dictionary using the json.loads() method, and stored in the data variable.
+
+The total_pages variable is then assigned the value of the page attribute from the photos dictionary within the data dictionary. This represents the total number of pages of search results available for the given search query.
+
+Overall, this code retrieves the total number of pages of search results available for the "dog" tag on Flickr, using the previously defined search_url and api_key variables.
 
 
-### c.Retrieve the metadata for each photo.
+### c. Retrieve the metadata for each photo.
 
 ```python
 metadata_list = []
@@ -95,7 +102,7 @@ The metadata and camera settings are then stored in a dictionary called metadata
 Finally, the metadata_dict dictionary is appended to the metadata_list for each photo, so that the final metadata_list contains a list of dictionaries, each containing the metadata and camera settings for a single photo.
 
 
-### e.Storing the data in a database or other storage medium for later use or analysis. This may involve cleaning or preprocessing the data to remove any irrelevant or inaccurate information.
+### d. Storing the data in a database or other storage medium for later use or analysis. This may involve cleaning or preprocessing the data to remove any irrelevant or inaccurate information.
 
 ```python
 

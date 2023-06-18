@@ -1,4 +1,5 @@
 <h1 align="center"> A Sentiment Analysis Study: <br></br>Exploring the Response of 'Mental Health' Tweets <a href="#" target="_blank" rel="noreferrer">  </a>   <br>
+<img src='https://monkeylearn.com/static/6700dcab9bcc691104dd0d794f6e7ef4/Sentiment-analysis-of-Twitter-Social.png'/>
 </h1>
 <h2 align="center">
   Group Name

@@ -19,12 +19,19 @@ Google Scholar is a widely recognized platform for accessing academic publicatio
 
 The challenges encountered during web scraping Google Scholar included handling dynamic web page elements, handling pagination to collect multiple pages of search results, dealing with dynamic content loading through JavaScript, implementing appropriate waiting periods for page loading, and avoiding IP blocking or CAPTCHA from excessive requests.
 
-### Dataset Obtained
+#### a. Choosing a Library for Web Scraping
 
-The data set obtained from web scraping Google Scholar consisted of publication details related to the Faculty of Computing at the University of Technology Malaysia. The data set includes metadata such as article titles, authors, link, publication dates, description, journal name, volume and issue number, pages, publisher and citation counts. The data is stored in MongoDB for efficient querying and analysis.
-
-## Choosing a Library for Web Scraping
-
+```python
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from bs4 import BeautifulSoup
+from tqdm.notebook import tqdm
+import pymongo
+import time
+import re
+```
 Several libraries are available for web scraping, each with its own strengths and weaknesses. The three main libraries considered for this project were Beautiful Soup, Scrapy, and Selenium.
 
 - **Beautiful Soup** is a widely used library for parsing HTML and XML documents. It provides a simple and intuitive interface for extracting data from web pages. Beautiful Soup excels at extracting structured data from static web pages but may face limitations when dealing with dynamic or JavaScript-based content.
@@ -32,6 +39,121 @@ Several libraries are available for web scraping, each with its own strengths an
 - **Scrapy** is a comprehensive web scraping framework that offers extensive functionalities for extracting and processing data from websites. It provides more advanced features, including built-in support for handling JavaScript rendering and handling complex web scraping tasks. However, Scrapy has a steeper learning curve and may require more effort to set up and configure.
 
 - **Selenium** is a powerful tool for automated web browsing. It allows for programmatically controlling web browsers and interacting with dynamic web page elements. Selenium is especially useful when dealing with JavaScript-rendered content or scenarios that require user interactions. However, it may introduce more complexity due to the need for browser automation.
+
+#### b. Define the Google Scholar URL that you want to scrape
+
+```python
+url = 'https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=Faculty+of+Computing%2C+Universiti+Teknologi+Malaysia'
+```
+
+#### c. Inspect the web page to understand the HTML pattern of the webpage
+
+![image](https://github.com/drshahizan/special-topic-data-engineering/assets/97009588/225c0ecd-b6e6-4666-876d-917e536ed503)
+
+#### d. Web Scraping Using Selenium and Beautiful Soup
+
+After understanding the HTML pattern of the webpage, we can now start scraping the webpage using the libraries that we have imported just now
+
+```python
+scholar_list = []
+astart = 0
+
+# Set up the Selenium driver
+driver = webdriver.Chrome()
+
+while True:
+    
+    driver.get(url)
+
+    # Wait for the page to load
+    driver.implicitly_wait(10)
+
+    # Get the page source and parse it using Beautiful Soup
+    html = driver.page_source
+    soup = BeautifulSoup(html, 'html.parser')
+
+    # Find all the scholars, their affiliations and emails on the page
+    scholars = soup.find_all('h3', class_='gs_ai_name')
+    affs = soup.find_all('div', class_='gs_ai_aff')
+    emails = soup.find_all('div', class_='gs_ai_eml')
+
+    for scholar, aff, eml in zip(scholars, affs, emails):
+        # ignore scholars from Universiti Teknologi Mara (UiTM)
+        if not (re.search('MARA', aff.text, re.IGNORECASE) or re.search('uitm', eml.text, re.IGNORECASE)):
+            # add UTM FC scholars to the list
+            scholar_list.append(f"https://scholar.google.com{scholar.find('a')['href']}")
+
+    # get next page link from the next page button if it is present
+    if soup.select_one(".gsc_pgn button.gs_btnPR").get('onclick'):
+        after_author = re.search(r"after_author\\x3d(.*)\\x26", str(soup.select_one(".gsc_pgn button.gs_btnPR").get('onclick'))).group(1)
+        astart += 10
+        url = f'{url}&after_author={after_author}&astart={astart}'
+    else:
+        break
+
+with tqdm(total=len(scholar_list)) as pbar:  #progress bar
+    for scholar_url in scholar_list:
+
+        driver.get(scholar_url)
+
+        # click show more button in the profile page
+        for _ in range(0,3):
+            try:
+                #Wait up to 10s until the element is loaded on the page
+                element = WebDriverWait(driver, 5).until(
+                    #Locate element by id
+                    EC.presence_of_element_located((By.ID, 'gsc_bpf'))
+                )
+            finally:
+                element.click()
+            time.sleep(2)
+
+        # Get the page source and parse it using Beautiful Soup
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+
+        # get the links for all articles on the page of the scholar
+        links = soup.find_all('a', class_='gsc_a_at')
+        links_list = []
+        for link in links:
+            links_list.append(f'https://scholar.google.com{link["href"]}')
+
+        # loop through all article links of the scholar
+        for url in links_list:
+
+            driver.get(url)
+
+            # Wait for the page to load
+            driver.implicitly_wait(10)
+
+            # Get the page source and parse it using Beautiful Soup
+            html = driver.page_source
+            soup = BeautifulSoup(html, 'html.parser')
+
+            result = soup.find('div', id='gsc_vcpb')
+
+            # format the data in dictionary format
+            document = {}
+            try:
+                document['Title'] = result.find('a', class_='gsc_oci_title_link').text
+            except:
+                document['Title'] = result.find('div', id='gsc_oci_title').text
+            for field, value in zip(result.find_all('div', class_='gsc_oci_field'), result.find_all('div', class_='gsc_oci_value')):
+                if field.text == 'Scholar articles':
+                    break
+                elif field.text == 'Total citations':
+                    document[field.text] = int(re.search(r'\d+', value.find('a').text).group())
+                else:
+                    document[field.text] = value.text
+            if result.find('a', class_='gsc_oci_title_link'):
+                document['Link'] = result.find('a', class_='gsc_oci_title_link')['href']
+
+```
+
+### Dataset Obtained
+
+The data set obtained from web scraping Google Scholar consisted of publication details related to the Faculty of Computing at the University of Technology Malaysia. The data set includes metadata such as article titles, authors, link, publication dates, description, journal name, volume and issue number, pages, publisher and citation counts. The data is stored in MongoDB for efficient querying and analysis.
+
 
 ### Criteria for Choosing the Library
 The choice of library for web scraping depends on several factors, including the complexity of the target website, the desired level of automation, and the familiarity of the development team with the library. Considering the dynamic nature of Google Scholar, including JavaScript rendering and dynamic page elements, we needed a library that could handle such challenges effectively. Additionally, the ability to interact with the web page to access individual publication pages was crucial.
@@ -45,6 +167,29 @@ The advantages of using BeautifulSoup and Selenium together include the ability 
 - Discuss the benefits of using MongoDB for storing publication content data.
 - Explain the best way to store the data in MongoDB, including the data structure and organization.
 - Provide examples of how the data can be queried and analyzed using MongoDB.
+
+```python
+
+# Define the MongoDB connection parameters
+mongo_uri = "<mongo_uri>"
+db_name = '<database_name>'
+collection_name = '<collection_name>'
+
+# Create a new MongoDB client
+client = pymongo.MongoClient(mongo_uri)
+
+# Select the database
+db = client[db_name]
+
+# Select the collection
+collection = db[collection_name]
+
+```
+
+```python
+# insert the document into MongoDB database
+collection.insert_one(document)
+```
 
 ## Conclusion
 - Summarize the main points of the assignment and restate the importance of web scraping publication content for data analysis.

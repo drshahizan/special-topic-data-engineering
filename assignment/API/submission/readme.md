@@ -21,7 +21,7 @@ Don't forget to hit the :star: if you like this repo.
 | 5 |  | MichelinStar | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 6 |  | StaticIP | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 7 |  | Noctua| <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 8 |  | Rivertion | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 8 | Spotify API | Rivertion | <a href="/Rivertion" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 9 | | CodeX| <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 
 

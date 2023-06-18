@@ -64,13 +64,6 @@ data engineering, database systems and technologies. Various topics of interests
 - [GitHub Desktop](https://desktop.github.com/)
 - [Udemy: Beginner VS Code](https://www.udemy.com/course/beginner-vs-code/)
 
-## Project
-
-| Project | Topic | Files |
-| :-----: | ----- | :------: | 
-| 1| Final project |<a href="./project/readme.md" ><img src="./images/meeting.png" width="36px" height="36px" ></a> |
-
-
 ## Tools
 Diagrams are visual representations of information or data that help convey complex concepts, processes or systems in a clear and concise manner. Flowcharts are diagrams that use shapes and arrows to illustrate the steps in a process or algorithm [**[More info...]**](https://github.com/drshahizan/software-engineering/blob/main/materials/tools.md).
 
@@ -92,7 +85,7 @@ Diagrams are visual representations of information or data that help convey comp
 | 4 | Django | <a href="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission" ><img src="./images/django.svg" width="24px" height="24px" ></a> | 
 | 5 | MongoDB | <a href="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission" ><img src="./images/mongodb.svg" width="24px" height="24px" ></a> | 
 | 6 | AWS Certification| <a href="/materials/aws#submission" ><img src="./images/aws.svg" width="24px" height="24px" ></a> |
-| 7 | Project | <a href="./project/readme.md" ><img src="./images/meeting.png" width="36px" height="36px" ></a> |
+| 7 | Final Project | <a href="./project/readme.md" ><img src="./images/meeting.png" width="36px" height="36px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

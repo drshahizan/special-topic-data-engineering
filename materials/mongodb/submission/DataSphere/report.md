@@ -8,7 +8,9 @@
 - [References](#references)
 
 ## Introduction
+<p align="justify">
 The Car Booking System using MongoDB is a powerful solution designed to simplify the process of reserving and managing car rentals. MongoDB, serves as the backbone for this system, providing flexibility and efficiency in storing and retrieving data. By utilizing MongoDB's document-oriented database model, the Car Booking System can handle diverse requirements and accommodate varying data structures without the need for a predefined schema. This flexibility allows for easy expansion and modification of the system as the business evolves. MongoDB's indexing capabilities further optimize data retrieval and searching operations, ensuring fast response times for queries related to available cars, customer bookings, and pricing. Additionally, the scalability features of MongoDB enable the system to handle growing data volumes and user demands, making it an ideal choice for car rental businesses.
+</p>
 
 ## System Design
 

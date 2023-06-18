@@ -83,7 +83,7 @@ Diagrams are visual representations of information or data that help convey comp
 | 2 | Application Programming Interface (API)| <a href="./assignment/API/submission/readme.md" ><img src="./images/api.svg" width="24px" height="24px" ></a> | 
 | 3 | Data Scraping | <a href="./assignment/data-scraping/submission" ><img src="./images/scraping.svg" width="24px" height="24px" ></a> | 
 | 4 | Django | <a href="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission" ><img src="./images/django.svg" width="24px" height="24px" ></a> | 
-| 5 | MongoDB | <a href="https://github.com/drshahizan/learn-django/blob/main/materials/assignment/submission" ><img src="./images/mongodb.svg" width="24px" height="24px" ></a> | 
+| 5 | MongoDB | <a href="/materials/mongodb/submission/readme.md" ><img src="./images/mongodb.svg" width="24px" height="24px" ></a> | 
 | 6 | AWS Certification| <a href="/materials/aws#submission" ><img src="./images/aws.svg" width="24px" height="24px" ></a> |
 | 7 | Final Project | <a href="./project/readme.md" ><img src="./images/meeting.png" width="36px" height="36px" ></a> |
 

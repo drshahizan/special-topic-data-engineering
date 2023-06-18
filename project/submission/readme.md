@@ -17,7 +17,7 @@ Don't forget to hit the :star: if you like this repo.
 | 2 | Sales Analysis of Shopee Supermarket by Households Supplies Category | Regex |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Regex" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 3 |  | DataSphere |<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 4 |  | DataAce |<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 5 |  | MichelinStar |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/MichelinStar" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 5 | Entertainment Analytic Platform | MichelinStar |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/MichelinStar" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 6 | Malaysia Energy Consumption Analysis Dashboard | StaticIP |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/StaticIP" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 7 | Redditor's View Towards Anwar Ibrahim as Malaysia's 10th Prime Minister. | Noctua|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 8 |  | Rivertion |<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |

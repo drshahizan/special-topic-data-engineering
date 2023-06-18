@@ -1,0 +1,95 @@
+<!--
+=========================================================
+* Soft UI Dashboard PRO - v1.1.1
+=========================================================
+
+* Product Page:  https://www.creative-tim.com/product/soft-ui-dashboard-pro 
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+{% extends 'layouts/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container-fluid py-4">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body p-3 position-relative">
+          <div class="row">
+            <div class="col-7 text-start">
+              <p class="text-sm mb-1 text-capitalize font-weight-bold">Total Sales</p>
+              <h5 class="font-weight-bolder mb-0">
+                RM {{sales}}
+              </h5>
+            </div>
+            <div class="col-5">
+              <div class="text-end">
+                  <span class="text-xs text-secondary">June 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body p-3 position-relative">
+          <div class="row">
+            <div class="col-7 text-start">
+              <p class="text-sm mb-1 text-capitalize font-weight-bold">Average Price</p>
+              <h5 class="font-weight-bolder mb-0">
+                RM {{avg}}
+              </h5>
+            </div>
+            <div class="col-5">
+              <div class="text-end">
+                  <span class="text-xs text-secondary">June 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body p-3 position-relative">
+          <div class="row">
+            <div class="col-7 text-start">
+              <p class="text-sm mb-1 text-capitalize font-weight-bold">Total Item Sold</p>
+              <h5 class="font-weight-bolder mb-0">
+                {{sold}}
+              </h5>
+            </div>
+            <div class="col-5">
+              <div class="text-end">
+                  <span class="text-xs text-secondary">June 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-12">
+      <div class="card mb-4">
+        <div class="card-header pb-0">
+        </div>
+        <div class="card-body px-0 pt-0 pb-2">
+          <div class="table-responsive p-0">
+            <div class='tableauPlaceholder' id='viz1687022713740' style='position: relative'><noscript><a href='#'><img alt='Sales Analysis of Shopee Supermarket by Household Category ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sh&#47;ShopeeSupermarket&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ShopeeSupermarket&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sh&#47;ShopeeSupermarket&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1687022713740');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1277px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+{% endblock content %}

@@ -20,7 +20,7 @@ Don't forget to hit the :star: if you like this repo.
 | 4 | Food Influencer Tiktok Analysis Dashboard | DataAce | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 5 | Entertainment analytics platform | MichelinStar | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 6 | Energy consumption analysis dashboard | StaticIP | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 7 | Natural language processing tool | Noctua| <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 7 | Natural language processing tool | Noctua| <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/Noctua/proposal_Noctua.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 8 | Image and video analysis platform | Rivertion | <a href="Rivertion" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 9 | Recommendation engine | CodeX| <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 

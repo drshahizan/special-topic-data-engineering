@@ -14,7 +14,7 @@ Don't forget to hit the :star: if you like this repo.
 
 | No | Topic | Group | File | 
 | ----- | ----- | ------ | :------: | 
-| 1 | Social media monitoring tool | Gadgeteen | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 1 | Social media monitoring tool | Gadgeteen | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/proposal/Gadgeteen" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 2 | E-commerce analytics dashboard | Regex | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 3 | Customer segmentation tool | DataSphere | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 4 | Food Influencer Tiktok Analysis Dashboard | DataAce | <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/DataAce/readme.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |

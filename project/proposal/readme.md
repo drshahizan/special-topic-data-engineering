@@ -17,7 +17,7 @@ Don't forget to hit the :star: if you like this repo.
 | 1 | Social media monitoring tool | Gadgeteen | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 2 | E-commerce analytics dashboard | Regex | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 3 | Customer segmentation tool | DataSphere | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 4 | Food Influencer Tiktok Analysis Dashboard | DataAce | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 4 | Food Influencer Tiktok Analysis Dashboard | DataAce | <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/DataAce/readme.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 5 | Entertainment analytics platform | MichelinStar | <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/MichelinStar/Proposal_MichelinStar.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 6 | Energy consumption analysis dashboard | StaticIP | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 7 | Natural language processing tool | Noctua| <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/Noctua/proposal_Noctua.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |

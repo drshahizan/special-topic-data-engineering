@@ -49,7 +49,7 @@ Throughout the project, make sure to follow best practices for data science proj
 | 6 | Entertainment Analytic Platform | MichelinStar | <a href="./submission/MichelinStar" ><img src="../images/meeting.png" width="36px" height="36px"></a> |
 | 7 | Malaysia Energy Consumption Analysis Dashboard | StaticIP |<a href="./submission/StaticIP" ><img src="../images/meeting.png" width="36px" height="36px" >|
 | 8 | Sentiment Analysis On Anwar Ibrahim | Noctua| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Noctua"><img src="../images/meeting.png" width="36px" height="36px" ></a> |
-| 9 | Image and video analysis platform | Rivertion |<a href="./submission/Rivertion" ><img src="../images/meeting.png" width="36px" height="36px" ></a> |
+| 9 | Image analysis platform | Rivertion |<a href="./submission/Rivertion" ><img src="../images/meeting.png" width="36px" height="36px" ></a> |
 | 10 | Time-series analytics dashboard||<a href="" ><img src="../images/meeting.png" width="36px" height="36px"></a> |
 | 11 | Movie Recommendation engine | CodeX| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/9b6c2c3e3d99564d0008dbff19cf82df5b9f58f6/project/submission/CodeX" ><img src="../images/meeting.png" width="36px" height="36px" ></a> |
 | 12 | Spotify Recommendation engine | ZytrexDB |<a href="./submission/ZytrecDB" ><img src="../images/meeting.png" width="36px" height="36px"></a> |

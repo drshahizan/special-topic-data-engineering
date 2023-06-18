@@ -33,14 +33,15 @@
 - [Introduction](#introduction)
 - [Background](#️background)
 - [Objectives](#objectives)
+- [Scope](#️scope)
 - [Methodology](#️methodology)
-- [Data Analysis](#️data-analysis)
 - [Folder Structure](#️folder-structure)
-- [Visualization](#️visualization)
+- [Interface](#️interface)
 - [Insight](#️insight)
 - [Conclusion](#️conclusion)
 
 ## Introduction
+
 The e-commerce industry has witnessed significant growth over the past decade, with more and more consumers opting to shop online for their everyday needs. As part of this trend, online marketplaces have emerged as popular platforms for retailers and consumers to connect and transact.
 
 Shopee, one of the leading e-commerce platforms in Southeast Asia, has gained immense popularity due to its user-friendly interface, wide product selection, and competitive pricing. Shopee Supermarket, a dedicated section within the Shopee platform, focuses on providing consumers with a convenient and comprehensive shopping experience for household supplies.
@@ -60,6 +61,7 @@ The development of this project involves the integration of advanced data analyt
 The Sales Analysis Dashboard of Shopee Supermarket by Households Supplies Category is designed to cater to the specific needs of businesses operating in the e-commerce space, particularly those involved in selling household supplies. By providing a comprehensive and user-friendly interface for data analysis, this project aims to empower businesses to optimize their operations, enhance customer satisfaction, and achieve sustainable growth in the highly competitive online marketplace.
 
 ## Objectives
+
 Around 80% of eCommerce businesses have been failing because of insufficient marketing strategy and selling the wrong product at the wrong price. Therefore, an effective marketing plan is the key success of all businesses. The business owner has to collect sales data and then analyze it himself. Without doing this, the business owner cannot understand the current situation of the marketplace.
 
 However, modern technology can help to solve this problem effectively. Therefore, the owner's time will not be wasted to the maximum extent. The Sales Analysis Dashboard of Shopee Supermarket by Households Supplies Category of our project target to achieve the following objectives.
@@ -68,7 +70,31 @@ However, modern technology can help to solve this problem effectively. Therefore
 - Provide actionable insights to optimize pricing strategies and maximize profitability within the household supplies category.
 - Improve customer satisfaction by understanding purchasing patterns, preferences, and shopping behavior.
 
+## Scope
+
+1. Product Scope
+   - The analysis will specifically concentrate on the household supplies category within the Shopee Supermarket.
+   - The household supplies category may include products such as cleaning supplies, kitchen essentials, personal care items, and other relevant household-related products.
+
+2. Data Collection Scope
+   - Utilizing a web scraping tool, specifically a Chrome extension, to extract relevant data from the Shopee Supermarket website.
+   - The product data such as name, price, rating, sold amount and image have been extracted.
+
+3. Data Cleaning and Preprocessing Scope
+   - Applying data cleaning techniques using Python to ensure the extracted data is accurate, consistent, and ready for analysis.
+   - For example, handling missing data and removing duplicates.
+
+4. Data Storage Scope
+   - MongoDB: Utilizes MongoDB to store user data, as it offers flexibility, scalability, and the capability to handle diverse data structures.
+   - SQL: Use MySQL for storing Shopee data, which is efficient for handling transactional and inventory data.
+
+5. Data Analysis Scope
+   - Statistical analysis: Conducting statistical analysis to gain insights into sales patterns, trends, and correlations within the household supplies category.
+   - Data visualization: Creating visual representations (charts, graphs, dashboards, etc.) to effectively communicate the analyzed data and findings.
+
+
 ## Methodology
+
 1. ``Data Collection``: Gather sales data from the Shopee Supermarket platform specifically related to the household supplies category.
 
 2. ``Data Cleaning and Preparation``: This step includes data cleaning and data transforming process where all retrieved data will be cleaned in order to make sure there are no noisy and dirty data. Hence, the quality of the data increases which later will produce more complete, accurate and consistent result. Then, transform the format of the data if needed.
@@ -79,16 +105,21 @@ However, modern technology can help to solve this problem effectively. Therefore
 
 5. ``Insights and Recommendations``: Interpret the findings from the analysis and generate actionable insights. Identify opportunities for improvement, growth, and optimization within the household supplies category.
 
-## Data Analysis
-
 ## Folder Structure
 
-## Visualization
+## Interface
+1. Login Page
+2. Register Page
+3. Product Catalog Page
+4. Product Details Page
+5. Report Page
 
 ## Insight
 
 ## Conclusion
 
+
+## Quick Start
 
 
 

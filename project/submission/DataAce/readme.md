@@ -44,6 +44,8 @@ Additionally, our TikTok Analysis Dashboard provides competitive analysis featur
 
 Ultimately, our TikTok Analysis Dashboard is a powerful tool that equips you with the necessary insights to optimize your TikTok presence and achieve your goals. So, let's dive in, harness the power of data, and unlock your TikTok potential like never before!
 
+<img src="Flowchart.jpg" alt="TikTok Image">
+
 ### 📂Content:
 * [📖Tiktokanalysis] - Web Development file
 * [📖apiscraping-tiktokpy] - Api Scraping python file

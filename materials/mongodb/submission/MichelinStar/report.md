@@ -1,5 +1,5 @@
 <div align="center">
-   <h1>Feedback Analysis System</h1>
+   <h1>Restaurant Rating Analysis System</h1>
 </div>
 
 <h2>Group Members <img width=30px; height=30px src="https://github.com/TanYongSheng728/TanYongSheng728/blob/main/group.png"></h2>

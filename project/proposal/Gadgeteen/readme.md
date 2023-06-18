@@ -52,3 +52,6 @@ This project proposal aims to provide a social media monitoring tool that can ga
   </tr>
 </table>
 </p>
+
+## Content
+[📄Proposal](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/Gadgeteen/Proposal_Gadgeteen.md)

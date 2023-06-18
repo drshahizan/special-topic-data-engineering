@@ -27,7 +27,7 @@
 </table>
 
 ## Contents📝
-- 📑[Code]()
+- 📑[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/6ca836c43faed4b804c522ff7fb483f99d3187a9/assignment/data-scraping/submission/part1/Rivertion/Web_Scraping_Code.ipynb)
 
 ## 1. Introduction
 

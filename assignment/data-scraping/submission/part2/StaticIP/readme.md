@@ -1,5 +1,8 @@
 # Assignment Part 2: Web Scraping Text Content
 
+(jupyter notebook)[https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part2/StaticIP/Google%20Scholar%20Scarping.ipynb]
+(output csv data)[]
+
 
 <table>
   <tr>

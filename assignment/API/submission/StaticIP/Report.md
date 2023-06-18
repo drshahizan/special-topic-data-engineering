@@ -48,7 +48,7 @@ There are two alternatives of importing the data to MongoDB:
 ### Creating Database in MongoDB
 Database is created by entering the name of the database and the name of the collection.
 
-<div align = "center"><img width=500 height=350 src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Create%20database.png"></div>
+<div align = "center"><img width=500 height=350 src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/StaticIP/Create%20database.png"></div>
 
 
 ### Importing data to MongoDB

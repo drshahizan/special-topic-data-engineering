@@ -53,3 +53,6 @@ The system utilizes a combination of MongoDB and MySQL to store the data. PHP se
 ## Contents📝
 - 📑[Report](Report.md)
 - 💻[Code](sas)
+- 🛠️[MongoDB Database Configuration](mongodbconnect.php)
+- ⚙️[Mysql Database Configuration](dbconnect.php)
+- 📰[Initial Dataset](sales.csv)

@@ -25,6 +25,21 @@ Don't forget to hit the :star: if you like this repo.
 | 9 | | CodeX| <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 
 
+## 📚 Part 2
+
+| No | Topic | Group | File | 
+| ----- | ----- | ------ | :------: | 
+| 1 |  | Gadgeteen | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 2 |  | Regex | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 3 |  | DataSphere | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 4 |  | DataAce | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 5 |  | MichelinStar | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 6 |  | StaticIP | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 7 |  | Noctua| <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 8 |  | Rivertion | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 9 | | CodeX| <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

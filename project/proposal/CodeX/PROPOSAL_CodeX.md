@@ -1,4 +1,4 @@
-<h1 align='center'>Cgroup: CodeX</h1>
+<h1 align='center'>Group: CodeX</h1>
 <h1 align='center'>Recommendation Engine: Movie Recomendation 🔍</h1>
 
 <p align="center">

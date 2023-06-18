@@ -46,7 +46,7 @@
 ### 📂Folder content:
 
 * [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Noctua/report.md)
-* [📄Source Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Noctua/Book-Rating-System)
+* [📄Source Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/Noctua/mini_projects)
 * [📃SQL](https://github.com/drshahizan/special-topic-data-engineering/tree/main/materials/mongodb/submission/Noctua)
 
 

@@ -17,7 +17,7 @@ Don't forget to hit the :star: if you like this repo.
 | 1 | Web Scraping with Flickr | Gadgeteen | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1/Gadgeteen" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 2 |  Web scraping Flickr Multimedia Content  | Regex | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/ce75b75768012da91205ffe012703a946ea930cf/assignment/data-scraping/submission/part1/Regex/readme.md" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 3 |  | DataSphere | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 4 |  | DataAce | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 4 | Flickr Web Scraping | DataAce | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1/DataAce" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 5 | Web scraping Malaysia Photo Collection | MichelinStar | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1/MichelinStar" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 6 | Web Scraping Multimedia Content | StaticIP | <a href="Web scraping multimedia content" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 7 | Multimedia Scraping with Flickr | Noctua| <a href="/assignment/data-scraping/submission/part1/Noctua" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
@@ -32,7 +32,7 @@ Don't forget to hit the :star: if you like this repo.
 | 1 | Web Scraping Text Content on Google Scholar | Gadgeteen | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2/Gadgeteen" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 2 | Web Scraping Text Content | Regex | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2/Regex" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 3 |  | DataSphere | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 4 |  | DataAce | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 4 | UTM User Profiles in Google Scholar | DataAce | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2/DataAce" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 5 | Web scraping Text Content From Google Scholar | MichelinStar | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2/MichelinStar" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 6 | Web Scraping Text Content | StaticIP | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2/StaticIP" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 7 | Google Scholar Web Scraping | Noctua| <a href="/assignment/data-scraping/submission/part2/Noctua" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |

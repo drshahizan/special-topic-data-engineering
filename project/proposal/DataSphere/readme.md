@@ -50,4 +50,4 @@
 
 - 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataSphere/report.md)
 - 📃[Project submission](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataSphere)
-- - 📃[Presentation Slide](https://www.canva.com/design/DAFmE9dJWcQ/8laEbQSvm_0LWRuiGAr8gw/edit?utm_content=DAFmE9dJWcQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- 📃[Presentation Slide](https://www.canva.com/design/DAFmE9dJWcQ/8laEbQSvm_0LWRuiGAr8gw/edit?utm_content=DAFmE9dJWcQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)

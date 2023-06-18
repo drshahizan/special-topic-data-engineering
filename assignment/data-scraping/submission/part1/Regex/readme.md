@@ -36,4 +36,4 @@ This assignment entails web scraping image content from Flickr, a popular photo-
 ## Contents📝
 - 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/ce75b75768012da91205ffe012703a946ea930cf/assignment/data-scraping/submission/part1/Regex/Regex_Report.md)
 - 💻[Code](https://github.com/yanakunn/special-topic-data-engineering/blob/869b20a584941008fe29717e5791e45f11f9840d/assignment/data-scraping/submission/part1/Regex/Regex_Flickr.py)
-- [Scrap Dataset] (https://github.com/yanakunn/special-topic-data-engineering/blob/869b20a584941008fe29717e5791e45f11f9840d/assignment/data-scraping/submission/part1/Regex/flickr_scraping.csv)
+- [Scrap Dataset](https://github.com/yanakunn/special-topic-data-engineering/blob/869b20a584941008fe29717e5791e45f11f9840d/assignment/data-scraping/submission/part1/Regex/flickr_scraping.csv)

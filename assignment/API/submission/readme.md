@@ -18,7 +18,7 @@ Don't forget to hit the :star: if you like this repo.
 | 2 |  | Regex | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 3 | Bank Negara Open API | DataSphere | <a href="assignment/API/submission/DataSphere" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 4 |  | DataAce | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 5 | The Movie Database | MichelinStar | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/API/submission/MichelinStar" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 5 | The Movie API | MichelinStar | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/API/submission/MichelinStar" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 6 |  | StaticIP | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 7 | Islamic Prayers Time API | Noctua| <a href="/assignment/API/submission/Noctua" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 8 | Spotify API | Rivertion | <a href="/assignment/API/submission/Rivertion" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |

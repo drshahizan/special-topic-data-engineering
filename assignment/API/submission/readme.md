@@ -17,7 +17,7 @@ Don't forget to hit the :star: if you like this repo.
 | 1 | Open Weather API | Gadgeteen | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/API/submission/Gadgeteen" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 2 |  | Regex | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 3 | Bank Negara Open API | DataSphere | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/API/submission/DataSphere" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 4 |  | DataAce | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 4 | Malaysia News API | DataAce | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 5 | The Movie API | MichelinStar | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/API/submission/MichelinStar" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 6 | Malaysia Holiday API | StaticIP | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 7 | Islamic Prayers Time API | Noctua| <a href="/assignment/API/submission/Noctua" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |

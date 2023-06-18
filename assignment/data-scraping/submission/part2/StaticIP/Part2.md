@@ -15,7 +15,7 @@ In this assignment, we explored the process of web scraping publication content 
 
 ## Web Scraping Google Scholar
 
-Google Scholar is a good source for publication content because it provides a comprehensive and easy way to search for scholarly literature across various disciplines and sources. Google Scholar indexes articles, theses, books, abstracts, and court opinions from academic publishers, professional societies, online repositories, universities, and other web sites¹. Google Scholar also provides features such as citation analysis, related articles, author profiles, and library links².
+Google Scholar is a good source for publication content because it provides a comprehensive and easy way to search for scholarly literature across various disciplines and sources. Google Scholar indexes articles, theses, books, abstracts, and court opinions from academic publishers, professional societies, online repositories, universities, and other web sites¹. Google Scholar also provides features such as citation analysis, related articles, author profiles, and library links.
 
 A brief overview of the site is as follows:
 

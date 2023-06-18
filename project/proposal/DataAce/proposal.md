@@ -2,26 +2,26 @@
 <p align="center">
   <img src="https://s17233.pcdn.co/blog/wp-content/uploads/2022/12/tiktok_analytics_hero@2x.png" title="TikTok Dashboard">
 </p>
-<h2>Group Members</h2>
-<table>
+<h2 align=center>Group Members</h2>
+<table align=center>
   <tr>
     <th>Name</th>
-    <th>Matric No</th>
+    <th>Matric No.</th>
   </tr>
   <tr>
-    <td>Myza Nazifa binti Nazry</td>
+    <td>MYZA NAZIFA BINTI NAZRY</td>
     <td>A20EC0219</td>
   </tr>
   <tr>
-    <td>Nur Izzah Mardhiah binti Rashidi</td>
+    <td>NUR IZZAH MARDHIAH BINTI RASHIDI</td>
     <td>A20EC0116</td>
   </tr>
     <tr>
-    <td>Amirah Raihanah binti Abdul Rahim</td>
+    <td>AMIRAH RAIHANAH BINTI ABDUL RAHIM</td>
     <td>A20EC0182</td>
   </tr>
     <tr>
-    <td>Radin Dafina binti Radin Zulkar Nain</td>
+    <td>RADIN DAFINA BINTI RADIN ZULKAR NAIN</td>
     <td>A20EC0135</td>
   </tr>
 </table>
@@ -121,8 +121,9 @@ Attributes that we may be interested in:
 
 The system architecture consists of several components that work together to process and visualize data stored in a MongoDB database:
 
-![system architecture](Flowchart.jpg)
-
+<p align="center">
+  <img src="System Architecture.jpg" title="System Architecture">
+</p>
 
 1. Data scraping:
 Use Tiktok Analytics API to scrape raw data such as username, number of likes and comments from Tiktok.

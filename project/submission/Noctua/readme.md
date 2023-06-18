@@ -50,11 +50,24 @@ New Government🤵‍♂:<br>
    </tr>
 </table>
 
+---
+
 ### 📂Folder content:
 
-* [📖Report]()
-* [💻System](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Noctua/Reddit%20System)
-* [📎CSV file exported](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Noctua/Dataset)
+* [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Noctua/Project%20Analysis.pdf)
+* [💻System Code](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Noctua/Reddit%20System)
+* [📎Processed Data](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Noctua/Dataset/preprocessed_data4.csv)
+* [📎Raw Data](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Noctua/Dataset/combined_data.csv)
+
+---
+
+<h3>
+  How To Start.
+</h3>
+ 1.
+---
+
+
 
 
 

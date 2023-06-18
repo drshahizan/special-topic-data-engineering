@@ -5,7 +5,7 @@
 - [Web Interface](#web-interface)
 - [Testing and Validation](#testing-and-validation)
 - [Conclusion](#conclusion)
-- [References](#references)
+
 
 ## Introduction
 <p align="justify">
@@ -16,14 +16,22 @@ The Car Booking System using MongoDB is a powerful solution designed to simplify
 
 ## Implementation
 1.``Install MongoDB``: Start by installing MongoDB on our system. Visited the official MongoDB website and download the appropriate version for our operating system. Followed the installation instructions provided by MongoDB to complete the installation process.
+<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/576dd47228bdc06b53705db8aaff9be071709785/materials/mongodb/submission/DataSphere/images/Mongodb_Download.jpg">
+
 
 2.``Set up MongoDB Server``: Once MongoDB is installed, we need to set up a MongoDB server. Open a terminal or command prompt and start the MongoDB server by running the appropriate command.
+<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/576dd47228bdc06b53705db8aaff9be071709785/materials/mongodb/submission/DataSphere/images/Mongodb_setUp.jpg">
+
 
 3.``Create a MongoDB Database``: Next, we'll need to create a MongoDB database specifically for the Car Booking System. We use MongoDB GUI tool (such as MongoDB Compass) to create a new database. Named a suitable name for the database, such as "cbs"
+<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/73668a45669ac69f232e359fa69518737ecd1e6f/materials/mongodb/submission/DataSphere/images/mongodbDatabase.jpg">
 
-3.``Design the Database Schema``: Determined the structure of my database by designing the schema for the Car Booking System. 
 
-4.``Connect to MongoDB in Our Application``:In our Car Booking System application's code, we need to establish a connection to MongoDB. Install the MongoDB driver or library for your programming language (e.g., pymongo for Python). Import the necessary libraries and use the appropriate code to connect to the MongoDB server and the specific database you created.
+4.``Design the Database Schema``: Determined the structure of my database by designing the schema for the Car Booking System. 
+<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/6468ab31d7afcb2fc911b91f4c1c895407f867a1/materials/mongodb/submission/DataSphere/images/DeleteBookingMongodb.jpg">
+
+5.``Connect to MongoDB in Our Application``:In our Car Booking System application's code, we need to establish a connection to MongoDB. Install the MongoDB driver or library for your programming language (e.g., pymongo for Python). Import the necessary libraries and use the appropriate code to connect to the MongoDB server and the specific database you created.
+<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/d56e1fa28b00a1894b7844ad8df2c812108a7c6f/materials/mongodb/submission/DataSphere/images/CreateBookingMongodb.jpg">
 
 ## Web Interface
 - Admin Landing Page
@@ -97,4 +105,4 @@ The Car Booking System using MongoDB is a powerful solution designed to simplify
 In conclusion, the integration of MongoDB into the Car Booking System provides numerous benefits for car rental businesses. MongoDB's flexibility, scalability, and efficient data storage capabilities make it an ideal choice as the backend database. The system can handle diverse data structures without a predefined schema, allowing for easy expansion and modification as the business evolves. MongoDB's indexing and querying capabilities ensure fast and efficient data retrieval, enhancing the user experience and streamlining operations. Furthermore, MongoDB's scalability features enable the system to handle growing data volumes and user demands, ensuring optimal performance even as the business expands. By leveraging MongoDB's strengths, the Car Booking System offers a robust and efficient solution for car rental businesses, improving customer satisfaction and driving operational efficiency.
 </p>
 
-## Reference
+

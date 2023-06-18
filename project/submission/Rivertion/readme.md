@@ -1,4 +1,4 @@
-<h1 align='center'>Image Analysis for Rotten Fruit Detection 🍇🍉🍎🍐🍓</h1>
+<h1 align='center'>Image Analysis for Rotten Fruit Detection</h1>
 
 <p>The Rotten Fruit Detection System is an advanced image analysis platform designed to automatically identify and classify rotten fruits. Leveraging state-of-the-art machine learning techniques, the system analyzes images of fruits to accurately determine their freshness status. By using computer vision algorithms, the platform can detect subtle visual cues and patterns associated with decay, discoloration, and other signs of spoilage in fruits.</p>
 
@@ -36,10 +36,10 @@
 
 <table align='center'>
   <tr>
-    <th>🧠Project Proposal</th>
-    <th>Open In GitHub</th>
+    <th>Source Code</th>
+    <th>Link</th>
   </tr>
     <td>Open In GitHub</td>
-    <td><a href="https://github.com/drshahizan/special-topic-data-engineering/blob/4106ac5d72db3c3c59aa8e8f4f1d4b9115404eb1/project/proposal/Rivertion/Proposal_Rivertion.md">:octocat:</a></td>
+    <td><a href="rivertion">:octocat:</a></td>
   </tr>
 </table>

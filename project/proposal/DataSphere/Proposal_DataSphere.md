@@ -37,8 +37,9 @@ By leveraging sentiment analysis techniques, this project sought to uncover impo
 <p align="justify">
 The data for this project was collected using web scraping techniques, specifically utilizing tools such as Snscrape to retrieve tweets based on mental health-related keywords or hashtags. The collected tweets were then preprocessed, removing irrelevant information and normalizing the text, before being subjected to sentiment analysis algorithms.
 </p>
+
 ## 🔎: Goals and Objectives
- The goal of this project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed by Malaysians about the government's latest initiative, Menu Rahmah. The objective of sentiment analysis is to classify the sentiment of the text as positive, negative, or neutral. This information can be used to understand the public opinion towards a specific product, service, brand, or event, and can be helpful in making informed decisions and improving customer satisfaction. It can also be useful in identifying potential issues or areas of improvement for businesses or organizations.
+The goal of this project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed by Malaysians about the government's latest initiative, Menu Rahmah. The objective of sentiment analysis is to classify the sentiment of the text as positive, negative, or neutral. This information can be used to understand the public opinion towards a specific product, service, brand, or event, and can be helpful in making informed decisions and improving customer satisfaction. It can also be useful in identifying potential issues or areas of improvement for businesses or organizations.
 
 Goals:
 
@@ -184,7 +185,7 @@ The following hardware and software will be required to support the proposed sys
 </div>
 
 Week 1-2: Planning and Requirements Gatherings
-Determine the problem to be solved on Twitter regarding 'Menu Rahmah' tweets. Finalized proposal outlining system architecture, methodology and other related requirements. 
+Determine the problem to be solved on Twitter regarding 'Mental Health' tweets. Finalized proposal outlining system architecture, methodology and other related requirements. 
 
 Week 3-6: Data Collection and Preprocessing
 Collect Twitter data related to the Menu Rahmah project using the Twitter API or appropriate keywords. Then, preprocess the data by cleaning, filtering, and transforming it into a suitable format for analysis.Week 7-8:  Sentiment Analysis Development
@@ -197,7 +198,7 @@ Week 11-12: Model Deployment and Testing
 After the analysis is completed, deploy and test the application to a production environment.
 
 Week 13-14: Final Report and Presentation
-Write a final report summarizing the project findings and recommendations. Finally, store the preprocessed data in a MongoDB database.
+Write a final report summarizing the project findings and recommendations. 
 
 ## 💰: Resources
 
@@ -296,15 +297,15 @@ Week 1-2: Planning and Requirements Gatherings
 > Resources: Github, ChatGPT
 
 Week 3-6: Data Collection and Preprocessing
-- Collect Twitter data related to the Menu Rahmah project using the Twitter API or appropriate keywords.
+- Collect Twitter data related to the Mental Health project using the Twitter API or appropriate keywords.
 - Preprocess the data by cleaning, filtering, and transforming it into a suitable format for analysis.
 - Store the preprocessed data in a MongoDB database.
-> Resources: Python/Social Media Monitoring Tools, MongoDB, Alteryx
+> Resources: Python/Social Media Monitoring Tools, MySQL, Alteryx
 
 Week 7-8:  Sentiment Analysis Development
 - Do feature extraction of the meaningful features of the text. 
 - Select, train and evaluate the model for sentiment analysis using NLP technique.
-> Resources: Python, Alteryx
+> Resources: Python
 
 Week 9-10:  Data Visualization and Insights
 - Visualize the sentiment analysis results using appropriate charts, graphs, and dashboards.
@@ -313,7 +314,7 @@ Week 9-10:  Data Visualization and Insights
 
 Week 11-12: Model Deployment and Testing
 - After the analysis is completed, deploy and test the application to a production environment.
-> Resources: Python, Django
+> Resources: Python, Php, HTML
 
 Week 13-14: Final Report and Presentation
 - Write a final report summarizing the project findings and recommendations.

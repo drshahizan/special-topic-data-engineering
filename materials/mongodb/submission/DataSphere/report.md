@@ -17,6 +17,7 @@ The Car Booking System using MongoDB is a powerful solution designed to simplify
 ## Implementation
 
 ## Web Interface
+<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/4e6e4dc53bf5549108c0dd5f59514da2be8ddf31/materials/mongodb/submission/DataSphere/images/indexpage.jpg">
 
 ## Testing and Validation
 ### 1. Create

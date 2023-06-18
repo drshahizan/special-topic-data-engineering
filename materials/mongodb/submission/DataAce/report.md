@@ -1,6 +1,6 @@
 <h1 align='center'>Student Management System</h1>
 <p align="center">
-  <img src="https://static.javatpoint.com/blog/images/student-management-system.png" height= '300px' title="PHPMONGODB">
+  <img src="https://bigdataanalyticsnews.com/wp-content/uploads/2021/12/school-management.jpg" height= '300px' title="PHPMONGODB">
   </p>
 
 <h2 align='center'>Group Members</h2>

@@ -19,9 +19,9 @@ Flickr has a powerful search engine that allows users to search for multimedia c
 ### c. API access
 Flickr provides an API (Application Programming Interface) that allows developers to access and interact with the site's multimedia content.
 
-## 3. Process Of Web Scraping
+## 3. Process Of Web Scraping Using Flickr API
 
-### a.Identifying the website or web page to be scraped.
+### a. Identifying the website or web page to be scraped.
 
 ```python
 api_key = ""
@@ -38,13 +38,84 @@ This code defines several variables that are used to construct URLs for making A
 - info_url is a string variable that contains the URL for retrieving detailed information about a specific photo on Flickr. It includes the api_key variable and a photo_id variable, which is the ID of the photo to retrieve information about. The format=json parameter specifies that the response should be returned in JSON format, and nojsoncallback=1 disables the JSONP callback function.
 - exif_url is a string variable that contains the URL for retrieving EXIF (Exchangeable Image File Format) data for a specific photo on Flickr. It includes the api_key variable and a photo_id variable, which is the ID of the photo to retrieve EXIF data for. The format=json parameter specifies that the response should be returned in JSON format, and nojsoncallback=1 disables the JSONP callback function.
 
-#### b.Inspecting the HTML code of the webpage to understand its structure and identify the relevant data to be scraped.
+### b. Convert API into JSON
 
-#### c.Using a web scraping tool or library to extract the data from the webpage. This may involve writing code to navigate through the page's HTML structure and locate the desired data.
+```python
+response = requests.get(search_url.format(api_key=api_key))
+data = json.loads(response.text)
+total_pages = data["photos"]["page"]
 
-#### d.Parsing the data to ensure that it is in a usable format, such as a CSV or JSON file.
+```
 
-#### e.Storing the data in a database or other storage medium for later use or analysis. This may involve cleaning or preprocessing the data to remove any irrelevant or inaccurate information.
+
+### c.Retrieve the metadata for each photo.
+
+```python
+metadata_list = []
+for page in range(1, total_pages+1):
+    response = requests.get(search_url.format(api_key=api_key, page=page))
+    data = json.loads(response.text)
+    for photo in data["photos"]["photo"]:
+        # Get the photo info
+        response = requests.get(info_url.format(api_key=api_key, photo_id=photo["id"]))
+        data = json.loads(response.text)
+        metadata = data["photo"]
+
+        # Get the camera settings
+        response = requests.get(exif_url.format(api_key=api_key, photo_id=photo["id"]))
+        data_exif = json.loads(response.text)
+
+        # Store the metadata and camera settings in a dictionary
+        metadata_dict = {
+            "Title": metadata["title"].get("_content", "Untitled"),
+            "Author": metadata["owner"]["username"],
+            "URL": f'https://live.staticflickr.com/{metadata["server"]}/{metadata["id"]}_{metadata["secret"]}.jpg',
+        }
+
+        if data_exif['stat'] == 'fail':
+            exif_data ="Owner denied access"
+        else:
+            exif_data = data_exif["photo"]["exif"]
+
+            for exif in exif_data:
+                if exif["label"] in ["Make", "Model"]:
+                    metadata_dict[exif["label"]] = exif["raw"]["_content"]
+
+        # Add the metadata to the list
+        metadata_list.append(metadata_dict)
+
+```
+
+This code block starts by creating an empty list metadata_list to store the metadata for each photo. Then, using a for loop, it iterates over each page of search results (1 to total_pages) to retrieve the metadata for each photo.
+
+For each photo on each page of search results, the code sends a request to the Flickr API endpoint specified by info_url and exif_url to get information about the photo and its camera settings, respectively.
+
+The metadata and camera settings are then stored in a dictionary called metadata_dict, with the title of the photo, author of the photo, and URL to the photo stored as keys. If the camera settings for the photo are not accessible, the value of exif_data is set to "Owner denied access". Otherwise, the make and model of the camera are extracted from the camera settings and added to the dictionary.
+
+Finally, the metadata_dict dictionary is appended to the metadata_list for each photo, so that the final metadata_list contains a list of dictionaries, each containing the metadata and camera settings for a single photo.
+
+
+### e.Storing the data in a database or other storage medium for later use or analysis. This may involve cleaning or preprocessing the data to remove any irrelevant or inaccurate information.
+
+```python
+
+with open("flickr_scraping.csv", "w", newline="", encoding="utf-8") as f:
+    writer = csv.DictWriter(f, fieldnames=["Title", "Author", "URL", "Make", "Model"])
+    writer.writeheader()
+
+    for metadata in metadata_list:
+        # Download the image
+        response = requests.get(metadata["URL"])
+        image = cv2.imdecode(np.frombuffer(response.content, np.uint8), cv2.IMREAD_COLOR)
+
+        # Write the metadata to the CSV file
+        writer.writerow(metadata)
+
+```
+
+This code writes the metadata information of a list of dog images obtained from Flickr to a CSV file named "flickr_scraping.csv".
+
+It uses the csv library to write the data to a CSV file with the provided fieldnames in the first row. The metadata list is iterated through, and for each image, it downloads the image using the requests library, and decodes it using the cv2 library. Finally, it writes the metadata information to the CSV file using the writerow() function.
 
 ## 4. Storing Data in MongoDB
 

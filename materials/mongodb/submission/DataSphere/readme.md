@@ -34,6 +34,6 @@
   </table>
 </p>
 
-<h2>Table of Content</h2
+<h2>Table of Content</h2>
 - 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataSphere/report.md)
 - 📃[Database](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataSphere/db_cbs.sql)

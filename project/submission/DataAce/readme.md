@@ -48,11 +48,11 @@ Ultimately, our TikTok Analysis Dashboard is a powerful tool that equips you wit
 
 ### 📂Content:
 * 📑 [Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataAce/report.md)
-* 📖 [Web Development file](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataAce/tiktokanalysis)
-* 📖 [Data Clening](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataAce/datacleaning_tiktok.ipynb)
-* 📖 [API Scraping Python](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataAce/apiscraping-tiktokpy) 
-* 📖 [Data Integration Log from Azure Data Factory file](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataAce/data-integration)
-* 📖 [Raw Data from API scraping](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataAce/api-tiktokdata-raw)
+* 💻 [Web Development file](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataAce/tiktokanalysis)
+* ✏️ [Data Clening](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataAce/datacleaning_tiktok.ipynb)
+* 📋 [API Scraping Python](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataAce/apiscraping-tiktokpy) 
+* 📂 [Data Integration Log from Azure Data Factory file](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataAce/data-integration)
+* 📔 [Raw Data from API scraping](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataAce/api-tiktokdata-raw)
 * 📖 [Raw Data integrated using ADF file](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataAce/api-tiktokdata-integrated) 
-* 📖 [Cleaned and Transformed Data](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataAce/api-tiktokdata-clean) 
+* 📜 [Cleaned and Transformed Data](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataAce/api-tiktokdata-clean) 
 

@@ -12,15 +12,15 @@ Don't forget to hit the :star: if you like this repo.
 
 | No | Title | Group | File | 
 | ----- | ----- | ------ | :------: | 
-| 1 | Web Scraping with Flickr | Gadgeteen | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1/Gadgeteen" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 2 |  Web scraping Flickr Multimedia Content  | Regex | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/ce75b75768012da91205ffe012703a946ea930cf/assignment/data-scraping/submission/part1/Regex/readme.md" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 1 | Web Scraping with Flickr | Gadgeteen | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 2 |  Web scraping Flickr Multimedia Content  | Regex | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 3 |  | DataSphere | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 4 |  | DataAce | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 5 | Web scraping Malaysia Photo Collection | MichelinStar | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1/MichelinStar" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 5 | Web scraping Malaysia Photo Collection | MichelinStar | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 6 | Web Scraping Multimedia Content | StaticIP | <a href="Web scraping multimedia content" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 7 | Multimedia Scraping with Flickr | Noctua| <a href="/assignment/data-scraping/submission/part1/Noctua" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 8 | Web Scraping Multimedia Content | Rivertion | <a href="part1/Rivertion" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 9 | Pixabay Scraping | CodeX| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/2c9ec45d5a6592bfced2a9af40e5bf36f160cc3a/assignment/data-scraping/submission/part1/CodeX" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 7 | Multimedia Scraping with Flickr | Noctua| <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 8 | Web Scraping Multimedia Content | Rivertion | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 9 | Pixabay Scraping | CodeX| <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

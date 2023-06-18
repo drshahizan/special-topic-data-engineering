@@ -5,23 +5,27 @@
 <table align=center>
   <tr>
     <th>Name</th>
-    <th>Matric No.</th>
+    <th>Matric</th>
   </tr>
   <tr>
-    <td>MYZA NAZIFA BINTI NAZRY</td>
-    <td>A20EC0219</td>
+    <td>HONG PEI GEOK</td>
+    <td>A20EC0044</td>
   </tr>
   <tr>
-    <td>NUR IZZAH MARDHIAH BINTI RASHIDI</td>
-    <td>A20EC0116</td>
+    <td>MADIHAH BINTI CHE ZABRI</td>
+    <td>A20EC0074</td>
   </tr>
     <tr>
-    <td>AMIRAH RAIHANAH BINTI ABDUL RAHIM</td>
-    <td>A20EC0182</td>
+    <td>MAIZATUL AFRINA SAFIAH BINTI SAIFUL AZWAN</td>
+    <td>A20EC0204</td>
   </tr>
     <tr>
-    <td>RADIN DAFINA BINTI RADIN ZULKAR NAIN</td>
-    <td>A20EC0135</td>
+    <td>NURARISSA DAYANA BINTI MOHD SUKRI</td>
+    <td>A20EC0120</td>
+  </tr>
+  <tr>
+    <td>SAKINAH AL'IZZAH BINTI MOHD ASRI</td>
+    <td>A20EC0142</td>
   </tr>
 </table>
 

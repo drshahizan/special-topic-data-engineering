@@ -30,6 +30,6 @@
 
 
 ## Contents📝
-- 📑[Report]()
-- 💻[Code]()
-- 📂[CSV]()
+- 📑[Report]([)](https://github.com/drshahizan/special-topic-data-engineering/blob/da1de5c7160222fccecbd737057218cd68cf6c31/assignment/API/submission/Rivertion/Report_SpotifyAPI.md)
+- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/da1de5c7160222fccecbd737057218cd68cf6c31/assignment/API/submission/Rivertion/Spotify_API.ipynb)
+- 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/b7c551647bd276c4f0b2b0c24a0cf67dac9f01d8/assignment/API/submission/Rivertion/Taylor_Swift.csv)

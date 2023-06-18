@@ -1,3 +1,10 @@
+
+
+<h1 align=center>Restaurant Rating Analysis System<h1>
+
+
+
+
 <div align="center">
   <img src="" alt = "" width="300px"/>
 </div>
@@ -47,6 +54,10 @@
 </p>
 
 ## Contents📝
-- 📑[Report](Report.md)
-- 💻[Code](#)
+- 📑[Report](report.md)
+- 💻[Code]()
+- 🛠️[MongoDB Database Configuration]()
+- ⚙️[Mysql Database Configuration]()
+- 📰[Initial Dataset]()
+
 

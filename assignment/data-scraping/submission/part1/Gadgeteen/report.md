@@ -52,7 +52,7 @@ The from pymongo import MongoClient statement imports the MongoClient class from
 
 Overall, this code imports several essential libraries for working with data in Python and specifically with MongoDB, which is a popular database for storing and managing data in web applications.
 
-### a. Identifying the website or web page to be scraped.
+### b. Identifying the website or web page to be scraped.
 
 ```python
 api_key = ""
@@ -69,7 +69,7 @@ This code defines several variables that are used to construct URLs for making A
 - info_url is a string variable that contains the URL for retrieving detailed information about a specific photo on Flickr. It includes the api_key variable and a photo_id variable, which is the ID of the photo to retrieve information about. The format=json parameter specifies that the response should be returned in JSON format, and nojsoncallback=1 disables the JSONP callback function.
 - exif_url is a string variable that contains the URL for retrieving EXIF (Exchangeable Image File Format) data for a specific photo on Flickr. It includes the api_key variable and a photo_id variable, which is the ID of the photo to retrieve EXIF data for. The format=json parameter specifies that the response should be returned in JSON format, and nojsoncallback=1 disables the JSONP callback function.
 
-### b. Convert API into JSON
+### c. Convert API into JSON
 
 ```python
 response = requests.get(search_url.format(api_key=api_key))
@@ -86,7 +86,7 @@ The total_pages variable is then assigned the value of the page attribute from t
 Overall, this code retrieves the total number of pages of search results available for the "dog" tag on Flickr, using the previously defined search_url and api_key variables.
 
 
-### c. Retrieve the metadata for each photo.
+### d. Retrieve the metadata for each photo.
 
 ```python
 metadata_list = []
@@ -133,7 +133,7 @@ The metadata and camera settings are then stored in a dictionary called metadata
 Finally, the metadata_dict dictionary is appended to the metadata_list for each photo, so that the final metadata_list contains a list of dictionaries, each containing the metadata and camera settings for a single photo.
 
 
-### d. Storing the data in a database or other storage medium for later use or analysis. This may involve cleaning or preprocessing the data to remove any irrelevant or inaccurate information.
+### e. Storing the data in a database or other storage medium for later use or analysis. This may involve cleaning or preprocessing the data to remove any irrelevant or inaccurate information.
 
 ```python
 

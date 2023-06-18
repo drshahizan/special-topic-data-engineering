@@ -39,6 +39,7 @@
 - [Interface](#️interface)
 - [Insight](#️insight)
 - [Conclusion](#️conclusion)
+- [Quick Start](#️quick-start)
 
 ## Introduction
 
@@ -120,6 +121,6 @@ However, modern technology can help to solve this problem effectively. Therefore
 
 
 ## Quick Start
-
+[How To Run This Project](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Regex/regex/README.md)
 
 

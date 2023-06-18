@@ -19,7 +19,7 @@ Don't forget to hit the :star: if you like this repo.
 | 4 |  | DataAce |<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 5 |  | MichelinStar |<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 6 | Malaysia Energy Consumption Analysis Dashboard | StaticIP |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/StaticIP" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 7 | Classification and visualization of reddit sentiment analysis towards dato' seri anwar ibrahim during 2022 general election | Noctua|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 7 | Natural language processing tool | Noctua|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 8 |  | Rivertion |<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 9 |  | CodeX|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 10 |  | ZytrecDB|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |

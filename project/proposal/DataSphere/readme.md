@@ -48,5 +48,5 @@
 
 ## Contents📝
 
-- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/DataSphere/Proposal_DataSphere.md)
-- 📃[Project Submission](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataSphere/)
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataSphere/report.md)
+- 📃[Database](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataSphere/db_cbs.sql)

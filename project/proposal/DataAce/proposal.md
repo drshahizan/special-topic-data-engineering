@@ -116,21 +116,12 @@ Attributes that we may be interested in:
 - video playcount
 - author uniqueid
 - author nickname
-- author verified
-- author following
-- author followers
-- author heartcount
-- author videocount
-- music title
-- music author name
-- music original
-- effectStickers
 
 ## 🛠️ System Architecture:
 
 The system architecture consists of several components that work together to process and visualize data stored in a MongoDB database:
 
-![system architecture](sysarchitecture1.jpg)
+![system architecture](Flowchart.jpg)
 
 
 1. Data scraping:
@@ -223,9 +214,6 @@ It is important to identify and mitigate these risks when building a TikTok Insi
 
   * Microsoft Visual Studio
   * MongoDB
-  * TensorFlow
-  * Faker
-  * Django
 
 **4. Other expenses**
 

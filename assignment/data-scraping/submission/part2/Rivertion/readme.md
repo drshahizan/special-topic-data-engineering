@@ -27,6 +27,11 @@
   </tr>
 </table>
 
+## Contents📝
+- 📑[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/fd0be2b13a082412d186afcf042c932d3127abd0/assignment/data-scraping/submission/part2/Rivertion/foc_utm.csv)
+- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/77193cfc5f061c0fc15d0bc25ea6a00a8c2d7403/assignment/data-scraping/submission/part2/Rivertion/ASGN_P2_Web_Scraping.ipynb)
+
+
 ## 1. Introduction
 
 Web scraping is the process of extracting data from websites, and it has become increasingly popular for research and analysis purposes. One type of data that is particularly valuable is publication content, as it provides insights into academic research and trends. In this assignment, we will explore web scraping publication content from a relevant website, such as Google Scholar.

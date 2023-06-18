@@ -49,7 +49,7 @@ Throughout the project, make sure to follow best practices for data science proj
 | 6 | Healthcare analytics platform | MichelinStar | |
 | 7 | Energy consumption analysis dashboard | StaticIP | |
 | 8 | Natural language processing tool | Noctua| |
-| 9 | Image and video analysis platform | Rivertion | |
+| 9 | Image Analysis for Rotten Fruit Detection 🍇🍉🍎🍐🍓 | Rivertion | |
 | 10 | Time-series analytics dashboard|||
 | 11 | Recommendation engine | CodeX| 11 |
 

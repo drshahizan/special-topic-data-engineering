@@ -23,6 +23,21 @@ Flickr provides an API (Application Programming Interface) that allows developer
 
 #### a.Identifying the website or web page to be scraped.
 
+```python
+api_key = ""
+search_url = "https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key={api_key}&tags=dog&per_page=100&page=1&format=json&nojsoncallback=1"
+info_url = "https://www.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key={api_key}&photo_id={photo_id}&format=json&nojsoncallback=1"
+exif_url = "https://www.flickr.com/services/rest/?method=flickr.photos.getExif&api_key={api_key}&photo_id={photo_id}&format=
+
+```
+
+This code defines several variables that are used to construct URLs for making API requests to the Flickr API:
+
+- api_key is a string variable that contains a valid API key for accessing the Flickr API. API keys are used to authenticate requests and identify the application making the request.
+- search_url is a string variable that contains the URL for searching photos on Flickr. It includes the api_key variable, as well as several parameters that specify the search criteria, such as the tags to search for, the number of photos to return per page, and the page number to start on. The format=json parameter specifies that the response should be returned in JSON format, and nojsoncallback=1 disables the JSONP callback function.
+- info_url is a string variable that contains the URL for retrieving detailed information about a specific photo on Flickr. It includes the api_key variable and a photo_id variable, which is the ID of the photo to retrieve information about. The format=json parameter specifies that the response should be returned in JSON format, and nojsoncallback=1 disables the JSONP callback function.
+- exif_url is a string variable that contains the URL for retrieving EXIF (Exchangeable Image File Format) data for a specific photo on Flickr. It includes the api_key variable and a photo_id variable, which is the ID of the photo to retrieve EXIF data for. The format=json parameter specifies that the response should be returned in JSON format, and nojsoncallback=1 disables the JSONP callback function.
+
 #### b.Inspecting the HTML code of the webpage to understand its structure and identify the relevant data to be scraped.
 
 #### c.Using a web scraping tool or library to extract the data from the webpage. This may involve writing code to navigate through the page's HTML structure and locate the desired data.

@@ -47,7 +47,7 @@
 </p>
 
 ## Contents📝
-- 📑[Report](#)
+- 📑[Report](#https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/Gadgeteen/report.md)
 - 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/Gadgeteen/FlickrScraping.ipynb)
 - 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/Gadgeteen/flickr_scraping.csv)
 

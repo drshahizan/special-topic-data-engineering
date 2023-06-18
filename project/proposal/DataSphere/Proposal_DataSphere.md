@@ -39,7 +39,7 @@ The data for this project was collected using web scraping techniques, specifica
 </p>
 
 ## 🔎: Goals and Objectives
-The goal of this project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed by Malaysians about the government's latest initiative, Menu Rahmah. The objective of sentiment analysis is to classify the sentiment of the text as positive, negative, or neutral. This information can be used to understand the public opinion towards a specific product, service, brand, or event, and can be helpful in making informed decisions and improving customer satisfaction. It can also be useful in identifying potential issues or areas of improvement for businesses or organizations.
+The goal of this project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed by people towards mental health. The objective of sentiment analysis is to classify the sentiment of the text as positive, negative, or neutral. This information can be used to understand the public opinion towards a specific product, service, brand, or event, and can be helpful in making informed decisions and improving customer satisfaction. It can also be useful in identifying potential issues or areas of improvement for businesses or organizations.
 
 Goals:
 
@@ -187,7 +187,7 @@ Week 1-2: Planning and Requirements Gatherings
 Determine the problem to be solved on Twitter regarding 'Mental Health' tweets. Finalized proposal outlining system architecture, methodology and other related requirements. 
 
 Week 3-6: Data Collection and Preprocessing
-Collect Twitter data related to the Menu Rahmah project using the Twitter API or appropriate keywords. Then, preprocess the data by cleaning, filtering, and transforming it into a suitable format for analysis.Week 7-8:  Sentiment Analysis Development
+Collect Twitter data related to mental health project using the Twitter API or appropriate keywords. Then, preprocess the data by cleaning, filtering, and transforming it into a suitable format for analysis.Week 7-8:  Sentiment Analysis Development
 Do feature extraction of the meaningful features of the text and select, train and evaluate the model for sentiment analysis using NLP technique.
 
 Week 9-10:  Data Visualization and Insights
@@ -260,7 +260,7 @@ Data Security Measures:
 
   ```mermaid
 gantt
-    title Sentiment Analysis Study: Exploring the Emotional Response of Malaysians towards Menu Rahmah
+    title Sentiment Analysis Study: Exploring the Response of 'Mental Health' Tweets
     dateFormat  YYYY-MM-DD
 
     section Planning and Requirements Gatherings
@@ -327,5 +327,5 @@ For the Sentiment Analysis Study titled "Exploring the Response of 'Mental Healt
 
 ## #️⃣: Conclusion
 
-In conclusion, the primary goal of the proposed project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed about a particular topic or entity and in this case, the aim is  to explore the response of 'Mental Health' Tweets through sentiment analysis. The suggested system analyses a dataset of customers and generates predictions using machine learning methods. The team has developed a meticulous schedule and resource plan for the project. As for the project's scope, methodology, and expected results are all well specified. The project's outcomes might enable organisations to extract the information from various sources like social medias and able to provide them insights/ overview to their products.There are, however some risk and limitations for us in carrying out this project like technical, financial and legal risk. In the end of this project, we hope that this will be beneficial to other policymakers, citizens of Malaysia and organisations participating in this programs to help them predict trends and inform business decisions.
+In conclusion, the primary goal of the proposed project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed about a particular topic or entity and in this case, the aim is  to explore the response of 'Mental Health' Tweets through sentiment analysis. The team has developed a meticulous schedule and resource plan for the project. As for the project's scope, methodology, and expected results are all well specified. The project's outcomes might enable organisations to extract the information from various sources like social medias and able to provide them insights/ overview to their scope.There are, however some risk and limitations for us in carrying out this project like technical, financial and legal risk. In the end of this project, we hope that this will be beneficial to other policymakers, people and organisations to help them predict trends and inform business decisions.
 

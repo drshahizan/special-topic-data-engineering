@@ -86,11 +86,10 @@ Diagrams are visual representations of information or data that help convey comp
 ## Submission
 | No | Topic |  File |
 | :-----: |  ------ | :-----: | 
-| 1 | Proposal |  <a href="./proposal/materials/groups.md" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 1 | Proposal |  <a href="./project/proposal" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 2 | System Requirements Specification (SRS)| <a href="project/documentation/srs/srs-group.md" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 3 | System Design Descriptions (SDD) | <a href="project/documentation/sdd/sdd-group.md" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 4 | System Test Descriptions (STD)| <a href="project/documentation/std/std-group.md" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
-
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

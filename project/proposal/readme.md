@@ -10,7 +10,7 @@ Don't forget to hit the :star: if you like this repo.
 
 ## 📚 Project and group names
 
-| No | Topic | Group |  Project | 
+| No | Topic | Group |  Link | 
 | ----- | ----- | ------ | :------: | 
 | 1 | Social media monitoring tool | Gadgeteen | |
 | 2 | E-commerce analytics dashboard | Regex | |

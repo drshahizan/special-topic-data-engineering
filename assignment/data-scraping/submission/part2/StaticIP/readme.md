@@ -2,6 +2,30 @@
 ## Introduction
 > Briefly introduce the topic of web scraping publication content and the importance of this type of data for research and analysis.
 
+<table>
+  <tr>
+   <th>Group members</th>
+   <th>Matric. No</th>
+  </tr>
+  <tr>
+   <td>Chloe Racquelmae Kennedy</td>
+   <td>A20EC0026</td>
+  </tr>
+  <tr>
+   <td>Kong Jia Rou</td>
+   <td>A20EC0198</td>
+  </tr>
+  <tr>
+   <td>Lee Cai Xuan</td>
+   <td>A20EC0062</td>
+  </tr>
+  <tr>
+   <td>Singthai Srisoi</td>
+   <td>A20EC0147</td>
+  </tr>
+</table>
+
+
 ## Web Scraping Google Scholar
 
 > - Explain why Google Scholar is a good source for publication content and provide a brief overview of the site.

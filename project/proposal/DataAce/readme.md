@@ -1,4 +1,4 @@
-<h1 align='center'>Tiktok Trends Dashboard</h1>
+<h1 align='center'>Food Influencer Tiktok Analysis Dashboard</h1>
 <p align="center">
   <img src="https://www.socialchamp.io/wp-content/uploads/2022/04/Feature-Banner_April-Onwards-Q2-2022_1125x600_12.png" title="Fraud Detection">
 </p>

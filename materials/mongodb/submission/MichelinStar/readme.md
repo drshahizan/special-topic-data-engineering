@@ -1,6 +1,6 @@
 
 
-<h1 align=center>Financial Payment System<h1>
+<h1 align=center> System<h1>
 
 
 

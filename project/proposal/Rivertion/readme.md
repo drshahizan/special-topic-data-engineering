@@ -1,4 +1,4 @@
-<h1 align='center'>Image and Video Analysis Platform</h1>
+<h1 align='center'>Image Analysis Platform</h1>
 <h2 align='center'>Group Members </h2>
 <table align='center'>
   <tr>

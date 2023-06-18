@@ -22,6 +22,7 @@ Don't forget to hit the :star: if you like this repo.
 | 7 |  | Noctua|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 8 |  | Rivertion |<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 9 |  | CodeX|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 10 |  | ZytrecDB|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

@@ -21,6 +21,37 @@ Flickr provides an API (Application Programming Interface) that allows developer
 
 ## 3. Process Of Web Scraping Using Flickr API
 
+### a. Import all the required libraries.
+```python
+import requests
+import json
+import csv
+import cv2
+import numpy as np
+!pip install pymongo
+import pymongo
+from pymongo import MongoClient
+```
+This Python code imports various libraries for web scraping, image processing, and working with MongoDB.
+
+requests is a library that allows sending HTTP requests and handling responses in Python. It is commonly used for web scraping or interacting with web APIs.
+
+json is a library that provides methods for encoding and decoding JSON data in Python. It is used for working with JSON data, which is a lightweight data interchange format commonly used in web applications.
+
+csv is a library that provides functionality to read from and write to CSV files. It is commonly used for working with tabular data.
+
+cv2 is a library that provides computer vision functions for processing images and videos. It is based on the OpenCV library and is commonly used for tasks such as object detection, image segmentation, and facial recognition.
+
+numpy is a library that provides numerical computing functionality in Python. It is commonly used for working with arrays and matrices.
+
+pymongo is a Python library for working with MongoDB, a popular NoSQL database. It provides an interface for connecting to MongoDB, creating and querying collections, and performing CRUD (create, read, update, delete) operations on documents.
+
+The !pip install pymongo command installs the pymongo library if it is not already installed
+
+The from pymongo import MongoClient statement imports the MongoClient class from the pymongo library. MongoClient is the primary interface for connecting to a MongoDB server and working with databases and collections.
+
+Overall, this code imports several essential libraries for working with data in Python and specifically with MongoDB, which is a popular database for storing and managing data in web applications.
+
 ### a. Identifying the website or web page to be scraped.
 
 ```python

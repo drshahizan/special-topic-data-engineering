@@ -10,7 +10,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Assignment: Data Scraping
 
-## 📚 Project and group names
+## 📚 Part 1
 
 | No | Topic | Group | File | 
 | ----- | ----- | ------ | :------: | 

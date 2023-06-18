@@ -18,7 +18,7 @@ Don't forget to hit the :star: if you like this repo.
 | 4 |  | DataAce | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 5 |  | MichelinStar | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 6 |  | StaticIP | <a href="Web scraping multimedia content" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 7 |  | Noctua| <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 7 | Book Rating System | Noctua| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/materials/mongodb/submission/Noctua" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 8 |  | Rivertion | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 9 |  | CodeX| <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 

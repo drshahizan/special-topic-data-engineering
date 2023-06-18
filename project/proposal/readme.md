@@ -8,6 +8,8 @@
 
 Don't forget to hit the :star: if you like this repo.
 
+# Assignment: Proposal
+
 ## 📚 Project and group names
 
 | No | Topic | Group | File | 
@@ -16,13 +18,11 @@ Don't forget to hit the :star: if you like this repo.
 | 2 | E-commerce analytics dashboard | Regex | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 3 | Customer segmentation tool | DataSphere | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 4 | Fraud detection dashboard | DataAce | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 5 | Predictive maintenance tool |  | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 6 | Healthcare analytics platform | MichelinStar | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 7 | Energy consumption analysis dashboard | StaticIP | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 8 | Natural language processing tool | Noctua| <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 9 | Image and video analysis platform | Rivertion | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 10 | Time-series analytics dashboard||<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 11 | Recommendation engine | CodeX| <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 5 | Healthcare analytics platform | MichelinStar | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 6 | Energy consumption analysis dashboard | StaticIP | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 7 | Natural language processing tool | Noctua| <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 8 | Image and video analysis platform | Rivertion | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 9 | Recommendation engine | CodeX| <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 
 
 ## Contribution 🛠️

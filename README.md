@@ -87,8 +87,8 @@ Diagrams are visual representations of information or data that help convey comp
 | No | Topic |  File |
 | :-----: |  ------ | :-----: | 
 | 1 | Proposal |  <a href="./project/proposal" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
-| 2 | Application Programming Interface (API)| <a href="project/documentation/srs/srs-group.md" ><img src="./images/api.svg" width="24px" height="24px" ></a> | 
-| 3 | System Design Descriptions (SDD) | <a href="project/documentation/sdd/sdd-group.md" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 2 | Application Programming Interface (API)| <a href="./assignment/API/submission/readme.md" ><img src="./images/api.svg" width="24px" height="24px" ></a> | 
+| 3 | Data Scraping | <a href="project/documentation/sdd/sdd-group.md" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 4 | AWS Certification| <a href="/materials/aws#submission" ><img src="./images/aws.svg" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️

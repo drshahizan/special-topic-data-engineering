@@ -1,4 +1,4 @@
-<h1 align="center"> A Sentiment Analysis Study: <br></br>Exploring the Emotional Response of Mental Health <a href="#" target="_blank" rel="noreferrer">  </a>   <br>
+<h1 align="center"> A Sentiment Analysis Study: <br></br>Exploring the Response of 'Mental Health' Tweets <a href="#" target="_blank" rel="noreferrer">  </a>   <br>
 </h1>
 <img src='https://monkeylearn.com/static/6700dcab9bcc691104dd0d794f6e7ef4/Sentiment-analysis-of-Twitter-Social.png'/>
 
@@ -80,6 +80,40 @@ The data for this project was collected using web scraping techniques, specifica
 
 
 ## Visualization
+1. ``Landing Page:``
+Users will be led to the landing page when they visit the website.  A landing page is a standalone web page designed to entice a specific audience to take action. Users can register an account to access the system or log in to their existing accounts.
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataSphere/Interfaces/Landing%20Page.png">
+</p>
+<br></br>
+
+2. ``User Registration Page:``
+A user registration page is a web page where users can create a new account on a website. The page typically asks for the user's name, email address, password, and other personal information. Once the user has submitted the form, their account is created and they can log in to the website. 
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataSphere/Interfaces/User%20Registration%20Page.png">
+</p>
+<br></br>
+
+3. ``User Login Page:``
+A user login page is a web page where users can enter their username and password to access a website. The page typically also has a link to the user registration page for users who do not yet have an account
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataSphere/Interfaces/User%20Login%20Page.png">
+</p>
+<br></br>
+
+4. ``User Dashboard & Page:``
+Once the designated user has logged in, they will be directed to a dashboard. The dashboard contains the embedded Tableau Dashboard that we have created for data visualization.
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataSphere/Interfaces/Admin%20Page%20%26%20Dashboard.png">
+</p>
+<br></br>
+
+5. ``Embedded Tableau Dashboard:``
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataSphere/Interfaces/Embedded%20Tableau%20Dashboard.png">
+</p>
+<br></br>
+
 ## Insight
 1.``Stigma and Discrimination``: The sentiment analysis reveals that there is still a sizable level of discrimination and stigma surrounding mental health. Social exclusion and discrimination are common experiences for people with mental health issues, which can hinder their recovery and development.
 

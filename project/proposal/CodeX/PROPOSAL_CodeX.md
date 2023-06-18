@@ -2,7 +2,7 @@
 <h1 align='center'>Recommendation Engine: Movie Recomendation 🔍</h1>
 
 <p align="center">
-<img height='200px' src=''/>
+<!--<img height='200px' src=''/>-->
 </p> 
 
 ## Table of Contents

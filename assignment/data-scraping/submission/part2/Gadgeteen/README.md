@@ -56,3 +56,4 @@ The objective of this project is to demonstrate the process of web scraping publ
 ## Contents📝
 - 📑[Report](Report_Part2_Gadgeteen.md)
 - 💻[Code](Scraping_Google_Scholar_Gadgeteen.ipynb)
+- 📂[CSV](fc_publications.csv)

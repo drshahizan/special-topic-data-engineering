@@ -40,7 +40,7 @@ The Customer Analysis System is designed to analyze customer data and provide in
   </tr>
     <tr>
     <td>Annual Income</td>
-    <td>The total amount of money the customer's earn in one year</td>
+    <td>The total amount of money ($) the customer's earn in one year</td>
   </tr>
   <tr>
     <td>Spending Score</td>
@@ -48,11 +48,11 @@ The Customer Analysis System is designed to analyze customer data and provide in
   </tr>
     <tr>
     <td>Profession</td>
-    <td>The customer's occupation</td>
+    <td>The customer's occupation field</td>
   </tr>
     <tr>
     <td>Work Experience</td>
-    <td>The total of work customer's has done before</td>
+    <td>The total number of work that the customer has done before</td>
   </tr>
 </table>
 

@@ -30,7 +30,7 @@ In this project, we will develop a system which will beneficial for marketing pe
 </table>
 
 ### 📂Content:
-* [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/DataAce/proposal.md)
+* [📖Proposal](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/DataAce/proposal.md)
 <h2>Files</h2>
 <p>
 

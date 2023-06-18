@@ -1,0 +1,125 @@
+[
+    {
+        "id": 1,
+        "projectLogoImg": "assets/images/companies/img-1.png",
+        "projectTitle": "New admin Design",
+        "projectDesc": "It will be as simple as Occidental",
+        "dueDate": "15 Oct, 2019",
+        "status": "Completed",
+        "assignedto": [{
+            "assigneeName": "Chris Lucas",
+            "assigneeImg": "assets/images/users/avatar-4.jpg"
+        },{
+            "assigneeName": "Patricia Pierce",
+            "assigneeImg": "assets/images/users/avatar-5.jpg"
+        },{
+            "assigneeName": "Tommie Metzler",
+            "assigneeImg": "assets/images/users/avatar-2.jpg"
+        },{
+            "assigneeName": "Johnnie Walton",
+            "assigneeImg": "assets/images/users/avatar-7.jpg"
+        }]
+    },{
+        "id": 2,
+        "projectLogoImg": "assets/images/companies/img-2.png",
+        "projectTitle": "Brand logo design",
+        "projectDesc": "To achieve it would be necessary",
+        "dueDate": "22 Oct, 2019",
+        "status": "Inprogress",
+        "assignedto": [{
+            "assigneeName": "Shirley North",
+            "assigneeImg": "assets/images/users/avatar-1.jpg"
+        },{
+            "assigneeName": "Paul Barone",
+            "assigneeImg": "assets/images/users/avatar-3.jpg"
+        }]
+    },{
+        "id": 3,
+        "projectLogoImg": "assets/images/companies/img-3.png",
+        "projectTitle": "New Landing Design",
+        "projectDesc": "For science, music, sport, etc",
+        "dueDate": "13 Oct, 2019",
+        "status": "Delay",
+        "assignedto": [{
+            "assigneeName": "Johnnie Walton",
+            "assigneeImg": "assets/images/users/avatar-7.jpg"
+        },{
+            "assigneeName": "Miriam Crum",
+            "assigneeImg": "assets/images/users/avatar-8.jpg"
+        },{
+            "assigneeName": "William Max",
+            "assigneeImg": "assets/images/users/avatar-6.jpg"
+        },{
+            "assigneeName": "Chris Lucas",
+            "assigneeImg": "assets/images/users/avatar-4.jpg"
+        }]
+    },{
+        "id": 4,
+        "projectLogoImg": "assets/images/companies/img-4.png",
+        "projectTitle": "Redesign - Landing page",
+        "projectDesc": "If several languages coalesce",
+        "dueDate": "14 Oct, 2019",
+        "status": "Completed",
+        "assignedto": [{
+            "assigneeName": "Patricia Pierce",
+            "assigneeImg": "assets/images/users/avatar-5.jpg"
+        },{
+            "assigneeName": "Tommie Metzler",
+            "assigneeImg": "assets/images/users/avatar-2.jpg"
+        }]
+    },{
+        "id": 5,
+        "projectLogoImg": "assets/images/companies/img-5.png",
+        "projectTitle": "Skote Dashboard UI",
+        "projectDesc": "Separate existence is a myth",
+        "dueDate": "22 Oct, 2019",
+        "status": "Completed",
+        "assignedto": [{
+            "assigneeName": "Chris Lucas",
+            "assigneeImg": "assets/images/users/avatar-4.jpg"
+        },{
+            "assigneeName": "Shirley North",
+            "assigneeImg": "assets/images/users/avatar-1.jpg"
+        }]
+    },{
+        "id": 6,
+        "projectLogoImg": "assets/images/companies/img-6.png",
+        "projectTitle": "Blog Template UI",
+        "projectDesc": "Separate existence is a myth",
+        "dueDate": "24 Oct, 2019",
+        "status": "Inprogress",
+        "assignedto": [{
+            "assigneeName": "Paul Barone",
+            "assigneeImg": "assets/images/users/avatar-3.jpg"
+        },{
+            "assigneeName": "William Max",
+            "assigneeImg": "assets/images/users/avatar-6.jpg"
+        },{
+            "assigneeName": "Chris Lucas",
+            "assigneeImg": "assets/images/users/avatar-4.jpg"
+        },{
+            "assigneeName": "Patricia Pierce",
+            "assigneeImg": "assets/images/users/avatar-5.jpg"
+        },{
+            "assigneeName": "Tommie Metzler",
+            "assigneeImg": "assets/images/users/avatar-2.jpg"
+        }]
+    },{
+        "id": 7,
+        "projectLogoImg": "assets/images/companies/img-3.png",
+        "projectTitle": "Multipurpose Landing",
+        "projectDesc": "It will be as simple as Occidental",
+        "dueDate": "15 Oct, 2019",
+        "status": "Delay",
+        "assignedto": [{
+            "assigneeName": "Chris Lucas",
+            "assigneeImg": "assets/images/users/avatar-4.jpg"
+        },{
+            "assigneeName": "Patricia Pierce",
+            "assigneeImg": "assets/images/users/avatar-5.jpg"
+        },{
+            "assigneeName": "Tommie Metzler",
+            "assigneeImg": "assets/images/users/avatar-2.jpg"
+        }]
+    }
+]

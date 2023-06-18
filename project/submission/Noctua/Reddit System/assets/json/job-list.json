@@ -1,0 +1,124 @@
+[
+    {
+        "id": 1,
+        "jobTitle": "Magento Developer",
+        "companyName": "Web Technology pvt.ltd",
+        "location": "California",
+        "experience": "0-2 Years",
+        "positions": "2",
+        "type": "Full Time",
+        "postDate": "02 Jun 2022",
+        "updateDate": "25 Jun 2022",
+        "status": "Active"
+    },{
+        "id": 2,
+        "jobTitle": "Product Designer",
+        "companyName": "Web Technology pvt.ltd",
+        "location": "California",
+        "experience": "1-2 Years",
+        "positions": "3",
+        "type": "Part Time",
+        "postDate": "15 Jun 2022",
+        "updateDate": "28 Jun 2022",
+        "status": "New"
+    },{
+        "id": 3,
+        "jobTitle": "Marketing Director",
+        "companyName": "Web Technology pvt.ltd",
+        "location": "Phoenix",
+        "experience": "-",
+        "positions": "5",
+        "type": "Full Time",
+        "postDate": "29 May 2022",
+        "updateDate": "25 Jun 2022",
+        "status": "Close"
+    },{
+        "id": 4,
+        "jobTitle": "HTML Developer",
+        "companyName": "Web Technology pvt.ltd",
+        "location": "California",
+        "experience": "0-4 Years",
+        "positions": "8",
+        "type": "Full Time",
+        "postDate": "28 May 2022",
+        "updateDate": "25 Jun 2022",
+        "status": "Active"
+    },{
+        "id": 5,
+        "jobTitle": "Product Sales Specialist",
+        "companyName": "Web Technology pvt.ltd",
+        "location": "Louisiana",
+        "experience": "5+ Years",
+        "positions": "1",
+        "type": "Full Time",
+        "postDate": "27 May 2022",
+        "updateDate": "25 Jun 2022",
+        "status": "New"
+    },{
+        "id": 6,
+        "jobTitle": "Magento Developer",
+        "companyName": "Web Technology pvt.ltd",
+        "location": "Oakridge Lane Richardson",
+        "experience": "0-2 Years",
+        "positions": "2",
+        "type": "Full Time",
+        "postDate": "26 May 2022",
+        "updateDate": "25 Jun 2022",
+        "status": "Active"
+    },{
+        "id": 7,
+        "jobTitle": "Magento Developer",
+        "companyName": "Web Technology pvt.ltd",
+        "location": "California",
+        "experience": "0-2 Years",
+        "positions": "2",
+        "type": "Part Time",
+        "postDate": "25 May 2022",
+        "updateDate": "22 Jun 2022",
+        "status": "Active"
+    },{
+        "id": 8,
+        "jobTitle": "Magento Developer",
+        "companyName": "Web Technology pvt.ltd",
+        "location": "California",
+        "experience": "0-2 Years",
+        "positions": "2",
+        "type": "Full Time",
+        "postDate": "02 Jun 2022",
+        "updateDate": "25 Jun 2022",
+        "status": "Active"
+    },{
+        "id": 9,
+        "jobTitle": "Magento Developer",
+        "companyName": "Web Technology pvt.ltd",
+        "location": "California",
+        "experience": "0-2 Years",
+        "positions": "2",
+        "type": "Part Time",
+        "postDate": "02 Jun 2022",
+        "updateDate": "25 Jun 2022",
+        "status": "Active"
+    },{
+        "id": 10,
+        "jobTitle": "Magento Developer",
+        "companyName": "Web Technology pvt.ltd",
+        "location": "California",
+        "experience": "0-2 Years",
+        "positions": "2",
+        "type": "Full Time",
+        "postDate": "02 Jun 2022",
+        "updateDate": "25 Jun 2022",
+        "status": "Active"
+    },{
+        "id": 11,
+        "jobTitle": "Product Sales Specialist",
+        "companyName": "Web Technology pvt.ltd",
+        "location": "Louisiana",
+        "experience": "5+ Years",
+        "positions": "1",
+        "type": "Part Time",
+        "postDate": "02 Jun 2022",
+        "updateDate": "25 Jun 2022",
+        "status": "New"
+    }
+]

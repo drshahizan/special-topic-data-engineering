@@ -1,0 +1,87 @@
+[
+    {
+        "id": "01",
+        "billName": "Neal Matthews",
+        "date": "07 Oct, 2019",
+        "totalPay": "$400",
+        "payStatus": "Paid",
+        "payMethod": "Mastercard"
+    },{
+        "id": "02",
+        "billName": "Jamal Burnett",
+        "date": "07 Oct, 2019",
+        "totalPay": "$380",
+        "payStatus": "Chargeback",
+        "payMethod": "Visa"
+    },{
+        "id": "03",
+        "billName": "Juan Mitchell",
+        "date": "06 Oct, 2019",
+        "totalPay": "$384",
+        "payStatus": "Paid",
+        "payMethod": "Paypal"
+    },{
+        "id": "04",
+        "billName": "Barry Dick",
+        "date": "05 Oct, 2019",
+        "totalPay": "$412",
+        "payStatus": "Paid",
+        "payMethod": "Mastercard"
+    },{
+        "id": "05",
+        "billName": "Ronald Taylor",
+        "date": "04 Oct, 2019",
+        "totalPay": "$404",
+        "payStatus": "Refund",
+        "payMethod": "Visa"
+    },{
+        "id": "06",
+        "billName": "Jacob Hunter",
+        "date": "04 Oct, 2019",
+        "totalPay": "$392",
+        "payStatus": "Paid",
+        "payMethod": "Paypal"
+    },{
+        "id": "07",
+        "billName": "William Cruz",
+        "date": "03 Oct, 2019",
+        "totalPay": "$374",
+        "payStatus": "Paid",
+        "payMethod": "COD"
+    },{
+        "id": "08",
+        "billName": "Dustin Moser",
+        "date": "02 Oct, 2019",
+        "totalPay": "$350",
+        "payStatus": "Paid",
+        "payMethod": "Mastercard"
+    },{
+        "id": "09",
+        "billName": "Clark Benson",
+        "date": "01 Oct, 2019",
+        "totalPay": "$345",
+        "payStatus": "Refund",
+        "payMethod": "Visa"
+    },{
+        "id": "10",
+        "billName": "Jessie Jones",
+        "date": "26 Sept, 2019",
+        "totalPay": "$374",
+        "payStatus": "Paid",
+        "payMethod": "COD"
+    },{
+        "id": "11",
+        "billName": "David Crawford",
+        "date": "26 Sept, 2019",
+        "totalPay": "$350",
+        "payStatus": "Paid",
+        "payMethod": "Mastercard"
+    },{
+        "id": "12",
+        "billName": "Valerie Keys",
+        "date": "25 Sept, 2019",
+        "totalPay": "$345",
+        "payStatus": "Refund",
+        "payMethod": "Visa"
+    }
+]

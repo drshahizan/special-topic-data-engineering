@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "type": "Full Time",
+        "candidateImg": "assets/images/users/avatar-1.jpg",
+        "candidateName": "Steven Franklin",
+        "position": "UI/UX Designer",
+        "location": "Louisiana",
+        "pay": "$38 / hrs",
+        "createDate": "02 Jun 2022",
+        "skill": ["Bootstrap", "HTML", "CSS"]
+    },{
+        "id": 2,
+        "type": "Freelance",
+        "candidateImg": "assets/images/users/avatar-2.jpg",
+        "candidateName": "Steven Franklin",
+        "position": "Assistant / Shope Keeper",
+        "location": "Hong-Kong",
+        "pay": "$25 / hrs",
+        "createDate": "01 Jun 2022",
+        "skill": ["Shope", "Assistant"]
+    },{
+        "id": 3,
+        "type": "Part Time",
+        "candidateImg": "assets/images/users/avatar-3.jpg",
+        "candidateName": "Charles Brown",
+        "position": "Web Designer",
+        "location": "Finlande",
+        "pay": "$24 / hrs",
+        "createDate": "30 May 2022",
+        "skill": ["Bootstrap", "HTML", "SASS"]
+    },{
+        "id": 4,
+        "type": "Internship",
+        "candidateImg": "assets/images/users/avatar-4.jpg",
+        "candidateName": "Bonnie Harney",
+        "position": "Web Developer",
+        "location": "France",
+        "pay": "$47 / hrs",
+        "createDate": "30 May 2022",
+        "skill": ["MYSQL", "PHP", "Laravel"]
+    },{
+        "id": 5,
+        "type": "Internship",
+        "candidateImg": "assets/images/users/avatar-5.jpg",
+        "candidateName": "Stephen Hadley",
+        "position": "Graphic Designer",
+        "location": "Danemark",
+        "pay": "$83 / hrs",
+        "createDate": "29 May 2022",
+        "skill": ["Figma", "Adobe XD", "Sketch"]
+    },{
+        "id": 6,
+        "type": "Internship",
+        "candidateImg": "assets/images/users/avatar-6.jpg",
+        "candidateName": "Henry Wells",
+        "position": "Executive, HR Operations",
+        "location": "Danemark",
+        "pay": "$65 / hrs",
+        "createDate": "28 May 2022",
+        "skill": ["HR", "Executive", "Professional"]
+    },{
+        "id": 7,
+        "type": "Full Time",
+        "candidateImg": "assets/images/users/avatar-7.jpg",
+        "candidateName": "Adam Miller",
+        "position": "Education Training",
+        "location": "Colombie",
+        "pay": "$40 / hrs",
+        "createDate": "27 May 2022",
+        "skill": ["Teaching", "React", "Training"]
+    },{
+        "id": 8,
+        "type": "Freelance",
+        "candidateImg": "assets/images/users/avatar-8.jpg",
+        "candidateName": "Keith Gonzales",
+        "position": "Product Manager",
+        "location": "Brazil",
+        "pay": "$50 / hrs",
+        "createDate": "26 May 2022",
+        "skill": ["Manager", "Business", "Product"]
+    }
+]

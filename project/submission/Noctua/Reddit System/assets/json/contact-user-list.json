@@ -1,0 +1,77 @@
+[   
+    {
+        "id": 1,
+        "memberImg": "",
+        "nickname": "DM",
+        "userName": "David McHenry",
+        "designation": "UI/UX Designer",
+        "email": "david@skote.com",
+        "tags": ["Photoshop", "illustrator"],
+        "projects": "125"
+    },
+    {
+        "id": 2,
+        "memberImg": "assets/images/users/avatar-2.jpg",
+        "userName": "Frank Kirk",
+        "designation": "Frontend Developer",
+        "email": "frank@skote.com",
+        "tags": ["Photoshop", "Html", "Css", "Javascript"],
+        "projects": "132"
+    },
+    {
+        "id": 3,
+        "memberImg": "assets/images/users/avatar-3.jpg",
+        "userName": "Rafael Morales",
+        "designation": "Backend Developer",
+        "email": "Rafael@skote.com",
+        "tags": ["Php", "Java", "Python"],
+        "projects": "112"
+    },
+    {
+        "id": 4,
+        "memberImg": "",
+        "nickname": "ME",
+        "userName": "Mark Ellison",
+        "designation": "Full Stack Developer",
+        "email": "mark@skote.com",
+        "tags": ["Ruby", "Php"],
+        "projects": "121"
+    },
+    {
+        "id": 5,
+        "memberImg": "assets/images/users/avatar-4.jpg",
+        "userName": "Minnie Walter",
+        "designation": "Frontend Developer",
+        "email": "minnie@skote.com",
+        "tags": ["Html", "Css", "Javascript"],
+        "projects": "145"
+    },
+    {
+        "id": 6,
+        "memberImg": "assets/images/users/avatar-5.jpg",
+        "userName": "Shirley Smith",
+        "designation": "UI/UX Designer",
+        "email": "shirley@skote.com",
+        "tags": ["Photoshop", "illustrator"],
+        "projects": "136"
+    },
+    {
+        "id": 7,
+        "memberImg": "",
+        "nickname": "JS",
+        "userName": "John Santiago",
+        "designation": "Full Stack Developer",
+        "email": "john@skote.com",
+        "tags": ["Ruby", "Php"],
+        "projects": "125"
+    },
+    {
+        "id": 8,
+        "memberImg": "assets/images/users/avatar-6.jpg",
+        "userName": "Colin Melton",
+        "designation": "Backend Developer",
+        "email": "colin@skote.com",
+        "tags": ["Php", "Java", "Python"],
+        "projects": "136"
+    }
+]

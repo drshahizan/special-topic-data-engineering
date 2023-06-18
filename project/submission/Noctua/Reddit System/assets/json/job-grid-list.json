@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "image": "assets/images/companies/adobe.svg",
+        "jobTitle": "Magento Developer",
+        "experience": "0-2 Yrs Exp",
+        "companyName": "Skote Technology Pvt.Ltd",
+        "location": "California",
+        "salary": "$250 - $800 / month",
+        "postDate": "02 Jun 2022",
+        "requirement": ["Full Time", "Urgent", "Private"]
+    },{
+        "id": 2,
+        "image": "assets/images/companies/adobe-photoshop.svg",
+        "jobTitle": "Product Designer",
+        "experience": "0-2 Yrs Exp",
+        "companyName": "Skote Technology Pvt.Ltd",
+        "location": "California",
+        "salary": "$250 - $800 / month",
+        "postDate": "01 Jun 2022",
+        "requirement": ["Full Time", "Urgent", "Private"]
+    },{
+        "id": 3,
+        "image": "assets/images/companies/airbnb.svg",
+        "jobTitle": "Marketing Director",
+        "experience": "0-2 Yrs Exp",
+        "companyName": "Skote Technology Pvt.Ltd",
+        "location": "California",
+        "salary": "$250 - $800 / month",
+        "postDate": "30 May 2022",
+        "requirement": ["Full Time", "Urgent", "Private"]
+    },{
+        "id": 4,
+        "image": "assets/images/companies/amazon.svg",
+        "jobTitle": "Project Manager",
+        "experience": "0-2 Yrs Exp",
+        "companyName": "Skote Technology Pvt.Ltd",
+        "location": "California",
+        "salary": "$250 - $800 / month",
+        "postDate": "30 May 2022",
+        "requirement": ["Full Time", "Urgent", "Private"]
+    },{
+        "id": 5,
+        "image": "assets/images/companies/flutter.svg",
+        "jobTitle": "HTML Developer",
+        "experience": "0-2 Yrs Exp",
+        "companyName": "Skote Technology Pvt.Ltd",
+        "location": "California",
+        "salary": "$250 - $800 / month",
+        "postDate": "29 May 2022",
+        "requirement": ["Full Time", "Urgent", "Private"]
+    },{
+        "id": 6,
+        "image": "assets/images/companies/mailchimp.svg",
+        "jobTitle": "Business Associate",
+        "experience": "0-2 Yrs Exp",
+        "companyName": "Skote Technology Pvt.Ltd",
+        "location": "California",
+        "salary": "$250 - $800 / month",
+        "postDate": "28 May 2022",
+        "requirement": ["Full Time", "Urgent", "Private"]
+    },{
+        "id": 7,
+        "image": "assets/images/companies/line.svg",
+        "jobTitle": "Product Sales Specialist",
+        "experience": "0-2 Yrs Exp",
+        "companyName": "Skote Technology Pvt.Ltd",
+        "location": "California",
+        "salary": "$250 - $800 / month",
+        "postDate": "27 May 2022",
+        "requirement": ["Full Time", "Urgent", "Private"]
+    },{
+        "id": 8,
+        "image": "assets/images/companies/spotify.svg",
+        "jobTitle": "Magento Developer",
+        "experience": "0-2 Yrs Exp",
+        "companyName": "Skote Technology Pvt.Ltd",
+        "location": "California",
+        "salary": "$250 - $800 / month",
+        "postDate": "26 May 2022",
+        "requirement": ["Full Time", "Urgent", "Private"]
+    },{
+        "id": 9,
+        "image": "assets/images/companies/wordpress.svg",
+        "jobTitle": "Magento Developer",
+        "experience": "0-2 Yrs Exp",
+        "companyName": "Skote Technology Pvt.Ltd",
+        "location": "California",
+        "salary": "$250 - $800 / month",
+        "postDate": "26 May 2022",
+        "requirement": ["Full Time", "Urgent", "Private"]
+    },{
+        "id": 10,
+        "image": "assets/images/companies/upwork.svg",
+        "jobTitle": "Magento Developer",
+        "experience": "0-2 Yrs Exp",
+        "companyName": "Skote Technology Pvt.Ltd",
+        "location": "California",
+        "salary": "$250 - $800 / month",
+        "postDate": "25 May 2022",
+        "requirement": ["Full Time", "Urgent", "Private"]
+    },{
+        "id": 11,
+        "image": "assets/images/companies/sass.svg",
+        "jobTitle": "Magento Developer",
+        "experience": "0-2 Yrs Exp",
+        "companyName": "Skote Technology Pvt.Ltd",
+        "location": "California",
+        "salary": "$250 - $800 / month",
+        "postDate": "24 May 2022",
+        "requirement": ["Full Time", "Urgent", "Private"]
+    },{
+        "id": 12,
+        "image": "assets/images/companies/reddit.svg",
+        "jobTitle": "Magento Developer",
+        "experience": "0-2 Yrs Exp",
+        "companyName": "Skote Technology Pvt.Ltd",
+        "location": "California",
+        "salary": "$250 - $800 / month",
+        "postDate": "23 May 2022",
+        "requirement": ["Full Time", "Urgent", "Private"]
+    }
+]

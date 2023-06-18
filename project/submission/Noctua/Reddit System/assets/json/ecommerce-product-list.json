@@ -1,0 +1,55 @@
+[
+    {
+        "id": "01",
+        "productName": "Half sleeve T-shirt",
+        "productImg": "assets/images/product/img-1.png",
+        "discount": "10%",
+        "productPrice": "$450",
+        "rating": "4.5",
+        "category": "T-shirts"
+    },
+    {
+        "id": "02",
+        "productName": "Light blue T-shirt",
+        "productImg": "assets/images/product/img-2.png",
+        "productPrice": "$225",
+        "discount": "5%",
+        "rating": "4.2",
+        "category": "Shirts"
+    },
+    {
+        "id": "03",
+        "productName": "Black Color T-shirt",
+        "productImg": "assets/images/product/img-3.png",
+        "discount": "12%",
+        "productPrice": "$152",
+        "rating": "4.0",
+        "category": "T-shirts"
+    },
+    {
+        "id": "04",
+        "productName": "Hoodie (Blue)",
+        "productImg": "assets/images/product/img-4.png",
+        "productPrice": "$145",
+        "rating": "3.5",
+        "category": "Jackets"
+    },
+    {
+        "id": "05",
+        "productName": "Half sleeve T-shirt",
+        "productImg": "assets/images/product/img-5.png",
+        "discount": "22%",
+        "productPrice": "$138",
+        "rating": "4.3",
+        "category": "Shirts"
+    },
+    {
+        "id": "06",
+        "productName": "Green color T-shirt",
+        "productImg": "assets/images/product/img-6.png",
+        "discount": "28%",
+        "productPrice": "$135",
+        "rating": "1",
+        "category": "T-shirts"
+    }
+]

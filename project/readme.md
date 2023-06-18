@@ -44,7 +44,7 @@ Throughout the project, make sure to follow best practices for data science proj
 | 1 | Social media monitoring tool | Gadgeteen | |
 | 2 | Sales Analysis Dashboard of Shopee Supermarket by Households Supplies Category | Regex | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Regex">|
 | 3 | A Sentiment Analysis Study: Exploring the Response of 'Mental Health' Tweets | DataSphere |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataSphere" ><img src="./images/meeting.png" width="36px" height="36px" ></a>  |
-| 4 | Tiktok Analytics Dashboard | DataAce | |
+| 4 | Tiktok Analytics Dashboard | DataAce |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataAce" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 5 | Predictive maintenance tool |  | |
 | 6 | Entertainment Analytic Platform | MichelinStar | <a href="./submission/MichelinStar" ><img src="./images/meeting.png" width="36px" height="36px" ></a> |
 | 7 | Malaysia Energy Consumption Analysis Dashboard | StaticIP |<a href="./submission/StaticIP" ><img src="../images/meeting.png" width="36px" height="36px" >|

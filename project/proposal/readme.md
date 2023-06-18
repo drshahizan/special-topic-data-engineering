@@ -16,7 +16,7 @@ Don't forget to hit the :star: if you like this repo.
 | ----- | ----- | ------ | :------: | 
 | 1 | Sentiment Analysis in Social Media : A Study On ChatGPT | Gadgeteen | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/proposal/Gadgeteen" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 2 | Sales Analysis Dashboard of Shopee Supermarket by Households Supplies Category | Regex | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/38f7db30364f6dd5a2d92240389933f16682972d/project/proposal/Regex/readme.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 3 | Customer segmentation tool | DataSphere | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 3 | Sentiment Analysis: Mental Health | DataSphere | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/proposal/DataSphere" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 4 | Food Influencer Tiktok Analysis Dashboard | DataAce | <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/DataAce/proposal.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 5 | Entertainment analytics platform | MichelinStar | <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/MichelinStar/readme.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 6 | Malaysia energy consumption analysis dashboard | StaticIP | <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/readme.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |

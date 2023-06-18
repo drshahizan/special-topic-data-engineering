@@ -27,4 +27,8 @@
   </tr>
 </table>
 
+### 📂Content:
+* [💻Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/DataAce/report.md)
+* [📎CSV file](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/DataAce/news.csv)
+* [📖Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/DataAce/News_API.ipynb)
 

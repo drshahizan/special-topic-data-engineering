@@ -8,7 +8,10 @@
 * [Conclusion](#Conclusion)
 
 ## Introduction
-> Briefly introduce the topic of web scraping publication content and the importance of this type of data for research and analysis.
+
+Web scraping publication has become important for research and analysis. It allows researchers to gather and analyze large amounts of data efficiently. One valuable source for publication content is Google Scholar, a comprehensive search engine that indexes academic papers, theses, books and other sources.
+
+In this assignment, we explored the process of web scraping publication content from Google Scholar and discussed the benefits of using libraries such as Beautiful Soup, Scrapy and Selenium. Besides, web scraping publication content also store it in database like MongoDB opens up a world of possibilities for research and analysis.
 
 ## Web Scraping Google Scholar
 

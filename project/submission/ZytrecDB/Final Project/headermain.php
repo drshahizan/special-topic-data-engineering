@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Intellect Playschool</title>
+    <title>Spotify Recommendation Engine</title>
     <link rel="icon" type="image/x-icon" href="img/icon.png">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="Free HTML Templates" name="keywords" />

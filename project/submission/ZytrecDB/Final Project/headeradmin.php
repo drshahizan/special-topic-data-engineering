@@ -5,7 +5,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Intellect Playschool</title>
+    <title>Spotify Recommendation Engine</title>
     <link rel="icon" type="image/x-icon" href="img/icon.png">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
@@ -49,7 +49,7 @@
         <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
             <a href="admin.php" class="navbar-brand font-weight-bold text-secondary" style="font-size: 50px;">
                 <img src="img/icon.png" alt="Girl in a jacket" width="40" height="50">
-                <span class="text-primary">Intellect</span>
+                <span class="text-primary">Zytrex</span>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>

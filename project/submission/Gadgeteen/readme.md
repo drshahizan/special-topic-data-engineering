@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/95162273/232305985-a6549da1-bbea-4658-becb-8448ae0db9f9.png" alt = "flickr logo"/>
+  <img src="https://digitalscholar.in/wp-content/uploads/2023/03/using-chatgpt.gif" alt = "chatgpt" />
 </div>
+
 
 <h1 align="center"> ChatGPT Sentiment Analysis </h1>
 
@@ -48,7 +49,7 @@
 
 
 ## Contents📝
-- 📑[Report]()
+- 📑[Report](#)
 - ⚒️[Data Cleaning](Gadgeteen.ipynb)
 - 📂[Dataset](#)
 - 💻[Source Code](chatgpt_sentiment)

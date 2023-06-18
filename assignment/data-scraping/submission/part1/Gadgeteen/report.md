@@ -10,7 +10,7 @@ Web scraping multimedia content can help researchers and analysts gain insights 
 
 ### Why should we use Flickr?
 
-#### a. Large collection of images
+### a. Large collection of images
 Flickr has a vast collection of user-generated images and videos, making it a great source for web scraping.
 
 #### b. User-friendly search functionality

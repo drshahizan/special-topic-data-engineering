@@ -34,5 +34,5 @@ The Entertainment Analytics Platform is a comprehensive tool that harnesses the 
 </table><br>
 
 🌟<b>Project Proposal: </b><br>
-| Open in Github |  [:octocat:](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/MichelinStar/Proposal_MichelinStar.md) |
+| Open in Github (Report) |  [:octocat:](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/MichelinStar/Proposal_MichelinStar.md) |
 |  ------ | :------: | 

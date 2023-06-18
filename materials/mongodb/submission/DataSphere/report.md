@@ -13,6 +13,7 @@ The Car Booking System using MongoDB is a powerful solution designed to simplify
 </p>
 
 ## System Design
+1.``Use Case Diagram``: Use Case diagram consisting of 2 users which are Admin and Customer where both the user can perform User Authentication and Manage Booking which includes the CRUD operation 
 
 ## Implementation
 1.``Install MongoDB``: Start by installing MongoDB on our system. Visited the official MongoDB website and download the appropriate version for our operating system. Followed the installation instructions provided by MongoDB to complete the installation process.

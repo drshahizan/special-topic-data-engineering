@@ -1,5 +1,5 @@
 <div align="center">
-  <img width=700px height=300px src="https://user-images.githubusercontent.com/99240177/232822671-98a60054-f4dc-4f84-a7b8-6ed4473e3038.png"/>
+  <img width=400px height=300px src="https://user-images.githubusercontent.com/99240177/232822671-98a60054-f4dc-4f84-a7b8-6ed4473e3038.png"/>
 </div>
 
 <h1 align=center>Part 1: Web scraping multimedia content 📸🔍</h1>
@@ -34,5 +34,5 @@ This assignment entails web scraping image content from Flickr, a popular photo-
 </table>
 
 ## Contents📝
-- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/a097a99a6e7f24c87aff5d8cb74b5a5735db5f66/assignment/data-scraping/submission/part1/Regex/Regex_Report.md)
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/ce75b75768012da91205ffe012703a946ea930cf/assignment/data-scraping/submission/part1/Regex/Regex_Report.md)
 - 💻[Code]()

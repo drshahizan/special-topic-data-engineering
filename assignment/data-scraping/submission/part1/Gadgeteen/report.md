@@ -21,7 +21,38 @@ Flickr provides an API (Application Programming Interface) that allows developer
 
 ## 3. Process Of Web Scraping Using Flickr API
 
-### a. Identifying the website or web page to be scraped.
+### a. Import all the required libraries.
+```python
+import requests
+import json
+import csv
+import cv2
+import numpy as np
+!pip install pymongo
+import pymongo
+from pymongo import MongoClient
+```
+This Python code imports various libraries for web scraping, image processing, and working with MongoDB.
+
+requests is a library that allows sending HTTP requests and handling responses in Python. It is commonly used for web scraping or interacting with web APIs.
+
+json is a library that provides methods for encoding and decoding JSON data in Python. It is used for working with JSON data, which is a lightweight data interchange format commonly used in web applications.
+
+csv is a library that provides functionality to read from and write to CSV files. It is commonly used for working with tabular data.
+
+cv2 is a library that provides computer vision functions for processing images and videos. It is based on the OpenCV library and is commonly used for tasks such as object detection, image segmentation, and facial recognition.
+
+numpy is a library that provides numerical computing functionality in Python. It is commonly used for working with arrays and matrices.
+
+pymongo is a Python library for working with MongoDB, a popular NoSQL database. It provides an interface for connecting to MongoDB, creating and querying collections, and performing CRUD (create, read, update, delete) operations on documents.
+
+The !pip install pymongo command installs the pymongo library if it is not already installed
+
+The from pymongo import MongoClient statement imports the MongoClient class from the pymongo library. MongoClient is the primary interface for connecting to a MongoDB server and working with databases and collections.
+
+Overall, this code imports several essential libraries for working with data in Python and specifically with MongoDB, which is a popular database for storing and managing data in web applications.
+
+### b. Identifying the website or web page to be scraped.
 
 ```python
 api_key = ""
@@ -38,7 +69,7 @@ This code defines several variables that are used to construct URLs for making A
 - info_url is a string variable that contains the URL for retrieving detailed information about a specific photo on Flickr. It includes the api_key variable and a photo_id variable, which is the ID of the photo to retrieve information about. The format=json parameter specifies that the response should be returned in JSON format, and nojsoncallback=1 disables the JSONP callback function.
 - exif_url is a string variable that contains the URL for retrieving EXIF (Exchangeable Image File Format) data for a specific photo on Flickr. It includes the api_key variable and a photo_id variable, which is the ID of the photo to retrieve EXIF data for. The format=json parameter specifies that the response should be returned in JSON format, and nojsoncallback=1 disables the JSONP callback function.
 
-### b. Convert API into JSON
+### c. Convert API into JSON
 
 ```python
 response = requests.get(search_url.format(api_key=api_key))
@@ -46,9 +77,16 @@ data = json.loads(response.text)
 total_pages = data["photos"]["page"]
 
 ```
+After defining the search_url variable in the previous code block, this code uses the requests library to send a GET request to the Flickr API endpoint specified by search_url. The api_key variable is inserted into the URL using Python's string formatting syntax and the .format() method, so that the API key is included in the request.
+
+The response from the API is then converted from JSON format to a Python dictionary using the json.loads() method, and stored in the data variable.
+
+The total_pages variable is then assigned the value of the page attribute from the photos dictionary within the data dictionary. This represents the total number of pages of search results available for the given search query.
+
+Overall, this code retrieves the total number of pages of search results available for the "dog" tag on Flickr, using the previously defined search_url and api_key variables.
 
 
-### c.Retrieve the metadata for each photo.
+### d. Retrieve the metadata for each photo.
 
 ```python
 metadata_list = []
@@ -95,7 +133,7 @@ The metadata and camera settings are then stored in a dictionary called metadata
 Finally, the metadata_dict dictionary is appended to the metadata_list for each photo, so that the final metadata_list contains a list of dictionaries, each containing the metadata and camera settings for a single photo.
 
 
-### e.Storing the data in a database or other storage medium for later use or analysis. This may involve cleaning or preprocessing the data to remove any irrelevant or inaccurate information.
+### e. Storing the data in a database or other storage medium for later use or analysis. This may involve cleaning or preprocessing the data to remove any irrelevant or inaccurate information.
 
 ```python
 

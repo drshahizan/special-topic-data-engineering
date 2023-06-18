@@ -72,7 +72,7 @@
                 </div>
               </div>
               <div class="input-group custom">
-                <input type="password" name="fpwd" class="form-control form-control-lg" placeholder="Passwors">
+                <input type="password" name="fpwd" class="form-control form-control-lg" placeholder="Password">
                 <div class="input-group-append custom">
                   <span class="input-group-text"><i class="dw dw-padlock1"></i></span>
                 </div>

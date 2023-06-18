@@ -68,7 +68,7 @@ Objectives:
 
 
 ## 🔬: Scope
-The objective of this project is to provide insights to policymakers, citizens of Malaysia and organisations participating in this program, on where Menu Rahmah excels and where it finds the short end of the stick. With this known, the scope of this project will be :
+The objective of this project is to provide insights to policymakers, citizens of the world and organisations participating in this program, on where Mental Health excels and where it finds the short end of the stick. With this known, the scope of this project will be :
 
 - ``Data Source`` : Scraped tweets and information of their respective *tweeters*. Multiple tools will be used to gather data, including **snscrape**. **snscrape** is a web scraping tool that utilizes the APIs of various social media platforms. It accesses the APIs of social media platforms such as Twitter, Instagram, YouTube, and Reddit to gather data from them.
 - ``Tools & Technologies`` : Retrieved data will be stored in MongoDB. Which then will be cleaned and prepared using **Pandas** and **Numpy**. Natural language processing (NLP) will be used to analyse tweets and retrieve information from them, libraries such as **NLTK (Natural Language Toolkit)** will be used for this function. To group tweets with similar sentiments clustering algorithms using **scikit-learn**, **TensorFlow** and **PyTorch** libraries will be applied on the cleaned data. Finally, Findings will be visualised using **Tableau** or **PowerBI**.

@@ -52,9 +52,9 @@ New Government🤵‍♂:<br>
 
 ### 📂Folder content:
 
-* [📖Report]()
+* [📖Project Analysis](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Noctua/Project%20Analysis.pdf)
 * [💻System](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Noctua/Reddit%20System)
-* [📎CSV file exported](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Noctua/Dataset)
+* [📎Dataset](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Noctua/Dataset)
 
 
 

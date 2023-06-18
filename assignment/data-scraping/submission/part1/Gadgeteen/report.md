@@ -13,15 +13,15 @@ Web scraping multimedia content can help researchers and analysts gain insights 
 ### a. Large collection of images
 Flickr has a vast collection of user-generated images and videos, making it a great source for web scraping.
 
-#### b. User-friendly search functionality
+### b. User-friendly search functionality
 Flickr has a powerful search engine that allows users to search for multimedia content based on keywords, tags, dates, and more, making it easy to find relevant content for web scraping.
 
-#### c. API access
+### c. API access
 Flickr provides an API (Application Programming Interface) that allows developers to access and interact with the site's multimedia content.
 
 ## 3. Process Of Web Scraping
 
-#### a.Identifying the website or web page to be scraped.
+### a.Identifying the website or web page to be scraped.
 
 ```python
 api_key = ""

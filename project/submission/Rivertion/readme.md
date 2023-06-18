@@ -34,7 +34,6 @@
   </tr>
 </table>
 
-|🧠<b>Project Proposal</b><br>|
+|🧠Project Proposal|
 |--|--|
 | Open In GitHub | [:octocat:](https://github.com/drshahizan/special-topic-data-engineering/blob/4106ac5d72db3c3c59aa8e8f4f1d4b9115404eb1/project/proposal/Rivertion/Proposal_Rivertion.md) |
-

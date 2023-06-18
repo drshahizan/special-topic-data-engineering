@@ -34,5 +34,5 @@ This assignment entails web scraping image content from Flickr, a popular photo-
 </table>
 
 ## Contents📝
-- 📑[Report]()
+- 📑[Report] <a href='https://github.com/drshahizan/special-topic-data-engineering/blob/a097a99a6e7f24c87aff5d8cb74b5a5735db5f66/assignment/data-scraping/submission/part1/Regex/Regex_Report.md'>:</a>
 - 💻[Code]()

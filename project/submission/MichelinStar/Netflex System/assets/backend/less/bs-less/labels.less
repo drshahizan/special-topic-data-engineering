@@ -1,0 +1,72 @@
+//
+// Labels
+// --------------------------------------------------
+
+.label {
+  display: inline;
+  //padding: .2em .6em .3em;
+  padding: 5px 10px;
+  font-size: 75%;
+  font-weight: @font_weight_bold;
+  line-height: 1;
+  background-color: @default;
+  color: @label-color;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: @border_radius;
+  
+  &.medium { font-size: @font-size-base; }
+  &.large { font-size: @font-size-large; }
+
+  // Add hover effects, but only for links
+  &[href] {
+    &:hover,
+    &:focus {
+      color: @label-link-hover-color;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  // Empty labels collapse automatically (not available in IE8)
+  &:empty {
+    display: none;
+  }
+}
+
+div.label {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+// Colors
+// Contextual variations (linked labels get darker on :hover)
+
+.label-default {
+  .label-variant(@default; @main_color);
+}
+
+.label-primary {
+  .label-variant(@label-primary-bg; @main_text_acitve_color);
+}
+
+.label-secondary {
+  .label-variant(@secondary_color);
+}
+
+.label-success {
+  .label-variant(@label-success-bg);
+}
+
+.label-info {
+  .label-variant(@label-info-bg);
+}
+
+.label-warning {
+  .label-variant(@label-warning-bg);
+}
+
+.label-danger {
+  .label-variant(@label-danger-bg);
+}

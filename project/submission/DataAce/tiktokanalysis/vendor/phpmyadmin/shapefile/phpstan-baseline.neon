@@ -1,0 +1,92 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Parameter \\#1 \\$fp of function feof expects resource, resource\\|false given\\.$#"
+			count: 1
+			path: src/ShapeFile.php
+
+		-
+			message: "#^Parameter \\#1 \\$fp of function fread expects resource, resource\\|false given\\.$#"
+			count: 1
+			path: src/ShapeFile.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function substr expects string, string\\|false given\\.$#"
+			count: 6
+			path: src/ShapeFile.php
+
+		-
+			message: "#^Parameter \\#1 \\$fp of function fclose expects resource, resource\\|false given\\.$#"
+			count: 1
+			path: src/ShapeFile.php
+
+		-
+			message: "#^Parameter \\#1 \\$fp of function fwrite expects resource, resource\\|null given\\.$#"
+			count: 10
+			path: src/ShapeFile.php
+
+		-
+			message: "#^Parameter \\#1 \\$file of method PhpMyAdmin\\\\ShapeFile\\\\ShapeFile\\:\\:saveBBox\\(\\) expects resource, resource\\|null given\\.$#"
+			count: 2
+			path: src/ShapeFile.php
+
+		-
+			message: "#^Result of && is always false\\.$#"
+			count: 1
+			path: src/ShapeFile.php
+
+		-
+			message: "#^Result of \\|\\| is always false\\.$#"
+			count: 1
+			path: src/ShapeFile.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between int and '' will always evaluate to false\\.$#"
+			count: 1
+			path: src/ShapeFile.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between int and false will always evaluate to false\\.$#"
+			count: 1
+			path: src/ShapeFile.php
+
+		-
+			message: "#^Property PhpMyAdmin\\\\ShapeFile\\\\ShapeFile\\:\\:\\$shpFile \\(resource\\|null\\) does not accept resource\\|false\\.$#"
+			count: 1
+			path: src/ShapeFile.php
+
+		-
+			message: "#^Property PhpMyAdmin\\\\ShapeFile\\\\ShapeFile\\:\\:\\$shxFile \\(resource\\|null\\) does not accept resource\\|false\\.$#"
+			count: 1
+			path: src/ShapeFile.php
+
+		-
+			message: "#^Property PhpMyAdmin\\\\ShapeFile\\\\ShapeFile\\:\\:\\$dbfFile \\(resource\\|null\\) does not accept resource\\|false\\.$#"
+			count: 2
+			path: src/ShapeFile.php
+
+		-
+			message: "#^Parameter \\#1 \\$fp of function feof expects resource, resource\\|null given\\.$#"
+			count: 1
+			path: src/ShapeFile.php
+
+		-
+			message: "#^Parameter \\#1 \\$type of static method PhpMyAdmin\\\\ShapeFile\\\\Util\\:\\:nameShape\\(\\) expects int, int\\|false given\\.$#"
+			count: 1
+			path: src/ShapeFile.php
+
+		-
+			message: "#^Property PhpMyAdmin\\\\ShapeFile\\\\ShapeRecord\\:\\:\\$shapeType \\(int\\) does not accept false\\.$#"
+			count: 1
+			path: src/ShapeRecord.php
+
+		-
+			message: "#^Parameter \\#2 \\$record_number of function dbase_get_record_with_names expects int, int\\|null given\\.$#"
+			count: 1
+			path: src/ShapeRecord.php
+
+		-
+			message: "#^Parameter \\#3 \\$record_number of function dbase_replace_record expects int, int\\|null given\\.$#"
+			count: 1
+			path: src/ShapeRecord.php
+

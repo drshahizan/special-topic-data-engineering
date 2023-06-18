@@ -1,0 +1,15 @@
+{
+  "theme-name"     : "default",
+  "author"         : "Creativeitem",
+  "year"           : "2018",
+  "homepage" : {
+    "homepage_banner_image" : true,
+    "homepage_banner_image_size" : "2000 X 1335"
+  },
+  "course_media_files" : {
+    "course_thumbnail" : "600 X 600"
+  },
+  "course_media_placeholders" : {
+    "course_thumbnail_placeholder" : "assets/frontend/default/img/course_thumbnail_placeholder.jpg"
+  }
+}

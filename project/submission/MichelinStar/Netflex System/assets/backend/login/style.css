@@ -1,0 +1,54 @@
+
+/*images background*/
+ .white-bg { background: #fff; }
+ .gray-bg { background: #f7f7f7; }
+ .dark-gray-bg { background: #666666; }
+ .theme-bg { background: #84ba3f; }
+ .black-bg { background: #323232; }
+ .dark-theme-bg { background: #050801; }
+
+ .bg-overlay-black-10:before {  background: rgba(0, 0, 0, 0.1); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-black-20:before {  background: rgba(0, 0, 0, 0.2); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-black-30:before {  background: rgba(0, 0, 0, 0.3); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-black-40:before {  background: rgba(0, 0, 0, 0.4); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-black-50:before {  background: rgba(0, 0, 0, 0.5); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-black-60:before {  background: rgba(0, 0, 0, 0.6); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-black-70:before {  background: rgba(0, 0, 0, 0.7); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-black-80:before {  background: rgba(0, 0, 0, 0.8); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-black-90:before {  background: rgba(0, 0, 0, 0.9); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-white-10:before {  background: rgba(255, 255, 255, 0.1); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-white-20:before {  background: rgba(255, 255, 255, 0.2); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-white-30:before {  background: rgba(255, 255, 255, 0.3); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-white-40:before {  background: rgba(255, 255, 255, 0.4); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-white-50:before {  background: rgba(255, 255, 255, 0.5); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-white-60:before {  background: rgba(255, 255, 255, 0.6); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-white-70:before {  background: rgba(255, 255, 255, 0.7); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-white-80:before {  background: rgba(255, 255, 255, 0.8); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-white-90:before {  background: rgba(255, 255, 255, 0.9); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-theme-20:before {  background: rgba(132,186,63, 0.2); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-theme-50:before {  background: rgba(132,186,63, 0.5); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-theme-70:before {  background: rgba(132,186,63, 0.7); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-theme-90:before {  background: rgba(132,186,63, 0.9); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+ .bg-overlay-black-10, .bg-overlay-black-20, .bg-overlay-black-30, .bg-overlay-black-40, .bg-overlay-black-50, .bg-overlay-black-60, .bg-overlay-black-70, .bg-overlay-black-80, .bg-overlay-black-90, .bg-overlay-white-10, .bg-overlay-white-20, .bg-overlay-white-30, .bg-overlay-white-40, .bg-overlay-white-50, .bg-overlay-white-60, .bg-overlay-white-70, .bg-overlay-white-80, .bg-overlay-white-90, .bg-overlay-theme-20, .bg-overlay-theme-50, .bg-overlay-theme-70, .bg-overlay-theme-90 { position: relative; }
+
+
+
+.pos-r{position: relative;}
+.img-side img{max-width: 100%}
+.img-side.img-left {left: 0;}
+.img-side {padding: 0; position: absolute!important; top: 0px; height: 100%; overflow: hidden; z-index: 100;}
+.font-bold {font-weight: 600}
+.no-gutter{  margin-right:0; margin-left:0;}
+.no-gutter > [class*='col-'] { padding-right:0; padding-left:0;}
+
+/*elements*/
+.full-width { width: 100%; }
+.height-100vh { height: 100vh; }
+.pos-bot { position: absolute; bottom: 0; /*width: 100%; */}
+.vertical-align { position: absolute; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); }
+
+
+/*login-fancy*/
+.login-fancy { padding: 30px; height: 100%; box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.06); }
+.login-fancy-bg { position: relative;  z-index: 1; }
+.login-fancy h2 { font-size: 30px; line-height: 40px; text-align: center; font-weight: 100; font-family: poppins;}

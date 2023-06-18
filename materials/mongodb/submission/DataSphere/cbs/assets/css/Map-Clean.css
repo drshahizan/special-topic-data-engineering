@@ -1,0 +1,34 @@
+.map-clean {
+  color: #313437;
+  background-color: #fff;
+}
+
+.map-clean p {
+  color: #7d8285;
+}
+
+.map-clean h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
+  .map-clean h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.map-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px;
+}
+
+.map-clean iframe {
+  background-color: #eee;
+}
+

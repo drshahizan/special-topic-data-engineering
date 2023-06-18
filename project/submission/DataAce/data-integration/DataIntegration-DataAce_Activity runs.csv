@@ -1,0 +1,4 @@
+"Activity name","Status","Error","Activity type","Run start","Duration","Log","Integration runtime","User properties","Activity run ID"
+"Copy data2","Succeeded","","Copy","6/16/2023, 6:13:49 PM","00:00:09","","AutoResolveIntegrationRuntime (East US)","{}","e53e8848-527c-4eba-8d26-642a18c1bb52"
+"Copy data1","Succeeded","","Copy","6/16/2023, 6:13:49 PM","00:00:08","","AutoResolveIntegrationRuntime (East US)","{}","e8567841-f0e3-4539-98ce-ef7d768596b3"
+"Copy data3","Succeeded","","Copy","6/16/2023, 6:13:49 PM","00:00:09","","AutoResolveIntegrationRuntime (East US)","{}","559e3881-b686-4e6c-b929-3346db91b87d"

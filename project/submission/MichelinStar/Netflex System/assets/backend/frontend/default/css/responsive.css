@@ -1,0 +1,103 @@
+/*-----------------------------
+		Responsive style
+-----------------------------*/
+
+
+
+/*	MIN WIDTH 992PX & MAX WIDTH 1199PX	bootstrap4 lg*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 17px 22px;
+  }
+}
+
+
+
+/*	MAX WIDTH 991PX	 bootstrap4 md*/
+
+@media only screen and (max-width: 991px) {
+    .navbar-toggler {
+        border-color: rgba(255,255,255,.5);
+        padding: .50rem .75rem;
+        position: absolute;
+        top: -65px;
+    }
+    .navbar-toggler-icon {
+        width: 27px;
+        height: 2px;
+        position: relative;
+        top: -2px;
+        background-color: rgba(255,255,255,.5);
+        content: "";
+    }
+    .navbar-toggler-icon:after,.navbar-toggler-icon:before {
+        width: 27px;
+        top:-8px;
+        left:0;
+        height: 2px;
+        position: absolute;
+        background-color: rgba(255,255,255,.5);
+        content: "";
+    }
+    .navbar-toggler-icon:before {
+        top: auto;
+        bottom: -8px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+	    padding: 10px 0px;
+    }
+    .navbar-expand-lg .navbar-nav{
+	    padding: 10px 0px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item{
+	    padding-left: 0px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        content: none;
+    }
+    .col-md-12 .footer-widget{
+        margin: 0;
+        margin-bottom: 25px;
+        padding: 0;
+        padding-bottom: 25px;
+        text-align: center !important;
+        border: 0;
+        border-bottom: 1px solid #28333b;
+    }
+    .col-md-12:last-child .footer-widget{
+        border-bottom: 0;
+    }
+    .single-news-wrapper{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+/*	MAX WIDTH 767PX	bootstrap4 sm*/
+
+@media only screen and (max-width: 767px) {
+    .left-title {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .right-btn.pull-right{
+        float: left;
+    }
+}
+
+
+
+/*	MAX WIDTH 700PX	*/
+
+@media only screen and (max-width: 700px) {
+}
+
+
+
+/*	MAX WIDTH 640PX	*/
+
+@media only screen and (max-width: 640px) {
+
+}

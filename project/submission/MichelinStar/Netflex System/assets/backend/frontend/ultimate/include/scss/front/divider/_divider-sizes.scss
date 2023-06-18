@@ -1,0 +1,39 @@
+/*------------------------------------
+  Divider Sizes
+------------------------------------*/
+
+.u-divider {
+  &::before,
+  &::after {
+    width: ($font-size-base * 10);
+    height: ($font-size-base * .0625);
+    transform: translateY(-50%);
+  }
+
+  &::before {
+    margin-right: .625rem;
+  }
+
+  &::after {
+    margin-left: .625rem;
+  }
+
+  // Small Devices
+  @include media-breakpoint-down(sm) {
+    &::before,
+    &::after {
+      width: ($font-size-base * 4);
+    }
+  }
+
+  &--xs {
+    font-size: ($font-size-base * .75);
+
+    &::before,
+    &::after {
+      width: ($font-size-base * 2);
+      height: ($font-size-base * .0625);
+      transform: translateY(-50%);
+    }
+  }
+}

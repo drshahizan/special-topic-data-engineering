@@ -1,0 +1,120 @@
+{% extends 'layouts/base-fullscreen.html' %}
+{% load i18n static admin_soft %}
+
+{% block content %}
+
+  {% include 'includes/navigation-fullscreen.html' %}
+
+  <main class="main-content  mt-0">
+    <section>
+      <div class="page-header min-vh-75">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-lg-5 col-md-6 d-flex flex-column mx-auto">
+              <div class="card card-plain mt-8">
+                <div class="card-header pb-0 text-left bg-transparent">
+                  <h3 class="font-weight-bolder text-info text-gradient">
+                    Sign UP  
+                  </h3>
+                  <p class="mb-0">
+                    {% if msg %}
+                      <span class="text-danger">{{ msg | safe }}</span>
+                    {% else %}
+                      Add your credentials
+                    {% endif %}                      
+                  </p>
+                </div>
+                <div class="card-body">
+
+                    {% if success %} 
+                
+                        <p class="text-sm mt-3 mb-0 text-center"> 
+                        <div class="text-center">
+                            <a href="{% url 'login' %}" class="btn bg-gradient-dark w-100 my-4 mb-2">Sign IN</a>
+                        </div> 
+                        </p>
+  
+                    {% else %}
+                        
+                        <form role="form" method="post" action="#">
+
+                            {% csrf_token %}
+                            {% for field in form %}
+                              <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                              <div class="mb-3">
+                                {{field}}
+                              </div>
+                              <span class="text-danger">{{ field.errors }}</span>
+                            {% endfor %}
+
+                            <div class="text-center">
+                              <button type="submit" class="btn bg-gradient-info w-100 mt-4 mb-0">Sign UP</button>
+                              <p class="mt-4">
+                                Have an account? 
+                                <a href="{% url 'login' %}" class="text-primary">Login</a>
+                              </p>
+                            </div>
+
+                        </form>
+
+                    {% endif %}
+                    
+                </div>
+
+                <div class="card-footer text-center pt-0 px-lg-2 px-1">
+                  <p class="mb-4 text-sm mx-auto">
+                    {% url 'admin_password_reset' as password_reset_url %}
+                    {% if password_reset_url %}
+                    <a href="{{ password_reset_url }}" class="text-info text-gradient font-weight-bold">
+                        Forgotten your password or username?
+                    </a>
+                    {% endif %}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="oblique position-absolute top-0 h-100 d-md-block d-none me-n8">
+                <div class="oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6" style="background-image:url('{% static 'img/curved-images/curved6.jpg' %}')"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  {% include 'includes/footer-fullscreen.html' %}
+
+{% endblock content %}
+
+{% block extrascript %}
+    <script type="application/javascript">
+        {% if form.username.errors %}
+            notification.danger("{{ form.username.errors }}", 'top', 'right');
+        {% endif %}
+        {% if form.password.errors %}
+            notification.danger("{{ form.password.errors }}", 'top', 'right');
+        {% endif %}
+
+        {% if user.is_authenticated %}
+            var msg = "You are authenticated as {{ username }}, but are not authorized to " +
+                "access this page.Would you like to login to a different account ?"
+            notification.warning(msg, 'top', 'right');
+        {% endif %}
+
+        {% if form.errors and not form.non_field_errors %}
+            {% if form.errors.items|length == 1 %}
+                notification.warning("{% trans "Please correct the error below." %}", 'top', 'right');
+            {% else %}
+                notification.warning("{% trans "Please correct the errors below." %}", 'top', 'right');
+            {% endif %}
+        {% endif %}
+
+        {% if form.non_field_errors %}
+            {% for error in form.non_field_errors %}
+                notification.warning("{{ error|clean_text }}", 'top', 'right');
+            {% endfor %}
+        {% endif %}
+    </script>
+{% endblock %}

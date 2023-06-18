@@ -8,6 +8,7 @@
             <a class="nav-link ml-3" href="yearly.php">Yearly</a>
             <a class="nav-link ml-3" href="monthly.php">Monthly</a>
         </nav>
+        <a class="nav-link" href="login.php">Logout</a>
         <a class="btn btn-sm btn-primary" href="./data/get_data.php">Refresh Data</a>
         <!-- Add more links as needed -->
     </nav>

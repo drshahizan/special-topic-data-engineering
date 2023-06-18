@@ -20,8 +20,7 @@ Don't forget to hit the :star: if you like this repo.
 | 4 |  | DataAce | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 5 |  | MichelinStar | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 6 |  | StaticIP | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 7 |  | Noctua| <a href="/assignment/API/submission
-/Noctua" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 7 |  | Noctua| <a href="s" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 8 | Spotify API | Rivertion | <a href="/assignment/API/submission/Rivertion" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 9 | | CodeX| <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 

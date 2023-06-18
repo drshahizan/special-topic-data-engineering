@@ -42,3 +42,7 @@
   </table>
 </p>
 
+## Contents📝
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/DataSphere/Bank%20Negara%20Open%20API%20Documentation.pdf)
+- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/DataSphere/DataSphere_ExchangeRate(API).ipynb)
+- 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/DataSphere/MYR_Exchange_Rates.csv)

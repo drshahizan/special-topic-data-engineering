@@ -20,10 +20,14 @@ The Car Booking System using MongoDB is a powerful solution designed to simplify
 2.``Set up MongoDB Server``: Once MongoDB is installed, we need to set up a MongoDB server. Open a terminal or command prompt and start the MongoDB server by running the appropriate command.
 
 3.``Create a MongoDB Database``: Next, we'll need to create a MongoDB database specifically for the Car Booking System. We use MongoDB GUI tool (such as MongoDB Compass) to create a new database. Named a suitable name for the database, such as "cbs"
+<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/73668a45669ac69f232e359fa69518737ecd1e6f/materials/mongodb/submission/DataSphere/images/mongodbDatabase.jpg">
 
-3.``Design the Database Schema``: Determined the structure of my database by designing the schema for the Car Booking System. 
 
-4.``Connect to MongoDB in Our Application``:In our Car Booking System application's code, we need to establish a connection to MongoDB. Install the MongoDB driver or library for your programming language (e.g., pymongo for Python). Import the necessary libraries and use the appropriate code to connect to the MongoDB server and the specific database you created.
+4.``Design the Database Schema``: Determined the structure of my database by designing the schema for the Car Booking System. 
+<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/6468ab31d7afcb2fc911b91f4c1c895407f867a1/materials/mongodb/submission/DataSphere/images/DeleteBookingMongodb.jpg">
+
+5.``Connect to MongoDB in Our Application``:In our Car Booking System application's code, we need to establish a connection to MongoDB. Install the MongoDB driver or library for your programming language (e.g., pymongo for Python). Import the necessary libraries and use the appropriate code to connect to the MongoDB server and the specific database you created.
+<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/d56e1fa28b00a1894b7844ad8df2c812108a7c6f/materials/mongodb/submission/DataSphere/images/CreateBookingMongodb.jpg">
 
 ## Web Interface
 - Admin Landing Page

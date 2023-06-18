@@ -1,6 +1,6 @@
 
 
-<h1 align=center>Restaurant Rating Analysis System<h1>
+<h1 align=center>Financial Payment System<h1>
 
 
 
@@ -9,16 +9,6 @@
   <img src="" alt = "" width="300px"/>
 </div>
 
-<h1 align="center"></h1>
-
-<h2 align="center">
-  Group Name
-  <br>
-</h2>
-
-<p align="center">
-  <a>MichelinStar</a><br>
-</p>
 
 <h2 align="center">
   Group Members

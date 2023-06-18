@@ -11,7 +11,6 @@ $con = mysqli_connect($servername, $username, $password, $dbname);
 
 //Check Connection
 
-
 //Close Connection
 
 

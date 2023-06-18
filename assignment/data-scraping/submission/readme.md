@@ -15,7 +15,7 @@ Don't forget to hit the :star: if you like this repo.
 | No | Topic | Group | File | 
 | ----- | ----- | ------ | :------: | 
 | 1 | Web Scraping with Flickr | Gadgeteen | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1/Gadgeteen" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 2 |  | Regex | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/ce75b75768012da91205ffe012703a946ea930cf/assignment/data-scraping/submission/part1/Regex/readme.md" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 2 |  Web scraping multimedia content  | Regex | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/ce75b75768012da91205ffe012703a946ea930cf/assignment/data-scraping/submission/part1/Regex/readme.md" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 3 |  | DataSphere | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 4 |  | DataAce | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 5 | Web scraping Malaysia Photo Collection | MichelinStar | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1/MichelinStar" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |

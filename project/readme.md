@@ -42,7 +42,8 @@ Throughout the project, make sure to follow best practices for data science proj
 | No | Topic | Group |  Project | 
 | ----- | ----- | ------ | :------: | 
 | 1 | Social media monitoring tool | Gadgeteen | |
-| 2 | Sales Analysis Dashboard of Shopee Supermarket by Households Supplies Category | Regex | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Regex" > |
+| 2 | Sales Analysis Dashboard of Shopee Supermarket by Households Supplies Category | Regex | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Regex">![image](https://github.com/drshahizan/special-topic-data-engineering/assets/120564694/ce58acaa-ebef-43c6-8d27-8efec9fdf70a)
+</a> |
 | 3 | A Sentiment Analysis Study: Exploring the Response of 'Mental Health' Tweets | DataSphere |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataSphere" ><img src="./images/meeting.png" width="36px" height="36px" ></a>  |
 | 4 | Tiktok Analytics Dashboard | DataAce | |
 | 5 | Predictive maintenance tool |  | |

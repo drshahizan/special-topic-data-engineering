@@ -12,7 +12,7 @@ Don't forget to hit the :star: if you like this repo.
 
 | No | Topic | Group | File | 
 | ----- | ----- | ------ | :------: | 
-| 1 | Social media monitoring tool | Gadgeteen | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 1 | Social media monitoring tool | Gadgeteen | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 2 | E-commerce analytics dashboard | Regex | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 3 | Customer segmentation tool | DataSphere | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 4 | Fraud detection dashboard | DataAce | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |

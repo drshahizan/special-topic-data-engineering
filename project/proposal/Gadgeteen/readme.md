@@ -1,4 +1,6 @@
-<h1 align="center"> Project Proposal - Social media monitoring tool <a href="#" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/97009588/226456635-fa047b5b-8c40-48b1-a5c1-651638663d66.png" alt="oracle" width="40" height="40"/> </a>   <br>
+<div>
+<h1 align = 'center'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIwD84MUO1g9n6U0VWNJKRK0pPFVGTXsBeQ3KTeeGTpxX7VKB3-rMoW1J2bvU2blIFiM&usqp=CAU"  width="40" height="40"/><b> SENTIMENT ANALYSIS IN SOCIAL MEDIA: A STUDY ON CHATGPT IN MALAYSIA</b> </h1>
+</div> <img src="https://user-images.githubusercontent.com/97009588/226456635-fa047b5b-8c40-48b1-a5c1-651638663d66.png" alt="oracle" width="40" height="40"/> </a>   <br>
 </h1>
 
 <p align="center">

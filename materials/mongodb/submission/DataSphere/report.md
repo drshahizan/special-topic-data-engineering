@@ -15,7 +15,7 @@ The Car Booking System using MongoDB is a powerful solution designed to simplify
 ## System Design
 
 ## Implementation
-1.``Set up MongoDB Server``: Start by installing MongoDB on our system. Visited the official MongoDB website and download the appropriate version for our operating system. Followed the installation instructions provided by MongoDB to complete the installation process.
+1.``Install MongoDB``: Start by installing MongoDB on our system. Visited the official MongoDB website and download the appropriate version for our operating system. Followed the installation instructions provided by MongoDB to complete the installation process.
 
 2.``Set up MongoDB Server``: Once MongoDB is installed, we need to set up a MongoDB server. Open a terminal or command prompt and start the MongoDB server by running the appropriate command.
 

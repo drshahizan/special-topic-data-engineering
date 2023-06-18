@@ -30,24 +30,32 @@
 </table>
 
 # Table of Content
-* [Introduction](#introduction)
-* [Background](#️background)
-* [Objectives](#objectives)
-* [Methodology](#️methodology)
-* [Data Analysis](#️data-analysis)
-* [Folder Structure](#️folder-structure)
-* [Visualization](#️visualization)
-* [Insight](#️insight)
-* [Conclusion](#️conclusion)
+- [Introduction](#introduction)
+- [Background](#️background)
+- [Objectives](#objectives)
+- [Methodology](#️methodology)
+- [Data Analysis](#️data-analysis)
+- [Folder Structure](#️folder-structure)
+- [Visualization](#️visualization)
+- [Insight](#️insight)
+- [Conclusion](#️conclusion)
 
 ## Introduction
+
 ## Background
-## Objective
+
+## Objectives
+
 ## Methodology
+
 ## Data Analysis
+
 ## Folder Structure
+
 ## Visualization
+
 ## Insight
+
 ## Conclusion
 
 

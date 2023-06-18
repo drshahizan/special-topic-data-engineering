@@ -46,3 +46,9 @@
   </tr>
   </table>
 </p>
+
+## Contents📝
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/DataSphere/Report_Part%201_DataSphere.md)
+- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/DataSphere/Flickr_Image_Scraping_DataSphere.ipynb)
+- 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/DataSphere/Flickr%20Image%20Scraping_DataSphere.csv)
+

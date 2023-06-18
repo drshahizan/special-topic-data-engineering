@@ -1,5 +1,10 @@
+<div align="center">
+  <img src="https://apicms.thestar.com.my/uploads/images/2023/04/07/2014251.JPG" alt = ""/>
+</div>
+
 <h1 align="center"> Bank Negara Open API <a href="#" target="_blank" rel="noreferrer">  </a>   <br>
 </h1>
+The APIs enable you to extract the relevant datasets on the BNM website for your applications and systems in a seamless manner. The Bank has moved ahead in the first quarter of 2018 to establish Open API Implementation Groups at industry-level for both banking/Islamic banking and insurance/takaful industries, with representation from a few financial technology (fintech) companies.
 <h2 align="center">
   Group Name
   <br>

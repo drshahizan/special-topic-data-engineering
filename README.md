@@ -89,7 +89,7 @@ Diagrams are visual representations of information or data that help convey comp
 | 1 | Proposal |  <a href="./project/proposal" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 2 | System Requirements Specification (SRS)| <a href="project/documentation/srs/srs-group.md" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
 | 3 | System Design Descriptions (SDD) | <a href="project/documentation/sdd/sdd-group.md" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
-| 4 | AWS Certification| <a href="project/documentation/std/std-group.md" ><img src="./images/task.png" width="24px" height="24px" ></a> | 
+| 4 | AWS Certification| <a href="/materials/aws/" ><img src="./images/aws.svg" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

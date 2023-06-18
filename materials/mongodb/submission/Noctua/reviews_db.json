@@ -1,0 +1,24 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"reviews_db"},
+{"type":"table","name":"posts","database":"reviews_db","data":
+[
+{"id":"6zQRsklaYIO38cLIgYZN","title":"Harry Potter and the Goblet of Fire","image":"harrypotter4.jpg"},
+{"id":"G6zDaxTTS0fV5UT4BQ46","title":"Harry Potter and the Prisoner of Azkaban","image":"harrypotter3.jpg"},
+{"id":"h12FAnxY6JoXb51iDpda","title":"Harry Potter and the Philosopher's Stone","image":"harrypotter.jpg"},
+{"id":"hK2tgabAaK1c1FAak6UW","title":"Harry Potter and the Half-Blood Prince","image":"harrypotter6.jpg"},
+{"id":"mMj2FWPRVWZPsfOsjSUL","title":"Harry Potter and the Order of the Phoenix\nNovel by","image":"harrypotter5.jpeg"},
+{"id":"sRKX0vSREJbBzO07wM1H","title":"Harry Potter and the Chamber of Secrets","image":"harrypotter2.jpg"}
+]
+}
+,{"type":"table","name":"reviews","database":"reviews_db","data":
+[
+{"id":"ER6F8okIG8w8WX68qK6z","post_id":"h12FAnxY6JoXb51iDpda","user_id":"Bjran88s6QvHSAOUjKvI","rating":"5","title":"great","description":"greattt","date":"2023-05-29"}
+]
+}
+,{"type":"table","name":"users","database":"reviews_db","data":
+[
+{"id":"Bjran88s6QvHSAOUjKvI","name":"Lulu","email":"lulu@gmail.com","password":"$2y$10$a5N01J21UiHS6Ln7VUaqxuOtaT16QgzojEBhG.ClGXCSoTu9eGkvK","image":""}
+]
+}
+]

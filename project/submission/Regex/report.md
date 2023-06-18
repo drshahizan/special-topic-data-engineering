@@ -35,7 +35,7 @@
 - [Objectives](#objectives)
 - [Scope](#️scope)
 - [Methodology](#️methodology)
-- [Folder Structure](#️folder-structure)
+- [Project Structure](#️project-structure)
 - [Interface](#️interface)
 - [Insight](#️insight)
 - [Conclusion](#️conclusion)
@@ -106,8 +106,47 @@ However, modern technology can help to solve this problem effectively. Therefore
 
 5. ``Insights and Recommendations``: Interpret the findings from the analysis and generate actionable insights. Identify opportunities for improvement, growth, and optimization within the household supplies category.
 
-## Folder Structure
+## Project Structure
 
+```bash
+< PROJECT ROOT >
+   |
+   |-- core/                            
+   |    |-- settings.py                  # Project Configuration  
+   |    |-- urls.py                      # Project Routing
+   |
+   |-- home/
+   |    |-- views.py                     # APP Views 
+   |    |-- urls.py                      # APP Routing
+   |    |-- models.py                    # APP Models 
+   |    |-- tests.py                     # Tests  
+   |    |-- templates/                   # Theme Customisation 
+   |         |-- accounts                # Account Folder
+   |              |-- login.html        
+   |              |-- password_change.html 
+   |              |-- password_change_done.html 
+   |              |-- password_reset.html 
+   |              |-- password_reset_complete.html
+   |              |-- password_reset_confirm.html
+   |              |-- password_reset_done.html
+   |              |-- register.html
+   |         |-- admin                   # Admin Folder
+   |         |-- includes               
+   |         |-- layouts                     
+   |         |-- pages                   # Website Pages Folder         
+   |              |-- index.html
+   |              |-- prod_details.html
+   |              |-- product.html
+   |              |-- report.html
+   |              |-- registration 
+   |     
+   |-- requirements.txt                  # Project Dependencies
+   |
+   |-- env.sample                        # ENV Configuration (default values)
+   |-- manage.py                         # Start the app - Django default start script
+   |
+   |-- ************************************************************************
+```
 
 ## Interface
 1. Login Page
@@ -117,6 +156,7 @@ However, modern technology can help to solve this problem effectively. Therefore
 5. Report Page
 
 ## Insight
+
 
 ## Conclusion
 In conclusion, the Sales Analysis Dashboard of Shopee Supermarket by Household Supplies Category project has successfully achieved its objectives of analyzing sales data and providing valuable insights within the household supplies category. By focusing on this specific product scope, we were able to gather relevant data from the Shopee Supermarket website using a web scraping tool, perform data cleaning and preprocessing using Python, and store the cleaned data in both MongoDB and SQL databases.

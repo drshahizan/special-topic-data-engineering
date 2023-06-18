@@ -121,8 +121,9 @@ Attributes that we may be interested in:
 
 The system architecture consists of several components that work together to process and visualize data stored in a MongoDB database:
 
-![system architecture](Flowchart.jpg)
-
+<p align="center">
+  <img src="System Architecture.jpg" title="System Architecture">
+</p>
 
 1. Data scraping:
 Use Tiktok Analytics API to scrape raw data such as username, number of likes and comments from Tiktok.

@@ -14,7 +14,7 @@ Don't forget to hit the :star: if you like this repo.
 
 | No | Topic | Group | File | 
 | ----- | ----- | ------ | :------: | 
-| 1 |  | Gadgeteen | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 1 | Open Weather API | Gadgeteen | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/API/submission/Gadgeteen" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 2 |  | Regex | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 3 | Bank Negara Open API | DataSphere | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/API/submission/DataSphere" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 4 |  | DataAce | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |

@@ -43,6 +43,8 @@ The Entertainment Analytics Platform is a comprehensive tool that harnesses the 
 ## Contents📝
 - 💻[System](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/MichelinStar/Netflex%20System)
 - 📂[CSV File](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/MichelinStar/Excel%20File%20from%20API)
-- 📑[Report]()
+- 🔍[Web Scraping Data from The Movie Database]()
+- 🤖[Machine Learning]()
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/MichelinStar/report.md)
 
 

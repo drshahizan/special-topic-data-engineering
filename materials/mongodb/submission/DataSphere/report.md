@@ -16,8 +16,12 @@ The Car Booking System using MongoDB is a powerful solution designed to simplify
 
 ## Implementation
 1.``Install MongoDB``: Start by installing MongoDB on our system. Visited the official MongoDB website and download the appropriate version for our operating system. Followed the installation instructions provided by MongoDB to complete the installation process.
+<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/576dd47228bdc06b53705db8aaff9be071709785/materials/mongodb/submission/DataSphere/images/Mongodb_Download.jpg">
+
 
 2.``Set up MongoDB Server``: Once MongoDB is installed, we need to set up a MongoDB server. Open a terminal or command prompt and start the MongoDB server by running the appropriate command.
+<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/576dd47228bdc06b53705db8aaff9be071709785/materials/mongodb/submission/DataSphere/images/Mongodb_setUp.jpg">
+
 
 3.``Create a MongoDB Database``: Next, we'll need to create a MongoDB database specifically for the Car Booking System. We use MongoDB GUI tool (such as MongoDB Compass) to create a new database. Named a suitable name for the database, such as "cbs"
 <img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/73668a45669ac69f232e359fa69518737ecd1e6f/materials/mongodb/submission/DataSphere/images/mongodbDatabase.jpg">

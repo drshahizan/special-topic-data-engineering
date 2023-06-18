@@ -20,7 +20,7 @@ Don't forget to hit the :star: if you like this repo.
 | 5 | Entertainment Analytic Platform | MichelinStar |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/MichelinStar" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 6 | Malaysia Energy Consumption Analysis Dashboard | StaticIP |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/StaticIP" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 7 | Redditor's View Towards Anwar Ibrahim as Malaysia's 10th Prime Minister | Noctua|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 8 |  | Rivertion |<a href="Rivertion" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 8 | Image analysis platform | Rivertion |<a href="Rivertion" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 9 |  | CodeX|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 10 |  | ZytrecDB|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 

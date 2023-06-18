@@ -80,7 +80,7 @@ The proposed data science project for developing a Image Analysis System for Fru
 
 1. ``Data Collection``
   	<ul>
- 		<li>The project will use the Cloudinary API to scrape fruit images from the internet. It supports automatic image and video optimization, including compression and quality adjustments, to enhance performance and reduce bandwidth consumption. Specifically, the project will utilize Cloudinary API to search for fruit images and download them in bulk. The API will be configured to search for a variety of fruits and retrieve both healthy and rotten images. Each image will be labeled as healthy or rotten for training the model.</li>
+ 		<li>The project will use the Pixabay API to scrape fruit images from the internet. It supports automatic image and video optimization, including compression and quality adjustments, to enhance performance and reduce bandwidth consumption. Specifically, the project will utilize Pixabay API to search for fruit images and download them in bulk. The API will be configured to search for a variety of fruits and retrieve both healthy and rotten images. Each image will be labeled as healthy or rotten for training the model.</li>
   	</ul>
 2. ``Data Cleaning and Preprocessing``
   	<ul>
@@ -221,7 +221,7 @@ Even though analyzing rotten fruit images gives a lot of advantages, this proces
 <table>
   <tr>
     <th align= "left">Data sources</th>
-    <td>The data source for the proposed data science project will be fruit images. These images will be acquired using web scrapping method from Cloudinary API. </td>
+    <td>The data source for the proposed data science project will be fruit images. These images will be acquired using web scrapping method from Pixabay API. </td>
   </tr>
   <tr>
     <th align= "left">Data schema</th>

@@ -20,7 +20,7 @@ Don't forget to hit the :star: if you like this repo.
 | 4 |  | DataAce | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 5 |  | MichelinStar | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 6 |  | StaticIP | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 7 |  | Noctua| <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 7 | Web scraping multimedia content with Flickr API using Beautiful Soup and Requests Library | Noctua| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1/Noctua" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 8 |  | Rivertion | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 9 | | CodeX| <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 

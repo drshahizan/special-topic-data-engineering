@@ -48,7 +48,7 @@ Throughout the project, make sure to follow best practices for data science proj
 | 5 | Predictive maintenance tool |  | |
 | 6 | Entertainment Analytic Platform | MichelinStar | <a href="./submission/MichelinStar" ><img src="./images/meeting.png" width="36px" height="36px" ></a> |
 | 7 | Malaysia Energy Consumption Analysis Dashboard | StaticIP |<a href="./submission/StaticIP" ><img src="../images/meeting.png" width="36px" height="36px" >|
-| 8 | Natural language processing tool | Noctua| |
+| 8 | Sentiment Analysis On Awnar Ibrahim | Noctua| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Noctua"><img src="../images/meeting.png" width="36px" height="36px" ></a> |
 | 9 | Image and video analysis platform | Rivertion |<a href="./submission/Rivertion" ><img src="../images/meeting.png" width="36px" height="36px" ></a> |
 | 10 | Time-series analytics dashboard|||
 | 11 | Movie Recommendation engine | CodeX|  |

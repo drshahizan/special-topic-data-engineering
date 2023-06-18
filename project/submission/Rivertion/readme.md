@@ -40,6 +40,6 @@
     <th>Open In GitHub</th>
   </tr>
     <td>Open In GitHub</td>
-    <td>[:octocat:](https://github.com/drshahizan/special-topic-data-engineering/blob/4106ac5d72db3c3c59aa8e8f4f1d4b9115404eb1/project/proposal/Rivertion/Proposal_Rivertion.md)</td>
+    <td><a href="https://github.com/drshahizan/special-topic-data-engineering/blob/4106ac5d72db3c3c59aa8e8f4f1d4b9115404eb1/project/proposal/Rivertion/Proposal_Rivertion.md">:octocat:</a></td>
   </tr>
 </table>

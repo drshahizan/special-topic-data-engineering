@@ -42,9 +42,9 @@ The data for this project was collected using web scraping techniques, specifica
 
 Goals:
 
-1) To learn more about customer opinions and preferences, participating groups can use sentiment analysis to learn about what people think about Menu Rahmah. They may better understand what customers like and dislike, as well as what drives their brand loyalty, by monitoring customer feedback and sentiment.
+1) To learn more about customer opinions and preferences, participating groups can use sentiment analysis to learn about what people think about Mental Health. They may better understand what customers like and dislike, as well as what drives their brand loyalty, by monitoring customer feedback and sentiment.
 
-2)``To enhance the client experience``: Sentiment analysis can assist companies in enhancing the client experience related to Menu Rahmah. Businesses can improve customer happiness by addressing sources of consumer dissatisfaction by recognising them.
+2)``To enhance the client experience``: Sentiment analysis can assist companies in enhancing the client experience related to Mental Health. Businesses can improve customer happiness by addressing sources of consumer dissatisfaction by recognising them.
 
 3)``To monitor brand reputation``: Businesses can monitor their brand reputation with the aid of sentiment analysis. Businesses can spot possible reputation concerns and take proactive measures to remedy them by monitoring customer opinion across social media, review sites, and other channels.
 
@@ -54,7 +54,7 @@ Goals:
 
 Objectives:
 
-1.``Identify key themes and topics``: Determine the main themes and subjects (Menu Rahmah) that consumers are talking about in relation to a company, a product, or a service.
+1.``Identify key themes and topics``: Determine the main themes and subjects (Mental Health) that consumers are talking about in relation to a company, a product, or a service.
 
 2.``Determine sentiment polarity``: Obtain the polarity (positive or negative) of consumer opinion of a company, its goods, or its services.
 
@@ -291,7 +291,7 @@ gantt
   </div>
 
 Week 1-2: Planning and Requirements Gatherings
-- Determine the problem to be solved on Twitter regarding 'Menu Rahmah' tweets.
+- Determine the problem to be solved on Twitter regarding 'Mental Health' tweets.
 - Finalized proposal outlining system architecture, methodology and other related requirements. 
 > Resources: Github, ChatGPT
 
@@ -322,10 +322,10 @@ Week 13-14: Final Report and Presentation
 
 <br></br>
 Quality assurance and testing procedures:
-For the Sentiment Analysis Study titled "Exploring the Emotional Response of Malaysians towards Menu Rahmah," we have implemented quality assurance and testing procedures to ensure the accuracy and validity of our findings. We have set specific deliverables and milestones to monitor the progress of the project, including Planning and Requirements Gatherings, Data Collection and Preprocessing, Sentiment Analysis Development, Data Visualization and Insights, Model Deployment and Testing, and Final Report and Presentation. These milestones are expected to be completed by the end of weeks 2, 6, 8, 10, 12, and 14, respectively. To ensure the quality of the project, we will conduct regular testing and validation of our sentiment analysis model and data visualization techniques, as well as ensuring that the data collection and preprocessing procedures are accurate and comprehensive. We will also perform a final review of the entire project before submitting the final report and presentation.
+For the Sentiment Analysis Study titled "Exploring the Response of 'Mental Health' Tweets," we have implemented quality assurance and testing procedures to ensure the accuracy and validity of our findings. We have set specific deliverables and milestones to monitor the progress of the project, including Planning and Requirements Gatherings, Data Collection and Preprocessing, Sentiment Analysis Development, Data Visualization and Insights, Model Deployment and Testing, and Final Report and Presentation. These milestones are expected to be completed by the end of weeks 2, 6, 8, 10, 12, and 14, respectively. To ensure the quality of the project, we will conduct regular testing and validation of our sentiment analysis model and data visualization techniques, as well as ensuring that the data collection and preprocessing procedures are accurate and comprehensive. We will also perform a final review of the entire project before submitting the final report and presentation.
 
 
 ## #️⃣: Conclusion
 
-In conclusion, the primary goal of the proposed project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed about a particular topic or entity and in this case, the aim is  to explore the emotional response of Malaysians towards Menu Rahmah through sentiment analysis. The suggested system analyses a dataset of customers and generates predictions using machine learning methods. The team has developed a meticulous schedule and resource plan for the project. As for the project's scope, methodology, and expected results are all well specified. The project's outcomes might enable organisations to extract the information from various sources like social medias and able to provide them insights/ overview to their products.There are, however some risk and limitations for us in carrying out this project like technical, financial and legal risk. In the end of this project, we hope that this will be beneficial to other policymakers, citizens of Malaysia and organisations participating in this programs to help them predict trends and inform business decisions.
+In conclusion, the primary goal of the proposed project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed about a particular topic or entity and in this case, the aim is  to explore the response of 'Mental Health' Tweets through sentiment analysis. The suggested system analyses a dataset of customers and generates predictions using machine learning methods. The team has developed a meticulous schedule and resource plan for the project. As for the project's scope, methodology, and expected results are all well specified. The project's outcomes might enable organisations to extract the information from various sources like social medias and able to provide them insights/ overview to their products.There are, however some risk and limitations for us in carrying out this project like technical, financial and legal risk. In the end of this project, we hope that this will be beneficial to other policymakers, citizens of Malaysia and organisations participating in this programs to help them predict trends and inform business decisions.
 

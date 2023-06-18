@@ -53,7 +53,6 @@ The objective of this assignment is to perform data integration between three di
 </p>
 
 ## Contents📝
-- 📑[Report](#)
-- 💻[Code](#)
-- 📂[Data Source](#)
+- 📑[Report](Report.md)
+- 📂[Data Source](Datasets)
 

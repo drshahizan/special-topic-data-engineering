@@ -34,3 +34,8 @@
   </table>
 </body>
 </html>
+
+## Contents📝
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/6f1dfc22818cb2dd849ac70e97713c2b157532fb/materials/mongodb/submission/Rivertion/report.md)
+- 💻[SQL](https://github.com/drshahizan/special-topic-data-engineering/blob/873340c3926a1cba6cdd5fd95242dda82e39fe7f/materials/mongodb/submission/Rivertion/msrps_db.sql)
+- 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/8c7daaaef7c317936d94f2aa313d852a2e03ee67/materials/mongodb/submission/Rivertion/movie_list.csv)

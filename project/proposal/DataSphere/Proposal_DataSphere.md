@@ -1,6 +1,6 @@
 <div>
-<h1 align = 'center'><b> 🥣 A Sentiment Analysis Study: </b></h1>
-  <h2 align = 'center'> Exploring the Emotional Response of Malaysians towards Menu Rahmah</h2>
+<h1 align="center"> A Sentiment Analysis Study: <br></br>Exploring the Response of 'Mental Health' Tweets <a href="#" target="_blank" rel="noreferrer">  </a>   <br>
+</h1>
 </div>
 
 ## Table of Contents

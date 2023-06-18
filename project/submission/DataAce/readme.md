@@ -1,5 +1,5 @@
 <h1 align='center'> 
-  Tiktok Analytics Dashboard
+ Food Influencer Tiktok Analytics Dashboard
  </h1>
 
 <div align="center">
@@ -43,3 +43,12 @@ Through our comprehensive analytics, you'll gain a deep understanding of your Ti
 Additionally, our TikTok Analysis Dashboard provides competitive analysis features. You can benchmark your performance against other TikTok accounts in your niche or industry, identify emerging trends, and gain inspiration from successful creators. By keeping a close eye on your competitors, you can stay ahead of the curve and adapt your content strategy accordingly.
 
 Ultimately, our TikTok Analysis Dashboard is a powerful tool that equips you with the necessary insights to optimize your TikTok presence and achieve your goals. So, let's dive in, harness the power of data, and unlock your TikTok potential like never before!
+
+### 📂Content:
+* [📖Tiktokanalysis] - Web Development file
+* [📖apiscraping-tiktokpy] - Api Scraping python file
+* [📖data-integration] - Data Integration log from Azure Data Factory file
+* [📖api-tiktokdata-raw] - Raw data from api scraping file
+* [📖api-tiktokdata-integrated] - Raw data integrated using ADF file
+* [📖api-tiktokdata-clean] - Cleaned and Transformed data file
+* [📖datacleaning_tiktok] - Steps on data cleaning using python on Google Collab

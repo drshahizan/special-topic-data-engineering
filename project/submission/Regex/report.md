@@ -35,7 +35,7 @@
 * [Objectives](#-objectives)
 * [Methodology](#️-methodology)
 * [Data Analysis](#️-data-analysis)
-* [Fodler Structure](#️-folder-structure)
+* [Folder Structure](#️-folder-structure)
 * [Visualization](#️-visualization)
 * [Insight](#️-insight)
 * [Conclusion](#️-conclusion)

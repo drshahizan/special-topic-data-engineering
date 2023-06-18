@@ -1,4 +1,4 @@
-<h1 align='center'>Image Analysis for Rotten Fruit Detection 🍇🍉🍎🍐🍓</h1>
+<h1 align='center'>Image Analysis for Rotten Fruit Detection</h1>
 
 <p>The Rotten Fruit Detection System is an advanced image analysis platform designed to automatically identify and classify rotten fruits. Leveraging state-of-the-art machine learning techniques, the system analyzes images of fruits to accurately determine their freshness status. By using computer vision algorithms, the platform can detect subtle visual cues and patterns associated with decay, discoloration, and other signs of spoilage in fruits.</p>
 

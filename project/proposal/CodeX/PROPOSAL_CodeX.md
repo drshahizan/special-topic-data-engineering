@@ -28,37 +28,37 @@ Netflix, YouTube, Spotify and many more streaming platforms have been introduced
 
 
 ## 2. Background
-This website is a global streaming service that provides a vast selection of movies and documentaries. One of the key features that set this website apart from other streaming services is its personalized recommendation system, which uses data science and machine learning algorithms to provide personalized content recommendations to its users. The Netflix recommendation system is based on a complex algorithm that takes into account a wide range of factors, such as the user's viewing history, search history, ratings, time of day, and device used, among others. The system continuously learns from the user's behavior and adjusts the recommendations to provide more relevant content over time.
+This website is a global streaming service that provides a vast selection of movies and documentaries. One of the key features that set this website apart from other streaming services is its personalized recommendation system, which uses data science and machine learning algorithms to provide personalized content recommendations to its users. The website's recommendation system is based on a complex algorithm that takes into account a wide range of factors, especially user rating. The system continuously learns from the user's behavior and adjusts the recommendations to provide more relevant content over time.
 
-The recommendation system has been a critical factor in Netflix's success and has helped the company retain and attract new subscribers. As a result, the development and improvement of the recommendation system have been a key focus for Netflix's data science and engineering teams. In recent years, Netflix has also made its recommendation system available to the research community through various data science challenges, such as the Netflix Prize, which aimed to improve the accuracy of the recommendation system by at least 10%. The challenge resulted in significant improvements to the recommendation system and led to the adoption of several new algorithms and techniques.
-
-As a result of its success, the Netflix recommendation system has become a benchmark for personalized recommendation systems across various industries, and its algorithms and techniques have been adopted by other companies, such as Amazon, Spotify, and YouTube.
+The recommendation system has been a critical factor of success of this company and has helped to attract new users. As a result, the development and improvement of the recommendation system have been a key focus for the website's data science and engineering teams.
+As a result of its success, the recommendation system has become a benchmark for personalized recommendation systems across various industries, and its algorithms and techniques have been adopted by other companies, such as Amazon, Spotify, and YouTube.
 
 ## 3. Goals and Objective
 1) Implement the usage of MongoDB to create recommendation engine
-2) Be able to understand steps of using MongoDB to create recommendation engine, which are Data Collection , Data Cleaning, Data Transformation , Data Loading , Model Training and Recommedation Generation based on study case (Netflix)
-3) Improve the user experience: One of the primary goals of a data-driven project may be to improve the user experience. For example, in a recommendation system like Netflix, the goal may be to provide personalized and relevant content recommendations to improve user satisfaction and engagement.
+2) Be able to understand steps of using MongoDB to create recommendation engine, which are Data Collection , Data Cleaning, Data Transformation , Data Loading , Model Training and Recommedation Generation based on study case
+3) Improve the user experience: One of the primary goals of a data-driven project may be to improve the user experience. For example, for most recommendation system, the goal may be to provide personalized and relevant content recommendations to improve user satisfaction and engagement.
 4) Enhance data quality: A key objective of a data-driven project may be to enhance data quality. This includes ensuring data accuracy, completeness, and consistency to improve the reliability and usefulness of the data for analysis and modeling.
-5) Develop predictive models: Another objective may be to develop predictive models to forecast future trends and outcomes. For example, in a financial institution, the goal may be to build predictive models to identify potential fraud or assess credit risk.
+5) Develop predictive models: Another objective may be to develop predictive models to forecast future trends and outcomes.
 6) Ensure data security: One of the critical objectives of a data-driven project may be to ensure data security. This includes implementing appropriate security measures to protect sensitive data from unauthorized access, data breaches, and cyber threats.
-7) Improve operational efficiency: A data-driven project may aim to improve operational efficiency by automating tasks, reducing manual intervention, and streamlining processes. For example, in a manufacturing industry, the goal may be to optimize production processes and reduce waste by using predictive maintenance techniques.
+7) Improve operational efficiency: A data-driven project may aim to improve operational efficiency by automating tasks, reducing manual intervention, and streamlining processes.
 
 ## 4. Scope
-- The scope of this project is to create Netflix recommedation engine based on few factors. These factors will create personalized recommendation.
-- This project requires dataset scraped from Netflix websites using Phyton.
-- The main tool will be used in this project is MongoDB to store Netflix viewing history , Netflix search queries , user ratings and reviews and Netflix content    metadata.
-- Matplotlib, Seaborn and Tableau will be used to create visualizations of the recommendation system's performance.
+- The scope of this project is to recreate the website's recommedation engine based on few factors. These factors will create personalized recommendation.
+- This project requires dataset scraped from the website using Python.
+- The main tool will be used in this project is MongoDB to store user ratings metadata content in this website.
+- - This project use Python language to do the unsupervised machine learning for the prediction of clusters.
+- Tableau will be used to create visualizations of the recommendation system's performance.
 
 
 ## 5. Methodology
 | Components | Description |
 |--|--|
-| Data Collection | collect data from sources such as Netflix Recommendation Algorithm (NRA). This data will be used to train the reccomendation model  |
-| Data Cleaning| clean the collected data to removed irrelevant data or incomplete data such as null in user watching video period. |
-| Data Transforming| Transform the cleaned data used by MongoDB |
-| Data Loading| Load transformed data into MongoDB collections |
-| Model Training | Trains the recommendatiob model using machne learning algorithm based on data collected in steps 1 |
-| Reccomendation Generator | Generate recommendations for users based on their previous interaction with the system. |
+| Data Collection | Collect data from the website using API. This data will be used to train the recomendation model  |
+| Data Cleaning | Clean the collected data to removed irrelevant data, unwanted characters and incomplete data such as null in user watching video period. |
+| Data Transforming | Transform the cleaned data used by MongoDB |
+| Data Loading | Load transformed data into MongoDB collections |
+| Model Training | Trains the recommendation model using unsupervised machine learning algorithm based on data collected in steps 1 |
+| Recomendation Generator | Generate recommendations for users based on their previous interaction with the system |
 
 Below is an overview example of how the system will be programmed:
 <p align="center">
@@ -71,12 +71,12 @@ The system will consist of the following components:
 
 | No. | Components | Description |
 | ------------- | ------------- | ------------- |
-| 1. | Data Collection| We will collect the Netflix data from Rapid API, the data contains about the search titles for the series, the actors for the series and also the deleted titles by country. The data will collected in JSON format.|
+| 1. | Data Collection| We will collect the Netflix data from Rapid API, the data contains about movies title and the ratings by the user. The data will collected in csv file.|
 | 2. | Data Storage | The data collected will be stored in MongoDB. |
 | 3. | Data preprocessing | We will clean and preprocess the data before evaluating it. To normalize the text data, we will remove stop words, punctuation, and URLs, as well as perform stemming and lemmatization. Not only that, we also planed to change the data format from JSON to CSV, so the data is easier to execute.|
-| 4. | Data analysis and modeling | The preprocessed data will be analysis using **k-nearest neighbors algorithm (KNN)** |
-| 5. | Model deployment |**Django**, a Python-based web framework, will be used by the model deployment component to deploy machine learning models to a web server. The algorithm will deploy the trained data after machine learning. This will help a lot to see the end result and also for data visulization |
-| 6. | Visualization and reporting | We will use **Matplotlib**, a Python visulization library to visualize the data. We will also use **Power BI** to create reports and dashboards that can be shared with stakeholders. |
+| 4. | Data analysis and modeling | The preprocessed data will be analysis using **k-means algorithm** |
+| 5. | Model deployment |**PHP**, a php web framework, will be used by the model deployment component to deploy machine learning models to a web server. The algorithm will deploy the trained data after machine learning. This will help a lot to see the end result and also for data visulization |
+| 6. | Visualization and reporting | We will use **Tableau** to create reports and dashboards that can be shared with stakeholders. |
 
 <p align="center">
 <img height='500px' src='Recommendation architecture.png'/>

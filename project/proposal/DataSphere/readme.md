@@ -41,3 +41,11 @@
   </tr>
   </table>
 </p>
+
+
+
+
+## Contents📝
+
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/DataSphere/Proposal_DataSphere.md)
+- 📃[Project Submission](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataSphere/)

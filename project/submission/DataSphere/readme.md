@@ -1,4 +1,4 @@
-<h1 align="center"> A Sentiment Analysis Study: <br></br>Exploring the Emotional Response of Mental Health <a href="#" target="_blank" rel="noreferrer">  </a>   <br>
+<h1 align="center"> A Sentiment Analysis Study: <br></br>Exploring the Response of 'Mental Health' Tweets <a href="#" target="_blank" rel="noreferrer">  </a>   <br>
 </h1>
 <img src='https://monkeylearn.com/static/6700dcab9bcc691104dd0d794f6e7ef4/Sentiment-analysis-of-Twitter-Social.png'/>
 
@@ -43,4 +43,6 @@
   </tr>
   </table>
 </p>
+
+Head to our Presentation Link: [DataSphere Presentation](https://www.canva.com/design/DAFmE9dJWcQ/8laEbQSvm_0LWRuiGAr8gw/edit?utm_content=DAFmE9dJWcQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 

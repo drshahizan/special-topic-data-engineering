@@ -47,7 +47,7 @@ Throughout the project, make sure to follow best practices for data science proj
 | 4 | Tiktok Analytics Dashboard | DataAce | |
 | 5 | Predictive maintenance tool |  | |
 | 6 | Entertainment Analytic Platform | MichelinStar | <a href="./submission/MichelinStar" ><img src="./images/meeting.png" width="36px" height="36px" ></a> |
-| 7 | Energy consumption analysis dashboard | StaticIP |<a href="./submission/StaticIP" ><img src="../images/meeting.png" width="36px" height="36px" >|
+| 7 | Malaysia Energy Consumption Analysis Dashboard | StaticIP |<a href="./submission/StaticIP" ><img src="../images/meeting.png" width="36px" height="36px" >|
 | 8 | Natural language processing tool | Noctua| |
 | 9 | Image and video analysis platform | Rivertion |<a href="./submission/Rivertion" ><img src="../images/meeting.png" width="36px" height="36px" ></a> |
 | 10 | Time-series analytics dashboard|||

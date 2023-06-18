@@ -1,6 +1,6 @@
-<img src="https://www.ie.edu/insights/wp-content/uploads/2022/01/Mateo-Cities-Feature.gif" align="center" width="1000">
-
 <h1 align ="center"><strong>💡Malaysia Energy Consumption Analysis Dashboard💡</strong></h1>
+
+<img src="https://www.ie.edu/insights/wp-content/uploads/2022/01/Mateo-Cities-Feature.gif" align="center" width="1000">
 
 <div align="center">
 <table>

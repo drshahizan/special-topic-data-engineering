@@ -1,0 +1,141 @@
+<!--
+=========================================================
+* Soft UI Dashboard PRO - v1.1.1
+=========================================================
+
+* Product Page:  https://www.creative-tim.com/product/soft-ui-dashboard-pro 
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+{% extends 'layouts/base.html' %}
+{% load static %}
+
+{% block content %}
+<style>
+    .product-description {
+        max-height: 200px; /* Adjust the height as needed */
+        overflow: auto;
+      }
+</style>      
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="mb-4">Product Details</h5>
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-6 text-center">
+                            {% if details.ProductImg %}
+                                <img class="w-100 border-radius-lg shadow-lg mx-auto" src="{{ details.ProductImg }}" alt="img-blur-shadow" >
+                            {% else %}
+                                <img class="w-100 border-radius-lg shadow-lg mx-auto" src="{% static 'img/no.jpeg' %}" alt="no image">
+                            {% endif %}
+                        </div>
+                        <div class="col-lg-5 mx-auto">
+                            <h3 class="mt-lg-0 mt-4">{{ details.ProductName }}</h3>
+                            <div class="rating">
+                                {{details.ProductRating}}
+                                {% if integer_stars > 0 %}
+                                  {% for _ in "x"|ljust:integer_stars %}
+                                    <i class="fas fa-star text-warning" aria-hidden="true"></i>
+                                  {% endfor %}
+                                {% else %}
+                                  <i class="far fa-star" aria-hidden="true"></i>
+                                {% endif %}
+                                {% if fractional_part > 0 %}
+                                  <i class="fas fa-star-half-alt text-warning" aria-hidden="true"></i>
+                                {% endif %}
+                                {% if empty_stars > 0 %}
+                                  {% for _ in "x"|ljust:empty_stars %}
+                                    <i class="far fa-star" aria-hidden="true"></i>
+                                  {% endfor %}
+                                {% endif %}
+                              </div>
+                              
+                            <br>
+                            <h4 class="mb-0 mt-3">RM {{details.ProductPrice}}</h4>
+                            <span class="text-secondary text-sm font-weight-bold mb-0">{{details.ProductSold}} Sold</span>
+                            <br>
+                            <label class="mt-4">Description</label>
+                            <div class="product-description">{{ details.ProductDesc|linebreaksbr }}</div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12">
+                          <h5 class="ms-3">Other Products</h5>
+                          <div class="table table-responsive">
+                            <table class="table align-items-center mb-0">
+                              <thead>
+                                <tr>
+                                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Product</th>
+                                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Price</th>
+                                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Rating</th>
+                                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Sold Amount</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {% for product in other_products %}
+                                <tr>
+                                  <td>
+                                    <div class="d-flex px-2 py-1">
+                                      <div>
+                                        {% if product.ProductImg %}
+                                        <a href="{% url 'prod_details' product.no %}">
+                                          <img class="avatar avatar-md me-3" src="{{ product.ProductImg }}" alt="img-blur-shadow">
+                                        </a>
+                                        {% else %}
+                                        <a href="{% url 'prod_details' product.no %}">
+                                          <img class="avatar avatar-md me-3" src="{% static 'img/no.jpeg' %}" alt="no image">
+                                        </a>
+                                        {% endif %}
+                                      </div>
+                                      <div class="d-flex flex-column justify-content-center">
+                                        <h6 class="mb-0 text-sm">{{ product.ProductName }}</h6>
+                                      </div>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <p class="text-sm text-secondary mb-0 me-3">RM {{ product.ProductPrice }}</p>
+                                  </td>
+                                  <td>
+                                    <div class="rating ms-lg-n4">
+                                        {% for _ in "x"|ljust:product.integer_stars %}
+                                          <i class="fas fa-star text-warning" aria-hidden="true"></i>
+                                        {% endfor %}
+                                        {% if product.fractional_part > 0 %}
+                                          <i class="fas fa-star-half-alt text-warning" aria-hidden="true"></i>
+                                        {% endif %}
+                                        {% if product.empty_stars > 0 %}
+                                          {% for _ in "x"|ljust:product.empty_stars %}
+                                            <i class="far fa-star" aria-hidden="true"></i>
+                                          {% endfor %}
+                                        {% endif %}
+                                      </div>
+                                      
+                                  </td>
+                                  <td class="align-middle text-sm">
+                                    <div class="progress mx-auto">
+                                      <div class="progress-bar bg-gradient-success" role="progressbar" style="width: {{ product.ProductSold }}%"
+                                        aria-valuenow="{{ product.ProductSold }}" aria-valuemin="0" aria-valuemax="100"></div>
+                                        {{ product.ProductSold }}
+                                    </div>
+                                  </td>
+                                </tr>
+                                {% endfor %}
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

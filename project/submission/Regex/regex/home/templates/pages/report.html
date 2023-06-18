@@ -1,0 +1,115 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header pb-0">
+                    <div class="d-lg-flex">
+                        <div>
+                            <h5 class="mb-0">All Products</h5>
+                            <p class="text-sm mb-0">
+                                Shopee Supermarket household supplies products.
+                            </p>
+                        </div>
+                        <div class="ms-auto my-auto mt-lg-0 mt-4">
+                            <div class="ms-auto my-auto">
+                                <button class="btn btn-outline-primary btn-sm export mb-0 mt-sm-0 mt-1" data-type="csv" type="button" name="button">Export</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body px-0 pb-0">
+                    <div class="table-responsive">
+                        <table class="table table-flush" id="products-list">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Price</th>
+                                    <th>Rating</th>
+                                    <th>Total Sold</th>
+                                    <th>Link</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for p in products %}
+                                <tr>
+                                    <td>
+                                        <div class="d-flex">
+                                            <h6 class="ms-3 my-auto text-sm" style=" white-space: normal;">{{p.ProductName}}</h6>
+                                        </div>
+                                    </td>
+                                    <td class="text-sm">{{p.ProductPrice}}</td>
+                                    <td class="text-sm">{{p.ProductRating}}</td>
+                                    <td class="text-sm">{{p.ProductSold}}</td>
+                                    <td class="text-sm">
+                                        <a href="{{ p.Product_href }}" data-value="{{ p.Product_href }}">
+                                            <i class="fas fa-link"></i>
+                                        </a>
+                                    </td>                                    
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+{% block scripts %}
+<script src="https://cdn.datatables.net/v/bs5/dt-1.13.4/b-2.3.6/b-html5-2.3.6/b-print-2.3.6/r-2.4.1/datatables.min.js"></script>
+
+<script>
+$(document).ready(function() {
+
+    var dataTable = $('#products-list').DataTable({
+    searching: true,
+    fixedHeader: false,
+    pageLength: 10,
+    lengthMenu: [
+        [10, 25, 50, -1],
+        [10, 25, 50, 'All']
+    ],
+    buttons: [
+        {
+            extend: 'csv',
+            text: 'Export',
+            className: 'btn btn-outline-primary btn-sm export',
+            filename: 'regex',
+            exportOptions: {
+                orthogonal: 'export'
+            }
+        }
+    ],
+    dom: "<'row'<'col-sm-12 col-md-6'l><'col-sm-12 col-md-6'f>>" +
+         "<'row'<'col-sm-12'rt>>" +
+         "<'row'<'col-sm-12 col-md-5'i><'col-sm-12 col-md-7'p>>",
+    language: {
+        paginate: {
+            first: '<i class="fas fa-angle-double-left"></i>',
+            previous: '<i class="fas fa-angle-left"></i>',
+            next: '>',
+            last: '<'
+        }
+    }
+});
+
+$('.export').on('click', function() {
+    var type = $(this).data('type');
+    var filename = 'regex.' + type;
+
+    if (type === 'csv') {
+        dataTable.button('.buttons-csv').trigger();
+    }
+});
+
+});
+</script>
+{% endblock scripts %}

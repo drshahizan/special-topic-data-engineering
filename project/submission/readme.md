@@ -14,12 +14,12 @@ Don't forget to hit the :star: if you like this repo.
 | No | Title | Group |  Project | 
 | ----- | ----- | ------ | :------: | 
 | 1 |  | Gadgeteen | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 2 |  | Regex |<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 2 | Shopee Supermarket Sales Performance Dashboard | Regex |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Regex" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 3 |  | DataSphere |<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 4 |  | DataAce |<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 5 |  | MichelinStar |<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 6 |  | StaticIP |<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 7 |  | Noctua|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 6 | Malaysia Energy Consumption Analysis Dashboard | StaticIP |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/StaticIP" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 7 | Classification and visualization of reddit sentiment analysis towards dato' seri anwar ibrahim during 2022 general election | Noctua|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 8 |  | Rivertion |<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 9 |  | CodeX|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 10 |  | ZytrecDB|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |

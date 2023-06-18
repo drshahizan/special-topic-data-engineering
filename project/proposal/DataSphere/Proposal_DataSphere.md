@@ -22,14 +22,21 @@
 To comprehend the feelings, thoughts, and attitudes that individuals have towards a certain subject, good, service, or brand, sentiment analysis is a technique that involves mining and analysing huge volumes of data. It is an effective tool that may be utilised to understand consumer behaviour, forecast trends, and guide corporate decisions. Sentiment analysis is a cutting-edge field that effectively classifies and interprets the sentiment of text, speech, and video data by utilising cutting-edge technology like machine learning and natural language processing. Sentiment analysis is being used by businesses to track consumer feedback, social media trends, brand reputation, and enhance the overall customer experience. Despite its many advantages, sentiment analysis has certain drawbacks, such as the potential for bias, the difficulty of deciphering sarcasm, and the problem of maintaining accuracy across diverse languages and cultures. Sentiment analysis will be a crucial tool for companies looking to stay on the cutting edge of customer knowledge and requirements fulfilment as technology develops.
 
 ## 🖼️: Background
-Menu Rahmah is a government initiative in Malaysia that aims to provide affordable meals to Malaysians, particularly those affected by the COVID-19 pandemic. Participating restaurants and food establishments are incentivized to offer meals priced under RM5 to help alleviate the cost of living for Malaysians. This program is part of the National Economic Recovery Plan (PENJANA) launched in 2020 in response to the economic impact of the COVID-19 pandemic.
-<br><br>
-As Menu Rahmah has been implemented for some time now, it is essential to understand how Malaysians perceive the initiative. This study aims to explore the emotional response of Malaysians towards Menu Rahmah through sentiment analysis of tweets. Sentiment analysis is a computational technique used to analyze opinions, emotions, and attitudes expressed in written language. It has gained popularity in recent years as social media platforms become increasingly prevalent and a vast source of unstructured data.
-<br><br>
-By conducting sentiment analysis on tweets related to Menu Rahmah, we can gain insights into how Malaysians feel about the initiative. This information can help policymakers and participating organisations to understand the success of Menu Rahmah and identify areas for improvement. Not to mention, help reassure the citizens of Malaysia that their voices are being heard and being taken into consideration.
-<br><br>
-The study will use a combination of natural language processing (NLP) and machine learning techniques to analyze a large dataset of tweets related to Menu Rahmah. The results will be presented in the form of visualizations, highlighting the overall sentiment towards Menu Rahmah and identifying key themes and topics mentioned by users. Overall, this study aims to provide valuable insights into how Malaysians perceive the Menu Rahmah initiative and the emotional response it elicits.
+<p align="justify">
+The sentiment analysis project focused on analyzing mental health-related discussions and sentiments expressed on Twitter. Twitter serves as a valuable platform for individuals to share their thoughts, experiences, and emotions related to mental health. By scraping and analyzing tweets from Twitter, this project aimed to gain insights into the sentiment and attitudes surrounding mental health topics on the platform.
+</p>
 
+<p align="justify">
+Mental health is a critical aspect of overall well-being, and it has garnered increased attention in recent years. Understanding the sentiments expressed by individuals on social media platforms like Twitter provides a unique opportunity to explore public perceptions, experiences, and reactions to mental health issues.
+</p>
+
+<p align="justify">
+By leveraging sentiment analysis techniques, this project sought to uncover important insights. These insights include identifying prevalent sentiment trends, understanding the emotional impact of specific mental health topics, detecting influential or viral tweets, and observing how sentiment evolves over time. These findings can contribute to a more comprehensive understanding of public sentiment towards mental health, help identify areas where support may be lacking, and inform efforts aimed at destigmatizing mental health and promoting well-being.
+</p>
+
+<p align="justify">
+The data for this project was collected using web scraping techniques, specifically utilizing tools such as Snscrape to retrieve tweets based on mental health-related keywords or hashtags. The collected tweets were then preprocessed, removing irrelevant information and normalizing the text, before being subjected to sentiment analysis algorithms.
+</p>
 ## 🔎: Goals and Objectives
  The goal of this project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed by Malaysians about the government's latest initiative, Menu Rahmah. The objective of sentiment analysis is to classify the sentiment of the text as positive, negative, or neutral. This information can be used to understand the public opinion towards a specific product, service, brand, or event, and can be helpful in making informed decisions and improving customer satisfaction. It can also be useful in identifying potential issues or areas of improvement for businesses or organizations.
 

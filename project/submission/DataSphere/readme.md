@@ -44,6 +44,9 @@
   </table>
 </p>
 <br>
+
+
+## Project Description
 The Mental Health Sentiment Analysis project aims to analyze the sentiment of Twitter tweets related to mental health. By understanding the sentiment expressed in these tweets, we can gain insights into the overall public opinion and emotions surrounding mental health topics on social media.
 
 The project uses Power BI to create visualizations based on the sentiment analysis results. These visualizations are then embedded into a PHP system, which allows users to interact with the data and explore the sentiment trends related to mental health.

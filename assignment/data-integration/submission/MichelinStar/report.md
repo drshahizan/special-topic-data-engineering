@@ -1,5 +1,34 @@
 <h1 align="center">Report: Data Integration Using Azure Data Factory</h1>
 
+<h2>Group Members <img width=30px; height=30px src="https://github.com/TanYongSheng728/TanYongSheng728/blob/main/group.png"></h2>
+<table>
+  <tr>
+    <th>Name</th> 
+    <th>Matric</th>
+  </tr>
+  <tr>
+    <td>Eddie Wong Chung Pheng</td>
+    <td>A20EC0031</td>
+  </tr>
+  <tr>
+    <td>Yong Zhi Yan</td>
+    <td>A20EC0172</td>
+  </tr>
+    <tr>
+    <td>Tan Yong Sheng</td>
+    <td>A20EC0157</td>
+  </tr>
+    <tr>
+    <td>Low Junyi</td>
+    <td>A20EC0071</td>
+  </tr>
+  <tr>
+    <td>Vincent Boo Ee Khai</td>
+    <td>A20EC0231</td>
+  </tr>
+</table><br>
+
+
 In this assignment, we will perform data integration towards the <b>e-commerce data</b> found at <a href="https://www.kaggle.com/datasets/benroshan/ecommerce-data?resource=download&select=List+of+Orders.csv">kaggle website</a> which consists of 3 datasets. The details of each datasets are listed as below:
 <table>
   <tr>

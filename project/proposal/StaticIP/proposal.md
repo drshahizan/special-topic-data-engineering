@@ -1,5 +1,5 @@
 <div>
-<h1 align = 'center'><b>Electricity Consumption Analysis in Malaysia</b></h1>
+<h1 align = 'center'><b>Malaysia Energy Consumption Analysis in Malaysia</b></h1>
 </div>
 
 <div align="center">

@@ -6,7 +6,7 @@
 
 This assignment requires gathering Malaysia vaccination registration data from the MyVaccine API. We are using Python libraries to automate the retrieval and processing of data from the API, and then saving the data to a csv file. After that, use the PyMongo library to save the data to MongoDB.
 
-<h2 align=center>Group Members <img width=30px; height=30px src="https://user-images.githubusercontent.com/120556342/215398734-609ba04a-88e5-44b5-9eaa-239ac8edd091.png"></h2>
+<h2 align=center>Group Members Regex<img width=30px; height=30px src="https://user-images.githubusercontent.com/120556342/215398734-609ba04a-88e5-44b5-9eaa-239ac8edd091.png"></h2>
 <table align=center>
   <tr>
     <th>Name</th>

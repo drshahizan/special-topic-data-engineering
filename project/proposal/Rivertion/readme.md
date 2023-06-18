@@ -28,5 +28,5 @@
 </table>
 
 🧠<b>Project Proposal</b><br>
-| Open In GitHub | [:octocat:](dfghjklfghjklghjkl;vbnjkl) |
-| -------------- | _--------------------------------------|
+| Open In GitHub | [:octocat:](project/proposal/Rivertion/Proposal_Rivertion.md) |
+| -------------- | :_--------------------------------------:                     |

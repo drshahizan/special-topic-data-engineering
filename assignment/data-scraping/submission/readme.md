@@ -33,7 +33,7 @@ Don't forget to hit the :star: if you like this repo.
 | 2 |  | Regex | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 3 |  | DataSphere | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 4 |  | DataAce | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 5 |  | MichelinStar | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 5 | Web scraping Text Content From Google Scholar | MichelinStar | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2/MichelinStar" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 6 |  | StaticIP | <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 7 | Google Scholar Web Scraping | Noctua| <a href="/assignment/data-scraping/submission/part2/Noctua" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 8 | Web Scraping Google Scholar using SerpAPI | Rivertion | <a href="part2/Rivertion" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |

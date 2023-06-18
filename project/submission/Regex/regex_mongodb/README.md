@@ -1,4 +1,4 @@
-<h2>Title</h2>
+<h2 align=center> Sales Analysis Dashboard of Shopee Supermarket by Households Supplies Category</h2>
 
 <table align=center>
   <tr>

@@ -1,7 +1,7 @@
 <h1 align='center'> 
   Malaysia Energy Consumption Analysis Dashboard <img height='50px' width='50px' src='https://user-images.githubusercontent.com/120556342/228145762-83c369fc-a6b8-49da-a2be-fd31b7f280c3.png'>
  </h1>
-<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/banner.png"></div> 
+<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/flow.jpg"></div> 
 
 <h2 align=center>Group Member 🤵</h2>
 <table align=center>

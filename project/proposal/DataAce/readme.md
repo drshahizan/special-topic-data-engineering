@@ -28,7 +28,10 @@ In this project, we will develop a system which will beneficial for marketing pe
     <td>A20EC0135</td>
   </tr>
 </table>
-<h2>Content</h2>
+
+### 📂Content:
+* [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/DataAce/proposal.md)
+<h2>Files</h2>
 <p>
 
 - Example_dashboard.jpg : We inspired to build an interactive dashboard like in the picture.

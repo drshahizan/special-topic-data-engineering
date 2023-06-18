@@ -37,7 +37,7 @@ Don't forget to hit the :star: if you like this repo.
 | 6 | Web Scraping Text Content | StaticIP | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2/StaticIP" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 7 | Google Scholar Web Scraping | Noctua| <a href="/assignment/data-scraping/submission/part2/Noctua" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 8 | Web Scraping Google Scholar using SerpAPI | Rivertion | <a href="part2/Rivertion" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 9 | | CodeX| <a href="" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 9 | Google Scholar Scraping | CodeX| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/01be9008c78bc4ca9c2564458204a32f87305cd2/assignment/data-scraping/submission/part2/CodeX" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 
 
 ## Contribution 🛠️

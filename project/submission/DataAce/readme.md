@@ -47,6 +47,7 @@ Ultimately, our TikTok Analysis Dashboard is a powerful tool that equips you wit
 <img src="Flowchart.jpg" alt="TikTok Image">
 
 ### 📂Content:
+* 📑 [Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataAce/report.md)
 * [📖Tiktokanalysis] - Web Development file
 * [📖apiscraping-tiktokpy] - Api Scraping python file
 * [📖data-integration] - Data Integration log from Azure Data Factory file

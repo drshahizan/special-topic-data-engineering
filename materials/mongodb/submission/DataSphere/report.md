@@ -20,9 +20,6 @@ The Car Booking System using MongoDB is a powerful solution designed to simplify
 - Admin Landing Page
 <img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/4e6e4dc53bf5549108c0dd5f59514da2be8ddf31/materials/mongodb/submission/DataSphere/images/indexpage.jpg">
 
-- Admin Manage Booking Page
-<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/a7233d511dee3040107ac66fe9e2b2df072c2198/materials/mongodb/submission/DataSphere/images/TestDeleteBooking.jpg">
-
 - Customer Landing Page
 <img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/7db4da23297b791c61fefdfc9cd7776ade67f0a4/materials/mongodb/submission/DataSphere/images/customerIndex.jpg">
 
@@ -41,6 +38,10 @@ The Car Booking System using MongoDB is a powerful solution designed to simplify
 
 - Customer Manage Booking Page
 <img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/d71253e1ccfd938ed14693412898b398aecf6fc0/materials/mongodb/submission/DataSphere/images/customerManageBooking.jpg">
+
+
+- Admin Modify Booking Page
+<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/a7233d511dee3040107ac66fe9e2b2df072c2198/materials/mongodb/submission/DataSphere/images/TestDeleteBooking.jpg">
 
 
 

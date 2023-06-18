@@ -22,7 +22,7 @@ Don't forget to hit the :star: if you like this repo.
 | 8 | Natural language processing tool | Noctua| <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 9 | Image and video analysis platform | Rivertion | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 10 | Time-series analytics dashboard||<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 11 | Recommendation engine | CodeX| 11 | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 11 | Recommendation engine | CodeX| <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 
 
 ## Contribution 🛠️

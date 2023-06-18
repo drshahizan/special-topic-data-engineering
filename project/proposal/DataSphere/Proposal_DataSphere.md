@@ -79,10 +79,10 @@ The objective of this project is to provide insights to policymakers, citizens o
   - Adequate hardware and software to progress.
 
 ## ▶️: Methodology
-- ``Data collection`` : Scrape data from Twitter on responses and tweets of Menu Rahmah using twitter API.
+- ``Data collection`` : Scrape data from Twitter on responses and tweets of mental health using twitter API.
 
 
-- ``Data cleaning and processing`` : The collected data will be cleaned, filtered, pre-processed to remove duplicate data using Alteryx and Python.
+- ``Data cleaning and processing`` : The collected data will be cleaned, filtered, pre-processed to remove duplicate data using Python.
 
 - ``Data analysis`` : Data analysis utilizing descriptive statistics and exploratory data analysis methods comes after the data have been cleaned. This will make it easier to spot patterns and trends in the information.
 
@@ -97,7 +97,7 @@ The system will consist of the following components:
 
 | No. | Components | Description |
 | ------------- | ------------- | ------------- |
-| 1. | Data Acquisition | To acquire data, we will use the Twitter API to collect tweets on "Menu Rahmah." We will connect with the Twitter API using Python's **Snscrape** package and save the collected data in JSON format. |
+| 1. | Data Acquisition | To acquire data, we will use the Twitter API to collect tweets on "Mental Health" We will connect with the Twitter API using Python's **Snscrape** package and save the collected data in JSON format. |
 | 2. | Data Storage | For storing the acquired data, we will use **MongoDB** as our primary database. MongoDB is a NoSQL database that works well with massive amounts of unstructured data, such as tweets. To interface with the database, we will use PyMongo, a Python library for MongoDB. |
 | 3. | Data preprocessing | We will clean and preprocess the data before evaluating it. To normalize the text data, we will remove stop words, punctuation, and URLs, as well as perform stemming and lemmatization. For text preparation and feature engineering, we will use Python's **NLTK** module. |
 | 4. | Data analysis and modeling | We will train a sentiment analysis model using the preprocessed data. We will train the model using labeled data using a supervised learning approach. For model training and evaluation, we will employ Python's Scikit-Learn package. We will also investigate additional models, such as deep learning approaches, utilizing frameworks such as TensorFlow and PyTorch. |

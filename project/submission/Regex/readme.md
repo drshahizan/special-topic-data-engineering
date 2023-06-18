@@ -39,7 +39,8 @@
 </table>
 
 ## Contents📝
-- 📑 [Report]()
+- 📑[Report]()
+- ⚒️[Data Cleaning](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Regex/Regex.ipynb)
+- 📂[Dataset](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Regex/Dataset)
 - 💻[Code]()
-- 📂[CSV]()
 

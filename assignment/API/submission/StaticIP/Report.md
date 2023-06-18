@@ -54,7 +54,7 @@ Database is created by entering the name of the database and the name of the col
 ### Importing data to MongoDB
 Data.csv file is selected to store the data in MongoDB.
 
-<div align = "center"><img width=500 height=350 src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/StaticIP/Database%20in%20MongoDB.png" ></div>
+<div align = "center"><img width=500 height=350 src ="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/StaticIP/Database%20in%20MongoDB.png" ></div>
 
 ## Alternative 2:
 ### Library used

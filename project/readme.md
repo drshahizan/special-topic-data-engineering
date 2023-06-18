@@ -46,7 +46,7 @@ Throughout the project, make sure to follow best practices for data science proj
 | 3 | Customer segmentation tool | DataSphere | |
 | 4 | Tiktok Analytics Dashboard | DataAce | |
 | 5 | Predictive maintenance tool |  | |
-| 6 | Healthcare analytics platform | MichelinStar | |
+| 6 | Entertainment Analytic Platform | MichelinStar | <a href="[./project/submission/Rivertion](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/MichelinStar)" ><img src="./images/meeting.png" width="36px" height="36px" ></a> |
 | 7 | Energy consumption analysis dashboard | StaticIP | |
 | 8 | Natural language processing tool | Noctua| |
 | 9 | Image and video analysis platform | Rivertion |<a href="./submission/Rivertion" ><img src="../images/meeting.png" width="36px" height="36px" ></a> |

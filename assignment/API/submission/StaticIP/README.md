@@ -26,6 +26,12 @@
 </table>
 </div>
 
+## Introduction
+In this assignment, we will gather data about the Malaysia holiday from the Malaysia Holiday API. We will be using Python libraries to automate the retrieval and processing of data from the API, saving the data to a json file then convert to csv file. We provide two alternatives to store the data in MongoDB in this assignment:
+1. Import data directly into MongoDB
+2. Using PyMongo library
+
+
 ## Contents📝
 - 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/StaticIP/Report.md)
 - 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/StaticIP/MalaysiaHoliday.ipynb)

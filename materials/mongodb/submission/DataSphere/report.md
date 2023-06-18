@@ -17,26 +17,29 @@ The Car Booking System using MongoDB is a powerful solution designed to simplify
 ## Implementation
 
 ## Web Interface
-Admin Landing Page
+- Admin Landing Page
 <img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/4e6e4dc53bf5549108c0dd5f59514da2be8ddf31/materials/mongodb/submission/DataSphere/images/indexpage.jpg">
 
-Customer Landing Page
+- Admin Manage Booking Page
+<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/a7233d511dee3040107ac66fe9e2b2df072c2198/materials/mongodb/submission/DataSphere/images/TestDeleteBooking.jpg">
+
+- Customer Landing Page
 <img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/7db4da23297b791c61fefdfc9cd7776ade67f0a4/materials/mongodb/submission/DataSphere/images/customerIndex.jpg">
 
-Customer Register Page
+- Customer Register Page
 <img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/1fc9fc0951371c396da3b99130a40042d9f54330/materials/mongodb/submission/DataSphere/images/registerpage.jpg">
 
-Customer Profile Page
+- Customer Profile Page
 <img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/d5de6c41098987a8f69829ce7993a7d4f1153c0e/materials/mongodb/submission/DataSphere/images/customerProfile.jpg">
 
 
-Customer Booking Page
+- Customer Booking Page
 <img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/f037882be156a127eff339c76d1a237f9bfdc014/materials/mongodb/submission/DataSphere/images/customerBooking.jpg">
 
-Customer Booking Form Page
+- Customer Booking Form Page
 <img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/0e7dd99c9f7109a9c027832d396ed64f1e4c8fd6/materials/mongodb/submission/DataSphere/images/customerBookingForm.jpg">
 
-Customer Manage Booking Page
+- Customer Manage Booking Page
 <img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/d71253e1ccfd938ed14693412898b398aecf6fc0/materials/mongodb/submission/DataSphere/images/customerManageBooking.jpg">
 
 

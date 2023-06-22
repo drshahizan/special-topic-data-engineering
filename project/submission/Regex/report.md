@@ -150,7 +150,7 @@ However, modern technology can help to solve this problem effectively. Therefore
 
 ## Interface
 1. Login Page
-<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/13258e5e-9487-4b6b-bf25-39d2d96910a0"/></div>
+   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/13258e5e-9487-4b6b-bf25-39d2d96910a0"/></div>
 
 2. Register Page
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/6fac6c4a-9874-4734-b400-0b24e52eba98"/></div>
@@ -165,7 +165,7 @@ However, modern technology can help to solve this problem effectively. Therefore
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/fdf84d46-6441-4daa-a7a1-6cef0a54853d"/></div>
    
 8. Report Page
-<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/0e5a3b03-0582-4b3c-b3e4-973d0beaef6b"/></div>
+   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/0e5a3b03-0582-4b3c-b3e4-973d0beaef6b"/></div>
 
 ## Insight
 

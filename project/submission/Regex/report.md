@@ -150,10 +150,20 @@ However, modern technology can help to solve this problem effectively. Therefore
 
 ## Interface
 1. Login Page
+<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/13258e5e-9487-4b6b-bf25-39d2d96910a0"/></div>
+
 2. Register Page
-3. Product Catalog Page
-4. Product Details Page
-5. Report Page
+   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/6fac6c4a-9874-4734-b400-0b24e52eba98"/></div>
+
+3. Dashboard
+   
+5. Product Catalog Page
+   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/fca73892-ee80-48f9-a2a4-4b7b5ee0ef5c"/></div>
+   
+6. Product Details Page
+   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/fdf84d46-6441-4daa-a7a1-6cef0a54853d"/></div>
+   
+8. Report Page
 
 ## Insight
 

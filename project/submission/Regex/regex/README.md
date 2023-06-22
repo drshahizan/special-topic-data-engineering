@@ -35,7 +35,7 @@ Steps to start the project:
 Open your terminal or command prompt and run the following command to clone this project:
 
 ```python
-git clone https://github.com/drshahizan/special-topic-data-engineering.git
+git clone https://github.com/drshahizan/special-topic-data-engineering/tree/298d138fda957b41f10d94e1ddfffbdb8bce881e/project/submission/Regex/regex.git
 ```
 
 ### 2. CD to this project folder

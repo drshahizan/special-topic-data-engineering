@@ -42,7 +42,7 @@
 - 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Regex/report.md)
 - ⚒️[Data Cleaning](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Regex/Regex.ipynb)
 - 📂[Dataset](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Regex/Dataset)
-- 🗄️[Database]()
+- 🗄️[Database](https://github.com/drshahizan/special-topic-data-engineering/blob/0d88587f8107426d846275b93254a7f1a648a251/project/submission/Regex/regex/core/settings.py)
 - 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Regex/regex)
 
 

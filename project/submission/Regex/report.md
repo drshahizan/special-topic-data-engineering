@@ -154,6 +154,10 @@ However, modern technology can help to solve this problem effectively. Therefore
 
 2. Register Page
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/6fac6c4a-9874-4734-b400-0b24e52eba98"/></div>
+   
+3. Reset password Page
+   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/2300f496-2f43-40b6-b4b7-504790c8c421"/></div>
+   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/0a1c1e0b-b926-4827-bc0e-1213e9256acc"/></div>
 
 3. Dashboard
     <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/7a0e7f3a-2a42-4f30-892c-43aa2a2cf70e"/></div>

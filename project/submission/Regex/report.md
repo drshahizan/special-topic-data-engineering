@@ -156,7 +156,8 @@ However, modern technology can help to solve this problem effectively. Therefore
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/6fac6c4a-9874-4734-b400-0b24e52eba98"/></div>
 
 3. Dashboard
-   
+    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/7a0e7f3a-2a42-4f30-892c-43aa2a2cf70e"/></div>
+
 5. Product Catalog Page
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/fca73892-ee80-48f9-a2a4-4b7b5ee0ef5c"/></div>
    
@@ -164,6 +165,7 @@ However, modern technology can help to solve this problem effectively. Therefore
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/fdf84d46-6441-4daa-a7a1-6cef0a54853d"/></div>
    
 8. Report Page
+<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/0e5a3b03-0582-4b3c-b3e4-973d0beaef6b"/></div>
 
 ## Insight
 

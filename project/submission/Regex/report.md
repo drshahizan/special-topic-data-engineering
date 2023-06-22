@@ -150,14 +150,14 @@ However, modern technology can help to solve this problem effectively. Therefore
 
 ## Interface
 1. Login Page
-   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/13258e5e-9487-4b6b-bf25-39d2d96910a0"/></div>
+   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/ea8a13d5-763a-408b-bf25-da42cfae4647"/></div>
 
 2. Register Page
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/6fac6c4a-9874-4734-b400-0b24e52eba98"/></div>
    
 3. Reset password Page
-   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/2300f496-2f43-40b6-b4b7-504790c8c421"/></div>
-   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/0a1c1e0b-b926-4827-bc0e-1213e9256acc"/></div>
+   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/0b0b1c6f-2e2b-4370-83c8-9fc3b52ca25e"/></div>
+   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/39da4fb8-b391-47a2-a8e6-a5454c1efa81"/></div>
 
 3. Dashboard
     <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/7a0e7f3a-2a42-4f30-892c-43aa2a2cf70e"/></div>
@@ -169,7 +169,8 @@ However, modern technology can help to solve this problem effectively. Therefore
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/fdf84d46-6441-4daa-a7a1-6cef0a54853d"/></div>
    
 8. Report Page
-   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/0e5a3b03-0582-4b3c-b3e4-973d0beaef6b"/></div>
+   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/50dd9948-6d59-4cf0-b982-8bff1a9befbe"/></div>
+   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/bb9b5f4d-cb54-4a6f-afd4-4049ba5519c2"/></div>
 
 ## Insight
 

@@ -206,7 +206,12 @@ On this page, users will find a comprehensive breakdown of the total sales of ea
 
 
 ## Insight
-
+Top-Selling Products: The Vinda Deluxe Kitchen Wipes 2 x 40s, with 18,200 total sold.
+Price-Sales Relationship: 
+Customer Satisfaction: 
+High-Rated Products: The Vinda Deluxe Kitchen Wipes 2 x 40s, with 7,200 of 5 star ratings
+Market Trends: 
+Product Performance: 
 
 ## Conclusion
 The Sales Analysis Dashboard of Shopee Supermarket has successfully analyzed sales data and provided valuable insights within the household supplies category. Relevant data was gathered from the Shopee Supermarket website using a web scraping tool, and then cleaned and stored in databases. Valuable patterns, trends, and correlations were uncovered through statistical analysis which can be used to make data-driven decisions and optimize sales strategies. The use of data visualization techniques made it easier to communicate the findings to stakeholders. The project utilized various technologies and methodologies, including web scraping, Python for data cleaning, MongoDB and SQL for data storage, and statistical analysis techniques. The Sales Analysis Dashboard provided a user-friendly interface for accessing and interacting with the analyzed data. Overall, the project has provided valuable insights into sales patterns, trends, and correlations, empowering businesses to make informed decisions and drive growth within the household supplies market segment.

@@ -37,6 +37,8 @@
 - [Methodology](#️methodology)
 - [Project Structure](#️project-structure)
 - [Interface](#️interface)
+  - [Admin](#admin)
+  - [Public User](#public-user)
 - [Insight](#️insight)
 - [Conclusion](#️conclusion)
 - [Quick Start](#️quick-start)
@@ -150,27 +152,55 @@ However, modern technology can help to solve this problem effectively. Therefore
 
 ## Interface
 1. Login Page
+
+To access the page, users must log in with their username and password. If they do not have an account yet, they can create one by clicking the "register" button. Once logged in, you should be able to view all the content on the page.
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/ea8a13d5-763a-408b-bf25-da42cfae4647"/></div>
 
 2. Register Page
+
+Users have the option to register themselves in order to gain access to the system.
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/6fac6c4a-9874-4734-b400-0b24e52eba98"/></div>
    
 3. Reset password Page
+
+In case the user forgets their password, they have the option to reset it and receive a password reset email.
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/0b0b1c6f-2e2b-4370-83c8-9fc3b52ca25e"/></div>
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/39da4fb8-b391-47a2-a8e6-a5454c1efa81"/></div>
 
-3. Dashboard
+4. Change Password Page
+
+The user can modify their password within the website.
+
+5. Sidebar Navigation
+
+#### Admin
+The sidebar navigation for admins provides various options, including access to the dashboard, to view all product and details, a report of product sales, and the option to export the reports in CSV format.
+
+#### Public User
+The dashboard, which includes analyses, product information, sales and product reports, can be accessed by the public user. The reports can also be exported to CSV format for easy use.
+
+5. Dashboard
+
+The dashboard integrated from Tableau can be viewed by the user for the purpose of analyzing shopee supermarket household supplies.
     <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/7a0e7f3a-2a42-4f30-892c-43aa2a2cf70e"/></div>
 
 5. Product Catalog Page
+
+The product catalog provides a comprehensive overview of all the products utilized in the analysis, along with brief information about each one.
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/fca73892-ee80-48f9-a2a4-4b7b5ee0ef5c"/></div>
    
-6. Product Details Page
+7. Product Details Page
+
+By clicking on the product, users can access and review its details.
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/fdf84d46-6441-4daa-a7a1-6cef0a54853d"/></div>
    
-8. Report Page
+9. Report Page
+
+<li>Product Report</li>
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/50dd9948-6d59-4cf0-b982-8bff1a9befbe"/></div>
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/bb9b5f4d-cb54-4a6f-afd4-4049ba5519c2"/></div>
+
+<li>Sales Report</li>
 
 ## Insight
 

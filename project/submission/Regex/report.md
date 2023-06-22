@@ -55,19 +55,19 @@ Therefore, this project aims to produce an e-commerce analytics dashboard that h
 
 ## Background
 
-This project focused on the households supplies category that encompasses a broad range of essential products that are used by consumers on a regular basis. This category includes items such as cleaning supplies, kitchenware, home organization products, personal care items, and much more. With the increasing demand for these products, it has become crucial for businesses operating in this sector to have a deep understanding of market dynamics, consumer preferences, and sales performance.
+This project focused on the household supplies category that encompasses a broad range of essential products that are used by consumers on a regular basis. This category includes items such as cleaning supplies, kitchenware, home organization products, personal care items, and much more. With the increasing demand for these products, it has become crucial for businesses operating in this sector to deeply understand market dynamics, consumer preferences, and sales performance.
 
-To address this need, the Sales Analysis Dashboard of Shopee Supermarket by Households Supplies Category was developed. This project aims to leverage the wealth of transactional data available on the Shopee platform to provide valuable insights into the sales performance and trends within the households supplies category.
+The Sales Analysis Dashboard of Shopee Supermarket by Households Supplies Category was developed to address this need. This project aims to leverage the wealth of transactional data available on the Shopee platform to provide valuable insights into the sales performance and trends within the household supplies category.
 
-The development of this project involves the integration of advanced data analytics techniques, including data collection, processing, analysis, and visualization. Through interactive charts, graphs, and visualizations, users can explore and analyze the sales data from various perspectives, such as product subcategories, brands and customer behaviour.
+The development of this project involves the integration of advanced data analytics techniques, including data collection, processing, analysis, and visualization. Through interactive charts, graphs, and visualizations, users can explore and analyze the sales data from various perspectives, such as product subcategories, brands, and customer behavior.
 
-The Sales Analysis Dashboard of Shopee Supermarket by Households Supplies Category is designed to cater to the specific needs of businesses operating in the e-commerce space, particularly those involved in selling household supplies. By providing a comprehensive and user-friendly interface for data analysis, this project aims to empower businesses to optimize their operations, enhance customer satisfaction, and achieve sustainable growth in the highly competitive online marketplace.
+The Sales Analysis Dashboard of Shopee Supermarket by Households Supplies Category is designed to cater to the specific needs of businesses operating in the e-commerce space, particularly those involved in selling household supplies. This project aims to empower businesses to optimize their operations, enhance customer satisfaction, and achieve sustainable growth in the highly competitive online marketplace by providing a comprehensive and user-friendly interface for data analysis.
 
 ## Objectives
 
-Around 80% of eCommerce businesses have been failing because of insufficient marketing strategy and selling the wrong product at the wrong price. Therefore, an effective marketing plan is the key success of all businesses. The business owner has to collect sales data and then analyze it himself. Without doing this, the business owner cannot understand the current situation of the marketplace.
+Around 80% of eCommerce businesses have been failing because of insufficient marketing strategy and selling the wrong product at the wrong price. Therefore, an effective marketing plan is the key to success for all businesses. The business owner has to collect sales data and then analyze it himself. Without doing this, the business owner cannot understand the current situation of the marketplace.
 
-However, modern technology can help to solve this problem effectively. Therefore, the owner's time will not be wasted to the maximum extent. The Sales Analysis Dashboard of Shopee Supermarket by Households Supplies Category of our project target to achieve the following objectives.
+However, modern technology can help to solve this problem effectively. Therefore, the owner's time will not be wasted to the maximum extent. The Sales Analysis Dashboard of Shopee Supermarket by Households Supplies Category of our project targets to achieve the following objectives.
 - Provide a comprehensive overview of sales performance within the household supplies category on the Shopee Supermarket platform.
 - Analyze sales data to identify top-selling products, popular brands, and customer preferences within the household supplies category.
 - Provide actionable insights to optimize pricing strategies and maximize profitability within the household supplies category.
@@ -89,18 +89,18 @@ However, modern technology can help to solve this problem effectively. Therefore
 
 4. Data Storage Scope
    - MongoDB: Utilizes MongoDB to store user data, as it offers flexibility, scalability, and the capability to handle diverse data structures.
-   - SQL: Use MySQL for storing Shopee data, which is efficient for handling transactional and inventory data.
+   - SQL: Use MySQL to store Shopee data, which efficiently handles transactional and inventory data.
 
 5. Data Analysis Scope
-   - Statistical analysis: Conducting statistical analysis to gain insights into sales patterns, trends, and correlations within the household supplies category.
-   - Data visualization: Creating visual representations (charts, graphs, dashboards, etc.) to effectively communicate the analyzed data and findings.
+   - Statistical analysis: Conduct statistical analysis to gain insights into sales patterns, trends, and correlations within the household supplies category.
+   - Data visualization: Creating visual representations (charts, graphs, dashboards, etc.) to communicate the analyzed data and findings effectively.
 
 
 ## Methodology
 
-1. ``Data Collection``: Gather sales data from the Shopee Supermarket platform specifically related to the household supplies category.
+1. ``Data Collection``: Gather sales data from the Shopee Supermarket platform related to household supplies.
 
-2. ``Data Cleaning and Preparation``: This step includes data cleaning and data transforming process where all retrieved data will be cleaned in order to make sure there are no noisy and dirty data. Hence, the quality of the data increases which later will produce more complete, accurate and consistent result. Then, transform the format of the data if needed.
+2. ``Data Cleaning and Preparation``: This step includes data cleaning and data transforming process where all retrieved data will be cleaned to make sure there are no noisy and dirty data. Hence, the quality of the data increases which later will produce more complete, accurate, and consistent results. Then, transform the format of the data if needed.
 
 3. ``Data Analysis``: Utilize various analytical techniques to gain insights from the sales data including product analysis.
 
@@ -153,17 +153,17 @@ However, modern technology can help to solve this problem effectively. Therefore
 ## Interface
 1. Login Page
 
-To access the page, users must log in with their username and password. If they do not have an account yet, they can create one by clicking the "register" button. Once logged in, you should be able to view all the content on the page.
+Users must log in with their username and password to access the page. If they do not have an account, they can create one by clicking the "register" button. Once logged in, you should be able to view all the content on the page.
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/ea8a13d5-763a-408b-bf25-da42cfae4647"/></div>
 
 2. Register Page
 
-Users have the option to register themselves in order to gain access to the system.
+Users have the option to register themselves to gain access to the system.
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/6fac6c4a-9874-4734-b400-0b24e52eba98"/></div>
    
 3. Reset password Page
 
-In case the user forgets their password, they have the option to reset it and receive a password reset email.
+If the user forgets their password, they can reset it and receive a password reset email.
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/0b0b1c6f-2e2b-4370-83c8-9fc3b52ca25e"/></div>
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/39da4fb8-b391-47a2-a8e6-a5454c1efa81"/></div>
 
@@ -174,19 +174,19 @@ The user can modify their password within the website.
 5. Sidebar Navigation
 
 #### Admin
-The sidebar navigation for admins provides various options, including access to the dashboard, to view all product and details, a report of product sales, and the option to export the reports in CSV format.
+The sidebar navigation for admins provides various options, including access to the dashboard, to view all products and details, a report of product sales, and the option to export the reports in CSV format.
 
 #### Public User
-The dashboard, which includes analyses, product information, sales and product reports, can be accessed by the public user. The reports can also be exported to CSV format for easy use.
+The dashboard, which includes analyses, product information, sales, and product reports, can be accessed by the public user. The reports can also be exported to CSV format for easy use.
 
 5. Dashboard
 
-The dashboard integrated from Tableau can be viewed by the user for the purpose of analyzing shopee supermarket household supplies.
+The Shopee Supermarket provides its users with a Tableau-integrated dashboard that facilitates the analysis of household supplies. This dashboard serves as a visual representation of the analysis.
     <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/7a0e7f3a-2a42-4f30-892c-43aa2a2cf70e"/></div>
 
 5. Product Catalog Page
 
-The product catalog provides a comprehensive overview of all the products utilized in the analysis, along with brief information about each one.
+The product catalog provides a comprehensive overview of all the products utilized in the analysis and brief information about each.
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/fca73892-ee80-48f9-a2a4-4b7b5ee0ef5c"/></div>
    
 7. Product Details Page
@@ -197,22 +197,19 @@ By clicking on the product, users can access and review its details.
 9. Report Page
 
 <li>Product Report</li>
+The report provides a comprehensive list of all products available at Shopee Supermarket, complete with their original links.
    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/50dd9948-6d59-4cf0-b982-8bff1a9befbe"/></div>
-   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/bb9b5f4d-cb54-4a6f-afd4-4049ba5519c2"/></div>
 
 <li>Sales Report</li>
+On this page, users will find a comprehensive breakdown of the total sales of each product.
+   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/bb9b5f4d-cb54-4a6f-afd4-4049ba5519c2"/></div>
+
 
 ## Insight
 
 
 ## Conclusion
-In conclusion, the Sales Analysis Dashboard of Shopee Supermarket by Household Supplies Category project has successfully achieved its objectives of analyzing sales data and providing valuable insights within the household supplies category. By focusing on this specific product scope, we were able to gather relevant data from the Shopee Supermarket website using a web scraping tool, perform data cleaning and preprocessing using Python, and store the cleaned data in both MongoDB and SQL databases.
-
-Through statistical analysis, we uncovered valuable patterns, trends, and correlations within the household supplies category, which can be used to make data-driven decisions and optimize sales strategies. Additionally, data visualization techniques were employed to present the analyzed data in a visually appealing and easily understandable manner, facilitating effective communication of the findings to stakeholders.
-
-The project showcased the application of various technologies and methodologies, including web scraping, Python for data cleaning, MongoDB and SQL for data storage, and statistical analysis techniques. The use of a Sales Analysis Dashboard provided a user-friendly interface for accessing and interacting with the analyzed data, enhancing the overall usability of the project.
-
-Overall, the Sales Analysis Dashboard of Shopee Supermarket by Household Supplies Category project has provided valuable insights into sales patterns, trends, and correlations, empowering businesses to make informed decisions and drive growth within the household supplies market segment.
+The Sales Analysis Dashboard of Shopee Supermarket has successfully analyzed sales data and provided valuable insights within the household supplies category. Relevant data was gathered from the Shopee Supermarket website using a web scraping tool, and then cleaned and stored in databases. Valuable patterns, trends, and correlations were uncovered through statistical analysis which can be used to make data-driven decisions and optimize sales strategies. The use of data visualization techniques made it easier to communicate the findings to stakeholders. The project utilized various technologies and methodologies, including web scraping, Python for data cleaning, MongoDB and SQL for data storage, and statistical analysis techniques. The Sales Analysis Dashboard provided a user-friendly interface for accessing and interacting with the analyzed data. Overall, the project has provided valuable insights into sales patterns, trends, and correlations, empowering businesses to make informed decisions and drive growth within the household supplies market segment.
 
 ## Quick Start
 [How To Run This Project](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Regex/regex/README.md)

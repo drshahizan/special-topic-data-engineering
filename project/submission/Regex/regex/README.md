@@ -35,14 +35,14 @@ Steps to start the project:
 Open your terminal or command prompt and run the following command to clone this project:
 
 ```python
-git clone https://github.com/drshahizan/special-topic-data-engineering.git
+git clone https://github.com/drshahizan/learn-django.git](https://github.com/drshahizan/special-topic-data-engineering.git
 ```
 
 ### 2. CD to this project folder
 Once the repository is cloned, go to the project folder using the following command:
 
 ```python
-cd ~/Documents/GitHub/special-topic-data-engineering/project/submission/Regex/regex
+cd C:\Users\user\Desktop\GitHub\special-topic-data-engineering\project\submission\Regex\regex
 ```
 
 ### 3. Create a virtual environment

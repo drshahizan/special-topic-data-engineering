@@ -8,12 +8,12 @@
 - [References](#references)
 
 ## Introduction
-The Customer Analysis System provides businesses with valuable insights into their customer base. It leverages the capabilities of MongoDB, MySQL, and PHP to analyze customer data and gain a better understanding of customer behavior, preferences, and patterns. By using this system, businesses can make data-driven decisions that enhance customer satisfaction and improve overall business performance. Understanding customer behavior is vital for businesses to stay ahead in today's competitive market. The Customer Analysis System stores and manages large volumes of customer data efficiently and provides the necessary framework for building dynamic and interactive web-based interfaces to access and analyze this data effectively. 
+The Customer Analysis System provides businesses with valuable insights into their customer base. It leverages the capabilities of MongoDB, MySQL, and PHP to analyze customer data and gain a better understanding of customer behavior, preferences, and patterns. This system allows businesses to make data-driven decisions that enhance customer satisfaction and improve overall business performance. Understanding customer behavior is vital for businesses to stay ahead in today's competitive market. The Customer Analysis System stores and manages large volumes of customer data efficiently and provides the framework for building dynamic and interactive web-based interfaces to access and analyze this data effectively. 
 
-The primary goal of the Customer Analysis System is to provide businesses with actionable insights derived from customer data. By analyzing various aspects such as age,gender,annual income,spending score, profession, and work experience, businesses can gain a comprehensive understanding of their customers' needs and preferences. This understanding allows organizations to tailor their marketing strategies, product offerings, and customer experiences to meet and exceed customer expectations. The system enables businesses to perform various analyses, such as segmentation analysis to identify distinct customer groups based on common characteristics, trend analysis to uncover patterns and predict future customer behavior, and sentiment analysis to understand customer sentiment and sentiment drivers. These analyses are supported by advanced data mining and machine learning techniques, providing businesses with deeper and more accurate insights. By leveraging the Customer Analysis System, businesses can make informed decisions that enhance customer satisfaction and drive growth, ultimately leading to success in today's competitive market.
+The primary goal of the Customer Analysis System is to provide businesses with actionable insights derived from customer data. By analyzing various aspects such as age, gender, annual income, spending score, profession, and work experience, businesses can comprehensively understand their customers' needs and preferences. This understanding allows organizations to tailor their marketing strategies, product offerings, and customer experiences to meet and exceed customer expectations. The system enables businesses to perform various analyses, such as segmentation analysis to identify distinct customer groups based on common characteristics, trend analysis to uncover patterns and predict future customer behavior, and sentiment analysis to understand customer sentiment and sentiment drivers. These analyses are supported by advanced data mining and machine learning techniques, providing businesses with deeper and more accurate insights. By leveraging the Customer Analysis System, businesses can make informed decisions that enhance customer satisfaction and drive growth, ultimately leading to success in today's competitive market.
 
 ## System Design
-The Customer Analysis System has been specifically created to thoroughly analyze customer data and offer valuable insights to businesses so that they may gain a deeper understanding of their customers. The system is composed of several components, such as data storage, data processing, analysis, and a web interface that allows users to interact with the system.
+The Customer Analysis System has been specifically created to thoroughly analyze customer data and offer valuable insights to businesses to gain a deeper understanding of their customers. The system comprises several components, such as data storage, data processing, analysis, and a web interface that allows users to interact with the system.
 
 ### System Architecture
 <p align="center">
@@ -34,7 +34,7 @@ The Customer Analysis System has been specifically created to thoroughly analyze
   </tr>
   <tr>
     <td>Gender</td>
-    <td>The customer's gender either male or female</td>
+    <td>The customer's gender is either male or female</td>
   </tr>
     <tr>
     <td>Age</td>
@@ -76,7 +76,7 @@ The Customer Analysis System provide the following functionalities:
   - [MongoDB](https://www.mongodb.com/try/download/community)
   - [Composer](https://getcomposer.org/download/)
 2. Configure MongoDB on your server or local machine. Make sure the MongoDB server is running and accessible.
-3. Direct to your project directory and running the following command to install MongoDB PHP driver.
+3. Direct to your project directory and run the following command to install the MongoDB PHP driver.
    ```
    composer require mongodb/mongodb
    ```
@@ -119,7 +119,7 @@ The Customer Analysis System provide the following functionalities:
 Develop PHP scripts to perform CRUD operations on the MySQL database:
 1. ```Create```: Implement functionality to insert new data records into MySQL.
 2. ```Read```: Retrieve and display data from MySQL.
-3. ```Update```: Allow for updating existing data records in MySQL.
+3. ```Update```: Allow updating existing data records in MySQL.
 4. ```Delete```: Provide the ability to remove unwanted data entries from MySQL.
 
 ### Step 5: Implement CRUD Operations with MongoDB
@@ -129,14 +129,14 @@ Develop PHP scripts to perform CRUD operations on the MongoDB database:
 3. ```Update```: Allow for updating existing data records in MongoDB.
 4. ```Delete```: Provide the ability to remove unwanted data entries from MongoDB.
 
-### Step 6: Preprocessing and Analysis Data
-It has been found that all of the data does not consist of any missing value and we have applied statistical analysis and visualized the data to gain insight into it. 
+### Step 6: Preprocessing and Analysis of Data
+It has been found that all of the data does not consist of any missing value, and we have applied statistical analysis and visualized the data to gain insight into it. 
 
-### Step 7: Develop Web Application
+### Step 7: Develop a Web Application
 - Utilize PHP to create a user-friendly web interface for the Customer Segmentation System.
 - Design an intuitive layout and navigation for easy interaction.
 - Implement functionality to display customer data, perform searches, and visualize segmentation results using charts, graphs, or tables.
-- Ensure the web interface integrates with both MongoDB and MySQL, supporting CRUD operations for efficient data management.
+- Ensure the web interface integrates with MongoDB and MySQL, supporting CRUD operations for efficient data management.
 
 ## Web Interface
 - Login
@@ -148,7 +148,7 @@ It has been found that all of the data does not consist of any missing value and
 - Add Customer
 <img width="945" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/2712df11-acb5-4137-a4de-9737554a28cf">
 
-- Read Customer List
+- Read the Customer List
 <img width="944" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/f2662203-01e6-4436-b66e-a9b0722dfbeb">
 
 - Update Customer
@@ -163,7 +163,7 @@ It has been found that all of the data does not consist of any missing value and
 ## Testing and Validation
 1. Create Operation Testing
 
-  Insert customer information and click "Add Customer" button
+  Insert customer information and click the "Add Customer" button
   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/f246a82f-efa3-4f58-9c22-392744db775b">
 
   Check the data in MongoDB and Mysql
@@ -181,19 +181,19 @@ It has been found that all of the data does not consist of any missing value and
   Update customer information and click "Update Customer" button
   <img width="946" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/d782cb9e-5832-4669-9afb-da4827cd7b15">
   
-  Check the data in Mongodb and Mysql
+  Check the data in MongoDB and Mysql
   - Mysql
   <img width="396" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/d941b13b-56aa-45e6-91fe-f10e692367b7">
   
-  - MongoBD
+  - MongoDB
   <img width="742" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/56dfdea0-8d32-4f4c-898a-a24263a32785">
 
 4. Delete Operation Testing
 
-  Delete customer information and click "OK" button
+  Delete customer information and click the "OK" button
   <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/58558695-1928-44bc-b598-8a73d444af2f">
 
-  Check the data in Mongodb and Mysql
+  Check the data in MongoDB and Mysql
   - Mysql
   <img width="394" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/ef2dabe5-4ec5-4bc6-bbcc-fd94221ca034">
 
@@ -202,18 +202,15 @@ It has been found that all of the data does not consist of any missing value and
 
 
 ## Conclusion
-The development of the Customer Analysis System using MongoDB, MySQL, and PHP has provided valuable insights into customer behavior, preferences, and patterns. The system successfully achieved its objectives of collecting and storing customer data, performing CRUD operations, data preprocessing, analysis, and visualization.
+The development of the Customer Analysis system using MongoDB, MySQL, and PHP provided valuable insights into customer patterns. The system successfully achieved its objectives of collecting and storing customer data, performing CRUD operations, data preprocessing, and analysis. It effectively collected and stored various data from various sources, allowing for comprehensive analysis. CRUD operations were successfully implemented on MongoDB and MySQL, enabling efficient data management. The web interface facilitated data visualization and supported seamless integration with MongoDB and MySQL.
 
 Key Findings:
 
-- The system effectively collected and stored customer data from various sources, allowing for comprehensive analysis.
-- CRUD operations were successfully implemented for both MongoDB and MySQL, enabling efficient data management.
-- The web interface facilitated user interaction, data visualization, and supported seamless integration with both MongoDB and MySQL databases.
-- The average age of customer is 48.96 and most of the customer data come from females. The majority of customers are artists. 
+- Based on our records, the average age of our customers is 48.96 years old. It is worth noting that most of our customers gender is female. Additionally, a significant portion of our customer works as artists. Lastly, the mean annual income for our customers is 110731.82.
 
 Challenges Faced:
 
-- Implementing the appropriate data science techniques and algorithms for analysis required careful consideration and expertise.
+- Implementing the appropriate data science techniques and algorithms for the analysis required careful consideration and expertise.
 - Ensuring efficient synchronization and data consistency between MongoDB and MySQL databases posed a challenge during integration testing.
 - Performance optimization was necessary to handle large volumes of data and ensure responsiveness.
 
@@ -222,10 +219,8 @@ Potential Improvements:
 - Enhance performance: Further optimization of data processing and analysis algorithms can improve system performance and scalability.
 - Advanced analysis techniques: Consider integrating advanced data science techniques like machine learning algorithms to gain deeper insights and improve accuracy.
 - Real-time data ingestion: Implement real-time data ingestion capabilities to enable timely analysis and decision-making.
-- Enhanced visualization: Expand the range of visualization options to provide more interactive and intuitive data representation for users.
-- Security measures: Strengthen data security measures, including encryption and access controls, to ensure the privacy and protection of customer data.
-
-Overall, the Customer Analysis System has proven to be a valuable tool for businesses seeking to understand their customers better. The system's functionality, performance, and accuracy provide a solid foundation for making data-driven decisions and enhancing customer satisfaction. By addressing the identified challenges and implementing potential improvements, the system can continue to evolve and meet the growing needs of businesses in the dynamic field of customer analysis.
+- Enhanced visualization: Expand the range of visualization options to provide users with more interactive and intuitive data representation.
+- Security measures: Strengthen data security measures, including encryption and a valuable tool for businesses seeking to understand their customers better. The system's functionality, performance, and accuracy provide a solid foundation for making data-driven decisions and enhancing customer satisfaction. By addressing the identified challenges and implementing potential improvements, the system can continue to evolve and meet the growing needs of businesses in the dynamic field of customer analysis.
 
 ## References
 1. [MongoDB and PHP](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/mongophp.md) <br>

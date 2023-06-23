@@ -38,7 +38,7 @@ data = json.loads(response.text)
 total_pages = data["photos"]["page"]
 ```
 
-4. Once the target data is identified, access the Flickr API to retrieve the URLs for each image or video. Loop through all the pages and get the photo metadata. Since some owners restrict access to their Exif information, the metadata is narrowed down only to collect the title, author, URL, camera make, and model. Additionally, Flickr has strict policies on using its content, so it's essential to ensure that the data complies with its terms of service.
+4. Once the target data is identified, access the Flickr API to retrieve the URLs for each image or video. Loop through all the pages and get the photo metadata. Since some owners restrict access to their Exif information, the metadata is narrowed down only to collect the title, author, URL, camera make, and model. Additionally, Flickr has strict policies on using its content, so ensuring that the data complies with its terms of service is essential.
 ```ruby
 metadata_list = []
 for page in range(1, total_pages+1):
@@ -74,7 +74,7 @@ for page in range(1, total_pages+1):
         metadata_list.append(metadata_dict)
 ```
 
-5. Write the metadata in the CSV file and download the images. The data set obtained includes metadata such as camera information, and tags. The size of each file can range from a few kilobytes to several megabytes, depending on the quality and length of the multimedia content. The file type used includes image formats such as JPEG. The metadata can be analyzed to identify trends in the use of tags or geolocation data, as well as to study the characteristics of the multimedia content itself. To get the CSV file of this data, we use the OpenCV library to handle the images and metadata.
+5. Write the metadata in the CSV file and download the images. The data set obtained includes metadata such as camera information, and tags. The size of each file can range from a few kilobytes to several megabytes, depending on the quality and length of the multimedia content. The file type used includes image formats such as JPEG. To get the CSV file of this data, we use the OpenCV library to handle the images and metadata.
 ```ruby
 with open("flickr_scraping.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=["Title", "Author", "URL", "Make", "Model"])
@@ -90,7 +90,7 @@ with open("flickr_scraping.csv", "w", newline="", encoding="utf-8") as f:
         
 ```
 
-6.  Store the downloaded multimedia content and associated metadata in an appropriate format for further analysis, such as a CSV file or a database. The data are uploaded to MongoDB Atlas using a connection string where the username, password, database, and collection name must be specified. To get the connection string, in MongoDB Atlas, create a new project and cluster. Connect to the cluster by selecting the correct driver and version to get the corresponding connection string. Then, insert the data.
+6.  Store the downloaded multimedia content and associated metadata in an appropriate format for further analysis, such as a CSV file or a database. The data are uploaded to MongoDB Atlas using a connection string where the username, password, database, and collection name must be specified. To get the connection string, create a new project and cluster in MongoDB Atlas. Connect to the cluster by selecting the correct driver and version to get the corresponding connection string. Then, insert the data.
 ```ruby
 #Connection String 
 uri="mongodb://<username>:<password>@ac-lojpzav-shard-00-00.nz2oazc.mongodb.net:27017,ac-lojpzav-shard-00-01.nz2oazc.mongodb.net:27017,ac-lojpzav-shard-00-02.nz2oazc.mongodb.net:27017/?ssl=true&replicaSet=atlas-li4q9r-shard-0&authSource=admin&retryWrites=true&w=majority"
@@ -106,7 +106,7 @@ collection.insert_many(metadata_list)
 
 <h3> 3. Choosing a Library for Web Scraping</h3>
 <p align=justify> Several libraries are available for web scraping multimedia content. To make a comparison, three libraries will be discussed: request, OpenCV, and Pillow.
- Each  library have its advantages and disadvantages in performing multimedia content web scraping. </p>
+ Each  library has its advantages and disadvantages in performing multimedia content web scraping. </p>
  
  <table>
     <tr>
@@ -140,7 +140,7 @@ collection.insert_many(metadata_list)
         </td>
         <td>
             <li>Supports a wide range of multimedia formats and provides advanced algorithms for image manipulation and analysis.</li>
-            <li>Can be used for both web scraping and subsequent multimedia processing tasks.</li>
+            <li>Can be used for web scraping and subsequent multimedia processing tasks.</li>
             <li>Efficient and optimized for performance.</li>        
         </td>
         <td>

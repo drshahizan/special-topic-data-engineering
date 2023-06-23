@@ -208,11 +208,6 @@ $incomeData = array_column($customerData2, 'average_income');
 
     <section class="section dashboard">
       <div class="row">
-
-        <!-- Left side columns -->
-        <div class="col-lg-8">
-          <div class="row">
-
             <!-- Sales Card -->
             <div class="col-xxl-4 col-md-6">
               <div class="card info-card sales-card">
@@ -254,7 +249,7 @@ $incomeData = array_column($customerData2, 'average_income');
             </div><!-- End Revenue Card -->
 
             <!-- Customers Card -->
-            <div class="col-xxl-4 col-xl-12">
+            <div class="col-xxl-4 col-md-6">
 
               <div class="card info-card customers-card">
 
@@ -275,11 +270,12 @@ $incomeData = array_column($customerData2, 'average_income');
               </div>
 
             </div><!-- End Customers Card -->
+      </div>
 
+      <div class="row">
             <!-- Reports -->
-            <div class="col-12">
-              <div class="card" style="height: 500px;">
-
+            <div class="col-8">
+              <div class="card" style="height: 550px;">
                 <div class="card-body">
 
                   <!-- Line Chart -->
@@ -332,18 +328,10 @@ $incomeData = array_column($customerData2, 'average_income');
               </div>
             </div><!-- End Reports -->
 
-          </div>
-        </div><!-- End Left side columns -->
-
-        <!-- Right side columns -->
         <div class="col-lg-4">
-
         <!-- Gender -->
           <div class="card">
-
             <div class="card-body pb-0">
-              
-
               <canvas id="pieChart"></canvas>
 
               <script>

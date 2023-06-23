@@ -175,7 +175,7 @@ collection.insert_many(metadata_list)
 4. **Performance**- The chosen library should be efficient, fast, and resource-efficient. 
 5. **Flexibility**- The library should be able to support various web page and file format types. 
 
-<p align=justify>Based on these criteria, Request and OpenCV are the libraries that best align with the requirements for web scraping multimedia content assignment. These libraries were chosen for this assignment because their features are suitable where requests are advantageous for simple web content retrieval, whereas OpenCV provides advanced multimedia processing capabilities.</p>  
+<p align=justify>Based on these criteria, Request and OpenCV are the libraries that best align with the web scraping multimedia content assignment requirements. These libraries were chosen for this assignment because their features are suitable where requests are advantageous for simple web content retrieval, whereas OpenCV provides advanced multimedia processing capabilities.</p>  
 
 <h3> 4. Storing Data in MongoDB</h3>
 

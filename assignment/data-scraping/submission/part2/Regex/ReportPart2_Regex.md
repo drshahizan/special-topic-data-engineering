@@ -8,26 +8,29 @@
 
 ## Introduction
 
-Web scraping text content is the process of extracting text data from websites. It is an automatic approach that uses automated software tools to extract useful raw data from web pages and can be used to obtain large amounts of data. There are many websites that are suitable to perform web scraping and extract the text content such as articles, blogs and academic papers. 
+Extracting text data from websites through web scraping is an automated process that involves using software tools to obtain useful information from web pages. This approach is highly efficient in retrieving large volumes of data and is well-suited for extracting text content from various sources, including articles, blogs, and academic papers. 
 
-Mostly, the text data is extracted from the website that hosts academic publication. For example, Google Scholar and ResearchGate. Both of them are famous websites for publication content and these data are helpful to use in various purposes such as tracking changes in research trends, analyzing citation patterns, identifying potential research collaborators, or extracting insights for natural language processing models.
+Most of the text data comes from academic publication websites, such as Google Scholar and ResearchGate. These websites are renowned for their publication content, and the data gathered from them can be utilized for various purposes. For instance, it can help track changes in research trends, analyze citation patterns, identify potential research collaborators, or extract insights for natural language processing models.
 
 This type of data is important for research and analysis because it can provide valuable insight to the researcher after analyzing and investigating the collected data. From here, it is possible to identify new research opportunities and discover emerging trends. Therefore, this will definitely save time and resources since researchers are not required to gather data from multiple sources.
 
-Overall, web scraping text content plays a crucial role and acts as a valuable tool for researchers and data analysts looking to extract meaningful insights from online text data.
+Extracting text content through web scraping is an essential tool for researchers and data analysts to gather valuable insights from online data. It plays a crucial role in the process.
 
 
 ## Web Scraping Google Scholar
 
-Google Scholar is a freely accessible and popular search engine for academic publications. It consists of a wide variety of publication contents  such as articles, conference papers, books and theses. It is a good source for publication content because it is fast and easy to access. Researchers and analysts can get the relevant data in seconds for free or through institutional subscriptions. Other than that, Google Scholar provides a "cited by" feature that identifies the number of citations a particular publication has received, making it easy to identify influential articles or authors in a given field. 
+Google Scholar is a widely-known search engine that provides free access to a plethora of academic publications. It is highly regarded for its comprehensive collection of research materials, including articles, conference papers, books, and theses. This platform is commonly used by researchers, students, and scholars across various fields to access authoritative and reliable sources for their academic pursuits. With its user-friendly interface and extensive database, Google Scholar has become an indispensable tool for anyone seeking to explore and stay up-to-date with the latest developments in their respective fields. One of the most convenient sources for publication content is easily accessible and speedy. Researchers and analysts can get the relevant data in seconds for free or through institutional subscriptions. Besides that, Google Scholar provides a "cited by" feature that identifies the number of citations a particular publication has received, making it easy to identify influential articles or authors in a given field. 
 
 ### Web Scraping Process
-Web scraping publication content for Google Scholar and storing it in a database involves a series of processes or steps. Below is an overview of the process in web scraping.
-1. Selecting the URLs: First, we need to go to the Google Scholar website and identify the URL that contains the publication content of interest. In this case, we are finding all the articles that were produced by researchers who are from the Faculty of Computing at the University Technology Malaysia.
-2. Choosing a Web Scraping Library: Then, there are several libraries that are available for web scraping like BeautifulSoup, Scrapy, Selenium and Lxml. From there, we should choose the suitable libraries and apply it to extract the contents from Google Scholar. Some of the libraries that used in this assignment are:
+Web scraping publication content for Google Scholar and storing it in a database involves several processes or steps. Below is an overview of the process in web scraping.
+
+1. Selecting the URLs: First, we need to go to the Google Scholar website and identify the URL that contains the publication content of interest. In this case, we are finding all the articles produced by researchers from the Faculty of Computing at the University Technology Malaysia.
+   
+2. Choosing a Web Scraping Library: Then, there are several libraries that are available for web scraping like BeautifulSoup, Scrapy, Selenium and Lxml. From there, we should choose the suitable libraries and apply it to extract the contents from Google Scholar. Some of the libraries used in this assignment are:
     - `BeautifulSoup`: Beautiful Soup is built on well-known Python parsers like lxml and html5lib, enabling us to experiment with various parsing techniques or trade off speed for flexibility.
     - `Selenium`: Selenium is a web driver that is used for automated testing, but it can also be used for web scraping.
 3. Setting Up the Environment: After choosing suitable web scraping libraries, we need to ensure and prepare the environment which includes installing the required libraries and also setting up the data storage system.
+   
 4. Extracting Data: Now, we can start the web scraping process by writing the code to extract publication content from the Google Scholar. It should include extracting the relevant data that we need. 
     > Step 1: Import all necessary libraries.<br>
     ```python
@@ -166,7 +169,7 @@ Web scraping publication content for Google Scholar and storing it in a database
     df.to_csv('GoogleScholar.csv',index=False)
     ```
 
-5. Storing Data: Lastly, the data will be stored in the database. MongoDB is a good choice to store these scraped data due to its flexibility and scalability.
+6. Storing Data: Lastly, the data will be stored in the database. MongoDB is a good choice to store these scraped data due to its flexibility and scalability.
 ```python
 import pymongo
 

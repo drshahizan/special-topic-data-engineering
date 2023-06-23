@@ -102,7 +102,7 @@ collection = db['<your_collection_name>']
 
 collection.insert_many(metadata_list)
 ```
-<img width='500' src="https://github.com/drshahizan/special-topic-data-engineering/blob/6973121368be8f043f9d6bb662ae3e78617e064b/assignment/data-scraping/submission/part1/Regex/MongoDB.png" alt='Screenshot of database after data is added'>
+<img width="940" alt="Screenshot 2023-06-24 at 3 15 57 AM" src="https://github.com/drshahizan/special-topic-data-engineering/assets/76076543/8e524556-3ab8-4b80-8932-6b1a4a9667e3">
 
 <h3> 3. Choosing a Library for Web Scraping</h3>
 <p align=justify> Several libraries are available for web scraping multimedia content. To make a comparison, three libraries will be discussed: request, OpenCV, and Pillow.

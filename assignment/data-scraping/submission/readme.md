@@ -15,7 +15,7 @@ Don't forget to hit the :star: if you like this repo.
 | No | Topic | Group | File | 
 | ----- | ----- | ------ | :------: | 
 | 1 | Web Scraping with Flickr | Gadgeteen | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1/Gadgeteen" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 2 |  Web scraping Flickr Multimedia Content  | Regex | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/ce75b75768012da91205ffe012703a946ea930cf/assignment/data-scraping/submission/part1/Regex" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 2 |  Web scraping Flickr Multimedia Content  | Regex | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1/Regex" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 3 | Web Scraping Car Multimedia Content Flickr | DataSphere | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1/DataSphere" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 4 | Flickr Web Scraping | DataAce | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1/DataAce" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 5 | Web scraping Malaysia Photo Collection | MichelinStar | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1/MichelinStar" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |

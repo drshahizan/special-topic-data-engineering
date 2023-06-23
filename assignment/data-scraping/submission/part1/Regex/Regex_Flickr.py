@@ -3,6 +3,8 @@ import json
 import csv
 import cv2
 import numpy as np
+import pymongo
+from pymongo import MongoClient
 
 # Define the API key and endpoint URLs
 api_key = "your_api_key"
@@ -61,3 +63,13 @@ with open("flickr_scraping.csv", "w", newline="", encoding="utf-8") as f:
 
         # Write the metadata to the CSV file
         writer.writerow(metadata)
+
+#Insert data to MongoDB
+uri="mongodb://nurarissadayana:yan@ac-lojpzav-shard-00-00.nz2oazc.mongodb.net:27017,ac-lojpzav-shard-00-01.nz2oazc.mongodb.net:27017,ac-lojpzav-shard-00-02.nz2oazc.mongodb.net:27017/?ssl=true&replicaSet=atlas-li4q9r-shard-0&authSource=admin&retryWrites=true&w=majority"
+client = MongoClient(uri)
+
+# create the database and collection dynamically
+db = client['flickr_db']
+collection = db['flickr_col']
+
+collection.insert_many(metadata_list)

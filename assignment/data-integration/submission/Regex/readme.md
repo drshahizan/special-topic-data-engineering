@@ -3,7 +3,7 @@
 </p>
 
 <h1 align=center>Data Integration using Microsoft Azure Data Factory 🏭</h1>
-<p align=Justify>Data integration is the process of combining data from multiple sources into a single, unified data set. This is critical in data science because data scientists require access to large amounts of data in order to train machine learning models and make predictions. Microsoft Azure offers a variety of tools and services for data integration, including Azure Data Factory, Azure Data Lake Storage, and Azure Synapse Analytics. These tools and services can be used to build data pipelines that automate the data integration process, saving data scientists time and effort.In this assignment, our group performed data integration using three <a href="https://www.kaggle.com/datasets/utkarshx27/non-alcohol-fatty-liver-disease?">Kaggle</a> datasets.
+<p align=Justify>Data integration is a crucial aspect of data science as it involves merging data from multiple sources into a singular, coherent data set. This large amount of data is essential for data scientists to train machine learning models and make predictions. Microsoft Azure offers various tools and services such as Azure Data Factory, Azure Data Lake Storage, and Azure Synapse Analytics to facilitate data integration. These tools are used to create data pipelines that automatically integrate data, simplifying the integration process and saving data scientists time and effort. In this assignment, three <a href="https://www.kaggle.com/datasets/utkarshx27/non-alcohol-fatty-liver-disease?">Kaggle</a> datasets were utilized for data integration.
 
 </p>
 
@@ -34,3 +34,13 @@
     <td>A20EC0142</td>
   </tr>
 </table>
+
+## Contents 📝
+- [Report 📑](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/Regex/Report.md)
+- [Data Source 🗄️](https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-integration/submission/Regex/Data%20Source)
+
+## Data Integration Process Summary 📋
+The assignment involves integrating 3 data sources on non-alcohol fatty liver disease. A data factory and Azure SQL database must be created and set up to do this. The data factory can be created by searching for it and filling out the required information. The SQL database can be created by searching for it, filling in the required information, and selecting Blob Storage to store files. A new table can be created in the Query editor for each respective file, and a linked service can be set up for input and output files. Finally, a dataset can be created for each respective file, and a pipeline can be created to copy data and map schemas.
+
+## Result 🔍
+Our team successfully combined data from 3 sources using Microsoft Azure Data Factory and uploaded the data to MongoDB.

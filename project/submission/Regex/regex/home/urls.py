@@ -9,6 +9,7 @@ urlpatterns = [
     path('product/', views.product, name='product'),
     path('prod_details/<int:no>', views.prod_details, name='prod_details'),
     path('report/', views.report, name='report'),
+    path('report_sales/', views.report_sales, name='report_sales'),
 
     # Authentication
     path('accounts/login/', views.UserLoginView.as_view(), name='login'),

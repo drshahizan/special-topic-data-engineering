@@ -4,7 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.views import LoginView, PasswordResetView, PasswordChangeView, PasswordResetConfirmView
 from admin_soft.forms import RegistrationForm, LoginForm, UserPasswordResetForm, UserSetPasswordForm, UserPasswordChangeForm
 from django.contrib.auth import logout
-from .models import Products
+from .models import Products, Sales
 
 # Create your views here.
 
@@ -80,13 +80,21 @@ def prod_details(request, no):
 
 @login_required(login_url='accounts/login/')
 def report(request):
-  products = Products.objects.all().order_by('ProductName')
+  products = Products.objects.all().order_by('no')
   context ={
     'segment': 'report',
     'products': products
   }
   return render(request, 'pages/report.html', context)
 
+@login_required(login_url='accounts/login/')
+def report_sales(request):
+  sales = Sales.objects.all().order_by('no')
+  context ={
+    'segment': 'sales',
+    'sales': sales
+  }
+  return render(request, 'pages/report_sales.html', context)
 
 # Authentication
 class UserLoginView(LoginView):

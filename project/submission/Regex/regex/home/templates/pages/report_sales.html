@@ -10,7 +10,7 @@
                 <div class="card-header pb-0">
                     <div class="d-lg-flex">
                         <div>
-                            <h5 class="mb-0">All Products</h5>
+                            <h5 class="mb-0">Sales</h5>
                             <p class="text-sm mb-0">
                                 Shopee Supermarket household supplies products.
                             </p>
@@ -29,27 +29,21 @@
                                 <tr>
                                     <th>Product</th>
                                     <th>Price</th>
-                                    <th>Rating</th>
                                     <th>Total Sold</th>
-                                    <th>Link</th>
+                                    <th>Total Sales</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                {% for p in products %}
+                                {% for s in sales %}
                                 <tr>
                                     <td>
                                         <div class="d-flex">
-                                            <h6 class="ms-3 my-auto text-sm" style=" white-space: normal;">{{p.ProductName}}</h6>
+                                            <h6 class="ms-3 my-auto text-sm" style=" white-space: normal;">{{s.Product.ProductName }}</h6>
                                         </div>
                                     </td>
-                                    <td class="text-sm">RM {{p.ProductPrice}}</td>
-                                    <td class="text-sm">{{p.ProductRating}}</td>
-                                    <td class="text-sm">{{p.ProductSold}}</td>
-                                    <td class="text-sm">
-                                        <a href="{{ p.Product_href }}" data-value="{{ p.Product_href }}">
-                                            <i class="fas fa-link"></i>
-                                        </a>
-                                    </td>                                    
+                                    <td class="text-sm">RM {{s.Product.ProductPrice}}</td>
+                                    <td class="text-sm">{{s.Product.ProductSold}}</td>
+                                    <td class="text-sm">RM {{s.ProductSales}}</td>                                   
                                 </tr>
                                 {% endfor %}
                             </tbody>

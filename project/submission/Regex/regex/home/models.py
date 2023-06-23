@@ -1,5 +1,4 @@
 from django.db import models
-
 # Create your models here.
 
 class Products(models.Model):
@@ -18,4 +17,12 @@ class Products(models.Model):
     Product_1Star = models.DecimalField(max_digits=3, decimal_places=1)
     class Meta:
         db_table = 'tb_products'
+        app_label = 'home'
+
+class Sales(models.Model):
+    no = models.IntegerField(primary_key=True)
+    Product = models.ForeignKey(Products, on_delete=models.CASCADE)
+    ProductSales = models.DecimalField(max_digits=10, decimal_places=2)
+    class Meta:
+        db_table = 'tb_sales'
         app_label = 'home'

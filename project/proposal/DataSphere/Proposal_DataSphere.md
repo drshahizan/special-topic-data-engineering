@@ -39,19 +39,19 @@ The data for this project was collected using web scraping techniques, specifica
 </p>
 
 ## 🔎: Goals and Objectives
-The goal of this project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed by Malaysians about the government's latest initiative, Menu Rahmah. The objective of sentiment analysis is to classify the sentiment of the text as positive, negative, or neutral. This information can be used to understand the public opinion towards a specific product, service, brand, or event, and can be helpful in making informed decisions and improving customer satisfaction. It can also be useful in identifying potential issues or areas of improvement for businesses or organizations.
+The goal of this project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed by people towards mental health. The objective of sentiment analysis is to classify the sentiment of the text as positive, negative, or neutral. This information can be used to understand the public opinion towards a specific product, service, brand, or event, and can be helpful in making informed decisions and improving customer satisfaction. It can also be useful in identifying potential issues or areas of improvement for businesses or organizations.
 
 Goals:
 
 1) To learn more about customer opinions and preferences, participating groups can use sentiment analysis to learn about what people think about Mental Health. They may better understand what customers like and dislike, as well as what drives their brand loyalty, by monitoring customer feedback and sentiment.
 
-2)``To enhance the client experience``: Sentiment analysis can assist companies in enhancing the client experience related to Mental Health. Businesses can improve customer happiness by addressing sources of consumer dissatisfaction by recognising them.
+2) ``To enhance the client experience``: Sentiment analysis can assist companies in enhancing the client experience related to Mental Health. Businesses can improve customer happiness by addressing sources of consumer dissatisfaction by recognising them.
 
-3)``To monitor brand reputation``: Businesses can monitor their brand reputation with the aid of sentiment analysis. Businesses can spot possible reputation concerns and take proactive measures to remedy them by monitoring customer opinion across social media, review sites, and other channels.
+3) ``To monitor brand reputation``: Businesses can monitor their brand reputation with the aid of sentiment analysis. Businesses can spot possible reputation concerns and take proactive measures to remedy them by monitoring customer opinion across social media, review sites, and other channels.
 
-4)``To inform product development``: Businesses can use sentiment analysis to inform product development. Businesses can find ways to enhance their goods and services by looking at client feedback and sentiment.
+4) ``To inform product development``: Businesses can use sentiment analysis to inform product development. Businesses can find ways to enhance their goods and services by looking at client feedback and sentiment.
 
-5)``To inform marketing campaigns``:Businesses can use sentiment analysis to inform marketing initiatives. Businesses can better target their marketing messages and efforts to resonant with their target audience by assessing customer sentiment.
+5) ``To inform marketing campaigns``:Businesses can use sentiment analysis to inform marketing initiatives. Businesses can better target their marketing messages and efforts to resonant with their target audience by assessing customer sentiment.
 
 Objectives:
 
@@ -72,18 +72,17 @@ Objectives:
 The objective of this project is to provide insights to policymakers, citizens of the world and organisations participating in this program, on where Mental Health excels and where it finds the short end of the stick. With this known, the scope of this project will be :
 
 - ``Data Source`` : Scraped tweets and information of their respective *tweeters*. Multiple tools will be used to gather data, including **snscrape**. **snscrape** is a web scraping tool that utilizes the APIs of various social media platforms. It accesses the APIs of social media platforms such as Twitter, Instagram, YouTube, and Reddit to gather data from them.
-- ``Tools & Technologies`` : Retrieved data will be stored in MongoDB. Which then will be cleaned and prepared using **Pandas** and **Numpy**. Natural language processing (NLP) will be used to analyse tweets and retrieve information from them, libraries such as **NLTK (Natural Language Toolkit)** will be used for this function. To group tweets with similar sentiments clustering algorithms using **scikit-learn**, **TensorFlow** and **PyTorch** libraries will be applied on the cleaned data. Finally, Findings will be visualised using **Tableau** or **PowerBI**.
-- ``Alteryx`` : Alteryx is a data analytics and data science platform that provides a wide range of tools and functionalities for data preparation, blending, and analysis. Alteryx might be used for data preparation and analysis in a sentiment analysis study exploring the emotional response of Malaysians towards Menu Rahmah.
+- ``Tools & Technologies`` : Retrieved data will be stored in MongoDB. Which then will be cleaned and prepared using **Pandas** and **Numpy**. Natural language processing (NLP) will be used to analyse tweets and retrieve information from them, libraries such as **NLTK (Natural Language Toolkit)** will be used for this function. To group tweets with similar sentiments clustering algorithms using **scikit-learn**, **TensorFlow** and **PyTorch** libraries will be applied on the cleaned data. Finally, Findings will be visualised using **Tableau**.
 - ``Resources`` : 
   - Team of 5 people.
   - Each team member posses skills from gathering appropriate data to visualising data, using tools and technologies listed.
   - Adequate hardware and software to progress.
 
 ## ▶️: Methodology
-- ``Data collection`` : Scrape data from Twitter on responses and tweets of Menu Rahmah using twitter API.
+- ``Data collection`` : Scrape data from Twitter on responses and tweets of mental health using twitter API.
 
 
-- ``Data cleaning and processing`` : The collected data will be cleaned, filtered, pre-processed to remove duplicate data using Alteryx and Python.
+- ``Data cleaning and processing`` : The collected data will be cleaned, filtered, pre-processed to remove duplicate data using Python.
 
 - ``Data analysis`` : Data analysis utilizing descriptive statistics and exploratory data analysis methods comes after the data have been cleaned. This will make it easier to spot patterns and trends in the information.
 
@@ -98,7 +97,7 @@ The system will consist of the following components:
 
 | No. | Components | Description |
 | ------------- | ------------- | ------------- |
-| 1. | Data Acquisition | To acquire data, we will use the Twitter API to collect tweets on "Menu Rahmah." We will connect with the Twitter API using Python's **Snscrape** package and save the collected data in JSON format. |
+| 1. | Data Acquisition | To acquire data, we will use the Twitter API to collect tweets on "Mental Health" We will connect with the Twitter API using Python's **Snscrape** package and save the collected data in JSON format. |
 | 2. | Data Storage | For storing the acquired data, we will use **MongoDB** as our primary database. MongoDB is a NoSQL database that works well with massive amounts of unstructured data, such as tweets. To interface with the database, we will use PyMongo, a Python library for MongoDB. |
 | 3. | Data preprocessing | We will clean and preprocess the data before evaluating it. To normalize the text data, we will remove stop words, punctuation, and URLs, as well as perform stemming and lemmatization. For text preparation and feature engineering, we will use Python's **NLTK** module. |
 | 4. | Data analysis and modeling | We will train a sentiment analysis model using the preprocessed data. We will train the model using labeled data using a supervised learning approach. For model training and evaluation, we will employ Python's Scikit-Learn package. We will also investigate additional models, such as deep learning approaches, utilizing frameworks such as TensorFlow and PyTorch. |
@@ -107,7 +106,7 @@ The system will consist of the following components:
 | 7. | Visualization and reporting | We will use **Streamlit**, a Python library for building interactive web applications, to visualize the sentiment analysis results. We will also use **Power BI or Tableau** to create reports and dashboards that can be shared with stakeholders. |
 | 8. | Workflow and collaboration | To track progress, assign tasks, and collaborate with team members, the workflow and collaboration component will use project management tools like **Trello** or **Asana**. In addition, the team will use version control software such as Git to ensure that all changes to the codebase are tracked and easily reversible. |
 
-<img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/DataSphere/DataSphere%20System%20Architecture.png" alt="SystemArchitecture"></img>
+<img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/DataSphere/DataSphere%20System%20Architecture.jpeg" alt="SystemArchitecture"></img>
 
 **Hardware and Software Requirements**
 
@@ -188,7 +187,7 @@ Week 1-2: Planning and Requirements Gatherings
 Determine the problem to be solved on Twitter regarding 'Mental Health' tweets. Finalized proposal outlining system architecture, methodology and other related requirements. 
 
 Week 3-6: Data Collection and Preprocessing
-Collect Twitter data related to the Menu Rahmah project using the Twitter API or appropriate keywords. Then, preprocess the data by cleaning, filtering, and transforming it into a suitable format for analysis.Week 7-8:  Sentiment Analysis Development
+Collect Twitter data related to mental health project using the Twitter API or appropriate keywords. Then, preprocess the data by cleaning, filtering, and transforming it into a suitable format for analysis.Week 7-8:  Sentiment Analysis Development
 Do feature extraction of the meaningful features of the text and select, train and evaluate the model for sentiment analysis using NLP technique.
 
 Week 9-10:  Data Visualization and Insights
@@ -261,7 +260,7 @@ Data Security Measures:
 
   ```mermaid
 gantt
-    title Sentiment Analysis Study: Exploring the Emotional Response of Malaysians towards Menu Rahmah
+    title Sentiment Analysis Study: Exploring the Response of 'Mental Health' Tweets
     dateFormat  YYYY-MM-DD
 
     section Planning and Requirements Gatherings
@@ -328,5 +327,5 @@ For the Sentiment Analysis Study titled "Exploring the Response of 'Mental Healt
 
 ## #️⃣: Conclusion
 
-In conclusion, the primary goal of the proposed project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed about a particular topic or entity and in this case, the aim is  to explore the response of 'Mental Health' Tweets through sentiment analysis. The suggested system analyses a dataset of customers and generates predictions using machine learning methods. The team has developed a meticulous schedule and resource plan for the project. As for the project's scope, methodology, and expected results are all well specified. The project's outcomes might enable organisations to extract the information from various sources like social medias and able to provide them insights/ overview to their products.There are, however some risk and limitations for us in carrying out this project like technical, financial and legal risk. In the end of this project, we hope that this will be beneficial to other policymakers, citizens of Malaysia and organisations participating in this programs to help them predict trends and inform business decisions.
+In conclusion, the primary goal of the proposed project is to identify and extract the subjective information from text data, such as opinions, attitudes, emotions, and feelings expressed about a particular topic or entity and in this case, the aim is  to explore the response of 'Mental Health' Tweets through sentiment analysis. The team has developed a meticulous schedule and resource plan for the project. As for the project's scope, methodology, and expected results are all well specified. The project's outcomes might enable organisations to extract the information from various sources like social medias and able to provide them insights/ overview to their scope.There are, however some risk and limitations for us in carrying out this project like technical, financial and legal risk. In the end of this project, we hope that this will be beneficial to other policymakers, people and organisations to help them predict trends and inform business decisions.
 

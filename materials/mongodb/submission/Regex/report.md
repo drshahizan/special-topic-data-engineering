@@ -139,26 +139,26 @@ It has been found that all of the data does not consist of any missing value, an
 - Ensure the web interface integrates with MongoDB and MySQL, supporting CRUD operations for efficient data management.
 
 ## Web Interface
-- Login
+- Login Page
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/c43812de-13b4-4c0d-9bdf-7bc06d0591ad">
 
-- Dashboard
-<img width="944" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/ebe3f629-a865-4f6a-9ec3-ffd3a9ddb373">
+- Main Dashboard
+<img width="960" alt="Screenshot 2023-06-24 at 2 58 52 AM" src="https://github.com/drshahizan/special-topic-data-engineering/assets/76076543/25b6fc89-1f77-414c-b2b4-5d64ad20445d">
 
-- Add Customer
-<img width="945" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/2712df11-acb5-4137-a4de-9737554a28cf">
+- Add New Customer
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/2712df11-acb5-4137-a4de-9737554a28cf">
 
-- Read the Customer List
-<img width="944" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/f2662203-01e6-4436-b66e-a9b0722dfbeb">
+- View the Customer List
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/f2662203-01e6-4436-b66e-a9b0722dfbeb">
 
-- Update Customer
-<img width="944" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/1c77076f-4eba-4926-979e-982d15b57540">
+- Update Customer Details
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/1c77076f-4eba-4926-979e-982d15b57540">
 
-- Delete Customer
-<img width="946" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/a59e222e-c88d-4a07-b910-8699b5a9ef5a">
+- Delete a Customer
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/a59e222e-c88d-4a07-b910-8699b5a9ef5a">
 
-- Search Customer
-<img width="946" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/3dae06b5-c004-4309-b205-ea07985fdeb1">
+- Search for a Customer
+<img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/3dae06b5-c004-4309-b205-ea07985fdeb1">
 
 ## Testing and Validation
 1. Create Operation Testing

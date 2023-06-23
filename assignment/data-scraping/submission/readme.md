@@ -30,7 +30,7 @@ Don't forget to hit the :star: if you like this repo.
 | No | Topic | Group | File | 
 | ----- | ----- | ------ | :------: | 
 | 1 | Web Scraping Text Content on Google Scholar | Gadgeteen | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2/Gadgeteen" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 2 | Web Scraping Text Content | Regex | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2/Regex" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 2 | Web Scraping Text Content | Regex | <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/dd59d96a7d66dd8f96298c2c920fa52a1367662b/assignment/data-scraping/submission/part2/Regex/readme.md" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 3 | Web scraping Text Content | DataSphere | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2/DataSphere" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 4 | UTM User Profiles in Google Scholar | DataAce | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2/DataAce" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 5 | Web scraping Text Content From Google Scholar | MichelinStar | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2/MichelinStar" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |

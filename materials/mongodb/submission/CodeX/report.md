@@ -79,13 +79,13 @@ The recommendation algorithm analyzes the user preferences and compares them wit
 CodeX TV Shows Recommendation Systems offers different functionalities to different user type. Below are the lists according to the user type.
 
 Admin:
-**1. Add New TV Show:** Administrators can enter and save new tv shows by entering its name.
-**2. View TV Shows Rating by Multiple User:** Administrators view the rating scores from multiple users for all the TV shows.
+**1. Add New TV Show:** Administrators can enter and save new tv shows by entering its name. <br>
+**2. View TV Shows Rating by Multiple User:** Administrators view the rating scores from multiple users for all the TV shows.<br>
 
 User:
-**1. View TV Show:** Users can view the list of TV Shows added by the admin.
-**2. Add Rating to TV Show:** Users can add rating to their choice of TV Shows in the list.
-**2. View Recommended TV Show:** Users can view the recommended TV Shows. In the list, User can search on the left column what show they like, and they can see on the right column, how recommended the other shows was with the show that they like. If it is red, it means that, they might not like the show and if it is green, the user might likely liked the recommended show.
+**1. View TV Show:** Users can view the list of TV Shows added by the admin.<br>
+**2. Add Rating to TV Show:** Users can add rating to their choice of TV Shows in the list.<br>
+**3. View Recommended TV Show:** Users can view the recommended TV Shows. In the list, User can search on the left column what show they like, and they can see on the right column, how recommended the other shows was with the show that they like. If it is red, it means that, they might not like the show and if it is green, the user might likely liked the recommended show.
 
 ## Implementation
 

@@ -143,8 +143,6 @@ OR
   
 ![Rec](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/CodeX/img/recommendation_view.png)
 
-## Testing and Validation
-
 
 ## Conclusion
 

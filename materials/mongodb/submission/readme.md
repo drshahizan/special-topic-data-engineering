@@ -20,7 +20,7 @@ Don't forget to hit the :star: if you like this repo.
 | 6 | Feedback Analysis System | StaticIP | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/materials/mongodb/submission/StaticIP" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 7 | Book Rating System | Noctua| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/materials/mongodb/submission/Noctua" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 8 | Movie Recommendation System with CRUD Operations🎓| Rivertion | <a href="Rivertion" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 9 |  TV Shows Recommendation System | CodeX| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/materials/mongodb/submission/CodeX" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 9 |  TV Shows Recommendation System | CodeX | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/materials/mongodb/submission/CodeX" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

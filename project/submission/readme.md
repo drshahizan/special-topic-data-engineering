@@ -13,7 +13,7 @@ Don't forget to hit the :star: if you like this repo.
 
 | No | Title | Group |  Project | 
 | ----- | ----- | ------ | :------: | 
-| 1 |  | Gadgeteen | <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 1 | Sentiment Analysis in Social Media : A Study On ChatGPT | Gadgeteen | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Gadgeteen" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 2 | Sales Analysis of Shopee Supermarket by Households Supplies Category | Regex |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Regex" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 3 | A Sentiment Analysis Study: Exploring the Response of 'Mental Health' Tweets | DataSphere |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataSphere" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 4 | Food Influencer Tiktok Analytics Dashboard | DataAce |<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataAce" ><img src="../../images/task.png" width="24px" height="24px" ></a> |

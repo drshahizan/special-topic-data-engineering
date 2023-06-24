@@ -86,13 +86,52 @@ The recommendation algorithm analyzes the user preferences and compares them wit
 1.3 Install [MongoDB](https://www.mongodb.com/try/download/community) <br>
 1.4 Install [MongoDB PHP Driver](https://pecl.php.net/package/mongodb) <br>
 
-### Connect to database
+### 2. Connect to database
 
 ## Web Interface
 - Landing Page
- ![Landing Page](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/CodeX/img/landing_page.png)
+  
+![Landing Page](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/CodeX/img/landing_page.png)
+
 - Login Page
+  
+![Login](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/CodeX/img/login_page.png)
+
 - Registration Page for New User
+  
+![Register](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/CodeX/img/register.png)
+
+- Logout
+  
+![Logout](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/CodeX/img/logout.png)
+
+- Admin Landing Page
+  
+![Admin Land](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/CodeX/img/admin_land.png)
+
+- Admin Add New Show Page
+  
+![New_Show_1](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/CodeX/img/admin_add_show.png)
+
+OR
+
+![New_Show_2](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/CodeX/img/admin_add_show2.png)
+
+- Admin User Rating Collection Page
+  
+![](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/CodeX/img/admin_rating_view.png)
+
+- User Landing Page
+  
+![Use Land](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/CodeX/img/user_land.png)
+
+- User Add Rating Page
+  
+![Add Rate](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/CodeX/img/user_rate.png)
+
+- User Recommendation Page
+  
+![Rec](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/CodeX/img/recommendation_view.png)
 
 ## Testing and Validation
 

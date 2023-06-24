@@ -1,7 +1,8 @@
 
 <h1 align='center'>Movie Engine Recomendation</h1>
 The project is a robust movie recommendation engine built using PHP, designed to provide personalized movie suggestions based on preferences and genres. This intelligent system utilizes advanced algorithms and machine learning techniques to analyze user data and generate accurate movie recommendations. CodeX aims to enhance the movie-watching experience by providing users with a tailored selection of movies that match their preferences. With its intuitive dashboard powered by Tableau, users can gain valuable insights into their movie preferences and make informed decisions about their next movie night.
-
+<br>
+<h2>Group Members</h2>
 <table align='center'>
   <tr>
     <th>Name</th>

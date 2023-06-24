@@ -1,4 +1,4 @@
-<h1 align='center'>Youtube Recommendation System</h1>
+<h1 align='center'>TV Shows Recommendation System</h1>
 <h2 align='center'>Group Members</h2>
 <table align='center'>
   <tr>
@@ -12,18 +12,5 @@
   <tr>
     <td>NAYLI NABIHAH BINTI JASNI	</td>
     <td>A20EC0105</td>
-  </tr>
-    <tr>
-    <td></td>
-    <td></td>
-  </tr>
-    <tr>
-    <td>MUHAMMAD NAQUIB BIN ZAKARIA</td>
-    <td>A20BE0161</td>
-  </tr>
-  </tr>
-    <tr>
-    <td></td>
-    <td></td>
   </tr>
 </table>

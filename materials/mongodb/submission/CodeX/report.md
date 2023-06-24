@@ -90,6 +90,7 @@ The recommendation algorithm analyzes the user preferences and compares them wit
 
 ## Web Interface
 - Landing Page
+ ![Landing Page](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/CodeX/img/landing_page.png)
 - Login Page
 - Registration Page for New User
 

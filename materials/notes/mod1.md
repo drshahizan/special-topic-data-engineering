@@ -22,6 +22,7 @@ Group Codex
 - [Data Scientist vs Data Engineer](#Data-Scientist-vs-Data-Engineer)
 - [Relationship Data Engineer & Data Scientist](#Relationship-Data-Engineer-and-Data-Scientist)
 - [Summary](#Summary)
+- [Conclusion](#Conclusion)
 
 ## Data Engineering
 `Data Engineer` refers to a person who is responsible for designing, developing, and maintaining the infrastructure that supports the storage, processing, and analysis of large volumes of data. To ensure that data is gathered, saved, and made accessible for use by data scientists and other stakeholders, data engineers employ a variety of technologies, including databases, data pipelines, and data warehouses. Data engineers are professionals in the design and implementation of data systems.
@@ -151,6 +152,16 @@ In summary, data engineers and data scientists have a symbiotic relationship whe
   </tr>
 </table>
 
+## Conclusion
+For an instance, Data Engineers specialize in building and maintaining the infrastructure and systems necessary for data processing and storage. They design and develop data pipelines, ensuring data integrity and implementing data governance practices. Proficiency in programming languages like Python, Java, and SQL, as well as familiarity with technologies like Hadoop and Spark, are essential for Data Engineers.
+
+Data Engineering encompasses the field dedicated to designing, building, and managing the data infrastructure required for data-driven processes. It involves tasks such as data ingestion, integration, transformation, storage, and retrieval. Data Engineering professionals leverage tools like Apache Airflow and Talend to develop robust data pipelines, ensuring reliable and accessible data for analysis and decision-making.
+
+Data Science, on the other hand, involves applying scientific methods, statistical models, and machine learning algorithms to extract insights and knowledge from data. Data Scientists possess strong statistical and mathematical knowledge, along with programming skills in languages like Python and R. They analyze complex data sets, develop predictive models, and communicate insights to stakeholders.
+
+Data Scientists collaborate closely with Data Engineers and domain experts to understand business objectives and address complex problems. They conduct data exploration, visualization, and employ statistical analysis to derive actionable insights. Data Scientists play a pivotal role in utilizing data to make data-driven decisions and drive innovation within organizations.
+
+In conclusion, Data Engineers and Data Scientists are integral to the data ecosystem, each with their own specialized roles and responsibilities. Collaboration between these two roles is often necessary to ensure the availability of quality data and to derive meaningful insights for informed decision-making.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

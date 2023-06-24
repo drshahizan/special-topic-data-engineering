@@ -3,11 +3,13 @@
 
 - [Introduction](#introduction)
 - [System Design](#system-design)
+  - [Data Requirements](#data-requirements)
+  - [Functionalities](#functionalities)
 - [Implementation](#implementation)
+  - [1. Download All Required Software](#1-download-all-required-software)
+  - [2. Connect to database](#2-connect-to-database)
 - [Web Interface](#web-interface)
-- [Testing and Validation](#testing-and-validation)
 - [Conclusion](#conclusion)
-- [References](#references)
 
 
 ## Introduction
@@ -92,11 +94,18 @@ User:<br>
 ### 1. Download All Required Software
 
 1.1 Install [XAMPP](https://www.apachefriends.org/download.html) <br>
-1.2 Install [Composer](https://getcomposer.org/download/)
+1.2 Install [Composer](https://getcomposer.org/download/) <br>
 1.3 Install [MongoDB](https://www.mongodb.com/try/download/community) <br>
 1.4 Install [MongoDB PHP Driver](https://pecl.php.net/package/mongodb) <br>
 
 ### 2. Connect to database
+2.1 Create Database in MongoDB: In the MongoDB Compass, create a new database. In the system , establish connection the the mongoDB by intalling libraries in the system code. Import libraries and connect using appropriate code.
+
+![WhatsApp Image 2023-06-25 at 01 09 39](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/8433ec02-f2eb-41d7-9671-7f9ce8a782fe)
+
+2.2 Import database into MongoDB: add csv file into mongoDB simply by clicking csv file.
+
+![WhatsApp Image 2023-06-25 at 01 15 54](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/5dcee2c6-a7f4-4a50-a11b-65dddc6aab2e)
 
 ## Web Interface
 - Landing Page
@@ -150,6 +159,5 @@ In conclusion, the CodeX Recommendation System successfully utilizes PHP, MySQL,
 
 The CodeX Recommendation System enhances the user experience by providing accurate recommendations based on individual preferences, allowing users to discover new TV shows tailored to their tastes. With features like exploring recommended shows, viewing ratings, and marking favorites, the system creates an engaging and interactive platform for TV show enthusiasts. Through its effective use of technologies, the CodeX Recommendation System offers an efficient and user-friendly solution for discovering and enjoying TV shows.
 
-## References
 
 

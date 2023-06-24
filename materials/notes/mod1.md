@@ -17,10 +17,10 @@ Group Codex
 # Module 1: Data Engineer, Data Engineering, Data Science, Data Scientist
 
 ### Contents:
-- [Data Engineering](#abc)
-- [Data Science](#abc)
-- [Data Scientist vs Data Engineer](#abc)
-- [Relationship Data Engineer & Data Scientist](#abc)
+- [Data Engineering](#Data-Engineering)
+- [Data Science](#Data-Science)
+- [Data Scientist vs Data Engineer](#Data-Scientist-vs-Data-Engineer)
+- [Relationship Data Engineer & Data Scientist](#Relationship-Data-Engineer&Data-Scientist)
 - [Summary](#Summary)
 
 ## Data Engineering

@@ -14,3 +14,8 @@
     <td>A20EC0105</td>
   </tr>
 </table>
+
+
+## Contents📝
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/CodeX/report.md)
+

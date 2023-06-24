@@ -10,7 +10,7 @@ Don't forget to hit the :star: if you like this repo.
 Group Codex
 1. Adrina Asyiqin Binti Md Adha | A20EC0174
 2. Chong Kai Zhe | A20EC0186
-3. XXXX
+3. Nayli Nabihah Binti Jasni | A20EC0105
 4. XXXX
 5. Muhammad Naquib Bin Zakaria | A20BE0161
 
@@ -21,6 +21,7 @@ Group Codex
 - [Data Science](#abc)
 - [Data Scientist vs Data Engineer](#abc)
 - [Relationship Data Engineer & Data Scientist](#abc)
+- [Summary](Summary)
 
 ## Data Engineering
 `Data Engineer` refers to a person who is responsible for designing, developing, and maintaining the infrastructure that supports the storage, processing, and analysis of large volumes of data. To ensure that data is gathered, saved, and made accessible for use by data scientists and other stakeholders, data engineers employ a variety of technologies, including databases, data pipelines, and data warehouses. Data engineers are professionals in the design and implementation of data systems.
@@ -60,6 +61,96 @@ Data scientists use the data infrastructure created by data engineers to perform
 The collaboration between data engineers and data scientists is essential in many ways. Data engineers need to understand the data requirements of data scientists to ensure that the data infrastructure they create is fit for purpose. Data scientists need to communicate their data requirements to data engineers to ensure that the data they receive is of high quality and meets their needs. Data scientists also rely on data engineers to maintain and update the data infrastructure to ensure that it remains reliable and secure.
 
 In summary, data engineers and data scientists have a symbiotic relationship where they rely on each other's expertise to ensure the success of data-driven projects. Data engineers create and maintain the data infrastructure, while data scientists use it to perform advanced analytics and derive insights from the data.
+
+## Summary
+
+<table>
+  <tr>
+    <th>Aspect</th>
+    <th>Data Engineer</th>
+    <th>Data Engineering</th>
+    <th>Data Scientist</th>
+    <th>Data Science</th>
+  </tr>
+  <tr>
+    <td>Role</td>
+    <td>Designs, builds, and maintains data infrastructure</td>
+    <td>Implements and optimizes data solutions and pipelines</td>
+    <td>Analyzes and interprets complex data to extract insights</td>
+    <td>Applies scientific methods to extract insights from data</td>
+  </tr>
+  <tr>
+    <td>Skills</td>
+    <td>Proficiency in programming, databases, and ETL processes</td>
+    <td>Knowledge of data storage, processing, and integration</td>
+    <td>Strong statistical and mathematical knowledge</td>
+    <td>Proficiency in statistical analysis and machine learning</td>
+  </tr>
+  <tr>
+    <td>Data Manipulation</td>
+    <td>Develops data pipelines and workflows</td>
+    <td>Cleans, transforms, and preprocesses raw data</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Machine Learning</td>
+    <td>-</td>
+    <td>-</td>
+    <td>Applies algorithms and models for predictive analytics</td>
+    <td>Implements and deploys machine learning models</td>
+  </tr>
+  <tr>
+    <td>Data Exploration</td>
+    <td>-</td>
+    <td>-</td>
+    <td>Conducts exploratory data analysis and visualizations</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Programming Languages</td>
+    <td>Python, Java, Scala, SQL</td>
+    <td>Python, Java, Scala, SQL</td>
+    <td>Python, R, SQL</td>
+    <td>Python, R, SQL</td>
+  </tr>
+  <tr>
+    <td>Tools and Technologies</td>
+    <td>Hadoop, Spark, Kafka, SQL databases</td>
+    <td>Data integration tools (e.g., Apache Airflow, Talend)</td>
+    <td>TensorFlow, scikit-learn, Pandas, NumPy, Tableau</td>
+    <td>Data visualization tools (e.g., Tableau, Power BI)</td>
+  </tr>
+  <tr>
+    <td>Data Storage</td>
+    <td>Design and implement data storage solutions</td>
+    <td>Design and implement data storage architectures</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Communication</td>
+    <td>Collaborates with cross-functional teams</td>
+    <td>Collaborates with stakeholders to understand requirements</td>
+    <td>Presents findings and insights to stakeholders</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Data Governance</td>
+    <td>Establishes data quality and governance practices</td>
+    <td>Ensures data integrity and security</td>
+    <td>Ensures data privacy, security, and ethical considerations</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Job Outlook</td>
+    <td>High demand, with a focus on data engineering skills</td>
+    <td>High demand, with a focus on data engineering skills</td>
+    <td>High demand, with a focus on analytical skills</td>
+    <td>High demand, with a focus on analytical and ML skills</td>
+  </tr>
+</table>
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

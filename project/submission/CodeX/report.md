@@ -19,6 +19,7 @@ Over time, advancements in technology and the availability of large-scale movie 
 - To create a dashboard using business intelligence softwares to enhance users interaction with system
 
 ## Scope
+
 ## Methodology
 1. Data Collection: Scrap data from IMDB using APIs and python
 2. Data Pre-Processing: Implement Alteryx to clean and prepare data

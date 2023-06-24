@@ -20,7 +20,7 @@ Group Codex
 - [Data Engineering](#Data-Engineering)
 - [Data Science](#Data-Science)
 - [Data Scientist vs Data Engineer](#Data-Scientist-vs-Data-Engineer)
-- [Relationship Data Engineer & Data Scientist](#Relationship-Data-Engineer&Data-Scientist)
+- [Relationship Data Engineer & Data Scientist](#Relationship-Data-Engineer-&-Data-Scientist)
 - [Summary](#Summary)
 
 ## Data Engineering

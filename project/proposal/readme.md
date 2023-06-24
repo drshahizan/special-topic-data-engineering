@@ -22,7 +22,7 @@ Don't forget to hit the :star: if you like this repo.
 | 6 | Malaysia energy consumption analysis dashboard | StaticIP | <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/StaticIP/readme.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 7 | Redditor's View Towards Anwar Ibrahim as Malaysia's 10th Prime Minister. | Noctua| <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/Noctua/proposal_Noctua.md" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 8 | Image Analysis for Rotten Fruit Detection 🍇🍉🍎🍐🍓 | Rivertion | <a href="Rivertion" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 9 | Movies Recommendation Engine | CodeX | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/9bf8054a91f69a3c9e2df52d03936864a7bf8b47/project/proposal/CodeX" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 9 | Movies Recommendation Engine | CodeX | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/proposal/CodeX" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 10 | Spotify Personalized Algorithm | ZytrexDB| <a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 
 

@@ -219,8 +219,9 @@ One of the most important steps in performing the web scraping process is select
             <li>Can be used with other libraries, such as Requests and Pandas.</li>
         </td>
         <td>
-            <li>Cannot handle dynamic or interactive web pages.</li>
+\           <li>Slower compared to Scrapy</li>
             <li>Unable to execute JavaScript Code.</li>
+            <li>Cannot handle dynamic or interactive web pages.</li>
             <li>Not efficient for large-scale web scraping projects.</li>        
         </td>
     </tr>

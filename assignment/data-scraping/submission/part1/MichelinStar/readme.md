@@ -34,6 +34,6 @@ Our project aims to utilize the Flickr API and Python programming to curate a va
 </table><br>
 
 ## Contents📝
-- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/MichelinStar/MichelinStar_Scraping_Report.md)
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/MichelinStar/Part1_Report_MichelinStar.md)
 - 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/MichelinStar/MichelinStar_Scraping.py)
 - 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part1/MichelinStar/photos_metadata.csv)

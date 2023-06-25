@@ -74,7 +74,8 @@ Firstly, to gather the data for our Data Science project we use TiktokPy API to 
 
 <h4>2. Data Integration using Azure Data Factory</h4>
 Next, since the API scraping require multiple times of scraping so the data are saved into different CSV files. Hence, integration of files need to be done for further analysis on the data. We used Azure Data Factory to integrate our CSV files.
-1. 
+<div align = "center"> <img width="816" alt="image" src="images/azure.jpeg"></div>
+
 <h4>3. Data Cleaning and Transformation</h4>
 After data integration, now the data need to be clean and transformed to gain better analytics from it. We used Python to clean the data and Google Collab as our text editor.
 

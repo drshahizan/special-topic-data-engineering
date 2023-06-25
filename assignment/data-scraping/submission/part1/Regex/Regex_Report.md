@@ -164,6 +164,7 @@ collection.insert_many(metadata_list)
         <td>
             <li>Simple and easy to use.</li>
             <li>Supports various image file formats.</li>
+            <li>Extensive documentation and community support</li>
             <li>Easy to integrate into web scraping workflows.</li>
             <li>Suitable for basic image preprocessing and analysis tasks.</li>        
         </td>

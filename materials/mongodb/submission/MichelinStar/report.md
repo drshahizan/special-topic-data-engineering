@@ -98,7 +98,7 @@ Ramen, a traditional Japanese noodle dish, has gained immense popularity globall
 1. Install Xampp, MongoDB and any developer tools such as Visual Studio Code.
 2. Configure all tools on your server or local machine.
 
-### Step 2: Import Database Schemas in MySQL
+### Step 2: Create Database Schemas in MySQL
 1. Open Xampp and click 'Start' for both Apache and MySQL.
 2. Click 'Admin' beside MySQL.
 <div align="center">
@@ -106,7 +106,8 @@ Ramen, a traditional Japanese noodle dish, has gained immense popularity globall
 </div>
 3. Create new database (add tables and attributes for each table).
 <div align="center">
-  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614501/748e96cc-bb53-483a-af1d-356130751505">
+  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614501/5b608a3c-4c1b-48d0-b4cd-d82217ce15ec">
+   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614501/27b373a0-5396-4a33-aadd-89324fbe4600">
 </div>
 
 ### Step 3: Connect to Database

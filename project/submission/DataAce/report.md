@@ -149,6 +149,7 @@ Importing Data into Power BI:
 <div align = "center"> <img width="816" alt="image" src="images/powerbi.jpeg"></div>
 
 <h4>5. Embed the Dashboard into Website</h4>
+
 * Open the Power BI service and navigate to the workspace where you published the dashboard.
 * Click on the ellipsis (...) next to the dashboard and select "Embed".
 * Configure the embed options, such as the size, filtering options, and interaction settings.

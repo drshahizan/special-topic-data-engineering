@@ -45,9 +45,9 @@
 
 ## Contents📝
 - 📑[Report](report.md)
-- 💻[Code]()
-- 🛠️[MongoDB Database Configuration]()
-- ⚙️[Mysql Database Configuration]()
-- 📰[Initial Dataset]()
+- 💻[Code](mongodb)
+- 🛠️[MongoDB Database Configuration](mongodb/mongodb.php)
+- ⚙️[Mysql Database Configuration](mongodb/dbconnect.php)
+- 📰[Initial Dataset](ramen-ratings.csv)
 
 

@@ -1,10 +1,17 @@
 <h1 align=center>Web scraping Multimedia Using Flickr API</h1>
 
-<h3> 1. Introduction</h3>
+## Table of Content
+- [Introduction](#introduction)
+- [Web Scraping Flickr](#web-scraping-flickr)
+- [Choosing a Library for Web Scraping](#choosing-a-library-for-web-scraping)
+- [Storing Data in MongoDB](#storing-data-in-mongodb)
+- [Conclusion](#conclusion)
+
+## Introduction
 
 <p align=justify>Web scraping multimedia content extracts multimedia data from websites, including images, videos, audio, and animations. This data type can provide valuable insights for research and analysis in various disciplines, such as media studies, marketing, social media analysis, and machine learning. Multimedia data can provide more information than text-based data alone. For instance, insights into consumer preferences, sentiment analysis, and brand recognition can be gained by analyzing images and videos. In machine learning, multimedia data is frequently used to train models for image recognition, speech recognition, and natural language processing. This is significant because it enables researchers and analysts to access and analyze a greater variety of data, which can lead to more accurate and insightful results.</p>
 
-<h3> 2. Web Scraping Flickr</h3>
+## Web Scraping Flickr
 
 <p align=justify>The vast amount of multimedia content on Flickr has contributed to its popularity among many users. The website has over 100 million active users and shares billions of photos and videos. Flickr is an excellent source for multimedia content because many of its high-quality images and videos are freely accessible under a Creative Commons license, making them suitable for research and analysis.
 Flickr also possesses a robust search engine that facilitates the discovery of relevant content via tags, keywords, and other filters. Metadata, which includes information such as the time and location of an image or video's capture and the type of camera used, can be used for research and analysis.</p>
@@ -104,7 +111,7 @@ collection.insert_many(metadata_list)
 ```
 <img width="940" alt="Screenshot 2023-06-24 at 3 15 57 AM" src="https://github.com/drshahizan/special-topic-data-engineering/assets/76076543/8e524556-3ab8-4b80-8932-6b1a4a9667e3">
 
-<h3> 3. Choosing a Library for Web Scraping</h3>
+## Choosing a Library for Web Scraping
 <p align=justify> Several libraries are available for web scraping multimedia content. To make a comparison, three libraries will be discussed: request, OpenCV, and Pillow.
  Each  library has its advantages and disadvantages in performing multimedia content web scraping. </p>
  
@@ -177,7 +184,7 @@ collection.insert_many(metadata_list)
 
 <p align=justify>Based on these criteria, Request and OpenCV are the libraries that best align with the web scraping multimedia content assignment requirements. These libraries were chosen for this assignment because their features are suitable where requests are advantageous for simple web content retrieval, whereas OpenCV provides advanced multimedia processing capabilities.</p>  
 
-<h3> 4. Storing Data in MongoDB</h3>
+## Storing Data in MongoDB
 
 - The benefits of using MongoDB for storing multimedia content data:
   1. **Flexibility**- The document-based data model of MongoDB allows for flexible and dynamic schemas. This flexibility is particularly useful when storing multimedia content data, as the schema can vary from one document to another. Without enforcing a rigid schema, you can easily store various types of multimedia content.
@@ -195,5 +202,5 @@ collection.insert_many(metadata_list)
 
   However, when designing data structure and organization based on specific application requirements, consider factors such as the size of multimedia files, expected access patterns, and performance considerations.
 
-<h3> 5. Conclusion</h3>
+## Conclusion
 <p align=justify>To summarize, this assignment aims to scrape image content from Flickr and store the extracted data in a database. Json, OpenCV, and Python are the tools and libraries used in this web scraping. It is possible to scrape many images and their metadata through web scraping. This is because web scraping multimedia content can benefit data analysis by storing data in MongoDB. MongoDB is an excellent choice for storing multimedia content data due to its flexibility, scalability, binary data support, and high-performance queries. Furthermore, the best way to design data structure and organization when storing data is to use GridFS, denormalize and embed data models, use appropriate indexes, and store metadata separately. Its purpose is to ensure high levels of optimized performance and efficient querying. Future research or analysis could identify a trend in frequent camera brands used in photography, model cameras used, and popular photographers using the data set from Flickr. </p>

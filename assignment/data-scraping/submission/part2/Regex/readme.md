@@ -38,11 +38,11 @@ This assignment requires going through the process of web scraping publication c
 - 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part2/Regex/Part2_WebScrapingTextContent.ipynb)
 - 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part2/Regex/GoogleScholar.csv)
 
-## Web Scraping Text Summary
+## Web Scraping Text Summary 🗂️
 Web scraping effectively extracts large volumes of text data from various sources, including academic publication sites like Google Scholar. However, challenges such as CAPTCHAs, dynamic content, and IP blocking need to be handled appropriately. Libraries like Beautiful Soup and Selenium are chosen for their simplicity and ability to handle different types of web pages. The extracted data can be stored in a database like MongoDB for scalability and efficiency in analysis. The goal is to retrieve structured metadata such as title, author, publication date, journal or conference name, and citations. Researchers and data analysts can use this data to gain valuable insights for various purposes.
 
-## Choice of storage method
+## Choice of storage method 🗄️
 Storing our publication content data using MongoDB is an excellent choice. With its open-source NoSQL database, MongoDB offers flexibility, scalability, and a flexible query language, making managing our data easier. It integrates seamlessly with various tools and libraries and ensures efficient performance with automatic sharding. We can optimize performance by defining a clear data schema, organizing the data into collections, using nested documents to represent related data, and indexing to improve efficiency. Overall, we can trust MongoDB to be a reliable choice for storing our publication content data.
 
-## Result
+## Result 🔎
 We have managed to extract text from individual researchers' links to the Faculty of Computing at Universiti Teknologi Malaysia. This has enabled us to obtain publications by each researcher and save their article data, including the title, authors, publication date, journal name, and citations.

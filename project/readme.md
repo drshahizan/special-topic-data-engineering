@@ -51,7 +51,7 @@ Throughout the project, make sure to follow best practices for data science proj
 | 8 | Sentiment Analysis On Anwar Ibrahim | Noctua| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Noctua"><img src="../images/meeting.png" width="36px" height="36px" ></a> |
 | 9 | Image Analysis for Rotten Fruit Detection 🍇🍉🍎🍐🍓 | Rivertion |<a href="./submission/Rivertion" ><img src="../images/meeting.png" width="36px" height="36px" ></a> |
 | 10 | Time-series analytics dashboard||<a href="" ><img src="../images/meeting.png" width="36px" height="36px"></a> |
-| 11 | Movie Recommendation engine | CodeX| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/9b6c2c3e3d99564d0008dbff19cf82df5b9f58f6/project/submission/CodeX" ><img src="../images/meeting.png" width="36px" height="36px" ></a> |
+| 11 | Movie Recommendation engine | CodeX| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/CodeX" ><img src="../images/meeting.png" width="36px" height="36px" ></a> |
 | 12 | Spotify Recommendation engine | ZytrexDB |<a href="./submission/ZytrecDB" ><img src="../images/meeting.png" width="36px" height="36px"></a> |
 
 ## Project Requirements

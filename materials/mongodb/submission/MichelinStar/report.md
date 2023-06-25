@@ -104,10 +104,29 @@ Ramen, a traditional Japanese noodle dish, has gained immense popularity globall
 <div align="center">
   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614501/79bc6d4a-dd02-4589-a385-06dc28df36fd">
 </div>
-3. Create new database (add tables and attributes for each table).
+3. Create new database db_ramen (insert the table by the name tb_user andd follow the attributes below).
 <div align="center">
-  <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614501/5b608a3c-4c1b-48d0-b4cd-d82217ce15ec">
    <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614501/27b373a0-5396-4a33-aadd-89324fbe4600">
+</div>
+4. Import the database (Follow the instruction below).
+On the db_ramen, click "Import"
+<div align="center">
+   <img width="500" src="https://github.com/drshahizan/SECP3843/assets/120614501/8cbadc3e-af7b-4a9e-b151-7c51e06e6bf0">
+</div>
+
+Click on the "Choose File" and select the dataset download from the kaggle (the dataset can be obtained in [References](#references))
+<div align="center">
+   <img width="500" src="https://github.com/drshahizan/SECP3843/assets/120614501/a56ade6e-44a5-42fb-81fd-951a70a0ef57">
+</div>
+
+Name the table tb_ramen, allow "The first line of the file contains the table column names" and click "Import"
+<div align="center">
+   <img width="500" src="https://github.com/drshahizan/SECP3843/assets/120614501/cb556490-f136-4a07-8452-73dd5bce1b7e">
+</div>
+
+The data will then import inside the database
+<div align="center">
+   <img width="500" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120614501/3f472609-e1a7-4148-bc12-2ae38b315fa8">
 </div>
 
 ### Step 3: Connect to Database

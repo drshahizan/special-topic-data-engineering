@@ -213,8 +213,9 @@ One of the most important steps in performing the web scraping process is select
     <tr>
         <td>Beautiful Soup</td>
         <td>
-            <li>Good for pulling data out of HTML and XML files.</li>
             <li>Simple and easy to learn.</li>
+            <li>Good for small to medium-scale scraping tasks</li>
+            <li>Good for pulling data out of HTML and XML files.</li>
             <li>Can be used with other libraries, such as Requests and Pandas.</li>
         </td>
         <td>

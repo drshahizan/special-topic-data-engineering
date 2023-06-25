@@ -243,14 +243,16 @@ One of the most important steps in performing the web scraping process is select
     <tr>
         <td>Selenium</td>
         <td>
-            <li>Can handle JavaScript and other dynamic web page elements.</li>
+            <li>Provides visual feedback during scraping</li>
+            <li>Can easily handle AJAX and PJAX requests.</li>   
             <li>Can automate user interactions with a web page.</li>
-            <li>Can easily handle AJAX and PJAX requests.</li>          
+            <li>Can handle JavaScript and other dynamic web page elements.</li>
         </td>
         <td>
-            <li>Require more skills than Beautiful Soup.</li>
+            <li>Requires installing a web driver.</li>   
             <li>Slower than Beautiful Soup and Scrapy.</li>
-            <li>Requires installing a web driver.</li>              
+            <li>Require more skills than Beautiful Soup.</li>
+            <li>Slower compared to Beautiful Soup and Scrapy</li>
         </td>
     </tr>
 </table>

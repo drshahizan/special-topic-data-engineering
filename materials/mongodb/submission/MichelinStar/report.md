@@ -245,4 +245,38 @@ It has been found that all of the data does not consist of any missing value and
 
 
 ## Conclusion
+The Ramen Rating System project aimed to develop a web-based application that utilizes the Ramen Ratings Dataset from Kaggle. The system allows users to perform various operations such as creating, reading, updating, and deleting ramen records, as well as conducting data analysis and visualization. Here are the key findings, challenges faced, and potential improvements:
+
+Key Findings:
+- The Ramen Ratings Dataset provides comprehensive information about various ramen products, including brand, variety, style, country of origin, and consumer ratings.
+  
+- Statistical analysis and data visualization revealed insights into the dataset, allowing users to explore the preferences and trends of ramen enthusiasts.
+  
+- The web interface provides a user-friendly platform for managing ramen records and conducting searches, with features for creating, updating, and deleting records efficiently.
+
+  
+Challenges Faced:
+- Integrating and connecting the MySQL and MongoDB databases posed some challenges due to differences in their data structures and query languages.
+  
+- Preprocessing and analyzing the dataset required careful handling of missing values, data inconsistencies, and outliers.
+  
+- Developing an intuitive and visually appealing web interface that accommodates different user requirements and functionalities presented design and implementation challenges.
+
+  
+Potential Improvements:
+- Enhance the user interface by incorporating additional features such as sorting, filtering, and advanced search options to provide more flexibility in data exploration.
+  
+- Implement user authentication and access control to ensure data privacy and security.
+  
+- Incorporate machine learning algorithms to build recommendation systems or predictive models based on user preferences and ratings.
+  
+- Extend the dataset by integrating more external sources or allowing user-generated reviews to expand the range and diversity of ramen products.
+
+  
+In conclusion, the Ramen Rating System project successfully developed a web-based application that leverages the Ramen Ratings Dataset to provide users with a platform for managing and analyzing ramen data. The system offers valuable insights into ramen preferences and trends, while also highlighting the challenges faced during development and suggesting potential improvements for future iterations.
+
 ## References
+
+1. [MongoDB and PHP](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/mongophp.md) <br>
+2. [Creating, Reading, Updating, and Deleting MongoDB Documents with PHP](https://www.youtube.com/watch?v=zogIgFz3NWg) <br>
+3. [Dataset from Kaggle - Ramen Ratings](https://www.kaggle.com/datasets/residentmario/ramen-ratings) <br>

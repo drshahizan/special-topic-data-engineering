@@ -112,9 +112,39 @@ After data integration, now the data need to be clean and transformed to gain be
 <img width="529" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/73205963/de76a543-5ae1-486d-92d5-ecf7c87a6e16">
 
 By following these steps, we successfully retrieved data from TikTok using the TiktokPy API, integrated the data using Azure Data Factory, and performed data cleaning and transformation using Python and Google Colab. This prepared the data for further analysis and insights in our Data Science project.
-## Data Analysis
-## Folder Structure
-## Visualization
+
+<h4>4. Data Visualization</h4>
+Importing Data into Power BI:
+
+1.  Open Power BI Desktop.
+* Click on "Get Data" and choose the appropriate data source (e.g., Excel, CSV, or a database).
+* Connect to the dataset that contains the scraped attributes of the food influencers.
+* Perform any required data transformations using the Power Query Editor.
+
+2. Designing Visualizations
+
+* Choose the appropriate visualizations to represent the data (e.g., bar charts, line charts, pie charts, etc.).
+* Create visualizations to showcase engagement metrics by username, video duration, upload date, or other relevant attributes.
+* Customize the appearance, labels, and formatting of the visualizations to enhance clarity and aesthetics.
+
+3. Create a Dashboard for each users (Content Creator, Marketing Agency, Administrator):
+
+* Add the visualizations to a new or existing dashboard.
+* Arrange the visualizations to create an intuitive and visually appealing layout.
+* Add any additional elements, such as titles, text boxes, or images, to provide context or branding.
+
+4. Publish the Dashboard to Power BI Service
+
+* Click on "Publish" in Power BI Desktop.
+* Sign in to Power BI account using @live.utm email.
+
+<h4>5. Embed the Dashboard into Website</h4>
+* Open the Power BI service and navigate to the workspace where you published the dashboard.
+* Click on the ellipsis (...) next to the dashboard and select "Embed".
+* Configure the embed options, such as the size, filtering options, and interaction settings.
+* Generate the embed code.
+* Copy the generated embed code and paste it into the appropriate section of our website's HTML code.
+
 ## Insight
 ## Conclusion
 

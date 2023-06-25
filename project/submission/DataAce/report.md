@@ -133,10 +133,20 @@ Importing Data into Power BI:
 * Arrange the visualizations to create an intuitive and visually appealing layout.
 * Add any additional elements, such as titles, text boxes, or images, to provide context or branding.
 
+<h5>Content Creator Dashboard</h5>
+<div align = "center"> <img width="816" alt="image" src="images/dashboard_contentcreator.jpg"></div>
+
+<h5>Marketing Agency Dashboard</h5>
+<div align = "center"> <img width="816" alt="image" src="images/dashboard_marketing.jpg"></div>
+
+<h5>Admin Dashboard</h5>
+<div align = "center"> <img width="816" alt="image" src="images/dashboard_admin.jpg"></div>
+
 4. Publish the Dashboard to Power BI Service
 
 * Click on "Publish" in Power BI Desktop.
 * Sign in to Power BI account using @live.utm email.
+<div align = "center"> <img width="816" alt="image" src="images/powerbi.jpeg"></div>
 
 <h4>5. Embed the Dashboard into Website</h4>
 * Open the Power BI service and navigate to the workspace where you published the dashboard.

@@ -1,10 +1,13 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Post
 from django.views.generic.list import ListView
 from django.shortcuts import render
 import requests
 from pymongo import MongoClient
 from django.contrib.auth.decorators import login_required
+from .forms import NewUserForm
+from django.contrib.auth import login
+from django.contrib import messages
 
 # Connect to MongoDB
 client = MongoClient('mongodb://localhost:27017')
@@ -65,3 +68,16 @@ def index(request):
     context = {}
 
     return render(request, template, context)
+
+
+def register(request):
+	if request.method == "POST":
+		form = NewUserForm(request.POST)
+		if form.is_valid():
+			user = form.save()
+			#login(request, user)
+			messages.success(request, "Registration successful." )
+			return redirect('login')
+		messages.error(request, "Unsuccessful registration. Invalid information.")
+	form = NewUserForm()
+	return render (request=request, template_name="registration/register.html", context={"register_form":form})

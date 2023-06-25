@@ -46,12 +46,7 @@
                             <a href="/"><span>Gadgeteen</span></a>
                         </div>
                         <div class="login-form">
-                            <h4>Login</h4>
-                            {% if form.errors %}
-                                <p>Your username and password didn't match. Please try again.</p>
-                            {% else %}
-                                
-                            {% endif %}
+                            <h4>Registration</h4>
 							{% if messages %}
 							<ul class="messages">
 								{% for message in messages %}
@@ -59,20 +54,20 @@
 								{% endfor %}
 							</ul>
 							{% endif %}
-                            <form action="{% url 'login' %}" method="post">
-                                <div class="form-group">
-                                    <label>Username</label>
-                                    {{ form.username|addclass:'form-control'}}
-                                </div>
-                                <div class="form-group">
-                                    <label>Password</label>
-                                    {{ form.password|addclass:'form-control'}}
-                                </div>
+                            <form method="POST">
                                 {% csrf_token %}
-                                <input type="hidden" name="next" value="{{ next }}" />
-                                <button type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Sign in</button>
+								{% for field in register_form %}
+                                <div class="form-group">
+								  <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+								  <div class="mb-3">
+									{{field|addclass:'form-control'}}
+								  </div>
+								  <span class="text-danger">{{ field.errors }}</span>
+                                </div>
+								{% endfor %}
+                                <button type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Register</button>
                                 <div class="register-link m-t-15 text-center">
-                                    <p>Don't have account ? <a href="{% url 'register' %}"> Sign Up Here</a></p>
+                                    <p>Already have account ? <a href={% url 'login' %}> Login Here</a></p>
                                 </div>
                             </form>
                         </div>

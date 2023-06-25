@@ -162,6 +162,7 @@ collection.insert_many(metadata_list)
             A well-known Python library for image processing and manipulation that provides a user-friendly interface for opening, manipulating, and saving various image file formats. It provides various image processing features and supports basic image operations such as metadata extraction, color space conversion, and transparency handling.
         </td>
         <td>
+            <li>Simple and easy to use.</li>
             <li>Supports various image file formats.</li>
             <li>Easy to integrate into web scraping workflows.</li>
             <li>Suitable for basic image preprocessing and analysis tasks.</li>        

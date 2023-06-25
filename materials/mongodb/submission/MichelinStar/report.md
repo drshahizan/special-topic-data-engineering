@@ -150,9 +150,10 @@ CRUD is an acronym that stands for Create, Read, Update, and Delete. It refers t
 #### Step 4.1: Implement CRUD Operations with MySQL
 Develop PHP scripts to perform CRUD operations on the MySQL database:
 1. ```Create```: Implement functionality to insert new data records into MySQL.
-2. ```Read```: Retrieve and display data from MySQL.
-3. ```Update```: Allow for updating existing data records in MySQL.
-4. ```Delete```: Provide the ability to remove unwanted data entries from MySQL.
+&nbsp
+3. ```Read```: Retrieve and display data from MySQL.
+4. ```Update```: Allow for updating existing data records in MySQL.
+5. ```Delete```: Provide the ability to remove unwanted data entries from MySQL.
 
 #### Step 4.2: Implement CRUD Operations with MongoDB
 Develop PHP scripts to perform CRUD operations on the MongoDB database:

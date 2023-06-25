@@ -228,14 +228,16 @@ One of the most important steps in performing the web scraping process is select
     <tr>
         <td>Scrapy</td>
         <td>
+            <li>Faster than other existing scraping libraries</li>    
+            <li>Provides pipelines for data processing and storage</li>
             <li>Supports middleware, extensions, proxies, and more.</li>
             <li>Efficient and scalable for large-scale web scraping projects.</li>
-            <li>Faster than other existing scraping libraries</li>          
         </td>
         <td>
             <li>Require longer to learn.</li>
             <li>Requires more configuration.</li>
-            <li>Doesn’t handle JavaScript by default.</li>          
+            <li>Doesn’t handle JavaScript by default.</li> 
+            <li>Steeper learning curve compared to Beautiful Soup</li>
         </td>
     </tr>
     <tr>

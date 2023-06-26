@@ -22,7 +22,7 @@
 </table>
 
 ## Contents📝
-- 📑[Proposal](https://github.com/drshahizan/special-topic-data-engineering/blob/466df66387cc9c3ae17d9838c5591e114002c9b9/project/proposal/CodeX/PROPOSAL_CodeX.md)
+- 📑[Proposal](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/CodeX/PROPOSAL_CodeX.md)
 
 
 

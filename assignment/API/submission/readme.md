@@ -22,7 +22,7 @@ Don't forget to hit the :star: if you like this repo.
 | 6 | Malaysia Holiday API | StaticIP | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/API/submission/StaticIP" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 7 | Islamic Prayers Time API | Noctua| <a href="/assignment/API/submission/Noctua" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 8 | Spotify API | Rivertion | <a href="/assignment/API/submission/Rivertion" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 9 | Youtube API | CodeX| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/0c28ec1f6c15d4fe4cf0824d124f503c840ce3fe/assignment/API/submission/CodeX" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 9 | Youtube API | CodeX| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/API/submission/CodeX" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 
 
 ## Contribution 🛠️

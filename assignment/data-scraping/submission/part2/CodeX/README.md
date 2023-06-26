@@ -29,6 +29,6 @@
 </table>
 
 ## Contents📝
-- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/31ed4aff1154908a13e2cafbf076ef7ea21d8bf1/assignment/data-scraping/submission/part2/CodeX/TextScraping_Report_CodeX.md)
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-scraping/submission/part2/CodeX/TextScraping_Report_CodeX.md)
 - 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/31ed4aff1154908a13e2cafbf076ef7ea21d8bf1/assignment/data-scraping/submission/part2/CodeX/GS.ipynb)
 - 📂[CSV](https://github.com/drshahizan/special-topic-data-engineering/blob/31ed4aff1154908a13e2cafbf076ef7ea21d8bf1/assignment/data-scraping/submission/part2/CodeX/results.csv)

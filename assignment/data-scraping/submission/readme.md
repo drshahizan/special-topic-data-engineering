@@ -22,7 +22,7 @@ Don't forget to hit the :star: if you like this repo.
 | 6 | Web Scraping Multimedia Content | StaticIP | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1/StaticIP" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 7 | Multimedia Scraping with Flickr | Noctua| <a href="/assignment/data-scraping/submission/part1/Noctua" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 8 | Web Scraping Multimedia Content | Rivertion | <a href="part1/Rivertion" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 9 | Pixabay Scraping | CodeX| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/8fe06434d8b4569f72c772a870498872497cbf6f/assignment/data-scraping/submission/part1/CodeX" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 9 | Pixabay Scraping | CodeX | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part1/CodeX" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 
 
 ## 📚 Part 2
@@ -37,7 +37,7 @@ Don't forget to hit the :star: if you like this repo.
 | 6 | Web Scraping Text Content | StaticIP | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2/StaticIP" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 7 | Google Scholar Web Scraping | Noctua| <a href="/assignment/data-scraping/submission/part2/Noctua" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 | 8 | Web Scraping Google Scholar using SerpAPI | Rivertion | <a href="part2/Rivertion" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
-| 9 | Google Scholar Scraping | CodeX| <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2/CodeX" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
+| 9 | Google Scholar Web Scraping | CodeX | <a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/assignment/data-scraping/submission/part2/CodeX" ><img src="../../../images/task.png" width="24px" height="24px" ></a> |
 
 
 ## Contribution 🛠️

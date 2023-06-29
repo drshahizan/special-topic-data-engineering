@@ -309,3 +309,6 @@ Due to the issues, we configure the write behaviour on all the copy data activit
                 {
 
 ```
+
+### Conclusion
+Our report presents an overview of the data integration approach employed to merge airport runway data obtained from three distinct data sources, as part of a data science project. This assignment has provided us with hands-on experience in working with data integration tools and technologies. It has helped us understand the importance of data integration in real-world scenarios, such as managing airport runway data. Through this assignment, we have gained insights into the challenges involved in data integration. Overall, this assignment has equipped us with practical knowledge and experience in data integration using Azure Data Factory, enabling us to leverage this valuable skillset in our future endeavors and contribute to efficient and effective data management practices.

@@ -127,39 +127,39 @@ By following these steps, we successfully retrieved data from TikTok using the T
 <h3>4. Data Visualization</h3>
 Importing Data into Power BI:
 
-1.  Open Power BI Desktop.
+a)  Open Power BI Desktop.
    - Click on "Get Data" and choose the appropriate data source (e.g., Excel, CSV, or a database).
    - Connect to the dataset that contains the scraped attributes of the food influencers.
    - Perform any required data transformations using the Power Query Editor.
 
-2. Designing Visualizations
+b) Designing Visualizations
 
 * Choose the appropriate visualizations to represent the data (e.g., bar charts, line charts, pie charts, etc.).
 * Create visualizations to showcase engagement metrics by username, video duration, upload date, or other relevant attributes.
 * Customize the appearance, labels, and formatting of the visualizations to enhance clarity and aesthetics.
 
-3. Create a Dashboard for each users (Content Creator, Marketing Agency, Administrator):
+c) Create a Dashboard for each users (Content Creator, Marketing Agency, Administrator):
 
 * Add the visualizations to a new or existing dashboard.
 * Arrange the visualizations to create an intuitive and visually appealing layout.
 * Add any additional elements, such as titles, text boxes, or images, to provide context or branding.
 
-<h5>Content Creator Dashboard</h5>
+<h4 align = "center">Content Creator Dashboard</h4>
 <div align = "center"> <img width="816" alt="image" src="images/dashboard_contentcreator.jpg"></div>
 
-<h5>Marketing Agency Dashboard</h5>
+<h4 align = "center">Marketing Agency Dashboard</h4>
 <div align = "center"> <img width="816" alt="image" src="images/dashboard_marketing.jpg"></div>
 
-<h5>Admin Dashboard</h5>
+<h4 align = "center">Admin Dashboard</h4>
 <div align = "center"> <img width="816" alt="image" src="images/dashboard_admin.jpg"></div>
 
-4. Publish the Dashboard to Power BI Service
+d) Publish the Dashboard to Power BI Service
 
 * Click on "Publish" in Power BI Desktop.
 * Sign in to Power BI account using @live.utm email.
 <div align = "center"> <img width="816" alt="image" src="images/powerbi.jpeg"></div>
 
-<h4>5. Embed the Dashboard into Website</h4>
+<h3>5. Embed the Dashboard into Website</h3>
 
 * Open the Power BI service and navigate to the workspace where you published the dashboard.
 * Click on the ellipsis (...) next to the dashboard and select "Embed".

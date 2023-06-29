@@ -38,5 +38,17 @@ SerpApi makes it easier to send the HTTP requests to SerpApi server which can ma
 
 
 ## 4. Storing Data in MongoDB
-## 5. Conclusion
+To store data in mongodb, you need to have mongodb compass, and an account.
+
+### Step 1: Create a connection to mongodb compas.
+  ![image](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/3503f0c2-a974-4ebc-b2eb-bb12ad9cb78d)
+
+
+### Step 2: Create a new database and collection. Name the database and collection appropriately.
+  ![image](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/c79c181b-7407-4328-8123-507125f091ce)
+
+
+### Step 3: Upload the csv file. The database will automatically be created by mongodb.
+  ![image](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/68ba2a1c-a9c0-479c-a768-f4bbc186eb02)
+  ![image](https://github.com/drshahizan/special-topic-data-engineering/assets/96984290/855aadc2-9e58-43e6-9110-6029c2f822ec)
 

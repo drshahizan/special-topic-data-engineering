@@ -42,6 +42,15 @@ In today's dynamic digital landscape, social media platforms have become influen
 
 The purpose of this report is to provide a comprehensive analysis of the performance and impact of Top 22 Food Influencer on TikTok. By leveraging data-driven insights and analytics, we aim to gain a deeper understanding of Food Influencer's audience demographics, engagement metrics, content trends, and overall growth. Through this report, we seek to provide valuable information to help Food Influencer optimize their content strategy and enhance their influence in the realm of food-centric TikTok content.
 ## Background
+
+In recent years, TikTok has emerged as a global phenomenon, attracting millions of users who create and engage with short video content. One of the most popular categories on TikTok is food-related content, where influencers showcase their culinary skills, share recipes, and offer unique dining experiences. This trend has given rise to a new breed of content creators known as food influencers.
+
+Inspired by the growing popularity of food influencers on TikTok, our project aims to develop a Food Influencer TikTok Analytics Dashboard. This dashboard will provide a comprehensive analysis of the performance and impact of the top 22 food influencers in Malaysia. By analyzing various metrics and data points, we seek to uncover valuable insights into the success factors, audience engagement, and content trends of these influencers.
+
+The motivation behind this project stems from our curiosity to understand the dynamics of the food influencer landscape in Malaysia. With the surge in popularity of food-related content on TikTok, we wanted to explore the factors that contribute to the success of these influencers. By delving into their content strategies, engagement levels, and viral trends, we aim to gain a deeper understanding of what resonates with TikTok users in the food niche.
+
+By developing the Food Influencer TikTok Analytics Dashboard, we believe it will not only provide valuable insights for marketing professionals and brands interested in collaborating with food influencers but also serve as a source of inspiration for aspiring content creators. Furthermore, this project allows us to apply our data analysis and visualization skills in a real-world context, combining our passion for food and interest in social media trends. By uncovering key patterns and insights, we aim to provide actionable information that can benefit both influencers and brands in their pursuit of effective content creation and audience engagement.
+
 ## Objective
 * Caption Analysis: By analyzing Food Influencer's caption usage, we aim to evaluate the effectiveness of their content narratives and storytelling techniques. This includes examining factors such as caption length, tone, language style, and call-to-action elements. Understanding the impact of captions will enable Food Influencer's to craft engaging and compelling narratives that resonate with their audience.
 

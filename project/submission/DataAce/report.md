@@ -167,6 +167,64 @@ d) Publish the Dashboard to Power BI Service
 * Generate the embed code.
 * Copy the generated embed code and paste it into the appropriate section of our website's HTML code.
 
+<h3>6. Website Development</h3>
+
+## Folder Structures
+
+For the Tiktok Dashboard Analysis system, the folder structure looks like below:
+
+```
+📁tiktokanalysis
+├── 📁assets
+│   ├── 📁css
+│   │   ├── 📄style.css
+│   ├── 📁img
+│   ├── 📁js
+│   │   ├── 📄main.js
+│   ├── 📁scss
+│   ├── 📁vendor
+├── 📁forms
+│   ├── 📄contact.php
+│   ├── 📄Readme.txt
+├── 📁vendor
+├── 📄admin.php
+├── 📄admin-header.php
+├── 📄composer.json
+├── 📄composer.lock
+├── 📄contentcreator.php
+├── 📄contentcreator-header.php
+├── 📄dashboard-admin.php
+├── 📄dashboard-cc.php
+├── 📄dashboard-mkt.php
+├── 📄dbconnect.php
+├── 📄footer.php
+├── 📄forgot-password.php
+├── 📄header.php
+├── 📄index.php
+├── 📄login.php
+├── 📄login-check.php
+├── 📄login-header.php
+├── 📄loginprocess.php
+├── 📄logout.php
+├── 📄logoutprocess.php
+├── 📄marketing.php
+├── 📄marketing-header.php
+├── 📄profile.php
+├── 📄profile-edit.php
+├── 📄Readme.txt
+├── 📄register.php
+├── 📄registerbyadmin.php
+├── 📄registerbyadminpost.php
+├── 📄registerpost.php
+├── 📄session.php
+├── 📄session-admin.php
+├── 📄session-cc.php
+├── 📄session-mkt.php
+├── 📄tiktok-datatable.php
+├── 📄users.php
+```
+## Visualization
+
 ## Insights
 
 Overall, the analysis of the Top 22 Food Influencers on TikTok has provided valuable insights into their performance and impact in the realm of food-centric content. The project aimed to understand audience demographics, engagement metrics, content trends, and overall growth of these influencers. By leveraging data-driven insights and analytics, we have gained a deeper understanding of their strategies and identified areas for improvement.

@@ -169,6 +169,269 @@ d) Publish the Dashboard to Power BI Service
 
 <h3>6. Website Development</h3>
 
+a) First, we make a new folder called 'tiktokanalysis' and put it in the htdocs folder.
+
+b) Then, we insert a template which we have downloaded from a website.
+
+c) Next, we created a new database in phpmyadmin named 'tiktokanalysis' and created 3 tables as shown below:
+   
+  <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataAce/images/tt(1).png" /></div>
+
+d) Once we have created the database, we will need to set up the database connection for our system.To do so, we will create a php file named 'dbconnect.php'.
+   
+```
+<?php
+// Set db parameters
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "tiktokanalysis";
+      
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+      
+// Check the connection
+if (!$conn) {
+  die("Connection failed: " . mysqli_connect_error());
+}
+?>
+```
+
+e) Then we will make a registration page and the processes to store the data into the database.
+
+  - Register process
+       
+    ```
+    <?php
+    include 'dbconnect.php';
+    
+    $username = $_POST['username'];
+    $name = $_POST['name'];
+    $password = $_POST['password'];
+    $role = $_POST['role'];
+    
+    // Hash the password
+    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+    
+    // SQL query to insert the user data into the database
+    $sql = "INSERT INTO tb_user (username, name, password, role) VALUES ('$username', '$name', '$hashedPassword', '$role')";
+    
+    if (mysqli_query($conn, $sql)) {
+        // Registration successful
+        $registrationSuccess = true;
+    } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+    
+    if ($_POST) {
+        $insert = array(
+            'username' => $_POST['username'],
+            'name' => $_POST['name'],
+            'password' => $hashedPassword, // Store the hashed password in the array
+            'role' => $_POST['role']
+        );
+    } else {
+        echo "No data to store";
+    }
+    ?>
+    
+    <!-- HTML code for your registration form -->
+    
+    <?php
+    // Check if registration was successful and display success banner
+    if ($registrationSuccess) {
+        echo '<div class="success-banner">Registration successful!</div>';
+        // Redirect to the login page after a delay
+        header("Refresh: 1; URL=login.php");
+        exit();
+    }
+    ?>
+    ```
+
+f) Once done, we will make a login page and the processes to verify the user. We also implemented sessions which will ensure only entitled users can access the website.
+
+  - Login process
+      
+       
+    ```
+    <?php
+    session_start();
+    include 'dbconnect.php';
+    
+    if ($_POST) {
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+    
+        // Retrieve the hashed password from the database for the given username
+        $userQuery = "SELECT * FROM tb_user WHERE username = '$username'";
+        $userResult = mysqli_query($conn, $userQuery);
+        $user = mysqli_fetch_assoc($userResult);
+    
+        if ($user) {
+            $hashedPassword = $user['password'];
+            // Verify the entered password against the hashed password
+            if (password_verify($password, $hashedPassword)) {
+                
+                $_SESSION['username'] = $user['username'];
+                $_SESSION['name'] = $user['name'];
+                $_SESSION['role'] = $user['role'];
+    
+                if ($_SESSION['role'] == 1) // Admin
+                {
+                    header('Location: admin.php');
+                    exit();
+                } 
+                else if ($_SESSION['role'] == 2) // Content Creator
+                {
+                    header('Location: contentcreator.php');
+                    exit();
+                }   
+                else {
+                    header('Location: marketing.php');
+                    exit();
+                }
+            } else {
+                // Password is incorrect
+                echo '<script>alert("Incorrect password")</script>';
+                header("Location: tiktok-datatable.php");
+                exit();
+            }
+        } else {
+            // User does not exist
+            echo '<script>alert("User does not exist")</script>';
+            header("Location: login.php");
+            exit();
+        }
+    } else {
+        // No data submitted
+        header("Location: login.php");
+        exit();
+    }
+    ?>
+    ```
+    
+  - Session
+       
+    ```
+    <?php
+    
+    if(!session_id())
+    {
+    	session_start();
+    }
+    
+    if(isset($_SESSION['username']) != session_id())
+    {
+    	header('Location:mainlogin.php');
+    }
+    
+    ?>
+    ```
+  - Session Admin
+       
+    ```
+    <?php
+    session_start();
+    if (!isset($_SESSION['username']) || !isset($_SESSION['role']) || $_SESSION['role'] != 1) {
+        header("Location: login.php");
+        exit();
+    }
+    ?>
+    ```
+  - Session Marketing
+       
+    ```
+    <?php
+    if(!session_id())
+    {
+    	session_start();
+    }
+    
+    if(isset($_SESSION['username']) != session_id() || $_SESSION['role'] != 3)
+    {
+    	echo '<script>history.back()</script>';
+    }
+    ?>
+    ```
+  - Session Content Creator
+       
+    ```
+    <?php
+    if(!session_id())
+    {
+    	session_start();
+    }
+    
+    if(isset($_SESSION['username']) != session_id() || $_SESSION['role'] != 2)
+    {
+    	echo '<script>history.back()</script>';
+        exit;
+    }
+    ?>
+    ```
+
+g) Lastly, we made 3 different files to display the dashboard for each users. Below is the code we made for Admin dashboard.
+
+  - Admin Dashboard
+       
+    ```
+    <?php 
+
+    if (!session_id())
+    {
+        session_start();
+    }
+    
+    include 'session.php'; 
+    include 'admin-header.php'; 
+    include 'dbconnect.php';
+       
+    ?>
+    
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Dashboard</title>
+        <style>
+            .form-center {
+                margin: 0 auto;
+                max-width: 700px;
+            }
+            .iframe-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+        </style>
+    </head>
+    
+    <main id="main" class="main">
+    
+      <div class="pagetitle">
+        
+        <nav>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          </ol>
+        </nav>
+      </div>
+    
+      <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-center">Tiktok Dashboard for Admin</h5>
+    
+        <div class="iframe-container text-center">
+          <iframe title="dashboard_admin" width="100%" height="870" 
+            src="https://app.powerbi.com/view?r=eyJrIjoiMDFlZDQ1NmYtNzExOC00MDA4LWFlYTctZWVlYzEyNzFiN2Y1IiwidCI6IjBlMGRiMmFkLWM0MTYtNDdjNy04OGVjLWNlYWM0ZWU3Njc2NyIsImMiOjEwfQ%3D%3D" 
+            frameborder="0" allowFullScreen="true"></iframe>
+        </div>
+      </div>
+    </div>
+    
+    
+    <?php include 'footer.php'; ?>
+    ```
+
 ## Folder Structures
 
 For the Tiktok Dashboard Analysis system, the folder structure looks like below:

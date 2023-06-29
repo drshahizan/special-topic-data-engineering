@@ -486,7 +486,44 @@ For the Tiktok Dashboard Analysis system, the folder structure looks like below:
 ├── 📄tiktok-datatable.php
 ├── 📄users.php
 ```
+
 ## Visualization
+
+1. Login Page
+   
+  <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataAce/images/tt(2).png" /></div>
+
+2. Registration Page
+   
+  <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataAce/images/tt(7).png" /></div>
+
+3. Profile Page
+   
+  <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataAce/images/tt(5).png" /></div>
+
+4. Tiktok Datatable Page
+   
+  <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataAce/images/tt(4).png" /></div>
+  
+5. Manage User
+   
+  <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataAce/images/tt(6).png" /></div>
+
+6. Dashboard Page
+   - Admin
+   
+  <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataAce/images/tt(3).png" /></div>
+
+   - Marketing Manager
+   
+  <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataAce/images/tt(8).png" /></div>
+
+   - Content Creator
+   
+  <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataAce/images/tt(9).png" /></div>
+
+
+
 
 ## Insights
 

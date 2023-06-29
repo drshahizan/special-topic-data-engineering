@@ -43,6 +43,13 @@ In this project, our goal is to create a comprehensive Student Management System
 
 ## System Design
 
+### System Architecture
+
+<p align="center">
+  <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/DataAce/images/System%20Architecture.jpg">
+  </p>
+
+  
 ### Data Requirements
 
 The system's data requirements include storing and managing student information. The essential data fields may include:

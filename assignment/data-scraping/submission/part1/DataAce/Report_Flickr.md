@@ -10,7 +10,7 @@ Web scraping, also known as data scraping, web harvesting, or web data extractio
 
 Flickr is an online photo and video sharing platform that was launched in 2004. It is a popular platform among photographers and other visual content creators who use it to showcase their work, connect with other photographers, and share their content with a wider audience. Flickr is a good source of multimedia content for several reasons. Firstly, it has a large community of users who upload and share their photos and videos on the platform, meaning that there is a wide variety of multimedia content available. Secondly, Flickr has a robust search engine that allows users to search for photos and videos based on keywords, tags, and other parameters, making it easy to find specific types of multimedia content. Additionally, many Flickr users license their photos and videos under Creative Commons licenses, allowing others to use, modify, and share the content under certain conditions. Finally, Flickr allows users to comment on and interact with other users' photos and videos, creating a sense of community and engagement. Overall, these features make Flickr a valuable source of multimedia content for a range of purposes, including marketing, education, and personal use.
 
-## Process of web scraping
+## 3. Process of web scraping
  1. Install the required libraries :
     
     In this project, we use Python and need to install FlickrAPI. The metadata of the images displayed on Flickr are confidential and are not included in the inspect. Hence, the process of web scraping require API key from flickr to extract those data.
@@ -102,14 +102,14 @@ Flickr is an online photo and video sharing platform that was launched in 2004. 
 
 
 
-## 3. Choosing a Library for Web Scraping
+## 4. Choosing a Library for Web Scraping
 
 To complete this Flickr web scraping project, we used libraries such as pandas, csv, flickAPI and beautifulsoup. These libraries are chosen because it provides ease of use since we are familiar with it. We have experience in the past projects using the libraries so implementing it in this project has help us a lot. Next, pandas is used as it has many features when coding with python.We uses the dataframe from pandas to store the scrapped data in a structured way before exporting csv. Next, csv library is needed to export into csv file. Without it, the data cannot be exported to csv and it will complicate the process of uploading data to MongoDB. In addition, it is also a good approach to store the data as many people are fammiliar and can understand it. Lastly, beautifulsoup is needed because it provide powerful HTML manipulation. It provides range of features which allow us to locate specific elements based on tags, attributes or content. All in all, these library helped us in completing the web scraping because of its ease of use, large community supports and are compatible.
 
-## 4. Storing Data in MongoDB
+## 5. Storing Data in MongoDB
 MongoDB is beneficial for storing multimedia content due to its flexible schema, support for binary data, scalability, and high performance. To store data in MongoDB, you can organize it using collections and documents, with each document representing a multimedia item and containing relevant fields and metadata. Querying and analyzing data in MongoDB can be done through basic queries based on criteria like tags or file type, using the aggregation pipeline for advanced analysis, leveraging geospatial queries for location-based content, and performing full-text searches. Proper indexing and security measures should be implemented for efficient querying and protection of multimedia data.
 
-## 5. Potential Analysis
+## 6. Potential Analysis
 By using the scraped data from Flickr, we can perform a wide range of analysis to gain insights and extract meaningful information from the dataset. The dataset consists of several fields such as Photo ID, Title, Owner, Server, Tags, Source, Label, Width, Height, and URL, which provide valuable information about the photos uploaded to Flickr.
 
 1. Analysis of Popular Tags
@@ -125,6 +125,6 @@ By using the scraped data from Flickr, we can perform a wide range of analysis t
    We can analyze the sources from which photos were uploaded and identify popular platforms or applications used for uploading. Other than that, we can also explore any patterns or relationships between photo source and other variables like tags or photo characteristics.
 
 
-## 6. Conclusion
+## 7. Conclusion
 To conclude, the assignment discussed the process of web scraping and obtaining an API key for accessing the Flickr API and highlighted the BeautifulSoup library for web scraping multimedia content. It explained the benefits of using MongoDB for storing multimedia data, including its flexible schema, binary data support, scalability, and performance. The recommended approach for storing multimedia data in MongoDB involves organizing it into collections and documents. The importance of web scraping multimedia content for data analysis was emphasized, enabling researchers to gather valuable insights from diverse sources and enrich their analysis.Future research suggestions include image analysis, geospatial analysis, social media trends, content recommendation systems, and sentiment analysis. These avenues provide opportunities to gain deeper insights and leverage the scraped data for various data-driven research purposes.
 

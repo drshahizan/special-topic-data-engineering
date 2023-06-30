@@ -41,7 +41,7 @@
 
 ### 📂Folder content:
 
-* [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/Noctua/Report_PrayerTimeAPI.md)
+* [📖Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/API/submission/Noctua/Report_PrayerTimeAPI.md)
 * [💻Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/Noctua/Noctua_PrayerTimesAPI.ipynb)
 * [📎CSV file exported](https://github.com/drshahizan/special-topic-data-engineering/blob/main/Assignment/API/submission/Noctua/Waktu_Solat_Kuala%20Lumpur.csv)
 

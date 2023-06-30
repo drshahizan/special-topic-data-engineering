@@ -120,42 +120,9 @@ fig.update_layout(
 
 charts.append(fig)
 
-# Create a dictionary to store example texts for each sentiment
-example_texts = {}
 
-# Iterate over each sentiment category
-for sentiment in sentiments:
-    # Get the example texts for the current sentiment
-    texts = df.loc[df["sentiment"] == sentiment, "text"].head(5).tolist()
-    example_texts[sentiment] = texts
 
-# Create a table to display example texts for each sentiment
-table_data = []
-for sentiment, texts in example_texts.items():
-    table_data.append({"Sentiment": sentiment.capitalize(), "Example Texts": "<br>".join(texts)})
 
-fig = go.Figure(data=[go.Table(
-    header=dict(values=["Sentiment", "Example Texts"]),
-    cells=dict(values=[[table_data[i]['Sentiment'], table_data[i]['Example Texts']] for i in range(len(table_data))])
-)])
-
-fig.update_layout(
-    title="Example Texts for Each Sentiment",
-    autosize=False,
-    width=800,
-    height=400,
-    margin=dict(l=50, r=50, t=50, b=50),
-    font=dict(size=12),
-    hoverlabel=dict(bgcolor="white")
-)
-
-fig.update_traces(
-    columnwidth=[100, 400],  # Adjust the column widths
-    header=dict(fill=dict(color="#C2D4FF")),
-    cells=dict(fill=dict(color="#F5F8FF"))
-)
-
-charts.append(fig)
 
 
 # Count the occurrences of each sentiment category

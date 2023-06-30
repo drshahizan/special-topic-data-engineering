@@ -5,28 +5,28 @@
             <div class="navbar-brand-box">
                 <button type="button" class="btn header-item noti-icon waves-effect">
                     <a href="dashboard.php" class=" waves-effect">
-                        <span key="t-starter-page"><h3>Dashboard</h3></span>
+                        <span key="t-starter-page"><h3 style="color:white">Dashboard</h3></span>
+                    </a>
+                </button>
+            </div>
+            <div>
+                <button type="button" class="btn header-item noti-icon waves-effect">
+                    <a href="raw_data.php" class=" waves-effect">
+                        <span key="t-starter-page"><b style="color:white">Raw Data</b></span>
                     </a>
                 </button>
             </div>
             <div>
                 <button type="button" class="btn header-item noti-icon waves-effect">
                     <a href="processed_data.php" class=" waves-effect">
-                        <span key="t-starter-page"><b>Raw Data</b></span>
-                    </a>
-                </button>
-            </div>
-            <div>
-                <button type="button" class="btn header-item noti-icon waves-effect">
-                    <a href="processed_data.php" class=" waves-effect">
-                        <span key="t-starter-page"><b>Processed Data</b></span>
+                        <span key="t-starter-page"><b style="color:white">Processed Data</b></span>
                     </a>
                 </button>
             </div>
             <div>
                 <button type="button" class="btn header-item noti-icon waves-effect">
                     <a href="indepth-analysis.php" class=" waves-effect">
-                        <span key="t-starter-page"><b>In-Depth Analysis</b></span>
+                        <span key="t-starter-page"><b style="color:white">In-Depth Analysis</b></span>
                     </a>
                 </button>
             </div>

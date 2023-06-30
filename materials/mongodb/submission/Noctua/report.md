@@ -181,6 +181,11 @@ net start MongoDB
   <img src="images/mongodbbooks.png" alt="Centered Image">
 </p>
 
+## System Architecture
+<p align="center">
+  <img src="images/aaaa.png" alt="Centered Image">
+</p>
+
 ## Conclusion: 
 In conclusion, our group is enthusiastic about the opportunity to create a book review system using MongoDB and PHP in Visual Studio Code. By harnessing the strength of MongoDB's flexible document-based database and integrating it seamlessly with PHP, we can build a powerful and scalable system that meets the needs of both readers and authors. By delivering a high-quality book review portal, our group aims to make a positive impact on the reading books, helping users find the best book that they should try. 
 

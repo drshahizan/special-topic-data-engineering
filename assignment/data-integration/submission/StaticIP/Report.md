@@ -75,12 +75,15 @@ Launch data factory.
 <br>
 
 ### 9. Create Link Service 
+In this step, you create a link service in Azure Data Factory. A link service represents a connection to an external data store. It defines the properties and credentials required to establish a connection to the data source. Link services are used to establish connectivity with various data sources and allow data integration pipelines to access and interact with those data sources.
 
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Images/link%20service.jpg">
 
 <br>
 
 ### 10. Create Dataset 
+
+
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Images/create%20dataset.jpg">
 
 <br>

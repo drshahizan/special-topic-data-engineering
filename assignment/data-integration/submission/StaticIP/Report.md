@@ -82,7 +82,7 @@ In this step, you create a link service in Azure Data Factory. A link service re
 <br>
 
 ### 10. Create Dataset 
-
+After creating the link service, you need to create a dataset in Azure Data Factory. A dataset represents a named view of data in a data store. It defines the location, structure, and other metadata about the data you want to process. In this step, you create a dataset that specifies the location and format of the data you want to ingest or process.
 
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Images/create%20dataset.jpg">
 

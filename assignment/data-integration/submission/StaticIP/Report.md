@@ -89,6 +89,7 @@ After creating the link service, you need to create a dataset in Azure Data Fact
 <br>
 
 ### 11. Create Blob to SQL Pipeline 
+Once the link service and dataset are created, you can create a pipeline in Azure Data Factory to orchestrate the movement and transformation of data from a Blob storage to a SQL database.
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Images/blob%20to%20sql.jpg">
 
 <br>

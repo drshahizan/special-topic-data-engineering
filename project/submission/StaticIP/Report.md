@@ -2,13 +2,13 @@
 
 # Table of Content
 * [Introduction](#-introduction)
-* [Background](#️-background)
+* [Background](#-background)
 * [Objectives](#-objectives)
-* [Methodology](#️-methodology)
-* [Folder Structure](#️-folder-structure)
-* [Visualization](#️-visualization)
-* [Insights](#️-insights)
-* [Conclusion](#️-conclusion)
+* [Methodology](#-methodology)
+* [Folder Structure](#-folder-structure)
+* [Visualization](#-visualization)
+* [Insights](#-insights)
+* [Conclusion](#-conclusion)
 
 ## 📒 Introduction
 ## 🧱 Background

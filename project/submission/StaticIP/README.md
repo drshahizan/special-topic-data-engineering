@@ -31,7 +31,7 @@
 In short, the role of analyzing energy usage is critical in today's corporate landscape, where sustainable practices are increasingly valued. To minimize their ecological footprint while boosting their performance. Companies need reliable methods and strategies to control their energy usage. As consumer awareness about sustainability issues grows stronger each day adopting eco-friendly policies becomes more of a necessity than an option. This report outlines a comprehensive Malaysia Energy Consumption Dashboard development project's findings culmination. The central objectives were to analyze yearly and monthly trends in Malaysia's energy consumption, generating insight data suitable for promoting highly actionable responses and optimizing performance through better-informed consumer choices. This dashboard has substantial value within the context of enhancing sustainable practices through efficient resource management. Employing informative data visualization tools on one central platform, we can offer significant advantages to an even brighter future concerning sustainable development for all Malaysians.
 
 ## Contents📝
-- 💻[Report](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/StaticIP/StaticIP_dashboard)
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/StaticIP/StaticIP_dashboard)
 - 📂[API Scraping](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/StaticIP/API)
-- 📂[Database](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/StaticIP/dashboard.sql)
-- 📂[Code](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/StaticIP/StaticIP_dashboard)
+- 🗄️[Database](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/StaticIP/dashboard.sql)
+- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/StaticIP/StaticIP_dashboard)

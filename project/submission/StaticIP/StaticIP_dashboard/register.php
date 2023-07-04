@@ -24,7 +24,12 @@
 
 <body class="bg-gradient-primary">
 
-    <div class="container">
+<div class="container"> 
+
+<!-- Outer Row -->
+<div class="row justify-content-center">
+
+    <div class="col-xl-10 col-lg-12 col-md-9">
 
         <div class="card o-hidden border-0 shadow-lg my-5">
             <div class="card-body p-0">
@@ -35,20 +40,26 @@
                             <div class="text-center">
                                 <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
                             </div>
-                            <form class="user">
-                                <div class="form-group">
-                                <input type="text" name="fic" class="form-control" id="InputIC"
-                                                    placeholder="Enter your IC number without dash (-)" required>
-                                </div>
-                                <div class="form-group">
-                                <input type="password" name="fwpd" class="form-control" id="InputPassword"
-                                                    placeholder="Enter your password" required>
-                                </div>
-                                <a href="login.php" class="btn btn-primary btn-user btn-block">
-                                    Register Account
-                                </a>
-                                <hr>
+
+                            <form class="form-horizontal" method="POST" action="login.html">
+                                <fieldset>
+                                    <div class="form-group">
+                                    <label for="InputIC"class="form-label mt-4">IC Number</label>
+                                    <input type="text" name="fic" class="form-control" id="InputIC" placeholder="Enter your IC number without dash (-)"required>
+
+                                    <label for="InputPassword"class="form-label mt-4">Password</label>
+                                    <input type="password" name="fwpd" class="form-control" id="InputPassword" placeholder="Enter your password"required>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                    <div class="mt-4">
+                                    <button type="submit" name="submit" class="btn btn-primary">Register</button>
+                                    </div>
+                                    </div>
+                                </fieldset>
                             </form>
+
+                            <hr>
                             <div class="text-center">
                                 <a class="small" href="login.php">Already have an account? Login!</a>
                             </div>
@@ -59,6 +70,9 @@
         </div>
 
     </div>
+
+</div>
+</div>
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>

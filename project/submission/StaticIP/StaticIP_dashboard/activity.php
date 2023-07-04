@@ -262,6 +262,13 @@ include ('dbconnect.php');
     <!-- Page level custom scripts -->
     <script src="js/demo/datatables-demo.js"></script>
 
+    <script>
+    // Initialize DataTable
+    $(document).ready(function() {
+        $('#dataTable').DataTable();
+    });
+    </script>
+
 </body>
 
 </html>

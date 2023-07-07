@@ -28,19 +28,24 @@ The movie recommendation engine collects relevant data about movies, such as gen
 
 ## Interface
 1. Login Page
+   
     ![Alt text](image-4.png)
 
 2. Dashboard page
+
     ![Alt text](image.png)
 
-3. Movie list page
-    ![Alt text](image-1.png)
+4. Movie list page
 
-4. Reccomendation list page
-    ![Alt text](image-2.png)
+   ![Alt text](image-1.png)
 
-5. Reccomendation list 2 page
-    ![Alt text](image-3.png)
+6. Reccomendation list page
+
+   ![Alt text](image-2.png)
+
+8. Reccomendation list 2 page
+
+   ![Alt text](image-3.png)
 
 ## Insight
 By leveraging the power of data collection and advanced algorithms, a movie recommendation engine can provide users with personalized movie suggestions that align with their unique preferences. The integration of collaborative filtering and content-based filtering techniques allows the engine to consider both user behavior and movie attributes, resulting in accurate and relevant recommendations. The seamless integration with external platforms enhances the user experience by providing direct links to watch movies, check showtimes, or purchase tickets. With a user-friendly dashboard and interface, users can effortlessly explore recommended movies, manage their profiles, and provide valuable feedback. Furthermore, by integrating with business intelligence software, the recommendation engine gains the ability to analyze user preferences and viewing patterns, leading to continuous improvement in recommendation quality and overall user satisfaction.

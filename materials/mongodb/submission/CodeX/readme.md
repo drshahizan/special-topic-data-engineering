@@ -6,7 +6,7 @@
     <th>Matric No</th>
   </tr>
   <tr>
-    <td>ADRINA ASSYIQIN MD ADHA</td>
+    <td>ADRINA ASYIQIN MD ADHA</td>
     <td>A20EC0174</td>
   </tr>
   <tr>

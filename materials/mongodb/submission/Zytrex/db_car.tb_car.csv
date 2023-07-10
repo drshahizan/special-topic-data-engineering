@@ -1,0 +1,6 @@
+_id,c_reg,c_type,c_model,c_year,c_price,c_filename,c_rating
+64abebd0bd4bd7a0cf0877a4,HAA3333,SUV,Proton X50,2021,300,protonx50.png,10
+64abecb3bd4bd7a0cf0877a5,JUC2345,Sedan,Myvi Turbo,2021,80,download.jfif,8
+64abed41bd4bd7a0cf0877a6,WTL9461,Sedan,Honda City,2022,200,hondacity.png,9
+64ac0790bd4bd7a0cf0877a7,JVM1111,MPV,Perodua Alza,2018,100,alza.png,5
+64ac1428bd4bd7a0cf0877a9,QAA1212,SUV,Toyota Corolla,2022,350,toyotacorolla.png,10

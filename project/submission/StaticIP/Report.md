@@ -73,6 +73,11 @@ Public Users are only allowed to view both monthly and yearly data tables.
 - Yearly List
 
 ## 🔍 Insights
+There are various insights that can be gained from the dashboard based on the types of pruducts and date. At first, the total consumption of the crude oil, NGPL and  other liquids has the highest total consumption among the products over the years. From the year 1993 to 2000, the crude oil including lease condensate increased rapidly and the total consumption dropped to 8280 in 2000. This is because crude oil and NGPL are mainly used for transportation. 
+
+To provide the usage of crude oil, NGPL and other liquids for transportation use and other purposes, the total productions of crude oil including lease condensate have the highest percentages which are 44.08% followed by total petroleum and other liquids (26.75%) and then crude oil, NGPL and other liquids (26.39%). The total producction of NGPL, refinery processing gain are all less than 10%.
+
+Based on the year, the tree map diagram in the dashboard shows that the highest total production is in the yaer of 1998 which has the 63996.30 of total consumption and production. The top three year that have the highest total production is 1998, 1999, 1997. As the practice of car pooling and taking transportation is being promoted in Malaysia, we can see that the total production of the crude oil, petroleum, NGPL and other liquids has the lowest total consumption during the year 2021, 2022 and 2023.  
 
 ## 📑 Conclusion
 

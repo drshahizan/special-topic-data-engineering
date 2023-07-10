@@ -15,11 +15,8 @@ Web scraping is the process of automatically extracting data from websites, and 
 Google Scholar is a widely recognized platform for accessing academic publications, including scholarly articles, conference papers, theses, and dissertations. It offers an extensive database covering a wide range of disciplines, making it an excellent source for research data. It allows users to search for scholarly articles, view abstracts, and access full-text articles when available. Researchers often rely on Google Scholar to find relevant literature for their studies due to its comprehensive coverage and indexing of academic sources. By scraping Google Scholar, we can extract relevant information such as titles, authors, abstracts, citations, and publication dates.
 
 ### Web Scraping Process
-- Detail the web scraping process, including the tools and libraries used and any challenges that were encountered.
 
-The challenges encountered during web scraping Google Scholar included handling dynamic web page elements, handling pagination to collect multiple pages of search results, dealing with dynamic content loading through JavaScript, implementing appropriate waiting periods for page loading, and avoiding IP blocking or CAPTCHA from excessive requests.
-
-#### a. Choosing a Library for Web Scraping
+#### a. Import the Libraries for Web Scraping
 
 ```python
 from selenium import webdriver
@@ -32,13 +29,6 @@ import pymongo
 import time
 import re
 ```
-Several libraries are available for web scraping, each with its own strengths and weaknesses. The three main libraries considered for this project were Beautiful Soup, Scrapy, and Selenium.
-
-- **Beautiful Soup** is a widely used library for parsing HTML and XML documents. It provides a simple and intuitive interface for extracting data from web pages. Beautiful Soup excels at extracting structured data from static web pages but may face limitations when dealing with dynamic or JavaScript-based content.
-
-- **Scrapy** is a comprehensive web scraping framework that offers extensive functionalities for extracting and processing data from websites. It provides more advanced features, including built-in support for handling JavaScript rendering and handling complex web scraping tasks. However, Scrapy has a steeper learning curve and may require more effort to set up and configure.
-
-- **Selenium** is a powerful tool for automated web browsing. It allows for programmatically controlling web browsers and interacting with dynamic web page elements. Selenium is especially useful when dealing with JavaScript-rendered content or scenarios that require user interactions. However, it may introduce more complexity due to the need for browser automation.
 
 #### b. Define the Google Scholar URL that you want to scrape
 
@@ -134,10 +124,12 @@ with tqdm(total=len(scholar_list)) as pbar:  #progress bar
 
             # format the data in dictionary format
             document = {}
-            try:
+            if result.find('a', class_='gsc_oci_title_link'):
                 document['Title'] = result.find('a', class_='gsc_oci_title_link').text
-            except:
+                document['Link'] = result.find('a', class_='gsc_oci_title_link')['href']
+            else:
                 document['Title'] = result.find('div', id='gsc_oci_title').text
+            
             for field, value in zip(result.find_all('div', class_='gsc_oci_field'), result.find_all('div', class_='gsc_oci_value')):
                 if field.text == 'Scholar articles':
                     break
@@ -145,14 +137,32 @@ with tqdm(total=len(scholar_list)) as pbar:  #progress bar
                     document[field.text] = int(re.search(r'\d+', value.find('a').text).group())
                 else:
                     document[field.text] = value.text
-            if result.find('a', class_='gsc_oci_title_link'):
-                document['Link'] = result.find('a', class_='gsc_oci_title_link')['href']
 
 ```
+
+#### e. Insert Data into MongoDB
+Insert the document into MongoDB at each iteration.
+```python
+collection.insert_one(document)
+```
+
+### Challenges Encountered
+
+The challenges encountered during web scraping Google Scholar included handling dynamic web page elements, handling pagination to collect multiple pages of search results, dealing with dynamic content loading through JavaScript, implementing appropriate waiting periods for page loading, and avoiding IP blocking or CAPTCHA from excessive requests.
 
 ### Dataset Obtained
 
 The data set obtained from web scraping Google Scholar consisted of publication details related to the Faculty of Computing at the University of Technology Malaysia. The data set includes metadata such as article titles, authors, link, publication dates, description, journal name, volume and issue number, pages, publisher and citation counts. The data is stored in MongoDB for efficient querying and analysis.
+
+## Choosing a Library for Web Scraping
+
+Several libraries are available for web scraping, each with its own strengths and weaknesses. The three main libraries considered for this project were Beautiful Soup, Scrapy, and Selenium.
+
+- **Beautiful Soup** is a widely used library for parsing HTML and XML documents. It provides a simple and intuitive interface for extracting data from web pages. Beautiful Soup excels at extracting structured data from static web pages but may face limitations when dealing with dynamic or JavaScript-based content.
+
+- **Scrapy** is a comprehensive web scraping framework that offers extensive functionalities for extracting and processing data from websites. It provides more advanced features, including built-in support for handling JavaScript rendering and handling complex web scraping tasks. However, Scrapy has a steeper learning curve and may require more effort to set up and configure.
+
+- **Selenium** is a powerful tool for automated web browsing. It allows for programmatically controlling web browsers and interacting with dynamic web page elements. Selenium is especially useful when dealing with JavaScript-rendered content or scenarios that require user interactions. However, it may introduce more complexity due to the need for browser automation.
 
 
 ### Criteria for Choosing the Library
@@ -164,9 +174,18 @@ Considering the requirements and challenges, the chosen library for this project
 The advantages of using BeautifulSoup and Selenium together include the ability to handle dynamic web pages, access individual publication pages, and extract structured data efficiently. This combination provides a flexible and reliable solution for web scraping Google Scholar.
 
 ## Storing Data in MongoDB
-- Discuss the benefits of using MongoDB for storing publication content data.
-- Explain the best way to store the data in MongoDB, including the data structure and organization.
-- Provide examples of how the data can be queried and analyzed using MongoDB.
+
+Using MongoDB for storing publication content data offers several benefits:
+
+- Flexible Schema: MongoDB is a NoSQL database that provides a flexible schema design. In the context of publication content, this flexibility allows us to store data in a schema-less manner, accommodating variations in article structures and fields. This is particularly useful when dealing with diverse publications with different metadata formats.
+
+- Scalability: MongoDB is designed to scale horizontally, allowing us to handle large volumes of publication data efficiently. It supports automatic sharding, which distributes data across multiple servers, enabling high performance and scalability as the data grows.
+
+- Querying and Indexing: MongoDB provides powerful querying capabilities, including the ability to perform complex queries and aggregations. We can index specific fields to optimize query performance and ensure fast retrieval of publication data based on various criteria such as authors, keywords, publication date, etc.
+
+- Document-oriented Storage: MongoDB stores data in a JSON-like document format called BSON (Binary JSON). This document-oriented storage aligns well with the structure of publication content, as each article or publication can be represented as a document.
+
+- Integration with Python and other languages: MongoDB provides official drivers for various programming languages, including Python. This allows for seamless integration between the Python code and the database, making it convenient to interact with and manipulate publication content data.
 
 ```python
 
@@ -192,8 +211,6 @@ collection.insert_one(document)
 ```
 
 ## Conclusion
-- Summarize the main points of the assignment and restate the importance of web scraping publication content for data analysis.
-- Offer suggestions for future research or analysis using the data set obtained from Google Scholar.
 
 Web scraping publication content, specifically from Google Scholar, provides researchers with a valuable resource for data analysis and research. By leveraging libraries in Python such as BeautifulSoup and Selenium, it is possible to extract text content related to the Faculty of Computing at the University of Technology Malaysia. The data obtained can be stored in MongoDB, which offers flexibility, scalability, and efficient querying capabilities.
 

@@ -34,5 +34,5 @@ In short, the role of analyzing energy usage is critical in today's corporate la
 - 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/StaticIP/Report.md)
 - 📂[API Scraping](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/StaticIP/API)
 - 🗄️[Database](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/StaticIP/dashboard.sql)
-- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/StaticIP/StaticIP_dashboard)
+- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/StaticIP/StaticIP_dashboard.zip)
 - 🎬[Presentation Video](https://youtu.be/IydqbNBnBn0)

@@ -1,8 +1,4 @@
-<div align="center">
-   <h1>Feedback Analysis System</h1>
-</div>
-
-## Table of Contents
+# Customer Analysis System 
 - [Introduction](#introduction)
 - [System Design](#system-design)
 - [Implementation](#implementation)
@@ -12,9 +8,18 @@
 - [References](#references)
 
 ## Introduction
+
+
 ## System Design
+
+
 ### System Architecture
+<p align="center">
+<img width="444" alt="image" src="">
+</p>
+
 ### Data Requirements
+
 The data requirements for the systems are as follows:
   <table>
   <tr>
@@ -52,10 +57,156 @@ The data requirements for the systems are as follows:
 </table>
 
 The initial data is obtain from [here](https://www.kaggle.com/datasets/edumucelli/spotifys-worldwide-daily-song-ranking?resource=download).
+
 ### Functionalities
+
+The key functionalities of the system are as follows:
+1. **Create song and its ranking**: Admin add songs and its ranking into the system.
+2. **Read song ranking**: Admin can read the song ranking record.
+3. **Update song ranking**: Admin can update the song ranking and the song information.
+4. **Delete song ranking**: Admin can delete the song ranking record.
+
 ## Implementation
-### Step 1:
+### Step 1: Dowload necessary tools and software
+1. Install all tools and software that are needed:
+  - [XAMPP](https://www.apachefriends.org/download.html)
+  - [MongoDB](https://www.mongodb.com/try/download/community)
+  - [Composer](https://getcomposer.org/download/)
+2. Make sure that the MongoDB is running and accessible.
+3. In the command prompt, go to your project directory. Run the command to install the MongoDB PHP driver.
+   ```
+   composer require mongodb/mongodb
+   ```
+### Step 2: Create Database in MySQL
+1. Create a database and table in mysql to store the song data. 
+
+<img width="500" alt="image" src="">
+
+### Step 3: Connect to Database
+1. MySQL
+   
+   ```php
+    <?php
+    //Set db parameters
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "db_song";
+
+    //Create connection
+    $con = mysqli_connect($servername, $username, $password, $dbname);
+    ?>
+    ```
+
+2. MongoDB
+   
+     ```php
+     <?php
+     require 'vendor/autoload.php'; // Include the MongoDB PHP driver
+
+     // Connect to MongoDB
+     $mongoClient = new MongoDB\Client("mongodb://localhost:27017");
+
+     // Select a database
+     $database = $mongoClient->selectDatabase('song');
+     ?>
+     ```
+   
+### Step 4: Implement CRUD Operations with MySQL
+Develop PHP scripts to perform CRUD operations on the MySQL database:
+1. ```Create```: Implement functionality to insert new data records into MySQL.
+2. ```Read```: Retrieve and display data from MySQL.
+3. ```Update```: Allow updating existing data records in MySQL.
+4. ```Delete```: Provide the ability to remove unwanted data entries from MySQL.
+
+### Step 5: Implement CRUD Operations with MongoDB
+Develop PHP scripts to perform CRUD operations on the MongoDB database:
+1. ```Create```:: Implement functionality to insert new data records into MongoDB.
+2. ```Read```: Retrieve and display data from MongoDB.
+3. ```Update```: Allow for updating existing data records in MongoDB.
+4. ```Delete```: Provide the ability to remove unwanted data entries from MongoDB.
+
+### Step 6: Preprocessing and Analysis of Data
+It has been found that all of the data does not consist of any missing value, and we have applied statistical analysis and visualized the data to gain insight into it. 
+
+### Step 7: Develop a Web Application
+
+
 ## Web Interface
+- Login Page
+<img width="960" alt="image" src="">
+
+- Home Page, View Song List
+<img width="960" alt="image" src="">
+
+- Add New Song
+<img width="960" alt="image" src="">
+
+- Update Song Details
+<img width="960" alt="image" src="">
+
+- Delete a Song
+<img width="960" alt="image" src="">
+
+- Search for a Song
+<img width="960" alt="image" src="">
+
 ## Testing and Validation
+1. Create Operation Testing
+
+  Insert song information and click the "Add Song" button
+  <img width="947" alt="image" src="">
+
+  Check the data in MongoDB and Mysql
+  - Mysql
+  <img width="947" alt="image" src="">
+  
+  - MongoDB
+  <img width="947" alt="image" src="">
+
+2. View Operation Testing
+ <img width="960" alt="image" src="">
+ 
+3. Update Operation Testing
+
+  Update song information and click "Update Song" button
+  <img width="946" alt="image" src="">
+  
+  Check the data in MongoDB and Mysql
+  - Mysql
+  <img width="946" alt="image" src="">
+  
+  - MongoDB
+  <img width="946" alt="image" src="">
+
+4. Delete Operation Testing
+
+  Delete song information and click the "OK" button
+  <img width="960" alt="image" src="">
+
+  Check the data in MongoDB and Mysql
+  - Mysql
+  <img width="394" alt="image" src="">
+
+  - MongoDB
+  <img width="741" alt="image" src=">
+
+
 ## Conclusion
+
+
+Key Findings:
+
+
+
+Challenges Faced:
+
+
+
+Potential Improvements:
+
+
+
+
 ## References
+

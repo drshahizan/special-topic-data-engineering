@@ -68,9 +68,16 @@ Admins are able to view, edit and delete data in both monthly and yearly data ta
 <img  src="./Image/year.jpg"></img>
 
 ### Public User
-Public Users are only allowed to view both monthly and yearly data tables.
-- Monthly List 
-- Yearly List
+Public Users are only allowed to view the dashboard, actovity list and product list.
+- Dashboard
+<img  src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/StaticIP/Image/Screenshot%202023-07-11%20010022.png"></img>
+
+- Activity List
+<img  src="./Image/activity.jpg"></img>
+
+- Product List
+<img  src="./Image/product.jpg"></img>
+
 
 ## 🔍 Insights
 There are various insights that can be gained from the dashboard based on the types of pruducts and date. At first, the total consumption of the crude oil, NGPL and  other liquids has the highest total consumption among the products over the years. From the year 1993 to 2000, the crude oil including lease condensate increased rapidly and the total consumption dropped to 8280 in 2000. This is because crude oil and NGPL are mainly used for transportation. 

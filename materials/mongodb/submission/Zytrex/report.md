@@ -142,6 +142,8 @@ CRUD stands for Create, Read, Update, and Delete, which are the basic operations
 - ![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/af5ffbb7-678a-4d5c-9aa1-2e55338aaa11)
 - `MongoDB Database`:
 - ![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/1cfe14d2-bdd6-4105-9439-80d3743ec021)
+- ![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/3c611198-9ed8-484c-96a9-692c1bc130fa)
+
 
 
 

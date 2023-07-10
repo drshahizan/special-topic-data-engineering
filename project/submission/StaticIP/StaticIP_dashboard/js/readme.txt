@@ -1,1 +1,0 @@
-this dir is for js draw data into chart

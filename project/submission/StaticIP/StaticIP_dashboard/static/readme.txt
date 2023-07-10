@@ -1,1 +1,0 @@
-this dir is for static element like picture

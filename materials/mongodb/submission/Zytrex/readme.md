@@ -10,12 +10,12 @@
     <td>A20BE0161</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>CHONG KAI ZHE</td>
+    <td>A20EC0186</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>NUR IRDINA ALIAH BINTI ABDUL WAHAB</td>
+    <td>A20EC0115</td>
   </tr>
 </table>
 

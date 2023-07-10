@@ -1,4 +1,5 @@
 <h1 align='center'>Car Recommendation System</h1>
+<h2 align='center'>Group: Zytrex</h2>
 <h2 align='center'>Group Members</h2>
 <table align='center'>
   <tr>

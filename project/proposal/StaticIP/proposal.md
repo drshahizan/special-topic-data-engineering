@@ -33,11 +33,10 @@
 ## 🔬 Goals and Objectives
  The goal is to develop an electricity consumption analysis dashboard that could ease the analysis process of electricity consumption in Malaysia which offers real-time information, aids companies and groups in keeping track of their energy usage, spotting areas with high levels of consumption and waste as well as taking proactive steps to increase efficiency. The following objectives are the focus of our electricity consumption analysis dashboard:
 
-- To monitor real-time electricity KPIs.
-- To keep track of electricity usage by individual utilities easily.
-- To categorize electricity costs based on different segments. 
-- To determine areas with high electricity consumption.
-- To observe the variation in electricity consumption of a specific period.
+- Provide a comprehensive overview of energy consumption in Malaysia using different ways of visualization.
+- Analyze energy consumption data to identify the highest energy consumed in production by product of a specific period.
+- Provide interactive dashboard to offer dynamic and customizable user experience.
+- Keep track of energy usage by utilities in Malaysia easily.
 
  This allows companies to focus their attention on reasons for high demand of electricity and plan ways to control electricity consumption and minimize costs.
 

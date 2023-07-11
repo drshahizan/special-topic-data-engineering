@@ -1,4 +1,4 @@
-## Image Analysis for Rotten Fruit Detection
+<h1 align='center'>Image Analysis for Rotten Fruit Detection</h1>
 
 ## Table of Contents
 * [Introduction](#introduction)

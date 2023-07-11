@@ -79,8 +79,7 @@ The student can take the examinations and view their own results.
    ```
 ### Step 2: Create Database in MySQL
 1. Create a database and table in mysql to store the data. 
-
-<img width="500" alt="image" src="">
+<img  src="./Images/Screenshot_18.jpg"></img><br>
 
 ### Step 3: Connect to Database
 1. MySQL

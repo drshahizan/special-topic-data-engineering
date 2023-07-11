@@ -1,10 +1,12 @@
 
+
 <h1 align='center'>Image Analysis for Rotten Fruit Detection</h1>
 
 ## Table of Contents
 * [Introduction](#introduction)
 * [Background](#background)
 * [Objectives](#objectives)
+* [Technology Used](#technologies-used)
 * [Methodology](#methodology)
 * [Folder Structure](#folder-structure)
 * [User Interface](#user-interface)
@@ -34,6 +36,21 @@ The primary objectives of the Rotten Fruit Detection System are as follows:
 **3. Minimize economic losses:** Early detection of rotten fruits enables timely removal, preventing the spread of decay to other fruits and reducing financial losses for fruit producers. By optimizing the quality control process, the system helps maximize the yield of sellable fruits.
 
 **4. Support sustainable food practices:** By preventing the sale of rotten fruits, the system promotes sustainable food practices by minimizing food waste. It encourages responsible production and consumption patterns in the fruit industry, contributing to a more environmentally friendly approach.
+
+
+## Technologies Used
+
+`Pymongo`: Pymongo is a Python library that provides tools and functionalities for working with MongoDB databases. It allows users to interact with MongoDB, a popular NoSQL database, by providing an interface to connect, query, insert, update, and delete data.
+
+`Numpy`: Numpy is a fundamental library for scientific computing in Python. It provides a powerful array and matrix manipulation capabilities, along with a collection of mathematical functions. Numpy is widely used for numerical computations and data manipulation tasks, such as linear algebra operations, statistical analysis, and array-based computations.
+
+`Cloudinary`: Cloudinary is a cloud-based media management platform that offers a range of services for storing, manipulating, and delivering images and videos. It provides APIs and SDKs that enable developers to upload, transform, optimize, and serve media files efficiently. Cloudinary is commonly used in web and mobile applications to handle image and video processing tasks, including resizing, cropping, and format conversion.
+
+`TensorFlow Keras`: TensorFlow is an open-source machine learning framework, and Keras is a high-level neural networks API that runs on top of TensorFlow. Together, TensorFlow Keras provides a user-friendly interface for building, training, and deploying deep learning models. It offers a wide range of pre-built neural network layers, optimizers, and loss functions, making it easier to develop complex machine learning models.
+
+`sklearn`: Scikit-learn, often referred to as SKLearn, is a popular machine learning library in Python. It provides a wide range of tools and algorithms for various tasks in machine learning, including classification, regression, clustering, dimensionality reduction, and model evaluation. SKLearn offers an intuitive and consistent API, making it accessible for both beginners and experienced data scientists. It also integrates well with other scientific libraries, such as Numpy and Pandas.
+
+`Pixabay API`: Pixabay API is an application programming interface that allows developers to access and retrieve images, videos, and other media assets from the Pixabay platform. Pixabay is a popular online community that offers a vast collection of high-quality, royalty-free images and videos contributed by creators worldwide.
 
 ## Methodology
 

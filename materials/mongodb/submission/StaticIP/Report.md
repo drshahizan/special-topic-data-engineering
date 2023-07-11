@@ -1,4 +1,6 @@
-# Student Result Analysis System
+<h1 align ='center'>Student Result Analysis System</h1>
+
+## Table Content
 - [Introduction](#introduction)
 - [System Design](#system-design)
 - [Implementation](#implementation)

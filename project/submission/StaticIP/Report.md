@@ -127,7 +127,7 @@ Public Users are only allowed to view the dashboard, actovity list and product l
 <img  src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/StaticIP/Image/Screenshot%202023-07-11%20010022.png"></img>
 
 - Activity List
-<img  src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/StaticIP/Image/Screenshot%202023-07-11%20010022.png"></img>
+<img  src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/StaticIP/Image/Screenshot%202023-07-11%20010852.png"></img>
 
 - Product List
 <img  src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/StaticIP/Image/Screenshot%202023-07-11%20010838.png"></img>

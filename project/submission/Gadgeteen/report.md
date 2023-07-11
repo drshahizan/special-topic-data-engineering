@@ -113,12 +113,12 @@ The project will follow the Agile methodology, with sprints of 10-12 weeks, and 
 1. Login Page
 
 Users must log in with their username and password to access the page. If they do not have an account, they can create one by clicking the "register" button. Once logged in, you should be able to view all the content on the page.
-   <div align="center">![Alt text](assets/img/image.png)</div>
+   <div align="center">![Alt text](/assets/img/image.png)</div>
 
 2. Register Page
 
 Users have the option to register themselves to gain access to the system.
-   <div align="center">![Alt text](assets/img/image-1.png)</div>
+   <div align="center">![Alt text](/assets/img/image-1.png)</div>
    
 
 ## Conclusion

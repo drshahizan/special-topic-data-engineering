@@ -201,7 +201,7 @@ It has been found that all of the data does not consist of any missing value, an
  
 3. Update Operation Testing
 
-  Update the user information by clicking the edit action button
+  Update the user information by clicking the the "Save changes" button. 
   <img width="946" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/Screenshot%202023-07-12%20000925.png">
   
   Check the data in MongoDB and Mysql

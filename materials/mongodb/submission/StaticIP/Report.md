@@ -186,15 +186,15 @@ It has been found that all of the data does not consist of any missing value, an
 ## Testing and Validation
 1. Create Operation Testing
 
-  Insert song information and click the "Add Song" button
-  <img width="947" alt="image" src="">
+  Insert a new exam information 
+  <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/create.png">
 
   Check the data in MongoDB and Mysql
   - Mysql
-  <img width="947" alt="image" src="">
+  <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/createphp.png">
   
   - MongoDB
-  <img width="947" alt="image" src="">
+  <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/createmongo.png">
 
 2. View Operation Testing
 

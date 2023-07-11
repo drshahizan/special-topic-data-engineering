@@ -39,6 +39,6 @@ In this assignment, the Student Result Analysis System allows users to perform v
 ## Contents📝
 - 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Report.md)
 - 📂[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/system.zip)
-- 🛠️[MongoDB Database Configuration]()
+- 🛠️[MongoDB Database Configuration](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/mongodb.php)
 - ⚙️[Mysql Database Configuration]()
 - 📰[Initial Database](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/fbc_reviewer.csv)

@@ -21,6 +21,41 @@ The student result analysis system is developed by using two different type of d
 </p>
 
 ### Data Requirements
+The main data requirements (student result table) for the systems are as follows:
+  <table>
+  <tr>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>A unique identifier for result</td>
+  </tr>
+  <tr>
+    <td>student_id</td>
+    <td>A unique identifier for student</td>
+  </tr>
+    <tr>
+    <td>test_id</td>
+    <td>A unique identifier for test/exam</td>
+  </tr>
+    <tr>
+    <td>score</td>
+    <td>Number of correct questions in a test</td>
+  </tr>
+  <tr>
+    <td>percentage</td>
+    <td>Percentage of correct answers in a test</td>
+  </tr>
+    <tr>
+    <td>remarks</td>
+    <td>Status of test either passed or failed</td>
+  </tr>
+    <tr>
+    <td>date_taken</td>
+    <td>Date the test was taken</td>
+  </tr>
+</table>
 
 ### Functionalities
 The key functionalities of the system are as follows:

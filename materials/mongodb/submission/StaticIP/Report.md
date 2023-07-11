@@ -251,4 +251,5 @@ notice the learning gaps and focus more on those areas. Furthermore, lecturers a
 
 
 ## References
-
+1. [MongoDB and PHP](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/mongophp.md) <br>
+2. [PHP + MongoDB EP 01 CRUD Connect, Update, Delete, Select, Insert](https://www.youtube.com/watch?v=zogIgFz3NWg)

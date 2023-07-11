@@ -1,4 +1,4 @@
-# # Image Analysis for Rotten Fruit Detection
+## Image Analysis for Rotten Fruit Detection
 
 ## Table of Contents
 * [Introduction](#introduction)

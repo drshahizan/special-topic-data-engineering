@@ -56,9 +56,9 @@ We have established these objectives in order to achieve this goal:
 
 <b>Tools and Technologies:</b>
 
-&ensp;&ensp; We will use Python as the main programming language for this project, along with several open-source libraries such as Tweepy, Pandas, and MongoDB:
+&ensp;&ensp; We will use Python as the main programming language for this project, along with several open-source libraries such as Reddit API, Pandas, and MongoDB:
 
-&ensp;&ensp;I.	**Tweepy**: Use to connect to Twitter's API.
+&ensp;&ensp;I.	**Reddit API**: Use to connect to Reddit's API.
 
 &ensp;&ensp;II.	**Pandas**: Use for data manipulation and preprocessing. 
 
@@ -72,7 +72,7 @@ We have established these objectives in order to achieve this goal:
 
 <b>Other Relevant Information:</b>
 
-&ensp;&ensp; To ensure data privacy and security, we will comply with Twitter's API Terms of Service and any applicable laws and regulations related to data privacy and security. We will also use appropriate measures to secure the data, such as encrypting the database and using secure protocols for data transfer.
+&ensp;&ensp; To ensure data privacy and security, we will comply with Reddit's API Terms of Service and any applicable laws and regulations related to data privacy and security. We will also use appropriate measures to secure the data, such as encrypting the database and using secure protocols for data transfer.
 
 
 ## Methodology

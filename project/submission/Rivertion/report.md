@@ -6,7 +6,7 @@
 * [Objectives](#objectives)
 * [Methodology](#methodology)
 * [Folder Structure](#folder-structure)
-* [Interface](#interface)
+* [User Interface](#user-interface)
 * [Insights](#insights)
 * [Conclusion](#conclusion)
 
@@ -49,7 +49,7 @@ The Rotten Fruit Detection System employs a sophisticated methodology to achieve
 By combining these steps, the Rotten Fruit Detection System offers a robust and efficient approach to automate the identification and classification of rotten fruits. It integrates cutting-edge image analysis techniques with machine learning to achieve accurate and timely results, contributing to improved food safety and quality assurance in the fruit industry.
 
 ## Folder Structure
-## Interface
+## User Interface
 ## Insights
 ## Conclusion
 

@@ -33,4 +33,6 @@
 ## Contents📝
 - 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Report.md)
 - 📂[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/system.zip)
-- 📂[Initial Database](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/fbc_reviewer.csv)
+- 🛠️[MongoDB Database Configuration]()
+- ⚙️[Mysql Database Configuration]()
+- 📰[Initial Database](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/fbc_reviewer.csv)

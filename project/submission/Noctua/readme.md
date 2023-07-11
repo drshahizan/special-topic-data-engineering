@@ -58,14 +58,8 @@ New Government🤵‍♂:<br>
 * [💻System Code](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Noctua/Reddit%20System)
 * [📎Processed Data](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Noctua/Dataset/preprocessed_data4.csv)
 * [📎Raw Data](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Noctua/Dataset/combined_data.csv)
+* [📎Presentation Video](https://youtu.be/BIIeNKiP73Q)
 
----
-
-<h3>
-  How To Start.
-</h3>
- 1.
----
 
 
 

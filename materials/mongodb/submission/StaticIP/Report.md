@@ -186,7 +186,7 @@ It has been found that all of the data does not consist of any missing value, an
 ## Testing and Validation
 1. Create Operation Testing
 
-  Insert a new exam information 
+  Insert a new exam information and click the "Save changes" button.
   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/create.png">
 
   Check the data in MongoDB and Mysql

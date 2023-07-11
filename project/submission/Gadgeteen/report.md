@@ -48,11 +48,11 @@ We have established these objectives in order to achieve this goal:
 - Provide recommendations for further development of ChatGPT based on the insights gained from the analysis.
 
 ## Scope
-&ensp; The project will focus specifically on Twitter data, as Twitter is a popular social media platform for discussing technology and current events. By analyzing Twitter data in real-time, the project aims to provide valuable insights into the public's perception of ChatGPT
+&ensp; The project will focus specifically on Reddit data, as Reddit is a popular social media platform for discussing technology and current events. By analyzing Reddit data in real-time, the project aims to provide valuable insights into the public's perception of ChatGPT
 
 <b>Data Sources:</b>
 
-&ensp;&ensp; The primary data source for this project will be Twitter's API, which will provide us with real-time access to tweets related to "ChatGpt." We will use Twitter's streaming API to collect tweets in real-time, using specific keywords and hashtags related to ChatGpt.
+&ensp;&ensp; The primary data source for this project will be Reddit's API, which will provide us with real-time access to tweets related to "ChatGpt." We will use Reddit's streaming API to collect tweets in real-time, using specific keywords and hashtags related to ChatGpt.
 
 <b>Tools and Technologies:</b>
 
@@ -78,7 +78,7 @@ We have established these objectives in order to achieve this goal:
 ## Methodology
 The project will follow the Agile methodology, with sprints of 10-12 weeks, and regular demos and retrospectives to review progress and plan the next steps.
 
-1. **Data Collection**: The project will collect Twitter data using the Twitter API, which provides access to a sample of the real-time Twitter stream. The collected data will include tweets that mention "ChatGpt" and related hashtags, keywords, and phrases.
+1. **Data Collection**: The project will collect Reddit data using the Reddit API, which provides access to a sample of the real-time Reddit stream. The collected data will include tweets that mention "ChatGpt" and related hashtags, keywords, and phrases.
 
 2. **Data Pre-processing**: The collected data will be pre-processed to remove noise, such as irrelevant tweets and spam, and to extract relevant information, such as the user's sentiment towards ChatGpt. The pre-processing steps will include:
 
@@ -102,9 +102,9 @@ The project will follow the Agile methodology, with sprints of 10-12 weeks, and 
 
 4. **Data Visualization**: The project will use data visualization techniques to display the sentiment analysis results in a meaningful and informative way, such as bar charts, pie charts, and word clouds. The visualization will provide an easy-to-understand summary of the sentiment distribution and the most common topics and phrases associated with ChatGpt.
 
-5. **Real-time Analysis**: The project will perform real-time analysis of Twitter data to provide up-to-date insights into public opinion and sentiment about ChatGpt on the deployed website. The real-time analysis will involve continuously collecting and pre-processing Twitter data, performing sentiment analysis, and updating the visualization.
+5. **Real-time Analysis**: The project will perform real-time analysis of Reddit data to provide up-to-date insights into public opinion and sentiment about ChatGpt on the deployed website. The real-time analysis will involve continuously collecting and pre-processing Reddit data, performing sentiment analysis, and updating the visualization.
 
-&ensp;&ensp; All in all, the methodology of the project is to collect and pre-process Twitter data, perform sentiment analysis, and visualize the results in real-time, using natural language processing and machine learning techniques. The methodology will provide valuable insights into public opinion and sentiment about ChatGpt, and help OpenAI to make data-driven decisions and improve its products and services.
+&ensp;&ensp; All in all, the methodology of the project is to collect and pre-process Reddit data, perform sentiment analysis, and visualize the results in real-time, using natural language processing and machine learning techniques. The methodology will provide valuable insights into public opinion and sentiment about ChatGpt, and help OpenAI to make data-driven decisions and improve its products and services.
 
 ## Project Structure
 

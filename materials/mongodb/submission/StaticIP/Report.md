@@ -215,15 +215,17 @@ It has been found that all of the data does not consist of any missing value, an
 
 4. Delete Operation Testing
 
-  Delete song information and click the "OK" button
-  <img width="960" alt="image" src="">
+  Delete the user by clicking the delete action button. The user named "Singthai Srisoi" is deleted.
+  <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/delete%20(2).png">
 
   Check the data in MongoDB and Mysql
   - Mysql
-  <img width="394" alt="image" src="">
+  <img width="394" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/deletephp.png">
 
   - MongoDB
-  <img width="741" alt="image" src=">
+  <img width="741" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/deletemongo1.png">4
+
+  <img width="741" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/deletemongo2.png">
 
 ## Conclusion
 In conclusion, the Student Result Analysis System, developed using PHP, MySQL, and MongoDB, has proven to be a valuable tool for educators and students alike. By efficiently collecting and storing data, the system enables educators to gain insights into students' performance and understanding. The ability to perform CRUD operations on both MySQL and MongoDB ensures seamless data management and integrity. The web interface provides a user-friendly experience, allowing administrators, teachers, and students to access relevant information and perform necessary tasks with ease.

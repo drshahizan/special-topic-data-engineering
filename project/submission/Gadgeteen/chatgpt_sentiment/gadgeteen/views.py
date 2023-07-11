@@ -8,6 +8,7 @@ from django.contrib.auth.decorators import login_required
 from .forms import NewUserForm
 from django.contrib.auth import login
 from django.contrib import messages
+from django.http import HttpResponseRedirect
 
 # Connect to MongoDB
 client = MongoClient('mongodb://localhost:27017')
@@ -67,7 +68,11 @@ def index(request):
     template = "post/list.html"
     context = {}
 
-    return render(request, template, context)
+    user = request.user
+    if user.is_staff:
+        return HttpResponseRedirect("/admin/")
+    else:
+        return render(request, template, context)
 
 
 def register(request):

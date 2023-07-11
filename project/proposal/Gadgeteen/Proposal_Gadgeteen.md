@@ -171,7 +171,7 @@ title: System Architecture Flowchart
 ---
   
 flowchart TB
-    A(Start) --> B[Collect data from social media using Reddit API API]
+    A(Start) --> B[Collect data from social media using Reddit API]
     B --> C[Preprocess and clean data using Pandas]
     C --> D[(Store data in MongoDB database)]
     D --> E[Perform sentiment analysis on data using NLTK]

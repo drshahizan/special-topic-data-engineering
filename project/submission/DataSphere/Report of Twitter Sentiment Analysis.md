@@ -3,15 +3,15 @@
 <img src='https://monkeylearn.com/static/6700dcab9bcc691104dd0d794f6e7ef4/Sentiment-analysis-of-Twitter-Social.png'/>
 
 # Table of Content
-* [Introduction](#-introduction)
-* [Background](#️-background)
-* [Objectives](#-objectives)
-* [Methodology](#️-methodology)
-* [Data Analysis](#️-data-analysis)
-* [Fodler Structure](#️-folder-structure)
-* [Visualization](#️-visualization)
-* [Insight](#️-insight)
-* [Conclusion](#️-conclusion)
+* [Introduction](#Introduction)
+* [Background](#️Background)
+* [Objectives](#Objectives)
+* [Methodology](#️Methodology)
+* [Data Analysis](#️Data-Analysis)
+* [Fodler Structure](#️Folder-Structure)
+* [Visualization](#️Visualization)
+* [Insights](#️Insights)
+* [Conclusion](#️Conclusion)
 
 ## Introduction
 <p align="justify">
@@ -44,7 +44,7 @@ By leveraging sentiment analysis techniques, this project sought to uncover impo
 The data for this project was collected using web scraping techniques, specifically utilizing tools such as Snscrape to retrieve tweets based on mental health-related keywords or hashtags. The collected tweets were then preprocessed, removing irrelevant information and normalizing the text, before being subjected to sentiment analysis algorithms.
 </p>
 
-## Objective
+## Objectives
 1.``Identifying Emotional States``: Sentiment analysis can help determine the emotional state of individuals discussing mental health topics on Twitter. It can reveal whether tweets express positive emotions or negative emotions related to mental health.
 
 2.``Assessing Stigma and Awareness``: By analyzing sentiments in mental health-related tweets, sentiment analysis can provide insights into the level of stigma, awareness, and acceptance surrounding mental health issues. It can identify negative or stigmatizing language, misconceptions, or barriers that individuals may face when discussing or seeking help for mental health concerns.
@@ -198,7 +198,7 @@ Once the designated user has logged in, they will be directed to a dashboard. Th
 </p>
 <br></br>
 
-## Insight
+## Insights
 1.``Stigma and Discrimination``: The sentiment analysis reveals that there is still a sizable level of discrimination and stigma surrounding mental health. Social exclusion and discrimination are common experiences for people with mental health issues, which can hinder their recovery and development.
 
 2.``Awareness and Acceptance``: Positively, there has been a rise in understanding and acceptance of mental health issues in recent years. People are seeking professional assistance and are more open about their experiences with mental illness. As a result, attitudes in favour of mental health have elevated.

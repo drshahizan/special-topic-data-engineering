@@ -22,22 +22,13 @@ The student result analysis system is developed by using two different type of d
 
 ### Data Requirements
 
-
-
 ### Functionalities
-
 The key functionalities of the system are as follows:
 
 #### Admin
-
-The admin can manage the questionnaire and exams by adding questions, subject, multiple options, choosing difficulties, and attachment files. , examination, preboard examinations, and results. The admin also has the permission of managing the users in the system.
-
-#### Teacher
-
-The teacher can manage the questionnaire and exams by adding questions, subject, multiple options, choosing difficulties, and attachment files. , examination, preboard examinations, and results. The teacher can also manage the preboard exams and view the students' result.
+The admin can manage the questionnaire and exams by adding questions, subject, multiple options, choosing difficulties, and attachment files as well as viewing students' results. The admin also has the permission of managing the users in the system.
 
 #### Student
-
 The student can take the examinations and view their own results.
 
 ## Implementation
@@ -104,7 +95,6 @@ Develop PHP scripts to perform CRUD operations on the MongoDB database:
 It has been found that all of the data does not consist of any missing value, and we have applied statistical analysis and visualized the data to gain insight into it. 
 
 ### Step 7: Develop a Web Application
-
 
 ## Web Interface
 - Landing page
@@ -197,7 +187,6 @@ It has been found that all of the data does not consist of any missing value, an
   - MongoDB
   <img width="741" alt="image" src=">
 
-
 ## Conclusion
 This Student Result Analysis System developed using PHP, MySQL and MongoDB presents valuable insights on students understanding based on examination results. By meeting its goals of data collection, storage, CRUD operations and data analysis, the system proved to be effective. The successful implementation of CRUD operations on MongoDB and MySQL ensured streamlined data management.
 
@@ -206,13 +195,14 @@ Based on the overall results of students, 75% of students have good understandin
 notice the learning gaps and focus more on those areas. Furthermore, lecturers are able to identify strengths and weaknesses of each individual student to provide personalized guidance and support to help students maximize their strengths and address areas that need improvement. 
 
 #### Challenges Faced:
-
-
+- Data consistency and integrity were hard to maintain when using two databases.
+- Debugging and testing were complex and time-consuming.
+- Scalability was a challenge when using multiple technologies.
 
 #### Potential Improvements:
-
-
-
+- Display visualization that shows students performance and improvement which enables lecturer to quickly identify areas where students are struggling.
+- Predictive analysis to identify at-risk students early and take corrective actions by analyzing patterns in students' data.
+- Providing mobile access to the student result analysis system to allow easy access.
 
 ## References
 1. [MongoDB and PHP](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/mongophp.md) <br>

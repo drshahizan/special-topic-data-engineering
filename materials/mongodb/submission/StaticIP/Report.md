@@ -1,4 +1,4 @@
-# Customer Analysis System 
+# Student Result Analysis System
 - [Introduction](#introduction)
 - [System Design](#system-design)
 - [Implementation](#implementation)

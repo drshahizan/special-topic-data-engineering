@@ -64,13 +64,16 @@ The initial data is obtain from [here](https://www.kaggle.com/datasets/edumucell
 
 The key functionalities of the system are as follows:
 
-Admin
+#### Admin
+
 The admin can manage the questionnaire and exams by adding questions, subject, multiple options, choosing difficulties, and attachment files. , examination, preboard examinations, and results. The admin also has the permission of managing the users in the system.
 
-Teacher
+#### Teacher
+
 The teacher can manage the questionnaire and exams by adding questions, subject, multiple options, choosing difficulties, and attachment files. , examination, preboard examinations, and results. The teacher can also manage the preboard exams and view the students' result.
 
-Student
+#### Student
+
 The student can take the examinations and view their own results.
 
 ## Implementation

@@ -88,7 +88,7 @@ The student can take the examinations and view their own results.
    composer require mongodb/mongodb
    ```
 ### Step 2: Create Database in MySQL
-1. Create a database and table in mysql to store the song data. 
+1. Create a database and table in mysql to store the data. 
 
 <img width="500" alt="image" src="">
 

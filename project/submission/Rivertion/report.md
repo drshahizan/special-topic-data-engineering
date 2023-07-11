@@ -8,7 +8,6 @@
 * [Methodology](#methodology)
 * [Folder Structure](#folder-structure)
 * [User Interface](#user-interface)
-* [Insights](#insights)
 * [Conclusion](#conclusion)
 
 ## Introduction

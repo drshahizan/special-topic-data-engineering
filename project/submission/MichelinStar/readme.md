@@ -1,4 +1,4 @@
-<img src='https://user-images.githubusercontent.com/120614501/236613064-2f38a02d-35d4-407a-ac10-47379ca6c1a9.gif'/>
+ <p align='center'><img src='https://user-images.githubusercontent.com/120614501/236613064-2f38a02d-35d4-407a-ac10-47379ca6c1a9.gif'/></p>
 
 <h1 align='center'> 
   Entertainment Analytic Platform 

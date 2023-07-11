@@ -227,17 +227,17 @@ It has been found that all of the data does not consist of any missing value, an
 
 
 ## Conclusion
-This Online Examination System developed using PHP, MySQL and MongoDB presents valuable insights on students understanding based on examination results. By meeting its goals of data collection, storage, CRUD operations and data analysis, the system proved to be effective. The successful implementation of CRUD operations on MongoDB and MySQL ensured streamlined data management.
+This Student Result Analysis System developed using PHP, MySQL and MongoDB presents valuable insights on students understanding based on examination results. By meeting its goals of data collection, storage, CRUD operations and data analysis, the system proved to be effective. The successful implementation of CRUD operations on MongoDB and MySQL ensured streamlined data management.
 
-Key Findings:
+#### Key Findings:
 Based on the overall results of students, 75% of students have good understanding on the topic learned as the majority of students got PASSED in the examination. This shows that, the students are able to cope with the teaching methods in class. Besides, students are able to 
 notice the learning gaps and focus more on those areas. Furthermore, lecturers are able to identify strengths and weaknesses of each individual student to provide personalized guidance and support to help students maximize their strengths and address areas that need improvement. 
 
-Challenges Faced:
+#### Challenges Faced:
 
 
 
-Potential Improvements:
+#### Potential Improvements:
 
 
 

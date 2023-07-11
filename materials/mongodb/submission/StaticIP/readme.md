@@ -1,6 +1,10 @@
 <h1 align='center'>Student Result Analysis System</h1>
 <div align='center'>
 
+<p>
+  <img width="500" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/exam-results.jpg">
+</p>
+
 <br>
 <br>
 <table>

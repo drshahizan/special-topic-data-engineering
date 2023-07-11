@@ -197,9 +197,11 @@ It has been found that all of the data does not consist of any missing value, an
   <img width="947" alt="image" src="">
 
 2. View Operation Testing
- <img width="960" alt="image" src="">
+
+   View the user lists 
+ <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/view.png">
  
-3. Update Operation Testing
+4. Update Operation Testing
 
   Update the user information by clicking the the "Save changes" button. 
   <img width="946" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/Screenshot%202023-07-12%20000925.png">

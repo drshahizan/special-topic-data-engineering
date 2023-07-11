@@ -17,7 +17,7 @@ The student result analysis system is developed by using two different type of d
 
 ### System Architecture
 <p align="center">
-<img width="444" alt="image" src="">
+<img width="500" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/assets/120616141/b664674a-be31-487d-bcfe-d062665415ff">
 </p>
 
 ### Data Requirements
@@ -63,10 +63,15 @@ The initial data is obtain from [here](https://www.kaggle.com/datasets/edumucell
 ### Functionalities
 
 The key functionalities of the system are as follows:
-1. **Create song and its ranking**: Admin add songs and its ranking into the system.
-2. **Read song ranking**: Admin can read the song ranking record.
-3. **Update song ranking**: Admin can update the song ranking and the song information.
-4. **Delete song ranking**: Admin can delete the song ranking record.
+
+Admin
+The admin can manage the questionnaire and exams by adding questions, subject, multiple options, choosing difficulties, and attachment files. , examination, preboard examinations, and results. The admin also has the permission of managing the users in the system.
+
+Teacher
+The teacher can manage the questionnaire and exams by adding questions, subject, multiple options, choosing difficulties, and attachment files. , examination, preboard examinations, and results. The teacher can also manage the preboard exams and view the students' result.
+
+Student
+The student can take the examinations and view their own results.
 
 ## Implementation
 ### Step 1: Dowload necessary tools and software

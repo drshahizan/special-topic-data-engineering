@@ -3,17 +3,21 @@
 <img src='https://monkeylearn.com/static/6700dcab9bcc691104dd0d794f6e7ef4/Sentiment-analysis-of-Twitter-Social.png'/>
 
 # Table of Content
-* [Introduction](#-introduction)
-* [Background](#️-background)
-* [Objectives](#-objectives)
-* [Methodology](#️-methodology)
-* [Data Analysis](#️-data-analysis)
-* [Fodler Structure](#️-folder-structure)
-* [Visualization](#️-visualization)
-* [Insight](#️-insight)
-* [Conclusion](#️-conclusion)
+
+- [Table of Content](#table-of-content)
+  - [Introduction](#introduction)
+  - [Background](#background)
+  - [Objectives](#objectives)
+  - [Methodology](#methodology)
+  - [Data Analysis](#data-analysis)
+  - [Folder Structure](#folder-structure)
+  - [Visualization](#visualization)
+  - [User Credentials](#user-credentials)
+  - [Insights](#insights)
+  - [Conclusion](#conclusion)
 
 ## Introduction
+
 <p align="justify">
 In recent years, social media platforms like Twitter have become a rich source of data for understanding public sentiment and opinions on various topics. When it comes to mental health, Twitter sentiment analysis holds immense potential to uncover the prevailing attitudes, emotions, and experiences shared by users in this digital space. By harnessing the power of natural language processing (NLP) techniques and machine learning algorithms, sentiment analysis on Twitter can provide valuable insights into the sentiment distribution surrounding mental health discussions.
 </p>
@@ -28,6 +32,7 @@ Through this analysis, we aim to address key questions such as: What are the pre
 
 
 ## Background
+
 <p align="justify">
 The sentiment analysis project focused on analyzing mental health-related discussions and sentiments expressed on Twitter. Twitter serves as a valuable platform for individuals to share their thoughts, experiences, and emotions related to mental health. By scraping and analyzing tweets from Twitter, this project aimed to gain insights into the sentiment and attitudes surrounding mental health topics on the platform.
 </p>
@@ -44,7 +49,8 @@ By leveraging sentiment analysis techniques, this project sought to uncover impo
 The data for this project was collected using web scraping techniques, specifically utilizing tools such as Snscrape to retrieve tweets based on mental health-related keywords or hashtags. The collected tweets were then preprocessed, removing irrelevant information and normalizing the text, before being subjected to sentiment analysis algorithms.
 </p>
 
-## Objective
+## Objectives
+
 1.``Identifying Emotional States``: Sentiment analysis can help determine the emotional state of individuals discussing mental health topics on Twitter. It can reveal whether tweets express positive emotions or negative emotions related to mental health.
 
 2.``Assessing Stigma and Awareness``: By analyzing sentiments in mental health-related tweets, sentiment analysis can provide insights into the level of stigma, awareness, and acceptance surrounding mental health issues. It can identify negative or stigmatizing language, misconceptions, or barriers that individuals may face when discussing or seeking help for mental health concerns.
@@ -56,6 +62,7 @@ The data for this project was collected using web scraping techniques, specifica
 
 
 ## Methodology
+
 1.``Data Collection``: assemble a dataset of tweets about mental health. This was accomplished by using the Twitter API to gather tweets with pertinent mental health hashtags or keywords. There are enough different tweets in the dataset to guarantee a representative sample.
 
 2.``Data Preprocessing``: Clean the collected tweets to remove noise and irrelevant information. This involves removing URLs, mentions, special characters, and emojis. Additionally, perform text normalization techniques like lowercase conversion, removing stopwords, and handling abbreviations or slang to standardize the text.
@@ -71,6 +78,7 @@ The data for this project was collected using web scraping techniques, specifica
 
 
 ## Data Analysis
+
 1.``Data Scraping ``: Data Scraping was made using snscrape. To scrape data from Twitter, access to the Twitter API (Application Programming Interface) was required. The API provides developers with access to Twitter's data, allowing them to retrieve tweets based on specific criteria, such as keywords, hashtags, or user profiles. We also determined the search parameters for collecting tweets related to mental health. This includes identifying relevant keywords, hashtags, or user profiles associated with mental health topics. For example, keywords like "mental health was used to retrieve tweets related to mental health discussions.
 
 2.``Data Cleaning and Preprosessing``: Data Cleaning and Preprosessing such as  text cleaning, tokenization, stopword, lemmatization. Removed the irrelevant information from the collected tweets, such as URLs, mentions, hashtags, special characters, or emojis. These elements do not contribute to sentiment analysis and can introduce noise into the data. Tokenize the tweet text by breaking it down into individual words or tokens. Tokenization is a crucial step in natural language processing (NLP) that enables further analysis at the word level.
@@ -80,6 +88,7 @@ The data for this project was collected using web scraping techniques, specifica
 4.``Sentiment Analysis``:Extracted the relevant features from the preprocessed tweets. Once the text is preprocessed, sentiment classification models are used to assign sentiment labels to each tweet. The sentiment labels typically include positive, negative, or neutral, indicating the sentiment expressed in the tweet. After the sentiment classification model is applied to the tweets, sentiment scores can be assigned to quantify the intensity or polarity of the sentiment expressed in each tweet. Sentiment scores can range from -1 (most negative) to 1 (most positive). These scores provide a more nuanced understanding of sentiment variations within the dataset.
 
 ## Folder Structure
+
 For DataSphere Project, the folder structure is as follows:
 
 ```
@@ -164,6 +173,7 @@ For DataSphere Project, the folder structure is as follows:
 ```
 
 ## Visualization
+
 1. ``Landing Page:``
 Users will be led to the landing page when they visit the website.  A landing page is a standalone web page designed to entice a specific audience to take action. Users can register an account to access the system or log in to their existing accounts.
 <p align="center">
@@ -198,7 +208,32 @@ Once the designated user has logged in, they will be directed to a dashboard. Th
 </p>
 <br></br>
 
-## Insight
+## User Credentials
+
+To login into our system, you can use the login credentials as follows:
+
+<p align="center">
+<table align="center">
+  <tr>
+    <th>UserName</th>
+    <th>Password</th>
+    <th>Role</th>
+  </tr>
+  <tr>
+    <th>1</th>
+    <th>1</th>
+    <th>Admin</th>
+  </tr>
+  <tr>
+    <th>2</th>
+    <th>2</th>
+    <th>User</th>
+  </tr>
+  </table>
+</p>
+
+## Insights
+
 1.``Stigma and Discrimination``: The sentiment analysis reveals that there is still a sizable level of discrimination and stigma surrounding mental health. Social exclusion and discrimination are common experiences for people with mental health issues, which can hinder their recovery and development.
 
 2.``Awareness and Acceptance``: Positively, there has been a rise in understanding and acceptance of mental health issues in recent years. People are seeking professional assistance and are more open about their experiences with mental illness. As a result, attitudes in favour of mental health have elevated.

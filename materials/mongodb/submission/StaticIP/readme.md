@@ -1,4 +1,4 @@
-<h1 align='center'>Feedback Analysis System</h1>
+<h1 align='center'>Student Result Analysis System</h1>
 <div align='center'>
 
 <br>
@@ -31,5 +31,8 @@
 
 
 ## Contents📝
-- 📑[Report]()
-- 📂[Code]()
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Report.md)
+- 📂[Code](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/system.zip)
+- 🛠️[MongoDB Database Configuration]()
+- ⚙️[Mysql Database Configuration]()
+- 📰[Initial Database](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/fbc_reviewer.csv)

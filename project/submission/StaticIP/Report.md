@@ -40,8 +40,62 @@ The project uses PHP file_get_contents function to fetch the data from the API a
 
 The JSON files are then imported into Power BI, a data visualization and analysis tool, to create interactive dashboards and reports. The dashboards and reports show the trends, patterns, and comparisons of the energy data for Malaysia over time and across different categories. The dashboards and reports also allow users to filter and drill down the data according to their needs and interests. For example, users can select a specific year, month, or energy source to view the corresponding data. The dashboards and reports are designed to be user-friendly, informative, and visually appealing.
 
+## 🗂 Folder Structure
+```
+📁StaticIP_dashboard
+├── 📁chart
+│   ├── Consumption_barchart.svg
+│   ├── Exports_barchart.svg
+│   ├── Imports_barchart.svg
+│   ├── Production_barchart.svg
+│   ├── Production_line_chart.svg
+│   ├── Productionline_chart.svg
+├── 📁css
+│   ├── sb-admin-2.css
+│   ├── sb-admin-2.min.css
+├── 📁global
+│   ├── cdn.php
+│   ├── nav_bar.php
+├── 📁img
+│   ├── undraw_posting_photo.svg
+│   ├── undraw_profile.svg
+│   ├── undraw_profile_1.svg
+│   ├── undraw_profile_2.svg
+│   ├── undraw_profile_3.svg
+│   ├── undraw_rocket.svg
+├── 📁js
+│   ├── dash_chart.js
+│   ├── ex.js
+├── 📁scss
+├── 📁static
+├── 📁vendor
+│   ├── 📁bootstrap
+│   ├── 📁chart.js
+│   ├── 📁datatables
+│   ├── 📁fontawesome-free
+│   ├── 📁jquery
+│   ├── 📁jquery-easing
+├── 📄activity.php
+├── 📄cbsession.php
+├── 📄dbconnect.php
+├── 📄index.html
+├── 📄login.php
+├── 📄loginprocess.php
+├── 📄m_delete.php
+├── 📄m_edit.php
+├── 📄m_editprocess.php
+├── 📄m_view.php
+├── 📄month.php
+├── 📄product.php
+├── 📄register.php
+├── 📄registerprocess.php
+├── 📄y_delete.php
+├── 📄y_edit.php
+├── 📄y_editprocess.php
+├── 📄y_view.php
+├── 📄year.php
+```
 
-## 🗂️ Folder Structure
 ## 🧿 Interface
 Below are the user interface for all users:
 - Register 
@@ -73,7 +127,7 @@ Public Users are only allowed to view the dashboard, actovity list and product l
 <img  src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/StaticIP/Image/Screenshot%202023-07-11%20010022.png"></img>
 
 - Activity List
-<img  src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/StaticIP/Image/Screenshot%202023-07-11%20010022.png"></img>
+<img  src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/StaticIP/Image/Screenshot%202023-07-11%20010852.png"></img>
 
 - Product List
 <img  src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/StaticIP/Image/Screenshot%202023-07-11%20010838.png"></img>

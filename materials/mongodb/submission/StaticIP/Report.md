@@ -8,7 +8,7 @@
 - [References](#references)
 
 ## Introduction
-Student result analysis system have greatly transformed the way assessments are conducted. Instead of traditional paper based methods, these systems offer efficient and easily accessible alternatives. This brings flexibility as exams can now be scheduled and completed remotely. Moreover, enhanced security measures including authentication mechanisms and question randomization ensure that the results obtained are reliable. Although there may be challenges in terms of technical requirements and data security these can be overcome through careful planning, by utilizing student result analysis system, educators have access to analytics and personalized assessments that empower them in their teaching practices. At the same time, students and professionals benefit from the convenience and flexibility of self paced learning. By embracing the potential of student result analysis system we can envision a future where assessments seamlessly integrate into the digital landscape. This empowers individuals and organizations to thrive in an interconnected world.
+Student result analysis system have greatly transformed the way assessments are conducted. Instead of traditional paper based methods, these systems offer efficient and easily accessible alternatives. This brings flexibility as exams can now be scheduled and completed remotely. Moreover, enhanced security measures including authentication mechanisms ensure that the results obtained are reliable. Although there may be challenges in terms of technical requirements and data security these can be overcome through careful planning, by utilizing student result analysis system, educators have access to analytics and personalized assessments that empower them in their teaching practices. At the same time, students and professionals benefit from the convenience and flexibility of self paced learning. By embracing the potential of student result analysis system we can envision a future where assessments seamlessly integrate into the digital landscape. This empowers individuals and organizations to thrive in an interconnected world.
 
 In this assignment, we will be creating an student result analysis system. There are three user type in this system which are student, teacher and admin. The teacher able to create questionnaire, manage preboard exams ad view the students' result. While for the students, they can take their examinations and view their results. The admin has the full acces to the system. They can manage the questionnaire, preboard exams and the students' result. We will discussed in details about the system architecture, data requirements, functionalities, development steps, user interface and testing in this report.
 
@@ -227,11 +227,11 @@ It has been found that all of the data does not consist of any missing value, an
 
 
 ## Conclusion
-
+This Online Examination System developed using PHP, MySQL and MongoDB presents valuable insights on students understanding based on examination results. By meeting its goals of data collection, storage, CRUD operations and data analysis, the system proved to be effective. The successful implementation of CRUD operations on MongoDB and MySQL ensured streamlined data management.
 
 Key Findings:
-
-
+Based on the overall results of students, 75% of students have good understanding on the topic learned as the majority of students got PASSED in the examination. This shows that, the students are able to cope with the teaching methods in class. Besides, students are able to 
+notice the learning gaps and focus more on those areas. Furthermore, lecturers are able to identify strengths and weaknesses of each individual student to provide personalized guidance and support to help students maximize their strengths and address areas that need improvement. 
 
 Challenges Faced:
 

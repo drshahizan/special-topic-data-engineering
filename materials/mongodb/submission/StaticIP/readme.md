@@ -29,6 +29,8 @@
 
 ## Introduction📚
 
+In this assignment, the Student Result Analysis System allows users to perform various tasks such as create examination, manage users, manage examination questions and view examination results. All the data created will be stored into both databases, MongoDB and phpmyadmin. Both of these databases can associate with the systemm to ensure the accuracy of the data.  
+
 
 ## Contents📝
 - 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Report.md)

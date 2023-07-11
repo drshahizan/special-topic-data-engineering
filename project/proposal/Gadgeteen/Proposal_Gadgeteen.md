@@ -111,7 +111,7 @@ The project will follow the Agile methodology, with sprints of 10-12 weeks, and 
 
 ## 🖥️ System Architecture
 
-<img src="RedditAPIArchitecture.png.png">
+<img src="RedditAPIArchitecture.png">
 
 &ensp;&ensp; Our proposed system architecture will be a web application that can monitor and analyze social media data in real-time to understand public opinion and sentiment on ChatGPT in Malaysia. In this system, we will be using **Python** as the main programming language. As for the data collection from social, we will use **Tweepy** to connect to Reddit's API. After collecting the data, **Pandas** library will be used for data manipulation and preprocessing and the preprocessed data will be stored in **MongoDB**. Lastly, **Natural Language Toolkit (NLTK)** will be used to perform sentiment analysis and topic modeling, and present the results through visualizations and dashboards by using **Power BI**. All of the results can be accessed on the website deployed by using **Django**.
 

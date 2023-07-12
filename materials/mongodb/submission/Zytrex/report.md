@@ -1,4 +1,4 @@
-<h1 align='center'>TV Shows Recommendation System</h1>
+<h1 align='center'>Car Recommendation System</h1>
 
 
 - [Introduction](#introduction)

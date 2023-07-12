@@ -108,6 +108,34 @@ The project will follow the Agile methodology, with sprints of 10-12 weeks, and 
 
 ## Project Structure
 
+```bash
+< PROJECT ROOT >
+   |
+   |-- core/                            
+   |    |-- settings.py                  # Project Configuration  
+   |    |-- urls.py                      # Project Routing
+   |
+   |-- gadgeteen/
+   |    |-- views.py                     # APP Views 
+   |    |-- urls.py                      # APP Routing
+   |    |-- models.py                    # APP Models 
+   |    |-- tests.py                     # Tests  
+   |    |-- templates/                   # Theme Customisation 
+   |         |-- registration            # Account Folder
+   |              |-- register.html        
+   |              |-- login.html 
+   |              |-- logged_out.html                    
+   |         |-- post                    # Website Pages Folder         
+   |              |-- list.html
+   |              |-- reddit_scrape.html
+   |     
+   |-- requirements.txt                  # Project Dependencies
+   |
+   |-- env.sample                        # ENV Configuration (default values)
+   |-- manage.py                         # Start the app - Django default start script
+   |
+   |-- ************************************************************************
+```
 
 ## Interface
 1. Login Page

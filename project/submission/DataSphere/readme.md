@@ -61,7 +61,7 @@ The project uses Power BI to create visualizations based on the sentiment analys
 
 ## Contents📝
 
-Head to our Presentation Link: [DataSphere Presentation](https://www.canva.com/design/DAFmE9dJWcQ/8laEbQSvm_0LWRuiGAr8gw/edit?utm_content=DAFmE9dJWcQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Head to our Presentation Link: [DataSphere Presentation](https://youtu.be/8nkZyZKPtAI).
 - 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataSphere/Report%20of%20Twitter%20Sentiment%20Analysis.md)
 - 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataSphere/DataSphere)
 - 📂[Dataset](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/DataSphere/Extracted%20File)

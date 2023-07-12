@@ -1,0 +1,243 @@
+,title,year,country_id,rating,genre_id,duration
+0,Spider-Man: Across the Spider-Verse,2023,United States of America,5,Action,8400
+1,The Godfather,1972,United States of America,5,Adventure,10500
+5,Schindler's List,1993,United States of America,5,Adventure,11700
+6,Spirited Away,2001,Japan,5,Science Fiction,7500
+8,Your Name.,2016,Japan,5,Drama,6360
+9,Parasite,2019,South Korea,5,Animation,7980
+10,The Green Mile,1999,United States of America,5,Crime,11340
+11,The Dark Knight,2008,United Kingdom,5,Adventure,9120
+12,Cuando Sea Joven,2022,Unknown,5,Animation,6900
+13,Pulp Fiction,1994,United States of America,5,Comedy,9240
+14,Forrest Gump,1994,United States of America,5,Animation,8520
+15,"The Good, the Bad and the Ugly",1966,United States of America,5,Romance,9660
+16,The Lord of the Rings: The Return of the King,2003,New Zealand,5,History,12060
+18,GoodFellas,1990,United States of America,5,Adventure,8700
+21,Dou kyu sei  Classmates,2016,Japan,5,Drama,3660
+22,Gabriel's Inferno,2020,United States of America,5,Drama,7320
+23,The Legend of Hei,2019,Italy,5,Science Fiction,6120
+26,"The Boy, the Mole, the Fox and the Horse",2022,United Kingdom,5,Science Fiction,2040
+29,Gabriel's Inferno: Part II,2020,Unknown,5,Drama,6300
+30,Fight Club,1999,United States of America,5,Adventure,8340
+32,City of God,2002,Brazil,5,Adventure,7800
+37,Interstellar,2014,United Kingdom,5,History,10140
+38,Spider-Man: Into the Spider-Verse,2018,United States of America,5,Action,7020
+39,Howl's Moving Castle,2004,Japan,5,Crime,7140
+40,The Lord of the Rings: The Fellowship of the Ring,2001,New Zealand,5,History,10740
+41,A Silent Voice: The Movie,2016,Japan,5,Science Fiction,7800
+42,The Empire Strikes Back,1980,United States of America,5,History,7440
+46,The Pianist,2002,France,5,Adventure,9000
+48,The Lord of the Rings: The Two Towers,2002,New Zealand,5,History,10740
+49,Whiplash,2014,United States of America,5,Adventure,6420
+50,Taylor Swift: Reputation Stadium Tour,2018,United States of America,5,Fantasy,7500
+51,Se7en,1995,United States of America,5,Thriller,7620
+52,"Josee, the Tiger and the Fish",2020,Japan,5,Science Fiction,5880
+53,Inception,2010,United Kingdom,5,Action,8880
+64,City Lights,1931,United States of America,4,Animation,5220
+65,Violet Evergarden: The Movie,2020,Japan,4,Science Fiction,8400
+69,Back to the Future,1985,United States of America,4,History,6960
+73,BTS World Tour: Love Yourself in Seoul,2019,South Korea,4,Fantasy,6780
+76,All Too Well: The Short Film,2021,United States of America,4,Adventure,900
+80,Puss in Boots: The Last Wish,2022,United States of America,4,Science Fiction,6180
+81,Evangelion: 3.0+1.0 Thrice Upon a Time,2021,Japan,4,Science Fiction,9300
+82,Given,2020,Japan,4,Science Fiction,3600
+83,Perfect Blue,1997,Japan,4,Science Fiction,4860
+84,Top Gun: Maverick,2022,United States of America,4,Action,7860
+85,Apocalypse Now,1979,United States of America,4,Adventure,8820
+88,Justice League Dark: Apokolips War,2020,United States of America,4,Science Fiction,5400
+90,Wolfwalkers,2020,Italy,4,Science Fiction,6180
+94,Steven Universe: The Movie,2019,United States of America,4,Western,4920
+95,Green Snake,2021,Italy,4,Science Fiction,7860
+97,Avengers: Endgame,2019,United States of America,4,History,10860
+98,Mommy,2014,Canada,4,Adventure,8280
+99,Avengers: Infinity War,2018,United States of America,4,History,8940
+101,Klaus,2019,Spain,4,Science Fiction,5760
+102,The Lion King,1994,United States of America,4,Family,5340
+103,Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train,2020,Japan,4,Science Fiction,7020
+105,I Want to Eat Your Pancreas,2018,Japan,4,Science Fiction,6480
+107,Green Book,2018,United States of America,4,Adventure,7800
+109,Wolf Children,2012,Japan,4,Science Fiction,7020
+111,Better Days,2019,Italy,4,Adventure,8100
+112,Rascal Does Not Dream of a Dreaming Girl,2019,Japan,4,Science Fiction,5400
+114,Coco,2017,United States of America,4,Family,6300
+115,Hamilton,2020,United States of America,4,Horror,9600
+118,The Art of Racing in the Rain,2019,United States of America,4,Adventure,6540
+124,Violet Evergarden: Eternity and the Auto Memory Doll,2019,Japan,4,Adventure,5460
+127,Zack Snyder's Justice League,2021,United States of America,4,Action,14520
+129,The Matrix,1999,United States of America,4,Action,8160
+131,Guillermo del Toro's Pinocchio,2022,United States of America,4,Science Fiction,7020
+132,Star Wars,1977,United States of America,4,History,7260
+134,The Prestige,2006,United Kingdom,4,Adventure,7800
+135,Doctor Who: The Day of the Doctor,2013,United Kingdom,4,16,4620
+137,Maquia: When the Promised Flower Blooms,2018,Japan,4,Science Fiction,6900
+139,My Hero Academia: Heroes Rising,2019,Japan,4,Science Fiction,6240
+140,Shutter Island,2010,United States of America,4,Adventure,8280
+141,The Usual Suspects,1995,United States of America,4,Adventure,6360
+145,Hacksaw Ridge,2016,Australia,4,Adventure,8340
+154,Portrait of a Lady on Fire,2019,France,4,Adventure,7200
+155,Purple Hearts,2022,United States of America,4,Drama,7320
+156,The Hate U Give,2018,United States of America,4,Thriller,7980
+160,Mortal Kombat Legends: Scorpion's Revenge,2020,United States of America,4,Science Fiction,4800
+161,Capernaum,2018,Cyprus,4,Adventure,7560
+162,Joker,2019,Canada,4,Thriller,7320
+163,Call Me by Your Name,2017,Brazil,4,Drama,7920
+165,Piper,2016,United States of America,4,Family,360
+166,Django Unchained,2012,United States of America,4,Adventure,9900
+168,The Departed,2006,Hong Kong,4,Adventure,9060
+172,Togo,2019,United States of America,4,History,6780
+173,Wonder,2017,United States of America,4,Adventure,6780
+175,KONOSUBA  God's blessing on this wonderful world! Legend of Crimson,2019,Japan,4,Science Fiction,5400
+176,Soul,2020,United States of America,4,Science Fiction,6060
+177,The Father,2020,France,4,Adventure,5760
+183,Good Will Hunting,1997,United States of America,4,Adventure,7620
+185,Alien,1979,United States of America,4,War,7020
+190,Full Metal Jacket,1987,United Kingdom,4,Adventure,7020
+193,Prayers for Bobby,2009,United States of America,4,Adventure,5400
+197,"Lock, Stock and Two Smoking Barrels",1998,United Kingdom,4,Animation,6300
+200,Ayla: The Daughter of War,2017,Turkey,4,Adventure,7500
+201,Far from the Tree,2021,United States of America,4,Science Fiction,420
+203,Bo Burnham: Make Happy,2016,United States of America,4,Animation,3600
+210,Harry Potter and the Deathly Hallows: Part 2,2011,United Kingdom,4,Crime,7800
+214,The Tale of The Princess Kaguya,2013,Japan,4,Science Fiction,8220
+217,Black Beauty,2020,Germany,4,Adventure,6600
+218,Guardians of the Galaxy Vol. 3,2023,United States of America,4,16,9000
+219,Anne of Green Gables,1985,United States of America,4,Family,11940
+220,Eternal Sunshine of the Spotless Mind,2004,United States of America,4,16,6480
+222,Terminator 2: Judgment Day,1991,United States of America,4,Action,8220
+223,Incendies,2010,Canada,4,Adventure,7860
+227,"Three Billboards Outside Ebbing, Missouri",2017,United Kingdom,4,Thriller,6900
+228,Lion,2016,Australia,4,Adventure,7080
+229,2001: A Space Odyssey,1968,United Kingdom,4,16,8940
+230,Palmer,2021,United States of America,4,Adventure,6600
+231,Prisoners,2013,United States of America,4,Adventure,9180
+232,Pride & Prejudice,2005,France,4,Adventure,7620
+234,Hannah Gadsby: Nanette,2018,Australia,4,Animation,4140
+235,Das Boot,1981,Germany,4,Adventure,9000
+237,WALL·E,2008,United States of America,4,Science Fiction,5880
+240,Cruella,2021,United Kingdom,4,Animation,8040
+242,My Neighbor Totoro,1988,Japan,4,Crime,5160
+247,Memories of Murder,2003,South Korea,4,Thriller,7860
+249,Elite Squad,2007,Brazil,4,Adventure,6900
+252,Hidden Figures,2016,United States of America,4,Adventure,7620
+257,New Gods: Nezha Reborn,2021,Italy,4,Science Fiction,6960
+258,On My Skin,2018,China,4,Adventure,6000
+260,"Love, Simon",2018,United States of America,4,Animation,6600
+261,Gifted,2017,United States of America,4,Adventure,6060
+263,Jojo Rabbit,2019,Czech Republic,3,Animation,6480
+266,Paper Lives,2021,Turkey,3,Adventure,5760
+268,Nobody,2021,United States of America,3,Action,5520
+269,Doctor Who: The Time of the Doctor,2013,United Kingdom,3,Adventure,3600
+271,The Thing,1982,Canada,3,War,6540
+274,A Dog's Journey,2019,Canada,3,Family,6540
+275,The Wolf of Wall Street,2013,United States of America,3,Thriller,10800
+277,Loving Vincent,2017,United Kingdom,3,Science Fiction,5700
+278,Room,2015,Canada,3,Adventure,7080
+282,Requiem for a Dream,2000,United States of America,3,Thriller,6120
+290,Harry Potter and the Prisoner of Azkaban,2004,United Kingdom,3,History,8460
+301,Weathering with You,2019,Japan,3,Science Fiction,6720
+302,In This Corner of the World,2016,Japan,3,Adventure,7800
+304,Song of the Sea,2014,Belgium,3,Family,5580
+306,The Whale,2022,United States of America,3,Adventure,6960
+307,Ford v Ferrari,2019,United States of America,3,Adventure,9180
+310,To Kill a Mockingbird,1962,United States of America,3,Adventure,7740
+312,"Argentina, 1985",2022,Argentina,3,Adventure,8460
+314,In the Arms of an Assassin,2019,Dominican Republic,3,Drama,6060
+316,Paperman,2012,United States of America,3,Science Fiction,420
+317,Bohemian Rhapsody,2018,United Kingdom,3,Fantasy,8100
+318,Spider-Man: No Way Home,2021,United States of America,3,Action,8880
+320,Gran Torino,2008,United States of America,3,Adventure,6960
+323,Love Exposure,2009,Japan,3,Action,14220
+326,Forgotten,2017,South Korea,3,Comedy,6480
+328,The Secret in Their Eyes,2009,Argentina,3,Thriller,7800
+331,CODA,2021,France,3,Adventure,6720
+334,Ron's Gone Wrong,2021,United Kingdom,3,Science Fiction,6420
+335,1917,2019,India,3,18,7140
+337,Pink Floyd: The Wall,1982,United Kingdom,3,Fantasy,5700
+338,Flipped,2010,United States of America,3,Drama,5340
+351,The Way He Looks,2014,Brazil,3,Adventure,5760
+354,Before Sunrise,1995,Austria,3,Adventure,6060
+355,Kill Bill: Vol. 1,2003,United States of America,3,Action,6660
+358,When Marnie Was There,2014,Japan,3,Science Fiction,6180
+360,Toy Story,1995,United States of America,3,Science Fiction,4860
+361,Trainspotting,1996,United Kingdom,3,Adventure,5640
+363,Doctor Who: A Christmas Carol,2010,United Kingdom,3,16,3720
+369,Million Dollar Baby,2004,Switzerland,3,Adventure,7920
+371,Children of Heaven,1997,Iran,3,Adventure,5340
+379,Finch,2021,India,3,16,6900
+384,Redeeming Love,2022,South Africa,3,Drama,8040
+388,12 Years a Slave,2013,United States of America,3,Adventure,8040
+389,The Mitchells vs. the Machines,2021,Hong Kong,3,Science Fiction,6600
+392,Up,2009,United States of America,3,Science Fiction,5760
+393,Words on Bathroom Walls,2020,United States of America,3,Adventure,6660
+394,The Boy Who Harnessed the Wind,2019,Malawi,3,Adventure,6780
+395,Sing 2,2021,United States of America,3,Science Fiction,6600
+397,Tokyo Revengers,2021,Japan,3,Action,7200
+399,Thirteen Lives,2022,United Kingdom,3,Adventure,8820
+403,Bad Genius,2017,Thailand,3,Adventure,7800
+406,Emancipation,2022,United States of America,3,Adventure,7920
+407,My Way,2011,South Korea,3,Adventure,8220
+408,A Whisker Away,2020,Japan,3,Science Fiction,6240
+410,Jurassic Park,1993,United States of America,3,History,7620
+413,Nausicaä of the Valley of the Wind,1984,Japan,3,History,7020
+416,Cousins,2019,Brazil,3,Animation,4980
+418,Ghost in the Shell,1995,Japan,3,Action,4920
+419,"Happy Halloween, Scooby-Doo!",2020,United States of America,3,Family,4560
+420,Charm City Kings,2020,United States of America,3,Adventure,7500
+421,Blade Runner,1982,United States of America,3,16,7080
+424,All My Life,2020,Italy,3,Drama,5580
+426,The Iron Giant,1999,United States of America,3,Family,5160
+429,Aliens,1986,United States of America,3,Action,8220
+431,Raiders of the Lost Ark,1981,United States of America,3,History,6900
+433,Inside Out,2015,United States of America,3,Science Fiction,5700
+434,Freedom Writers,2007,Germany,3,Thriller,7380
+436,Justice League: The Flashpoint Paradox,2013,United States of America,3,16,4500
+438,Me Before You,2016,United States of America,3,Adventure,6600
+439,Captain Fantastic,2016,United States of America,3,History,7080
+443,Harry Potter and the Philosopher's Stone,2001,United Kingdom,3,History,9120
+445,The Greatest Showman,2017,United States of America,3,Adventure,6300
+447,Persepolis,2007,France,3,Science Fiction,5700
+448,Straight Outta Nowhere: Scooby-Doo! Meets Courage the Cowardly Dog,2021,United States of America,3,Science Fiction,4320
+449,Raya and the Last Dragon,2021,United States of America,3,Science Fiction,6420
+456,Ne Zha,2019,Italy,3,Science Fiction,6600
+460,John Wick: Chapter 4,2023,Germany,3,Action,10200
+462,The Breadwinner,2017,Ireland,3,Science Fiction,5640
+463,Guardians of the Galaxy,2014,United States of America,3,Action,7260
+464,The Pursuit of Happyness,2006,United States of America,3,Adventure,7020
+466,The Killer,2022,South Korea,3,Action,5700
+467,Little Women,2019,United States of America,3,Adventure,8100
+468,Amélie,2001,France,3,Animation,7320
+471,V for Vendetta,2006,Germany,3,Action,7920
+473,Heat,1995,United States of America,3,Action,10200
+476,Suzume,2022,Japan,3,Science Fiction,7380
+477,Where Is My Friend's House?,1987,Iran,3,Adventure,4980
+482,Luck,2022,Spain,3,Science Fiction,6300
+483,Titanic,1997,United States of America,3,Adventure,11640
+484,La La Land,2016,United States of America,3,Animation,7740
+485,Gone Girl,2014,United States of America,3,17,8940
+490,Return of the Jedi,1983,United States of America,3,History,8100
+491,Dragon Ball Super: Broly,2018,Japan,3,Action,5940
+492,Teen Titans Go! vs. Teen Titans,2019,United States of America,3,Action,4560
+495,We Are the Nobles,2013,Mexico,3,Animation,6480
+497,A Man Called Otto,2022,Sweden,3,Animation,7560
+498,The Summit of the Gods,2021,France,3,Science Fiction,5700
+504,Tokyo Godfathers,2003,Japan,3,Science Fiction,5580
+508,The Notebook,2004,United States of America,3,Drama,7380
+511,Luca,2021,United States of America,3,Science Fiction,5700
+514,Sherlock: The Abominable Bride,2016,United Kingdom,3,Thriller,5400
+521,Miraculous World: Shanghai  The Legend of Ladydragon,2021,Brazil,3,Science Fiction,3240
+522,Belle,2021,France,3,Science Fiction,7320
+523,El Infierno,2010,Mexico,3,Adventure,8700
+528,Isle of Dogs,2018,Germany,3,History,6060
+530,Shoplifters,2018,Japan,3,Adventure,7200
+531,The Theory of Everything,2014,United Kingdom,3,Adventure,7380
+532,Her,2013,United States of America,3,Drama,7560
+534,Mary and Max,2009,Australia,3,Science Fiction,5520
+537,No Game No Life: Zero,2017,Japan,3,Science Fiction,6360
+545,A Beautiful Mind,2001,United States of America,3,Adventure,8100
+547,Always,2011,South Korea,3,Drama,6480
+550,Knives Out,2019,United States of America,3,Animation,7860
+551,A Bag of Marbles,2017,Czech Republic,3,18,6600
+554,Kiki's Delivery Service,1989,Japan,3,Science Fiction,6180
+555,Departures,2008,Japan,3,Adventure,7800
+570,"Spring, Summer, Fall, Winter... and Spring",2003,South Korea,3,Adventure,6180
+576,Indiana Jones and the Last Crusade,1989,United States of America,3,History,7620

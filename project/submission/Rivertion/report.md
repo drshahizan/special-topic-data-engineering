@@ -64,6 +64,85 @@ The primary objectives of the Rotten Fruit Detection System are as follows:
 By combining these steps, the Rotten Fruit Detection System offers a robust and efficient approach to automate the identification and classification of rotten fruits. It integrates cutting-edge image analysis techniques with machine learning to achieve accurate and timely results, contributing to improved food safety and quality assurance in the fruit industry.
 
 ## Folder Structure
+
+```
+📁rivertion
+├── 📁admin
+│   └── 📄acceptReject.php
+│   └── 📄footer.php
+│   └── 📄headerhome.php
+│   └── 📄home.php
+│   └── 📄home1.php
+│   └── 📄inference_script.py
+│   └── 📄listc.css
+│   └── 📄listc.php
+│   └── 📄model.h5
+│   └── 📄upload.php
+│   └── 📄uploadprocess.php
+├── 📁assets
+│   ├── 📁scss
+│   ├── 📁libs
+│   ├── 📁lang
+│   ├── 📁js
+│   ├── 📁images
+│   ├── 📁fonts
+│   ├── 📁css
+├── 📁css
+│   └── 📄bootstrap.css
+│   └── 📄bootstrap.min.css
+│   └── 📄login.css
+│   └── 📄style1.cs
+│   └── 📄swiper-bundle.min.css
+├── 📁favicon
+├── 📁fonts
+├── 📁fruits
+├── 📁html
+│   └── 📄authentication-login.html
+│   └── 📄authentication-register.html
+│   └── 📄icon-tabler.html
+│   └── 📄index.html
+│   └── 📄sample-page.html
+│   └── 📄ui-alerts.html
+│   └── 📄ui-buttons.html
+│   └── 📄ui-card.html
+│   └── 📄ui-forms.html
+│   └── 📄ui-typography.html
+├── 📁images
+│   └── 📄1.jpg
+│   └── 📄1.png
+│   └── 📄2.jpg
+│   └── 📄3.png
+│   └── 📄4.png
+│   └── 📄5.png
+│   └── 📄pfp.png
+├── 📁js
+│   ├── 📄main.js
+│   └── 📄swiper-bundle.min.js
+├── 📁orifles
+├── 📄about-us.html
+├── 📄blog-post-details.html
+├── 📄blog-posts.html
+├── 📄contact.html
+├── 📄dbconnect.php
+├── 📄headerafterlogin.css
+├── 📄headerhome.php
+├── 📄home.php
+├── 📄index.php
+├── 📄license.txt
+├── 📄listc.css
+├── 📄login.js
+├── 📄login.php
+├── 📄loginprocess.php
+├── 📄logout.php
+├── 📄oriidnex.html
+├── 📄package.json
+├── 📄session.php
+├── 📄special-offer.html
+├── 📄style1.css
+├── 📄team.html
+
+```
+
 ## User Interface
 
 1. Main page

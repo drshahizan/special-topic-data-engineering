@@ -2,10 +2,7 @@ asgiref==3.5.2
 django==2.2.8
 Pillow==9.2.0
 sqlparse==0.2.4
-django-braces==1.15.0
-django-embed-video==1.4.4
 pymemcache==3.5.2
-django-debug-toolbar==3.6.0
 redis==4.3.4
 django-redisboard==8.3.0
 matplotlib
@@ -17,3 +14,5 @@ djongo==1.2.31
 django-bootstrap-v5
 pytz
 pymongo==3.12.3
+wordcloud
+seaborn

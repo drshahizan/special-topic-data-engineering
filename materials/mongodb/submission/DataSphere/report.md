@@ -15,12 +15,16 @@ The Car Booking System using MongoDB is a powerful solution designed to simplify
 ## System Design
 1.``Use Case Diagram``: Use Case diagram consisting of 2 users which are Admin and Customer where both the user can perform User Authentication and Manage Booking which includes the CRUD operation 
 
-<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/997b65e63357896b1e727d460d9097c2b738fd1f/materials/mongodb/submission/DataSphere/images/UseCase.jpg">
+<p align="center">
+   <img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/997b65e63357896b1e727d460d9097c2b738fd1f/materials/mongodb/submission/DataSphere/images/UseCase.jpg">
+</p>
 
 
 ## Implementation
 1.``Install MongoDB``: Start by installing MongoDB on our system. Visited the official MongoDB website and download the appropriate version for our operating system. Followed the installation instructions provided by MongoDB to complete the installation process.
-<img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/576dd47228bdc06b53705db8aaff9be071709785/materials/mongodb/submission/DataSphere/images/Mongodb_Download.jpg">
+<p align="center">
+  <img width="600" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/576dd47228bdc06b53705db8aaff9be071709785/materials/mongodb/submission/DataSphere/images/Mongodb_Download.jpg">
+</p>
 
 
 2.``Set up MongoDB Server``: Once MongoDB is installed, we need to set up a MongoDB server. Open a terminal or command prompt and start the MongoDB server by running the appropriate command.

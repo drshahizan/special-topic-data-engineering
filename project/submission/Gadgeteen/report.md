@@ -66,9 +66,7 @@ We have established these objectives in order to achieve this goal:
 
 &ensp;&ensp;IV.	**NLTK (Natural Language Toolkit)**: Use for sentiment analysis
 
-&ensp;&ensp;V.	**PowerBI**: To visualize and explore the data.
-
-&ensp;&ensp;VI.	**Django**: To develop website.
+&ensp;&ensp;V.	**Django**: To develop website.
 
 <b>Other Relevant Information:</b>
 
@@ -82,19 +80,13 @@ The project will follow the Agile methodology, with sprints of 10-12 weeks, and 
 
 2. **Data Pre-processing**: The collected data will be pre-processed to remove noise, such as irrelevant tweets and spam, and to extract relevant information, such as the user's sentiment towards ChatGpt. The pre-processing steps will include:
 
- &ensp;&ensp;&ensp;&ensp; -	Removing duplicate tweets
+ &ensp;&ensp;&ensp;&ensp; -	Removing duplicate post
   
- &ensp;&ensp;&ensp;&ensp; -	Removing retweets
-  
- &ensp;&ensp;&ensp;&ensp; -	Removing tweets that are not in English
-  
+ &ensp;&ensp;&ensp;&ensp; -	Removing punctuations
+    
  &ensp;&ensp;&ensp;&ensp; -	Tokenizing the text and removing stop words
-  
- &ensp;&ensp;&ensp;&ensp; -	Applying stemming or lemmatization to reduce the text to its base form
-  
- &ensp;&ensp;&ensp;&ensp; -	Applying part-of-speech tagging to identify noun phrases and named entities
-  
- &ensp;&ensp;&ensp;&ensp; -	Filtering the text to remove mentions, URLs, and other irrelevant information
+      
+ &ensp;&ensp;&ensp;&ensp; -	Remove leading/trailing whitespaces in the text columns
   
  &ensp;&ensp;&ensp;&ensp; -	Applying sentiment analysis to determine the polarity of the tweets
 

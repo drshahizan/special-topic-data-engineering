@@ -2,6 +2,7 @@
 </h1>
 <img src='https://monkeylearn.com/static/6700dcab9bcc691104dd0d794f6e7ef4/Sentiment-analysis-of-Twitter-Social.png'/>
 
+
 # Table of Content
 
 - [Table of Content](#table-of-content)
@@ -15,6 +16,7 @@
   - [User Credentials](#user-credentials)
   - [Insights](#insights)
   - [Conclusion](#conclusion)
+  - [Presentation](#presentation)
 
 ## Introduction
 
@@ -260,5 +262,7 @@ To login into our system, you can use the login credentials as follows:
 In conclusion, Twitter sentiment analysis focused on mental health provides valuable insights into public sentiment, attitudes, and perceptions, shedding light on prevailing sentiments, prevalent topics, temporal trends, influential voices, and regional variations. By leveraging these insights, we can reduce stigma, improve support networks, and foster a more compassionate society. This analysis allows us to develop targeted interventions, guide awareness campaigns, and make informed decisions to promote mental well-being. While acknowledging the limitations, Twitter sentiment analysis holds immense potential for creating positive change by fostering understanding, supporting individuals, and driving impactful initiatives for mental health in our society.
 </p>
 
+## Presentation
+Presentation Link: [DataSphere Presentation](https://youtu.be/8nkZyZKPtAI).
 
 

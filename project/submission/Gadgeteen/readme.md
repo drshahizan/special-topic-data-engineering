@@ -57,7 +57,7 @@
 
 
 ## Contents📝
-- 📑[Report](#)
+- 📑[Report](report.md) 
 - ⚒️[Data Cleaning](Gadgeteen.ipynb)
 - 📂[Dataset](#)
 - 💻[Source Code](chatgpt_sentiment)

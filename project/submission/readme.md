@@ -22,7 +22,7 @@ Don't forget to hit the :star: if you like this repo.
 | 7 | Redditor's View Towards Anwar Ibrahim as Malaysia's 10th Prime Minister | Noctua|<a href="" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 8 | Image Analysis for Rotten Fruit Detection 🍇🍉🍎🍐🍓 | Rivertion |<a href="Rivertion" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 | 9 | Movie Recommendation System | CodeX|<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/CodeX" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
-| 10 | Spotify Personalized Engine  | ZytrecDB|<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/41045334cdc31aae60da7d734479b8b1b52a09a4/project/submission/ZytrecDB" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
+| 10 | Car Recommendation System  | ZytrecDB|<a href="https://github.com/drshahizan/special-topic-data-engineering/tree/41045334cdc31aae60da7d734479b8b1b52a09a4/project/submission/ZytrecDB" ><img src="../../images/task.png" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

@@ -1,6 +1,6 @@
 
-<h1 align='center'>Spotify Engine Recommendation</h1>
-The project consists of a PHP-based Spotify recommendation engine that offers individualised Spotify suggestions based on Title and Genres. This smart system analyses user data and produces precise music recommendations using cutting-edge algorithms and machine learning approaches. By offering consumers a personalised selection of films that suit their preferences, CompassDB seeks to improve the movie-watching experience. With its user-friendly dashboard, which is powered by Tableau, customers may learn a lot about their musical preferences and decide on their next song with confidence.
+<h1 align='center'>Car Recommendation Engine</h1>
+A car rental recommendation engine is a system that helps users find the most suitable rental car based on their specific requirements and preferences. It takes into account factors such as car model, car type, price, and other preferences to provide personalized recommendations.
 
 
 

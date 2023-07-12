@@ -158,7 +158,7 @@ Users have the option to register themselves to gain access to the system. <br>
 ![Alt text](assets/img/admndashboard4.png)
 
 5. User Dashboard Overview
-![Alt text](assets/img/userdashboard.png)
+![Alt text](assets/img/admindashboard.png)
 
 
 ## Conclusion

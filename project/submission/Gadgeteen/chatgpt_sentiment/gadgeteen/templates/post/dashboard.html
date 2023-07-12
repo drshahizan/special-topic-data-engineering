@@ -1,0 +1,142 @@
+{% extends "index.html" %}
+{% load staticfiles %}
+{% block title %}ChatGPT Sentiment Analysis{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+
+   
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-title">
+                    <h4>Proportion of targer classes</h4>
+                </div>
+                <div class="card-body">
+                    <img src="{% static 'images/pie_chart.png' %}" alt="Pie Chart" style="width:100%">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-title">
+                    <h4>Length of post vs Sentiment Class</h4>
+                </div>
+                <div class="card-body">
+                    <img src="{% static 'images/sentiment_length_plot.png' %}" alt="Bar Chart" style="width:100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-title">
+                        <h4>Positive Sentiment Wordcloud</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="{% static 'images/positive_word_cloud.png' %}" alt="Bar Chart" style="width:100%  ">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-title">
+                        <h4>Top 10 Frequent Words</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="{% static 'images/positive_bar_plot.png' %}" alt="Bar Chart" style="width:100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-title">
+                        <h4>Negative Sentiment Wordcloud</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="{% static 'images/negative_word_cloud.png' %}" alt="Bar Chart" style="width:100%">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-title">
+                        <h4>Top 10 Frequent Words</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="{% static 'images/negative_bar_plot.png' %}" alt="Bar Chart" style="width:100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-title pr">
+                        <h4>All Exam Result</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table id="reddit-table" class="display">
+                                <thead>
+                                    <tr>
+                                        <th>Title</th>
+                                        <th>Selftext</th>
+                                        <th>Upvote Ratio</th>
+                                        <th>Ups</th>
+                                        <th>Downs</th>
+                                        <th>Score</th>
+                                        <th>Sentiment Class</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for post in data %}
+                                    <tr>
+                                        <td>{{ post.title }}</td>
+                                        <td>{{ post.selftext }}</td>
+                                        <td>{{ post.upvote_ratio }}</td>
+                                        <td>{{ post.ups }}</td>
+                                        <td>{{ post.downs }}</td>
+                                        <td>{{ post.score }}</td>
+                                        <td>{{ post.sentiment_class }}</td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /# column -->
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer">
+                    <p>2018 © Admin Board. - <a href="#">example.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}
+{% block include_js %}
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#reddit-table').DataTable();
+        });
+    </script>
+{% endblock %}

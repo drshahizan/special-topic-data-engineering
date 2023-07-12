@@ -25,7 +25,7 @@ The project consists of a PHP-based Spotify recommendation engine that offers in
 
 
 ## Contents📝
-- 📑[Report]()
-- 💻[Code]()
+- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/ZytrecDB/report.md)
+- 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/ZytrecDB/Final%20Project)
 - 📂[Data](https://drive.google.com/drive/folders/148z_uxc7EIpxX8uwr_rrIJKasCTE8w9F?usp=sharing)
 

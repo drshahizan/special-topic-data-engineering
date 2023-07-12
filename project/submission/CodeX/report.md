@@ -1,5 +1,5 @@
 
-<h1 align='center'>Movie Recomendation Engine</h1>
+<h1 align='center'>Movie Recomendation Engine :movie_camera:</h1>
 
 ## Introduction
 A movie recommendation engine is a software system designed to provide personalized movie suggestions to users based on their preferences, past viewing history, and other relevant factors. It uses advanced algorithms and techniques to analyze large datasets containing information about movies, such as genres, directors, actors, and user ratings. By leveraging this data, the recommendation engine can generate accurate and relevant movie recommendations for individual users.

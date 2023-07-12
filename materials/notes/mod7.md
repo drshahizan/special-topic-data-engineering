@@ -23,7 +23,7 @@ Group Gadgeteen
 - [Definition](#what-is-api)
 - [How it works](#how-do-apis-work)
 - [Types of APIs](#types-of-apis)
-- [API Protocol & Architecture](#api-protocol-&-architecture)
+- [API Protocol and Architecture](#api-protocol-and-architecture)
 - [API Authentication and Security](#api-authentication-and-security)
 - [API Documentation](#api-documentation)
 
@@ -94,7 +94,7 @@ APIs are sometimes considered **contracts**, where documentation is an agreement
     </td>
 </table>
 
-## API Protocol & Architecture
+## API Protocol and Architecture
 
 a. RESTful APIs
 - REST (Representational State Transfer) is an architectural style for designing networked applications.

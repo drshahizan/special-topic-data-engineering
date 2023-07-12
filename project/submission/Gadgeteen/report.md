@@ -163,6 +163,7 @@ Users have the option to register themselves to gain access to the system. <br>
 
 ## Conclusion
 
+The ChatGPT Sentiment Analysis project have successfully utilized the Reddit API and Python to analyze sentiment expressed by users towards the ChatGPT language model in Reddit posts. The Django dashboard provides an intuitive platform for visualizing the sentiment analysis results. The insights derived from analyzing the sentiment trends, popular topics, and overall sentiment distribution, can aid businesses and developers in understanding user sentiments and opinions related to the ChatGPT. By understanding user sentiments, businesses can align their efforts to meet user expectations, ultimately leading to improved customer satisfaction and loyalty.
 
 ## Quick Start
 [How To Run This Project](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Gadgeteen/step.md)

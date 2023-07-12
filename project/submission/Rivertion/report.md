@@ -65,6 +65,41 @@ By combining these steps, the Rotten Fruit Detection System offers a robust and 
 
 ## Folder Structure
 ## User Interface
+
+1. Main page
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Rivertion/Image/1.png">
+</p>
+
+2. Register page
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Rivertion/Image/2.png">
+</p>
+
+3. Login page
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Rivertion/Image/3.png">
+</p>
+
+4. Home
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Rivertion/Image/4.png">
+  <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Rivertion/Image/5.png">
+  <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Rivertion/Image/6.png">
+  <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Rivertion/Image/7.png">
+</p>
+
+5. Upload image page
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Rivertion/Image/8.png">
+</p>
+
+6. View images page
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Rivertion/Image/9.png">
+</p>
+   
+
 ## Conclusion
 In conclusion, the Rotten Fruit Detection System represents a significant advancement in the field of fruit quality assessment and food safety. By harnessing the power of image analysis, computer vision, and machine learning, this system offers an automated and accurate solution for identifying and classifying rotten fruits.
 

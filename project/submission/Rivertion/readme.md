@@ -34,12 +34,7 @@
   </tr>
 </table>
 
-<table align='center'>
-  <tr>
-    <th>Source Code</th>
-    <th>Link</th>
-  </tr>
-    <td>Open In GitHub</td>
-    <td><a href="rivertion">:octocat:</a></td>
-  </tr>
-</table>
+## Contents📝
+- 📑[Report](report.md)
+- 💻[Code](https://drive.google.com/file/d/1dd93BpskbeUgiwcuU0woSAwRFNwX5HJC/view?usp=sharing)
+- :film_strip: [Video](https://youtu.be/FDh9J2SNJIk)

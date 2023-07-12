@@ -10,8 +10,6 @@
 - [Methodology](#methodology)
 - [Project Structure](#project-structure)
 - [Interface](#interface)
-  - [Admin](#admin)
-  - [Public User](#public-user)
 - [Insight](#insight)
 - [Conclusion](#conclusion)
 - [Quick Start](#quick-start)
@@ -126,72 +124,79 @@ However, modern technology can help to solve this problem effectively. Therefore
 
 ## Interface
 1. Login Page
-
-Users must log in with their username and password to access the page. If they do not have an account, they can create one by clicking the "register" button. Once logged in, you should be able to view all the content on the page.
-   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/ea8a13d5-763a-408b-bf25-da42cfae4647"/></div>
+- Users must log in with their username and password to access the page. If they do not have an account, they can create one by clicking the "register" button. Once logged in, you should be able to view all the content on the page.
+- <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/ea8a13d5-763a-408b-bf25-da42cfae4647"/>
 
 2. Register Page
 
-Users have the option to register themselves to gain access to the system.
-   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/6fac6c4a-9874-4734-b400-0b24e52eba98"/></div>
+- Users have the option to register themselves to gain access to the system.
+- <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/6fac6c4a-9874-4734-b400-0b24e52eba98"/>
    
 3. Reset password Page
 
-If the user forgets their password, they can reset it and receive a password reset email.
-   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/0b0b1c6f-2e2b-4370-83c8-9fc3b52ca25e"/></div>
-   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/39da4fb8-b391-47a2-a8e6-a5454c1efa81"/></div>
+- If the user forgets their password, they can reset it and receive a password reset email.
+- <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/0b0b1c6f-2e2b-4370-83c8-9fc3b52ca25e"/>
+- <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/39da4fb8-b391-47a2-a8e6-a5454c1efa81"/>
 
 4. Change Password Page
 
-The user can modify their password within the website.
-<div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/07fc31c0-9d9f-4e69-8866-5bf647246562"/></div>
+- The user can modify their password within the website.
+- <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/120556342/07fc31c0-9d9f-4e69-8866-5bf647246562"/>
 
 5. Sidebar Navigation
 
   - #### Admin
-    The sidebar navigation for admins provides various options, including access to the dashboard, to view all products and details, a report of product sales, and the     option to export the reports in CSV format.
-  
+  - The sidebar navigation for admins provides various options, including access to the dashboard, to view all products and details, a report of product sales, and the     option to export the reports in CSV format.
+  - <img width="270" alt="Screenshot 2023-07-12 at 2 42 01 AM" src="https://github.com/drshahizan/special-topic-data-engineering/assets/76076543/24604409-b707-421b-b8f9-3c9cf1548957">
+ 
   - #### Public User
-    The dashboard, which includes analyses, product information, sales, and product reports, can be accessed by the public user. The reports can also be exported to CSV format for easy use.
+  - The dashboard, which includes analyses, product information, sales, and product reports, can be accessed by the public user. The reports can also be exported to CSV format for easy use.
+  - <img width="270" alt="Screenshot 2023-07-12 at 2 43 13 AM" src="https://github.com/drshahizan/special-topic-data-engineering/assets/76076543/c26c6bf8-1f72-4ef6-94fe-536395614880">
 
 6. Dashboard
 
-The Shopee Supermarket provides its users with a Tableau-integrated dashboard that facilitates the analysis of household supplies. This dashboard serves as a visual representation of the analysis.
-    <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/7a0e7f3a-2a42-4f30-892c-43aa2a2cf70e"/></div>
+- The Shopee Supermarket provides its users with a Tableau-integrated dashboard that facilitates the analysis of household supplies. This dashboard serves as a visual representation of the analysis.
+- <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/7a0e7f3a-2a42-4f30-892c-43aa2a2cf70e"/>
 
 7. Product Catalog Page
 
-The product catalog provides a comprehensive overview of all the products utilized in the analysis and brief information about each.
-   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/fca73892-ee80-48f9-a2a4-4b7b5ee0ef5c"/></div>
+- The product catalog provides a comprehensive overview of all the products utilized in the analysis and brief information about each.
+- <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/fca73892-ee80-48f9-a2a4-4b7b5ee0ef5c"/>
    
 8. Product Details Page
 
-By clicking on the product, users can access and review its details.
-   <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/fdf84d46-6441-4daa-a7a1-6cef0a54853d"/></div>
+- By clicking on the product, users can access and review its details.
+- <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/fdf84d46-6441-4daa-a7a1-6cef0a54853d"/>
    
 9. Report Page
 
   - Product Report
-    
-    The report provides a comprehensive list of all products available at Shopee Supermarket, complete with their original links.
-     <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/50dd9948-6d59-4cf0-b982-8bff1a9befbe"/></div>
+  - The report provides a comprehensive list of all products available at Shopee Supermarket, complete with their original links.
+  - <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/50dd9948-6d59-4cf0-b982-8bff1a9befbe"/>
 
   - Sales Report
-    
-    On this page, users will find a comprehensive breakdown of the total sales of each product.
-     <div align="center"><img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/bb9b5f4d-cb54-4a6f-afd4-4049ba5519c2"/></div>
+  - On this page, users will find a comprehensive breakdown of the total sales of each product.
+  - <img src="https://github.com/drshahizan/special-topic-data-engineering/assets/99240177/bb9b5f4d-cb54-4a6f-afd4-4049ba5519c2"/>
 
+10. Admin Authentication Page
+- Groups
+  - List of Groups
+  - <img width="1000" alt="Screenshot 2023-07-12 at 2 45 10 AM" src="https://github.com/drshahizan/special-topic-data-engineering/assets/76076543/ee137af8-0b14-4f03-b705-3f4c8a4554fc">
+  - Add Group Page
+  - <img width="1000" alt="Screenshot 2023-07-12 at 2 45 27 AM" src="https://github.com/drshahizan/special-topic-data-engineering/assets/76076543/6130fc40-937e-4ba5-b4d4-fe39336c03aa">
+
+- Users
+  - List of Users
+  - <img width="1000" alt="Screenshot 2023-07-12 at 2 45 42 AM" src="https://github.com/drshahizan/special-topic-data-engineering/assets/76076543/110a5488-6434-4443-af99-0c5a843ef8b2">
+  - Add User Page
+  - <img width="1000" alt="Screenshot 2023-07-12 at 2 45 59 AM" src="https://github.com/drshahizan/special-topic-data-engineering/assets/76076543/337de936-1d4a-4131-abd6-0f73161b972d">
 
 ## Insight
 `Top-Selling Products`: The analysis highlights that the Vinda Deluxe Kitchen Wipes 2 x 40s is the top-selling product in the household supplies category, with a total of 18,200 units sold. This indicates its popularity and high demand among customers.
 
-`Price-Sales Relationship`: 
-
 `Customer Satisfaction`: Customer satisfaction levels are generally high across the household supplies category. The majority of customers have provided positive ratings for the purchased products, indicating their satisfaction with the quality and performance of the items. For example, there is a total of 134,994 of 5 star rating for household supplies category.
 
 `High-Rated Products`: The Vinda Deluxe Kitchen Wipes 2 x 40s receives exceptional ratings, with 7,200 5-star ratings from satisfied customers. This demonstrates its excellent performance, effectiveness, and customer preference within the household supplies category.
-
-`Market Trends`: 
 
 `Product Performance`: The analysis shows variations in the performance of different products within the household supplies category. Some products have consistently high sales and ratings, indicating their reliability and popularity among customers. On the other hand, certain products may require improvements in terms of sales performance and customer satisfaction. For example, Vinda Deluxe Kitchen Wipes 2 x 40s has a 18,200 sold and 5.0 rating while Shieldtox Cockroach Kill Aerosol (570ml) Twin Pack has 0 sold and 0.0 rating. These insights can guide decision-making regarding product optimization and marketing strategies. 
 

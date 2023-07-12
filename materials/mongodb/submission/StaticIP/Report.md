@@ -186,45 +186,53 @@ It has been found that all of the data does not consist of any missing value, an
 ## Testing and Validation
 1. Create Operation Testing
 
-  Insert song information and click the "Add Song" button
-  <img width="947" alt="image" src="">
+  Insert a new exam information and click the "Save changes" button.
+  <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/create.png">
 
   Check the data in MongoDB and Mysql
   - Mysql
-  <img width="947" alt="image" src="">
+  <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/createphp.png">
   
   - MongoDB
-  <img width="947" alt="image" src="">
+  <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/createmongo.png">
 
 2. View Operation Testing
- <img width="960" alt="image" src="">
- 
-3. Update Operation Testing
 
-  Update song information and click "Update Song" button
-  <img width="946" alt="image" src="">
+   View the user lists 
+ <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/view.png">
+ 
+4. Update Operation Testing
+
+  Update the user information by clicking the the "Save changes" button. 
+  <img width="946" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/Screenshot%202023-07-12%20000925.png">
   
   Check the data in MongoDB and Mysql
   - Mysql
-  <img width="946" alt="image" src="">
+  <img width="946" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/phpupdate.png">
   
   - MongoDB
-  <img width="946" alt="image" src="">
+  <img width="946" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/mongoupdate.png">
 
 4. Delete Operation Testing
 
-  Delete song information and click the "OK" button
-  <img width="960" alt="image" src="">
+  Delete the user by clicking the delete action button. The user named "Singthai Srisoi" is deleted.
+  <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/delete%20(2).png">
 
   Check the data in MongoDB and Mysql
   - Mysql
-  <img width="394" alt="image" src="">
+  <img width="394" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/deletephp.png">
 
   - MongoDB
-  <img width="741" alt="image" src=">
+  <img width="741" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/deletemongo1.png">4
+
+  <img width="741" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/mongodb/submission/StaticIP/Images/deletemongo2.png">
 
 ## Conclusion
-This Student Result Analysis System developed using PHP, MySQL and MongoDB presents valuable insights on students understanding based on examination results. By meeting its goals of data collection, storage, CRUD operations and data analysis, the system proved to be effective. The successful implementation of CRUD operations on MongoDB and MySQL ensured streamlined data management.
+In conclusion, the Student Result Analysis System, developed using PHP, MySQL, and MongoDB, has proven to be a valuable tool for educators and students alike. By efficiently collecting and storing data, the system enables educators to gain insights into students' performance and understanding. The ability to perform CRUD operations on both MySQL and MongoDB ensures seamless data management and integrity. The web interface provides a user-friendly experience, allowing administrators, teachers, and students to access relevant information and perform necessary tasks with ease.
+
+Through the system's analysis capabilities, educators can identify students' strengths and weaknesses, providing personalized guidance and support. The system's findings indicate that the majority of students have a good understanding of the topics, as reflected in their high pass rates. This highlights the effectiveness of teaching methods and enables educators to focus on areas where students may need additional assistance. Challenges encountered during development, such as data consistency and scalability, can be addressed through ongoing improvements. Overall, the Student Result Analysis System has the potential to enhance educational practices, enabling educators to make data-driven decisions and support students' academic growth effectively.
+
+In the future, further enhancements could be made to the system, such as incorporating data visualization to present performance trends and improvements visually. Predictive analysis could be implemented to identify at-risk students early, allowing educators to intervene and provide necessary support. Additionally, providing mobile access to the system would enhance its accessibility and convenience for users. By embracing these improvements and advancements, the Student Result Analysis System can continue to revolutionize educational institutions' assessment processes and positively impact students' learning outcomes.
 
 #### Key Findings:
 Based on the overall results of students, 75% of students have good understanding on the topic learned as the majority of students got PASSED in the examination. This shows that, the students are able to cope with the teaching methods in class. Besides, students are able to 

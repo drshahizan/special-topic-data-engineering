@@ -60,10 +60,6 @@ As a result of its success, the recommendation system has become a benchmark for
 | Model Training | Trains the recommendation model using unsupervised machine learning algorithm based on data collected in steps 1 |
 | Recomendation Generator | Generate recommendations for users based on their previous interaction with the system |
 
-Below is an overview example of how the system will be programmed:
-<p align="center">
-<img height='400px' src='netflixpix.jpg'/>
-</p> 
 
 ## 6. System Architecture
 
@@ -78,9 +74,7 @@ The system will consist of the following components:
 | 5. | Model deployment |**PHP**, a php web framework, will be used by the model deployment component to deploy machine learning models to a web server. The algorithm will deploy the trained data after machine learning. This will help a lot to see the end result and also for data visulization |
 | 6. | Visualization and reporting | We will use **Tableau** to create reports and dashboards that can be shared with stakeholders. |
 
-<p align="center">
-<img height='500px' src='Recommendation architecture.png'/>
-</p> 
+![Use case diagram - Page 4](https://github.com/drshahizan/special-topic-data-engineering/assets/120616074/b0beeb9a-acda-4dc7-94e3-a81af24259a1)
 
 ## 7. Risks and Limitation
 Spotify Personalized system has been widely praised for its ability to personalize recommendations to individual users based on their ratings. However, here are some potential risks and limitations associated with this website's recommendation system, along with potential strategies to mitigate them:

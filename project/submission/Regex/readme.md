@@ -44,6 +44,6 @@
 - 📂[Dataset](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Regex/Dataset)
 - 🗄️[Database](https://github.com/drshahizan/special-topic-data-engineering/blob/0d88587f8107426d846275b93254a7f1a648a251/project/submission/Regex/regex/core/settings.py)
 - 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/tree/main/project/submission/Regex/regex)
-- 🎬[Video Presentation]()
+- 🎬[Video Presentation](https://www.canva.com/design/DAFmBI7dw-k/tpzrr-NbVmH5Pf0Og6ULQg/watch?utm_content=DAFmBI7dw-k&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 

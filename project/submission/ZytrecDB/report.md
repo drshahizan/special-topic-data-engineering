@@ -28,6 +28,16 @@ The objectives of the Spotify Recommendation Engine can be summarized as follows
 
 ## User Interface
 
+1. Home page
+![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/e1348b62-04d2-4444-9d7b-0e1e1581fd1f)
+
+2. Login Page
+![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/e46d69f5-5a41-4b6d-979d-bc5c9577448a)
+
+3. Admin Page
+![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/c8984efa-9f0b-4e81-b733-5c4de67d1b3d)
+
+
 
    
 

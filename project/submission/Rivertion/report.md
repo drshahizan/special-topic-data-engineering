@@ -96,7 +96,8 @@ By combining these steps, the Rotten Fruit Detection System offers a robust and 
 
 6. View images page
 <p align="center">
-   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Rivertion/Image/9.png">
+   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Rivertion/Image/9.jpeg">
+   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/Rivertion/Image/10.jpeg">
 </p>
    
 

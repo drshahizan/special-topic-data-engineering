@@ -12,20 +12,20 @@ Don't forget to hit the :star: if you like this repo.
 # Module 7: Application Programming Interface (API)
 
 Group Gadgeteen
-1. Goo Ye Jui   A20EC0191
-2. Kelvin Ee    A20EC0195 
-3. Lee Jia Xian A20EC0200
-4. Lee Ming Qi  A20EC0064
-5. Ong Han Wah  A20EC0129
+1. Goo Ye Jui   (A20EC0191)
+2. Kelvin Ee    (A20EC0195)
+3. Lee Jia Xian (A20EC0200)
+4. Lee Ming Qi  (A20EC0064)
+5. Ong Han Wah  (A20EC0129)
 
 
 ### Contents:
 - [Definition](#what-is-api)
 - [How it works](#how-do-apis-work)
 - [Types of APIs](#types-of-apis)
-- [API Protocol & Architecture](api-protocol-&-architecture)
-- [API Authentication and Security](api-authentication-and-security)
-- [API Documentation](api-documentation)
+- [API Protocol & Architecture](#api-protocol-&-architecture)
+- [API Authentication and Security](#api-authentication-and-security)
+- [API Documentation](#api-documentation)
 
 <!---
 ### Others

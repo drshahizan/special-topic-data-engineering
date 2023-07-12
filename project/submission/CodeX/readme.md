@@ -24,4 +24,4 @@ The project is a robust movie recommendation engine built using PHP, designed to
 - 💻[Code](https://github.com/drshahizan/special-topic-data-engineering/tree/738321155c0827c687aed33d6e1b1d4e1a74d415/project/submission/CodeX/Final_Project)
 - 📂[Dataset](https://github.com/drshahizan/special-topic-data-engineering/tree/738321155c0827c687aed33d6e1b1d4e1a74d415/project/submission/CodeX/Dataset)
 - :film_strip: [Video](https://youtu.be/RvWESBxl9i4)
-- 📋 [Slide](https://github.com/drshahizan/special-topic-data-engineering/blob/b295b16eb93814c6a036f3e00156b4ef92e8d390/project/submission/CodeX/Project%20Presentation.pdf)
+- 📋 [Presentation Slides](https://github.com/drshahizan/special-topic-data-engineering/blob/b295b16eb93814c6a036f3e00156b4ef92e8d390/project/submission/CodeX/Project%20Presentation.pdf)

@@ -1,7 +1,7 @@
 
 
 
-<h1 align='center'>Image Analysis for Rotten Fruit Detection</h1>
+<h1 align='center'>Spotify Recommendation Engine</h1>
 
 ## Table of Contents
 * [Introduction](#introduction)

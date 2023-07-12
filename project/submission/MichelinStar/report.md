@@ -1,4 +1,4 @@
-<h1 align="center">Entertainment Analytics Platform</h1>
+![image](https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/5ec135d7-ccda-4aee-ac5c-7d7b9b06b967)<h1 align="center">Entertainment Analytics Platform</h1>
 <p align='center'>
   <img height='400px' width='400px' src='https://user-images.githubusercontent.com/120614501/236613696-7581817b-016e-42cf-867f-68b599944423.gif'/>
 </p>
@@ -61,49 +61,23 @@ This project will develop an entertainment analytics platform that will leverage
 
 - Data Visualization: Finally, the results of the analysis and machine learning models will be visualized using various techniques, including graphs, charts, and dashboards. This will allow stakeholders to easily understand and interpret the results.
 
-## Project Structure
-
-```bash
-< PROJECT ROOT >
-   |
-   |-- core/                            
-   |    |-- settings.py                  # Project Configuration  
-   |    |-- urls.py                      # Project Routing
-   |
-   |-- home/
-   |    |-- views.py                     # APP Views 
-   |    |-- urls.py                      # APP Routing
-   |    |-- models.py                    # APP Models 
-   |    |-- tests.py                     # Tests  
-   |    |-- templates/                   # Theme Customisation 
-   |         |-- accounts                # Account Folder
-   |              |-- login.html        
-   |              |-- password_change.html 
-   |              |-- password_change_done.html 
-   |              |-- password_reset.html 
-   |              |-- password_reset_complete.html
-   |              |-- password_reset_confirm.html
-   |              |-- password_reset_done.html
-   |              |-- register.html
-   |         |-- admin                   # Admin Folder
-   |         |-- includes               
-   |         |-- layouts                     
-   |         |-- pages                   # Website Pages Folder         
-   |              |-- index.html
-   |              |-- prod_details.html
-   |              |-- product.html
-   |              |-- report.html
-   |              |-- registration 
-   |     
-   |-- requirements.txt                  # Project Dependencies
-   |
-   |-- env.sample                        # ENV Configuration (default values)
-   |-- manage.py                         # Start the app - Django default start script
-   |
-   |-- ************************************************************************
-```
-
 ## Interface
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/e0cde805-26d0-472b-944d-468be4b92815">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/be3391a8-d505-4cdd-a220-cf7ded4a3ee8">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/05ef9341-fbe9-422d-b156-dfe92505e575">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/7b6b2010-cc38-4dad-8099-c4061e28a61b">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/d6c87dad-a100-4924-8a86-9d403f064da3">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/68eaed93-2bd3-4b0e-8c4e-1ff0f23c682a">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/efc95680-4779-497f-8166-b2362602e66e">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/4c0ca66c-f394-458a-aeda-65763dd37dd6">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/72981dbe-5d7b-41fa-a6ad-c34147e0f724">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/54320721-ad85-497f-9cfe-e85480cfa7b7">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/9ded478e-6e04-45ac-80a8-7014b28f3ff0">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/32f9e7f1-cc5e-42b0-a67f-eac1dbc3cb2d">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/f9031f3e-4ad6-4b5d-9fbe-c745856c6233">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/cd86d1e2-95a0-413d-8987-26618ae1c5bd">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/d458f4ad-ac9b-49f8-8925-4dbd0062056a">
+<img src="https://github.com/drshahizan/special-topic-data-engineering/assets/95403713/0cc14255-34eb-436f-9fce-22166f407313">
 
 
 ## Insight

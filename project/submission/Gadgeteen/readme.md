@@ -61,4 +61,5 @@
 - ⚒️[Data Cleaning](Gadgeteen.ipynb)
 - 📂[Dataset](#)
 - 💻[Source Code](chatgpt_sentiment)
+- 📽[Video Presentation](https://youtu.be/X5nv6Ve3B5M)
 

@@ -148,6 +148,12 @@ Users must log in with their username and password to access the page. If they d
 Users have the option to register themselves to gain access to the system. <br>
 ![Alt text](assets/img/image-1.png)
    
+3. Admin Dashboard Overview
+![Alt text](assets/img/dashboard.png)
+
+4. User Dashboard Overview
+![Alt text](assets/img/userdashboard.png)
+
 
 ## Conclusion
 

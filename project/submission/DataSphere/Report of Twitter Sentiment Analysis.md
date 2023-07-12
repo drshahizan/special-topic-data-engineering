@@ -208,6 +208,13 @@ Once the designated user has logged in, they will be directed to a dashboard. Th
 </p>
 <br></br>
 
+5. ``About Data Page:``
+Users can learn about the background of the data, download the dataset, and read explanations of the attributes and description to learn more about the data.
+<p align="center">
+   <img width="947" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/DataSphere/Interfaces/aboutdata.png">
+</p>
+<br></br>
+
 ## User Credentials
 
 To login into our system, you can use the login credentials as follows:

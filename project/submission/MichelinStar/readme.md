@@ -47,5 +47,5 @@ The Entertainment Analytics Platform is a comprehensive tool that harnesses the 
 - 🔍[API from The Movie Database](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/MichelinStar/MichelinStar_Project_TMDB_API.ipynb)
 - 🤖[Data Cleaning & Machine Learning](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/MichelinStar/Movie_(MichelinStar).ipynb)
 - 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/submission/MichelinStar/report.md)
-
+- 🎬[Video Presentation](https://www.canva.com/design/DAFoUkrn5vo/tMbatCg2Is3Yg3iKtbjuiA/edit?utm_content=DAFoUkrn5vo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 

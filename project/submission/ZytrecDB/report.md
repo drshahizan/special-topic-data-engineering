@@ -1,45 +1,156 @@
+<h1 align='center'>Car Recommendation System</h1>
 
 
+- [Introduction](#introduction)
+- [System Design](#system-design)
+  - [Data Requirements](#data-requirements)
+  - [Functionalities](#functionalities)
+- [Implementation](#implementation)
+  - [1. Download All Required Software](#1-download-all-required-software)
+  - [2. Connect to database](#2-connect-to-database)
+- [Web Interface](#web-interface)
+- [Conclusion](#conclusion)
 
-<h1 align='center'>Spotify Recommendation Engine</h1>
-
-## Table of Contents
-* [Introduction](#introduction)
-* [Objectives](#objectives)
-* [User Interface](#user-interface)
-* [Conclusion](#conclusion)
 
 ## Introduction
-
-The Spotify Recommendation Engine is a powerful feature of the popular music streaming platform, Spotify. It utilizes advanced algorithms and machine learning techniques to provide personalized music recommendations to its users. By analyzing various data points, such as user preferences, listening history, and behavior patterns, the recommendation engine suggests songs, artists, playlists, and albums that align with the user's musical taste.
-
-## Objectives
-
-The objectives of the Spotify Recommendation Engine can be summarized as follows:
-
-**1. Personalized Music Discovery:** The primary objective of the recommendation engine is to provide personalized music recommendations to each user. By analyzing user data, such as listening history, liked songs, playlists, and user-generated content, Spotify aims to deliver tailored recommendations that align with each individual's musical taste. The goal is to help users discover new artists, songs, genres, and playlists that they are likely to enjoy, ultimately enhancing their music discovery experience.
-
-**2. User Engagement and Retention:** Spotify's recommendation system is designed to keep users engaged with the platform by continuously providing them with fresh and relevant music content. By offering personalized recommendations, Spotify aims to keep users coming back to explore new songs and discover emerging artists. Increased user engagement and retention contribute to the overall success of the platform.
-
-**3. Enhanced User Satisfaction:** Spotify wants to ensure that users are satisfied with their music recommendations. By delivering accurate and relevant suggestions, the recommendation engine strives to meet user expectations and preferences. Satisfied users are more likely to have a positive experience, explore more content, and remain loyal to the platform.
-
-**4. Facilitating Music Exploration:** Spotify aims to facilitate music exploration by introducing users to new artists, genres, and songs that they may not have encountered otherwise. The recommendation engine plays a vital role in broadening users' musical horizons and encouraging them to step outside their comfort zones. By curating a diverse range of recommendations, Spotify encourages users to explore different music styles and discover hidden gems.
+The Car Recommendation System project aims to provide personalized car recommendations to users based on their preferences and requirements. The system utilizes PHP as the primary programming language for the backend, MySQL for relational database management, and MongoDB for storing and retrieving unstructured data efficiently. The combination of these technologies allows for a comprehensive and flexible solution to cater to the diverse needs of car enthusiasts.
 
 
-## User Interface
+## System Design
 
-1. Home page
-![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/e1348b62-04d2-4444-9d7b-0e1e1581fd1f)
+### Data Requirements
+ The data requirements for this system are listed as follows:
+  <table>
+  <tr>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>c_id</td>
+    <td>A identifier for each car</td>
+  </tr>
+  <tr>
+    <td>c_reg</td>
+    <td>Car registration number</td>
+  </tr>
+  <tr>
+    <td>c_model</td>
+    <td>Car model</td>
+  </tr>
+  <tr>
+    <td>c_year</td>
+    <td>Car manufacturing year</td>
+  </tr>
+  <tr>
+    <td>c_price</td>
+    <td>Car rental price</td>
+  </tr>
+  <tr>
+    <td>c_type</td>
+    <td>Car Type</td>
+  </tr>
+  <tr>
+    <td>c_filename</td>
+    <td>Car filename for car image</td>
+  </tr>
+  <tr>
+    <td>c_rating</td>
+    <td>Rating of the car</td>
+  </tr>
+</table>
 
-2. Login Page
-![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/e46d69f5-5a41-4b6d-979d-bc5c9577448a)
-
-3. Admin Page
-![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/c8984efa-9f0b-4e81-b733-5c4de67d1b3d)
+### Functionalities
+A car recommendation system aims to assist users in finding the most suitable car based on their preferences, needs, and constraints. The system offers the user list of recommended car that can be choose based on the rating. The higher rating would be placed at the top 3 of recommendation car list.
 
 
 
-   
+## Implementation
+
+### 1. Download All Required Software
+
+1.1 Install [XAMPP](https://www.apachefriends.org/download.html) <br>
+1.2 Install [Composer](https://getcomposer.org/download/) <br>
+1.3 Install [MongoDB](https://www.mongodb.com/try/download/community) <br>
+1.4 Install [MongoDB PHP Driver](https://pecl.php.net/package/mongodb) <br>
+
+### 2. Create MySQL Database
+![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/a42d2f68-760b-4a17-aa6b-fc5b81276c70)
+
+### 3. Connect to Database
+- Create a new php file named dbconnect.php to connect to both MySQL and MongoDB database.
+- ```
+  <?php 
+  require 'vendor/autoload.php';
+  //Set Db parameters
+  $servername = "localhost";
+  $username = "root";
+  $password = "";
+  $dbname = "db_car";
+  //Create DB Connection
+  $con = mysqli_connect($servername, $username, $password, $dbname);
+  //Check DB Connection
+  
+  $client = new MongoDB\Client;
+  $db_car = $client->db_car;
+  
+  ?>
+  ```
+
+  ### 4. Implement CRUD Operations
+CRUD stands for Create, Read, Update, and Delete, which are the basic operations or actions performed on data in a persistent storage system, such as a database. CRUD represents the four fundamental functions that can be applied to data:
+1. Create (C): Create a new data of car into the database which consist of car details such as car id, model, type, year of manufacturing, price, image and rating.
+2. Read (R): Retrieve or read existing data from the database.
+3. Update (U): Modify or update existing data in the database.
+4. Delete (D): Remove or delete existing data from the database.
+
+## Web Interface
+- Landing Page
+  
+![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/df27792a-9b34-4977-94b2-9b7dcbc69981)
+
+
+- Car List Page (Recommended Car)
+  
+![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/576a53b0-319f-4112-9ad3-3f5d60122d3f)
+
+
+- Car List Page
+  
+![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/b280c41d-4e72-4336-9c80-afbd3d07541a)
+
+- Add Car Page
+  
+![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/6132d9d1-73fc-4096-a618-5df69fd0f14c)
+![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/a472a0cb-5f9b-49cd-bee8-96fe553b9f1c)
+
+
+- New Car Added into Car List Page
+  
+![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/2849240e-69f6-4efe-8571-1c911c7caa8a)
+
+- Edit Car Page
+  
+![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/d1191bdd-4802-49de-a320-02b89c0bc419)
+![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/a72f321b-c8df-420a-a48e-64912bfaf3e5)
+
+- Edited Car has been added into Recommended Car List
+  
+![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/17699ec9-7da1-4f8f-aa94-5377959d9a46)
+
+  ### 5. Testing and Validation
+- `MySQL Database`:
+- ![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/af5ffbb7-678a-4d5c-9aa1-2e55338aaa11)
+- `MongoDB Database`:
+- ![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/1cfe14d2-bdd6-4105-9439-80d3743ec021)
+- ![image](https://github.com/drshahizan/special-topic-data-engineering/assets/92329710/3c611198-9ed8-484c-96a9-692c1bc130fa)
+
+
+
 
 ## Conclusion
-Overall, the Spotify Recommendation Engine plays a crucial role in curating a personalized music experience for users. By leveraging collaborative filtering, content-based filtering, machine learning, and user feedback, Spotify can offer a vast and diverse music library while helping users discover new music that resonates with their preferences
+
+It's important to note that the specific functionalities and features of a car recommendation system can vary depending on the project requirements, target audience, and available data sources. The above list provides a general overview of common functionalities found in such systems, but additional features can be added to enhance the user experience and meet specific project goals
+
+
+
+

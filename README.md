@@ -18,6 +18,7 @@ data engineering, database systems and technologies. Various topics of interests
 1. [Course Information](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/CI_SCSP3843_STDE_22232.pdf)
 2. [Lecture Notes](https://drive.google.com/drive/folders/1rurioGmZy-6Cl-N0pGcJo2YMejny74S1?usp=sharing)
 3. [Task 1: Additional Notes](./materials/task1.md)
+4. 🆕 [Carry Marks](./images/ST_CM.pdf)
 
 ### Project
 - [Description of the project's topic](./materials/mongodb/mongodb-ds.md)

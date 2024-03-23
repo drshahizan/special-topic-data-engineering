@@ -16,8 +16,7 @@ data engineering, database systems and technologies. Various topics of interests
 ## 🔥 Important things ⚡
 
 1. [Course Information](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/CI_SCSP3843_STDE_22232.pdf)
-2. [Lecture Notes]()
-3. [Task 1: Additional Notes]()
+2. [Task 1: Additional Notes]()
 
 
 ### Project

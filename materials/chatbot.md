@@ -11,7 +11,7 @@
 | Lab | Title | Files |
 | :-----: | ----- | :------: | 
 | 04 | Text To Speech Converter  |<a href="../../lab/js/adv/lab4" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
-| 05 | A Dictionary App |<a href="../../lab/js/adv/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
+| 05 | A Dictionary App |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab5" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 | 06 | A Language Translator App|<a href="../../lab/js/adv/lab6" ><img src="../../images/folder_info.png" width="24px" height="24px" ></a> |
 
 

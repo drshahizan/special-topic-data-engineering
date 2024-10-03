@@ -8,11 +8,11 @@
 # Machine Translation & Chatbot
 
 
-| Lab | Title | Description | Sample |
+| Lab | Title | Description | Output |
 | :-----: | ----- | :------: | :------: |
 | 01 | Text To Speech Converter  |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab4" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab4" ><img src="../images/html64.png" width="24px" height="24px" ></a>|
-| 02 | A Dictionary App |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab5" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> ||
-| 03 | A Language Translator App|<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab6" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> ||
+| 02 | A Dictionary App |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab5" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab4" ><img src="../images/html64.png" width="24px" height="24px" ></a>|
+| 03 | A Language Translator App|<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab6" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab4" ><img src="../images/html64.png" width="24px" height="24px" ></a>|
 
 
 ## Contribution 🛠️

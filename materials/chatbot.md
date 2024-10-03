@@ -8,13 +8,17 @@
 # Machine Translation & Chatbot
 
 ## Definition:
-**Machine Translation (MT)** refers to the automated process of translating text or speech from one language to another using software algorithms. This technology leverages computational linguistics and, increasingly, artificial intelligence models like neural networks to produce translations that are more accurate and contextually appropriate. MT systems can be rule-based, statistical, or use deep learning models such as Neural Machine Translation (NMT) for enhanced fluency and precision.
+**Machine Translation** is the use of computational techniques to translate text or speech from one language to another. This technology aims to capture the contextual, idiomatic, and pragmatic nuances of both languages. Early methods were rule-based or statistical, but modern approaches primarily use neural machine translation and large language models¹(https://en.wikipedia.org/wiki/Machine_translation)²(https://academic.oup.com/edited-volume/42643/chapter/358152716).
 
-**Chatbots** are computer programs designed to simulate human conversation through text or voice interactions. They often incorporate natural language processing (NLP) to understand and respond to user inputs, offering support for tasks like customer service, information retrieval, and basic conversation. **Chatbots** can be rule-based, relying on scripted interactions, or powered by **AI, making them more dynamic and capable of handling complex queries**.
+**Chatbots** are computer programs designed to simulate human conversation, either through text or voice. They use technologies like natural language processing (NLP) to understand and respond to user inputs. Chatbots can range from simple, rule-based systems to more advanced AI-driven models that learn and adapt over time³(https://www.coursera.org/articles/what-is-a-chatbot)⁴(https://link.springer.com/chapter/10.1007/978-3-030-49186-4_31).
 
-Citations:
-- Al-Shawi, H. (2012). Machine Translation: Overview and Challenges. *International Journal of Computer Science Issues*, 9(6), 57-64.
-- Dale, R. (2016). The Return of the Chatbots. *Natural Language Engineering*, 22(5), 811-817.
+**Source:**
+(1) Machine translation - Wikipedia. https://en.wikipedia.org/wiki/Machine_translation.
+(2) Machine Translation | The Oxford Handbook of ... - Oxford Academic. https://academic.oup.com/edited-volume/42643/chapter/358152716.
+(3) What Is a Chatbot? Definition, Types, and Examples | Coursera. https://www.coursera.org/articles/what-is-a-chatbot.
+(4) An Overview of Chatbot Technology | SpringerLink. https://link.springer.com/chapter/10.1007/978-3-030-49186-4_31.
+
+## Hands-on
 | Lab | Title | Description | Output |
 | :-----: | ----- | :------: | :------: |
 | 01 | Text To Speech Converter  |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab4" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |<a href="https://drshahizan.github.io/lab/lab4/index.html" ><img src="../images/html64.png" width="24px" height="24px" ></a>|

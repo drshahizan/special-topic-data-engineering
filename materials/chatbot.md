@@ -7,7 +7,14 @@
 
 # Machine Translation & Chatbot
 
+## Definition:
+**Machine Translation (MT)** refers to the automated process of translating text or speech from one language to another using software algorithms. This technology leverages computational linguistics and, increasingly, artificial intelligence models like neural networks to produce translations that are more accurate and contextually appropriate. MT systems can be rule-based, statistical, or use deep learning models such as Neural Machine Translation (NMT) for enhanced fluency and precision.
 
+**Chatbots** are computer programs designed to simulate human conversation through text or voice interactions. They often incorporate natural language processing (NLP) to understand and respond to user inputs, offering support for tasks like customer service, information retrieval, and basic conversation. **Chatbots** can be rule-based, relying on scripted interactions, or powered by **AI, making them more dynamic and capable of handling complex queries**.
+
+Citations:
+- Al-Shawi, H. (2012). Machine Translation: Overview and Challenges. *International Journal of Computer Science Issues*, 9(6), 57-64.
+- Dale, R. (2016). The Return of the Chatbots. *Natural Language Engineering*, 22(5), 811-817.
 | Lab | Title | Description | Output |
 | :-----: | ----- | :------: | :------: |
 | 01 | Text To Speech Converter  |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab4" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |<a href="https://drshahizan.github.io/lab/lab4/index.html" ><img src="../images/html64.png" width="24px" height="24px" ></a>|

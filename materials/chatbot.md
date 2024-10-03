@@ -8,15 +8,9 @@
 # Machine Translation & Chatbot
 
 ## Definition:
-**Machine Translation** is the use of computational techniques to translate text or speech from one language to another. This technology aims to capture the contextual, idiomatic, and pragmatic nuances of both languages. Early methods were rule-based or statistical, but modern approaches primarily use neural machine translation and large language models¹(https://en.wikipedia.org/wiki/Machine_translation)²(https://academic.oup.com/edited-volume/42643/chapter/358152716).
+**Machine Translation** is the use of computational techniques to translate text or speech from one language to another. This technology aims to capture the contextual, idiomatic, and pragmatic nuances of both languages. Early methods were rule-based or statistical, but modern approaches primarily use neural machine translation and large language models[¹](https://en.wikipedia.org/wiki/Machine_translation) [²](https://academic.oup.com/edited-volume/42643/chapter/358152716).
 
-**Chatbots** are computer programs designed to simulate human conversation, either through text or voice. They use technologies like natural language processing (NLP) to understand and respond to user inputs. Chatbots can range from simple, rule-based systems to more advanced AI-driven models that learn and adapt over time³(https://www.coursera.org/articles/what-is-a-chatbot)⁴(https://link.springer.com/chapter/10.1007/978-3-030-49186-4_31).
-
-**Source:**
-(1) Machine translation - Wikipedia. https://en.wikipedia.org/wiki/Machine_translation.
-(2) Machine Translation | The Oxford Handbook of ... - Oxford Academic. https://academic.oup.com/edited-volume/42643/chapter/358152716.
-(3) What Is a Chatbot? Definition, Types, and Examples | Coursera. https://www.coursera.org/articles/what-is-a-chatbot.
-(4) An Overview of Chatbot Technology | SpringerLink. https://link.springer.com/chapter/10.1007/978-3-030-49186-4_31.
+**Chatbots** are computer programs designed to simulate human conversation, either through text or voice. They use technologies like natural language processing (NLP) to understand and respond to user inputs. Chatbots can range from simple, rule-based systems to more advanced AI-driven models that learn and adapt over time[³](https://www.coursera.org/articles/what-is-a-chatbot) [⁴](https://link.springer.com/chapter/10.1007/978-3-030-49186-4_31).
 
 ## Hands-on
 | Lab | Title | Description | Output |

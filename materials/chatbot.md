@@ -16,6 +16,25 @@
 1. Guntara, T. W., Aji, A. F., & Prasojo, R. E. (2020). Benchmarking multidomain English-Indonesian machine translation. In *Proceedings of the 13th Workshop on Building and Using Comparable Corpora* (pp. 35–43). Language Resources and Evaluation Conference (LREC 2020), Marseille, France. European Language Resources Association (ELRA). [PDF](https://aclanthology.org/2020.bucc-1.6.pdf)
 2. Winata, G. I., Aji, A. F., Cahyawijaya, S., Mahendra, R., Koto, F., Romadhony, A., Kurniawan, K., Moeljadi, D., Prasojo, R. E., Fung, P., Baldwin, T., Lau, J. H., Sennrich, R., & Ruder, S. (2023). NusaX: Multilingual parallel sentiment dataset for 10 Indonesian local languages. In Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics (pp. 815-834). Association for Computational Linguistics. [PDF](https://aclanthology.org/2023.eacl-main.57.pdf)
 
+3. Machine translation in Indonesia is increasingly being integrated into educational and cultural preservation contexts. A study on Indonesian EFL students' use of the DeepL machine translation tool reveals its potential in improving translation accuracy, saving time, and enhancing language skills, although concerns about over-reliance persist ([Laksana & Komara, 2024](https://typeset.io/papers/indonesian-efl-students-perceptions-of-deepl-machine-4fa7pk7rsa)). In terms of regional languages, research focusing on Indonesian to Sasak translation using a Neural Machine Translation model achieved a 71.9% accuracy on test data, contributing to local language preservation efforts ([Wardhana et al., 2024](https://typeset.io/papers/implementation-of-neural-machine-translation-in-translating-9axb7ux7eh)). A similar study on translating Indonesian to Batak Toba highlighted challenges with sentence structure but showed progress with a BLEU score of 32.3%, reflecting comprehensible though imperfect translations ([Abidin et al., 2023](https://typeset.io/papers/direct-machine-translation-indonesian-batak-toba-1yyytfqum5)). Furthermore, the benchmarking of Neural Machine Translation on low-resource Indonesian languages like Javanese, Sundanese, and Balinese achieved significant strides despite data scarcity, rivaling performance from large models like GPT-3.5 ([Susanto et al., 2023](https://typeset.io/papers/replicable-benchmarking-of-neural-machine-translation-nmt-on-45n8ooqnb0)). Lastly, an Indonesia-Sentani translation project using an RNN-GRU model showed promise with a BLEU score of 35.3, facilitating regional language translation ([Achmad et al., 2023](https://typeset.io/papers/recurrent-neural-network-gated-recurrent-unit-for-indonesia-2ofsoh9ncc)).
+
+| # | Paper | Key Insight | Citations |
+|---|-------|-------------|-----------|
+| 1 | [Indonesian EFL Students' Perceptions of DeepL (Laksana & Komara, 2024)](https://typeset.io/papers/indonesian-efl-students-perceptions-of-deepl-machine-4fa7pk7rsa) | Highlights DeepL's potential and concerns in EFL contexts. | - |
+| 2 | [Indonesian to Sasak Translation (Wardhana et al., 2024)](https://typeset.io/papers/implementation-of-neural-machine-translation-in-translating-9axb7ux7eh) | Achieved 71.9% accuracy for low-resource Sasak language. | - |
+| 3 | [Direct Machine Translation for Batak Toba (Abidin et al., 2023)](https://typeset.io/papers/direct-machine-translation-indonesian-batak-toba-1yyytfqum5) | Batak Toba translation achieved comprehensible results with a BLEU score of 32.3%. | - |
+| 4 | [Benchmarking NMT for Low-Resource Languages (Susanto et al., 2023)](https://typeset.io/papers/replicable-benchmarking-of-neural-machine-translation-nmt-on-45n8ooqnb0) | Competitive translation results for local languages like Javanese and Sundanese. | - |
+| 5 | [RNN-GRU for Indonesia-Sentani Translation (Achmad et al., 2023)](https://typeset.io/papers/recurrent-neural-network-gated-recurrent-unit-for-indonesia-2ofsoh9ncc) | BLEU score of 35.3 for Sentani language translation. | - |
+
+Explore further on [SciSpace](https://typeset.io/search?q=machine%20translation%20Indonesia&utm_source=chatgpt).
+
+#### Users also ask these questions:
+1. How does machine translation impact language preservation in Indonesia?
+2. What are the limitations of Neural Machine Translation for low-resource languages?
+3. How is DeepL being integrated into language education in Indonesia?
+
+Help us improve, write a feedback [here](https://tally.so/r/wbLQR1).
+
 
 ## Hands-on
 | Lab | Title | Description | Output |

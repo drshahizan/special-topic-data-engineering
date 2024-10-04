@@ -29,7 +29,9 @@
 | 4 | [Benchmarking NMT for Low-Resource Languages (Susanto et al., 2023)](https://typeset.io/papers/replicable-benchmarking-of-neural-machine-translation-nmt-on-45n8ooqnb0) | Competitive translation results for local languages like Javanese and Sundanese. | - |
 | 5 | [RNN-GRU for Indonesia-Sentani Translation (Achmad et al., 2023)](https://typeset.io/papers/recurrent-neural-network-gated-recurrent-unit-for-indonesia-2ofsoh9ncc) | BLEU score of 35.3 for Sentani language translation. | - |
 
-Explore further on [SciSpace](https://typeset.io/search?q=machine%20translation%20Indonesia&utm_source=chatgpt).
+Explore further on [SciSpace](https://typeset.io/search?q=machine%20translation%20Indonesia&utm_source=chatgpt). This project about AI Chatbot Kampus Merdeka to help students or Indonesian people know about the Kampus Merdeka program from KEMENDIKBUDRISTEK (Kementerian Pendidikan, Kebudayaan, Riset Dan Teknologi).
+
+
 
 #### Users also ask these questions:
 1. How does machine translation impact language preservation in Indonesia?

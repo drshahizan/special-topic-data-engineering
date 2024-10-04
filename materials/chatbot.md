@@ -19,21 +19,11 @@
 4. Abidin, Z., Junaidi, A., Wamiliana, Togatorop, F. M., Ahmad, I., & Puspaningrum, A. S. (2023). Direct machine translation Indonesian-Batak Toba. In Proceedings of the 7th International Conference on New Media Studies, Bali, Indonesia, 6-8 December 2023.[PDF](http://repository.lppm.unila.ac.id/53264/1/Direct_Machine_Translation_Indonesian-Batak_Toba.pdf)
 
 
-4. Machine translation in Indonesia is increasingly being integrated into educational and cultural preservation contexts. A study on Indonesian EFL students' use of the DeepL machine translation tool reveals its potential in improving translation accuracy, saving time, and enhancing language skills, although concerns about over-reliance persist ([Laksana & Komara, 2024](https://typeset.io/papers/indonesian-efl-students-perceptions-of-deepl-machine-4fa7pk7rsa)). In terms of regional languages, research focusing on Indonesian to Sasak translation using a Neural Machine Translation model achieved a 71.9% accuracy on test data, contributing to local language preservation efforts ([Wardhana et al., 2024](https://typeset.io/papers/implementation-of-neural-machine-translation-in-translating-9axb7ux7eh)). A similar study on translating Indonesian to Batak Toba highlighted challenges with sentence structure but showed progress with a BLEU score of 32.3%, reflecting comprehensible though imperfect translations ([Abidin et al., 2023](https://typeset.io/papers/direct-machine-translation-indonesian-batak-toba-1yyytfqum5)). Furthermore, the benchmarking of Neural Machine Translation on low-resource Indonesian languages like Javanese, Sundanese, and Balinese achieved significant strides despite data scarcity, rivaling performance from large models like GPT-3.5 ([Susanto et al., 2023](https://typeset.io/papers/replicable-benchmarking-of-neural-machine-translation-nmt-on-45n8ooqnb0)). Lastly, an Indonesia-Sentani translation project using an RNN-GRU model showed promise with a BLEU score of 35.3, facilitating regional language translation ([Achmad et al., 2023](https://typeset.io/papers/recurrent-neural-network-gated-recurrent-unit-for-indonesia-2ofsoh9ncc)).
-
-| # | Paper | Key Insight | Citations |
-|---|-------|-------------|-----------|
-| 1 | [Indonesian EFL Students' Perceptions of DeepL (Laksana & Komara, 2024)](https://typeset.io/papers/indonesian-efl-students-perceptions-of-deepl-machine-4fa7pk7rsa) | Highlights DeepL's potential and concerns in EFL contexts. | - |
-| 2 | [Indonesian to Sasak Translation (Wardhana et al., 2024)](https://typeset.io/papers/implementation-of-neural-machine-translation-in-translating-9axb7ux7eh) | Achieved 71.9% accuracy for low-resource Sasak language. | - |
-| 3 | [Direct Machine Translation for Batak Toba (Abidin et al., 2023)](https://typeset.io/papers/direct-machine-translation-indonesian-batak-toba-1yyytfqum5) | Batak Toba translation achieved comprehensible results with a BLEU score of 32.3%. | - |
-| 4 | [Benchmarking NMT for Low-Resource Languages (Susanto et al., 2023)](https://typeset.io/papers/replicable-benchmarking-of-neural-machine-translation-nmt-on-45n8ooqnb0) | Competitive translation results for local languages like Javanese and Sundanese. | - |
-| 5 | [RNN-GRU for Indonesia-Sentani Translation (Achmad et al., 2023)](https://typeset.io/papers/recurrent-neural-network-gated-recurrent-unit-for-indonesia-2ofsoh9ncc) | BLEU score of 35.3 for Sentani language translation. | - |
-
-Explore further on [SciSpace](https://typeset.io/search?q=machine%20translation%20Indonesia&utm_source=chatgpt). This project about AI Chatbot Kampus Merdeka to help students or Indonesian people know about the Kampus Merdeka program from KEMENDIKBUDRISTEK (Kementerian Pendidikan, Kebudayaan, Riset Dan Teknologi).
 
 
 
-#### Users also ask these questions:
+
+#### Questions:
 1. How does machine translation impact language preservation in Indonesia?
 2. What are the limitations of Neural Machine Translation for low-resource languages?
 3. How is DeepL being integrated into language education in Indonesia?
@@ -52,7 +42,8 @@ Help us improve, write a feedback [here](https://tally.so/r/wbLQR1).
 - [NusaX-MT](https://github.com/IndoNLP/nusax/tree/main/datasets/mt)
 
 ## Github Chatbot
-- [AI Chatbot Intelligence for Kampus Merdeka Program Using Long Short-Term Memory Algorithm](https://github.com/fendy07/chatbot-AI)
+- [AI Chatbot Intelligence for Kampus Merdeka Program Using Long Short-Term Memory Algorithm](https://github.com/fendy07/chatbot-AI). This project about AI Chatbot Kampus Merdeka to help students or Indonesian people know about the Kampus Merdeka program from KEMENDIKBUDRISTEK (Kementerian Pendidikan, Kebudayaan, Riset Dan Teknologi).
+
 
 
 ## Contribution 🛠️

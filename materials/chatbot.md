@@ -49,6 +49,10 @@ Help us improve, write a feedback [here](https://tally.so/r/wbLQR1).
 - [Indonesian LocalX Machine Translation](https://github.com/zanuura/Indonesian-LocalX-Machine-Translation)
 - [NusaX-MT](https://github.com/IndoNLP/nusax/tree/main/datasets/mt)
 
+## Github Chatbot
+- [AI Chatbot Intelligence for Kampus Merdeka Program Using Long Short-Term Memory Algorithm](https://github.com/fendy07/chatbot-AI)
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

@@ -14,7 +14,7 @@
 
 ## Articles
 1. Guntara, T. W., Aji, A. F., & Prasojo, R. E. (2020). Benchmarking multidomain English-Indonesian machine translation. In *Proceedings of the 13th Workshop on Building and Using Comparable Corpora* (pp. 35–43). Language Resources and Evaluation Conference (LREC 2020), Marseille, France. European Language Resources Association (ELRA). [PDF](https://aclanthology.org/2020.bucc-1.6.pdf)
-2. Winata, G. I., Aji, A. F., Cahyawijaya, S., Mahendra, R., Koto, F., Romadhony, A., Kurniawan, K., Moeljadi, D., Prasojo, R. E., Fung, P., Baldwin, T., Lau, J. H., Sennrich, R., & Ruder, S. (2023). NusaX: Multilingual parallel sentiment dataset for 10 Indonesian local languages. In Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics (pp. 815-834). Association for Computational Linguistics. https://aclanthology.org/2023.eacl-main.57 [PDF](https://aclanthology.org/2023.eacl-main.57.pdf)
+2. Winata, G. I., Aji, A. F., Cahyawijaya, S., Mahendra, R., Koto, F., Romadhony, A., Kurniawan, K., Moeljadi, D., Prasojo, R. E., Fung, P., Baldwin, T., Lau, J. H., Sennrich, R., & Ruder, S. (2023). NusaX: Multilingual parallel sentiment dataset for 10 Indonesian local languages. In Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics (pp. 815-834). Association for Computational Linguistics. [PDF](https://aclanthology.org/2023.eacl-main.57.pdf)
 
 
 ## Hands-on

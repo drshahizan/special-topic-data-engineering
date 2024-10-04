@@ -12,6 +12,11 @@
 
 **Chatbots** are computer programs designed to simulate human conversation, either through text or voice. They use technologies like natural language processing (NLP) to understand and respond to user inputs. Chatbots can range from simple, rule-based systems to more advanced AI-driven models that learn and adapt over time[³](https://www.coursera.org/articles/what-is-a-chatbot) [⁴](https://link.springer.com/chapter/10.1007/978-3-030-49186-4_31).
 
+## Articles
+1. Guntara, T. W., Aji, A. F., & Prasojo, R. E. (2020). Benchmarking multidomain English-Indonesian machine translation. In *Proceedings of the 13th Workshop on Building and Using Comparable Corpora* (pp. 35–43). Language Resources and Evaluation Conference (LREC 2020), Marseille, France. European Language Resources Association (ELRA). [PDF](https://aclanthology.org/2020.bucc-1.6.pdf)
+
+Does this look correct to you?
+
 ## Hands-on
 | Lab | Title | Description | Output |
 | :-----: | ----- | :------: | :------: |

@@ -26,6 +26,7 @@ for kalimat in kalimat_jawa:
     terjemahan = translator.translate(kalimat, src='jw', dest='id')
     print(f"Kalimat Jawa: {kalimat} -> Terjemahan Mesin (ID): {terjemahan.text}")
 ```
+## Kode Jawaban: <a href="https://colab.research.google.com/drive/1HfhHhGSbxL1ftk6GCSFj5yPaHLHLiCmG?usp=sharing" ><img src="../../images/colab.png" width="36px" height="36px" ></a>
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

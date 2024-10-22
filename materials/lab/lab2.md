@@ -23,6 +23,8 @@ for kata in imbuhan_kata:
     terjemahan = translator.translate(kata, src='id', dest='en')
     print(f"Kata Indonesia: {kata} -> Terjemahan Mesin (EN): {terjemahan.text}")
 ```
+## Kode Jawaban: <a href="https://colab.research.google.com/drive/19QSAAtVoCWN5pT2I2FKoKqUTT7XSQJRa?usp=sharing" ><img src="../../images/colab.png" width="36px" height="36px" ></a>
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

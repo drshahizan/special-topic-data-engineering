@@ -48,7 +48,7 @@ for i, kalimat in enumerate(kalimat_indonesia):
     print(f"Terjemahan Mesin (EN): {hasil_terjemahan[i]}\n")
 ```
 
-## Kode Jawaban: <a href="https://drshahizan.github.io/lab/lab6/index.html" ><img src="../../images/colab.png" width="64px" height="64px" ></a>
+## Kode Jawaban: <a href="https://drshahizan.github.io/lab/lab6/index.html" ><img src="../../images/colab.png" width="48px" height="48px" ></a>
 
 
 

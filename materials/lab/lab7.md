@@ -5,7 +5,7 @@
 <a href="https://github.com/drshahizan/special-topic-data-engineering/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/special-topic-data-engineering?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2Fspecial-topic-data-engineering&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-# Lab 9: Menerjemahkan teks dari Bahasa Indonesia ke bahasa lain
+# Lab 7: Menerjemahkan teks dari Bahasa Indonesia ke bahasa lain
 Berikut adalah contoh lengkap kode HTML yang bisa digunakan untuk menerjemahkan teks dari Bahasa Indonesia ke bahasa lain menggunakan Google Translate API. Untuk aplikasi web sederhana ini, kita akan menggunakan `googletrans` sebagai backend melalui JavaScript.
 
 Jika Anda menjalankan aplikasi ini di server lokal, Anda dapat menghubungkan backend dengan Google Translate API atau menggunakan library `googletrans` pada backend Python. Namun, untuk contoh sederhana ini, kita akan menggunakan API JavaScript yang memungkinkan pemanggilan langsung.

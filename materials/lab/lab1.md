@@ -132,6 +132,9 @@ for idiom in peribahasa:
     print(f"Peribahasa Indonesia: {idiom} -> Terjemahan Mesin (EN): {terjemahan.text}")
 ```
 
+## Kode Jawaban:
+
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

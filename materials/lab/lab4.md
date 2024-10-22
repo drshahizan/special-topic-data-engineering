@@ -15,6 +15,12 @@ Kalimat kompleks, yang terdiri dari banyak klausa atau ide yang saling terkait, 
 Latihan ini akan mengevaluasi kalimat kompleks.
 
 ```python
+!pip install googletrans==4.0.0-rc1
+from googletrans import Translator
+
+# Inisialisasi Translator
+translator = Translator()
+
 kalimat_kompleks = [
     "Meskipun hujan deras, kami tetap berangkat ke kantor karena ada rapat penting yang harus dihadiri.",
     "Setelah makan siang, saya akan pergi ke perpustakaan untuk meminjam buku yang sudah lama saya cari.",

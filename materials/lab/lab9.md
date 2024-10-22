@@ -5,7 +5,7 @@
 <a href="https://github.com/drshahizan/special-topic-data-engineering/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/special-topic-data-engineering?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2Fspecial-topic-data-engineering&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-# Lab1
+# Lab 9: Menerjemahkan 10 bahasa daerah utama di Indonesia ke Bahasa Indonesia
 Berikut adalah kode HTML lengkap yang dapat digunakan untuk menerjemahkan 10 bahasa daerah utama di Indonesia ke Bahasa Indonesia menggunakan Google Translate API. Aplikasi ini memungkinkan pengguna untuk memilih salah satu dari 10 bahasa daerah, memasukkan teks dalam bahasa daerah tersebut, dan menerjemahkannya ke dalam Bahasa Indonesia.
 
 ### Kode HTML Lengkap:
@@ -152,9 +152,6 @@ Berikut adalah kode HTML lengkap yang dapat digunakan untuk menerjemahkan 10 bah
 - **Input Teks (Bahasa Jawa):** "Sugeng enjing, piyé kabaré?"
 - **Hasil Terjemahan (Bahasa Indonesia):** "Selamat pagi, bagaimana kabarnya?"
 
-### Kesimpulan:
-
-Aplikasi ini menyediakan cara interaktif untuk menerjemahkan teks dari 10 bahasa daerah utama di Indonesia ke Bahasa Indonesia menggunakan Google Translate API. Pengguna dapat dengan mudah mengeksplorasi bagaimana sistem terjemahan mesin menangani bahasa lokal di Indonesia.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

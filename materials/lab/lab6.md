@@ -8,7 +8,7 @@
 # Lab 6: menerjemahkan kalimat dari 10 bahasa daerah utama di Indonesia ke Bahasa Indonesia
 Berikut adalah latihan yang dirancang untuk menerjemahkan kalimat dari 10 bahasa daerah utama di Indonesia ke Bahasa Indonesia menggunakan Google Translate API. Latihan ini membantu siswa memahami bagaimana sistem terjemahan mesin menangani bahasa-bahasa daerah yang memiliki karakteristik linguistik yang unik.
 
-### 10 Bahasa Daerah Utama yang Digunakan:
+## 10 Bahasa Daerah Utama yang Digunakan:
 1. **Jawa**
 2. **Sunda**
 3. **Minangkabau**
@@ -20,7 +20,7 @@ Berikut adalah latihan yang dirancang untuk menerjemahkan kalimat dari 10 bahasa
 9. **Madura**
 10. **Banjar**
 
-### Kode Python Lengkap untuk Latihan:
+## Kode Python Lengkap untuk Latihan:
 
 Berikut adalah kode yang menerjemahkan kalimat dari 10 bahasa daerah ke dalam Bahasa Indonesia.
 
@@ -65,7 +65,7 @@ for bahasa, hasil in hasil_terjemahan.items():
     print(f"Terjemahan ke Bahasa Indonesia: {hasil}\n")
 ```
 
-### Penjelasan Kode:
+## Penjelasan Kode:
 1. **Inisialisasi Translator:**  
    Digunakan pustaka `googletrans` untuk menerjemahkan bahasa daerah secara otomatis.
    
@@ -78,7 +78,7 @@ for bahasa, hasil in hasil_terjemahan.items():
 4. **Output:**  
    Hasil terjemahan dari setiap bahasa daerah ke Bahasa Indonesia dicetak dengan format yang mudah dipahami.
 
-### Contoh Output:
+## Contoh Output:
 
 ```
 Kalimat dalam Jawa: Sugeng enjing, piyé kabaré?
@@ -112,13 +112,6 @@ Kalimat dalam Banjar: Pian apa kabar?
 Terjemahan ke Bahasa Indonesia: Apa kabar Anda?
 ```
 
-### Kesimpulan:
-Latihan ini membantu siswa untuk:
-- Mengenal beragam bahasa daerah di Indonesia.
-- Memahami keterbatasan terjemahan mesin dalam menangani bahasa lokal.
-- Membandingkan hasil terjemahan untuk melihat bagaimana sistem otomatis menangani variasi linguistik.
-
-Latihan ini sangat relevan bagi pembelajaran terjemahan, linguistik komputasional, dan penerjemahan budaya.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

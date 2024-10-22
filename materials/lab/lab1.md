@@ -18,7 +18,7 @@ Jika kamu belum menginstal pustaka `googletrans`, jalankan kode ini terlebih dah
 ```python
 !pip install googletrans==4.0.0-rc1
 ```
-
+## Kode
 Langkah ini menggunakan Google Translate API untuk menerjemahkan kalimat dari bahasa Indonesia ke bahasa Inggris, lalu membandingkan hasilnya.
 
 ```python

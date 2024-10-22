@@ -14,6 +14,12 @@ Indonesia adalah negara yang memiliki lebih dari 700 bahasa daerah. Sistem terje
 Latihan ini melibatkan terjemahan bahasa daerah (misalnya, Bahasa Jawa ke Bahasa Indonesia).
 
 ```python
+!pip install googletrans==4.0.0-rc1
+from googletrans import Translator
+
+# Inisialisasi Translator
+translator = Translator()
+
 kalimat_jawa = [
     "Sugeng enjing, piyé kabaré?",
     "Aku arep menyang pasar.",

@@ -13,6 +13,12 @@ Peribahasa dan idiom sangat terkait dengan budaya, sehingga sering kali sistem t
 Ini adalah latihan terjemahan idiom dan peribahasa.
 
 ```python
+!pip install googletrans==4.0.0-rc1
+from googletrans import Translator
+
+# Inisialisasi Translator
+translator = Translator()
+
 peribahasa = [
     "Bagai air di daun talas.",
     "Sekali mendayung, dua tiga pulau terlampaui.",

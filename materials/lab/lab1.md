@@ -48,7 +48,12 @@ for i, kalimat in enumerate(kalimat_indonesia):
     print(f"Terjemahan Mesin (EN): {hasil_terjemahan[i]}\n")
 ```
 
-### Latihan 2: **Analisis Morfologi Bahasa Indonesia**
+# Latihan 2: **Analisis Morfologi Bahasa Indonesia**
+
+## Tujuan
+Bahasa Indonesia kaya akan morfologi, terutama dengan penggunaan prefiks (awalan), sufiks (akhiran), dan infiks (sisipan) yang memengaruhi makna kata. Latihan ini meneliti bagaimana terjemahan mesin menangani kata-kata berimbuhan.
+
+## Kode
 Latihan ini menganalisis bagaimana imbuhan dalam bahasa Indonesia diterjemahkan ke bahasa Inggris.
 
 ```python
@@ -62,7 +67,12 @@ for kata in imbuhan_kata:
     print(f"Kata Indonesia: {kata} -> Terjemahan Mesin (EN): {terjemahan.text}")
 ```
 
-### Latihan 3: **Penerjemahan Bahasa Daerah di Indonesia**
+# Latihan 3: **Penerjemahan Bahasa Daerah di Indonesia**
+
+## Tujuan
+Indonesia adalah negara yang memiliki lebih dari 700 bahasa daerah. Sistem terjemahan mesin sering kali kesulitan menerjemahkan bahasa daerah ini ke bahasa Indonesia atau Inggris.
+
+## Kode
 Latihan ini melibatkan terjemahan bahasa daerah (misalnya, Bahasa Jawa ke Bahasa Indonesia).
 
 ```python
@@ -80,6 +90,12 @@ for kalimat in kalimat_jawa:
 ```
 
 ### Latihan 4: **Terjemahan Kalimat Kompleks**
+
+## Tujuan
+Kalimat kompleks, yang terdiri dari banyak klausa atau ide yang saling terkait, sering kali menjadi tantangan bagi sistem terjemahan mesin. Latihan ini menyoroti kemampuan sistem terjemahan mesin dalam menangani struktur kalimat yang lebih rumit.
+
+
+## Kode
 Latihan ini akan mengevaluasi kalimat kompleks.
 
 ```python
@@ -95,7 +111,11 @@ for kalimat in kalimat_kompleks:
     print(f"Kalimat Indonesia: {kalimat} -> Terjemahan Mesin (EN): {terjemahan.text}")
 ```
 
-### Latihan 5: **Terjemahan Konten Budaya dalam Bahasa Indonesia**
+# Latihan 5: **Terjemahan Konten Budaya dalam Bahasa Indonesia**
+## Tujuan
+Peribahasa dan idiom sangat terkait dengan budaya, sehingga sering kali sistem terjemahan mesin gagal menangkap makna sebenarnya. Latihan ini mengeksplorasi bagaimana sistem menangani terjemahan konten yang penuh dengan elemen budaya.
+
+## Kode
 Ini adalah latihan terjemahan idiom dan peribahasa.
 
 ```python

@@ -37,6 +37,8 @@ Help us improve, write a feedback [here](https://tally.so/r/wbLQR1).
 - [NusaX-MT](https://github.com/IndoNLP/nusax/tree/main/datasets/mt)
 - [Machine Translation Reading List](https://github.com/THUNLP-MT/MT-Reading-List)
 - [Machine Learning Books](https://github.com/tim-hub/machine-learning-books)
+- [Awesome Machine Translation](https://github.com/maidis/awesome-machine-translation)
+- [Machine Translate](https://machinetranslate.org/)
   
 ## :octocat: Github Chatbot
 - [AI Chatbot Intelligence for Kampus Merdeka Program Using Long Short-Term Memory Algorithm](https://github.com/fendy07/chatbot-AI). This project about AI Chatbot Kampus Merdeka to help students or Indonesian people know about the Kampus Merdeka program from KEMENDIKBUDRISTEK (Kementerian Pendidikan, Kebudayaan, Riset Dan Teknologi).

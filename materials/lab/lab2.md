@@ -14,6 +14,11 @@ Bahasa Indonesia kaya akan morfologi, terutama dengan penggunaan prefiks (awalan
 Latihan ini menganalisis bagaimana imbuhan dalam bahasa Indonesia diterjemahkan ke bahasa Inggris.
 
 ```python
+from googletrans import Translator
+
+# Inisialisasi Translator
+translator = Translator()
+
 imbuhan_kata = [
     "mengajar", "berbicara", "menyanyikan", "berlari", "mencintai"
 ]

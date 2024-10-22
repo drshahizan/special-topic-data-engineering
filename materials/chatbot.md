@@ -18,11 +18,6 @@
 3. H. Wardhana, I. M. Yadi Dharma, K. Marzuki, and I. Syarif Hidayatullah, ”Implementation of Neural Machine Translation in Trans-lating from Indonesian to Sasak Language”, MATRIK: Jurnal Manajemen, Teknik Informatika, dan Rekayasa Komputer, Vol. 23, No.2, pp. 465-476, Mar, 2024. [PDF](https://www.researchgate.net/publication/379851345_Implementation_of_Neural_Machine_Translation_in_Translating_from_Indonesian_to_Sasak_Language)
 4. Abidin, Z., Junaidi, A., Wamiliana, Togatorop, F. M., Ahmad, I., & Puspaningrum, A. S. (2023). Direct machine translation Indonesian-Batak Toba. In Proceedings of the 7th International Conference on New Media Studies, Bali, Indonesia, 6-8 December 2023.[PDF](http://repository.lppm.unila.ac.id/53264/1/Direct_Machine_Translation_Indonesian-Batak_Toba.pdf)
 
-
-
-
-
-
 #### Questions:
 1. How does machine translation impact language preservation in Indonesia?
 2. What are the limitations of Neural Machine Translation for low-resource languages?
@@ -40,6 +35,7 @@ Help us improve, write a feedback [here](https://tally.so/r/wbLQR1).
 
 - [Indonesian LocalX Machine Translation](https://github.com/zanuura/Indonesian-LocalX-Machine-Translation)
 - [NusaX-MT](https://github.com/IndoNLP/nusax/tree/main/datasets/mt)
+- [Machine Translation Reading List](https://github.com/THUNLP-MT/MT-Reading-List)
 
 ## :octocat: Github Chatbot
 - [AI Chatbot Intelligence for Kampus Merdeka Program Using Long Short-Term Memory Algorithm](https://github.com/fendy07/chatbot-AI). This project about AI Chatbot Kampus Merdeka to help students or Indonesian people know about the Kampus Merdeka program from KEMENDIKBUDRISTEK (Kementerian Pendidikan, Kebudayaan, Riset Dan Teknologi).

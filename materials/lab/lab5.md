@@ -32,7 +32,7 @@ for idiom in peribahasa:
     print(f"Peribahasa Indonesia: {idiom} -> Terjemahan Mesin (EN): {terjemahan.text}")
 ```
 
-## Kode Jawaban: <a href="https://colab.research.google.com/drive/1HfhHhGSbxL1ftk6GCSFj5yPaHLHLiCmG?usp=sharing" ><img src="../../images/colab.png" width="36px" height="36px" ></a>
+## Kode Jawaban: <a href="https://colab.research.google.com/drive/1fmS3eAyVsILGrqvYU5D4EJDhxlyUHTCc?usp=sharing" ><img src="../../images/colab.png" width="36px" height="36px" ></a>
 
 
 ## Contribution 🛠️

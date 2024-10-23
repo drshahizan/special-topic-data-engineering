@@ -181,6 +181,7 @@ Pengguna akan diminta untuk memasukkan teks asli dan hasil terjemahan manual yan
 - **Hasil Terjemahan Mesin:** "Good morning, how are you?"
 - **Hasil Perbandingan:** "Hasil terjemahan mesin dan terjemahan manual identik!"
 
+## Kode Jawaban: <a href="https://colab.research.google.com/drive/1TENx9x6Zvlbv9tc5_c6sYbJdsc4aqDAc?usp=sharing" ><img src="../../images/colab.png" width="36px" height="36px" ></a>
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

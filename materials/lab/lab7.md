@@ -142,7 +142,7 @@ Jika Anda menjalankan aplikasi ini di server lokal, Anda dapat menghubungkan bac
 - **Bahasa Tujuan:** Inggris
 - **Output (Bahasa Inggris):** "Good morning, how are you?"
 
-## Kode Jawaban: <a href="https://colab.research.google.com/drive/1TENx9x6Zvlbv9tc5_c6sYbJdsc4aqDAc?usp=sharing" ><img src="../../images/colab.png" width="36px" height="36px" ></a>
+## Kode Jawaban: <a href="https://drshahizan.github.io/lab/Latihan7.html" ><img src="../../images/colab.png" width="36px" height="36px" ></a>
 
 
 ## Contribution 🛠️

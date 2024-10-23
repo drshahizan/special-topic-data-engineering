@@ -142,7 +142,7 @@ Jika Anda menjalankan aplikasi ini di server lokal, Anda dapat menghubungkan bac
 - **Bahasa Tujuan:** Inggris
 - **Output (Bahasa Inggris):** "Good morning, how are you?"
 
-## Kode Jawaban: <a href="https://drshahizan.github.io/lab/Latihan7.html" ><img src="../../images/html64.pnd" width="36px" height="36px" ></a>
+## Kode Jawaban: <a href="https://drshahizan.github.io/lab/Latihan7.html" ><img src="../../images/html64.png" width="36px" height="36px" ></a>
 
 
 ## Contribution 🛠️

@@ -8,8 +8,7 @@
 # Latihan 1: **Pengenalan Terjemahan Mesin untuk Bahasa Indonesia**
 
 ## Tujuan
-Menerjemahkan kalimat dari Bahasa Indonesia ke Bahasa Inggris menggunakan Google Translate API, dan kemudian membandingkan hasil terjemahan mesin dengan terjemahan manual.
-
+Menerjemahkan kalimat dari Bahasa Indonesia ke Bahasa Inggris menggunakan Google Translate API.
 ## Persiapan Awal
 Sebelum memulai, kita perlu menginstal dan mengimpor beberapa pustaka yang dibutuhkan untuk pemrosesan dan terjemahan menggunakan API seperti `googletrans` (Google Translate API) atau `translate`. 
 

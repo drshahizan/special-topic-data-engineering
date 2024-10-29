@@ -23,8 +23,6 @@
 2. What are the limitations of Neural Machine Translation for low-resource languages?
 3. How is DeepL being integrated into language education in Indonesia?
 
-Help us improve, write a feedback [here](https://tally.so/r/wbLQR1).
-
 
 ## Hands-on
 | Lab | Title | Description | Output |

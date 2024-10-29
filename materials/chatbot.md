@@ -7,6 +7,10 @@
 
 # Machine Translation & Chatbot
 
+<a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/chatbot.md">
+ <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/images/Talk_airlangga.jpeg" alt="Image Alt Text"  height="400">
+</a>
+
 ## Definition:
 **Machine Translation** is the use of computational techniques to translate text or speech from one language to another. This technology aims to capture the contextual, idiomatic, and pragmatic nuances of both languages. Early methods were rule-based or statistical, but modern approaches primarily use neural machine translation and large language models[¹](https://en.wikipedia.org/wiki/Machine_translation) [²](https://academic.oup.com/edited-volume/42643/chapter/358152716).
 

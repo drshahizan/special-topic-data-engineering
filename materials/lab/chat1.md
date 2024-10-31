@@ -630,6 +630,9 @@ If you encounter any problems while building your Gemini chatbot, you can downlo
 
 ## Download Code Files: <a href="https://www.codingnepalweb.com/custom-projects/google-gemini-chatbot-html-css-javascript.zip" ><img src="../../images/html64.png" width="36px" height="36px" ></a>
 
+## View Live Demo 🌐: https://drshahizan.github.io/lab/gemini-chatbot
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

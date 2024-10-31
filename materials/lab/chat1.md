@@ -7,48 +7,7 @@
 
 # Latihan 1: **Pengenalan Terjemahan Mesin untuk Bahasa Indonesia**
 
-## Tujuan
-Menerjemahkan kalimat dari Bahasa Indonesia ke Bahasa Inggris menggunakan Google Translate API.
-## Persiapan Awal
-Sebelum memulai, kita perlu menginstal dan mengimpor beberapa pustaka yang dibutuhkan untuk pemrosesan dan terjemahan menggunakan API seperti `googletrans` (Google Translate API) atau `translate`. 
-
-Jika kamu belum menginstal pustaka `googletrans`, jalankan kode ini terlebih dahulu di Google Colab:
-
-```python
-!pip install googletrans==4.0.0-rc1
-```
-## Kode
-Langkah ini menggunakan Google Translate API untuk menerjemahkan kalimat dari bahasa Indonesia ke bahasa Inggris, lalu membandingkan hasilnya.
-
-```python
-from googletrans import Translator
-
-# Inisialisasi Translator
-translator = Translator()
-
-# Daftar kalimat dalam bahasa Indonesia
-kalimat_indonesia = [
-    "Selamat pagi, bagaimana kabarmu?",
-    "Hari ini cuaca sangat cerah.",
-    "Saya sedang belajar pemrograman.",
-    "Indonesia adalah negara kepulauan.",
-    "Kami akan pergi ke pasar besok."
-]
-
-# Terjemahkan setiap kalimat ke bahasa Inggris
-hasil_terjemahan = []
-for kalimat in kalimat_indonesia:
-    terjemahan = translator.translate(kalimat, src='id', dest='en')
-    hasil_terjemahan.append(terjemahan.text)
-
-# Cetak hasil terjemahan
-for i, kalimat in enumerate(kalimat_indonesia):
-    print(f"Kalimat Indonesia: {kalimat}")
-    print(f"Terjemahan Mesin (EN): {hasil_terjemahan[i]}\n")
-```
-
-## Kode Jawaban: <a href="https://colab.research.google.com/drive/19QSAAtVoCWN5pT2I2FKoKqUTT7XSQJRa?usp=sharing" ><img src="../../images/colab.png" width="36px" height="36px" ></a>
-
+https://www.codingnepalweb.com/wp-content/uploads/2024/07/Build-A-Google-Gemini-Chatbot-with-HTML-CSS-and-JavaScript-Home.jpg
 
 
 ## Contribution 🛠️

@@ -26,7 +26,6 @@ In your `index.html` file, add the essential HTML markup to structure your Gemin
 
 ```html
 <!DOCTYPE html>
-<!-- Coding By CodingNepal - www.codingnepalweb.com -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -634,8 +633,6 @@ This project not only improves your web development skills but also gives you pr
 If you encounter any problems while building your Gemini chatbot, you can download the source code files for this project by clicking the “Download” button.
 
 [Download Code Files](https://www.codingnepalweb.com/custom-projects/google-gemini-chatbot-html-css-javascript.zip)
-
-
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

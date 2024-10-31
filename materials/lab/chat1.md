@@ -622,13 +622,14 @@ loadDataFromLocalstorage();
 
 Once you have added your API key to the code, you'll be ready to start chatting with your Gemini chatbot. Simply open the `index.html` file in your browser to see it in action!
 
-![Build A Google Gemini Chatbot with HTML CSS and JavaScript](https://www.codingnepalweb.com/wp-content/uploads/2024/07/Build-A-Google-Gemini-Chatbot-with-HTML-CSS-and-JavaScript-Chat.jpg)
+<img src="https://www.codingnepalweb.com/wp-content/uploads/2024/07/Build-A-Google-Gemini-Chatbot-with-HTML-CSS-and-JavaScript-Chat.jpg" alt="Image Alt Text"  height="400">
+
 
 ## **Conclusion and final words**
 
 You have successfully built your own Google Gemini chatbot using HTML, CSS, and JavaScript. Following these steps, you have developed a functional chatbot capable of interacting with users, changing themes, and saving chat history using local storage.
 
-This project not only improves your web development skills but also gives you practical experience in integrating [APIs](https://www.codingnepalweb.com/category/api-projects/) and managing application states. With your chatbot operational, you can now explore adding extra features or improving its functionality to better meet your requirements.
+This project not only improves your web development skills but also gives you practical experience in integrating APIs and managing application states. With your chatbot operational, you can now explore adding extra features or improving its functionality to better meet your requirements.
 
 If you encounter any problems while building your Gemini chatbot, you can download the source code files for this project by clicking the “Download” button.
 

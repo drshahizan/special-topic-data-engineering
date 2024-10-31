@@ -89,6 +89,66 @@ In your `index.html` file, add the essential HTML markup to structure your Gemin
 </html>
 ```
 
+Here's the content in Markdown format:
+
+---
+
+In your `style.css` file, add CSS code to style your chatbot, giving it a responsive and Gemini-like design. Experiment with different CSS properties such as colors, fonts, and backgrounds to make your clone more attractive.
+
+```css
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  /* Dark mode colors */
+  --text-color: #E3E3E3;
+  --subheading-color: #828282;
+  --placeholder-color: #A6A6A6;
+  --primary-color: #242424;
+  --secondary-color: #383838;
+  --secondary-hover-color: #444;
+}
+```
+
+In your `script.js` file, add JavaScript code to make your chatbot interactive and functional. This includes enabling features such as sending and receiving messages, toggling between light and dark themes, and managing chat history.
+
+```javascript
+const typingForm = document.querySelector(".typing-form");
+const chatContainer = document.querySelector(".chat-list");
+const suggestions = document.querySelectorAll(".suggestion");
+const toggleThemeButton = document.querySelector("#theme-toggle-button");
+const deleteChatButton = document.querySelector("#delete-chat-button");
+
+// State variables
+let userMessage = null;
+let isResponseGenerating = false;
+```
+
+**Important:** Your chatbot is not ready to generate responses until you configure it with a Gemini API key. To do this, add your API key to the `API_KEY` variable in the `script.js` file. You can get your free API key from [Google AI Studio](https://aistudio.google.com/app/apikey). It will look something like this: `AIzaSyAtpnKGX14bTgmx0l_gQeatYvdWvY_wOTQ`.
+
+Once you have added your API key to the code, you'll be ready to start chatting with your Gemini chatbot. Simply open the `index.html` file in your browser to see it in action!
+
+![Build A Google Gemini Chatbot with HTML CSS and JavaScript](https://www.codingnepalweb.com/wp-content/uploads/2024/07/Build-A-Google-Gemini-Chatbot-with-HTML-CSS-and-JavaScript-Chat.jpg)
+
+## **Conclusion and final words**
+
+You have successfully built your own Google Gemini chatbot using HTML, CSS, and JavaScript. Following these steps, you have developed a functional chatbot capable of interacting with users, changing themes, and saving chat history using local storage.
+
+This project not only improves your web development skills but also gives you practical experience in integrating [APIs](https://www.codingnepalweb.com/category/api-projects/) and managing application states. With your chatbot operational, you can now explore adding extra features or improving its functionality to better meet your requirements.
+
+If you encounter any problems while building your Gemini chatbot, you can download the source code files for this project by clicking the “Download” button.
+
+[Download Code Files](https://www.codingnepalweb.com/custom-projects/google-gemini-chatbot-html-css-javascript.zip)
+
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.
 

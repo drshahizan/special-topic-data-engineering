@@ -628,9 +628,9 @@ This project not only improves your web development skills but also gives you pr
 
 If you encounter any problems while building your Gemini chatbot, you can download the source code files for this project by clicking the “Download” button.
 
-## Download Code Files: <a href="https://www.codingnepalweb.com/custom-projects/google-gemini-chatbot-html-css-javascript.zip" ><img src="../../images/html64.png" width="36px" height="36px" ></a>
+### Download Code Files: <a href="https://www.codingnepalweb.com/custom-projects/google-gemini-chatbot-html-css-javascript.zip" ><img src="../../images/html64.png" width="36px" height="36px" ></a>
 
-## View Live Demo 🌐: https://drshahizan.github.io/lab/gemini-chatbot
+### View Live Demo 🌐: https://drshahizan.github.io/lab/gemini-chatbot
 
 
 ## Contribution 🛠️

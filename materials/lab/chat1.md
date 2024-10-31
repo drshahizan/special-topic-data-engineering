@@ -7,7 +7,9 @@
 
 # Lab 1: **Build A Google Gemini Chatbot with HTML CSS and JavaScript**
 
-<a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/chatbot.md">
+## Kode Jawaban: <a href="https://drshahizan.github.io/lab/Latihan9.html" ><img src="../../images/html64.png" width="36px" height="36px" ></a>
+
+<a href="https://drshahizan.github.io/lab/gemini-chatbot">
 <img src="https://www.codingnepalweb.com/wp-content/uploads/2024/07/Build-A-Google-Gemini-Chatbot-with-HTML-CSS-and-JavaScript-Home.jpg" alt="Image Alt Text"  height="400">
 </a>
 

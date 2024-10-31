@@ -61,7 +61,7 @@
 ## Hands-on
 | Lab | Title | Description | Output |
 | :-----: | ----- | :------ | :------: |
-| 1   | Pengenalan Terjemahan Mesin untuk Bahasa Indonesia | Menerjemahkan kalimat dari Bahasa Indonesia ke Bahasa Inggris menggunakan Google Translate API.| <a href="lab/lab1.md" ><img src="../images/task.png" width="24px" height="24px" ></a>|
+| 1   | Build A Google Gemini Chatbot with HTML CSS and JavaScript | Menerjemahkan kalimat dari Bahasa Indonesia ke Bahasa Inggris menggunakan Google Translate API.| <a href="lab/lab1.md" ><img src="../images/task.png" width="24px" height="24px" ></a>|
 
 
 ## Contribution 🛠️

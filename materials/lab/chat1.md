@@ -8,8 +8,7 @@
 # Latihan 1: **Pengenalan Terjemahan Mesin untuk Bahasa Indonesia**
 
 <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/chatbot.md">
- <img src="https://www.codingnepalweb.com/wp-content/uploads/2024/07/Build-A-Google-Gemini-Chatbot-with-HTML-CSS-and-JavaScript-Home.jpg
-" alt="Image Alt Text"  height="400">
+<img src="https://www.codingnepalweb.com/wp-content/uploads/2024/07/Build-A-Google-Gemini-Chatbot-with-HTML-CSS-and-JavaScript-Home.jpg" alt="Image Alt Text"  height="400">
 </a>
 
 https://www.codingnepalweb.com/wp-content/uploads/2024/07/Build-A-Google-Gemini-Chatbot-with-HTML-CSS-and-JavaScript-Home.jpg

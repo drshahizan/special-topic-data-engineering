@@ -87,10 +87,6 @@ In your `index.html` file, add the essential HTML markup to structure your Gemin
 </html>
 ```
 
-Here's the content in Markdown format:
-
----
-
 In your `style.css` file, add CSS code to style your chatbot, giving it a responsive and Gemini-like design. Experiment with different CSS properties such as colors, fonts, and backgrounds to make your clone more attractive.
 
 ```css

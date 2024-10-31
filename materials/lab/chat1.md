@@ -15,12 +15,6 @@ AI chatbots like Google Gemini or ChatGPT have changed how we interact with tech
 
 For those who aren’t familiar, Gemini is an advanced chatbot model developed by Google, similar to ChatGPT. It uses artificial intelligence to produce human-like responses and has become popular for its natural conversational abilities. With this chatbot, users will be able to chat, copy responses, and toggle between light and dark themes. Additionally, the themes and chat history will be saved in the browser’s local storage, ensuring they persist even after a page refresh.
 
-## **Video Tutorial to Build Gemini Chatbot in HTML CSS & JavaScript**
-
-[![YouTube video player](https://img.youtube.com/vi/31dmameWOR8/0.jpg)](https://www.youtube.com/embed/31dmameWOR8?si=ftzZSIC3eFgXsFa2)
-
-The YouTube video above is a great resource if you prefer video tutorials. It explains each line of code and provides comments, making it easy to follow along with your Gemini chatbot clone project. If you prefer reading or need a step-by-step guide, keep following this post.
-
 ## **Steps to Build Gemini Chatbot in HTML & JavaScript**
 
 To build an interactive and functional Gemini chatbot using HTML, CSS, and JavaScript, follow these simple step-by-step instructions:

@@ -69,7 +69,7 @@ To start, add the following HTML codes to your `index.html` file: This code snip
 
 Next, add the following CSS codes to your `style.css` file to apply visual styling to your chatbot. Now, if you load the web page in your browser, you will only see the chatbot toggle button at the bottom right corner. You can customize this code to your liking by adjusting the color, font, size, and other CSS properties.
 
-```
+```html
 /* Import Google font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 * {
@@ -268,7 +268,7 @@ header h2 {
 
 Finally, add the following JavaScript code to your `script.js` file: This script code will make your chatbot functional, which means you can now ask your questions, show or hide the chatbot by clicking the bottom right toggle button, and more.
 
-```
+```html
 const chatbotToggler = document.querySelector(".chatbot-toggler");
 const closeBtn = document.querySelector(".close-btn");
 const chatbox = document.querySelector(".chatbox");

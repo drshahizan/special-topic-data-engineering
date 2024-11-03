@@ -5,15 +5,17 @@
 <a href="https://github.com/drshahizan/special-topic-data-engineering/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/special-topic-data-engineering?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2Fspecial-topic-data-engineering&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-# Lab 1: **Build A Google Gemini Chatbot with HTML CSS and JavaScript**
+# Lab 2: **Chatbot untuk Penyedia Layanan Cuaca**
 
-<a href="https://drshahizan.github.io/lab/gemini-chatbot">
-<img src="https://www.codingnepalweb.com/wp-content/uploads/2024/07/Build-A-Google-Gemini-Chatbot-with-HTML-CSS-and-JavaScript-Home.jpg" alt="Image Alt Text"  height="400">
-</a>
 
-AI chatbots like Google's Gemini or OpenAI's ChatGPT have revolutionized human-technology interaction, blurring the lines between machine and human conversation. As a budding web developer, have you ever pondered creating your own AI chatbot? The exciting news is that you can build a Gemini-like chatbot using the fundamental web technologies: HTML, CSS, and JavaScript.
+#### Deskripsi: 
+Mengembangkan chatbot yang memberikan informasi cuaca sesuai lokasi pengguna. Chatbot ini mengambil data cuaca dari API, seperti OpenWeatherMap.
+#### Komponen Utama:
+Menggunakan API cuaca untuk mendapatkan informasi terbaru berdasarkan input lokasi.
+Pemrosesan input teks untuk mengenali lokasi dari pengguna.
+Tujuan Pembelajaran: Mahasiswa mempelajari integrasi API eksternal dan pemrosesan input teks.
+Implementasi di Google Colab: Integrasi API OpenWeatherMap untuk mendapatkan data cuaca berdasarkan input lokasi dari pengguna.
 
-For the uninitiated, Gemini is a sophisticated AI chatbot developed by Google, akin to ChatGPT. It leverages artificial intelligence to generate human-quality responses, renowned for its natural conversational style. Our chatbot will enable users to engage in seamless conversations, copy responses for reference, and effortlessly switch between light and dark themes. Moreover, the chosen theme and chat history will be securely stored in the browser's local storage, persisting even after page refreshes.
 
 ## **Steps to Build Gemini Chatbot in HTML & JavaScript**
 

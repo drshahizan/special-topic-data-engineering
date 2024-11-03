@@ -5,87 +5,121 @@
 <a href="https://github.com/drshahizan/special-topic-data-engineering/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/special-topic-data-engineering?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2Fspecial-topic-data-engineering&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-# Lab 5: How to Create Working Chatbot in HTML CSS and JavaScript
+# Lab 5: How to Build an AI Chatbot with HTML CSS & JavaScript
 
 <a href="https://drshahizan.github.io/lab/gemini-chatbot">
-<img src="https://www.codingnepalweb.com/wp-content/uploads/2023/06/How-to-Create-Working-Chatbot-in-HTML-CSS-and-JavaScript.png"   height="400">
+<img src="https://www.codingnepalweb.com/wp-content/uploads/2024/10/How-to-Build-an-AI-Chatbot-with-HTML-CSS-and-JavaScript.jpg"   height="400">
 </a>
 
-You may have noticed chatbots on numerous websites, as they have become essential components of modern web platforms and applications. For those unfamiliar, a chatbot is a virtual assistant powered by a computer program capable of understanding user queries and providing relevant responses.
+Chatbots are revolutionizing the way we engage with technology, making information and services instantly accessible. Imagine building your own AI chatbot that can respond to any question on the spot. Whether it’s for fun, adding interactivity to your website, or offering a valuable tool to users, creating a chatbot with HTML, CSS, and JavaScript is more achievable than you might expect.
 
-Creating a chatbot is an excellent project for beginner web developers to gain practical experience with HTML, CSS, and JavaScript—fundamental skills for building real-world applications. In this blog post, I’ll walk you through the process of building a functional chatbot from scratch using HTML, CSS, and JavaScript.
+This guide will take you step-by-step through building an AI-powered chatbot using the free Google Gemini API for dynamic, real-time responses. You'll also discover how to add engaging features like image uploads, an emoji picker, and ensure the chatbot is fully responsive across both desktop and mobile devices.
 
-This chatbot allows users to ask questions and receive instant responses. It features a sleek and responsive design, ensuring a smooth user experience across various devices. To generate responses to user queries, the chatbot leverages Google’s Gemini API, which is available for free.
+By the end of this guide, you'll have hands-on experience with API integration, data handling, and responsive web design—plus a standout project to enhance your portfolio in today’s AI-driven digital world.
 
 ## Steps To Create Working Chatbot in HTML & JavaScript
 
-To create your own working chatbot using HTML, CSS, and JavaScript, follow these step-by-step instructions:
+To create an interactive AI chatbot using HTML, CSS, and JavaScript, follow these simple step-by-step instructions:
 
-1. Create a folder. You can name this folder whatever you want, and inside this folder, create the mentioned files.
-2. Create an `index.html` file. The file name must be index and its extension .html
-3. Create a `style.css` file. The file name must be style and its extension .css
-4. Create a `script.js` file. The file name must be script and its extension .js
-   
-To start, add the following HTML codes to your `index.html` file: This code snippet includes a chatbot header, a chatbox unordered list (ul), and an input field for user messages. By default, the chatbot will display a greeting message as the first chat “li”. We’ll use JavaScript later to dynamically add more chat “li” that contain chat details.
+1. Create a folder with any name you like, e.g., ai-chatbot.
+2. Inside it, create the necessary files: `index.html`, `style.css`, and `script.js`.
+3. In your `index.html` file, add the essential HTML structure for the chatbot. Include links to fonts and an Emoji Mark CDN to enhance the chatbot’s visual elements.
 
 ```html
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Chatbot in JavaScript</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google Fonts Link For Icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
-    <script src="script.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Chatbot | CodingNepal</title>
+    <!-- Linking Google fonts for icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <button class="chatbot-toggler">
+    <!-- Chatbot Toggler -->
+    <button id="chatbot-toggler">
       <span class="material-symbols-rounded">mode_comment</span>
-      <span class="material-symbols-outlined">close</span>
+      <span class="material-symbols-rounded">close</span>
     </button>
-    <div class="chatbot">
-      <header>
-        <h2>Chatbot</h2>
-        <span class="close-btn material-symbols-outlined">close</span>
-      </header>
-      <ul class="chatbox">
-        <li class="chat incoming">
-          <span class="material-symbols-outlined">smart_toy</span>
-          <p>Hi there <br>How can I help you today?</p>
-        </li>
-      </ul>
-      <div class="chat-input">
-        <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
-        <span id="send-btn" class="material-symbols-rounded">send</span>
+
+    <div class="chatbot-popup">
+      <!-- Chatbot Header -->
+      <div class="chat-header">
+        <div class="header-info">
+          <svg class="chatbot-logo" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 1024 1024">
+            <path
+              d="M738.3 287.6H285.7c-59 0-106.8 47.8-106.8 106.8v303.1c0 59 47.8 106.8 106.8 106.8h81.5v111.1c0 .7.8 1.1 1.4.7l166.9-110.6 41.8-.8h117.4l43.6-.4c59 0 106.8-47.8 106.8-106.8V394.5c0-59-47.8-106.9-106.8-106.9zM351.7 448.2c0-29.5 23.9-53.5 53.5-53.5s53.5 23.9 53.5 53.5-23.9 53.5-53.5 53.5-53.5-23.9-53.5-53.5zm157.9 267.1c-67.8 0-123.8-47.5-132.3-109h264.6c-8.6 61.5-64.5 109-132.3 109zm110-213.7c-29.5 0-53.5-23.9-53.5-53.5s23.9-53.5 53.5-53.5 53.5 23.9 53.5 53.5-23.9 53.5-53.5 53.5zM867.2 644.5V453.1h26.5c19.4 0 35.1 15.7 35.1 35.1v121.1c0 19.4-15.7 35.1-35.1 35.1h-26.5zM95.2 609.4V488.2c0-19.4 15.7-35.1 35.1-35.1h26.5v191.3h-26.5c-19.4 0-35.1-15.7-35.1-35.1zM561.5 149.6c0 23.4-15.6 43.3-36.9 49.7v44.9h-30v-44.9c-21.4-6.5-36.9-26.3-36.9-49.7 0-28.6 23.3-51.9 51.9-51.9s51.9 23.3 51.9 51.9z"
+            />
+          </svg>
+          <h2 class="logo-text">Chatbot</h2>
+        </div>
+        <button id="close-chatbot" class="material-symbols-rounded">keyboard_arrow_down</button>
+      </div>
+
+      <!-- Chatbot Body -->
+      <div class="chat-body">
+        <div class="message bot-message">
+          <svg class="bot-avatar" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 1024 1024">
+            <path
+              d="M738.3 287.6H285.7c-59 0-106.8 47.8-106.8 106.8v303.1c0 59 47.8 106.8 106.8 106.8h81.5v111.1c0 .7.8 1.1 1.4.7l166.9-110.6 41.8-.8h117.4l43.6-.4c59 0 106.8-47.8 106.8-106.8V394.5c0-59-47.8-106.9-106.8-106.9zM351.7 448.2c0-29.5 23.9-53.5 53.5-53.5s53.5 23.9 53.5 53.5-23.9 53.5-53.5 53.5-53.5-23.9-53.5-53.5zm157.9 267.1c-67.8 0-123.8-47.5-132.3-109h264.6c-8.6 61.5-64.5 109-132.3 109zm110-213.7c-29.5 0-53.5-23.9-53.5-53.5s23.9-53.5 53.5-53.5 53.5 23.9 53.5 53.5-23.9 53.5-53.5 53.5zM867.2 644.5V453.1h26.5c19.4 0 35.1 15.7 35.1 35.1v121.1c0 19.4-15.7 35.1-35.1 35.1h-26.5zM95.2 609.4V488.2c0-19.4 15.7-35.1 35.1-35.1h26.5v191.3h-26.5c-19.4 0-35.1-15.7-35.1-35.1zM561.5 149.6c0 23.4-15.6 43.3-36.9 49.7v44.9h-30v-44.9c-21.4-6.5-36.9-26.3-36.9-49.7 0-28.6 23.3-51.9 51.9-51.9s51.9 23.3 51.9 51.9z"
+            />
+          </svg>
+          <!-- prettier-ignore -->
+          <div class="message-text"> Hey there  <br /> How can I help you today? </div>
+        </div>
+      </div>
+
+      <!-- Chatbot Footer -->
+      <div class="chat-footer">
+        <form action="#" class="chat-form">
+          <textarea placeholder="Message..." class="message-input" required></textarea>
+          <div class="chat-controls">
+            <button type="button" id="emoji-picker" class="material-symbols-outlined">sentiment_satisfied</button>
+            <div class="file-upload-wrapper">
+              <input type="file" accept="image/*" id="file-input" hidden />
+              <img src="#" />
+              <button type="button" id="file-upload" class="material-symbols-rounded">attach_file</button>
+              <button type="button" id="file-cancel" class="material-symbols-rounded">close</button>
+            </div>
+            <button type="submit" id="send-message" class="material-symbols-rounded">arrow_upward</button>
+          </div>
+        </form>
       </div>
     </div>
 
+    <!-- Linking Emoji Mart script for emoji picker -->
+    <script src="https://cdn.jsdelivr.net/npm/emoji-mart@latest/dist/browser.js"></script>
+
+    <!-- Linking custom script -->
+    <script src="script.js"></script>
   </body>
 </html>
 ```
+In your `style.css` file, style your chatbot to make it responsive and visually appealing. Experiment with colors, fonts, and backgrounds to enhance the design.
 
-Next, add the following CSS codes to your `style.css` file to apply visual styling to your chatbot. Now, if you load the web page in your browser, you will only see the chatbot toggle button at the bottom right corner. You can customize this code to your liking by adjusting the color, font, size, and other CSS properties.
 
 ```html
-/* Import Google font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* Importing Google Fonts - Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
 }
+
 body {
-  background: #E3F2FD;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(#EEEEFF, #C8C7FF);
 }
-.chatbot-toggler {
+
+#chatbot-toggler {
   position: fixed;
   bottom: 30px;
   right: 35px;
-  outline: none;
   border: none;
   height: 50px;
   width: 50px;
@@ -94,274 +128,560 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: #724ae8;
+  background: #5350C4;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   transition: all 0.2s ease;
 }
-body.show-chatbot .chatbot-toggler {
+
+body.show-chatbot #chatbot-toggler {
   transform: rotate(90deg);
 }
-.chatbot-toggler span {
+
+#chatbot-toggler span {
   color: #fff;
   position: absolute;
 }
-.chatbot-toggler span:last-child,
-body.show-chatbot .chatbot-toggler span:first-child  {
+
+#chatbot-toggler span:last-child,
+body.show-chatbot #chatbot-toggler span:first-child {
   opacity: 0;
 }
-body.show-chatbot .chatbot-toggler span:last-child {
+
+body.show-chatbot #chatbot-toggler span:last-child {
   opacity: 1;
 }
-.chatbot {
+
+.chatbot-popup {
   position: fixed;
   right: 35px;
   bottom: 90px;
   width: 420px;
+  overflow: hidden;
   background: #fff;
   border-radius: 15px;
-  overflow: hidden;
   opacity: 0;
   pointer-events: none;
-  transform: scale(0.5);
+  transform: scale(0.2);
   transform-origin: bottom right;
-  box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
-              0 32px 64px -48px rgba(0,0,0,0.5);
+  box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+    0 32px 64px -48px rgba(0, 0, 0, 0.5);
   transition: all 0.1s ease;
 }
-body.show-chatbot .chatbot {
+
+body.show-chatbot .chatbot-popup {
   opacity: 1;
   pointer-events: auto;
   transform: scale(1);
 }
-.chatbot header {
-  padding: 16px 0;
-  position: relative;
-  text-align: center;
-  color: #fff;
-  background: #724ae8;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  padding: 15px 22px;
+  background: #5350C4;
+  justify-content: space-between;
 }
-.chatbot header span {
-  position: absolute;
-  right: 15px;
-  top: 50%;
-  display: none;
-  cursor: pointer;
-  transform: translateY(-50%);
+
+.chat-header .header-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
-header h2 {
-  font-size: 1.4rem;
-}
-.chatbot .chatbox {
-  overflow-y: auto;
-  height: 510px;
-  padding: 30px 20px 100px;
-}
-.chatbot :where(.chatbox, textarea)::-webkit-scrollbar {
-  width: 6px;
-}
-.chatbot :where(.chatbox, textarea)::-webkit-scrollbar-track {
+
+.header-info .chatbot-logo {
+  width: 35px;
+  height: 35px;
+  padding: 6px;
+  fill: #5350C4;
+  flex-shrink: 0;
   background: #fff;
-  border-radius: 25px;
+  border-radius: 50%;
 }
-.chatbot :where(.chatbox, textarea)::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 25px;
-}
-.chatbox .chat {
-  display: flex;
-  list-style: none;
-}
-.chatbox .outgoing {
-  margin: 20px 0;
-  justify-content: flex-end;
-}
-.chatbox .incoming span {
-  width: 32px;
-  height: 32px;
+
+.header-info .logo-text {
   color: #fff;
-  cursor: default;
-  text-align: center;
-  line-height: 32px;
+  font-weight: 600;
+  font-size: 1.31rem;
+  letter-spacing: 0.02rem;
+}
+
+.chat-header #close-chatbot {
+  border: none;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  font-size: 1.9rem;
+  margin-right: -10px;
+  padding-top: 2px;
+  cursor: pointer;
+  border-radius: 50%;
+  background: none;
+  transition: 0.2s ease;
+}
+
+.chat-header #close-chatbot:hover {
+  background: #3d39ac;
+}
+
+.chat-body {
+  padding: 25px 22px;
+  gap: 20px;
+  display: flex;
+  height: 460px;
+  overflow-y: auto;
+  margin-bottom: 82px;
+  flex-direction: column;
+  scrollbar-width: thin;
+  scrollbar-color: #ccccf5 transparent;
+}
+
+.chat-body,
+.chat-form .message-input:hover {
+  scrollbar-color: #ccccf5 transparent;
+}
+
+.chat-body .message {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+.chat-body .message .bot-avatar {
+  width: 35px;
+  height: 35px;
+  padding: 6px;
+  fill: #fff;
+  flex-shrink: 0;
+  margin-bottom: 2px;
   align-self: flex-end;
-  background: #724ae8;
-  border-radius: 4px;
-  margin: 0 10px 7px 0;
+  border-radius: 50%;
+  background: #5350C4;
 }
-.chatbox .chat p {
-  white-space: pre-wrap;
+
+.chat-body .message .message-text {
   padding: 12px 16px;
-  border-radius: 10px 10px 0 10px;
   max-width: 75%;
-  color: #fff;
   font-size: 0.95rem;
-  background: #724ae8;
 }
-.chatbox .incoming p {
-  border-radius: 10px 10px 10px 0;
+
+.chat-body .bot-message.thinking .message-text {
+  padding: 2px 16px;
 }
-.chatbox .chat p.error {
-  color: #721c24;
-  background: #f8d7da;
+
+.chat-body .bot-message .message-text {
+  background: #F2F2FF;
+  border-radius: 13px 13px 13px 3px;
 }
-.chatbox .incoming p {
-  color: #000;
-  background: #f2f2f2;
+
+.chat-body .user-message {
+  flex-direction: column;
+  align-items: flex-end;
 }
-.chatbot .chat-input {
+
+.chat-body .user-message .message-text {
+  color: #fff;
+  background: #5350C4;
+  border-radius: 13px 13px 3px 13px;
+}
+
+.chat-body .user-message .attachment {
+  width: 50%;
+  margin-top: -7px;
+  border-radius: 13px 3px 13px 13px;
+}
+
+.chat-body .bot-message .thinking-indicator {
   display: flex;
-  gap: 5px;
+  gap: 4px;
+  padding-block: 15px;
+}
+
+.chat-body .bot-message .thinking-indicator .dot {
+  height: 7px;
+  width: 7px;
+  opacity: 0.7;
+  border-radius: 50%;
+  background: #6F6BC2;
+  animation: dotPulse 1.8s ease-in-out infinite;
+}
+
+.chat-body .bot-message .thinking-indicator .dot:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.chat-body .bot-message .thinking-indicator .dot:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.chat-body .bot-message .thinking-indicator .dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes dotPulse {
+
+  0%,
+  44% {
+    transform: translateY(0);
+  }
+
+  28% {
+    opacity: 0.4;
+    transform: translateY(-4px);
+  }
+
+  44% {
+    opacity: 0.2;
+  }
+}
+
+.chat-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   background: #fff;
-  padding: 3px 20px;
-  border-top: 1px solid #ddd;
+  padding: 15px 22px 20px;
 }
-.chat-input textarea {
-  height: 55px;
-  width: 100%;
-  border: none;
-  outline: none;
-  resize: none;
-  max-height: 180px;
-  padding: 15px 15px 15px 0;
-  font-size: 0.95rem;
-}
-.chat-input span {
-  align-self: flex-end;
-  color: #724ae8;
-  cursor: pointer;
-  height: 55px;
+
+.chat-footer .chat-form {
   display: flex;
   align-items: center;
-  visibility: hidden;
-  font-size: 1.35rem;
+  position: relative;
+  background: #fff;
+  border-radius: 32px;
+  outline: 1px solid #CCCCE5;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+  transition: 0s ease, border-radius 0s;
 }
-.chat-input textarea:valid ~ span {
+
+.chat-form:focus-within {
+  outline: 2px solid #5350C4;
+}
+
+.chat-form .message-input {
+  width: 100%;
+  height: 47px;
+  outline: none;
+  resize: none;
+  border: none;
+  max-height: 180px;
+  scrollbar-width: thin;
+  border-radius: inherit;
+  font-size: 0.95rem;
+  padding: 14px 0 12px 18px;
+  scrollbar-color: transparent transparent;
+}
+
+.chat-form .chat-controls {
+  gap: 3px;
+  height: 47px;
+  display: flex;
+  padding-right: 6px;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.chat-form .chat-controls button {
+  height: 35px;
+  width: 35px;
+  border: none;
+  cursor: pointer;
+  color: #706DB0;
+  border-radius: 50%;
+  font-size: 1.15rem;
+  background: none;
+  transition: 0.2s ease;
+}
+
+.chat-form .chat-controls button:hover,
+body.show-emoji-picker .chat-controls #emoji-picker {
+  color: #3d39ac;
+  background: #f1f1ff;
+}
+
+.chat-form .chat-controls #send-message {
+  color: #fff;
+  display: none;
+  background: #5350C4;
+}
+
+.chat-form .chat-controls #send-message:hover {
+  background: #3d39ac;
+}
+
+.chat-form .message-input:valid~.chat-controls #send-message {
+  display: block;
+}
+
+.chat-form .file-upload-wrapper {
+  position: relative;
+  height: 35px;
+  width: 35px;
+}
+
+.chat-form .file-upload-wrapper :where(button, img) {
+  position: absolute;
+}
+
+.chat-form .file-upload-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.chat-form .file-upload-wrapper #file-cancel {
+  color: #ff0000;
+  background: #fff;
+}
+
+.chat-form .file-upload-wrapper :where(img, #file-cancel),
+.chat-form .file-upload-wrapper.file-uploaded #file-upload {
+  display: none;
+}
+
+.chat-form .file-upload-wrapper.file-uploaded img,
+.chat-form .file-upload-wrapper.file-uploaded:hover #file-cancel {
+  display: block;
+}
+
+em-emoji-picker {
+  position: absolute;
+  left: 50%;
+  top: -337px;
+  width: 100%;
+  max-width: 350px;
+  visibility: hidden;
+  max-height: 330px;
+  transform: translateX(-50%);
+}
+
+body.show-emoji-picker em-emoji-picker {
   visibility: visible;
 }
 
-@media (max-width: 490px) {
-  .chatbot-toggler {
+/* Responsive media query for mobile screens */
+@media (max-width: 520px) {
+  #chatbot-toggler {
     right: 20px;
     bottom: 20px;
   }
-  .chatbot {
+
+  .chatbot-popup {
     right: 0;
     bottom: 0;
     height: 100%;
     border-radius: 0;
     width: 100%;
   }
-  .chatbot .chatbox {
-    height: 90%;
-    padding: 25px 15px 100px;
+
+  .chatbot-popup .chat-header {
+    padding: 12px 15px;
   }
-  .chatbot .chat-input {
-    padding: 5px 15px;
+
+  .chat-body {
+    height: calc(90% - 55px);
+    padding: 25px 15px;
   }
-  .chatbot header span {
-    display: block;
+
+  .chat-footer {
+    padding: 10px 15px 15px;
+  }
+
+  .chat-form .file-upload-wrapper.file-uploaded #file-cancel {
+    opacity: 0;
   }
 }
 ```
 
-Finally, add the following JavaScript code to your `script.js` file: This script code will make your chatbot functional, which means you can now ask your questions, show or hide the chatbot by clicking the bottom right toggle button, and more.
+In your `script.js` file, bring your chatbot to life by adding interactivity and functionality. This script will handle user messages, manage image uploads, connect to the Google Gemini API for dynamic responses, and initialize the emoji picker.
+
 
 ```html
-const chatbotToggler = document.querySelector(".chatbot-toggler");
-const closeBtn = document.querySelector(".close-btn");
-const chatbox = document.querySelector(".chatbox");
-const chatInput = document.querySelector(".chat-input textarea");
-const sendChatBtn = document.querySelector(".chat-input span");
+const chatBody = document.querySelector(".chat-body");
+const messageInput = document.querySelector(".message-input");
+const sendMessage = document.querySelector("#send-message");
+const fileInput = document.querySelector("#file-input");
+const fileUploadWrapper = document.querySelector(".file-upload-wrapper");
+const fileCancelButton = fileUploadWrapper.querySelector("#file-cancel");
+const chatbotToggler = document.querySelector("#chatbot-toggler");
+const closeChatbot = document.querySelector("#close-chatbot");
 
-let userMessage = null; // Variable to store user's message
-const inputInitHeight = chatInput.scrollHeight;
+// API setup
+const API_KEY = "PASTE-YOUR-API-KEY";
+const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
-// API configuration
-const API_KEY = "PASTE-YOUR-API-KEY"; // Your API key here
-const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
+// Initialize user message and file data
+const userData = {
+  message: null,
+  file: {
+    data: null,
+    mime_type: null,
+  },
+};
 
-const createChatLi = (message, className) => {
-  // Create a chat <li> element with passed message and className
-  const chatLi = document.createElement("li");
-  chatLi.classList.add("chat", `${className}`);
-  let chatContent = className === "outgoing" ? `<p></p>` : `<span class="material-symbols-outlined">smart_toy</span><p></p>`;
-  chatLi.innerHTML = chatContent;
-  chatLi.querySelector("p").textContent = message;
-  return chatLi; // return chat <li> element
-}
+// Store chat history
+const chatHistory = [];
+const initialInputHeight = messageInput.scrollHeight;
 
-const generateResponse = async (chatElement) => {
-  const messageElement = chatElement.querySelector("p");
+// Create message element with dynamic classes and return it
+const createMessageElement = (content, ...classes) => {
+  const div = document.createElement("div");
+  div.classList.add("message", ...classes);
+  div.innerHTML = content;
+  return div;
+};
 
-  // Define the properties and message for the API request
+// Generate bot response using API
+const generateBotResponse = async (incomingMessageDiv) => {
+  const messageElement = incomingMessageDiv.querySelector(".message-text");
+
+  // Add user message to chat history
+  chatHistory.push({
+    role: "user",
+    parts: [{ text: userData.message }, ...(userData.file.data ? [{ inline_data: userData.file }] : [])],
+  });
+
+  // API request options
   const requestOptions = {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ 
-      contents: [{ 
-        role: "user", 
-        parts: [{ text: userMessage }] 
-      }] 
+    body: JSON.stringify({
+      contents: chatHistory,
     }),
-  }
+  };
 
-  // Send POST request to API, get response and set the reponse as paragraph text
   try {
+    // Fetch bot response from API
     const response = await fetch(API_URL, requestOptions);
     const data = await response.json();
     if (!response.ok) throw new Error(data.error.message);
-    
-    // Get the API response text and update the message element
-    messageElement.textContent = data.candidates[0].content.parts[0].text.replace(/\*\*(.*?)\*\*/g, '$1');
+
+    // Extract and display bot's response text
+    const apiResponseText = data.candidates[0].content.parts[0].text.replace(/\*\*(.*?)\*\*/g, "$1").trim();
+    messageElement.innerText = apiResponseText;
+
+    // Add bot response to chat history
+    chatHistory.push({
+      role: "model",
+      parts: [{ text: apiResponseText }],
+    });
   } catch (error) {
-    // Handle error
-    messageElement.classList.add("error");
-    messageElement.textContent = error.message;
+    // Handle error in API response
+    console.log(error);
+    messageElement.innerText = error.message;
+    messageElement.style.color = "#ff0000";
   } finally {
-    chatbox.scrollTo(0, chatbox.scrollHeight);
+    // Reset user's file data, removing thinking indicator and scroll chat to bottom
+    userData.file = {};
+    incomingMessageDiv.classList.remove("thinking");
+    chatBody.scrollTo({ top: chatBody.scrollHeight, behavior: "smooth" });
   }
-}
+};
 
-const handleChat = () => {
-  userMessage = chatInput.value.trim(); // Get user entered message and remove extra whitespace
-  if (!userMessage) return;
+// Handle outgoing user messages
+const handleOutgoingMessage = (e) => {
+  e.preventDefault();
+  userData.message = messageInput.value.trim();
+  messageInput.value = "";
+  messageInput.dispatchEvent(new Event("input"));
+  fileUploadWrapper.classList.remove("file-uploaded");
 
-  // Clear the input textarea and set its height to default
-  chatInput.value = "";
-  chatInput.style.height = `${inputInitHeight}px`;
+  // Create and display user message
+  const messageContent = `<div class="message-text"></div>
+                          ${userData.file.data ? `<img src="data:${userData.file.mime_type};base64,${userData.file.data}" class="attachment" />` : ""}`;
 
-  // Append the user's message to the chatbox
-  chatbox.appendChild(createChatLi(userMessage, "outgoing"));
-  chatbox.scrollTo(0, chatbox.scrollHeight);
+  const outgoingMessageDiv = createMessageElement(messageContent, "user-message");
+  outgoingMessageDiv.querySelector(".message-text").innerText = userData.message;
+  chatBody.appendChild(outgoingMessageDiv);
+  chatBody.scrollTo({ top: chatBody.scrollHeight, behavior: "smooth" });
 
+  // Simulate bot response with thinking indicator after a delay
   setTimeout(() => {
-    // Display "Thinking..." message while waiting for the response
-    const incomingChatLi = createChatLi("Thinking...", "incoming");
-    chatbox.appendChild(incomingChatLi);
-    chatbox.scrollTo(0, chatbox.scrollHeight);
-    generateResponse(incomingChatLi);
-  }, 600);
-}
+    const messageContent = `<svg class="bot-avatar" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 1024 1024">
+            <path
+              d="M738.3 287.6H285.7c-59 0-106.8 47.8-106.8 106.8v303.1c0 59 47.8 106.8 106.8 106.8h81.5v111.1c0 .7.8 1.1 1.4.7l166.9-110.6 41.8-.8h117.4l43.6-.4c59 0 106.8-47.8 106.8-106.8V394.5c0-59-47.8-106.9-106.8-106.9zM351.7 448.2c0-29.5 23.9-53.5 53.5-53.5s53.5 23.9 53.5 53.5-23.9 53.5-53.5 53.5-53.5-23.9-53.5-53.5zm157.9 267.1c-67.8 0-123.8-47.5-132.3-109h264.6c-8.6 61.5-64.5 109-132.3 109zm110-213.7c-29.5 0-53.5-23.9-53.5-53.5s23.9-53.5 53.5-53.5 53.5 23.9 53.5 53.5-23.9 53.5-53.5 53.5zM867.2 644.5V453.1h26.5c19.4 0 35.1 15.7 35.1 35.1v121.1c0 19.4-15.7 35.1-35.1 35.1h-26.5zM95.2 609.4V488.2c0-19.4 15.7-35.1 35.1-35.1h26.5v191.3h-26.5c-19.4 0-35.1-15.7-35.1-35.1zM561.5 149.6c0 23.4-15.6 43.3-36.9 49.7v44.9h-30v-44.9c-21.4-6.5-36.9-26.3-36.9-49.7 0-28.6 23.3-51.9 51.9-51.9s51.9 23.3 51.9 51.9z"/></svg>
+          <div class="message-text">
+            <div class="thinking-indicator">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>`;
 
-chatInput.addEventListener("input", () => {
-  // Adjust the height of the input textarea based on its content
-  chatInput.style.height = `${inputInitHeight}px`;
-  chatInput.style.height = `${chatInput.scrollHeight}px`;
+    const incomingMessageDiv = createMessageElement(messageContent, "bot-message", "thinking");
+    chatBody.appendChild(incomingMessageDiv);
+    chatBody.scrollTo({ top: chatBody.scrollHeight, behavior: "smooth" });
+    generateBotResponse(incomingMessageDiv);
+  }, 600);
+};
+
+// Adjust input field height dynamically
+messageInput.addEventListener("input", () => {
+  messageInput.style.height = `${initialInputHeight}px`;
+  messageInput.style.height = `${messageInput.scrollHeight}px`;
+  document.querySelector(".chat-form").style.borderRadius = messageInput.scrollHeight > initialInputHeight ? "15px" : "32px";
 });
 
-chatInput.addEventListener("keydown", (e) => {
-  // If Enter key is pressed without Shift key and the window 
-  // width is greater than 800px, handle the chat
-  if (e.key === "Enter" && !e.shiftKey && window.innerWidth > 800) {
-    e.preventDefault();
-    handleChat();
+// Handle Enter key press for sending messages
+messageInput.addEventListener("keydown", (e) => {
+  const userMessage = e.target.value.trim();
+  if (e.key === "Enter" && !e.shiftKey && userMessage && window.innerWidth > 768) {
+    handleOutgoingMessage(e);
   }
 });
 
-sendChatBtn.addEventListener("click", handleChat);
-closeBtn.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
+// Handle file input change and preview the selected file
+fileInput.addEventListener("change", () => {
+  const file = fileInput.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    fileInput.value = "";
+    fileUploadWrapper.querySelector("img").src = e.target.result;
+    fileUploadWrapper.classList.add("file-uploaded");
+    const base64String = e.target.result.split(",")[1];
+
+    // Store file data in userData
+    userData.file = {
+      data: base64String,
+      mime_type: file.type,
+    };
+  };
+
+  reader.readAsDataURL(file);
+});
+
+// Cancel file upload
+fileCancelButton.addEventListener("click", () => {
+  userData.file = {};
+  fileUploadWrapper.classList.remove("file-uploaded");
+});
+
+// Initialize emoji picker and handle emoji selection
+const picker = new EmojiMart.Picker({
+  theme: "light",
+  skinTonePosition: "none",
+  previewPosition: "none",
+  onEmojiSelect: (emoji) => {
+    const { selectionStart: start, selectionEnd: end } = messageInput;
+    messageInput.setRangeText(emoji.native, start, end, "end");
+    messageInput.focus();
+  },
+  onClickOutside: (e) => {
+    if (e.target.id === "emoji-picker") {
+      document.body.classList.toggle("show-emoji-picker");
+    } else {
+      document.body.classList.remove("show-emoji-picker");
+    }
+  },
+});
+
+document.querySelector(".chat-form").appendChild(picker);
+
+sendMessage.addEventListener("click", (e) => handleOutgoingMessage(e));
+document.querySelector("#file-upload").addEventListener("click", () => fileInput.click());
+closeChatbot.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
 ```
 
@@ -372,13 +692,6 @@ The above code provided follows a simple flow. First, it displays the user’s m
 
 Once you have added your API key to the code, you'll be ready to start chatting with your Gemini chatbot. Simply open the `index.html` file in your browser to see it in action!
 
-## **Conclusion and final words**
-
-You have successfully built your own Google Gemini chatbot using HTML, CSS, and JavaScript. Following these steps, you have developed a functional chatbot capable of interacting with users, changing themes, and saving chat history using local storage.
-
-This project not only improves your web development skills but also gives you practical experience in integrating APIs and managing application states. With your chatbot operational, you can now explore adding extra features or improving its functionality to better meet your requirements.
-
-If you encounter any problems while building your Gemini chatbot, you can download the source code files for this project by clicking the “Download” button.
 
 ### Download Code Files: <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/lab/chatbot.zip" ><img src="../../images/html64.png" width="36px" height="36px" ></a>
 

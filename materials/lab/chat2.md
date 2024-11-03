@@ -8,9 +8,10 @@
 # Lab 2: **Chatbot untuk Penyedia Layanan Cuaca**
 
 
-#### Deskripsi: 
+## Deskripsi: 
 Mengembangkan chatbot yang memberikan informasi cuaca sesuai lokasi pengguna. Chatbot ini mengambil data cuaca dari API, seperti OpenWeatherMap.
-#### Komponen Utama:
+
+## Komponen Utama:
 Menggunakan API cuaca untuk mendapatkan informasi terbaru berdasarkan input lokasi.
 Pemrosesan input teks untuk mengenali lokasi dari pengguna.
 Tujuan Pembelajaran: Mahasiswa mempelajari integrasi API eksternal dan pemrosesan input teks.

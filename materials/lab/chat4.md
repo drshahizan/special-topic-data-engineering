@@ -8,7 +8,7 @@
 # Lab 1: **Build A Google Gemini Chatbot with HTML CSS and JavaScript**
 
 <a href="https://drshahizan.github.io/lab/gemini-chatbot">
-<img src="https://www.codingnepalweb.com/wp-content/uploads/2024/07/Build-A-Google-Gemini-Chatbot-with-HTML-CSS-and-JavaScript-Home.jpg" alt="Image Alt Text"  height="400">
+<img src="https://www.codingnepalweb.com/wp-content/uploads/2023/06/How-to-Create-Working-Chatbot-in-HTML-CSS-and-JavaScript.png" alt="Image Alt Text"  height="400">
 </a>
 
 AI chatbots like Google's Gemini or OpenAI's ChatGPT have revolutionized human-technology interaction, blurring the lines between machine and human conversation. As a budding web developer, have you ever pondered creating your own AI chatbot? The exciting news is that you can build a Gemini-like chatbot using the fundamental web technologies: HTML, CSS, and JavaScript.

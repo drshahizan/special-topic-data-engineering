@@ -693,9 +693,9 @@ The above code provided follows a simple flow. First, it displays the user’s m
 Once you have added your API key to the code, you'll be ready to start chatting with your Gemini chatbot. Simply open the `index.html` file in your browser to see it in action!
 
 
-### Download Code Files: <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/lab/chatbot.zip" ><img src="../../images/html64.png" width="36px" height="36px" ></a>
+### Download Code Files: <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/lab/chatbot2.zip" ><img src="../../images/html64.png" width="36px" height="36px" ></a>
 
-### View Live Demo 🌐: https://drshahizan.github.io/lab/chatbot
+### View Live Demo 🌐: https://drshahizan.github.io/lab/chatbot2
 
 
 ## Contribution 🛠️

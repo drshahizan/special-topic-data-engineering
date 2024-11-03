@@ -5,7 +5,7 @@
 <a href="https://github.com/drshahizan/special-topic-data-engineering/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/special-topic-data-engineering?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2Fspecial-topic-data-engineering&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-# Lab 5: How to Build an AI Chatbot with HTML CSS & JavaScript
+# Lab 4: How to Build an AI Chatbot with HTML CSS & JavaScript
 
 <a href="https://drshahizan.github.io/lab/gemini-chatbot">
 <img src="https://www.codingnepalweb.com/wp-content/uploads/2024/10/How-to-Build-an-AI-Chatbot-with-HTML-CSS-and-JavaScript.jpg"   height="400">

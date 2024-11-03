@@ -5,7 +5,7 @@
 <a href="https://github.com/drshahizan/special-topic-data-engineering/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/special-topic-data-engineering?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2Fspecial-topic-data-engineering&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-# Lab 3: **Chatbot FAQ untuk Layanan Pelanggan**
+# Lab 2: **Chatbot FAQ untuk Layanan Pelanggan**
 
    - **Deskripsi**: Bangun chatbot yang dapat menjawab pertanyaan umum (FAQ) untuk layanan pelanggan. Chatbot ini akan dilatih menggunakan dataset FAQ yang berisi pertanyaan dan jawaban yang sering ditanyakan.
    - **Komponen Utama**: 

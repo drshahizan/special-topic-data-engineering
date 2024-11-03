@@ -11,607 +11,362 @@
 <img src="https://www.codingnepalweb.com/wp-content/uploads/2023/06/How-to-Create-Working-Chatbot-in-HTML-CSS-and-JavaScript.png"   height="400">
 </a>
 
-AI chatbots like Google's Gemini or OpenAI's ChatGPT have revolutionized human-technology interaction, blurring the lines between machine and human conversation. As a budding web developer, have you ever pondered creating your own AI chatbot? The exciting news is that you can build a Gemini-like chatbot using the fundamental web technologies: HTML, CSS, and JavaScript.
+You may have noticed chatbots on numerous websites, as they have become essential components of modern web platforms and applications. For those unfamiliar, a chatbot is a virtual assistant powered by a computer program capable of understanding user queries and providing relevant responses.
 
-For the uninitiated, Gemini is a sophisticated AI chatbot developed by Google, akin to ChatGPT. It leverages artificial intelligence to generate human-quality responses, renowned for its natural conversational style. Our chatbot will enable users to engage in seamless conversations, copy responses for reference, and effortlessly switch between light and dark themes. Moreover, the chosen theme and chat history will be securely stored in the browser's local storage, persisting even after page refreshes.
+Creating a chatbot is an excellent project for beginner web developers to gain practical experience with HTML, CSS, and JavaScript—fundamental skills for building real-world applications. In this blog post, I’ll walk you through the process of building a functional chatbot from scratch using HTML, CSS, and JavaScript.
 
-## **Steps to Build Gemini Chatbot in HTML & JavaScript**
+This chatbot allows users to ask questions and receive instant responses. It features a sleek and responsive design, ensuring a smooth user experience across various devices. To generate responses to user queries, the chatbot leverages Google’s Gemini API, which is available for free.
 
-To build an interactive and functional Gemini chatbot using HTML, CSS, and JavaScript, follow these simple step-by-step instructions:
+## Steps To Create Working Chatbot in HTML & JavaScript
 
-1. Create a folder with any name you like, e.g., `gemini-chatbot`.
-2. Inside it, create the necessary files: `index.html`, `style.css`, and `script.js`.
+To create your own working chatbot using HTML, CSS, and JavaScript, follow these step-by-step instructions:
 
-In your `index.html` file, add the essential HTML markup to structure your Gemini chat layout. It features a greetings header, suggestion list, chat section, and typing form, all structured with semantic tags.
+1. Create a folder. You can name this folder whatever you want, and inside this folder, create the mentioned files.
+2. Create an `index.html` file. The file name must be index and its extension .html
+3. Create a `style.css` file. The file name must be style and its extension .css
+4. Create a `script.js` file. The file name must be script and its extension .js
+   
+To start, add the following HTML codes to your `index.html` file: This code snippet includes a chatbot header, a chatbox unordered list (ul), and an input field for user messages. By default, the chatbot will display a greeting message as the first chat “li”. We’ll use JavaScript later to dynamically add more chat “li” that contain chat details.
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gemini Chatbot | CodingNepal</title>
-  <!-- Linking Google Fonts For Icons -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="header">
-    <!-- Header Greetings -->
-    <h1 class="title">Hello, there</h1>
-    <p class="subtitle">How can I help you today?</p>
-
-    <!-- Suggestion list -->
-    <ul class="suggestion-list">
-      <li class="suggestion">
-        <h4 class="text">Help me plan a game night with my 5 best friends for under $100.</h4>
-        <span class="icon material-symbols-rounded">draw</span>
-      </li>
-      <li class="suggestion">
-        <h4 class="text">What are the best tips to improve my public speaking skills?</h4>
-        <span class="icon material-symbols-rounded">lightbulb</span>
-      </li>
-      <li class="suggestion">
-        <h4 class="text">Can you help me find the latest news on web development?</h4>
-        <span class="icon material-symbols-rounded">explore</span>
-      </li>
-      <li class="suggestion">
-        <h4 class="text">Write JavaScript code to sum all elements in an array.</h4>
-        <span class="icon material-symbols-rounded">code</span>
-      </li>
-    </ul>
-  </header>
-
-  <!-- Chat List / Container -->
-  <div class="chat-list"></div>
-
-  <!-- Typing Area -->
-  <div class="typing-area">
-    <form action="#" class="typing-form">
-      <div class="input-wrapper">
-        <input type="text" placeholder="Enter a prompt here" class="typing-input" required />
-        <button id="send-message-button" class="icon material-symbols-rounded">send</button>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chatbot in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <button class="chatbot-toggler">
+      <span class="material-symbols-rounded">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+      <header>
+        <h2>Chatbot</h2>
+        <span class="close-btn material-symbols-outlined">close</span>
+      </header>
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined">smart_toy</span>
+          <p>Hi there <br>How can I help you today?</p>
+        </li>
+      </ul>
+      <div class="chat-input">
+        <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+        <span id="send-btn" class="material-symbols-rounded">send</span>
       </div>
-      <div class="action-buttons">
-        <span id="theme-toggle-button" class="icon material-symbols-rounded">light_mode</span>
-        <span id="delete-chat-button" class="icon material-symbols-rounded">delete</span>
-      </div>
-    </form>
-    <p class="disclaimer-text">
-      Gemini may display inaccurate info, including about people, so double-check its responses.
-    </p>
-  </div>
+    </div>
 
-  <script src="script.js"></script>
-</body>
+  </body>
 </html>
 ```
 
-In your `style.css` file, add CSS code to style your chatbot, giving it a responsive and Gemini-like design. Experiment with different CSS properties such as colors, fonts, and backgrounds to make your clone more attractive.
+Next, add the following CSS codes to your `style.css` file to apply visual styling to your chatbot. Now, if you load the web page in your browser, you will only see the chatbot toggle button at the bottom right corner. You can customize this code to your liking by adjusting the color, font, size, and other CSS properties.
 
-```css
-/* Import Google Font - Poppins */
+```
+/* Import Google font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
-:root {
-  /* Dark mode colors */
-  --text-color: #E3E3E3;
-  --subheading-color: #828282;
-  --placeholder-color: #A6A6A6;
-  --primary-color: #242424;
-  --secondary-color: #383838;
-  --secondary-hover-color: #444;
-}
-
-.light_mode {
-  /* Light mode colors */
-  --text-color: #222;
-  --subheading-color: #A0A0A0;
-  --placeholder-color: #6C6C6C;
-  --primary-color: #FFF;
-  --secondary-color: #E9EEF6;
-  --secondary-hover-color: #DBE1EA;
-}
-
 body {
-  background: var(--primary-color);
+  background: #E3F2FD;
 }
-
-.header, .chat-list .message, .typing-form {
-  margin: 0 auto;
-  max-width: 980px;
-}
-
-.header {
-  margin-top: 6vh;
-  padding: 1rem;
-  overflow-x: hidden;
-}
-
-body.hide-header .header {
-  margin: 0;
-  display: none;
-}
-
-.header :where(.title, .subtitle) {
-  color: var(--text-color);
-  font-weight: 500;
-  line-height: 4rem;
-}
-
-.header .title {
-  width: fit-content;
-  font-size: 3rem;
-  background-clip: text;
-  background: linear-gradient(to right, #4285f4, #d96570);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.header .subtitle {
-  font-size: 2.6rem;
-  color: var(--subheading-color);
-}
-
-.suggestion-list {
-  width: 100%;
-  list-style: none;
-  display: flex;
-  gap: 1.25rem;
-  margin-top: 9.5vh;
-  overflow: hidden;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scrollbar-width: none;
-}
-
-.suggestion-list .suggestion {
-  cursor: pointer;
-  padding: 1.25rem;
-  width: 222px;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  border-radius: 0.75rem;
-  justify-content: space-between;
-  background: var(--secondary-color);
-  transition: 0.2s ease;
-}
-
-.suggestion-list .suggestion:hover {
-  background: var(--secondary-hover-color);
-}
-
-.suggestion-list .suggestion :where(.text, .icon) {
-  font-weight: 400;
-  color: var(--text-color);
-}
-
-.suggestion-list .suggestion .icon {
-  width: 42px;
-  height: 42px;
-  display: flex;
-  font-size: 1.3rem;
-  margin-top: 2.5rem;
-  align-self: flex-end;
-  align-items: center;
-  border-radius: 50%;
-  justify-content: center;
-  color: var(--text-color);
-  background: var(--primary-color);
-}
-
-.chat-list {
-  padding: 2rem 1rem 12rem;
-  max-height: 100vh;
-  overflow-y: auto;
-  scrollbar-color: #999 transparent;
-}
-
-.chat-list .message.incoming {
-  margin-top: 1.5rem;
-}
-
-.chat-list .message .message-content {
-  display: flex;
-  gap: 1.5rem;
-  width: 100%;
-  align-items: center;
-}
-
-.chat-list .message .text {
-  color: var(--text-color);
-  white-space: pre-wrap;
-}
-
-.chat-list .message.error .text {
-  color: #e55865;
-}
-
-.chat-list .message.loading .text {
-  display: none;
-}
-
-.chat-list .message .avatar {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-  border-radius: 50%;
-  align-self: flex-start;
-}
-
-.chat-list .message.loading .avatar {
-  animation: rotate 3s linear infinite;
-}
-
-@keyframes rotate {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.chat-list .message .icon {
-  color: var(--text-color);
-  cursor: pointer;
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: none;
-  font-size: 1.25rem;
-  margin-left: 3.5rem;
-  visibility: hidden;
-}
-
-.chat-list .message .icon.hide {
-  visibility: hidden;
-}
-
-.chat-list .message:not(.loading, .error):hover .icon:not(.hide){
-  visibility: visible;
-}
-
-.chat-list .message .icon:hover {
-  background: var(--secondary-hover-color);
-}
-
-.chat-list .message .loading-indicator {
-  display: none;
-  gap: 0.8rem;
-  width: 100%;
-  flex-direction: column;
-}
-
-.chat-list .message.loading .loading-indicator {
-  display: flex;
-}
-
-.chat-list .message .loading-indicator .loading-bar {
-  height: 11px;
-  width: 100%;
-  border-radius: 0.135rem;
-  background-position: -800px 0;
-  background: linear-gradient(to right, #4285f4, var(--primary-color), #4285f4);
-  animation: loading 3s linear infinite;
-}
-
-.chat-list .message .loading-indicator .loading-bar:last-child {
-  width: 70%;
-}
-
-@keyframes loading {
-  0% {
-    background-position: -800px 0;
-  }
-
-  100% {
-    background-position: 800px 0;
-  }
-}
-
-.typing-area {
+.chatbot-toggler {
   position: fixed;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  padding: 1rem;
-  background: var(--primary-color);
-}
-
-.typing-area :where(.typing-form, .action-buttons) {
+  bottom: 30px;
+  right: 35px;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 50px;
   display: flex;
-  gap: 0.75rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #724ae8;
+  transition: all 0.2s ease;
 }
-
-.typing-form .input-wrapper {
-  width: 100%;
-  height: 56px;
-  display: flex;
+body.show-chatbot .chatbot-toggler {
+  transform: rotate(90deg);
+}
+.chatbot-toggler span {
+  color: #fff;
+  position: absolute;
+}
+.chatbot-toggler span:last-child,
+body.show-chatbot .chatbot-toggler span:first-child  {
+  opacity: 0;
+}
+body.show-chatbot .chatbot-toggler span:last-child {
+  opacity: 1;
+}
+.chatbot {
+  position: fixed;
+  right: 35px;
+  bottom: 90px;
+  width: 420px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.5);
+  transform-origin: bottom right;
+  box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+              0 32px 64px -48px rgba(0,0,0,0.5);
+  transition: all 0.1s ease;
+}
+body.show-chatbot .chatbot {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
+}
+.chatbot header {
+  padding: 16px 0;
   position: relative;
+  text-align: center;
+  color: #fff;
+  background: #724ae8;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
-
-.typing-form .typing-input {
-  height: 100%;
+.chatbot header span {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  display: none;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+header h2 {
+  font-size: 1.4rem;
+}
+.chatbot .chatbox {
+  overflow-y: auto;
+  height: 510px;
+  padding: 30px 20px 100px;
+}
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar {
+  width: 6px;
+}
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 25px;
+}
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 25px;
+}
+.chatbox .chat {
+  display: flex;
+  list-style: none;
+}
+.chatbox .outgoing {
+  margin: 20px 0;
+  justify-content: flex-end;
+}
+.chatbox .incoming span {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  cursor: default;
+  text-align: center;
+  line-height: 32px;
+  align-self: flex-end;
+  background: #724ae8;
+  border-radius: 4px;
+  margin: 0 10px 7px 0;
+}
+.chatbox .chat p {
+  white-space: pre-wrap;
+  padding: 12px 16px;
+  border-radius: 10px 10px 0 10px;
+  max-width: 75%;
+  color: #fff;
+  font-size: 0.95rem;
+  background: #724ae8;
+}
+.chatbox .incoming p {
+  border-radius: 10px 10px 10px 0;
+}
+.chatbox .chat p.error {
+  color: #721c24;
+  background: #f8d7da;
+}
+.chatbox .incoming p {
+  color: #000;
+  background: #f2f2f2;
+}
+.chatbot .chat-input {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  padding: 3px 20px;
+  border-top: 1px solid #ddd;
+}
+.chat-input textarea {
+  height: 55px;
   width: 100%;
   border: none;
   outline: none;
   resize: none;
-  font-size: 1rem;
-  color: var(--text-color);
-  padding: 1.1rem 4rem 1.1rem 1.5rem;
-  border-radius: 100px;
-  background: var(--secondary-color);
+  max-height: 180px;
+  padding: 15px 15px 15px 0;
+  font-size: 0.95rem;
 }
-
-.typing-form .typing-input:focus {
-  background: var(--secondary-hover-color);
-}
-
-.typing-form .typing-input::placeholder {
-  color: var(--placeholder-color);
-}
-
-.typing-area .icon {
-  width: 56px;
-  height: 56px;
-  flex-shrink: 0;
+.chat-input span {
+  align-self: flex-end;
+  color: #724ae8;
   cursor: pointer;
-  border-radius: 50%;
+  height: 55px;
   display: flex;
-  font-size: 1.4rem;
-  color: var(--text-color);
   align-items: center;
-  justify-content: center;
-  background: var(--secondary-color);
-  transition: 0.2s ease;
+  visibility: hidden;
+  font-size: 1.35rem;
+}
+.chat-input textarea:valid ~ span {
+  visibility: visible;
 }
 
-.typing-area .icon:hover {
-  background: var(--secondary-hover-color);
-}
-
-.typing-form #send-message-button {
-  position: absolute;
-  right: 0;
-  outline: none;
-  border: none;
-  transform: scale(0);
-  background: transparent;
-  transition: transform 0.2s ease;
-}
-
-.typing-form .typing-input:valid ~ #send-message-button {
-  transform: scale(1);
-}
-
-.typing-area .disclaimer-text {
-  text-align: center;
-  font-size: 0.85rem;
-  margin-top: 1rem;
-  color: var(--placeholder-color);
-}
-
-/* Responsive media query code for small screen */
-@media (max-width: 768px) {
-  .header :is(.title, .subtitle) {
-    font-size: 2rem;
-    line-height: 2.6rem;
+@media (max-width: 490px) {
+  .chatbot-toggler {
+    right: 20px;
+    bottom: 20px;
   }
-
-  .header .subtitle {
-    font-size: 1.7rem;
+  .chatbot {
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    border-radius: 0;
+    width: 100%;
   }
-
-  .typing-area :where(.typing-form, .action-buttons) {
-    gap: 0.4rem;
+  .chatbot .chatbox {
+    height: 90%;
+    padding: 25px 15px 100px;
   }
-
-  .typing-form .input-wrapper {
-    height: 50px;
+  .chatbot .chat-input {
+    padding: 5px 15px;
   }
-
-  .typing-form .typing-input {
-    padding: 1.1rem 3.5rem 1.1rem 1.2rem;
-  }
-
-  .typing-area .icon {
-    height: 50px;
-    width: 50px;
-  }
-
-  .typing-area .disclaimer-text {
-    font-size: 0.75rem;
-    margin-top: 0.5rem;
+  .chatbot header span {
+    display: block;
   }
 }
 ```
 
-In your `script.js` file, add JavaScript code to make your chatbot interactive and functional. This includes enabling features such as sending and receiving messages, toggling between light and dark themes, and managing chat history.
+Finally, add the following JavaScript code to your `script.js` file: This script code will make your chatbot functional, which means you can now ask your questions, show or hide the chatbot by clicking the bottom right toggle button, and more.
 
-```javascript
-const typingForm = document.querySelector(".typing-form");
-const chatContainer = document.querySelector(".chat-list");
-const suggestions = document.querySelectorAll(".suggestion");
-const toggleThemeButton = document.querySelector("#theme-toggle-button");
-const deleteChatButton = document.querySelector("#delete-chat-button");
+```
+const chatbotToggler = document.querySelector(".chatbot-toggler");
+const closeBtn = document.querySelector(".close-btn");
+const chatbox = document.querySelector(".chatbox");
+const chatInput = document.querySelector(".chat-input textarea");
+const sendChatBtn = document.querySelector(".chat-input span");
 
-// State variables
-let userMessage = null;
-let isResponseGenerating = false;
+let userMessage = null; // Variable to store user's message
+const inputInitHeight = chatInput.scrollHeight;
 
 // API configuration
 const API_KEY = "PASTE-YOUR-API-KEY"; // Your API key here
 const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
 
-// Load theme and chat data from local storage on page load
-const loadDataFromLocalstorage = () => {
-  const savedChats = localStorage.getItem("saved-chats");
-  const isLightMode = (localStorage.getItem("themeColor") === "light_mode");
-
-  // Apply the stored theme
-  document.body.classList.toggle("light_mode", isLightMode);
-  toggleThemeButton.innerText = isLightMode ? "dark_mode" : "light_mode";
-
-  // Restore saved chats or clear the chat container
-  chatContainer.innerHTML = savedChats || '';
-  document.body.classList.toggle("hide-header", savedChats);
-
-  chatContainer.scrollTo(0, chatContainer.scrollHeight); // Scroll to the bottom
+const createChatLi = (message, className) => {
+  // Create a chat <li> element with passed message and className
+  const chatLi = document.createElement("li");
+  chatLi.classList.add("chat", `${className}`);
+  let chatContent = className === "outgoing" ? `<p></p>` : `<span class="material-symbols-outlined">smart_toy</span><p></p>`;
+  chatLi.innerHTML = chatContent;
+  chatLi.querySelector("p").textContent = message;
+  return chatLi; // return chat <li> element
 }
 
-// Create a new message element and return it
-const createMessageElement = (content, ...classes) => {
-  const div = document.createElement("div");
-  div.classList.add("message", ...classes);
-  div.innerHTML = content;
-  return div;
-}
+const generateResponse = async (chatElement) => {
+  const messageElement = chatElement.querySelector("p");
 
-// Show typing effect by displaying words one by one
-const showTypingEffect = (text, textElement, incomingMessageDiv) => {
-  const words = text.split(' ');
-  let currentWordIndex = 0;
+  // Define the properties and message for the API request
+  const requestOptions = {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ 
+      contents: [{ 
+        role: "user", 
+        parts: [{ text: userMessage }] 
+      }] 
+    }),
+  }
 
-  const typingInterval = setInterval(() => {
-    // Append each word to the text element with a space
-    textElement.innerText += (currentWordIndex === 0 ? '' : ' ') + words[currentWordIndex++];
-    incomingMessageDiv.querySelector(".icon").classList.add("hide");
-
-    // If all words are displayed
-    if (currentWordIndex === words.length) {
-      clearInterval(typingInterval);
-      isResponseGenerating = false;
-      incomingMessageDiv.querySelector(".icon").classList.remove("hide");
-      localStorage.setItem("saved-chats", chatContainer.innerHTML); // Save chats to local storage
-    }
-    chatContainer.scrollTo(0, chatContainer.scrollHeight); // Scroll to the bottom
-  }, 75);
-}
-
-// Fetch response from the API based on user message
-const generateAPIResponse = async (incomingMessageDiv) => {
-  const textElement = incomingMessageDiv.querySelector(".text"); // Getting text element
-
+  // Send POST request to API, get response and set the reponse as paragraph text
   try {
-    // Send a POST request to the API with the user's message
-    const response = await fetch(API_URL, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ 
-        contents: [{ 
-          role: "user", 
-          parts: [{ text: userMessage }] 
-        }] 
-      }),
-    });
-
+    const response = await fetch(API_URL, requestOptions);
     const data = await response.json();
     if (!response.ok) throw new Error(data.error.message);
-
-    // Get the API response text and remove asterisks from it
-    const apiResponse = data?.candidates[0].content.parts[0].text.replace(/\*\*(.*?)\*\*/g, '$1');
-    showTypingEffect(apiResponse, textElement, incomingMessageDiv); // Show typing effect
-  } catch (error) { // Handle error
-    isResponseGenerating = false;
-    textElement.innerText = error.message;
-    textElement.parentElement.closest(".message").classList.add("error");
+    
+    // Get the API response text and update the message element
+    messageElement.textContent = data.candidates[0].content.parts[0].text.replace(/\*\*(.*?)\*\*/g, '$1');
+  } catch (error) {
+    // Handle error
+    messageElement.classList.add("error");
+    messageElement.textContent = error.message;
   } finally {
-    incomingMessageDiv.classList.remove("loading");
+    chatbox.scrollTo(0, chatbox.scrollHeight);
   }
 }
 
-// Show a loading animation while waiting for the API response
-const showLoadingAnimation = () => {
-  const html = `<div class="message-content">
-                  <img class="avatar" src="images/gemini.svg" alt="Gemini avatar">
-                  <p class="text"></p>
-                  <div class="loading-indicator">
-                    <div class="loading-bar"></div>
-                    <div class="loading-bar"></div>
-                    <div class="loading-bar"></div>
-                  </div>
-                </div>
-                <span onClick="copyMessage(this)" class="icon material-symbols-rounded">content_copy</span>`;
+const handleChat = () => {
+  userMessage = chatInput.value.trim(); // Get user entered message and remove extra whitespace
+  if (!userMessage) return;
 
-  const incomingMessageDiv = createMessageElement(html, "incoming", "loading");
-  chatContainer.appendChild(incomingMessageDiv);
+  // Clear the input textarea and set its height to default
+  chatInput.value = "";
+  chatInput.style.height = `${inputInitHeight}px`;
 
-  chatContainer.scrollTo(0, chatContainer.scrollHeight); // Scroll to the bottom
-  generateAPIResponse(incomingMessageDiv);
+  // Append the user's message to the chatbox
+  chatbox.appendChild(createChatLi(userMessage, "outgoing"));
+  chatbox.scrollTo(0, chatbox.scrollHeight);
+
+  setTimeout(() => {
+    // Display "Thinking..." message while waiting for the response
+    const incomingChatLi = createChatLi("Thinking...", "incoming");
+    chatbox.appendChild(incomingChatLi);
+    chatbox.scrollTo(0, chatbox.scrollHeight);
+    generateResponse(incomingChatLi);
+  }, 600);
 }
 
-// Copy message text to the clipboard
-const copyMessage = (copyButton) => {
-  const messageText = copyButton.parentElement.querySelector(".text").innerText;
-
-  navigator.clipboard.writeText(messageText);
-  copyButton.innerText = "done"; // Show confirmation icon
-  setTimeout(() => copyButton.innerText = "content_copy", 1000); // Revert icon after 1 second
-}
-
-// Handle sending outgoing chat messages
-const handleOutgoingChat = () => {
-  userMessage = typingForm.querySelector(".typing-input").value.trim() || userMessage;
-  if(!userMessage || isResponseGenerating) return; // Exit if there is no message or response is generating
-
-  isResponseGenerating = true;
-
-  const html = `<div class="message-content">
-                  <img class="avatar" src="images/user.jpg" alt="User avatar">
-                  <p class="text"></p>
-                </div>`;
-
-  const outgoingMessageDiv = createMessageElement(html, "outgoing");
-  outgoingMessageDiv.querySelector(".text").innerText = userMessage;
-  chatContainer.appendChild(outgoingMessageDiv);
-  
-  typingForm.reset(); // Clear input field
-  document.body.classList.add("hide-header");
-  chatContainer.scrollTo(0, chatContainer.scrollHeight); // Scroll to the bottom
-  setTimeout(showLoadingAnimation, 500); // Show loading animation after a delay
-}
-
-// Toggle between light and dark themes
-toggleThemeButton.addEventListener("click", () => {
-  const isLightMode = document.body.classList.toggle("light_mode");
-  localStorage.setItem("themeColor", isLightMode ? "light_mode" : "dark_mode");
-  toggleThemeButton.innerText = isLightMode ? "dark_mode" : "light_mode";
+chatInput.addEventListener("input", () => {
+  // Adjust the height of the input textarea based on its content
+  chatInput.style.height = `${inputInitHeight}px`;
+  chatInput.style.height = `${chatInput.scrollHeight}px`;
 });
 
-// Delete all chats from local storage when button is clicked
-deleteChatButton.addEventListener("click", () => {
-  if (confirm("Are you sure you want to delete all the chats?")) {
-    localStorage.removeItem("saved-chats");
-    loadDataFromLocalstorage();
+chatInput.addEventListener("keydown", (e) => {
+  // If Enter key is pressed without Shift key and the window 
+  // width is greater than 800px, handle the chat
+  if (e.key === "Enter" && !e.shiftKey && window.innerWidth > 800) {
+    e.preventDefault();
+    handleChat();
   }
 });
 
-// Set userMessage and handle outgoing chat when a suggestion is clicked
-suggestions.forEach(suggestion => {
-  suggestion.addEventListener("click", () => {
-    userMessage = suggestion.querySelector(".text").innerText;
-    handleOutgoingChat();
-  });
-});
-
-// Prevent default form submission and handle outgoing chat
-typingForm.addEventListener("submit", (e) => {
-  e.preventDefault(); 
-  handleOutgoingChat();
-});
-
-loadDataFromLocalstorage();
+sendChatBtn.addEventListener("click", handleChat);
+closeBtn.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
+chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
 ```
+
+The above code provided follows a simple flow. First, it displays the user’s message in the chatbox and uses the Gemini API to generate an appropriate response to the message. While waiting for the API response, a “Thinking…” message is shown. Once the response is received, it replaces the “Thinking…” message in the chatbox.
+
 
 **Important:** Your chatbot is not ready to generate responses until you configure it with a Gemini API key. To do this, add your API key to the `API_KEY` variable in the `script.js` file. You can get your free API key from [Google AI Studio](https://aistudio.google.com/app/apikey). It will look something like this: `AIzaSyAtpnKGX14bTgmx0l_gQeatYvdWvY_wOTQ`.
 

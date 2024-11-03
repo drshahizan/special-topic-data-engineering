@@ -33,7 +33,7 @@ To start, add the following HTML codes to your `index.html` file: This code snip
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Chatbot in JavaScript | CodingNepal</title>
+    <title>Chatbot in JavaScript</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google Fonts Link For Icons -->

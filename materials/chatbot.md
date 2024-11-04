@@ -5,14 +5,15 @@
 <a href="https://github.com/drshahizan/special-topic-data-engineering/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/special-topic-data-engineering?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2Fspecial-topic-data-engineering&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-# Machine Translation
+# Machine Translation and Chatbot
 
 <a href="https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/chatbot.md">
  <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/images/Talk_airlangga.jpeg" alt="Image Alt Text"  height="400">
 </a>
 
+## Part 1: Machine Translation
 
-## Definition:
+### Definition:
 **Machine Translation** is the use of computational techniques to translate text or speech from one language to another. This technology aims to capture the contextual, idiomatic, and pragmatic nuances of both languages. Early methods were rule-based or statistical, but modern approaches primarily use neural machine translation and large language models[¹](https://en.wikipedia.org/wiki/Machine_translation) [²](https://academic.oup.com/edited-volume/42643/chapter/358152716).
 
 ### Teaching Materials
@@ -22,8 +23,7 @@
 | 1. | Slide | [Machine Translation and Chatbot](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/chatbot%20_UAL.pdf) |
 | 2. | Searching | [Zeta Alpha](https://search.zeta-alpha.com/) |
 
-
-## Articles
+### Articles
 1. Guntara, T. W., Aji, A. F., & Prasojo, R. E. (2020). Benchmarking multidomain English-Indonesian machine translation. In *Proceedings of the 13th Workshop on Building and Using Comparable Corpora* (pp. 35–43). Language Resources and Evaluation Conference (LREC 2020), Marseille, France. European Language Resources Association (ELRA). [PDF](https://aclanthology.org/2020.bucc-1.6.pdf)
 2. Winata, G. I., Aji, A. F., Cahyawijaya, S., Mahendra, R., Koto, F., Romadhony, A., Kurniawan, K., Moeljadi, D., Prasojo, R. E., Fung, P., Baldwin, T., Lau, J. H., Sennrich, R., & Ruder, S. (2023). NusaX: Multilingual parallel sentiment dataset for 10 Indonesian local languages. In Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics (pp. 815-834). Association for Computational Linguistics. [PDF](https://aclanthology.org/2023.eacl-main.57.pdf)
 3. H. Wardhana, I. M. Yadi Dharma, K. Marzuki, and I. Syarif Hidayatullah, ”Implementation of Neural Machine Translation in Trans-lating from Indonesian to Sasak Language”, MATRIK: Jurnal Manajemen, Teknik Informatika, dan Rekayasa Komputer, Vol. 23, No.2, pp. 465-476, Mar, 2024. [PDF](https://www.researchgate.net/publication/379851345_Implementation_of_Neural_Machine_Translation_in_Translating_from_Indonesian_to_Sasak_Language)
@@ -34,7 +34,7 @@
 2. What are the limitations of Neural Machine Translation for low-resource languages?
 3. How is DeepL being integrated into language education in Indonesia?
 
-## Hands-on
+### Hands-on
 | Lab | Title | Description | Output |
 | :---: | ----- | ----------- | :-----: |
 | 1 | Introduction to Machine Translation for Indonesian Language | Translate sentences from Indonesian to English using the Google Translate API. | <a href="lab/lab1.md"><img src="../images/task.png" width="24px" height="24px"></a> |
@@ -50,7 +50,7 @@
 | 11 | A Dictionary App | In this project, there is only a search input, and when you enter any existing word and press enter, a loading text of "Searching the meaning of..." is displayed. <a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab5" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |<a href="https://drshahizan.github.io/lab/lab5/index.html" ><img src="../images/task.png" width="24px" height="24px" ></a>|
 | 12 | A Language Translator App|A language translator is a programme that allows you to translate text into multiple languages such as Malay, Spanish, and others. Users can easily translate text into different languages, copy translated text, and convert text to speech using the language translator app. It is comparable to Google Translate. <a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab6" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |<a href="https://drshahizan.github.io/lab/lab6/index.html" ><img src="../images/task.png" width="24px" height="24px" ></a>|
 
-## :octocat: Github & Additional Information
+### :octocat: Github & Additional Information
 - [Indonesian LocalX Machine Translation](https://github.com/zanuura/Indonesian-LocalX-Machine-Translation)
 - [NusaX-MT](https://github.com/IndoNLP/nusax/tree/main/datasets/mt)
 - [Machine Translation Reading List](https://github.com/THUNLP-MT/MT-Reading-List)
@@ -58,12 +58,12 @@
 - [Awesome Machine Translation](https://github.com/maidis/awesome-machine-translation)
 - [Machine Translate](https://machinetranslate.org/)
 
-# Chatbot
+## Part 2: Chatbot
 
-## Definition:
+### Definition:
 **Chatbots** are computer programs designed to simulate human conversation, either through text or voice. They use technologies like natural language processing (NLP) to understand and respond to user inputs. Chatbots can range from simple, rule-based systems to more advanced AI-driven models that learn and adapt over time[³](https://www.coursera.org/articles/what-is-a-chatbot) [⁴](https://link.springer.com/chapter/10.1007/978-3-030-49186-4_31).
 
-## Hands-on
+### Hands-on
 
 | No. | Project | Description | Link |
 | --- | ------- | ----------- | ---- |
@@ -73,7 +73,7 @@
 |4 | How to Build an AI Chatbot with HTML CSS & JavaScript|This guide will take you step-by-step through building an AI-powered chatbot using the free Google Gemini API for dynamic, real-time responses.|<a href="lab/chat4.md" ><img src="../images/task.png" width="24px" height="24px" ></a>|
 | 5   | Build A Google Gemini Chatbot with HTML CSS and JavaScript | AI chatbots like Google Gemini or ChatGPT have changed how we interact with technology, making conversations with machines almost human.| <a href="lab/chat5.md" ><img src="../images/task.png" width="24px" height="24px" ></a>|
 
-## :octocat: Github Chatbot
+### :octocat: Github Chatbot
 - [AI Chatbot Intelligence for Kampus Merdeka Program Using Long Short-Term Memory Algorithm](https://github.com/fendy07/chatbot-AI). This project about AI Chatbot Kampus Merdeka to help students or Indonesian people know about the Kampus Merdeka program from KEMENDIKBUDRISTEK (Kementerian Pendidikan, Kebudayaan, Riset Dan Teknologi).
 - [Optimasi Model Percakapan Bahasa Indonesia Berbasis Sequence To Sequence, Universitas Atma Jaya, Yogyakarta](https://github.com/DwikiWitman/Chatbot-Bahasa-Indonesia)
 - [Nodejs Chatbot Indonesia](https://github.com/binsarjr/chatbot-indonesia)

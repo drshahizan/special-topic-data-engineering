@@ -78,7 +78,8 @@
 - [Optimasi Model Percakapan Bahasa Indonesia Berbasis Sequence To Sequence, Universitas Atma Jaya, Yogyakarta](https://github.com/DwikiWitman/Chatbot-Bahasa-Indonesia)
 - [Nodejs Chatbot Indonesia](https://github.com/binsarjr/chatbot-indonesia)
 - [siPintar, Indonesian Chatbot Deep Neural Network](https://github.com/kunci115/siPintar)
-- [Awesome Indonesia NLP][https://github.com/irfnrdh/Awesome-Indonesia-NLP]
+- [Awesome Indonesia NLP](https://github.com/irfnrdh/Awesome-Indonesia-NLP)
+- [Baize](https://github.com/project-baize/baize-chatbot)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

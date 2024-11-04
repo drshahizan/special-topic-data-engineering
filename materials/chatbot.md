@@ -59,10 +59,11 @@
 - [Nodejs Chatbot Indonesia](https://github.com/binsarjr/chatbot-indonesia)
 
 ## Hands-on
-| Lab | Title | Description | Output |
-| :-----: | ----- | :------ | :------: |
-|1. | Chatbot untuk Penyedia Layanan Cuaca | Mengembangkan chatbot yang memberikan informasi cuaca sesuai lokasi pengguna. Chatbot ini mengambil data cuaca dari API, seperti OpenWeatherMap.|<a href="lab/chat1.md" ><img src="../images/task.png" width="24px" height="24px" ></a>|
-|2. |Chatbot FAQ untuk Layanan Pelanggan|Bangun chatbot yang dapat menjawab pertanyaan umum (FAQ) untuk layanan pelanggan. Chatbot ini akan dilatih menggunakan dataset FAQ yang berisi pertanyaan dan jawaban yang sering ditanyakan.|<a href="lab/chat2.md" ><img src="../images/task.png" width="24px" height="24px" ></a>|
+
+| No. | Project | Description | Link |
+| --- | ------- | ----------- | ---- |
+| 1. | Weather Service Chatbot | Develop a chatbot that provides weather information based on the user's location. This chatbot retrieves weather data from an API, such as OpenWeatherMap. | <a href="lab/chat1.md"><img src="../images/task.png" width="24px" height="24px"></a> |
+| 2. | FAQ Chatbot for Customer Service | Build a chatbot capable of answering frequently asked questions (FAQ) for customer service. This chatbot will be trained using a FAQ dataset containing common questions and answers. | <a href="lab/chat2.md"><img src="../images/task.png" width="24px" height="24px"></a> |
 |3. |How to Create Working Chatbot in HTML CSS and JavaScript|This chatbot allows users to ask questions and receive instant responses. It features a sleek and responsive design, ensuring a smooth user experience across various devices. To generate responses to user queries, the chatbot leverages Google’s Gemini API, which is available for free.|<a href="lab/chat3.md" ><img src="../images/task.png" width="24px" height="24px" ></a>|
 |4. | How to Build an AI Chatbot with HTML CSS & JavaScript|This guide will take you step-by-step through building an AI-powered chatbot using the free Google Gemini API for dynamic, real-time responses.|<a href="lab/chat4.md" ><img src="../images/task.png" width="24px" height="24px" ></a>|
 | 5.   | Build A Google Gemini Chatbot with HTML CSS and JavaScript | AI chatbots like Google Gemini or ChatGPT have changed how we interact with technology, making conversations with machines almost human.| <a href="lab/chat5.md" ><img src="../images/task.png" width="24px" height="24px" ></a>|

@@ -77,6 +77,8 @@
 - [AI Chatbot Intelligence for Kampus Merdeka Program Using Long Short-Term Memory Algorithm](https://github.com/fendy07/chatbot-AI). This project about AI Chatbot Kampus Merdeka to help students or Indonesian people know about the Kampus Merdeka program from KEMENDIKBUDRISTEK (Kementerian Pendidikan, Kebudayaan, Riset Dan Teknologi).
 - [Optimasi Model Percakapan Bahasa Indonesia Berbasis Sequence To Sequence, Universitas Atma Jaya, Yogyakarta](https://github.com/DwikiWitman/Chatbot-Bahasa-Indonesia)
 - [Nodejs Chatbot Indonesia](https://github.com/binsarjr/chatbot-indonesia)
+- [siPintar, Indonesian Chatbot Deep Neural Network](https://github.com/kunci115/siPintar)
+- [Awesome Indonesia NLP][https://github.com/irfnrdh/Awesome-Indonesia-NLP]
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

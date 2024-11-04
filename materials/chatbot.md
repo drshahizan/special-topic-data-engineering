@@ -19,7 +19,7 @@
 
 | No | Lesson | Topic |
 |--------|---------|---------|
-| 1. | Slides | [Machine Translation and Chatbot](https://liveutm-my.sharepoint.com/:b:/g/personal/shahizan_live_utm_my/Ea4jHzBjWThBoiMKH93K5vQBWWfEFBIARMYtOUZf5sGs7Q?e=C5ZIoB) |
+| 1. | Slides | [Machine Translation and Chatbot](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/chatbot%20_UAL.pdf) |
 | 2. | Article | [Generative AI Global Interest Report 2023](https://www.electronicshub.org/generative-ai-global-interest-report-2023/) |
 
 

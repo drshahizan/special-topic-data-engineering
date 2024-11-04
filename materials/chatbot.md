@@ -50,7 +50,7 @@
 | 11 | A Dictionary App | In this project, there is only a search input, and when you enter any existing word and press enter, a loading text of "Searching the meaning of..." is displayed. <a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab5" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |<a href="https://drshahizan.github.io/lab/lab5/index.html" ><img src="../images/task.png" width="24px" height="24px" ></a>|
 | 12 | A Language Translator App|A language translator is a programme that allows you to translate text into multiple languages such as Malay, Spanish, and others. Users can easily translate text into different languages, copy translated text, and convert text to speech using the language translator app. It is comparable to Google Translate. <a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab6" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |<a href="https://drshahizan.github.io/lab/lab6/index.html" ><img src="../images/task.png" width="24px" height="24px" ></a>|
 
-### Additional Information
+## :octocat: Github & Additional Information
 - [Indonesian LocalX Machine Translation](https://github.com/zanuura/Indonesian-LocalX-Machine-Translation)
 - [NusaX-MT](https://github.com/IndoNLP/nusax/tree/main/datasets/mt)
 - [Machine Translation Reading List](https://github.com/THUNLP-MT/MT-Reading-List)
@@ -63,11 +63,6 @@
 ## Definition:
 **Chatbots** are computer programs designed to simulate human conversation, either through text or voice. They use technologies like natural language processing (NLP) to understand and respond to user inputs. Chatbots can range from simple, rule-based systems to more advanced AI-driven models that learn and adapt over time[³](https://www.coursera.org/articles/what-is-a-chatbot) [⁴](https://link.springer.com/chapter/10.1007/978-3-030-49186-4_31).
 
-## :octocat: Github Chatbot
-- [AI Chatbot Intelligence for Kampus Merdeka Program Using Long Short-Term Memory Algorithm](https://github.com/fendy07/chatbot-AI). This project about AI Chatbot Kampus Merdeka to help students or Indonesian people know about the Kampus Merdeka program from KEMENDIKBUDRISTEK (Kementerian Pendidikan, Kebudayaan, Riset Dan Teknologi).
-- [Optimasi Model Percakapan Bahasa Indonesia Berbasis Sequence To Sequence, Universitas Atma Jaya, Yogyakarta](https://github.com/DwikiWitman/Chatbot-Bahasa-Indonesia)
-- [Nodejs Chatbot Indonesia](https://github.com/binsarjr/chatbot-indonesia)
-
 ## Hands-on
 
 | No. | Project | Description | Link |
@@ -78,6 +73,10 @@
 |4 | How to Build an AI Chatbot with HTML CSS & JavaScript|This guide will take you step-by-step through building an AI-powered chatbot using the free Google Gemini API for dynamic, real-time responses.|<a href="lab/chat4.md" ><img src="../images/task.png" width="24px" height="24px" ></a>|
 | 5   | Build A Google Gemini Chatbot with HTML CSS and JavaScript | AI chatbots like Google Gemini or ChatGPT have changed how we interact with technology, making conversations with machines almost human.| <a href="lab/chat5.md" ><img src="../images/task.png" width="24px" height="24px" ></a>|
 
+## :octocat: Github Chatbot
+- [AI Chatbot Intelligence for Kampus Merdeka Program Using Long Short-Term Memory Algorithm](https://github.com/fendy07/chatbot-AI). This project about AI Chatbot Kampus Merdeka to help students or Indonesian people know about the Kampus Merdeka program from KEMENDIKBUDRISTEK (Kementerian Pendidikan, Kebudayaan, Riset Dan Teknologi).
+- [Optimasi Model Percakapan Bahasa Indonesia Berbasis Sequence To Sequence, Universitas Atma Jaya, Yogyakarta](https://github.com/DwikiWitman/Chatbot-Bahasa-Indonesia)
+- [Nodejs Chatbot Indonesia](https://github.com/binsarjr/chatbot-indonesia)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/special-topic-data-engineering/issues) for any improvements, suggestions or errors in the content.

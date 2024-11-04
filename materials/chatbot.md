@@ -11,8 +11,17 @@
  <img src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/images/Talk_airlangga.jpeg" alt="Image Alt Text"  height="400">
 </a>
 
+
 ## Definition:
 **Machine Translation** is the use of computational techniques to translate text or speech from one language to another. This technology aims to capture the contextual, idiomatic, and pragmatic nuances of both languages. Early methods were rule-based or statistical, but modern approaches primarily use neural machine translation and large language models[¹](https://en.wikipedia.org/wiki/Machine_translation) [²](https://academic.oup.com/edited-volume/42643/chapter/358152716).
+
+### Teaching Materials
+
+| No | Lesson | Topic |
+|--------|---------|---------|
+| 1. | Slides | [Machine Translation and Chatbot](https://liveutm-my.sharepoint.com/:b:/g/personal/shahizan_live_utm_my/Ea4jHzBjWThBoiMKH93K5vQBWWfEFBIARMYtOUZf5sGs7Q?e=C5ZIoB) |
+| 2. | Article | [Generative AI Global Interest Report 2023](https://www.electronicshub.org/generative-ai-global-interest-report-2023/) |
+
 
 ## Articles
 1. Guntara, T. W., Aji, A. F., & Prasojo, R. E. (2020). Benchmarking multidomain English-Indonesian machine translation. In *Proceedings of the 13th Workshop on Building and Using Comparable Corpora* (pp. 35–43). Language Resources and Evaluation Conference (LREC 2020), Marseille, France. European Language Resources Association (ELRA). [PDF](https://aclanthology.org/2020.bucc-1.6.pdf)

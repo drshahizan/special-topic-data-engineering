@@ -19,8 +19,8 @@
 
 | No | Lesson | Topic |
 |--------|---------|---------|
-| 1. | Slides | [Machine Translation and Chatbot](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/chatbot%20_UAL.pdf) |
-| 2. | Article | [Generative AI Global Interest Report 2023](https://www.electronicshub.org/generative-ai-global-interest-report-2023/) |
+| 1. | Slide | [Machine Translation and Chatbot](https://github.com/drshahizan/special-topic-data-engineering/blob/main/materials/chatbot%20_UAL.pdf) |
+| 2. | Searching | [Zeta Alpha](https://search.zeta-alpha.com/) |
 
 
 ## Articles
@@ -50,6 +50,7 @@
 | 11 | A Dictionary App | In this project, there is only a search input, and when you enter any existing word and press enter, a loading text of "Searching the meaning of..." is displayed. <a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab5" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |<a href="https://drshahizan.github.io/lab/lab5/index.html" ><img src="../images/task.png" width="24px" height="24px" ></a>|
 | 12 | A Language Translator App|A language translator is a programme that allows you to translate text into multiple languages such as Malay, Spanish, and others. Users can easily translate text into different languages, copy translated text, and convert text to speech using the language translator app. It is comparable to Google Translate. <a href="https://github.com/drshahizan/learn-php/tree/main/lab/js/adv/lab6" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |<a href="https://drshahizan.github.io/lab/lab6/index.html" ><img src="../images/task.png" width="24px" height="24px" ></a>|
 
+### Additional Information
 - [Indonesian LocalX Machine Translation](https://github.com/zanuura/Indonesian-LocalX-Machine-Translation)
 - [NusaX-MT](https://github.com/IndoNLP/nusax/tree/main/datasets/mt)
 - [Machine Translation Reading List](https://github.com/THUNLP-MT/MT-Reading-List)

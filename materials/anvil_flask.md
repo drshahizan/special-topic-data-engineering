@@ -18,7 +18,7 @@
 #### **1. Key Features**
 - **Upload Energy Data**: Allow users to upload energy data in `.xlsx` format.
 - **Data Visualization**: Display energy optimization trends using interactive charts.
-- **Database**: Store energy data in MySQL.
+- **Database**: Store user data in MySQL.
 - **Dynamic Web Interface**: Use Bootstrap for a responsive and dynamic design.
 
 #### **2. Tools and Technologies**
